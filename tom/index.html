@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>ハゲランス</title>
+</head>
+<body>
+  <div class="app">
+
+    <header class="app-header">
+      <div class="wrapper">
+        <h1 class="logo"><a href="#">ハゲランス</a></h1>
+       <!--  <div class="settings">
+          <a class="settings-toggle" href="#"><img src="assets/img/settings.svg" alt="Site Layout Settings"></a>
+        </div> -->
+      </div>
+    </header>
+    <nav class="app-nav">
+      <ul>
+        <li><a href="#">Skip</a></li>
+        <li><a href="#">Auto</a></li>
+        <li><a href="#">Load</a></li>
+        <li><a href="#">Save</a></li>
+        <li><a href="#">Log</a></li>
+        <li><a href="#">Config</a></li>
+      </ul>
+    </nav>
+
+    <main class="app-content">
+      <div class="wrapper">
+        <div class="game-window">
+          <img class="background-image" src="assets/img/bg.png" alt="背景画像">
+          <div class="characters">
+            <img src="assets/img/tanaka.png" alt="田中">
+          </div>
+          <div class="option-window" data-is-disabled="false">
+            <ul class="options">
+              <li><label class="option"><input type="radio" name="option">りんごを食べる</label></li>
+              <li><label class="option"><input type="radio" name="option">手を上げる</label></li>
+              <li><label class="option"><input type="radio" name="option">ハゲる</label></li>
+            </ul>
+
+          </div>
+          <section class="text-window">
+            <div class="actions" data-is-disabled="false">
+              <a class="js-next" href="#">次へ</a>
+            </div>
+            <h2 class="name" data-is-disabled="true">トム</h2>
+            <div class="text" id="js-story-index" data-story-index="0">
+              <p>昔々、トムがいました。<br>変化を求めました。どうなりたいですか？</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="app-footer"><small class="copyright">&copy; 2021</small></footer>
+  </div>
+</body>
+<script src="jquery-3.6.0.slim.min.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</html>
