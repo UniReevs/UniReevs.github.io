@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Head</title>
+</head>
+<body>
+    <div class="app">
+      <h1 class="page-title">Head</h1>
+      <fieldset class="display-options">
+        <!-- <legend>Display Options</legend> -->
+        <legend>ToDo</legend>
+        <ul>
+          <li>
+            <label><input type="checkbox" checked>Names</label>
+            <label><input type="checkbox" checked>Nicknames</label>
+          </li>
+          <li>
+            <div>
+              Male
+              <label><input type="checkbox" checked>Front (Anterior)</label>
+              <label><input type="checkbox" checked>Back (Posterior)</label>
+              <label><input type="checkbox" checked>Left (Lateral)</label>
+              <label><input type="checkbox" checked>Right (Lateral)</label>
+            </div>
+            <div>
+              Female
+              <label><input type="checkbox" checked>Front (Anterior)</label>
+              <label><input type="checkbox" checked>Back (Posterior)</label>
+              <label><input type="checkbox" checked>Left (Lateral)</label>
+              <label><input type="checkbox" checked>Right (Lateral)</label></div>
+            </li>
+            <li>
+              <label><input type="radio" name="color" checked>Color</label>
+              <label><input type="radio" name="color">Grayscale</label>
+              <label><input type="radio" name="color">Monochrome</label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <main class="app-content">
+        <nav class="app-nav">
+          <div class="controlls" id="js-nav-controlls">
+            <a href="#" class="button" id="js-nav-close-all">Close all</a>
+            <a href="#" class="button" id="js-nav-open-all">Open all</a>
+          </div>
+          <ol id="js-nav"></ol>
+        </nav>
+        <div id="js-image-gallery" class="image-gallery"></div>
+      </main>
+      <footer class="app-footer"><small class="copyright">&copy; 2021 Uni Reevs</small></footer>
+    </div>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/data/skull.js"></script>
+    <script src="src/js/variables.js"></script>
+    <script src="src/js/eventListener.js"></script>
+    <script src="src/js/functions.js"></script>
+    <script src="src/js/html-skull.js"></script>
+  </body>
+</html>

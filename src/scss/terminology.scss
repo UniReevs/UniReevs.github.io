@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+@import 'vars';
+@import 'minimum';
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+tr:hover td {
+  background: #add8e6;
+}

@@ -1,0 +1,65 @@
+.app-nav {
+  min-width: 420px;
+  border: 1px solid #000;
+  /*position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;*/
+  > ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    position: relative;
+    padding: 0 0 0 5px;
+    margin: 0;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    background: #fff;
+
+    &:hover {
+      background: #ccc;
+    }
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+}
+.toggle {
+  display: inline-block;
+  margin-left: -3px;
+}
+
+.paired-bones {
+  padding: 1px 3px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2px;
+  font-size: small;
+  position: absolute;
+  right: 0;
+  background: $color-link;
+}
+
+.nickname {
+  /*display: none;*/
+  font-size: small;
+}
+.name {
+  font-size: x-small;
+}
+
+.is-collapsed ol,
+.open,
+.is-collapsed .close {
+  display: none;
+}
+
+.is-collapsed .open {
+  display: inline-block;
+}

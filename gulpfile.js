@@ -9,17 +9,21 @@ const gulp = require('gulp'),
 sass.compiler = require('node-sass');
 
 const basePaths = {
-        src: 'anatomy/src/',
-        dist: 'anatomy/assets/'
+        src: 'src/',
+        dest: 'assets/'
       },
       paths = {
         js: {
           src: basePaths.src + 'js/',
-          dist: basePaths.dist + 'js/'
+          dest: basePaths.dest + 'js/'
         },
         css: {
           src: basePaths.src + 'scss/',
-          dist: basePaths.dist + 'css/'
+          dest: basePaths.dest + 'css/'
+        },
+        html: {
+          src: 'src/html/',
+          dest: './'
         }
       };
 
@@ -33,45 +37,64 @@ const files = {
     paths.css.src + '**/*.scss'
   ],
   html: [
-    'src/**/*.html'
+    paths.html.src + '*.html',
+    paths.html.src + '**/*.html'
+  ]
+}
+
+let htmlPages = {
+  src: [
+    'src/html/basic-2d.html',
+    'src/html/terminology.html',
+    'src/html/index.html'
+  ],
+  dest: [
+    'basic-2d.html',
+    // 'basic-perspective.html',
+    // 'basic-3d.html',
+    // 'basic-shading.html',
+    // 'anatomy.html',
+    'terminology.html',
+    'index.html'
   ]
 }
 
 gulp.task('clean', () => {
-  return gulp.src(paths.css.dist, {read: false})
+  return gulp.src(htmlPages.dest, {read: false})
     .pipe(clean());
 });
 
 gulp.task('html', () => {
-  return gulp.src(['./src/index.html', './src/dict.html'])
+  return gulp.src(htmlPages.src)
     .pipe(fileInclude({
       prefix: '@@',
       basepath: '@file'
     }))
-    .pipe(gulp.dest('./dist/'));
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('css', () => {
   return gulp.src(files.scss)
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest(paths.css.dist));
+    .pipe(gulp.dest(paths.css.dest));
 });
 
 gulp.task('js', () => {
   return gulp.src(files.js)
     .pipe(concat('script.js'))
-    .pipe(gulp.dest(paths.js.dist));
+    .pipe(gulp.dest(paths.js.dest));
 });
 
 gulp.task('watch', () => {
   gulp.watch(files.scss, gulp.task('css'));
-  gulp.watch(files.js, gulp.task('js'));
+  // gulp.watch(files.js, gulp.task('js'));
   gulp.watch(files.html, gulp.task('html'));
 });
 
 gulp.task('default', gulp.series(
-    'clean',
-    gulp.parallel('css', 'js', 'html'),
+    // 'clean',
+    // gulp.parallel('css', 'js', 'html'),
+    gulp.parallel('css', 'html'),
     'watch'
   )
 );
@@ -83,13 +106,13 @@ gulp.task('js', () => {
       paths.js.src + 'dict.js'
     ])
     .pipe(concat('dict.js'))
-    .pipe(gulp.dest(paths.js.dist));
+    .pipe(gulp.dest(paths.js.dest));
 });
 
 gulp.task('watch', () => {
   gulp.watch(files.scss, gulp.task('css'));
   // gulp.watch(paths.js.src + 'dict.js', gulp.task('js:dict'));
-  // gulp.watch(files.html, gulp.task('html'));
+  gulp.watch(files.html, gulp.task('html'));
 });
 
 gulp.task('default', gulp.series(
