@@ -4,7 +4,29 @@ body {
   margin: auto;
 }
 
+img {
+  // width: 100%;
+}
+
 a:hover {
   text-decoration: none;
 }
 
+.icon-link {
+  background: center right no-repeat;
+  background-size: 20px;
+  display: inline-block;
+  padding-right: 22px;
+}
+
+.external-link {
+  background-image: url(../../img/icons/external-link.svg);
+}
+
+.pdf-link {
+  background-image: url(../../img/icons/pdf.svg);
+}
+
+.youtube-link {
+  background-image: url(../../img/icons/youtube.svg);
+}

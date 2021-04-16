@@ -44,11 +44,13 @@ const files = {
 
 let htmlPages = {
   src: [
+    'src/html/pencil-grips.html',
     'src/html/basic-2d.html',
     'src/html/terminology.html',
     'src/html/index.html'
   ],
   dest: [
+    'pencil-grips.html',
     'basic-2d.html',
     // 'basic-perspective.html',
     // 'basic-3d.html',
