@@ -2,3 +2,10 @@ node_modules
 *.sublime-workspace
 portfolio/
 anatomy/
+src/html/bk.shtml
+src/html/anatomy-head.html
+src/html/anatomy-src.html
+src/html/anatomy.html
+anatomy-head.html
+anatomy-src.html
+anatomy.html

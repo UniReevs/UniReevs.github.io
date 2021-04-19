@@ -3,24 +3,69 @@ body {
   max-width: 1200px;
   margin: auto; }
 
+label,
+input[type='radio'] {
+  cursor: pointer; }
+
 a:hover {
   text-decoration: none; }
 
-.icon-link {
-  background: center right no-repeat;
-  background-size: 20px;
+.copyright {
+  font-size: smaller; }
+
+strong {
+  font-size: larger; }
+
+.last-update {
+  text-align: right;
+  margin-top: 10px;
+  font-size: smaller; }
+
+.back-to-home {
+  position: fixed;
+  bottom: 0;
+  right: 10px; }
+
+.text-red {
+  color: red; }
+
+.text-blue {
+  color: blue; }
+
+.text-green {
+  color: green; }
+
+.material-icons {
+  vertical-align: middle;
+  font-size: smaller; }
+
+.edge {
   display: inline-block;
-  padding-right: 22px; }
+  height: 3px;
+  min-width: 100px; }
 
-.external-link {
-  background-image: url(../../img/icons/external-link.svg); }
+[data-color='red'] {
+  background: red; }
 
-.pdf-link {
-  background-image: url(../../img/icons/pdf.svg); }
+[data-color='blue'] {
+  background: blue; }
 
-.youtube-link {
-  background-image: url(../../img/icons/youtube.svg); }
+[data-color='green'] {
+  background: green; }
 
+.images {
+  display: flex; }
+  .images img {
+    width: 50%; }
+
+/*
+<span class="material-icons">settings</span>
+<span class="material-icons">arrow_right</span>
+<span class="material-icons">arrow_drop_down</span>
+<span class="material-icons">picture_as_pdf</span>
+<span class="material-icons">launch</span>
+<span class="material-icons">smart_display</span>
+*/
 th,
 td {
   border: 1px solid #ccc; }

@@ -5,7 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>@@title</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
   <link rel="stylesheet" href="assets/css/@@css.css">
 
   @@include('body-start.html')
+
+  <div class="last-update">@@update</div>
+  <h1>@@title</h1>
+
+  @@if (hasBackToHome === 'true') {
+    <a class="back-to-home" href="index.html">ホームに戻る</a>
+  }
 
