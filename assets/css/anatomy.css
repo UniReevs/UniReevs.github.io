@@ -1,0 +1,695 @@
+body {
+  font-family: Helvetica, sans-serif;
+  max-width: 1400px;
+  margin: auto; }
+
+label,
+input {
+  cursor: pointer; }
+
+a:hover {
+  text-decoration: none; }
+
+strong {
+  font-size: larger; }
+
+.last-update {
+  text-align: right;
+  margin-top: 10px;
+  font-size: smaller; }
+
+footer {
+  font-size: smaller;
+  border-top: 1px solid #aaa;
+  margin-top: 5em; }
+
+.back-to-home {
+  position: fixed;
+  bottom: 0;
+  right: 10px; }
+
+.material-icons {
+  vertical-align: middle;
+  font-size: smaller; }
+
+/*
+<span class="material-icons">settings</span>
+<span class="material-icons">arrow_right</span>
+<span class="material-icons">arrow_drop_down</span>
+<span class="material-icons">picture_as_pdf</span>
+<span class="material-icons">launch</span>
+<span class="material-icons">smart_display</span>
+*/
+#skull-crunium + .bone-image {
+  z-index: 15; }
+
+#skull-mandible + .bone-image {
+  z-index: 15; }
+
+#skull-hyoid + .bone-image {
+  z-index: 10; }
+
+#spine-c1 + .bone-image {
+  z-index: 1; }
+
+#spine-c2 + .bone-image {
+  z-index: 1; }
+
+#spine-c3 + .bone-image {
+  z-index: 1; }
+
+#spine-c4 + .bone-image {
+  z-index: 1; }
+
+#spine-c5 + .bone-image {
+  z-index: 1; }
+
+#spine-c6 + .bone-image {
+  z-index: 1; }
+
+#spine-c7 + .bone-image {
+  z-index: 1; }
+
+#spine-t1 + .bone-image {
+  z-index: 1; }
+
+#spine-t2 + .bone-image {
+  z-index: 1; }
+
+#spine-t3 + .bone-image {
+  z-index: 1; }
+
+#spine-t4 + .bone-image {
+  z-index: 1; }
+
+#spine-t5 + .bone-image {
+  z-index: 1; }
+
+#spine-t6 + .bone-image {
+  z-index: 1; }
+
+#spine-t7 + .bone-image {
+  z-index: 1; }
+
+#spine-t8 + .bone-image {
+  z-index: 1; }
+
+#spine-t9 + .bone-image {
+  z-index: 1; }
+
+#spine-t10 + .bone-image {
+  z-index: 1; }
+
+#spine-t11 + .bone-image {
+  z-index: 1; }
+
+#spine-t12 + .bone-image {
+  z-index: 1; }
+
+#spine-l1 + .bone-image {
+  z-index: 1; }
+
+#spine-l2 + .bone-image {
+  z-index: 1; }
+
+#spine-l3 + .bone-image {
+  z-index: 1; }
+
+#spine-l4 + .bone-image {
+  z-index: 1; }
+
+#spine-l5 + .bone-image {
+  z-index: 1; }
+
+#spine-sacrum + .bone-image {
+  z-index: 1; }
+
+#spine-coccyx + .bone-image {
+  z-index: 1; }
+
+#rib-sternum + .bone-image {
+  z-index: 20; }
+
+#rib-1-l + .bone-image {
+  z-index: 13; }
+
+#rib-1-r + .bone-image {
+  z-index: 13; }
+
+#rib-2-l + .bone-image {
+  z-index: 12; }
+
+#rib-2-r + .bone-image {
+  z-index: 12; }
+
+#rib-3-l + .bone-image {
+  z-index: 11; }
+
+#rib-3-r + .bone-image {
+  z-index: 11; }
+
+#rib-4-l + .bone-image {
+  z-index: 10; }
+
+#rib-4-r + .bone-image {
+  z-index: 10; }
+
+#rib-5-l + .bone-image {
+  z-index: 9; }
+
+#rib-5-r + .bone-image {
+  z-index: 9; }
+
+#rib-6-l + .bone-image {
+  z-index: 8; }
+
+#rib-6-r + .bone-image {
+  z-index: 8; }
+
+#rib-7-l + .bone-image {
+  z-index: 7; }
+
+#rib-7-r + .bone-image {
+  z-index: 7; }
+
+#rib-8-l + .bone-image {
+  z-index: 6; }
+
+#rib-8-r + .bone-image {
+  z-index: 6; }
+
+#rib-9-l + .bone-image {
+  z-index: 5; }
+
+#rib-9-r + .bone-image {
+  z-index: 5; }
+
+#rib-10-l + .bone-image {
+  z-index: 4; }
+
+#rib-10-r + .bone-image {
+  z-index: 4; }
+
+#rib-11-l + .bone-image {
+  z-index: 3; }
+
+#rib-11-r + .bone-image {
+  z-index: 3; }
+
+#rib-12-l + .bone-image {
+  z-index: 2; }
+
+#rib-12-r + .bone-image {
+  z-index: 2; }
+
+#arm-scapula-l + .bone-image {
+  z-index: 1; }
+
+#arm-scapula-r + .bone-image {
+  z-index: 1; }
+
+#arm-clavicle-l + .bone-image {
+  z-index: 25; }
+
+#arm-clavicle-r + .bone-image {
+  z-index: 25; }
+
+#arm-humerus-l + .bone-image {
+  z-index: 15; }
+
+#arm-humerus-r + .bone-image {
+  z-index: 15; }
+
+#arm-ulna-l + .bone-image {
+  z-index: 10; }
+
+#arm-ulna-r + .bone-image {
+  z-index: 10; }
+
+#arm-radius-l + .bone-image {
+  z-index: 10; }
+
+#arm-radius-r + .bone-image {
+  z-index: 10; }
+
+#carpal-scaphoid-l + .bone-image {
+  z-index: 1; }
+
+#carpal-scaphoid-r + .bone-image {
+  z-index: 1; }
+
+#carpal-lunate-l + .bone-image {
+  z-index: 1; }
+
+#carpal-lunate-r + .bone-image {
+  z-index: 1; }
+
+#carpal-triquetrum-l + .bone-image {
+  z-index: 1; }
+
+#carpal-triquetrum-r + .bone-image {
+  z-index: 1; }
+
+#carpal-pisiform-l + .bone-image {
+  z-index: 1; }
+
+#carpal-pisiform-r + .bone-image {
+  z-index: 1; }
+
+#carpal-trapezium-l + .bone-image {
+  z-index: 1; }
+
+#carpal-trapezium-r + .bone-image {
+  z-index: 1; }
+
+#carpal-trapezoid-l + .bone-image {
+  z-index: 1; }
+
+#carpal-trapezoid-r + .bone-image {
+  z-index: 1; }
+
+#carpal-capitate-l + .bone-image {
+  z-index: 1; }
+
+#carpal-capitate-r + .bone-image {
+  z-index: 1; }
+
+#carpal-hamate-l + .bone-image {
+  z-index: 1; }
+
+#carpal-hamate-r + .bone-image {
+  z-index: 1; }
+
+#finger-1-metacarpal-l + .bone-image {
+  z-index: 1; }
+
+#finger-1-metacarpal-r + .bone-image {
+  z-index: 1; }
+
+#finger-1-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#finger-1-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#finger-1-sesamoid-l + .bone-image {
+  z-index: 1; }
+
+#finger-1-sesamoid-r + .bone-image {
+  z-index: 1; }
+
+#finger-1-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#finger-1-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#finger-2-metacarpal-l + .bone-image {
+  z-index: 1; }
+
+#finger-2-metacarpal-r + .bone-image {
+  z-index: 1; }
+
+#finger-2-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#finger-2-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#finger-2-phalanx-middle-l + .bone-image {
+  z-index: 1; }
+
+#finger-2-phalanx-middle-r + .bone-image {
+  z-index: 1; }
+
+#finger-2-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#finger-2-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#finger-3-metacarpal-l + .bone-image {
+  z-index: 1; }
+
+#finger-3-metacarpal-r + .bone-image {
+  z-index: 1; }
+
+#finger-3-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#finger-3-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#finger-3-phalanx-middle-l + .bone-image {
+  z-index: 1; }
+
+#finger-3-phalanx-middle-r + .bone-image {
+  z-index: 1; }
+
+#finger-3-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#finger-3-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#finger-4-metacarpal-l + .bone-image {
+  z-index: 1; }
+
+#finger-4-metacarpal-r + .bone-image {
+  z-index: 1; }
+
+#finger-4-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#finger-4-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#finger-4-phalanx-middle-l + .bone-image {
+  z-index: 1; }
+
+#finger-4-phalanx-middle-r + .bone-image {
+  z-index: 1; }
+
+#finger-4-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#finger-4-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#finger-5-metacarpal-l + .bone-image {
+  z-index: 1; }
+
+#finger-5-metacarpal-r + .bone-image {
+  z-index: 1; }
+
+#finger-5-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#finger-5-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#finger-5-phalanx-middle-l + .bone-image {
+  z-index: 1; }
+
+#finger-5-phalanx-middle-r + .bone-image {
+  z-index: 1; }
+
+#finger-5-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#finger-5-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#pelvis-male-l + .bone-image {
+  z-index: 1; }
+
+#pelvis-male-r + .bone-image {
+  z-index: 1; }
+
+#leg-femur-l + .bone-image {
+  z-index: 1; }
+
+#leg-femur-r + .bone-image {
+  z-index: 1; }
+
+#leg-patella-l + .bone-image {
+  z-index: 10; }
+
+#leg-patella-r + .bone-image {
+  z-index: 10; }
+
+#leg-tibia-l + .bone-image {
+  z-index: 1; }
+
+#leg-tibia-r + .bone-image {
+  z-index: 1; }
+
+#leg-fibula-l + .bone-image {
+  z-index: 1; }
+
+#leg-fibula-r + .bone-image {
+  z-index: 1; }
+
+#tarsal-calcaneus-l + .bone-image {
+  z-index: 1; }
+
+#tarsal-calcaneus-r + .bone-image {
+  z-index: 1; }
+
+#tarsal-talus-l + .bone-image {
+  z-index: 1; }
+
+#tarsal-talus-r + .bone-image {
+  z-index: 1; }
+
+#tarsal-navicular-l + .bone-image {
+  z-index: 1; }
+
+#tarsal-navicular-r + .bone-image {
+  z-index: 1; }
+
+#tarsal-cuneiform-medial-l + .bone-image {
+  z-index: 1; }
+
+#tarsal-cuneiform-medial-r + .bone-image {
+  z-index: 1; }
+
+#tarsal-cuneiform-intermediate-l + .bone-image {
+  z-index: 1; }
+
+#tarsal-cuneiform-intermediate-r + .bone-image {
+  z-index: 1; }
+
+#tarsal-cuneiform-lateral-l + .bone-image {
+  z-index: 1; }
+
+#tarsal-cuneiform-lateral-r + .bone-image {
+  z-index: 1; }
+
+#tarsal-cuboid-l + .bone-image {
+  z-index: 1; }
+
+#tarsal-cuboid-r + .bone-image {
+  z-index: 1; }
+
+#toe-1-metatarsal-l + .bone-image {
+  z-index: 1; }
+
+#toe-1-metatarsal-r + .bone-image {
+  z-index: 1; }
+
+#toe-1-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#toe-1-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#toe-1-sesamoid-l + .bone-image {
+  z-index: 0; }
+
+#toe-1-sesamoid-r + .bone-image {
+  z-index: 0; }
+
+#toe-1-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#toe-1-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#toe-2-metatarsal-l + .bone-image {
+  z-index: 1; }
+
+#toe-2-metatarsal-r + .bone-image {
+  z-index: 1; }
+
+#toe-2-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#toe-2-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#toe-2-phalanx-middle-l + .bone-image {
+  z-index: 1; }
+
+#toe-2-phalanx-middle-r + .bone-image {
+  z-index: 1; }
+
+#toe-2-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#toe-2-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#toe-3-metatarsal-l + .bone-image {
+  z-index: 1; }
+
+#toe-3-metatarsal-r + .bone-image {
+  z-index: 1; }
+
+#toe-3-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#toe-3-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#toe-3-phalanx-middle-l + .bone-image {
+  z-index: 1; }
+
+#toe-3-phalanx-middle-r + .bone-image {
+  z-index: 1; }
+
+#toe-3-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#toe-3-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#toe-4-metatarsal-l + .bone-image {
+  z-index: 1; }
+
+#toe-4-metatarsal-r + .bone-image {
+  z-index: 1; }
+
+#toe-4-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#toe-4-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#toe-4-phalanx-middle-l + .bone-image {
+  z-index: 1; }
+
+#toe-4-phalanx-middle-r + .bone-image {
+  z-index: 1; }
+
+#toe-4-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#toe-4-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+#toe-5-metatarsal-l + .bone-image {
+  z-index: 1; }
+
+#toe-5-metatarsal-r + .bone-image {
+  z-index: 1; }
+
+#toe-5-phalanx-proximal-l + .bone-image {
+  z-index: 1; }
+
+#toe-5-phalanx-proximal-r + .bone-image {
+  z-index: 1; }
+
+#toe-5-phalanx-middle-l + .bone-image {
+  z-index: 1; }
+
+#toe-5-phalanx-middle-r + .bone-image {
+  z-index: 1; }
+
+#toe-5-phalanx-distal-l + .bone-image {
+  z-index: 1; }
+
+#toe-5-phalanx-distal-r + .bone-image {
+  z-index: 1; }
+
+.bone-images {
+  position: relative;
+  top: 2.5em;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+.bone-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%; }
+
+.user-input + .bone-image {
+  display: none; }
+
+.user-input:checked + .bone-image {
+  display: block; }
+
+.direction {
+  border: 1px solid #ccc;
+  width: 25%; }
+  .direction img {
+    width: 100%; }
+
+.gallery {
+  display: flex; }
+
+.region-hands .direction {
+  width: 100%; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+.title {
+  margin: 0;
+  font-weight: 400;
+  display: inline-block; }
+
+.anatomy-nav {
+  min-width: 420px;
+  border: 1px solid #000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  .anatomy-nav > ol {
+    margin: 0;
+    padding: 0; }
+  .anatomy-nav li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 5px;
+    margin: 0;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    background: #fff; }
+    .anatomy-nav li:hover {
+      background: #ccc; }
+
+.toggle {
+  display: inline-block;
+  margin-left: -3px; }
+
+.paired-bones {
+  padding: 1px 3px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2px;
+  font-size: smaller;
+  position: absolute;
+  right: 0;
+  background: #0391d3; }
+
+.nickname {
+  /*display: none;*/
+  font-size: 1.4rem; }
+
+.name {
+  display: inline-block;
+  font-size: 1.4rem; }
+
+.icon-open,
+.icon-close {
+  font-size: 3rem;
+  line-height: 1;
+  width: 22px; }
+
+.is-collapsed ol,
+.icon-open,
+.is-collapsed .icon-close {
+  display: none; }
+
+.is-collapsed .icon-open {
+  display: inline-block; }

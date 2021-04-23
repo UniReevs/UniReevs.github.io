@@ -10,8 +10,8 @@ function createOpenCloseToggle(bone) {
   }
   html += `
   <a href="#" class="toggle js-toggle${className}">
-    <img class="close" src="src/img/icons/down.svg" alt="close">
-    <img class="open" src="src/img/icons/right.svg" alt="open">
+    <span class="material-icons icon-close">arrow_drop_down</span>
+    <span class="material-icons icon-open">arrow_right</span>
   </a>
   `;
   return html;
@@ -23,14 +23,14 @@ function createImages(bone) {
   if (bone.unique) {
     html += `
       <input class="user-input js-user-input" id="${bone.image}" type="checkbox" checked>
-      <img class="bone-image" src="src/img/resized/${bone.image}.png" alt="${bone.name}">
+      <img class="bone-image" src="img/bones/${bone.image}.png" alt="${bone.name}">
     `;
   } else {
     html += `
       <input class="user-input js-user-input" id="${bone.image}-l" type="checkbox" checked>
-      <img class="bone-image" src="src/img/resized/${bone.image}-l.png" alt="${bone.name} - Left">
+      <img class="bone-image" src="img/bones/${bone.image}-l.png" alt="${bone.name} - Left">
       <input class="user-input js-user-input" id="${bone.image}-r" type="checkbox" checked>
-      <img class="bone-image" src="src/img/resized/${bone.image}-r.png" alt="${bone.name} - Right">
+      <img class="bone-image" src="img/bones/${bone.image}-r.png" alt="${bone.name} - Right">
       `;
   }
   return html;

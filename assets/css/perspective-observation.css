@@ -40,11 +40,46 @@ footer {
 <span class="material-icons">launch</span>
 <span class="material-icons">smart_display</span>
 */
+.fake-input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  border: 2px solid #777;
+  position: relative; }
+
+.is-checked .fake-input::before {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  content: '';
+  display: inline-block;
+  background: #777;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px; }
+
+input[type='checkbox'] {
+  position: fixed;
+  top: -100px; }
+
 h1 {
   margin: 0; }
 
 a {
   pointer-events: none; }
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+  position: absolute;
+  font-size: larger; }
+
+dd {
+  margin: 0 0 1em;
+  border: 1px solid #333;
+  position: relative; }
 
 .text-red {
   color: red; }
@@ -78,13 +113,6 @@ a {
   .perspective-images .vanishing-points img {
     display: block; }
 
-.flex-wrapper {
-  display: flex; }
-
-input[type='checkbox'] {
-  position: fixed;
-  top: -100px; }
-
 .nav {
   width: 36%; }
   .nav a {
@@ -93,36 +121,8 @@ input[type='checkbox'] {
   .nav img {
     width: 150px; }
 
-.fake-input {
-  display: inline-block;
-  vertical-align: middle;
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
-  border: 2px solid #777;
-  position: relative; }
-
-.is-checked .fake-input::before {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  content: '';
-  display: inline-block;
-  background: #777;
-  width: 8px;
-  height: 8px;
-  border-radius: 2px; }
-
-label {
-  display: inline-block;
-  margin-right: 10px;
-  position: absolute;
-  font-size: larger; }
-
-dd {
-  margin: 0 0 1em;
-  border: 1px solid #333;
-  position: relative; }
+.flex-wrapper {
+  display: flex; }
 
 [for='v-cyan'] {
   top: 70px;

@@ -60,38 +60,38 @@ const humanBones = [
           {
             name: 'Nasal',
             jp: '鼻骨',
-            nickname: '明智 おもらし',
+            nickname: '明智 (おもらし)',
             image: 'nsonofsd'
           },
           {
             name: 'Lacrimal',
             jp: '涙骨',
-            nickname: '亜蓮 えりあし',
+            nickname: '亜蓮 (えりあし)',
             image: 'nsonofsd'
           },
           {
             name: 'Inferior nasol concha',
             jp: '下鼻殻',
-            nickname: '目良 食いしん坊',
+            nickname: '灰呂 (ケツ)',
             image: 'nsonofsd'
           },
           {
             name: 'Maxilla',
             jp: '上顎骨',
-            nickname: '楠雄',
+            nickname: 'くすお',
             image: 'nsonofsd'
           },
           {
             name: 'Mandible',
             unique: true,
             jp: '下顎骨',
-            nickname: '燃堂 ケツあご',
+            nickname: '燃堂 (ケツあご)',
             image: 'nsonofsd'
           },
           {
             name: 'Palatine',
             jp: '口蓋骨',
-            nickname: '鳥束 エロ霊能者',
+            nickname: '鳥束 (エロ霊能者)',
             image: 'nsonofsd'
           },
           {
@@ -104,7 +104,7 @@ const humanBones = [
             name: 'Vomer',
             unique: true,
             jp: '鋤骨',
-            nickname: '命 ギャル能力者',
+            nickname: '命 (ギャル能力者)',
             image: 'nsonofsd'
           }
         ]

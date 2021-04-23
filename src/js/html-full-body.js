@@ -49,7 +49,7 @@ html += '</ol>';
 html += '</li>';
 }
 
-$('#js-nav').html(html);
-// $('#js-image-gallery').html(htmlImages);
+// $('#js-nav').html(html);
+$('#js-bone-images').html(htmlImages);
 
 // console.log(htmlImages)

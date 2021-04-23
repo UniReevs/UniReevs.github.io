@@ -1,18 +1,39 @@
-.app-nav {
+@charset 'UTF-8';
+@import 'vars';
+@import 'minimum';
+@import 'z-index';
+@import 'bone-images';
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+.title {
+  margin: 0;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.anatomy-nav {
   min-width: 420px;
   border: 1px solid #000;
-  /*position: fixed;
+  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
   overflow-y: scroll;
-  overflow-x: hidden;*/
+  overflow-x: hidden;
+
   > ol {
     margin: 0;
     padding: 0;
   }
 
   li {
+    list-style: none;
     position: relative;
     padding: 0 0 0 5px;
     margin: 0;
@@ -24,12 +45,8 @@
       background: #ccc;
     }
   }
-
-  img {
-    vertical-align: middle;
-  }
-
 }
+
 .toggle {
   display: inline-block;
   margin-left: -3px;
@@ -40,7 +57,7 @@
   border-radius: 5px;
   display: inline-block;
   margin: 2px;
-  font-size: small;
+  font-size: smaller;
   position: absolute;
   right: 0;
   background: $color-link;
@@ -48,18 +65,25 @@
 
 .nickname {
   /*display: none;*/
-  font-size: small;
+  font-size: 1.4rem;
 }
 .name {
-  font-size: x-small;
+  display: inline-block;
+  font-size: 1.4rem;
 }
 
+.icon-open,
+.icon-close {
+  font-size: 3rem;
+  line-height: 1;
+  width: 22px;
+}
 .is-collapsed ol,
-.open,
-.is-collapsed .close {
+.icon-open,
+.is-collapsed .icon-close {
   display: none;
 }
 
-.is-collapsed .open {
+.is-collapsed .icon-open {
   display: inline-block;
 }
