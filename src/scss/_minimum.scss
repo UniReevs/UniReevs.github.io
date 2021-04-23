@@ -1,6 +1,6 @@
 body {
   font-family: $font-family-default;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -10,7 +10,7 @@ body {
 // }
 
 label,
-input[type='radio'] {
+input {
   cursor: pointer;
 }
 
@@ -19,7 +19,6 @@ a:hover {
 }
 
 .copyright {
-  font-size: smaller;
 }
 
 strong {
@@ -32,6 +31,11 @@ strong {
   font-size: smaller;
 }
 
+footer {
+  font-size: smaller;
+  border-top: 1px solid #aaa;
+  margin-top: 5em;
+}
 
 .back-to-home {
   position: fixed;
@@ -39,44 +43,13 @@ strong {
   right: 10px;
 }
 
-.text-red {
-  color: red;
-}
-.text-blue {
-  color: blue;
-}
-.text-green {
-  color: green;
-}
 .material-icons {
   vertical-align: middle;
   font-size: smaller;
 }
 
-.edge {
-  display: inline-block;
-  height: 3px;
-  min-width: 100px;
-}
-
-[data-color='red'] {
-  background: red;
-}
-[data-color='blue'] {
-  background: blue;
-}
-[data-color='green'] {
-  background: green;
-}
 
 
-.images {
-  display: flex;
-  img {
-    width: 50%;
-
-  }
-}
 /*
 <span class="material-icons">settings</span>
 <span class="material-icons">arrow_right</span>

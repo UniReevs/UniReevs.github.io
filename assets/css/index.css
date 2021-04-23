@@ -1,17 +1,14 @@
 body {
   font-family: Helvetica, sans-serif;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto; }
 
 label,
-input[type='radio'] {
+input {
   cursor: pointer; }
 
 a:hover {
   text-decoration: none; }
-
-.copyright {
-  font-size: smaller; }
 
 strong {
   font-size: larger; }
@@ -21,42 +18,19 @@ strong {
   margin-top: 10px;
   font-size: smaller; }
 
+footer {
+  font-size: smaller;
+  border-top: 1px solid #aaa;
+  margin-top: 5em; }
+
 .back-to-home {
   position: fixed;
   bottom: 0;
   right: 10px; }
 
-.text-red {
-  color: red; }
-
-.text-blue {
-  color: blue; }
-
-.text-green {
-  color: green; }
-
 .material-icons {
   vertical-align: middle;
   font-size: smaller; }
-
-.edge {
-  display: inline-block;
-  height: 3px;
-  min-width: 100px; }
-
-[data-color='red'] {
-  background: red; }
-
-[data-color='blue'] {
-  background: blue; }
-
-[data-color='green'] {
-  background: green; }
-
-.images {
-  display: flex; }
-  .images img {
-    width: 50%; }
 
 /*
 <span class="material-icons">settings</span>

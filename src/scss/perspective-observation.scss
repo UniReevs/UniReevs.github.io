@@ -1,0 +1,284 @@
+@charset 'UTF-8';
+@import 'vars';
+@import 'minimum';
+
+
+h1 {
+  margin: 0;
+}
+// a,
+// a:visited {
+//   color: #000;
+// }
+
+a {
+  pointer-events: none;
+}
+.text-red {
+  color: red;
+}
+.text-blue {
+  color: blue;
+}
+.text-green {
+  color: green;
+}
+
+.perspective-images {
+  position: relative;
+  min-height: 820px;
+
+  img {
+    position: absolute;
+    width: 50%;
+  }
+  .vp0,
+  .vp1 {
+    top: -20px;
+  }
+  .vp2,
+  .vp3 {
+    top: 410px;
+  }
+  .vp1,
+  .vp2 {
+    left: 50%;
+  }
+  .vp0,
+  .vp3 {
+    left: 0;
+  }
+}
+
+
+.flex-wrapper {
+  display: flex;
+
+}
+.perspective-images {
+  width: 70%;
+
+  img {
+    opacity: 0;
+  }
+}
+input[type='checkbox'] {
+  position: fixed;
+  top: -100px;
+}
+.nav {
+  width: 36%;
+  a {
+    display: inline-block;
+    padding: 5px;
+  }
+  img {
+    width: 150px;
+  }
+}
+.fake-input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  border: 2px solid #777;
+  position: relative;
+}
+.is-checked .fake-input::before {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  content: '';
+  display: inline-block;
+  background: #777;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+  position: absolute;
+  font-size: larger;
+}
+dd {
+  margin: 0 0 1em;
+  border: 1px solid #333;
+  position: relative;
+}
+
+[for='v-cyan'] {
+  top: 70px;
+  left: 60px;
+}
+[for='v-cyan-light'] {
+  top: 110px;
+  left: 210px;
+}
+[for='v-violet'] {
+  top: 30px;
+  left: 5px;
+}
+[for='v-violet-light'] {
+  top: 70px;
+  left: 150px;
+}
+[for='v-yellow'] {
+  top: 30px;
+  left: 114px;
+}
+[for='v-yellow-light'] {
+ top: 70px;
+ left: 270px;
+}
+[for='v-red'] {
+  top: 0;
+  left: 60px;
+}
+[for='v-red-light'] {
+  top: 40PX;
+  left: 210px;
+}
+[for='e-blue-1'] {
+ top: 100px;
+ left: 10px;
+}
+[for='e-blue-2'] {
+  top: 13px;
+  left: 10px;
+}
+[for='e-blue-3'] {
+  top: 5px;
+  left: 93px;
+}
+[for='e-blue-dotted'] {
+ top: 90px;
+ left: 90px;
+}
+[for='e-red-1'] {
+  top: 47px;
+  left: 137px;
+}
+[for='e-red-2'] {
+  top: 101px;
+  left: 195px;
+}
+[for='e-red-3'] {
+  top: 47px;
+  left: 268px;
+}
+[for='e-red-dotted'] {
+  top: 0;
+  left: 190px;
+}
+[for='e-green-1'] {
+ top: 100px;
+ left: 390px;
+}
+[for='e-green-2'] {
+  top: 15px;
+  left: 400px;
+}
+[for='e-green-3'] {
+  top: 3px;
+  left: 317px;
+}
+[for='e-green-dotted'] {
+  top: 85px;
+  left: 310px;
+}
+[for='g-blue-1'] {
+ top: 90px;
+ left: 10px;
+}
+[for='g-blue-2'] {
+  top: 13px;
+  left: 10px;
+}
+[for='g-blue-3'] {
+  top: 0;
+  left: 73px;
+}
+[for='g-blue-dotted'] {
+ top: 80px;
+ left: 100px;
+}
+[for='g-red-1'] {
+  top: 27px;
+  left: 137px;
+}
+[for='g-red-2'] {
+  top: 101px;
+  left: 197px;
+}
+[for='g-red-3'] {
+  top: 27px;
+  left: 266px;
+}
+[for='g-red-dotted'] {
+  top: 0;
+  left: 197px;
+}
+[for='g-green-1'] {
+ top: 100px;
+ left: 390px;
+}
+[for='g-green-2'] {
+  top: 15px;
+  left: 400px;
+}
+[for='g-green-3'] {
+  top: -3px;
+  left: 330px;
+}
+[for='g-green-dotted'] {
+  top: 85px;
+  left: 290px;
+}
+
+
+#f-cyan-hidden:checked ~ .f-cyan-hidden,
+#f-yellow-hidden:checked ~ .f-yellow-hidden,
+#f-pink-hidden:checked ~ .f-pink-hidden,
+#f-cyan:checked ~ .f-cyan,
+#f-yellow:checked ~ .f-yellow,
+#f-pink:checked ~ .f-pink,
+
+#g-red-1:checked ~ .g-red-1,
+#g-red-2:checked ~ .g-red-2,
+#g-red-3:checked ~ .g-red-3,
+#g-red-dotted:checked ~ .g-red-dotted,
+#g-blue-1:checked ~ .g-blue-1,
+#g-blue-2:checked ~ .g-blue-2,
+#g-blue-3:checked ~ .g-blue-3,
+#g-blue-dotted:checked ~ .g-blue-dotted,
+#g-green-1:checked ~ .g-green-1,
+#g-green-2:checked ~ .g-green-2,
+#g-green-3:checked ~ .g-green-3,
+#g-green-dotted:checked ~ .g-green-dotted,
+
+#e-red-1:checked ~ .e-red-1,
+#e-red-2:checked ~ .e-red-2,
+#e-red-3:checked ~ .e-red-3,
+#e-red-dotted:checked ~ .e-red-dotted,
+#e-blue-1:checked ~ .e-blue-1,
+#e-blue-2:checked ~ .e-blue-2,
+#e-blue-3:checked ~ .e-blue-3,
+#e-blue-dotted:checked ~ .e-blue-dotted,
+#e-green-1:checked ~ .e-green-1,
+#e-green-2:checked ~ .e-green-2,
+#e-green-3:checked ~ .e-green-3,
+#e-green-dotted:checked ~ .e-green-dotted,
+
+#v-cyan-light:checked ~ .v-cyan-light,
+#v-yellow-light:checked ~ .v-yellow-light,
+#v-red-light:checked ~ .v-red-light,
+#v-violet-light:checked ~ .v-violet-light,
+#v-cyan:checked ~ .v-cyan,
+#v-yellow:checked ~ .v-yellow,
+#v-red:checked ~ .v-red,
+#v-violet:checked ~ .v-violet {
+  opacity: 1;
+}

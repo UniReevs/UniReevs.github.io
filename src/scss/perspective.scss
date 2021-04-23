@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+@import 'vars';
+@import 'minimum';
+
+.images {
+  display: flex;
+
+  img {
+    width: 50%;
+  }
+}
+.edge {
+  display: inline-block;
+  height: 3px;
+  min-width: 100px;
+}
+
+[data-color='red'] {
+  background: red;
+}
+[data-color='blue'] {
+  background: blue;
+}
+[data-color='green'] {
+  background: green;
+}
+
+.text-red {
+  color: red;
+}
+.text-blue {
+  color: blue;
+}
+.text-green {
+  color: green;
+}
