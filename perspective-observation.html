@@ -23,7 +23,15 @@
 
 <div class="flex-wrapper">
   <div class="perspective-images">
-    <div data-group="Faces">
+    <div class="vanishing-points">
+      <img class="vp1 vp-green" src="img/perspective-observation/vp-green.png" alt="">
+      <img class="vp2 vp-green" src="img/perspective-observation/vp-green.png" alt="">
+      <img class="vp3 vp-green" src="img/perspective-observation/vp-green.png" alt="">
+      <img class="vp2 vp-blue" src="img/perspective-observation/vp-blue.png" alt="">
+      <img class="vp3 vp-blue" src="img/perspective-observation/vp-blue.png" alt="">
+      <img class="vp3 vp-red" src="img/perspective-observation/vp-red.png" alt="">
+    </div>
+    <div class="faces">
       <input id="f-cyan-hidden" type='checkbox' checked>
       <img class="vp0 f-cyan-hidden" src="img/perspective-observation/vp0-f-cyan-hidden.png" alt="">
       <img class="vp1 f-cyan-hidden" src="img/perspective-observation/vp1-f-cyan-hidden.png" alt="">
@@ -55,7 +63,7 @@
       <img class="vp2 f-pink" src="img/perspective-observation/vp2-f-pink.png" alt="">
       <img class="vp3 f-pink" src="img/perspective-observation/vp3-f-pink.png" alt="">
     </div>
-    <div data-group="Grid">
+    <div class="grid">
       <input id="g-red-1" type="checkbox" checked>
       <img class="vp0 g-red-1" src="img/perspective-observation/vp0-g-red-1.png" alt="">
       <img class="vp1 g-red-1" src="img/perspective-observation/vp1-g-red-1.png" alt="">
@@ -117,7 +125,7 @@
       <img class="vp2 g-green-dotted" src="img/perspective-observation/vp2-g-green-dotted.png" alt="">
       <img class="vp3 g-green-dotted" src="img/perspective-observation/vp3-g-green-dotted.png" alt="">
     </div>
-    <div data-group="Edges">
+    <div class="edges">
       <input id="e-red-1" type="checkbox" checked>
       <img class="vp0 e-red-1" src="img/perspective-observation/vp0-e-red-1.png" alt="">
       <img class="vp1 e-red-1" src="img/perspective-observation/vp1-e-red-1.png" alt="">
@@ -179,7 +187,7 @@
       <img class="vp2 e-green-dotted" src="img/perspective-observation/vp2-e-green-dotted.png" alt="">
       <img class="vp3 e-green-dotted" src="img/perspective-observation/vp3-e-green-dotted.png" alt="">
     </div>
-    <div data-group="Vertices">
+    <div class="vertices">
       <input id="v-cyan-light" type="checkbox" checked>
       <img class="vp0 v-cyan-light" src="img/perspective-observation/vp0-v-cyan-light.png" alt="">
       <img class="vp1 v-cyan-light" src="img/perspective-observation/vp1-v-cyan-light.png" alt="">
@@ -284,6 +292,7 @@
         <label class="is-checked" for="g-red-dotted"><span class="fake-input"></span><a class="text-red" href="#">赤点</a></label>
         <label class="is-checked" for="g-green-1"><span class="fake-input"></span><a class="text-green" href="#">緑1</a></label>
         <label class="is-checked" for="g-green-2"><span class="fake-input"></span><a class="text-green" href="#">緑2</a></label>
+        <label class="is-checked" for="g-green-3"><span class="fake-input"></span><a class="text-green" href="#">緑3</a></label>
         <label class="is-checked" for="g-green-dotted"><span class="fake-input"></span><a class="text-green" href="#">緑点</a></label>
       </dd>
     </dl>

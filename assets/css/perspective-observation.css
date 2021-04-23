@@ -57,10 +57,12 @@ a {
 
 .perspective-images {
   position: relative;
-  min-height: 820px; }
+  min-height: 820px;
+  width: 70%; }
   .perspective-images img {
     position: absolute;
-    width: 50%; }
+    width: 50%;
+    display: none; }
   .perspective-images .vp0,
   .perspective-images .vp1 {
     top: -20px; }
@@ -68,19 +70,16 @@ a {
   .perspective-images .vp3 {
     top: 410px; }
   .perspective-images .vp1,
-  .perspective-images .vp2 {
+  .perspective-images .vp3 {
     left: 50%; }
   .perspective-images .vp0,
-  .perspective-images .vp3 {
+  .perspective-images .vp2 {
     left: 0; }
+  .perspective-images .vanishing-points img {
+    display: block; }
 
 .flex-wrapper {
   display: flex; }
-
-.perspective-images {
-  width: 70%; }
-  .perspective-images img {
-    opacity: 0; }
 
 input[type='checkbox'] {
   position: fixed;
@@ -253,6 +252,30 @@ dd {
   top: 85px;
   left: 290px; }
 
+[for='f-cyan'] {
+  top: 105px;
+  left: 10px; }
+
+[for='f-cyan-hidden'] {
+  top: 45px;
+  left: 270px; }
+
+[for='f-yellow'] {
+  top: 50px;
+  left: 115px; }
+
+[for='f-yellow-hidden'] {
+  top: 0;
+  left: 157px; }
+
+[for='f-pink'] {
+  top: 0;
+  left: 30px; }
+
+[for='f-pink-hidden'] {
+  top: 102px;
+  left: 180px; }
+
 #f-cyan-hidden:checked ~ .f-cyan-hidden,
 #f-yellow-hidden:checked ~ .f-yellow-hidden,
 #f-pink-hidden:checked ~ .f-pink-hidden,
@@ -291,4 +314,4 @@ dd {
 #v-yellow:checked ~ .v-yellow,
 #v-red:checked ~ .v-red,
 #v-violet:checked ~ .v-violet {
-  opacity: 1; }
+  display: block; }
