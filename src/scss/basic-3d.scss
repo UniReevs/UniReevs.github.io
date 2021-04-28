@@ -1,0 +1,168 @@
+@charset 'UTF-8';
+@import 'vars';
+@import 'minimum';
+
+$size: 200px;
+
+.face {
+  &[data-index='1'],
+  &[data-index='2'],
+  &[data-index='3'],
+  &[data-index='4'],
+  &[data-index='5'],
+  &[data-index='6'] {
+    &::before {
+      content: attr(data-index);
+      font-size: 100px;
+      line-height: $size;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.scene {
+  width: $size;
+  height: $size;
+  perspective: 600px;
+  margin: 20px;
+}
+
+.scenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+$color-red: red;
+$color-blue: blue;
+$color-red: red;
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+
+  .face {
+    position: absolute;
+    width: $size;
+    height: $size;
+    border: 2px solid #000;
+  }
+
+  // .axis-x {
+  //   border-color: $color-red;
+  //   border-top-color: $color-blue;
+  //   border-bottom-color: $color-blue;
+  // }
+  // .axis-y {
+  //   border-color: $color-red;
+  //   border-top-color: $color-green;
+  //   border-bottom-color: $color-green;
+  // }
+  // .axis-z {
+  //   border-color: $color-green;
+  //   border-top-color: $color-blue;
+  //   border-bottom-color: $color-blue;
+  // }
+
+  .x1 {
+    background: $color-pink;
+    transform: rotateY(0deg) translateZ(100px);
+
+  }
+  .x2 {
+    background: $color-pink-light;
+    transform: rotateY(180deg) translateZ(100px);
+  }
+  .y1 {
+    background: $color-yellow;
+    transform: rotateY(90deg) translateZ(100px);
+  }
+  .y2 {
+    background: $color-yellow-light;
+    transform: rotateY(-90deg) translateZ(100px);
+  }
+  .z1 {
+    background: $color-cyan;
+    transform: rotateX(90deg) translateZ(100px);
+  }
+  .z2 {
+    background: $color-cyan-light;
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+}
+
+section {
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.user-input {
+  padding: 5px;
+  font-size: larger;
+  vertical-align: middle;
+
+  &[type='range'] {
+    width: 200px;
+  }
+  &[type='tel'] {
+    width: 3em;
+    text-align: center;
+  }
+}
+
+.cube-image {
+  width: 100px;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+.slider-controlls {
+  .material-icons {
+    font-size: 50px;
+  }
+}
+.button-controlls {
+  td {
+    text-align: center;
+  }
+
+  $size: 50px;
+  button {
+    width: $size;
+    height: $size;
+  }
+}
+
+.start-point,
+.end-point {
+  display: inline-block;
+}
+
+.end-point {
+  margin-left: 100px;
+}
+
+.icon-top-left {
+  transform: rotateZ(-45deg);
+}
+.icon-top-right {
+  transform: rotateZ(45deg);
+}
+.icon-bottom-left {
+  transform: rotateZ(-135deg);
+}
+.icon-bottom-right {
+  transform: rotateZ(135deg);
+}
+
+fieldset .material-icons {
+  font-size: 30px;
+}

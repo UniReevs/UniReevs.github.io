@@ -16,21 +16,21 @@
 }
 
 [data-color='red'] {
-  background: red;
+  background: $color-z;
 }
 [data-color='blue'] {
-  background: blue;
+  background: $color-y;
 }
 [data-color='green'] {
-  background: green;
+  background: $color-x;
 }
 
 .text-red {
-  color: red;
+  color: $color-z;
 }
 .text-blue {
-  color: blue;
+  color: $color-y;
 }
 .text-green {
-  color: green;
+  color: $color-x;
 }

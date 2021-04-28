@@ -1,0 +1,140 @@
+body {
+  font-family: Helvetica, sans-serif;
+  max-width: 1400px;
+  margin: auto; }
+
+label,
+input {
+  cursor: pointer; }
+
+a:hover {
+  text-decoration: none; }
+
+strong {
+  font-size: larger; }
+
+.last-update {
+  text-align: right;
+  margin-top: 10px;
+  font-size: smaller; }
+
+footer {
+  font-size: smaller;
+  border-top: 1px solid #aaa;
+  margin-top: 5em; }
+
+.back-to-home {
+  position: fixed;
+  bottom: 0;
+  right: 10px; }
+
+.material-icons {
+  vertical-align: middle;
+  font-size: smaller; }
+
+/*
+<span class="material-icons">settings</span>
+<span class="material-icons">arrow_right</span>
+<span class="material-icons">arrow_drop_down</span>
+<span class="material-icons">picture_as_pdf</span>
+<span class="material-icons">launch</span>
+<span class="material-icons">smart_display</span>
+*/
+.face[data-index='1']::before, .face[data-index='2']::before, .face[data-index='3']::before, .face[data-index='4']::before, .face[data-index='5']::before, .face[data-index='6']::before {
+  content: attr(data-index);
+  font-size: 100px;
+  line-height: 200px;
+  display: block;
+  text-align: center; }
+
+.scene {
+  width: 200px;
+  height: 200px;
+  perspective: 600px;
+  margin: 20px; }
+
+.scenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 2s; }
+  .cube .face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000; }
+  .cube .x1 {
+    background: rgba(255, 113, 113, 0.7);
+    transform: rotateY(0deg) translateZ(100px); }
+  .cube .x2 {
+    background: rgba(245, 192, 192, 0.7);
+    transform: rotateY(180deg) translateZ(100px); }
+  .cube .y1 {
+    background: rgba(254, 168, 47, 0.7);
+    transform: rotateY(90deg) translateZ(100px); }
+  .cube .y2 {
+    background: rgba(255, 194, 136, 0.7);
+    transform: rotateY(-90deg) translateZ(100px); }
+  .cube .z1 {
+    background: rgba(0, 173, 181, 0.7);
+    transform: rotateX(90deg) translateZ(100px); }
+  .cube .z2 {
+    background: rgba(170, 216, 211, 0.7);
+    transform: rotateX(-90deg) translateZ(100px); }
+
+.circle {
+  border-radius: 50%; }
+
+.user-input {
+  padding: 5px;
+  font-size: larger;
+  vertical-align: middle; }
+  .user-input[type='range'] {
+    width: 200px; }
+  .user-input[type='tel'] {
+    width: 3em;
+    text-align: center; }
+
+.cube-image {
+  width: 100px; }
+
+.material-icons {
+  vertical-align: middle; }
+
+.slider-controlls .material-icons {
+  font-size: 50px; }
+
+.button-controlls td {
+  text-align: center; }
+
+.button-controlls button {
+  width: 50px;
+  height: 50px; }
+
+.start-point,
+.end-point {
+  display: inline-block; }
+
+.end-point {
+  margin-left: 100px; }
+
+.icon-top-left {
+  transform: rotateZ(-45deg); }
+
+.icon-top-right {
+  transform: rotateZ(45deg); }
+
+.icon-bottom-left {
+  transform: rotateZ(-135deg); }
+
+.icon-bottom-right {
+  transform: rotateZ(135deg); }
+
+fieldset .material-icons {
+  font-size: 30px; }

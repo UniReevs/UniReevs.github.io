@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>立体の基本の形 (Basic 3D Shapes)</title>
+  <title>立体形の回転の仕方 (How to Rotate 3D Shapes)</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
-  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/basic-3d.css">
 
   </head>
 <body>
 
 
-  <div class="last-update">April 17th, 2021</div>
-  <h1>立体の基本の形 (Basic 3D Shapes)</h1>
+  <div class="last-update">April 26th, 2021</div>
+  <h1>立体形の回転の仕方 (How to Rotate 3D Shapes)</h1>
 
   
     <a class="back-to-home" href="index.html">ホームに戻る</a>
@@ -21,7 +21,230 @@
 
 
 
+<a href="https://codepen.io/danieltott/project/editor/XwGzRV">asfafd</a>
+<a href="https://3dtransforms.desandro.com/cube">asfafd</a>
+<a href="https://www.dtott.com/thoughts/2012/01/25/fun-with-3d-css-shapes">asfafd</a>
+<a href="https://mdbootstrap.com/snippets/jquery/ascensus/447772">ASDADSA</a>
+<a href="">ASDADSA</a>
+<a href="">ASDADSA</a>
+<a href="">ASDADSA</a>
+<a href="">ASDADSA</a>
 
+<!-- square pyramid -->
+<!-- triangle pyramid (tetrahedron) -->
+
+<fieldset>
+  <legend>Options</legend>
+  <div class="size">
+    move by <input type="tel" class="user-input" value="10"> Degree
+    <div class="from-group">
+      Animation speed: <input type="text" class="user-input" value="2">s
+    </div>
+
+    <div class="form-group">
+      Number of frames: <input type="text" class="user-input" value="5">
+    </div>
+  </div>
+  <div class="start-point">
+    Start Point
+    <div class="button-controlls">
+      <table>
+        <tr>
+          <td><button><span class="material-icons icon-top-left">undo</span></button></td>
+          <td><button><span class="material-icons icon-up">arrow_upward</span></button></td>
+          <td><button><span class="material-icons icon-top-right">redo</span></button></td>
+        </tr>
+        <tr>
+          <td><button><span class="material-icons icon-left">arrow_back</span></button></td>
+          <td><img class="cube-image" src="img/steps/cube.png" alt=""></td>
+          <td><button><span class="material-icons icon-right">arrow_forward</span></button></td>
+        </tr>
+        <tr>
+          <td><button><span class="material-icons icon-bottom-left">redo</span></button></td>
+          <td><button><span class="material-icons icon-down">arrow_downward</span></button></td>
+          <td><button><span class="material-icons icon-bottom-right">undo</span></button></td>
+        </tr>
+      </table>
+    </div>
+    <div class="slider-controlls">
+      <div class="form-group">
+        <span class="material-icons">height</span>
+        <input class="user-input js-input-range" type="range" min="0" max="360" value="0">
+        <input class="user-input js-input-text" id="js-x" type="tel" value="0">
+      </div>
+      <div class="form-group">
+        <span class="material-icons">360</span>
+        <input class="user-input js-input-range" type="range" min="0" max="360" value="0">
+        <input class="user-input js-input-text" id="js-y" type="tel" value="0">
+      </div>
+      <div class="form-group">
+        <span class="material-icons">replay</span>
+        <input class="user-input js-input-range" type="range" min="0" max="360" value="0">
+        <input class="user-input js-input-text" id="js-z" type="tel" value="0">
+      </div>
+    </div>
+  </div>
+<!--   <div class="end-point">
+    end point
+    <div class="button-controlls">
+      <table>
+        <tr>
+          <td><button><span class="material-icons icon-top-left">undo</span></button></td>
+          <td><button><span class="material-icons icon-up">arrow_upward</span></button></td>
+          <td><button><span class="material-icons icon-top-right">redo</span></button></td>
+        </tr>
+        <tr>
+          <td><button><span class="material-icons icon-left">arrow_back</span></button></td>
+          <td><img class="cube-image" src="img/steps/cube.png" alt=""></td>
+          <td><button><span class="material-icons icon-right">arrow_forward</span></button></td>
+        </tr>
+        <tr>
+          <td><button><span class="material-icons icon-bottom-left">redo</span></button></td>
+          <td><button><span class="material-icons icon-down">arrow_downward</span></button></td>
+          <td><button><span class="material-icons icon-bottom-right">undo</span></button></td>
+        </tr>
+      </table>
+    </div>
+    <div class="slider-controlls">
+      <div class="form-group">
+        <div><span class="material-icons">height</span></div>
+        <div class="range">
+          <span class="min">0</span>
+          <span class="max">360</span>
+        </div>
+        <input type="range" min="0" max="360" value="0">
+        <input type="tel" class="user-input" value="0">
+      </div>
+      <div class="form-group">
+        <div><span class="material-icons">360</span></div>
+        <input type="range" min="0" max="360" value="0">
+        <input type="tel" class="user-input" value="0">
+      </div>
+      <div class="form-group">
+        <div><span class="material-icons">replay</span></div>
+        <input type="range" min="0" max="360" value="0">
+        <input type="tel" class="user-input" value="0">
+      </div>
+    </div>
+  </div> -->
+
+</fieldset>
+<div class="shapes">
+  <section>
+    <h2>Cube</h2>
+    <div class="scenes">
+      <div class="scene">
+        <div class="cube" id="js-cube-start">
+          <div class="face axis-x x1" data-index="1"></div>
+          <div class="face axis-x x2" data-index="6"></div>
+          <div class="face axis-y y1" data-index="3"></div>
+          <div class="face axis-y y2" data-index="4"></div>
+          <div class="face axis-z z1" data-index="5"></div>
+          <div class="face axis-z z2" data-index="2"></div>
+        </div>
+      </div>
+      <div class="scene">
+        <div class="cube" id="js-cube-end">
+          <div class="face axis-x x1" data-index="1"></div>
+          <div class="face axis-x x2" data-index="6"></div>
+          <div class="face axis-y y1" data-index="3"></div>
+          <div class="face axis-y y2" data-index="4"></div>
+          <div class="face axis-z z1" data-index="5"></div>
+          <div class="face axis-z z2" data-index="2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Cuboid</h2>
+    <div class="scene">
+      <div class="cuboid" id="js-cuboid">
+        <div class="face axis-x x1" data-index="1"></div>
+        <div class="face axis-x x2" data-index="6"></div>
+        <div class="face axis-y y1" data-index="3"></div>
+        <div class="face axis-y y2" data-index="4"></div>
+        <div class="face axis-z z1" data-index="5"></div>
+        <div class="face axis-z z2" data-index="2"></div>
+      </div>
+    </div>
+  </section>
+<!--   <div class="pyramid">
+    <h2>Pyramid</h2>
+    <div class="faces">
+      <div class="face base axis-x x1" data-index="1"></div>
+      <div class="face lateral axis-x x2" data-index="2"></div>
+      <div class="face lateral axis-y y1" data-index="3"></div>
+      <div class="face lateral axis-y y2" data-index="4"></div>
+      <div class="face lateral axis-z z1" data-index="5"></div>
+    </div>
+  </div>
+  <div class="sphere">
+    <h2>Sphere</h2>
+    <div class="face circle"></div>
+  </div>
+  <div class="cylinder">
+    <h2>Cylinder</h2>
+    <div class="face circle"></div>
+  </div>
+  <div class="cone">
+    <h2>Cone</h2>
+    <div class="face circle"></div>
+  </div> -->
+</div>
+
+<script src="src/js/jquery.min.js"></script>
+
+
+
+<script>
+
+function updateAngle() {
+  let x = $('#js-x').val(),
+      y = $('#js-y').val(),
+      z = $('#js-z').val();
+  $('#js-cube').css('transform', 'rotateX('+x+'deg) rotateY('+y+'deg) rotateZ('+z+'deg)');
+}
+
+function isNumber(value) {
+  if (isNaN(value)) {
+    return false;
+  }
+  return true;
+}
+
+function validateRange(value) {
+  if (isNumber(value)) {
+    if (value < 0) {
+      value = 0;
+    }
+    if (value > 360) {
+      value = 360;
+    }
+  } else {
+    value = 0;
+  }
+  return value;
+}
+
+
+$('.js-input-range').on('input', function() {
+  let self = $(this),
+      inputValue = self.val();
+    self.trigger('change').siblings('.js-input-text').val(inputValue);
+    updateAngle();
+});
+
+// transform: rotateX( 90deg)
+
+$('.js-input-text').on('keyup', function() {
+  let self = $(this),
+      inputValue = validateRange(self.val());
+  self.val(inputValue).siblings('.js-input-range').val(inputValue);
+}).on('click', function() {
+  $(this).select();
+});
+
+</script>
 <footer>
   <p>検索からの方、ここは私が「絵を描くににどんなことを勉強したのか」というのをまとめているサイトです。読んでくれてありがとうございます。また見かけた際はよろしくおねがいします。</p>
   <div class="copyright">
