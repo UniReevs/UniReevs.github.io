@@ -1,0 +1,160 @@
+
+.scroll {
+  background: #fff;
+  // position: absolute;
+  left: 0;
+}
+
+[data-shape='cube'] {
+  $size: 200px;
+
+  .shape {
+    width: $size;
+    height: $size;
+  }
+
+  .face {
+    width: $size;
+    height: $size;
+  }
+
+  .x1 {
+    transform: rotateY(0deg) translateZ($size/2);
+  }
+  .x2 {
+    transform: rotateY(180deg) translateZ($size/2);
+  }
+  .y1 {
+    transform: rotateY(90deg) translateZ($size/2);
+  }
+  .y2 {
+    transform: rotateY(-90deg) translateZ($size/2);
+  }
+  .z1 {
+    transform: rotateX(90deg) translateZ($size/2);
+  }
+  .z2 {
+    transform: rotateX(-90deg) translateZ($size/2);
+  }
+}
+
+[data-shape='cuboid'] {
+  $width: 200px;
+  $height: 260px;
+  $depth: 140px;
+
+  .shape {
+    width: $width;
+    height: $height;
+  }
+
+  .axis-x {
+    width: $width;
+    height: $height;
+  }
+  .axis-y {
+    width: $depth;
+    height: $height;
+  }
+  .axis-z {
+    width: $width;
+    height: $depth;
+  }
+
+  .x1 {
+    transform: rotateY(0deg) translateZ($depth/2);
+  }
+  .x2 {
+    transform: rotateY(180deg) translateZ($depth/2);
+  }
+  .y1 {
+    transform: rotateY(90deg) translateZ($width - $depth/2);
+  }
+  .y2 {
+    transform: rotateY(-90deg) translateZ($depth/2);
+  }
+  .z1 {
+    transform: rotateX(90deg) translateZ($depth/2);
+  }
+  .z2 {
+    transform: rotateX(-90deg) translateZ($height - $depth/2);
+  }
+}
+
+
+.section-angles {
+  width: 100%;
+
+  .scene {
+    transform: scale(.5);
+    margin: -10px;
+  }
+
+  .scenes {
+    flex-wrap: nowrap;
+  }
+}
+
+
+$angle: 180/8;
+
+[data-axis='x'] {
+  @for $i from 1 through 9 {
+    $z: ($i - 1) * $angle;
+
+    .scenes:nth-of-type(#{$i}) .scene {
+
+      @for $j from 1 through 9 {
+        $y: ($j - 1) * $angle;
+        $x: 0;
+
+          &:nth-of-type(#{$j}) .shape {
+            @include rotate($x, $y, $z);
+          }
+
+      }
+
+    }
+  }
+}
+
+[data-axis='y'] {
+  @for $i from 1 through 9 {
+    $x: ($i - 1) * $angle;
+
+    .scenes:nth-of-type(#{$i}) .scene {
+
+      @for $j from 1 through 9 {
+        $z: ($j - 1) * $angle;
+        $y: 0;
+
+          &:nth-of-type(#{$j}) .shape {
+            @include rotate($x, $y, $z);
+          }
+
+      }
+
+    }
+  }
+}
+
+
+[data-axis='z'] {
+  @for $i from 1 through 9 {
+    $x: ($i - 1) * $angle;
+
+    .scenes:nth-of-type(#{$i}) .scene {
+
+      @for $j from 1 through 9 {
+        $y: ($j - 1) * $angle;
+        $z: 0;
+
+          &:nth-of-type(#{$j}) .shape {
+            @include rotate($x, $y, $z);
+          }
+
+      }
+
+    }
+  }
+}

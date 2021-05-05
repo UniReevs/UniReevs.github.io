@@ -1,0 +1,670 @@
+.section-angles {
+  width: 100%;
+
+  .scene {
+    transform: scale(.5);
+    margin: 0;
+  }
+
+  .scenes {
+    flex-wrap: nowrap;
+
+    &:nth-child(1) .scene {
+      &:nth-child(2) .shape {
+        @include rotate(0, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(0, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(0, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(0, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(0, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(0, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(0, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(0, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(0, 0, 90);
+      }
+    }
+
+    &:nth-child(2) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(10, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(10, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(10, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(10, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(10, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(10, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(10, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(10, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(10, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(10, 0, 90);
+      }
+    }
+
+    &:nth-child(3) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(20, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(20, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(20, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(20, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(20, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(20, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(20, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(20, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(20, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(20, 0, 90);
+      }
+    }
+
+    &:nth-child(4) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(30, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(30, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(30, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(30, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(30, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(30, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(30, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(30, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(30, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(30, 0, 90);
+      }
+    }
+
+    &:nth-child(5) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(40, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(40, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(40, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(40, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(40, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(40, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(40, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(40, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(40, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(40, 0, 90);
+      }
+    }
+
+    &:nth-child(6) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(50, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(50, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(50, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(50, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(50, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(50, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(50, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(50, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(50, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(50, 0, 90);
+      }
+    }
+
+    &:nth-child(7) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(60, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(60, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(60, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(60, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(60, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(60, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(60, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(60, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(60, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(60, 0, 90);
+      }
+    }
+
+    &:nth-child(8) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(70, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(70, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(70, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(70, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(70, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(70, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(70, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(70, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(70, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(70, 0, 90);
+      }
+    }
+
+    &:nth-child(9) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(80, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(80, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(80, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(80, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(80, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(80, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(80, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(80, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(80, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(80, 0, 90);
+      }
+    }
+
+    &:nth-child(10) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(90, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(90, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(90, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(90, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(90, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(90, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(90, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(90, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(90, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(90, 0, 90);
+      }
+    }
+
+    &:nth-child(11) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(100, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(100, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(100, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(100, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(100, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(100, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(100, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(100, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(100, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(100, 0, 90);
+      }
+    }
+
+    &:nth-child(12) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(110, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(110, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(110, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(110, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(110, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(110, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(110, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(110, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(110, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(110, 0, 90);
+      }
+    }
+
+    &:nth-child(13) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(120, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(120, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(120, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(120, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(120, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(120, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(120, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(120, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(120, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(120, 0, 90);
+      }
+    }
+
+    &:nth-child(14) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(130, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(130, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(130, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(130, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(130, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(130, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(130, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(130, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(130, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(130, 0, 90);
+      }
+    }
+
+    &:nth-child(15) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(140, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(140, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(140, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(140, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(140, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(140, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(140, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(140, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(140, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(140, 0, 90);
+      }
+    }
+
+    &:nth-child(16) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(150, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(150, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(150, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(150, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(150, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(150, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(150, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(150, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(150, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(150, 0, 90);
+      }
+    }
+
+    &:nth-child(17) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(160, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(160, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(160, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(160, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(160, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(160, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(160, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(160, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(160, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(160, 0, 90);
+      }
+    }
+
+    &:nth-child(18) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(170, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(170, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(170, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(170, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(170, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(170, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(170, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(170, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(170, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(170, 0, 90);
+      }
+    }
+
+    &:nth-child(19) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(180, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(180, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(180, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(180, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(180, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(180, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(180, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(180, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(180, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(180, 0, 90);
+      }
+    }
+
+    &:nth-child(20) .scene {
+      &:nth-child(1) .shape {
+        @include rotate(190, 0, 0);
+      }
+      &:nth-child(2) .shape {
+        @include rotate(190, 0, 10);
+      }
+      &:nth-child(3) .shape {
+        @include rotate(190, 0, 20);
+      }
+      &:nth-child(4) .shape {
+        @include rotate(190, 0, 30);
+      }
+      &:nth-child(5) .shape {
+        @include rotate(190, 0, 40);
+      }
+      &:nth-child(6) .shape {
+        @include rotate(190, 0, 50);
+      }
+      &:nth-child(7) .shape {
+        @include rotate(190, 0, 60);
+      }
+      &:nth-child(8) .shape {
+        @include rotate(190, 0, 70);
+      }
+      &:nth-child(9) .shape {
+        @include rotate(190, 0, 80);
+      }
+      &:nth-child(10) .shape {
+        @include rotate(190, 0, 90);
+      }
+    }
+
+  }
+}

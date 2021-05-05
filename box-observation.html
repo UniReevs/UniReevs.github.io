@@ -1,0 +1,987 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rotating Box 観察用</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+  <link rel="stylesheet" href="assets/css/basic-3d.css">
+
+  </head>
+<body>
+
+
+  <div class="last-update">May 5th, 2021</div>
+  <h1>Rotating Box 観察用</h1>
+
+  
+    <a class="back-to-home" href="index.html">ホームに戻る</a>
+  
+
+
+
+<a href="basic-3d.html">戻る</a>
+<fieldset>
+  <legend>Options</legend>
+  <label><input class="user-input" type="radio" name="shape" value="cube">Cube</label>
+  <label><input class="user-input" type="radio" name="shape" value="cuboid" checked>Cuboid</label>
+</fieldset>
+<fieldset>
+  <legend>Fixed Axis</legend>
+  <label><input class="user-input" type="radio" name="axis" value="x">x</label>
+  <label><input class="user-input" type="radio" name="axis" value="y">y</label>
+  <label><input class="user-input" type="radio" name="axis" value="z" checked>z</label>
+</fieldset>
+<div class="shapes">
+  <section class="section-angles" id="js-shape" data-shape="cuboid" data-axis="z">
+    <div class="scroll">
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+      <div class="scenes">
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+  <div class="scene">
+  <div class="shape">
+    <div class="face axis-x x1" data-index="1"></div>
+    <div class="face axis-x x2" data-index="3"></div>
+    <div class="face axis-y y1" data-index="2"></div>
+    <div class="face axis-y y2" data-index="4"></div>
+    <div class="face axis-z z1" data-index="6"></div>
+    <div class="face axis-z z2" data-index="5"></div>
+  </div>
+</div>
+
+</div>
+
+    </div>
+  </section>
+</div>
+<script src="src/js/jquery.min.js"></script>
+<script>
+  $('.user-input[name="shape"]').on('change', function() {
+    let value = $(this).val();
+    $('#js-shape').attr('data-shape', value);
+  });
+  $('.user-input[name="axis"]').on('change', function() {
+    let value = $(this).val();
+    $('#js-shape').attr('data-axis', value);
+  });
+
+  shape
+</script>
+<footer>
+  <p>検索からの方、ここは私が「絵を描くににどんなことを勉強したのか」というのをまとめているサイトです。読んでくれてありがとうございます。また見かけた際はよろしくおねがいします。</p>
+  <div class="copyright">
+
+    <p>質問等あれば<a href="https://twitter.com/UniReevs">Twitter</a>にメッセージください。<br>
+    掲載している<a href="https://github.com/UniReevs/unireevs.github.io/tree/main/img">画像<span class="material-icons">launch</span></a>や<a href="https://github.com/UniReevs/unireevs.github.io/tree/main/downloads">デザインデータ<span class="material-icons">launch</span></a>はご自由にお使いください。ドット方眼と等角図のPDFに関しては<a href="http://houganshi.net/">方眼紙ネット<span class="material-icons">launch</span></a>さんからいただいたものなので、<a href="http://houganshi.net/houganshi_dot.php">そちらの規約<span class="material-icons">launch</span></a>に従ってください。</p>
+    <small>&copy;2021 Uni Reevs</small>
+  </div>
+</footer>
+
+
+</body>
+</html>
+
+

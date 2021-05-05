@@ -1,7 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: $font-family-default;
   max-width: 1400px;
   margin: auto;
+  padding: 0 10px;
 }
 
 // img {
@@ -48,8 +56,16 @@ footer {
   font-size: smaller;
 }
 
+.numbered-list {
+  li {
+    margin-bottom: 1em;
+  }
 
+  .last-update {
+    text-align: left;
+  }
 
+}
 /*
 <span class="material-icons">settings</span>
 <span class="material-icons">arrow_right</span>

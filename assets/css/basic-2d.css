@@ -1,7 +1,14 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   font-family: Helvetica, sans-serif;
   max-width: 1400px;
-  margin: auto; }
+  margin: auto;
+  padding: 0 10px; }
 
 label,
 input {
@@ -31,6 +38,12 @@ footer {
 .material-icons {
   vertical-align: middle;
   font-size: smaller; }
+
+.numbered-list li {
+  margin-bottom: 1em; }
+
+.numbered-list .last-update {
+  text-align: left; }
 
 /*
 <span class="material-icons">settings</span>
