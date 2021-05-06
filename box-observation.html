@@ -12,7 +12,7 @@
 <body>
 
 
-  <div class="last-update">May 5th, 2021</div>
+  <div class="last-update">May 6th, 2021</div>
   <h1>Rotating Box 観察用</h1>
 
   
@@ -33,10 +33,20 @@
   <label><input class="user-input" type="radio" name="axis" value="y">y</label>
   <label><input class="user-input" type="radio" name="axis" value="z" checked>z</label>
 </fieldset>
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
 <div class="shapes">
   <section class="section-angles" id="js-shape" data-shape="cuboid" data-axis="z">
-    <div class="scroll">
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -138,7 +148,7 @@
 
 </div>
 
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -240,7 +250,7 @@
 
 </div>
 
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -342,7 +352,7 @@
 
 </div>
 
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -444,7 +454,7 @@
 
 </div>
 
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -546,7 +556,7 @@
 
 </div>
 
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -648,7 +658,7 @@
 
 </div>
 
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -750,7 +760,7 @@
 
 </div>
 
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -852,7 +862,7 @@
 
 </div>
 
-      <div class="scenes">
+    <div class="scenes">
   <div class="scene">
   <div class="shape">
     <div class="face axis-x x1" data-index="1"></div>
@@ -954,7 +964,6 @@
 
 </div>
 
-    </div>
   </section>
 </div>
 <script src="src/js/jquery.min.js"></script>
@@ -967,8 +976,6 @@
     let value = $(this).val();
     $('#js-shape').attr('data-axis', value);
   });
-
-  shape
 </script>
 <footer>
   <p>検索からの方、ここは私が「絵を描くににどんなことを勉強したのか」というのをまとめているサイトです。読んでくれてありがとうございます。また見かけた際はよろしくおねがいします。</p>

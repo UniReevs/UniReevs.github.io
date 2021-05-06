@@ -1,7 +1,7 @@
 @@include('./common/header.html', {
 "title": "Rotating Box 観察用",
 "css": "basic-3d",
-"update": "May 5th, 2021",
+"update": "May 6th, 2021",
 "hasBackToHome": "true"
 })
 
@@ -17,19 +17,28 @@
   <label><input class="user-input" type="radio" name="axis" value="y">y</label>
   <label><input class="user-input" type="radio" name="axis" value="z" checked>z</label>
 </fieldset>
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
 <div class="shapes">
   <section class="section-angles" id="js-shape" data-shape="cuboid" data-axis="z">
-    <div class="scroll">
-      @@include('./parts/scenes-cube.html')
-      @@include('./parts/scenes-cube.html')
-      @@include('./parts/scenes-cube.html')
-      @@include('./parts/scenes-cube.html')
-      @@include('./parts/scenes-cube.html')
-      @@include('./parts/scenes-cube.html')
-      @@include('./parts/scenes-cube.html')
-      @@include('./parts/scenes-cube.html')
-      @@include('./parts/scenes-cube.html')
-    </div>
+    @@include('./parts/scenes-cube.html')
+    @@include('./parts/scenes-cube.html')
+    @@include('./parts/scenes-cube.html')
+    @@include('./parts/scenes-cube.html')
+    @@include('./parts/scenes-cube.html')
+    @@include('./parts/scenes-cube.html')
+    @@include('./parts/scenes-cube.html')
+    @@include('./parts/scenes-cube.html')
+    @@include('./parts/scenes-cube.html')
   </section>
 </div>
 <script src="src/js/jquery.min.js"></script>
@@ -42,7 +51,5 @@
     let value = $(this).val();
     $('#js-shape').attr('data-axis', value);
   });
-
-  shape
 </script>
 @@include('./common/footer.html')

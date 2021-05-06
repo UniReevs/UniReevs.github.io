@@ -1,12 +1,40 @@
+.lines {
+  position: relative;
+  display: flex;
+  margin: 20px -120px -1900px;
+}
 
-.scroll {
-  background: #fff;
-  // position: absolute;
-  left: 0;
+.section-angles .scenes::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1800px;
+  height: 1px;
+  margin: auto;
+  content: '';
+  display: block;
+  background: #000;
+}
+
+.line {
+  width: 1px;
+  height: 1900px;
+  margin: auto;
+  background: #000;
+}
+
+
+[data-shape='cube'] {
+  .lines {
+    margin-bottom: -1800px;
+  }
+  .line {
+    height: 1800px;
+  }
 }
 
 [data-shape='cube'] {
-  $size: 200px;
+  $size: 100px;
 
   .shape {
     width: $size;
@@ -39,9 +67,9 @@
 }
 
 [data-shape='cuboid'] {
-  $width: 200px;
-  $height: 260px;
-  $depth: 140px;
+  $width: 100px;
+  $height: 130px;
+  $depth: 70px;
 
   .shape {
     width: $width;
@@ -85,20 +113,29 @@
 .section-angles {
   width: 100%;
 
+  .face {
+    &::before {
+      font-size: 20px;
+    }
+  }
+
   .scene {
-    transform: scale(.5);
-    margin: -10px;
+    margin: 40px;
+  }
+  &[data-shape='cube'] .scene {
+    margin: 55px 40px;
   }
 
   .scenes {
     flex-wrap: nowrap;
+    position: relative;
   }
 }
 
 
 $angle: 180/8;
 
-[data-axis='x'] {
+[data-axis='y'] {
   @for $i from 1 through 9 {
     $z: ($i - 1) * $angle;
 
@@ -108,9 +145,9 @@ $angle: 180/8;
         $y: ($j - 1) * $angle;
         $x: 0;
 
-          &:nth-of-type(#{$j}) .shape {
-            @include rotate($x, $y, $z);
-          }
+        &:nth-of-type(#{$j}) .shape {
+          @include rotate($x, $y, $z);
+        }
 
       }
 
@@ -118,7 +155,7 @@ $angle: 180/8;
   }
 }
 
-[data-axis='y'] {
+[data-axis='z'] {
   @for $i from 1 through 9 {
     $x: ($i - 1) * $angle;
 
@@ -128,9 +165,9 @@ $angle: 180/8;
         $z: ($j - 1) * $angle;
         $y: 0;
 
-          &:nth-of-type(#{$j}) .shape {
-            @include rotate($x, $y, $z);
-          }
+        &:nth-of-type(#{$j}) .shape {
+          @include rotate($x, $y, $z);
+        }
 
       }
 
@@ -139,7 +176,7 @@ $angle: 180/8;
 }
 
 
-[data-axis='z'] {
+[data-axis='x'] {
   @for $i from 1 through 9 {
     $x: ($i - 1) * $angle;
 
@@ -149,9 +186,9 @@ $angle: 180/8;
         $y: ($j - 1) * $angle;
         $z: 0;
 
-          &:nth-of-type(#{$j}) .shape {
-            @include rotate($x, $y, $z);
-          }
+        &:nth-of-type(#{$j}) .shape {
+          @include rotate($x, $y, $z);
+        }
 
       }
 

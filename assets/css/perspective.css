@@ -32,7 +32,7 @@ footer {
 
 .back-to-home {
   position: fixed;
-  bottom: 0;
+  top: 0;
   right: 10px; }
 
 .material-icons {
@@ -42,7 +42,7 @@ footer {
 .numbered-list li {
   margin-bottom: 1em; }
 
-.numbered-list .last-update {
+li .last-update {
   text-align: left; }
 
 /*

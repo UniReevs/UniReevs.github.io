@@ -47,7 +47,7 @@ footer {
 
 .back-to-home {
   position: fixed;
-  bottom: 0;
+  top: 0;
   right: 10px;
 }
 
@@ -60,12 +60,12 @@ footer {
   li {
     margin-bottom: 1em;
   }
-
-  .last-update {
-    text-align: left;
-  }
-
 }
+
+li .last-update {
+  text-align: left;
+}
+
 /*
 <span class="material-icons">settings</span>
 <span class="material-icons">arrow_right</span>
