@@ -882,6 +882,14 @@ li .last-update {
 [data-axis='x'] .scenes:nth-of-type(9) .scene:nth-of-type(9) .shape {
   transform: rotateX(180deg) rotateY(180deg) rotateZ(0deg); }
 
+.face1 .face[data-index='1'],
+.face2 .face[data-index='2'],
+.face3 .face[data-index='3'],
+.face4 .face[data-index='4'],
+.face5 .face[data-index='5'],
+.face6 .face[data-index='6'] {
+  opacity: 0; }
+
 section {
   width: 50%; }
 

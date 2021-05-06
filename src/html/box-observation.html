@@ -8,26 +8,35 @@
 <a href="basic-3d.html">戻る</a>
 <fieldset>
   <legend>Options</legend>
-  <label><input class="user-input" type="radio" name="shape" value="cube">Cube</label>
-  <label><input class="user-input" type="radio" name="shape" value="cuboid" checked>Cuboid</label>
+  <div>
+    <label><input class="user-input" type="radio" name="shape" value="cube">Cube</label>
+    <label><input class="user-input" type="radio" name="shape" value="cuboid" checked>Cuboid</label>
+  </div>
+  <div>
+    <label><input class="user-input" type="radio" name="axis" value="x">x</label>
+    <label><input class="user-input" type="radio" name="axis" value="y">y</label>
+    <label><input class="user-input" type="radio" name="axis" value="z" checked>z</label>
+  </div>
+  <div>
+    <label><input class="user-input" type="checkbox" name="face" value="face1" checked>1</label>
+    <label><input class="user-input" type="checkbox" name="face" value="face2" checked>2</label>
+    <label><input class="user-input" type="checkbox" name="face" value="face3" checked>3</label>
+    <label><input class="user-input" type="checkbox" name="face" value="face4" checked>4</label>
+    <label><input class="user-input" type="checkbox" name="face" value="face5" checked>5</label>
+    <label><input class="user-input" type="checkbox" name="face" value="face6" checked>6</label>
+  </div>
 </fieldset>
-<fieldset>
-  <legend>Fixed Axis</legend>
-  <label><input class="user-input" type="radio" name="axis" value="x">x</label>
-  <label><input class="user-input" type="radio" name="axis" value="y">y</label>
-  <label><input class="user-input" type="radio" name="axis" value="z" checked>z</label>
-</fieldset>
-    <div class="lines">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
+<div class="lines">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
 <div class="shapes">
   <section class="section-angles" id="js-shape" data-shape="cuboid" data-axis="z">
     @@include('./parts/scenes-cube.html')
@@ -50,6 +59,10 @@
   $('.user-input[name="axis"]').on('change', function() {
     let value = $(this).val();
     $('#js-shape').attr('data-axis', value);
+  });
+  $('.user-input[name="face"]').on('change', function() {
+    let value = $(this).val();
+    $('#js-shape').toggleClass(value);
   });
 </script>
 @@include('./common/footer.html')
