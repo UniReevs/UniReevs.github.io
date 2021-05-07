@@ -50,7 +50,9 @@ a:hover {
   text-decoration: none; }
 
 .last-update {
-  font-size: smaller; }
+  font-size: smaller;
+  position: absolute;
+  right: 10px; }
 
 .app-header {
   background: #333;
@@ -112,81 +114,6 @@ a:hover {
   border-top: 1px solid #333; }
   .app-footer .material-icons {
     font-size: 1em; }
-
-html {
-  box-sizing: border-box; }
-
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-body {
-  font-family: Helvetica, sans-serif;
-  max-width: 1400px;
-  margin: auto;
-  padding: 0 10px; }
-
-label,
-input {
-  cursor: pointer; }
-
-a:hover {
-  text-decoration: none; }
-
-strong {
-  font-size: larger; }
-
-.last-update {
-  text-align: right;
-  margin-top: 10px;
-  font-size: smaller; }
-
-footer {
-  font-size: smaller;
-  border-top: 1px solid #aaa;
-  margin-top: 5em; }
-
-.back-to-home {
-  position: fixed;
-  top: 0;
-  right: 10px; }
-
-.material-icons {
-  vertical-align: middle;
-  font-size: smaller; }
-
-.numbered-list li {
-  margin-bottom: 1em; }
-
-li .last-update {
-  text-align: left; }
-
-/*
-<span class="material-icons">settings</span>
-<span class="material-icons">arrow_right</span>
-<span class="material-icons">arrow_drop_down</span>
-<span class="material-icons">picture_as_pdf</span>
-<span class="material-icons">launch</span>
-<span class="material-icons">smart_display</span>
-*/
-.fake-input {
-  display: inline-block;
-  vertical-align: middle;
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
-  border: 2px solid #777;
-  position: relative; }
-
-.is-checked .fake-input::before {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  content: '';
-  display: inline-block;
-  background: #777;
-  width: 8px;
-  height: 8px;
-  border-radius: 2px; }
 
 input[type='checkbox'] {
   position: fixed;

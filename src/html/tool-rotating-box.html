@@ -1,9 +1,9 @@
-@@include('./common/header.html', {
-"title": "Rotating Box 観察用",
-"css": "basic-3d",
-"update": "May 6th, 2021",
-"hasBackToHome": "true"
+@@include('./common/html-start.html', {
+"title": "色んな角度の箱 - Rotating Boxes",
+"css": "tool-rotating-box",
 })
+<main class="app-main">
+<time class="last-update" datetime="2021-05-06">>May 6th, 2021</time>
 
 <a href="basic-3d.html">戻る</a>
 <fieldset>
@@ -50,6 +50,7 @@
     @@include('./parts/scenes-cube.html')
   </section>
 </div>
+</main>
 <script src="src/js/jquery.min.js"></script>
 <script>
   $('.user-input[name="shape"]').on('change', function() {
@@ -65,4 +66,4 @@
     $('#js-shape').toggleClass(value);
   });
 </script>
-@@include('./common/footer.html')
+@@include('./common/html-end.html')

@@ -1,7 +1,5 @@
 @charset 'UTF-8';
-@import 'vars';
-@import 'minimum';
-@import 'forms';
+@import 'core';
 
 input[type='checkbox'] {
   position: fixed;

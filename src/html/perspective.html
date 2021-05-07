@@ -1,68 +1,75 @@
-@@include('./common/header.html', {
-"title": "遠近の法則 (Perspective)",
+@@include('./common/html-start.html', {
+"title": "遠近の法則 - Perspective",
 "css": "perspective",
-"update": "April 23rd, 2021",
-"hasBackToHome": "true"
 })
+<main class="app-main">
+  <time class="last-update" datetime="2021-04-23">April 23rd, 2021</time>
 
-<p>絵における遠近法が何かというと、平面の上であたかも立体であるか(奥行きがあるか)のごとく目を錯覚させる技法。</p>
-<p>この奥行きの方向の数によって少しずつ複雑になっていく。この方角の数は0〜6ぐらいまであるらしい。0から2ぐらいまではわりと簡単。実際<a href="https://arthearty.com/types-of-perspective-drawings"><strong>どんな構図になるのか</strong>はこのサイト(英語)<span class="material-icons">launch</span></a>を見たらなんとなくわかると思う。<a href="https://www.stilllifesmatter.com/single-post/2017/08/19/perspective"><strong>どういう法則性なのか</strong>はここ(英語)<span class="material-icons">launch</span></a>で詳しく説明している。私はこれが今まで見てきた資料の中で一番わかりやすいと思ったが、数字や計算式が多いので逆に難しいと思う人もいるかもしれない。建築系やプロダクトデザイン系の人が遠近については詳しい。検索の際はこの辺のキーワードを含めてみるのも良いと思う。</p>
-<p><a href="perspective-observation.html">下記の画像を使って観察するためのページ</a>はこちら。</p>
-<h2>基本的な考え</h2>
-<dl>
-  <dt><h3>零点透視図法 (Zero-Point Perspective)</h3><h4>ニックネーム: 0点</h4></dt>
-  <dd>
-    <p><a href="https://youtu.be/ci6h-z7g_w0"><span class="material-icons">smart_display</span>0点でいろんな図形を描いてる動画</a></p>
-    <p>これは奥行きの方向がない遠近法。たぶんこれが一番簡単。</p>
-    <p>下記の図の形には<span class="text-green">縦の長さ(緑の線)</span>・<span class="text-blue">横の長さ(青の線)</span>・<span class="text-red">高さ(赤の線)</span>がある。同じ色の線同士はどれだけ伸ばしても交差することはない。</p>
-    <p><strong>平行</strong>な色の数は<strong>3つ (<span class="text-red">赤</span>・<span class="text-blue">青</span>・<span class="text-green">緑</span>)</strong>。</p>
-    <div class="images">
-      <img src="img/steps/perspective-0-point.png" alt="Zero-Point Perspective">
-      <img src="img/steps/perspective-0-point-faces.png" alt="Zero-Point Perspective">
-    </div>
-  </dd>
-  <dt><h3>一点透視図法 (One-Point Perspective)</h3><h4>ニックネーム: 1点</h4></dt>
-  <dd>
-    <p><a href="https://youtu.be/dn0dA4jBKCU"><span class="material-icons">smart_display</span>1点の描き方を説明してる動画</a></p>
-    <p>同じ色の線たちのうち、１色だけがどこかで交差する。この図では<span class="text-green">縦の長さ(緑)</span>が上の方でそのうち交差して1つにまとまる終着点がある。残りの２色の線はそのまま(交差することはない)。</p>
-    <p><strong>平行</strong>な色の数は<strong>2つ (<span class="text-red">赤</span>・<span class="text-blue">青</span>)</strong>。</p>
-    <div class="images">
-      <img src="img/steps/perspective-1-point.png" alt="One-Point Perspective">
-      <img src="img/steps/perspective-1-point-faces.png" alt="One-Point Perspective">
-    </div>
-  </dd>
-  <dt><h3>ニ点透視図法 (Two-Point Perspective)</h3><h4>ニックネーム: 2点</h4></dt>
-  <dd>
-    <p><a href="https://youtu.be/86_hePCby9I"><span class="material-icons">smart_display</span>2点の描き方を説明してる動画</a></p>
-    <p>同じ色の線たちのうち、２色がどこかで交差する。この図では<span class="text-green">縦の長さ(緑)</span>と<span class="text-blue">横の長さ(青)</span>が上の左右にちで集結している。<span class="text-red">赤い線</span>はずっと並行 = 交差しない。</p>
-    <p><strong>平行</strong>な色の数は<strong>1つ (<span class="text-red">赤</span>)</strong>。</p>
-    <div class="images">
-      <img src="img/steps/perspective-2-point.png" alt="Two-Point Perspective">
-      <img src="img/steps/perspective-2-point-faces.png" alt="Two-Point Perspective">
-    </div>
-  </dd>
-  <dt><h3>三点透視図法 (Three-Point Perspective)</h3><h4>ニックネーム: 3点</h4></dt>
-  <dd>
-    <p><a href="https://youtu.be/GHrn9D1ydyo"><span class="material-icons">smart_display</span>3点の描き方を説明してる動画</a></p>
-    <p><span class="text-red">3</span><span class="text-blue">色</span><span class="text-green">全</span>ての色がどこかで交差する。</p>
-    <p><strong>平行</strong>な色の数は<strong>なし</strong>。</p>
-    <div class="images">
-      <img src="img/steps/perspective-3-point.png" alt="Three-Point Perspective">
-      <img src="img/steps/perspective-3-point-faces.png" alt="Three-Point Perspective">
-    </div>
-  </dd>
-</dl>
-<h2>どう練習したか</h2>
-<ol>
-  <li>0〜3点の画像を作る</li>
-  <li><a href="perspective-observation.html">どいう法則性があるか観察する</a> (観察用ページ)</li>
-  <li>自分にとってどう描けば分かりやすいか模索する</li>
-  <li>あれ？どうだっけ？ってならなくなるまで練習する</li>
-  <li>時々見える景色の奥行きがどの方角なのかとか考えてみたりする</li>
-</ol>
+  <p>絵における遠近法が何かというと、平面の上であたかも立体であるか(奥行きがあるか)のごとく目を錯覚させる技法。</p>
+  <p>この奥行きの方向の数によって少しずつ複雑になっていく。この方角の数は0〜6ぐらいまであるらしい。0から2ぐらいまではわりと簡単。実際<a href="https://arthearty.com/types-of-perspective-drawings"><strong>どんな構図になるのか</strong>はこのサイト(英語)<span class="material-icons">launch</span></a>を見たらなんとなくわかると思う。<a href="https://www.stilllifesmatter.com/single-post/2017/08/19/perspective"><strong>どういう法則性なのか</strong>はここ(英語)<span class="material-icons">launch</span></a>で詳しく説明している。私はこれが今まで見てきた資料の中で一番わかりやすいと思ったが、数字や計算式が多いので逆に難しいと思う人もいるかもしれない。建築系やプロダクトデザイン系の人が遠近については詳しい。検索の際はこの辺のキーワードを含めてみるのも良いと思う。</p>
+  <p><a href="perspective-observation.html">下記の画像を使って観察するためのページ</a>はこちら。</p>
+  <h2>基本的な考え</h2>
+  <dl>
+    <dt><h3>零点透視図法 (Zero-Point Perspective)</h3><h4>ニックネーム: 0点</h4></dt>
+    <dd>
+      <p>これは奥行きの方向がない遠近法。たぶんこれが一番簡単。</p>
+      <p>下記の図の形には<span class="text-green">縦の長さ(緑の線)</span>・<span class="text-blue">横の長さ(青の線)</span>・<span class="text-red">高さ(赤の線)</span>がある。同じ色の線同士はどれだけ伸ばしても交差することはない。</p>
+      <p><strong>平行</strong>な色の数は<strong>3つ (<span class="text-red">赤</span>・<span class="text-blue">青</span>・<span class="text-green">緑</span>)</strong>。</p>
+      <div class="images">
+        <img src="img/steps/perspective-0-point.png" alt="Zero-Point Perspective">
+        <img src="img/steps/perspective-0-point-faces.png" alt="Zero-Point Perspective">
+      </div>
+    </dd>
+    <dt><h3>一点透視図法 (One-Point Perspective)</h3><h4>ニックネーム: 1点</h4></dt>
+    <dd>
+      <p>同じ色の線たちのうち、１色だけがどこかで交差する。この図では<span class="text-green">縦の長さ(緑)</span>が上の方でそのうち交差して1つにまとまる終着点がある。残りの２色の線はそのまま(交差することはない)。</p>
+      <p><strong>平行</strong>な色の数は<strong>2つ (<span class="text-red">赤</span>・<span class="text-blue">青</span>)</strong>。</p>
+      <div class="images">
+        <img src="img/steps/perspective-1-point.png" alt="One-Point Perspective">
+        <img src="img/steps/perspective-1-point-faces.png" alt="One-Point Perspective">
+      </div>
+    </dd>
+    <dt><h3>ニ点透視図法 (Two-Point Perspective)</h3><h4>ニックネーム: 2点</h4></dt>
+    <dd>
+      <p>同じ色の線たちのうち、２色がどこかで交差する。この図では<span class="text-green">縦の長さ(緑)</span>と<span class="text-blue">横の長さ(青)</span>が上の左右にちで集結している。<span class="text-red">赤い線</span>はずっと並行 = 交差しない。</p>
+      <p><strong>平行</strong>な色の数は<strong>1つ (<span class="text-red">赤</span>)</strong>。</p>
+      <div class="images">
+        <img src="img/steps/perspective-2-point.png" alt="Two-Point Perspective">
+        <img src="img/steps/perspective-2-point-faces.png" alt="Two-Point Perspective">
+      </div>
+    </dd>
+    <dt><h3>三点透視図法 (Three-Point Perspective)</h3><h4>ニックネーム: 3点</h4></dt>
+    <dd>
+      <p><span class="text-red">3</span><span class="text-blue">色</span><span class="text-green">全</span>ての色がどこかで交差する。</p>
+      <p><strong>平行</strong>な色の数は<strong>なし</strong>。</p>
+      <div class="images">
+        <img src="img/steps/perspective-3-point.png" alt="Three-Point Perspective">
+        <img src="img/steps/perspective-3-point-faces.png" alt="Three-Point Perspective">
+      </div>
+    </dd>
+  </dl>
+  <h2>どう練習したか</h2>
+  <ol>
+    <li>0〜3点の画像を作る</li>
+    <li><a href="perspective-observation.html">どいう法則性があるか観察する</a> (観察用ページ)</li>
+    <li>自分にとってどう描けば分かりやすいか模索する</li>
+    <li>あれ？どうだっけ？ってならなくなるまで練習する</li>
+    <li>時々見える景色の奥行きがどの方角なのかとか考えてみたりする</li>
+  </ol>
+  <ul>
+    <li><a href="https://www.youtube.com/channel/UCLTtspLU8wu-sb3HVE1_ImA/videos"><span class="material-icons">launch</span> 私が分かりやすいと思った描き方のYoutubeチャンネル</a></li>
+  </ul>
+</main>
 
-<ul>
-  <li><a href="https://www.youtube.com/channel/UCLTtspLU8wu-sb3HVE1_ImA/videos"><span class="material-icons">launch</span> 私が分かりやすいと思った描き方のYoutubeチャンネル</a></li>
-</ul>
-
-@@include('./common/footer.html')
+<aside class="app-aside">
+  <ol>
+    <li>page anchor</li>
+  </ol>
+  <ul>
+    <li><a href="https://youtu.be/ci6h-z7g_w0"><span class="material-icons">smart_display</span>0点でいろんな図形を描いてる動画</a></li>
+    <li><a href="https://youtu.be/dn0dA4jBKCU"><span class="material-icons">smart_display</span>1点の描き方を説明してる動画</a></li>
+    <li><a href="https://youtu.be/86_hePCby9I"><span class="material-icons">smart_display</span>2点の描き方を説明してる動画</a></li>
+    <li><a href="https://youtu.be/GHrn9D1ydyo"><span class="material-icons">smart_display</span>3点の描き方を説明してる動画</a></li>
+  </ul>
+</aside>
+@@include('./common/html-end.html')

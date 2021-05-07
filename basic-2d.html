@@ -1,105 +1,108 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>平面の基本形 (Basic 2D Shapes)</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
   <link rel="stylesheet" href="assets/css/basic-2d.css">
-
-  </head>
+  <title>基本の平面図 (Basic 2D Shapes)</title>
+</head>
 <body>
+  <div class="app">
+
+    <header class="app-header">
+  <h1 class="logo"><a href="index.html">個人的な資料まとめサイト</a></h1>
+  <ul class="social-media">
+    <li><a href="https://twitter.com/UniReevs">Twitter</a></li>
+    <li><a href="https://www.pinterest.ca/unireevs/">Pinterest</a></li>
+    <li><a href="https://github.com/UniReevs/">Github</a></li>
+  </ul>
+</header>
 
 
-  <div class="last-update">April 26th, 2021</div>
-  <h1>平面の基本形 (Basic 2D Shapes)</h1>
+    <div class="app-content">
 
-  
-    <a class="back-to-home" href="index.html">ホームに戻る</a>
-  
+      <nav class="main-nav">
+  <h2 class="heading">基礎 <span class="en">Basics</span></h2>
+  <ol>
+    <li><a href="pencil-grips.html">鉛筆の持ち方</a> <span class="en">Pencil Grips</span></li>
+    <li><a href="basic-2d.html">基本の平面図</a> <span class="en">Basic 2D Shapes</span></li>
+    <li><a href="perspective.html">遠近の法則</a> <span class="en">Perspective</span></li>
+    <li><a href="basic-3d.html">立体図形の回転</a><span class="en">Rotate 3D Shapes</span></li>
+    <!-- <li><a href="#">光と影</a><span class="en">Light and Shadow</span></li> -->
+    <!-- <li><a href="#">立体図形を変形させる</a><span class="en">Primitive Shape Manipulation</span></li> -->
+    <!-- <li><a href="#">解剖学</a><span class="en">Anatomy</span></li> -->
+  </ol>
+  <h2 class="heading">観察用ツール <span class="en">Observational Drawings</span></h2>
+  <ul>
+    <li><a href="tool-perspective.html">パース 0~3点</a> <span class="en">Perspective</span></li>
+    <li><a href="tool-rotating-box.html">色んな角度の箱</a> <span class="en">Rotating Boxes</span></li>
+  </ul>
+</nav>
+
 
 
 
 <style>
-  .process-images {
-    display: flex;
-  }
-  .process-images img {
-    max-width: 600px;
-  }
+.process-images {
+  display: flex;
+}
+.process-images img {
+  max-width: 600px;
+}
 </style>
-
-<p>基本の形は、丸い系とカクカク系。丸い系は円と楕円、カクカク系は三角・四角・五角などなど角がある形。まっすぐな線を定規なしで描くのと円のように丸まった滑らかな線を同じ丸みで描くのはけっこう難しい。</p>
-<h2>アナログでの描き方</h2>
-<p>カクカク系はドット方眼紙で描くのが一番早い。</p>
-<ul>
-  <li>
-    <a href="https://media.qikeru.me/regular-triangle-drawing/"><span class="material-icons">launch</span>正三角形</a>
-  </li>
-  <li>
-    <a href="https://media.qikeru.me/drawing-isosceles-triangle/"><span class="material-icons">launch</span>二等辺三角形</a>
-  </li>
-  <li>
-    <a href="https://media.qikeru.me/square-drawing/"><span class="material-icons">launch</span>正方形</a>
-  </li>
-  <li>
-    <a href="https://youtu.be/V4xn7tmvPvc"><span class="material-icons">smart_display</span>楕円</a>
-  </li>
-  <li>
-    <a href="https://alicemix.com/conceptsgold/"><span class="material-icons">launch</span>黄金比の描き方 (おまけ)</a>
-  </li>
-</ul>
-
-
-<h3>どういう練習をしたか</h3>
-<p>練習したのは円、楕円、正三角形、正方形。</p>
-<p>コピー用紙で練習するのがおすすめ。理由は描くときに紙をくる回すのが楽だから。腕や指の動きの関係上、線を引きやすい方向があって、その方向に向かって描くと効率よく綺麗に描ける。自分にとって一番楽に綺麗な線画かける方角の見つけ方は、<a href="pencil-grips.html">鉛筆の持ち方</a>のところで説明している。</p>
-<p>練習する時は、ドットや三角の図形を基準にどのくらいの角度や距離感で線を引くのかと言うのを考えながら練習する。こういう練習をすると後々より複雑な形を描くときに役立つ。</p>
-<p>そして正確な円や正三角形の図形を参照しながら練習する。参照するものがない状態で練習するとバランスの崩れた形になるから。</p>
-<div class="process-images">
-  <img src="img/steps/basic-2d-dotted.png" alt="">
-  <img src="img/steps/basic-2d.png" alt="">
-</div>
-<h3>プリント用</h3>
-<ul>
-  <li><a href="downloads/pdf/A4-dotted-grid.pdf"><span class="material-icons">picture_as_pdf</span>A4 ドット方眼紙</a></li>
-  <li><a href="downloads/pdf/A4-dotted-grid-with-ref.pdf"><span class="material-icons">picture_as_pdf</span>A4 ドット方眼紙 + 参照のための正三角形・正方形・楕円付き</a></li>
-  <li><a href="downloads/pdf/A4-hex-triangle-grid.pdf"><span class="material-icons">picture_as_pdf</span>A4 等角図紙</a></li>
-  <li><a href="downloads/pdf/A4-hex-triangle-grid-with-ref.pdf"><span class="material-icons">picture_as_pdf</span>A4 等角図紙 + 参照のための円・楕円付き</a></li>
-  <li><a href="http://houganshi.net"><span class="material-icons">launch</span>方眼紙ネット</a> - 細かい間隔や色の調整ができるので他のサイズを使用したい場合はこちらで</li>
-</ul>
-<!--
-
-  <dt><h3>正方形(Square)の性質</h3></dt>
-  <dd>
-    <ul>
-      <li><span class="text-red">赤</span>と<span class="text-blue">青</span>の線の長さが同じ</li>
-      <li>向かい合った線はどこまで伸ばしてもくっつかない</li>
-      <li><span class="text-red">赤線</span>と<span class="text-blue">青線</span>のつなぎ目は直角(90度)</li>
-    </ul>
-    <img src="img/steps/square.png" alt="Square">
-  </dd>
-  <dt><h3>立方体(Cube)の性質</h3></dt>
-  <dd>
-    <ul>
-      <li>同じ大きさの正方形のが６つ</li>
-      <li>それぞれの正方形をくっつけた場所は直角</li>
-      <li>向かい合ってる正方形同士は並行</li>
-    </ul>
-  </dd>
-   -->
-<footer>
-  <p>検索からの方、ここは私が「絵を描くににどんなことを勉強したのか」というのをまとめているサイトです。読んでくれてありがとうございます。また見かけた際はよろしくおねがいします。</p>
-  <div class="copyright">
-
-    <p>質問等あれば<a href="https://twitter.com/UniReevs">Twitter</a>にメッセージください。<br>
-    掲載している<a href="https://github.com/UniReevs/unireevs.github.io/tree/main/img">画像<span class="material-icons">launch</span></a>や<a href="https://github.com/UniReevs/unireevs.github.io/tree/main/downloads">デザインデータ<span class="material-icons">launch</span></a>はご自由にお使いください。ドット方眼と等角図のPDFに関しては<a href="http://houganshi.net/">方眼紙ネット<span class="material-icons">launch</span></a>さんからいただいたものなので、<a href="http://houganshi.net/houganshi_dot.php">そちらの規約<span class="material-icons">launch</span></a>に従ってください。</p>
-    <small>&copy;2021 Uni Reevs</small>
+<main class="app-main">
+  <time class="last-update" datetime="2021-04-26">April 26th, 2021</time>
+  <h1 class="page-title">基本の平面図</h1>
+  <p>基本の形は、丸い系とカクカク系。丸い系は円と楕円、カクカク系は三角・四角・五角などなど角がある形。まっすぐな線を定規なしで描くのと円のように丸まった滑らかな線を同じ丸みで描くのはけっこう難しい。</p>
+  <h2>どういう練習をしたか</h2>
+  <p>練習したのは円、楕円、正三角形、正方形。</p>
+  <p>コピー用紙で練習するのがおすすめ。理由は描くときに紙をくる回すのが楽だから。腕や指の動きの関係上、線を引きやすい方向があって、その方向に向かって描くと効率よく綺麗に描ける。自分にとって一番楽に綺麗な線画かける方角の見つけ方は、<a href="pencil-grips.html">鉛筆の持ち方</a>のところで説明している。</p>
+  <p>練習する時は、ドットや三角の図形を基準にどのくらいの角度や距離感で線を引くのかと言うのを考えながら練習する。こういう練習をすると後々より複雑な形を描くときに役立つ。</p>
+  <p>そして正確な円や正三角形の図形を参照しながら練習する。参照するものがない状態で練習するとバランスの崩れた形になるから。</p>
+  <div class="process-images">
+    <img src="img/steps/basic-2d-dotted.png" alt="">
+    <img src="img/steps/basic-2d.png" alt="">
   </div>
+
+</main>
+<aside class="app-aside">
+  <h3 class="heading">アナログでの描き方</h3>
+  <ul class="simple-list">
+    <li>
+      <a href="https://media.qikeru.me/regular-triangle-drawing/"><span class="material-icons">launch</span>正三角形</a>
+    </li>
+    <li>
+      <a href="https://media.qikeru.me/drawing-isosceles-triangle/"><span class="material-icons">launch</span>二等辺三角形</a>
+    </li>
+    <li>
+      <a href="https://media.qikeru.me/square-drawing/"><span class="material-icons">launch</span>正方形</a>
+    </li>
+    <li>
+      <a href="https://youtu.be/V4xn7tmvPvc"><span class="material-icons">smart_display</span>楕円</a>
+    </li>
+    <li>
+      <a href="https://alicemix.com/conceptsgold/"><span class="material-icons">launch</span>黄金比の描き方 (おまけ)</a>
+    </li>
+  </ul>
+  <h3 class="heading">プリント用</h3>
+  <ul class="simple-list">
+    <li><a href="downloads/pdf/A4-dotted-grid.pdf"><span class="material-icons">picture_as_pdf</span>ドット方眼紙</a></li>
+    <li><a href="downloads/pdf/A4-dotted-grid-with-ref.pdf"><span class="material-icons">picture_as_pdf</span>ドット方眼 図形付き</a></li>
+    <li><a href="downloads/pdf/A4-hex-triangle-grid.pdf"><span class="material-icons">picture_as_pdf</span>等角図紙</a></li>
+    <li><a href="downloads/pdf/A4-hex-triangle-grid-with-ref.pdf"><span class="material-icons">picture_as_pdf</span>等角図 図形付き</a></li>
+  </ul>
+</aside>
+
+
+</div>
+<footer class="app-footer">
+  <p>ここは私が「絵を描くににどんなことを勉強したのか」というのをまとめているサイトです。読んでくれてありがとうございます。</p>
+  <p>掲載している<a href="https://github.com/UniReevs/unireevs.github.io/tree/main/img">画像<span class="material-icons">launch</span></a>や<a href="https://github.com/UniReevs/unireevs.github.io/tree/main/downloads">デザインデータ<span class="material-icons">launch</span></a>はご自由にお使いください。ドット方眼と等角図のPDFに関しては<a href="http://houganshi.net/">方眼紙ネット<span class="material-icons">launch</span></a>さんからいただいたものなので、<a href="http://houganshi.net/houganshi_dot.php">そちらの規約<span class="material-icons">launch</span></a>に従ってください。</p>
+  <small>&copy;2021 Uni Reevs</small>
 </footer>
 
-
+</div>
 </body>
 </html>
 

@@ -1,9 +1,9 @@
-@@include('./common/header.html', {
-"title": "0〜3点の観察用ページ",
-"css": "perspective-observation",
-"update": "April 23rd, 2021",
-"hasBackToHome": "true"
+@@include('./common/html-start.html', {
+"title": "パース 0~3点 - Perspective",
+"css": "tool-perspective",
 })
+<main class="app-main">
+<time class="last-update" datetime="2021-04-23">>April 23rd, 2021</time>
 
 <div class="flex-wrapper">
   <div class="perspective-images">
@@ -282,6 +282,7 @@
     </dl>
   </nav>
 </div>
+</main>
 
 <script src="src/js/jquery.min.js"></script>
 <script>
@@ -301,4 +302,4 @@
     event.preventDefault();
   });
 </script>
-@@include('./common/footer.html')
+@@include('./common/html-end.html')

@@ -44,7 +44,7 @@ const files = {
 
 gulp.task('clean', () => {
   return gulp.src([
-    'assets/',
+    // 'assets/',
     './' + '*.html'
     ], {read: false})
     .pipe(clean());
