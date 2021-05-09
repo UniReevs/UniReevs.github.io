@@ -1,65 +1,64 @@
 @@include('./common/html-start.html', {
 "title": "立体図形の回転 (How to Rotate Objects)",
-"css": "basic-3d",
+"css": "basic-3d"
 })
 <main class="app-main">
-<time class="last-update" datetime="2021-05-06">>May 6th, 2021</time>
-
-<p>立方体・直方体をいろんな角度から描けるようになったら、他の形も描けるようになる。ひたすら箱を回転させて眺めたり、実際に描いてみたりしていたら、そのうちそんなに考えなくても描けるようになる。それまで頑張る。わかりやすい<a href="https://youtu.be/wJ_k4aCknZY">箱を回転させる時の考え方<span class="material-icons">smart_display</span></a>、<a href="https://youtu.be/P9bmV0hbcNo">描き方<span class="material-icons">smart_display</span></a>はこの動画を参考に。</p>
-<p>インプットの数値のところにフォーカスがあれば、矢印の上下で1度、左右で10度、角度が変わる。</p>
-<p><a href="box-observation.html">Rotating Box 観察用</a></p>
-<fieldset>
-  <legend>Angle</legend>
-  <div class="slider-controlls">
-    <div class="form-group">
-      <span class="material-icons">height</span>
-      <input class="user-input js-slider" id="js-x" type="range" min="0" max="360" value="0">
-      <input class="user-input js-slider-number" type="tel" value="0">
-    </div>
-    <div class="form-group">
-      <span class="material-icons">360</span>
-      <input class="user-input js-slider" id="js-y" type="range" min="0" max="360" value="0">
-      <input class="user-input js-slider-number" type="tel" value="0">
-    </div>
-    <div class="form-group">
-      <span class="material-icons">replay</span>
-      <input class="user-input js-slider" id="js-z" type="range" min="0" max="360" value="0">
-      <input class="user-input js-slider-number" type="tel" value="0">
-    </div>
-  </div>
-  <button id="js-reset">Reset</button>
-</fieldset>
-<div class="shapes">
-  <section class="cube-section">
-    <h2>Cube</h2>
-    <div class="scenes">
-      <div class="scene">
-        <div class="shape cube js-shape" id="js-cube-start">
-          <div class="face axis-x x1" data-index="1"></div>
-          <div class="face axis-x x2" data-index="3"></div>
-          <div class="face axis-y y1" data-index="2"></div>
-          <div class="face axis-y y2" data-index="4"></div>
-          <div class="face axis-z z1" data-index="6"></div>
-          <div class="face axis-z z2" data-index="5"></div>
-        </div>
+  <time class="last-update" datetime="2021-05-06">May 6th, 2021</time>
+  <h1 class="page-title">立体図形の回転</h1>
+  <p>立方体・直方体をいろんな角度から描けるようになったら、他の形も描けるようになる。<a href="tool-rotating-box.html">色んなアングルの一覧はこちら</a></p>
+  <fieldset>
+    <p>矢印の上下で1度、左右で10度、角度が変わる。</p>
+    <legend>Options</legend>
+    <div class="slider-controlls">
+      <div class="form-group">
+        <span class="material-icons">height</span>
+        <input class="user-input js-slider" id="js-x" type="range" min="0" max="360" value="0">
+        <input class="user-input js-slider-number" type="tel" value="0">
+      </div>
+      <div class="form-group">
+        <span class="material-icons">360</span>
+        <input class="user-input js-slider" id="js-y" type="range" min="0" max="360" value="0">
+        <input class="user-input js-slider-number" type="tel" value="0">
+      </div>
+      <div class="form-group">
+        <span class="material-icons">replay</span>
+        <input class="user-input js-slider" id="js-z" type="range" min="0" max="360" value="0">
+        <input class="user-input js-slider-number" type="tel" value="0">
       </div>
     </div>
-  </section>
-  <section class="cuboid-section">
-    <h2>Cuboid</h2>
-    <div class="scenes">
-      <div class="scene">
-        <div class="shape cuboid js-shape" id="js-cuboid-start">
-          <div class="face axis-x x1" data-index="1"></div>
-          <div class="face axis-x x2" data-index="3"></div>
-          <div class="face axis-y y1" data-index="2"></div>
-          <div class="face axis-y y2" data-index="4"></div>
-          <div class="face axis-z z1" data-index="5"></div>
-          <div class="face axis-z z2" data-index="2"></div>
+    <button class="button" id="js-reset">Reset</button>
+  </fieldset>
+  <div class="shapes">
+    <section class="cube-section">
+      <h2>Cube</h2>
+      <div class="scenes">
+        <div class="scene">
+          <div class="shape cube js-shape" id="js-cube-start">
+            <div class="face axis-x x1" data-index="1"></div>
+            <div class="face axis-x x2" data-index="3"></div>
+            <div class="face axis-y y1" data-index="2"></div>
+            <div class="face axis-y y2" data-index="4"></div>
+            <div class="face axis-z z1" data-index="6"></div>
+            <div class="face axis-z z2" data-index="5"></div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="cuboid-section">
+      <h2>Cuboid</h2>
+      <div class="scenes">
+        <div class="scene">
+          <div class="shape cuboid js-shape" id="js-cuboid-start">
+            <div class="face axis-x x1" data-index="1"></div>
+            <div class="face axis-x x2" data-index="3"></div>
+            <div class="face axis-y y1" data-index="2"></div>
+            <div class="face axis-y y2" data-index="4"></div>
+            <div class="face axis-z z1" data-index="5"></div>
+            <div class="face axis-z z2" data-index="2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 <!--   <section class="pyramid-section">
     <h2>Pyramid</h2>
     <div class="scenes">
@@ -117,7 +116,7 @@
     </div>
   </section> -->
 </div>
-<h3>練習の仕方</h3>
+<h2>練習</h2>
 <ol>
   <li>ひたすら眺めてどの方向へどう変形するのか観察</li>
   <li>ある程度わかったら、x, y, zそれぞれの方向へ角度を変えた時の形を順番に描く</li>
@@ -128,4 +127,12 @@
 <script src="src/js/jquery.min.js"></script>
 <script src="src/js/basic-3d.js"></script>
 </main>
-@@include('./common/html-end.html')
+<aside class="app-aside">
+  <ul class="simple-list">
+    <li><a href="https://youtu.be/wJ_k4aCknZY"><span class="material-icons">smart_display</span>箱を回転させる時の考え方</a></li>
+    <li><a href="https://youtu.be/P9bmV0hbcNo"><span class="material-icons">smart_display</span>描き方</a></li>
+  </ul>
+</aside>
+@@include('./common/html-end.html', {
+  "script": ""
+})

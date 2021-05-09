@@ -1,8 +1,10 @@
-
-
 </div>
 @@include('./app-footer.html')
 </div>
+@@if (script !== '') {
+<script src="src/js/jquery.min.js"></script>
+<script src="src/js/@@script.js"></script>
+}
 </body>
 </html>
 

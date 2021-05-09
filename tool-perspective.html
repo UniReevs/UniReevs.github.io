@@ -43,306 +43,284 @@
 
 
 <main class="app-main">
-<time class="last-update" datetime="2021-04-23">>April 23rd, 2021</time>
+  <time class="last-update" datetime="2021-04-23">April 23rd, 2021</time>
+  <h1 class="page-title">パース 0~3点 観察</h1>
+  <div class="flex-wrapper">
+    <div class="perspective-images">
+      <div class="vanishing-points">
+        <img class="vp1 vp-green" src="img/perspective/vp-green.png" alt="">
+        <img class="vp2 vp-green" src="img/perspective/vp-green.png" alt="">
+        <img class="vp3 vp-green" src="img/perspective/vp-green.png" alt="">
+        <img class="vp2 vp-blue" src="img/perspective/vp-blue.png" alt="">
+        <img class="vp3 vp-blue" src="img/perspective/vp-blue.png" alt="">
+        <img class="vp3 vp-red" src="img/perspective/vp-red.png" alt="">
+      </div>
+      <div class="faces">
+        <input id="f-cyan-hidden" type='checkbox' checked>
+        <img class="vp0 f-cyan-hidden" src="img/perspective/vp0-f-cyan-hidden.png" alt="">
+        <img class="vp1 f-cyan-hidden" src="img/perspective/vp1-f-cyan-hidden.png" alt="">
+        <img class="vp2 f-cyan-hidden" src="img/perspective/vp2-f-cyan-hidden.png" alt="">
+        <img class="vp3 f-cyan-hidden" src="img/perspective/vp3-f-cyan-hidden.png" alt="">
+        <input id="f-yellow-hidden" type="checkbox" checked>
+        <img class="vp0 f-yellow-hidden" src="img/perspective/vp0-f-yellow-hidden.png" alt="">
+        <img class="vp1 f-yellow-hidden" src="img/perspective/vp1-f-yellow-hidden.png" alt="">
+        <img class="vp2 f-yellow-hidden" src="img/perspective/vp2-f-yellow-hidden.png" alt="">
+        <img class="vp3 f-yellow-hidden" src="img/perspective/vp3-f-yellow-hidden.png" alt="">
+        <input id="f-pink-hidden" type="checkbox" checked>
+        <img class="vp0 f-pink-hidden" src="img/perspective/vp0-f-pink-hidden.png" alt="">
+        <img class="vp1 f-pink-hidden" src="img/perspective/vp1-f-pink-hidden.png" alt="">
+        <img class="vp2 f-pink-hidden" src="img/perspective/vp2-f-pink-hidden.png" alt="">
+        <img class="vp3 f-pink-hidden" src="img/perspective/vp3-f-pink-hidden.png" alt="">
+        <input id="f-cyan" type="checkbox" checked>
+        <img class="vp0 f-cyan" src="img/perspective/vp0-f-cyan.png" alt="">
+        <img class="vp1 f-cyan" src="img/perspective/vp1-f-cyan.png" alt="">
+        <img class="vp2 f-cyan" src="img/perspective/vp2-f-cyan.png" alt="">
+        <img class="vp3 f-cyan" src="img/perspective/vp3-f-cyan.png" alt="">
+        <input id="f-yellow" type="checkbox" checked>
+        <img class="vp0 f-yellow" src="img/perspective/vp0-f-yellow.png" alt="">
+        <img class="vp1 f-yellow" src="img/perspective/vp1-f-yellow.png" alt="">
+        <img class="vp2 f-yellow" src="img/perspective/vp2-f-yellow.png" alt="">
+        <img class="vp3 f-yellow" src="img/perspective/vp3-f-yellow.png" alt="">
+        <input id="f-pink" type="checkbox" checked>
+        <img class="vp0 f-pink" src="img/perspective/vp0-f-pink.png" alt="">
+        <img class="vp1 f-pink" src="img/perspective/vp1-f-pink.png" alt="">
+        <img class="vp2 f-pink" src="img/perspective/vp2-f-pink.png" alt="">
+        <img class="vp3 f-pink" src="img/perspective/vp3-f-pink.png" alt="">
+      </div>
+      <div class="grid">
+        <input id="g-red-1" type="checkbox" checked>
+        <img class="vp0 g-red-1" src="img/perspective/vp0-g-red-1.png" alt="">
+        <img class="vp1 g-red-1" src="img/perspective/vp1-g-red-1.png" alt="">
+        <img class="vp2 g-red-1" src="img/perspective/vp2-g-red-1.png" alt="">
+        <img class="vp3 g-red-1" src="img/perspective/vp3-g-red-1.png" alt="">
+        <input id="g-red-2" type="checkbox" checked>
+        <img class="vp0 g-red-2" src="img/perspective/vp0-g-red-2.png" alt="">
+        <img class="vp1 g-red-2" src="img/perspective/vp1-g-red-2.png" alt="">
+        <img class="vp2 g-red-2" src="img/perspective/vp2-g-red-2.png" alt="">
+        <img class="vp3 g-red-2" src="img/perspective/vp3-g-red-2.png" alt="">
+        <input id="g-red-3" type="checkbox" checked>
+        <img class="vp0 g-red-3" src="img/perspective/vp0-g-red-3.png" alt="">
+        <img class="vp1 g-red-3" src="img/perspective/vp1-g-red-3.png" alt="">
+        <img class="vp2 g-red-3" src="img/perspective/vp2-g-red-3.png" alt="">
+        <img class="vp3 g-red-3" src="img/perspective/vp3-g-red-3.png" alt="">
+        <input id="g-red-dotted" type="checkbox" checked>
+        <img class="vp0 g-red-dotted" src="img/perspective/vp0-g-red-dotted.png" alt="">
+        <img class="vp1 g-red-dotted" src="img/perspective/vp1-g-red-dotted.png" alt="">
+        <img class="vp2 g-red-dotted" src="img/perspective/vp2-g-red-dotted.png" alt="">
+        <img class="vp3 g-red-dotted" src="img/perspective/vp3-g-red-dotted.png" alt="">
+        <input id="g-blue-1" type="checkbox" checked>
+        <img class="vp0 g-blue-1" src="img/perspective/vp0-g-blue-1.png" alt="">
+        <img class="vp1 g-blue-1" src="img/perspective/vp1-g-blue-1.png" alt="">
+        <img class="vp2 g-blue-1" src="img/perspective/vp2-g-blue-1.png" alt="">
+        <img class="vp3 g-blue-1" src="img/perspective/vp3-g-blue-1.png" alt="">
+        <input id="g-blue-2" type="checkbox" checked>
+        <img class="vp0 g-blue-2" src="img/perspective/vp0-g-blue-2.png" alt="">
+        <img class="vp1 g-blue-2" src="img/perspective/vp1-g-blue-2.png" alt="">
+        <img class="vp2 g-blue-2" src="img/perspective/vp2-g-blue-2.png" alt="">
+        <img class="vp3 g-blue-2" src="img/perspective/vp3-g-blue-2.png" alt="">
+        <input id="g-blue-3" type="checkbox" checked>
+        <img class="vp0 g-blue-3" src="img/perspective/vp0-g-blue-3.png" alt="">
+        <img class="vp1 g-blue-3" src="img/perspective/vp1-g-blue-3.png" alt="">
+        <img class="vp2 g-blue-3" src="img/perspective/vp2-g-blue-3.png" alt="">
+        <img class="vp3 g-blue-3" src="img/perspective/vp3-g-blue-3.png" alt="">
+        <input id="g-blue-dotted" type="checkbox" checked>
+        <img class="vp0 g-blue-dotted" src="img/perspective/vp0-g-blue-dotted.png" alt="">
+        <img class="vp1 g-blue-dotted" src="img/perspective/vp1-g-blue-dotted.png" alt="">
+        <img class="vp2 g-blue-dotted" src="img/perspective/vp2-g-blue-dotted.png" alt="">
+        <img class="vp3 g-blue-dotted" src="img/perspective/vp3-g-blue-dotted.png" alt="">
+        <input id="g-green-1" type="checkbox" checked>
+        <img class="vp0 g-green-1" src="img/perspective/vp0-g-green-1.png" alt="">
+        <img class="vp1 g-green-1" src="img/perspective/vp1-g-green-1.png" alt="">
+        <img class="vp2 g-green-1" src="img/perspective/vp2-g-green-1.png" alt="">
+        <img class="vp3 g-green-1" src="img/perspective/vp3-g-green-1.png" alt="">
+        <input id="g-green-2" type="checkbox" checked>
+        <img class="vp0 g-green-2" src="img/perspective/vp0-g-green-2.png" alt="">
+        <img class="vp1 g-green-2" src="img/perspective/vp1-g-green-2.png" alt="">
+        <img class="vp2 g-green-2" src="img/perspective/vp2-g-green-2.png" alt="">
+        <img class="vp3 g-green-2" src="img/perspective/vp3-g-green-2.png" alt="">
+        <input id="g-green-3" type="checkbox" checked>
+        <img class="vp0 g-green-3" src="img/perspective/vp0-g-green-3.png" alt="">
+        <img class="vp1 g-green-3" src="img/perspective/vp1-g-green-3.png" alt="">
+        <img class="vp2 g-green-3" src="img/perspective/vp2-g-green-3.png" alt="">
+        <img class="vp3 g-green-3" src="img/perspective/vp3-g-green-3.png" alt="">
+        <input id="g-green-dotted" type="checkbox" checked>
+        <img class="vp0 g-green-dotted" src="img/perspective/vp0-g-green-dotted.png" alt="">
+        <img class="vp1 g-green-dotted" src="img/perspective/vp1-g-green-dotted.png" alt="">
+        <img class="vp2 g-green-dotted" src="img/perspective/vp2-g-green-dotted.png" alt="">
+        <img class="vp3 g-green-dotted" src="img/perspective/vp3-g-green-dotted.png" alt="">
+      </div>
+      <div class="edges">
+        <input id="e-red-1" type="checkbox" checked>
+        <img class="vp0 e-red-1" src="img/perspective/vp0-e-red-1.png" alt="">
+        <img class="vp1 e-red-1" src="img/perspective/vp1-e-red-1.png" alt="">
+        <img class="vp2 e-red-1" src="img/perspective/vp2-e-red-1.png" alt="">
+        <img class="vp3 e-red-1" src="img/perspective/vp3-e-red-1.png" alt="">
+        <input id="e-red-2" type="checkbox" checked>
+        <img class="vp0 e-red-2" src="img/perspective/vp0-e-red-2.png" alt="">
+        <img class="vp1 e-red-2" src="img/perspective/vp1-e-red-2.png" alt="">
+        <img class="vp2 e-red-2" src="img/perspective/vp2-e-red-2.png" alt="">
+        <img class="vp3 e-red-2" src="img/perspective/vp3-e-red-2.png" alt="">
+        <input id="e-red-3" type="checkbox" checked>
+        <img class="vp0 e-red-3" src="img/perspective/vp0-e-red-3.png" alt="">
+        <img class="vp1 e-red-3" src="img/perspective/vp1-e-red-3.png" alt="">
+        <img class="vp2 e-red-3" src="img/perspective/vp2-e-red-3.png" alt="">
+        <img class="vp3 e-red-3" src="img/perspective/vp3-e-red-3.png" alt="">
+        <input id="e-red-dotted" type="checkbox" checked>
+        <img class="vp0 e-red-dotted" src="img/perspective/vp0-e-red-dotted.png" alt="">
+        <img class="vp1 e-red-dotted" src="img/perspective/vp1-e-red-dotted.png" alt="">
+        <img class="vp2 e-red-dotted" src="img/perspective/vp2-e-red-dotted.png" alt="">
+        <img class="vp3 e-red-dotted" src="img/perspective/vp3-e-red-dotted.png" alt="">
+        <input id="e-blue-1" type="checkbox" checked>
+        <img class="vp0 e-blue-1" src="img/perspective/vp0-e-blue-1.png" alt="">
+        <img class="vp1 e-blue-1" src="img/perspective/vp1-e-blue-1.png" alt="">
+        <img class="vp2 e-blue-1" src="img/perspective/vp2-e-blue-1.png" alt="">
+        <img class="vp3 e-blue-1" src="img/perspective/vp3-e-blue-1.png" alt="">
+        <input id="e-blue-2" type="checkbox" checked>
+        <img class="vp0 e-blue-2" src="img/perspective/vp0-e-blue-2.png" alt="">
+        <img class="vp1 e-blue-2" src="img/perspective/vp1-e-blue-2.png" alt="">
+        <img class="vp2 e-blue-2" src="img/perspective/vp2-e-blue-2.png" alt="">
+        <img class="vp3 e-blue-2" src="img/perspective/vp3-e-blue-2.png" alt="">
+        <input id="e-blue-3" type="checkbox" checked>
+        <img class="vp0 e-blue-3" src="img/perspective/vp0-e-blue-3.png" alt="">
+        <img class="vp1 e-blue-3" src="img/perspective/vp1-e-blue-3.png" alt="">
+        <img class="vp2 e-blue-3" src="img/perspective/vp2-e-blue-3.png" alt="">
+        <img class="vp3 e-blue-3" src="img/perspective/vp3-e-blue-3.png" alt="">
+        <input id="e-blue-dotted" type="checkbox" checked>
+        <img class="vp0 e-blue-dotted" src="img/perspective/vp0-e-blue-dotted.png" alt="">
+        <img class="vp1 e-blue-dotted" src="img/perspective/vp1-e-blue-dotted.png" alt="">
+        <img class="vp2 e-blue-dotted" src="img/perspective/vp2-e-blue-dotted.png" alt="">
+        <img class="vp3 e-blue-dotted" src="img/perspective/vp3-e-blue-dotted.png" alt="">
+        <input id="e-green-1" type="checkbox" checked>
+        <img class="vp0 e-green-1" src="img/perspective/vp0-e-green-1.png" alt="">
+        <img class="vp1 e-green-1" src="img/perspective/vp1-e-green-1.png" alt="">
+        <img class="vp2 e-green-1" src="img/perspective/vp2-e-green-1.png" alt="">
+        <img class="vp3 e-green-1" src="img/perspective/vp3-e-green-1.png" alt="">
+        <input id="e-green-2" type="checkbox" checked>
+        <img class="vp0 e-green-2" src="img/perspective/vp0-e-green-2.png" alt="">
+        <img class="vp1 e-green-2" src="img/perspective/vp1-e-green-2.png" alt="">
+        <img class="vp2 e-green-2" src="img/perspective/vp2-e-green-2.png" alt="">
+        <img class="vp3 e-green-2" src="img/perspective/vp3-e-green-2.png" alt="">
+        <input id="e-green-3" type="checkbox" checked>
+        <img class="vp0 e-green-3" src="img/perspective/vp0-e-green-3.png" alt="">
+        <img class="vp1 e-green-3" src="img/perspective/vp1-e-green-3.png" alt="">
+        <img class="vp2 e-green-3" src="img/perspective/vp2-e-green-3.png" alt="">
+        <img class="vp3 e-green-3" src="img/perspective/vp3-e-green-3.png" alt="">
+        <input id="e-green-dotted" type="checkbox" checked>
+        <img class="vp0 e-green-dotted" src="img/perspective/vp0-e-green-dotted.png" alt="">
+        <img class="vp1 e-green-dotted" src="img/perspective/vp1-e-green-dotted.png" alt="">
+        <img class="vp2 e-green-dotted" src="img/perspective/vp2-e-green-dotted.png" alt="">
+        <img class="vp3 e-green-dotted" src="img/perspective/vp3-e-green-dotted.png" alt="">
+      </div>
+      <div class="vertices">
+        <input id="v-cyan-light" type="checkbox" checked>
+        <img class="vp0 v-cyan-light" src="img/perspective/vp0-v-cyan-light.png" alt="">
+        <img class="vp1 v-cyan-light" src="img/perspective/vp1-v-cyan-light.png" alt="">
+        <img class="vp2 v-cyan-light" src="img/perspective/vp2-v-cyan-light.png" alt="">
+        <img class="vp3 v-cyan-light" src="img/perspective/vp3-v-cyan-light.png" alt="">
+        <input id="v-yellow-light" type="checkbox" checked>
+        <img class="vp0 v-yellow-light" src="img/perspective/vp0-v-yellow-light.png" alt="">
+        <img class="vp1 v-yellow-light" src="img/perspective/vp1-v-yellow-light.png" alt="">
+        <img class="vp2 v-yellow-light" src="img/perspective/vp2-v-yellow-light.png" alt="">
+        <img class="vp3 v-yellow-light" src="img/perspective/vp3-v-yellow-light.png" alt="">
+        <input id="v-red-light" type="checkbox" checked>
+        <img class="vp0 v-red-light" src="img/perspective/vp0-v-red-light.png" alt="">
+        <img class="vp1 v-red-light" src="img/perspective/vp1-v-red-light.png" alt="">
+        <img class="vp2 v-red-light" src="img/perspective/vp2-v-red-light.png" alt="">
+        <img class="vp3 v-red-light" src="img/perspective/vp3-v-red-light.png" alt="">
+        <input id="v-violet-light" type="checkbox" checked>
+        <img class="vp0 v-violet-light" src="img/perspective/vp0-v-violet-light.png" alt="">
+        <img class="vp1 v-violet-light" src="img/perspective/vp1-v-violet-light.png" alt="">
+        <img class="vp2 v-violet-light" src="img/perspective/vp2-v-violet-light.png" alt="">
+        <img class="vp3 v-violet-light" src="img/perspective/vp3-v-violet-light.png" alt="">
+        <input id="v-cyan" type="checkbox" checked>
+        <img class="vp0 v-cyan" src="img/perspective/vp0-v-cyan.png" alt="">
+        <img class="vp1 v-cyan" src="img/perspective/vp1-v-cyan.png" alt="">
+        <img class="vp2 v-cyan" src="img/perspective/vp2-v-cyan.png" alt="">
+        <img class="vp3 v-cyan" src="img/perspective/vp3-v-cyan.png" alt="">
+        <input id="v-yellow" type="checkbox" checked>
+        <img class="vp0 v-yellow" src="img/perspective/vp0-v-yellow.png" alt="">
+        <img class="vp1 v-yellow" src="img/perspective/vp1-v-yellow.png" alt="">
+        <img class="vp2 v-yellow" src="img/perspective/vp2-v-yellow.png" alt="">
+        <img class="vp3 v-yellow" src="img/perspective/vp3-v-yellow.png" alt="">
+        <input id="v-red" type="checkbox" checked>
+        <img class="vp0 v-red" src="img/perspective/vp0-v-red.png" alt="">
+        <img class="vp1 v-red" src="img/perspective/vp1-v-red.png" alt="">
+        <img class="vp2 v-red" src="img/perspective/vp2-v-red.png" alt="">
+        <img class="vp3 v-red" src="img/perspective/vp3-v-red.png" alt="">
+        <input id="v-violet" type="checkbox" checked>
+        <img class="vp0 v-violet" src="img/perspective/vp0-v-violet.png" alt="">
+        <img class="vp1 v-violet" src="img/perspective/vp1-v-violet.png" alt="">
+        <img class="vp2 v-violet" src="img/perspective/vp2-v-violet.png" alt="">
+        <img class="vp3 v-violet" src="img/perspective/vp3-v-violet.png" alt="">
+      </div>
+    </div>
+    <nav class="nav">
+      <dl>
+        <dt><a href="#">角 - Vertices</a></dt>
+        <dd>
+          <img src="img/perspective/vertices-top.png" alt="">
+          <img src="img/perspective/vertices-bottom.png" alt="">
+          <label class="is-checked" for="v-cyan"><span class="fake-input"></span><a href="#">1</a></label>
+          <label class="is-checked" for="v-violet"><span class="fake-input"></span><a href="#">2</a></label>
+          <label class="is-checked" for="v-red"><span class="fake-input"></span><a href="#">3</a></label>
+          <label class="is-checked" for="v-yellow"><span class="fake-input"></span><a href="#">4</a></label>
+          <label class="is-checked" for="v-cyan-light"><span class="fake-input"></span><a href="#">1b</a></label>
+          <label class="is-checked" for="v-violet-light"><span class="fake-input"></span><a href="#">2b</a></label>
+          <label class="is-checked" for="v-red-light"><span class="fake-input"></span><a href="#">3b</a></label>
+          <label class="is-checked" for="v-yellow-light"><span class="fake-input"></span><a href="#">4b</a></label>
+        </dd>
+        <dt><a href="#">辺 - Edges</a></dt>
+        <dd>
+          <img src="img/perspective/edges-blue.png" alt="">
+          <img src="img/perspective/edges-red.png" alt="">
+          <img src="img/perspective/edges-green.png" alt="">
+          <label class="is-checked" for="e-blue-1"><span class="fake-input"></span><a class="text-blue" href="#">青1</a></label>
+          <label class="is-checked" for="e-blue-2"><span class="fake-input"></span><a class="text-blue" href="#">青2</a></label>
+          <label class="is-checked" for="e-blue-3"><span class="fake-input"></span><a class="text-blue" href="#">青3</a></label>
+          <label class="is-checked" for="e-blue-dotted"><span class="fake-input"></span><a class="text-blue" href="#">青点</a></label>
+          <label class="is-checked" for="e-red-1"><span class="fake-input"></span><a class="text-red" href="#">赤1</a></label>
+          <label class="is-checked" for="e-red-2"><span class="fake-input"></span><a class="text-red" href="#">赤2</a></label>
+          <label class="is-checked" for="e-red-3"><span class="fake-input"></span><a class="text-red" href="#">赤3</a></label>
+          <label class="is-checked" for="e-red-dotted"><span class="fake-input"></span><a class="text-red" href="#">赤点</a></label>
+          <label class="is-checked" for="e-green-1"><span class="fake-input"></span><a class="text-green" href="#">緑1</a></label>
+          <label class="is-checked" for="e-green-2"><span class="fake-input"></span><a class="text-green" href="#">緑2</a></label>
+          <label class="is-checked" for="e-green-3"><span class="fake-input"></span><a class="text-green" href="#">緑3</a></label>
+          <label class="is-checked" for="e-green-dotted"><span class="fake-input"></span><a class="text-green" href="#">緑点</a></label>
 
-<div class="flex-wrapper">
-  <div class="perspective-images">
-    <div class="vanishing-points">
-      <img class="vp1 vp-green" src="img/perspective-observation/vp-green.png" alt="">
-      <img class="vp2 vp-green" src="img/perspective-observation/vp-green.png" alt="">
-      <img class="vp3 vp-green" src="img/perspective-observation/vp-green.png" alt="">
-      <img class="vp2 vp-blue" src="img/perspective-observation/vp-blue.png" alt="">
-      <img class="vp3 vp-blue" src="img/perspective-observation/vp-blue.png" alt="">
-      <img class="vp3 vp-red" src="img/perspective-observation/vp-red.png" alt="">
-    </div>
-    <div class="faces">
-      <input id="f-cyan-hidden" type='checkbox' checked>
-      <img class="vp0 f-cyan-hidden" src="img/perspective-observation/vp0-f-cyan-hidden.png" alt="">
-      <img class="vp1 f-cyan-hidden" src="img/perspective-observation/vp1-f-cyan-hidden.png" alt="">
-      <img class="vp2 f-cyan-hidden" src="img/perspective-observation/vp2-f-cyan-hidden.png" alt="">
-      <img class="vp3 f-cyan-hidden" src="img/perspective-observation/vp3-f-cyan-hidden.png" alt="">
-      <input id="f-yellow-hidden" type="checkbox" checked>
-      <img class="vp0 f-yellow-hidden" src="img/perspective-observation/vp0-f-yellow-hidden.png" alt="">
-      <img class="vp1 f-yellow-hidden" src="img/perspective-observation/vp1-f-yellow-hidden.png" alt="">
-      <img class="vp2 f-yellow-hidden" src="img/perspective-observation/vp2-f-yellow-hidden.png" alt="">
-      <img class="vp3 f-yellow-hidden" src="img/perspective-observation/vp3-f-yellow-hidden.png" alt="">
-      <input id="f-pink-hidden" type="checkbox" checked>
-      <img class="vp0 f-pink-hidden" src="img/perspective-observation/vp0-f-pink-hidden.png" alt="">
-      <img class="vp1 f-pink-hidden" src="img/perspective-observation/vp1-f-pink-hidden.png" alt="">
-      <img class="vp2 f-pink-hidden" src="img/perspective-observation/vp2-f-pink-hidden.png" alt="">
-      <img class="vp3 f-pink-hidden" src="img/perspective-observation/vp3-f-pink-hidden.png" alt="">
-      <input id="f-cyan" type="checkbox" checked>
-      <img class="vp0 f-cyan" src="img/perspective-observation/vp0-f-cyan.png" alt="">
-      <img class="vp1 f-cyan" src="img/perspective-observation/vp1-f-cyan.png" alt="">
-      <img class="vp2 f-cyan" src="img/perspective-observation/vp2-f-cyan.png" alt="">
-      <img class="vp3 f-cyan" src="img/perspective-observation/vp3-f-cyan.png" alt="">
-      <input id="f-yellow" type="checkbox" checked>
-      <img class="vp0 f-yellow" src="img/perspective-observation/vp0-f-yellow.png" alt="">
-      <img class="vp1 f-yellow" src="img/perspective-observation/vp1-f-yellow.png" alt="">
-      <img class="vp2 f-yellow" src="img/perspective-observation/vp2-f-yellow.png" alt="">
-      <img class="vp3 f-yellow" src="img/perspective-observation/vp3-f-yellow.png" alt="">
-      <input id="f-pink" type="checkbox" checked>
-      <img class="vp0 f-pink" src="img/perspective-observation/vp0-f-pink.png" alt="">
-      <img class="vp1 f-pink" src="img/perspective-observation/vp1-f-pink.png" alt="">
-      <img class="vp2 f-pink" src="img/perspective-observation/vp2-f-pink.png" alt="">
-      <img class="vp3 f-pink" src="img/perspective-observation/vp3-f-pink.png" alt="">
-    </div>
-    <div class="grid">
-      <input id="g-red-1" type="checkbox" checked>
-      <img class="vp0 g-red-1" src="img/perspective-observation/vp0-g-red-1.png" alt="">
-      <img class="vp1 g-red-1" src="img/perspective-observation/vp1-g-red-1.png" alt="">
-      <img class="vp2 g-red-1" src="img/perspective-observation/vp2-g-red-1.png" alt="">
-      <img class="vp3 g-red-1" src="img/perspective-observation/vp3-g-red-1.png" alt="">
-      <input id="g-red-2" type="checkbox" checked>
-      <img class="vp0 g-red-2" src="img/perspective-observation/vp0-g-red-2.png" alt="">
-      <img class="vp1 g-red-2" src="img/perspective-observation/vp1-g-red-2.png" alt="">
-      <img class="vp2 g-red-2" src="img/perspective-observation/vp2-g-red-2.png" alt="">
-      <img class="vp3 g-red-2" src="img/perspective-observation/vp3-g-red-2.png" alt="">
-      <input id="g-red-3" type="checkbox" checked>
-      <img class="vp0 g-red-3" src="img/perspective-observation/vp0-g-red-3.png" alt="">
-      <img class="vp1 g-red-3" src="img/perspective-observation/vp1-g-red-3.png" alt="">
-      <img class="vp2 g-red-3" src="img/perspective-observation/vp2-g-red-3.png" alt="">
-      <img class="vp3 g-red-3" src="img/perspective-observation/vp3-g-red-3.png" alt="">
-      <input id="g-red-dotted" type="checkbox" checked>
-      <img class="vp0 g-red-dotted" src="img/perspective-observation/vp0-g-red-dotted.png" alt="">
-      <img class="vp1 g-red-dotted" src="img/perspective-observation/vp1-g-red-dotted.png" alt="">
-      <img class="vp2 g-red-dotted" src="img/perspective-observation/vp2-g-red-dotted.png" alt="">
-      <img class="vp3 g-red-dotted" src="img/perspective-observation/vp3-g-red-dotted.png" alt="">
-      <input id="g-blue-1" type="checkbox" checked>
-      <img class="vp0 g-blue-1" src="img/perspective-observation/vp0-g-blue-1.png" alt="">
-      <img class="vp1 g-blue-1" src="img/perspective-observation/vp1-g-blue-1.png" alt="">
-      <img class="vp2 g-blue-1" src="img/perspective-observation/vp2-g-blue-1.png" alt="">
-      <img class="vp3 g-blue-1" src="img/perspective-observation/vp3-g-blue-1.png" alt="">
-      <input id="g-blue-2" type="checkbox" checked>
-      <img class="vp0 g-blue-2" src="img/perspective-observation/vp0-g-blue-2.png" alt="">
-      <img class="vp1 g-blue-2" src="img/perspective-observation/vp1-g-blue-2.png" alt="">
-      <img class="vp2 g-blue-2" src="img/perspective-observation/vp2-g-blue-2.png" alt="">
-      <img class="vp3 g-blue-2" src="img/perspective-observation/vp3-g-blue-2.png" alt="">
-      <input id="g-blue-3" type="checkbox" checked>
-      <img class="vp0 g-blue-3" src="img/perspective-observation/vp0-g-blue-3.png" alt="">
-      <img class="vp1 g-blue-3" src="img/perspective-observation/vp1-g-blue-3.png" alt="">
-      <img class="vp2 g-blue-3" src="img/perspective-observation/vp2-g-blue-3.png" alt="">
-      <img class="vp3 g-blue-3" src="img/perspective-observation/vp3-g-blue-3.png" alt="">
-      <input id="g-blue-dotted" type="checkbox" checked>
-      <img class="vp0 g-blue-dotted" src="img/perspective-observation/vp0-g-blue-dotted.png" alt="">
-      <img class="vp1 g-blue-dotted" src="img/perspective-observation/vp1-g-blue-dotted.png" alt="">
-      <img class="vp2 g-blue-dotted" src="img/perspective-observation/vp2-g-blue-dotted.png" alt="">
-      <img class="vp3 g-blue-dotted" src="img/perspective-observation/vp3-g-blue-dotted.png" alt="">
-      <input id="g-green-1" type="checkbox" checked>
-      <img class="vp0 g-green-1" src="img/perspective-observation/vp0-g-green-1.png" alt="">
-      <img class="vp1 g-green-1" src="img/perspective-observation/vp1-g-green-1.png" alt="">
-      <img class="vp2 g-green-1" src="img/perspective-observation/vp2-g-green-1.png" alt="">
-      <img class="vp3 g-green-1" src="img/perspective-observation/vp3-g-green-1.png" alt="">
-      <input id="g-green-2" type="checkbox" checked>
-      <img class="vp0 g-green-2" src="img/perspective-observation/vp0-g-green-2.png" alt="">
-      <img class="vp1 g-green-2" src="img/perspective-observation/vp1-g-green-2.png" alt="">
-      <img class="vp2 g-green-2" src="img/perspective-observation/vp2-g-green-2.png" alt="">
-      <img class="vp3 g-green-2" src="img/perspective-observation/vp3-g-green-2.png" alt="">
-      <input id="g-green-3" type="checkbox" checked>
-      <img class="vp0 g-green-3" src="img/perspective-observation/vp0-g-green-3.png" alt="">
-      <img class="vp1 g-green-3" src="img/perspective-observation/vp1-g-green-3.png" alt="">
-      <img class="vp2 g-green-3" src="img/perspective-observation/vp2-g-green-3.png" alt="">
-      <img class="vp3 g-green-3" src="img/perspective-observation/vp3-g-green-3.png" alt="">
-      <input id="g-green-dotted" type="checkbox" checked>
-      <img class="vp0 g-green-dotted" src="img/perspective-observation/vp0-g-green-dotted.png" alt="">
-      <img class="vp1 g-green-dotted" src="img/perspective-observation/vp1-g-green-dotted.png" alt="">
-      <img class="vp2 g-green-dotted" src="img/perspective-observation/vp2-g-green-dotted.png" alt="">
-      <img class="vp3 g-green-dotted" src="img/perspective-observation/vp3-g-green-dotted.png" alt="">
-    </div>
-    <div class="edges">
-      <input id="e-red-1" type="checkbox" checked>
-      <img class="vp0 e-red-1" src="img/perspective-observation/vp0-e-red-1.png" alt="">
-      <img class="vp1 e-red-1" src="img/perspective-observation/vp1-e-red-1.png" alt="">
-      <img class="vp2 e-red-1" src="img/perspective-observation/vp2-e-red-1.png" alt="">
-      <img class="vp3 e-red-1" src="img/perspective-observation/vp3-e-red-1.png" alt="">
-      <input id="e-red-2" type="checkbox" checked>
-      <img class="vp0 e-red-2" src="img/perspective-observation/vp0-e-red-2.png" alt="">
-      <img class="vp1 e-red-2" src="img/perspective-observation/vp1-e-red-2.png" alt="">
-      <img class="vp2 e-red-2" src="img/perspective-observation/vp2-e-red-2.png" alt="">
-      <img class="vp3 e-red-2" src="img/perspective-observation/vp3-e-red-2.png" alt="">
-      <input id="e-red-3" type="checkbox" checked>
-      <img class="vp0 e-red-3" src="img/perspective-observation/vp0-e-red-3.png" alt="">
-      <img class="vp1 e-red-3" src="img/perspective-observation/vp1-e-red-3.png" alt="">
-      <img class="vp2 e-red-3" src="img/perspective-observation/vp2-e-red-3.png" alt="">
-      <img class="vp3 e-red-3" src="img/perspective-observation/vp3-e-red-3.png" alt="">
-      <input id="e-red-dotted" type="checkbox" checked>
-      <img class="vp0 e-red-dotted" src="img/perspective-observation/vp0-e-red-dotted.png" alt="">
-      <img class="vp1 e-red-dotted" src="img/perspective-observation/vp1-e-red-dotted.png" alt="">
-      <img class="vp2 e-red-dotted" src="img/perspective-observation/vp2-e-red-dotted.png" alt="">
-      <img class="vp3 e-red-dotted" src="img/perspective-observation/vp3-e-red-dotted.png" alt="">
-      <input id="e-blue-1" type="checkbox" checked>
-      <img class="vp0 e-blue-1" src="img/perspective-observation/vp0-e-blue-1.png" alt="">
-      <img class="vp1 e-blue-1" src="img/perspective-observation/vp1-e-blue-1.png" alt="">
-      <img class="vp2 e-blue-1" src="img/perspective-observation/vp2-e-blue-1.png" alt="">
-      <img class="vp3 e-blue-1" src="img/perspective-observation/vp3-e-blue-1.png" alt="">
-      <input id="e-blue-2" type="checkbox" checked>
-      <img class="vp0 e-blue-2" src="img/perspective-observation/vp0-e-blue-2.png" alt="">
-      <img class="vp1 e-blue-2" src="img/perspective-observation/vp1-e-blue-2.png" alt="">
-      <img class="vp2 e-blue-2" src="img/perspective-observation/vp2-e-blue-2.png" alt="">
-      <img class="vp3 e-blue-2" src="img/perspective-observation/vp3-e-blue-2.png" alt="">
-      <input id="e-blue-3" type="checkbox" checked>
-      <img class="vp0 e-blue-3" src="img/perspective-observation/vp0-e-blue-3.png" alt="">
-      <img class="vp1 e-blue-3" src="img/perspective-observation/vp1-e-blue-3.png" alt="">
-      <img class="vp2 e-blue-3" src="img/perspective-observation/vp2-e-blue-3.png" alt="">
-      <img class="vp3 e-blue-3" src="img/perspective-observation/vp3-e-blue-3.png" alt="">
-      <input id="e-blue-dotted" type="checkbox" checked>
-      <img class="vp0 e-blue-dotted" src="img/perspective-observation/vp0-e-blue-dotted.png" alt="">
-      <img class="vp1 e-blue-dotted" src="img/perspective-observation/vp1-e-blue-dotted.png" alt="">
-      <img class="vp2 e-blue-dotted" src="img/perspective-observation/vp2-e-blue-dotted.png" alt="">
-      <img class="vp3 e-blue-dotted" src="img/perspective-observation/vp3-e-blue-dotted.png" alt="">
-      <input id="e-green-1" type="checkbox" checked>
-      <img class="vp0 e-green-1" src="img/perspective-observation/vp0-e-green-1.png" alt="">
-      <img class="vp1 e-green-1" src="img/perspective-observation/vp1-e-green-1.png" alt="">
-      <img class="vp2 e-green-1" src="img/perspective-observation/vp2-e-green-1.png" alt="">
-      <img class="vp3 e-green-1" src="img/perspective-observation/vp3-e-green-1.png" alt="">
-      <input id="e-green-2" type="checkbox" checked>
-      <img class="vp0 e-green-2" src="img/perspective-observation/vp0-e-green-2.png" alt="">
-      <img class="vp1 e-green-2" src="img/perspective-observation/vp1-e-green-2.png" alt="">
-      <img class="vp2 e-green-2" src="img/perspective-observation/vp2-e-green-2.png" alt="">
-      <img class="vp3 e-green-2" src="img/perspective-observation/vp3-e-green-2.png" alt="">
-      <input id="e-green-3" type="checkbox" checked>
-      <img class="vp0 e-green-3" src="img/perspective-observation/vp0-e-green-3.png" alt="">
-      <img class="vp1 e-green-3" src="img/perspective-observation/vp1-e-green-3.png" alt="">
-      <img class="vp2 e-green-3" src="img/perspective-observation/vp2-e-green-3.png" alt="">
-      <img class="vp3 e-green-3" src="img/perspective-observation/vp3-e-green-3.png" alt="">
-      <input id="e-green-dotted" type="checkbox" checked>
-      <img class="vp0 e-green-dotted" src="img/perspective-observation/vp0-e-green-dotted.png" alt="">
-      <img class="vp1 e-green-dotted" src="img/perspective-observation/vp1-e-green-dotted.png" alt="">
-      <img class="vp2 e-green-dotted" src="img/perspective-observation/vp2-e-green-dotted.png" alt="">
-      <img class="vp3 e-green-dotted" src="img/perspective-observation/vp3-e-green-dotted.png" alt="">
-    </div>
-    <div class="vertices">
-      <input id="v-cyan-light" type="checkbox" checked>
-      <img class="vp0 v-cyan-light" src="img/perspective-observation/vp0-v-cyan-light.png" alt="">
-      <img class="vp1 v-cyan-light" src="img/perspective-observation/vp1-v-cyan-light.png" alt="">
-      <img class="vp2 v-cyan-light" src="img/perspective-observation/vp2-v-cyan-light.png" alt="">
-      <img class="vp3 v-cyan-light" src="img/perspective-observation/vp3-v-cyan-light.png" alt="">
-      <input id="v-yellow-light" type="checkbox" checked>
-      <img class="vp0 v-yellow-light" src="img/perspective-observation/vp0-v-yellow-light.png" alt="">
-      <img class="vp1 v-yellow-light" src="img/perspective-observation/vp1-v-yellow-light.png" alt="">
-      <img class="vp2 v-yellow-light" src="img/perspective-observation/vp2-v-yellow-light.png" alt="">
-      <img class="vp3 v-yellow-light" src="img/perspective-observation/vp3-v-yellow-light.png" alt="">
-      <input id="v-red-light" type="checkbox" checked>
-      <img class="vp0 v-red-light" src="img/perspective-observation/vp0-v-red-light.png" alt="">
-      <img class="vp1 v-red-light" src="img/perspective-observation/vp1-v-red-light.png" alt="">
-      <img class="vp2 v-red-light" src="img/perspective-observation/vp2-v-red-light.png" alt="">
-      <img class="vp3 v-red-light" src="img/perspective-observation/vp3-v-red-light.png" alt="">
-      <input id="v-violet-light" type="checkbox" checked>
-      <img class="vp0 v-violet-light" src="img/perspective-observation/vp0-v-violet-light.png" alt="">
-      <img class="vp1 v-violet-light" src="img/perspective-observation/vp1-v-violet-light.png" alt="">
-      <img class="vp2 v-violet-light" src="img/perspective-observation/vp2-v-violet-light.png" alt="">
-      <img class="vp3 v-violet-light" src="img/perspective-observation/vp3-v-violet-light.png" alt="">
-      <input id="v-cyan" type="checkbox" checked>
-      <img class="vp0 v-cyan" src="img/perspective-observation/vp0-v-cyan.png" alt="">
-      <img class="vp1 v-cyan" src="img/perspective-observation/vp1-v-cyan.png" alt="">
-      <img class="vp2 v-cyan" src="img/perspective-observation/vp2-v-cyan.png" alt="">
-      <img class="vp3 v-cyan" src="img/perspective-observation/vp3-v-cyan.png" alt="">
-      <input id="v-yellow" type="checkbox" checked>
-      <img class="vp0 v-yellow" src="img/perspective-observation/vp0-v-yellow.png" alt="">
-      <img class="vp1 v-yellow" src="img/perspective-observation/vp1-v-yellow.png" alt="">
-      <img class="vp2 v-yellow" src="img/perspective-observation/vp2-v-yellow.png" alt="">
-      <img class="vp3 v-yellow" src="img/perspective-observation/vp3-v-yellow.png" alt="">
-      <input id="v-red" type="checkbox" checked>
-      <img class="vp0 v-red" src="img/perspective-observation/vp0-v-red.png" alt="">
-      <img class="vp1 v-red" src="img/perspective-observation/vp1-v-red.png" alt="">
-      <img class="vp2 v-red" src="img/perspective-observation/vp2-v-red.png" alt="">
-      <img class="vp3 v-red" src="img/perspective-observation/vp3-v-red.png" alt="">
-      <input id="v-violet" type="checkbox" checked>
-      <img class="vp0 v-violet" src="img/perspective-observation/vp0-v-violet.png" alt="">
-      <img class="vp1 v-violet" src="img/perspective-observation/vp1-v-violet.png" alt="">
-      <img class="vp2 v-violet" src="img/perspective-observation/vp2-v-violet.png" alt="">
-      <img class="vp3 v-violet" src="img/perspective-observation/vp3-v-violet.png" alt="">
-    </div>
+        </dd>
+        <dt><a href="#">面 - Faces</a></dt>
+        <dd>
+          <img src="img/perspective/faces-front.png" alt="">
+          <img src="img/perspective/faces-back.png" alt="">
+          <label class="is-checked" for="f-cyan"><span class="fake-input"></span><a href="#">シアン</a></label>
+          <label class="is-checked" for="f-pink"><span class="fake-input"></span><a href="#">ピンク</a></label>
+          <label class="is-checked" for="f-yellow"><span class="fake-input"></span><a href="#">黄色</a></label>
+          <label class="is-checked" for="f-cyan-hidden"><span class="fake-input"></span><a href="#">シアンb</a></label>
+          <label class="is-checked" for="f-pink-hidden"><span class="fake-input"></span><a href="#">ピンクb</a></label>
+          <label class="is-checked" for="f-yellow-hidden"><span class="fake-input"></span><a href="#">黄色b</a></label>
+        </dd>
+        <dt><a href="#">グリッド - Grid</a></dt>
+        <dd>
+          <img src="img/perspective/grid-blue.png" alt="">
+          <img src="img/perspective/grid-red.png" alt="">
+          <img src="img/perspective/grid-green.png" alt="">
+          <label class="is-checked" for="g-blue-1"><span class="fake-input"></span><a class="text-blue" href="#">青1</a></label>
+          <label class="is-checked" for="g-blue-2"><span class="fake-input"></span><a class="text-blue" href="#">青2</a></label>
+          <label class="is-checked" for="g-blue-3"><span class="fake-input"></span><a class="text-blue" href="#">青3</a></label>
+          <label class="is-checked" for="g-blue-dotted"><span class="fake-input"></span><a class="text-blue" href="#">青点</a></label>
+          <label class="is-checked" for="g-red-1"><span class="fake-input"></span><a class="text-red" href="#">赤1</a></label>
+          <label class="is-checked" for="g-red-2"><span class="fake-input"></span><a class="text-red" href="#">赤2</a></label>
+          <label class="is-checked" for="g-red-3"><span class="fake-input"></span><a class="text-red" href="#">赤3</a></label>
+          <label class="is-checked" for="g-red-dotted"><span class="fake-input"></span><a class="text-red" href="#">赤点</a></label>
+          <label class="is-checked" for="g-green-1"><span class="fake-input"></span><a class="text-green" href="#">緑1</a></label>
+          <label class="is-checked" for="g-green-2"><span class="fake-input"></span><a class="text-green" href="#">緑2</a></label>
+          <label class="is-checked" for="g-green-3"><span class="fake-input"></span><a class="text-green" href="#">緑3</a></label>
+          <label class="is-checked" for="g-green-dotted"><span class="fake-input"></span><a class="text-green" href="#">緑点</a></label>
+        </dd>
+      </dl>
+    </nav>
   </div>
-  <nav class="nav">
-    <a href="perspective.html">遠近の法則に戻る</a>
-    <p>ちょっと挙動が重い。時間ができたら改善予定。</p>
-    <dl>
-      <dt><a href="#">角 - Vertices</a></dt>
-      <dd>
-        <img src="img/perspective-observation/vertices-top.png" alt="">
-        <img src="img/perspective-observation/vertices-bottom.png" alt="">
-        <label class="is-checked" for="v-cyan"><span class="fake-input"></span><a href="#">1</a></label>
-        <label class="is-checked" for="v-violet"><span class="fake-input"></span><a href="#">2</a></label>
-        <label class="is-checked" for="v-red"><span class="fake-input"></span><a href="#">3</a></label>
-        <label class="is-checked" for="v-yellow"><span class="fake-input"></span><a href="#">4</a></label>
-        <label class="is-checked" for="v-cyan-light"><span class="fake-input"></span><a href="#">1b</a></label>
-        <label class="is-checked" for="v-violet-light"><span class="fake-input"></span><a href="#">2b</a></label>
-        <label class="is-checked" for="v-red-light"><span class="fake-input"></span><a href="#">3b</a></label>
-        <label class="is-checked" for="v-yellow-light"><span class="fake-input"></span><a href="#">4b</a></label>
-      </dd>
-      <dt><a href="#">辺 - Edges</a></dt>
-      <dd>
-        <img src="img/perspective-observation/edges-blue.png" alt="">
-        <img src="img/perspective-observation/edges-red.png" alt="">
-        <img src="img/perspective-observation/edges-green.png" alt="">
-        <label class="is-checked" for="e-blue-1"><span class="fake-input"></span><a class="text-blue" href="#">青1</a></label>
-        <label class="is-checked" for="e-blue-2"><span class="fake-input"></span><a class="text-blue" href="#">青2</a></label>
-        <label class="is-checked" for="e-blue-3"><span class="fake-input"></span><a class="text-blue" href="#">青3</a></label>
-        <label class="is-checked" for="e-blue-dotted"><span class="fake-input"></span><a class="text-blue" href="#">青点</a></label>
-        <label class="is-checked" for="e-red-1"><span class="fake-input"></span><a class="text-red" href="#">赤1</a></label>
-        <label class="is-checked" for="e-red-2"><span class="fake-input"></span><a class="text-red" href="#">赤2</a></label>
-        <label class="is-checked" for="e-red-3"><span class="fake-input"></span><a class="text-red" href="#">赤3</a></label>
-        <label class="is-checked" for="e-red-dotted"><span class="fake-input"></span><a class="text-red" href="#">赤点</a></label>
-        <label class="is-checked" for="e-green-1"><span class="fake-input"></span><a class="text-green" href="#">緑1</a></label>
-        <label class="is-checked" for="e-green-2"><span class="fake-input"></span><a class="text-green" href="#">緑2</a></label>
-        <label class="is-checked" for="e-green-3"><span class="fake-input"></span><a class="text-green" href="#">緑3</a></label>
-        <label class="is-checked" for="e-green-dotted"><span class="fake-input"></span><a class="text-green" href="#">緑点</a></label>
-
-      </dd>
-      <dt><a href="#">面 - Faces</a></dt>
-      <dd>
-        <img src="img/perspective-observation/faces-front.png" alt="">
-        <img src="img/perspective-observation/faces-back.png" alt="">
-        <label class="is-checked" for="f-cyan"><span class="fake-input"></span><a href="#">シアン</a></label>
-        <label class="is-checked" for="f-pink"><span class="fake-input"></span><a href="#">ピンク</a></label>
-        <label class="is-checked" for="f-yellow"><span class="fake-input"></span><a href="#">黄色</a></label>
-        <label class="is-checked" for="f-cyan-hidden"><span class="fake-input"></span><a href="#">シアンb</a></label>
-        <label class="is-checked" for="f-pink-hidden"><span class="fake-input"></span><a href="#">ピンクb</a></label>
-        <label class="is-checked" for="f-yellow-hidden"><span class="fake-input"></span><a href="#">黄色b</a></label>
-      </dd>
-      <dt><a href="#">グリッド - Grid</a></dt>
-      <dd>
-        <img src="img/perspective-observation/grid-blue.png" alt="">
-        <img src="img/perspective-observation/grid-red.png" alt="">
-        <img src="img/perspective-observation/grid-green.png" alt="">
-        <label class="is-checked" for="g-blue-1"><span class="fake-input"></span><a class="text-blue" href="#">青1</a></label>
-        <label class="is-checked" for="g-blue-2"><span class="fake-input"></span><a class="text-blue" href="#">青2</a></label>
-        <label class="is-checked" for="g-blue-3"><span class="fake-input"></span><a class="text-blue" href="#">青3</a></label>
-        <label class="is-checked" for="g-blue-dotted"><span class="fake-input"></span><a class="text-blue" href="#">青点</a></label>
-        <label class="is-checked" for="g-red-1"><span class="fake-input"></span><a class="text-red" href="#">赤1</a></label>
-        <label class="is-checked" for="g-red-2"><span class="fake-input"></span><a class="text-red" href="#">赤2</a></label>
-        <label class="is-checked" for="g-red-3"><span class="fake-input"></span><a class="text-red" href="#">赤3</a></label>
-        <label class="is-checked" for="g-red-dotted"><span class="fake-input"></span><a class="text-red" href="#">赤点</a></label>
-        <label class="is-checked" for="g-green-1"><span class="fake-input"></span><a class="text-green" href="#">緑1</a></label>
-        <label class="is-checked" for="g-green-2"><span class="fake-input"></span><a class="text-green" href="#">緑2</a></label>
-        <label class="is-checked" for="g-green-3"><span class="fake-input"></span><a class="text-green" href="#">緑3</a></label>
-        <label class="is-checked" for="g-green-dotted"><span class="fake-input"></span><a class="text-green" href="#">緑点</a></label>
-      </dd>
-    </dl>
-  </nav>
-</div>
 </main>
-
-<script src="src/js/jquery.min.js"></script>
-<script>
-  $('input').on('click', function() {
-    const clickedCheckbox = $(this),
-          id = clickedCheckbox.attr('id'),
-          correspondingLabel = 'label[for="'+id+'"]',
-          classChecked = 'is-checked';
-    if (clickedCheckbox.is(':checked')) {
-      $(correspondingLabel).addClass(classChecked);
-    } else {
-      $(correspondingLabel).removeClass(classChecked);
-    }
-  });
-
-  $('.nav').on('click', 'a', function(event) {
-    event.preventDefault();
-  });
-</script>
-
 
 </div>
 <footer class="app-footer">
@@ -352,6 +330,10 @@
 </footer>
 
 </div>
+
+<script src="src/js/jquery.min.js"></script>
+<script src="src/js/tool-perspective.js"></script>
+
 </body>
 </html>
 

@@ -32,6 +32,14 @@ a:hover {
   right: 10px;
 }
 
+label {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
 .app-header {
   background: $color-black;
   color: #fff;
@@ -53,7 +61,7 @@ a:hover {
 .main-nav {
   border-right: 1px solid $color-black;
   padding: 10px;
-  min-width: 240px;
+  min-width: 180px;
 
   ol,
   ul {
@@ -65,6 +73,10 @@ a:hover {
     padding: 0;
     margin: 0 0 1em;
   }
+
+  .heading {
+    margin-top: 0;
+  }
 }
 
 .page-title {
@@ -73,11 +85,13 @@ a:hover {
 
 .app-content {
   display: flex;
+  justify-content: space-between;
 }
 
 .app-main {
   padding: 10px;
   position: relative;
+  width: 100%;
 }
 
 .simple-list {
@@ -136,12 +150,12 @@ a:hover {
     font-size: 1em;
   }
 }
-
 .app-aside {
+  position: -webkit-sticky;
+  position: sticky;
   border-left: 1px solid $color-black;
   padding: 10px;
-  width: 400px;
-
+  min-width: 400px;
   .heading {
     margin: 0;
   }

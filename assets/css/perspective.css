@@ -6,7 +6,7 @@ html, body, div, span,
 a, dl, dt, dd,
 em, img,
 small,
-fieldset, form, label, legend,
+form, label,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside,
 figure, figcaption, footer, header,
@@ -54,6 +54,12 @@ a:hover {
   position: absolute;
   right: 10px; }
 
+label {
+  cursor: pointer; }
+
+button {
+  cursor: pointer; }
+
 .app-header {
   background: #333;
   color: #fff;
@@ -70,7 +76,7 @@ a:hover {
 .main-nav {
   border-right: 1px solid #333;
   padding: 10px;
-  min-width: 240px; }
+  min-width: 180px; }
   .main-nav ol,
   .main-nav ul {
     padding-left: 1em;
@@ -78,16 +84,20 @@ a:hover {
   .main-nav li {
     padding: 0;
     margin: 0 0 1em; }
+  .main-nav .heading {
+    margin-top: 0; }
 
 .page-title {
   margin-top: 0; }
 
 .app-content {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .app-main {
   padding: 10px;
-  position: relative; }
+  position: relative;
+  width: 100%; }
 
 .simple-list {
   margin: 0 0 2em 1.5em;
@@ -128,9 +138,11 @@ a:hover {
     font-size: 1em; }
 
 .app-aside {
+  position: -webkit-sticky;
+  position: sticky;
   border-left: 1px solid #333;
   padding: 10px;
-  width: 400px; }
+  min-width: 400px; }
   .app-aside .heading {
     margin: 0; }
 

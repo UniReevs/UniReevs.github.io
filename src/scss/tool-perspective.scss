@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 @import 'core';
+@import 'forms';
 
 input[type='checkbox'] {
   position: fixed;
@@ -35,7 +36,7 @@ dd {
 
 .perspective-images {
   position: relative;
-  min-height: 820px;
+  min-height: 930px;
   width: 70%;
 
   img {
@@ -72,6 +73,7 @@ dd {
   a {
     display: inline-block;
     padding: 5px;
+    pointer-events: none;
   }
   img {
     width: 150px;
