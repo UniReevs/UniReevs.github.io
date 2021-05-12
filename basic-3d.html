@@ -27,76 +27,90 @@
   <ol>
     <li><a href="pencil-grips.html">鉛筆の持ち方</a> <span class="en">Pencil Grips</span></li>
     <li><a href="basic-2d.html">基本の平面図</a> <span class="en">Basic 2D Shapes</span></li>
-    <li><a href="perspective.html">遠近の法則</a> <span class="en">Perspective</span></li>
-    <li><a href="basic-3d.html">立体図形の回転</a><span class="en">Rotate 3D Shapes</span></li>
+    <li>
+      <a href="perspective.html">遠近の法則</a> <span class="en">Perspective</span>
+      <div class="for-observation">
+        <a href="tool-perspective.html"><span class="material-icons">architecture</span>観察用</a> <span class="en">For Observation</span>
+      </div>
+    </li>
+    <li>
+      <a href="basic-3d.html">立体図形の回転</a><span class="en">Rotate 3D Shapes</span>
+      <div class="for-observation">
+        <a href="tool-rotating-box.html"><span class="material-icons">architecture</span>観察用</a> <span class="en">For Observation</span>
+      </div>
+    </li>
     <!-- <li><a href="#">光と影</a><span class="en">Light and Shadow</span></li> -->
     <!-- <li><a href="#">立体図形を変形させる</a><span class="en">Primitive Shape Manipulation</span></li> -->
     <!-- <li><a href="#">解剖学</a><span class="en">Anatomy</span></li> -->
   </ol>
-  <h2 class="heading">観察用ツール <span class="en">Observational Drawings</span></h2>
-  <ul>
-    <li><a href="tool-perspective.html">パース 0~3点</a> <span class="en">Perspective</span></li>
-    <li><a href="tool-rotating-box.html">色んな角度の箱</a> <span class="en">Rotating Boxes</span></li>
-  </ul>
 </nav>
 
 
 
 <main class="app-main">
-  <time class="last-update" datetime="2021-05-06">May 6th, 2021</time>
+  <time class="last-update" datetime="2021-05-11">May 12th, 2021</time>
   <h1 class="page-title">立体図形の回転</h1>
   <p>立方体・直方体をいろんな角度から描けるようになったら、他の形も描けるようになる。<a href="tool-rotating-box.html">色んなアングルの一覧はこちら</a></p>
   <fieldset>
-    <p>矢印の上下で1度、左右で10度、角度が変わる。</p>
     <legend>Options</legend>
-    <div class="slider-controlls">
-      <div class="form-group">
-        <span class="material-icons">height</span>
-        <input class="user-input js-slider" id="js-x" type="range" min="0" max="360" value="0">
-        <input class="user-input js-slider-number" type="tel" value="0">
+    <div class="flex-wrapper">
+      <div class="slider-controlls">
+        <div class="group">
+          <span class="material-icons">height</span>
+          <input class="user-input js-slider" id="js-x" type="range" min="0" max="360" value="0">
+          <input class="user-input js-slider-number" type="tel" value="0">
+        </div>
+        <div class="group">
+          <span class="material-icons">360</span>
+          <input class="user-input js-slider" id="js-y" type="range" min="0" max="360" value="0">
+          <input class="user-input js-slider-number" type="tel" value="0">
+        </div>
+        <div class="group">
+          <span class="material-icons">replay</span>
+          <input class="user-input js-slider" id="js-z" type="range" min="0" max="360" value="0">
+          <input class="user-input js-slider-number" type="tel" value="0">
+        </div>
       </div>
-      <div class="form-group">
-        <span class="material-icons">360</span>
-        <input class="user-input js-slider" id="js-y" type="range" min="0" max="360" value="0">
-        <input class="user-input js-slider-number" type="tel" value="0">
+      <button id="js-reset">Reset</button>
+      <div class="group">
+        <label><input class="user-input" id="js-option-circle" type="checkbox" name="circle" value="has-circle">Circle</label>
+        <label><input class="user-input" id="js-option-cross" type="checkbox" name="cross" value="has-cross">Cross</label>
       </div>
-      <div class="form-group">
-        <span class="material-icons">replay</span>
-        <input class="user-input js-slider" id="js-z" type="range" min="0" max="360" value="0">
-        <input class="user-input js-slider-number" type="tel" value="0">
-      </div>
+
+
     </div>
-    <button class="button" id="js-reset">Reset</button>
   </fieldset>
   <div class="shapes">
     <section class="cube-section">
       <h2>Cube</h2>
-      <div class="scenes">
+      <div class="scenes" data-shape="cube">
         <div class="scene">
-          <div class="shape cube js-shape" id="js-cube-start">
-            <div class="face axis-x x1" data-index="1"></div>
-            <div class="face axis-x x2" data-index="3"></div>
-            <div class="face axis-y y1" data-index="2"></div>
-            <div class="face axis-y y2" data-index="4"></div>
-            <div class="face axis-z z1" data-index="6"></div>
-            <div class="face axis-z z2" data-index="5"></div>
-          </div>
-        </div>
+  <div class="shape js-shape">
+    <div class="face axis-x x1" data-index="1"><span class="cross"></span></div>
+    <div class="face axis-x x2" data-index="6"><span class="cross"></span></div>
+    <div class="face axis-y y1" data-index="3"><span class="cross"></span></div>
+    <div class="face axis-y y2" data-index="4"><span class="cross"></span></div>
+    <div class="face axis-z z1" data-index="2"><span class="cross"></span></div>
+    <div class="face axis-z z2" data-index="5"><span class="cross"></span></div>
+  </div>
+</div>
+
       </div>
     </section>
     <section class="cuboid-section">
       <h2>Cuboid</h2>
-      <div class="scenes">
+      <div class="scenes" data-shape="cuboid">
         <div class="scene">
-          <div class="shape cuboid js-shape" id="js-cuboid-start">
-            <div class="face axis-x x1" data-index="1"></div>
-            <div class="face axis-x x2" data-index="3"></div>
-            <div class="face axis-y y1" data-index="2"></div>
-            <div class="face axis-y y2" data-index="4"></div>
-            <div class="face axis-z z1" data-index="5"></div>
-            <div class="face axis-z z2" data-index="2"></div>
-          </div>
-        </div>
+  <div class="shape js-shape">
+    <div class="face axis-x x1" data-index="1"><span class="cross"></span></div>
+    <div class="face axis-x x2" data-index="6"><span class="cross"></span></div>
+    <div class="face axis-y y1" data-index="3"><span class="cross"></span></div>
+    <div class="face axis-y y2" data-index="4"><span class="cross"></span></div>
+    <div class="face axis-z z1" data-index="2"><span class="cross"></span></div>
+    <div class="face axis-z z2" data-index="5"><span class="cross"></span></div>
+  </div>
+</div>
+
       </div>
     </section>
 <!--   <section class="pyramid-section">
@@ -164,14 +178,43 @@
   <li>目に入るありとあらゆる物体をとりあえず箱型に置き換えたらどう感じになるか脳内でシミュレーションする</li>
   <li>いろんな基本3Dシェイプを紙の上にバランスよく配置して描く練習をひたすらする</li>
 </ol>
-<script src="src/js/jquery.min.js"></script>
-<script src="src/js/basic-3d.js"></script>
 </main>
 <aside class="app-aside">
   <ul class="simple-list">
     <li><a href="https://youtu.be/wJ_k4aCknZY"><span class="material-icons">smart_display</span>箱を回転させる時の考え方</a></li>
     <li><a href="https://youtu.be/P9bmV0hbcNo"><span class="material-icons">smart_display</span>描き方</a></li>
   </ul>
+ <!--  <ul class="list">
+    <li>
+      <label>Speed: <input class="user-input" type="tel" value="2"></label>
+    </li>
+    <li>
+      <h3>Cube size</h3>
+      <label>
+        <span class="material-icons">fullscreen</span>
+        <input class="user-input js-slider" type="range" min="80" max="300" value="200">
+        <input class="user-input js-slider-number" type="tel" value="200">
+      </label>
+    </li>
+    <li>
+      <h3>Cuboid size</h3>
+      <label>
+        <span class="material-icons">height</span>
+        <input class="user-input js-slider" type="range" min="80" max="300" value="260">
+        <input class="user-input js-slider-number" type="tel" value="260">
+      </label>
+      <label>
+        <span class="material-icons rotate-90">height</span>
+        <input class="user-input js-slider" type="range" min="80" max="300" value="150">
+        <input class="user-input js-slider-number" type="tel" value="150">
+      </label>
+      <label>
+        <span class="material-icons rotate-45">height</span>
+        <input class="user-input js-slider" type="range" min="80" max="300" value="110">
+        <input class="user-input js-slider-number" type="tel" value="110">
+      </label>
+    </li>
+  </ul> -->
 </aside>
 </div>
 <footer class="app-footer">
@@ -181,6 +224,9 @@
 </footer>
 
 </div>
+
+<script src="src/js/jquery.min.js"></script>
+<script src="src/js/basic-3d.js"></script>
 
 </body>
 </html>

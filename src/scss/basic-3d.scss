@@ -1,3 +1,52 @@
 @charset 'UTF-8';
 @import 'core';
-@import 'rotating-cube';
+@import 'forms';
+
+$cuboid-w: 150px;
+$cuboid-h: 260px;
+$cuboid-d: 110px;
+$cube-w: 200px;
+
+@import 'shapes/hexahedron';
+@import 'shapes/scene';
+
+.app-aside {
+  width: 400px;
+}
+
+section {
+  width: 50%;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.user-input {
+  padding: 5px;
+  font-size: larger;
+  vertical-align: middle;
+
+  &[type='range'] {
+    width: 200px;
+  }
+  &[type='tel'] {
+    width: 3em;
+    text-align: center;
+  }
+}
+
+label {
+  margin-right: 30px;
+}
+
+.slider-controlls {
+  .material-icons {
+    font-size: 50px;
+  }
+}
+
+fieldset .material-icons {
+  font-size: 30px;
+}
+

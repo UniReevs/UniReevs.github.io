@@ -10,6 +10,17 @@ html {
 body {
   font-family: $font-family-default;
 }
+.flex-wrapper {
+  display: flex;
+}
+
+.for-observation {
+  font-size: smaller;
+
+  .material-icons {
+    font-size: 22px;
+  }
+}
 
 .logo {
   font-size: 1em;
@@ -23,21 +34,12 @@ dt {
 
 a:hover {
   text-decoration: none;
-
 }
 
 .last-update {
   font-size: smaller;
   position: absolute;
   right: 10px;
-}
-
-label {
-  cursor: pointer;
-}
-
-button {
-  cursor: pointer;
 }
 
 .app-header {
@@ -57,9 +59,16 @@ button {
   vertical-align: middle;
 }
 
+.rotate- {
+  &90 {
+    transform: rotateZ(90deg);
+  }
+  &45 {
+    transform: rotateZ(45deg);
+  }
+}
 
 .main-nav {
-  border-right: 1px solid $color-black;
   padding: 10px;
   min-width: 180px;
 
@@ -86,12 +95,15 @@ button {
 .app-content {
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
 }
 
 .app-main {
   padding: 10px;
   position: relative;
   width: 100%;
+  border-left: 1px solid $color-black;
+  border-right: 1px solid $color-black;
 }
 
 .simple-list {
@@ -151,9 +163,6 @@ button {
   }
 }
 .app-aside {
-  position: -webkit-sticky;
-  position: sticky;
-  border-left: 1px solid $color-black;
   padding: 10px;
   min-width: 400px;
   .heading {

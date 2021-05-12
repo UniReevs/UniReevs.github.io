@@ -27,17 +27,22 @@
   <ol>
     <li><a href="pencil-grips.html">鉛筆の持ち方</a> <span class="en">Pencil Grips</span></li>
     <li><a href="basic-2d.html">基本の平面図</a> <span class="en">Basic 2D Shapes</span></li>
-    <li><a href="perspective.html">遠近の法則</a> <span class="en">Perspective</span></li>
-    <li><a href="basic-3d.html">立体図形の回転</a><span class="en">Rotate 3D Shapes</span></li>
+    <li>
+      <a href="perspective.html">遠近の法則</a> <span class="en">Perspective</span>
+      <div class="for-observation">
+        <a href="tool-perspective.html"><span class="material-icons">architecture</span>観察用</a> <span class="en">For Observation</span>
+      </div>
+    </li>
+    <li>
+      <a href="basic-3d.html">立体図形の回転</a><span class="en">Rotate 3D Shapes</span>
+      <div class="for-observation">
+        <a href="tool-rotating-box.html"><span class="material-icons">architecture</span>観察用</a> <span class="en">For Observation</span>
+      </div>
+    </li>
     <!-- <li><a href="#">光と影</a><span class="en">Light and Shadow</span></li> -->
     <!-- <li><a href="#">立体図形を変形させる</a><span class="en">Primitive Shape Manipulation</span></li> -->
     <!-- <li><a href="#">解剖学</a><span class="en">Anatomy</span></li> -->
   </ol>
-  <h2 class="heading">観察用ツール <span class="en">Observational Drawings</span></h2>
-  <ul>
-    <li><a href="tool-perspective.html">パース 0~3点</a> <span class="en">Perspective</span></li>
-    <li><a href="tool-rotating-box.html">色んな角度の箱</a> <span class="en">Rotating Boxes</span></li>
-  </ul>
 </nav>
 
 
@@ -53,7 +58,7 @@
 </ul>
   <h2>基本的な考え</h2>
   <dl>
-    <dt><h3 id="perspective-0">零点透視図法 (Zero-Point Perspective)</h3><h4>ニックネーム: 0点</h4></dt>
+    <dt><h3 id="perspective-0">零点透視図法 (Zero-Point Perspective)</h3></dt>
     <dd>
       <p>これは奥行きの方向がない遠近法。たぶんこれが一番簡単。</p>
       <p>下記の図の形には<span class="text-green">縦の長さ(緑の線)</span>・<span class="text-blue">横の長さ(青の線)</span>・<span class="text-red">高さ(赤の線)</span>がある。同じ色の線同士はどれだけ伸ばしても交差することはない。</p>
@@ -63,7 +68,7 @@
         <img src="img/steps/perspective-0-point-faces.png" alt="Zero-Point Perspective">
       </div>
     </dd>
-    <dt><h3 id="perspective-1">一点透視図法 (One-Point Perspective)</h3><h4>ニックネーム: 1点</h4></dt>
+    <dt><h3 id="perspective-1">一点透視図法 (One-Point Perspective)</h3></dt>
     <dd>
       <p>同じ色の線たちのうち、１色だけがどこかで交差する。この図では<span class="text-green">縦の長さ(緑)</span>が上の方でそのうち交差して1つにまとまる終着点がある。残りの２色の線はそのまま(交差することはない)。</p>
       <p><strong>平行</strong>な色の数は<strong>2つ (<span class="text-red">赤</span>・<span class="text-blue">青</span>)</strong>。</p>
@@ -72,7 +77,7 @@
         <img src="img/steps/perspective-1-point-faces.png" alt="One-Point Perspective">
       </div>
     </dd>
-    <dt><h3 id="perspective-2">ニ点透視図法 (Two-Point Perspective)</h3><h4>ニックネーム: 2点</h4></dt>
+    <dt><h3 id="perspective-2">ニ点透視図法 (Two-Point Perspective)</h3></dt>
     <dd>
       <p>同じ色の線たちのうち、２色がどこかで交差する。この図では<span class="text-green">縦の長さ(緑)</span>と<span class="text-blue">横の長さ(青)</span>が上の左右にちで集結している。<span class="text-red">赤い線</span>はずっと並行 = 交差しない。</p>
       <p><strong>平行</strong>な色の数は<strong>1つ (<span class="text-red">赤</span>)</strong>。</p>
@@ -81,7 +86,7 @@
         <img src="img/steps/perspective-2-point-faces.png" alt="Two-Point Perspective">
       </div>
     </dd>
-    <dt><h3 id="perspective-3">三点透視図法 (Three-Point Perspective)</h3><h4>ニックネーム: 3点</h4></dt>
+    <dt><h3 id="perspective-3">三点透視図法 (Three-Point Perspective)</h3></dt>
     <dd>
       <p><span class="text-red">3</span><span class="text-blue">色</span><span class="text-green">全</span>ての色がどこかで交差する。</p>
       <p><strong>平行</strong>な色の数は<strong>なし</strong>。</p>

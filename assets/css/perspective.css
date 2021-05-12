@@ -38,6 +38,14 @@ html {
 body {
   font-family: Helvetica, sans-serif; }
 
+.flex-wrapper {
+  display: flex; }
+
+.for-observation {
+  font-size: smaller; }
+  .for-observation .material-icons {
+    font-size: 22px; }
+
 .logo {
   font-size: 1em;
   padding: 0;
@@ -54,12 +62,6 @@ a:hover {
   position: absolute;
   right: 10px; }
 
-label {
-  cursor: pointer; }
-
-button {
-  cursor: pointer; }
-
 .app-header {
   background: #333;
   color: #fff;
@@ -73,8 +75,13 @@ button {
 .material-icons {
   vertical-align: middle; }
 
+.rotate-90 {
+  transform: rotateZ(90deg); }
+
+.rotate-45 {
+  transform: rotateZ(45deg); }
+
 .main-nav {
-  border-right: 1px solid #333;
   padding: 10px;
   min-width: 180px; }
   .main-nav ol,
@@ -92,12 +99,15 @@ button {
 
 .app-content {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: stretch; }
 
 .app-main {
   padding: 10px;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333; }
 
 .simple-list {
   margin: 0 0 2em 1.5em;
@@ -138,18 +148,29 @@ button {
     font-size: 1em; }
 
 .app-aside {
-  position: -webkit-sticky;
-  position: sticky;
-  border-left: 1px solid #333;
   padding: 10px;
   min-width: 400px; }
   .app-aside .heading {
     margin: 0; }
 
+@media print {
+  .app-header,
+  .app-footer,
+  .main-nav,
+  .hide-for-print {
+    display: none; } }
+
 .images {
   display: flex; }
   .images img {
     width: 50%; }
+
+.app-main {
+  margin-right: 400px; }
+
+.app-aside {
+  position: fixed;
+  right: 0; }
 
 .edge {
   display: inline-block;

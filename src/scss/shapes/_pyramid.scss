@@ -1,0 +1,53 @@
+.pyramid {
+  $size: 200px;
+  transform: translateX(-$size/2);
+
+  .wall {
+    transform-origin: 50% 0%;
+    border-top: 0;
+    border-left: $size/2 solid transparent;
+    border-right: $size/2 solid transparent;
+    border-bottom: $size solid;
+    background: transparent;
+
+    &::before {
+      bottom: -$size;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 220px;
+      height: 2px;
+      background: #000;
+      display: block;
+      transform: rotateZ(60deg) translate3d(0, 20px, 0);
+    }
+
+  }
+
+  .x1 {
+    border-bottom-color: $color-pink;
+    transform: rotateX(-30deg);
+
+  }
+  .x2 {
+    border-bottom-color: $color-pink-light;
+    transform: rotateX(30deg);
+  }
+  .y1 {
+    border-bottom-color: $color-yellow;
+    transform: rotate(-30deg) rotateY(90deg);
+  }
+  .y2 {
+    border-bottom-color: $color-yellow-light;
+    transform: rotate(30deg) rotateY(90deg);
+  }
+
+  .base {
+    width: $size;
+    height: $size;
+    transform: rotateX(-90deg) translateZ(74px);
+  }
+
+}

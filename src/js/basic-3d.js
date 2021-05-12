@@ -13,7 +13,6 @@ const element = {
   shape: '.js-shape',
   userInput: '.user-input',
   button: {
-    rotate: '.js-rotate-button',
     reset: '#js-reset'
   }
 };
@@ -28,22 +27,18 @@ let value = {
     y: $(element.slider.axisY).val(),
     z: $(element.slider.axisZ).val()
   }
-}
-
-function debugLog() {
-  console.log(value.rotate, value.option);
-}
+};
 
 function isNumber(value) {
   return isNaN(value) ? false : true;
 }
 
-function validateRange(value) {
+function validateRange(value, min, max) {
   if (isNumber(value)) {
-    value = (value < 0) ? 0 : value;
-    value = (value > 360) ? 360 : value;
+    value = (value < min) ? min : value;
+    value = (value > max) ? max : value;
   } else {
-    value = 0;
+    value = min;
   }
   return value;
 }
@@ -67,7 +62,7 @@ function syncUserInput($element, value) {
 }
 
 function updateRotateByValue($element) {
-  value.option.rotateBy = validateRange($element.val());
+  value.option.rotateBy = validateRange($element.val(), 0, 360);
 }
 
 function resetValues() {
@@ -77,7 +72,6 @@ function resetValues() {
   $(element.slider.range).val(0);
   $(element.slider.text).val(0);
 }
-
 
 $(element.slider.range).on('input', function() {
   let $this = $(this),
@@ -110,7 +104,7 @@ $(element.slider.text).on('keyup', function() {
     break;
   }
 
-  value = validateRange(value);
+  value = validateRange(value, 0, 360);
   $this.val(value);
   syncUserInput($this, value);
   updateRotationValues();
@@ -132,22 +126,19 @@ $(element.option.rotateBy).on('keyup', function() {
      syncInputs
 
      updateCSS
-
-
   */
-});
-
-
-$(element.button.rotate).on('click', function() {
-  let $this = $(this),
-      target = $this.data('target'),
-      axis = $this.data('axis');
-
-
 });
 
 $(element.userInput).on('click', function() {
   $(this).select();
+});
+
+$('#js-option-circle').on('click', function() {
+  $('.shapes').toggleClass('has-circle');
+});
+
+$('#js-option-cross').on('click', function() {
+  $('.shapes').toggleClass('has-cross');
 });
 
 $(element.button.reset).on('click', function() {
