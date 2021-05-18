@@ -197,24 +197,6 @@ button,
   height: 10px;
   border-radius: 2px; }
 
-.x1 {
-  background: rgba(255, 113, 113, 0.7); }
-
-.x2 {
-  background: rgba(245, 192, 192, 0.7); }
-
-.y1 {
-  background: rgba(254, 168, 47, 0.7); }
-
-.y2 {
-  background: rgba(255, 194, 136, 0.7); }
-
-.z1 {
-  background: rgba(0, 173, 181, 0.7); }
-
-.z2 {
-  background: rgba(170, 216, 211, 0.7); }
-
 [data-shape='cube'] .shape {
   width: 80px;
   height: 80px; }
@@ -305,7 +287,7 @@ button,
     display: block;
     padding: 10px 20px; }
 
-.has-circle .face::after {
+.has-circle .circle::after {
   position: absolute;
   content: '';
   top: 0;
@@ -332,6 +314,24 @@ button,
 
 .has-cross .cross::after {
   height: 1px; }
+
+.x1 {
+  background: rgba(255, 113, 113, 0.7); }
+
+.x2 {
+  background: rgba(245, 192, 192, 0.7); }
+
+.y1 {
+  background: rgba(254, 168, 47, 0.7); }
+
+.y2 {
+  background: rgba(255, 194, 136, 0.7); }
+
+.z1 {
+  background: rgba(0, 173, 181, 0.7); }
+
+.z2 {
+  background: rgba(170, 216, 211, 0.7); }
 
 fieldset {
   display: inline-block; }

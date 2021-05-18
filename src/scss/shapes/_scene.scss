@@ -35,7 +35,7 @@
   }
 }
 
-.has-circle .face::after {
+.has-circle .circle::after {
   position: absolute;
   content: '';
   top: 0;
@@ -66,4 +66,23 @@
   &::after {
     height: 1px;
   }
+}
+
+.x1 {
+  background: $color-pink;
+}
+.x2 {
+  background: $color-pink-light;
+}
+.y1 {
+  background: $color-yellow;
+}
+.y2 {
+  background: $color-yellow-light;
+}
+.z1 {
+  background: $color-cyan;
+}
+.z2 {
+  background: $color-cyan-light;
 }

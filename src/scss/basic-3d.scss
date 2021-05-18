@@ -4,9 +4,14 @@
 
 $cuboid-w: 150px;
 $cuboid-h: 260px;
-$cuboid-d: 110px;
+$cuboid-d: 150px;
+
 $cube-w: 200px;
 
+$pyramid-size: 200px;
+
+@import 'shapes/pyramid';
+@import 'shapes/sphere';
 @import 'shapes/hexahedron';
 @import 'shapes/scene';
 
@@ -16,10 +21,6 @@ $cube-w: 200px;
 
 section {
   width: 50%;
-}
-
-.circle {
-  border-radius: 50%;
 }
 
 .user-input {

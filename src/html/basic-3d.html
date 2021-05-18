@@ -31,88 +31,116 @@
         <label><input class="user-input" id="js-option-circle" type="checkbox" name="circle" value="has-circle">Circle</label>
         <label><input class="user-input" id="js-option-cross" type="checkbox" name="cross" value="has-cross">Cross</label>
       </div>
-
-
     </div>
   </fieldset>
   <div class="shapes">
-    <section class="cube-section">
+    <section>
       <h2>Cube</h2>
       <div class="scenes" data-shape="cube">
         @@include('./parts/_hexahedron.html')
       </div>
     </section>
-    <section class="cuboid-section">
+    <section>
+      <h2>Sphere</h2>
+      <div class="scenes">
+        <div class="scene">
+          <div class="shape js-shape sphere">
+            <div class="face circle"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
       <h2>Cuboid</h2>
       <div class="scenes" data-shape="cuboid">
         @@include('./parts/_hexahedron.html')
       </div>
     </section>
-<!--   <section class="pyramid-section">
-    <h2>Pyramid</h2>
-    <div class="scenes">
-      <div class="scene">
-        <div class="shape pyramid" id="js-pyramid-start">
-          <div class="face wall x1" data-index="1"></div>
-          <div class="face wall x2" data-index="4"></div>
-          <div class="face wall y1" data-index="2"></div>
-          <div class="face wall y2" data-index="3"></div>
-          <div class="face base z1" data-index="5"></div>
+    <section>
+      <h2>Cylinder</h2>
+      <div class="scenes" data-shape="cylinder">
+        <div class="scene">
+          <div class="shape js-shape cylinder">
+            <div class="face x1 wall"></div>
+            <div class="face x1 wall"></div>
+            <div class="face x1 wall"></div>
+            <div class="face x1 wall"></div>
+            <div class="face x1 wall"></div>
+            <div class="face x1 wall"></div>
+            <div class="face x1 wall"></div>
+            <div class="face x1 wall"></div>
+            <div class="face x1 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face x2 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y1 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face y2 wall"></div>
+            <div class="face top circle z1" data-index="2"><span class="cross"></span></div>
+            <div class="face bottom circle z2" data-index="5"><span class="cross"></span></div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="cone-section">
-    <h2>Cone</h2>
-    <div class="scenes">
-      <div class="scene">
-        <div class="shape cone" id="js-cone-start">
-          <div class="face left" data-index="2"></div>
-          <div class="face right" data-index="3"></div>
-          <div class="face top" data-index="1"></div>
-          <div class="face bottom" data-index="4"></div>
-          <div class="face base" data-index="5"></div>
+    </section>
+    <section>
+      <h2>Pyramid</h2>
+      <div class="scenes" data-shape="pyramid">
+        <div class="scene">
+          <div class="shape js-shape">
+            <div class="face wall x1" data-index="1"><span class="cross"></span><span class="circle"></span></div>
+            <div class="face wall x2" data-index="6"><span class="cross"></span><span class="circle"></span></div>
+            <div class="face wall y1" data-index="3"><span class="cross"></span><span class="circle"></span></div>
+            <div class="face wall y2" data-index="4"><span class="cross"></span><span class="circle"></span></div>
+            <div class="face base z2" data-index="5"><span class="cross"></span><span class="circle"></span></div>
+          </div>
         </div>
       </div>
-    </div> -->
-  <!-- </section>
-  <section class="cylinder-section">
-    <h2>Cylinder</h2>
-    <div class="scenes">
-      <div class="scene">
-        <div class="shape cylinder" id="js-cylinder-start">
-          <div class="face x1" data-index="3"></div>
-          <div class="face x2" data-index="2"></div>
-          <div class="face y1" data-index="1"></div>
-          <div class="face y2" data-index="4"></div>
-          <div class="face base" data-index="5"></div>
+    </section>
+    <section>
+      <h2>Cone</h2>
+      <div class="scenes">
+        <div class="scene">
+          <div class="shape js-shape cone">
+            <div class="face left" data-index="2"></div>
+            <div class="face right" data-index="3"></div>
+            <div class="face top" data-index="1"></div>
+            <div class="face bottom" data-index="4"></div>
+            <div class="face base" data-index="5"></div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="sphere-section">
-    <h2>Sphere</h2>
-    <div class="scenes">
-      <div class="scene">
-        <div class="shape sphere" id="js-sphere-start">
-          <div class="face left" data-index="1"></div>
-          <div class="face right" data-index="2"></div>
-          <div class="face top" data-index="3"></div>
-          <div class="face bottom" data-index="4"></div>
-          <div class="face base" data-index="5"></div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-</div>
-<h2>練習</h2>
-<ol>
-  <li>ひたすら眺めてどの方向へどう変形するのか観察</li>
-  <li>ある程度わかったら、x, y, zそれぞれの方向へ角度を変えた時の形を順番に描く</li>
-  <li>箱型がわかったら、箱をシリンダー・ピラミッド・球に変えて同じように練習</li>
-  <li>目に入るありとあらゆる物体をとりあえず箱型に置き換えたらどう感じになるか脳内でシミュレーションする</li>
-  <li>いろんな基本3Dシェイプを紙の上にバランスよく配置して描く練習をひたすらする</li>
-</ol>
+    </section>
+
+  </div>
+  <h2>練習</h2>
+  <ol>
+    <li>ひたすら眺めてどの方向へどう変形するのか観察</li>
+    <li>ある程度わかったら、x, y, zそれぞれの方向へ角度を変えた時の形を順番に描く</li>
+    <li>箱型がわかったら、箱をシリンダー・ピラミッド・球に変えて同じように練習</li>
+    <li>目に入るありとあらゆる物体をとりあえず箱型に置き換えたらどう感じになるか脳内でシミュレーションする</li>
+    <li>いろんな基本3Dシェイプを紙の上にバランスよく配置して描く練習をひたすらする</li>
+  </ol>
 </main>
 <aside class="app-aside">
   <ul class="simple-list">

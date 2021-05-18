@@ -1,53 +1,95 @@
-.pyramid {
-  $size: 200px;
-  transform: translateX(-$size/2);
+[data-shape='pyramid'] {
+  $size: $pyramid-size;
+
+  .shape {
+    width: $size;
+    height: $size;
+  }
+
+  .face {
+    width: $size;
+    height: $size;
+  }
 
   .wall {
-    transform-origin: 50% 0%;
-    border-top: 0;
-    border-left: $size/2 solid transparent;
-    border-right: $size/2 solid transparent;
-    border-bottom: $size solid;
-    background: transparent;
+    border: 0;
+    background: none;
 
     &::before {
-      bottom: -$size;
+      left: 40px;
+      bottom: 15px;
     }
 
     &::after {
       content: '';
-      position: absolute;
-      width: 220px;
-      height: 2px;
-      background: #000;
       display: block;
-      transform: rotateZ(60deg) translate3d(0, 20px, 0);
+      width: 0;
+      height: 0;
+      border-left: $size/2 solid transparent;
+      border-right: $size/2 solid transparent;
+      border-bottom: $size solid;
     }
-
   }
 
   .x1 {
-    border-bottom-color: $color-pink;
-    transform: rotateX(-30deg);
-
+    transform: rotateX(30deg) translateZ(57px);
+    &::after {
+      border-bottom-color: $color-pink;
+    }
   }
   .x2 {
-    border-bottom-color: $color-pink-light;
-    transform: rotateX(30deg);
+    transform: rotateX(-30deg) rotateY(180deg) translateZ(57px);
+    &::after {
+      border-bottom-color: $color-pink-light;
+    }
   }
   .y1 {
-    border-bottom-color: $color-yellow;
-    transform: rotate(-30deg) rotateY(90deg);
+    transform: rotateZ(-30deg) rotateY(90deg) translateZ(57px);
+    &::after {
+      border-bottom-color: $color-yellow;
+    }
   }
   .y2 {
-    border-bottom-color: $color-yellow-light;
-    transform: rotate(30deg) rotateY(90deg);
+    transform: rotateZ(30deg) rotateY(-90deg) translateZ(57px);
+    &::after {
+      border-bottom-color: $color-yellow-light;
+    }
+  }
+  .z2 {
+    transform: rotateX(-90deg) translateZ(57px);
+  }
+}
+
+
+[data-shape='cylinder'] {
+  $width: $cuboid-w;
+  $height: $cuboid-h;
+  $depth: $cuboid-d;
+
+  .wall {
+    border: 0;
+    width: 13px;
+    height: $height;
+
+    @for $i from 1 through 36 {
+
+      &:nth-of-type(#{$i}) {
+        $deg: $i * 10;
+        transform: rotateY(#{$deg}deg) translateZ(75px);
+      }
+
+    }
   }
 
-  .base {
-    width: $size;
-    height: $size;
-    transform: rotateX(-90deg) translateZ(74px);
+  .circle {
+    width: 150px;
+    height: 150px;
   }
 
+  .top {
+    transform: rotateX(90deg) translateX(-68px) translateZ($depth/2);
+  }
+  .bottom {
+    transform: rotateX(-90deg) translateX(-68px) translateZ($height - $depth/2);
+  }
 }

@@ -1,0 +1,58 @@
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+// #sphere {
+//   width: 100px;
+//   height: 100px;
+//   margin: 200px auto;
+//   -webkit-perspective: 800px;
+//   -moz-persective: 800px;
+// }
+
+// .container {
+//   width: 100px;
+//   height: 100px;
+//   -webkit-transition: -webkit-transform 200ms linear;
+//   -webkit-transform-style: preserve-3d;
+//   -moz-transition: -webkit-transform 200ms linear;
+//   -moz-transform-style: preserve-3d;
+// }
+
+// .container > ul {
+//   -webkit-transform-style: preserve-3d;
+//   -moz-transform-style: preserve-3d;
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+// }
+
+// .container li {
+//   width: 98px;
+//   height: 98px;
+//   position: absolute;
+//   display: block;
+//   background: #000;
+//   border: 1px solid #fff;
+//   opacity: 0.1;
+//   border-radius: 50px;
+// }
+// .contours {
+//   margin: 0;
+//   padding: 0;
+
+//   li {
+//     margin: 0;
+//     padding: 0;
+
+//     @for $i from 1 through 180 {
+//       $y: $i * 2;
+
+//       &:nth-of-type(#{$i}) {
+//         @include rotate(0, $y, 0);
+//       }
+//     }
+//   }
+// }
