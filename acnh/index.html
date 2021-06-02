@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="index.css" rel="stylesheet">
+    <title>test</title>
+
+    <style>
+      .name {
+        text-transform: capitalize;
+      }
+
+      .en {
+        font-size: smaller;
+        opacity: .6;
+      }
+
+      .main-nav .category {
+      }
+      .list {
+        margin-left: 4em;
+        list-style: decimal;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+      .main-nav {
+        display: flex;
+        justify-content: center;
+      }
+
+      .main-nav li {
+        padding: 10px;
+      }
+      .main-nav a {
+      }
+      .sub-nav {
+        background: #ccc;
+        }
+    </style>
+</head>
+<body>
+  <ul class="main-nav">
+    <li>
+      <a class="category" href="#">すべて</a>
+      <ul class="sub-nav">
+        <li><a href="#">ぜんぶ</a></li>
+        <li><a href="#">購入</a></li>
+        <li><a href="#">非売品</a></li>
+        <li><a href="#">DIY</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="category" href="#">家具</a>
+      <ul class="sub-nav">
+        <li><a href="#">ぜんぶ</a></li>
+        <li><a href="#">かぐ</a></li>
+        <li><a href="#">こもの</a></li>
+        <li><a href="#">かべかけ</a></li>
+        <li><a href="#">ゆか</a></li>
+        <li><a href="#">かべ</a></li>
+        <li><a href="#">ラグ</a></li>
+        <li><a href="#">マイル家具</a></li>
+        <li><a href="#">非売品</a></li>
+        <li><a href="#">DIY</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="category" href="#">ファッション</a>
+      <ul class="sub-nav">
+        <li><a href="#">ぜんぶ</a></li>
+        <li><a href="#">トップス</a></li>
+        <li><a href="#">ボトムス</a></li>
+        <li><a href="#">ワンピース</a></li>
+        <li><a href="#">かぶりもの</a></li>
+        <li><a href="#">アクセサリー</a></li>
+        <li><a href="#">くつした</a></li>
+        <li><a href="#">くつ</a></li>
+        <li><a href="#">バッグ</a></li>
+        <li><a href="#">かさ</a></li>
+        <li><a href="#">その他</a></li>
+      </ul>
+
+    </li>
+    <!-- <li>
+      <a class="category" href="#">DIY</a>
+    </li> -->
+    <!-- <li><a class="category" href="#">レシピ</a></li> -->
+    <li>
+      <a class="category" href="#">美術品</a>
+      <ul class="sub-nav">
+        <li><a href="#">ぜんぶ</a></li>
+        <li><a href="#">本物</a></li>
+        <li><a href="#">にせもの</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="category" href="#">写真</a>
+      <ul class="sub-nav">
+        <li><a href="#">ぜんぶ</a></li>
+        <li><a href="#">ねこ</a></li>
+        <li><a href="#">リス</a></li>
+        <li><a href="#">ぞう</a></li>
+        <li><a href="#">ゴリラ</a></li>
+        <li><a href="#">ライオン</a></li>
+        <li><a href="#">やぎ</a></li>
+        <li><a href="#">カエル</a></li>
+        <li><a href="#">うま</a></li>
+        <li><a href="#">こぐま</a></li>
+        <li><a href="#">ぶた</a></li>
+        <li><a href="#">ひつじ</a></li>
+        <li><a href="#">カンガルー</a></li>
+        <li><a href="#">アヒル</a></li>
+        <li><a href="#">ハムスター</a></li>
+        <li><a href="#">コアラ</a></li>
+        <li><a href="#">ワシ</a></li>
+        <li><a href="#">ウサギ</a></li>
+        <li><a href="#">ニワトリ</a></li>
+        <li><a href="#">ワニ</a></li>
+        <li><a href="#">アリくい</a></li>
+        <li><a href="#">カバ</a></li>
+        <li><a href="#">トリ</a></li>
+        <li><a href="#">うし</a></li>
+        <li><a href="#">ねずみ</a></li>
+        <li><a href="#">オオカミ</a></li>
+        <li><a href="#">サル</a></li>
+        <li><a href="#">ペンギン</a></li>
+        <li><a href="#">タコ</a></li>
+        <li><a href="#">サイ</a></li>
+        <li><a href="#">くま</a></li>
+        <li><a href="#">いぬ</a></li>
+        <li><a href="#">だちょう</a></li>
+        <li><a href="#">トラ</a></li>
+        <li><a href="#">しか</a></li>
+        <li><a href="#">いぬ</a></li>
+        <li><a href="#">その他</a></li>
+        <li><a href="#">サンリオ</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="category" href="#">ポスター</a>
+      <ul class="sub-nav">
+        <li><a href="#">ぜんぶ</a></li>
+        <li><a href="#">ねこ</a></li>
+        <li><a href="#">リス</a></li>
+        <li><a href="#">ぞう</a></li>
+        <li><a href="#">ゴリラ</a></li>
+        <li><a href="#">ライオン</a></li>
+        <li><a href="#">やぎ</a></li>
+        <li><a href="#">カエル</a></li>
+        <li><a href="#">うま</a></li>
+        <li><a href="#">こぐま</a></li>
+        <li><a href="#">ぶた</a></li>
+        <li><a href="#">ひつじ</a></li>
+        <li><a href="#">カンガルー</a></li>
+        <li><a href="#">アヒル</a></li>
+        <li><a href="#">ハムスター</a></li>
+        <li><a href="#">コアラ</a></li>
+        <li><a href="#">ワシ</a></li>
+        <li><a href="#">ウサギ</a></li>
+        <li><a href="#">ニワトリ</a></li>
+        <li><a href="#">ワニ</a></li>
+        <li><a href="#">アリくい</a></li>
+        <li><a href="#">カバ</a></li>
+        <li><a href="#">トリ</a></li>
+        <li><a href="#">うし</a></li>
+        <li><a href="#">ねずみ</a></li>
+        <li><a href="#">オオカミ</a></li>
+        <li><a href="#">サル</a></li>
+        <li><a href="#">ペンギン</a></li>
+        <li><a href="#">タコ</a></li>
+        <li><a href="#">サイ</a></li>
+        <li><a href="#">くま</a></li>
+        <li><a href="#">いぬ</a></li>
+        <li><a href="#">だちょう</a></li>
+        <li><a href="#">トラ</a></li>
+        <li><a href="#">しか</a></li>
+        <li><a href="#">いぬ</a></li>
+        <li><a href="#">その他</a></li>
+        <li><a href="#">サンリオ</a></li>
+      </ul>
+    </li>
+    <li>
+      <a class="category" href="#">非売品</a>
+      <ul class="sub-nav">
+        <li><a href="#">ぜんぶ</a></li>
+        <li><a href="#">かぐ</a></li>
+        <li><a href="#">こもの</a></li>
+        <li><a href="#">かべかけ</a></li>
+        <li><a href="#">マイル家具</a></li>
+        <li><a href="#">DIY</a></li>
+        <li><a href="#">写真</a></li>
+        <li><a href="#">美術品</a></li>
+        <li><a href="#">ジョニー</a></li>
+        <li><a href="#">海賊</a></li>
+        <li><a href="#">ローラン</a></li>
+        <li><a href="#">レックス</a></li>
+        <li><a href="#">ジャスティン</a></li>
+        <li><a href="#">DAL</a></li>
+        <li><a href="#">トロフィー系</a></li>
+        <li><a href="#">バースデー</a></li>
+        <li><a href="#">はは</a></li>
+        <li><a href="#">リサイクル系</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ol class="list" id="items"></ol>
+    <script src="jquery.min.js"></script>
+    <script src="data/item-data/items.js"></script>
+    <script>
+
+
+
+      Array.prototype.unique = function() {
+        return Array.from(new Set(this));
+      }
+
+      function getTranslation(key) {
+        return key in translation ? translation[key] : false;
+      }
+
+      let html = '',
+          index = 0,
+          arr = [],
+          newData = [];
+      for (let i = 0; i < items.length; i++) {
+        let item = items[i],
+            name = item.name;
+        if (!item.diy) {
+
+          if (item.variants) {
+
+            let variants = item.variants;
+
+            for (let j = 0; j < variants.length; j++) {
+
+              let variant = variants[j],
+                  id = variant.internalId,
+                  source = variant.source[0],
+                  jp = getTranslation(id);
+
+              if (variant.buy < 0) {
+
+                let color = variant.variation ? variant.variation : '';
+
+                // if (item.seasonEventExclusive) {
+
+                // index++;
+                // }
+
+                // console.log();
+                newData.push({
+                  name: {
+                    en: item.name,
+                    jp: jp
+                  },
+                  color: color,
+                  category: item.sourceSheet,
+                  id: id
+                });
+
+
+
+
+
+
+              }
+
+            }
+
+          }
+        }
+      }
+
+      for (var i = 0; i < newData.length; i++) {
+        let item = newData[i];
+        html += `
+          <li class="item" data-id="${item.id}">
+            <div class="category">${item.category}</div>
+            <div class="name jp">${item.name.jp} ${item.color}</div>
+          </li>
+        `;
+      }
+
+
+      // console.log(arr.unique());
+      // console.log(newData);
+
+      // $('#items').html(html);
+    </script>
+</body>
+</html>
