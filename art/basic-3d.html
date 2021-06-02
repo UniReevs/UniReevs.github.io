@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+  <link rel="stylesheet" href="assets/css/basic-3d.css">
+  <title>立体図形の回転 (How to Rotate Objects)</title>
+</head>
+<body>
+  <div class="app">
+
+    <header class="app-header">
+  <h1 class="logo"><a href="index.html">個人的な資料まとめサイト</a></h1>
+  <ul class="social-media">
+    <li><a href="https://twitter.com/UniReevs">Twitter</a></li>
+    <li><a href="https://www.pinterest.ca/unireevs/">Pinterest</a></li>
+    <li><a href="https://github.com/UniReevs/">Github</a></li>
+  </ul>
+</header>
+
+
+    <div class="app-content">
+
+      <nav class="main-nav">
+  <h2 class="heading">基礎 <span class="en">Basics</span></h2>
+  <ol>
+    <li><a href="pencil-grips.html">鉛筆の持ち方</a> <span class="en">Pencil Grips</span></li>
+    <li><a href="basic-2d.html">基本の平面図</a> <span class="en">Basic 2D Shapes</span></li>
+    <li>
+      <a href="perspective.html">遠近の法則</a> <span class="en">Perspective</span>
+      <div class="for-observation">
+        <a href="tool-perspective.html"><span class="material-icons">architecture</span>観察用</a> <span class="en">For Observation</span>
+      </div>
+    </li>
+    <li>
+      <a href="basic-3d.html">立体図形の回転</a><span class="en">Rotate 3D Shapes</span>
+      <div class="for-observation">
+        <a href="tool-rotating-box.html"><span class="material-icons">architecture</span>観察用</a> <span class="en">For Observation</span>
+        <a href="tool-torso.html"><span class="material-icons">architecture</span>Torso</a>
+      </div>
+    </li>
+    <!-- <li><a href="#">光と影</a><span class="en">Light and Shadow</span></li> -->
+    <!-- <li><a href="#">立体図形を変形させる</a><span class="en">Primitive Shape Manipulation</span></li> -->
+    <!-- <li><a href="#">解剖学</a><span class="en">Anatomy</span></li> -->
+  </ol>
+</nav>
+
+
+
+<main class="app-main">
+  <time class="last-update" datetime="2021-05-11">May 12th, 2021</time>
+  <h1 class="page-title">立体図形の回転</h1>
+  <p>立方体・直方体をいろんな角度から描けるようになったら、他の形も描けるようになる。<a href="tool-rotating-box.html">色んなアングルの一覧はこちら</a></p>
+  <fieldset>
+    <legend>Options</legend>
+    <div class="flex-wrapper">
+      <div class="slider-controlls">
+        <div class="group">
+          <span class="material-icons">height</span>
+          <input class="user-input js-slider" id="js-x" type="range" min="0" max="360" value="0">
+          <input class="user-input js-slider-number" type="tel" value="0">
+        </div>
+        <div class="group">
+          <span class="material-icons">360</span>
+          <input class="user-input js-slider" id="js-y" type="range" min="0" max="360" value="0">
+          <input class="user-input js-slider-number" type="tel" value="0">
+        </div>
+        <div class="group">
+          <span class="material-icons">replay</span>
+          <input class="user-input js-slider" id="js-z" type="range" min="0" max="360" value="0">
+          <input class="user-input js-slider-number" type="tel" value="0">
+        </div>
+      </div>
+      <button class="js-reset" value="rotation">Reset Rotation</button>
+      <div class="group">
+        <label><input class="user-input js-option-guide" type="checkbox" name="circle" value="has-circle-x">Circle X</label>
+        <label><input class="user-input js-option-guide" type="checkbox" name="circle" value="has-circle-y">Circle Y</label>
+        <label><input class="user-input js-option-guide" type="checkbox" name="circle" value="has-circle-z">Circle Z</label>
+        <button class="js-reset" value="circle">Reset Circle</button>
+      </div>
+      <div class="group">
+        <label><input class="user-input js-option-guide" type="checkbox" name="cross" value="has-cross-x">Cross X</label>
+        <label><input class="user-input js-option-guide" type="checkbox" name="cross" value="has-cross-y">Cross Y</label>
+        <label><input class="user-input js-option-guide" type="checkbox" name="cross" value="has-cross-z">Cross Z</label>
+        <button class="js-reset" value="cross">Reset Cross</button>
+      </div>
+    </div>
+  </fieldset>
+  <div class="shapes">
+    <section>
+      <h2>Cube</h2>
+      <div class="scenes" data-shape="cube">
+        <div class="scene">
+  <div class="shape js-shape">
+    <div class="face axis-x x1" data-index="1"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-x x2" data-index="6"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-y y1" data-index="3"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-y y2" data-index="4"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-z z1" data-index="2"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-z z2" data-index="5"><span class="cross"></span><span class="circle"></span></div>
+  </div>
+</div>
+
+      </div>
+    </section>
+    <section>
+      <h2>Sphere</h2>
+      <div class="scenes">
+        <div class="scene">
+          <div class="shape js-shape sphere">
+            <div class="face circle"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Cuboid</h2>
+      <div class="scenes" data-shape="cuboid">
+        <div class="scene">
+  <div class="shape js-shape">
+    <div class="face axis-x x1" data-index="1"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-x x2" data-index="6"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-y y1" data-index="3"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-y y2" data-index="4"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-z z1" data-index="2"><span class="cross"></span><span class="circle"></span></div>
+    <div class="face axis-z z2" data-index="5"><span class="cross"></span><span class="circle"></span></div>
+  </div>
+</div>
+
+      </div>
+    </section>
+    <section>
+      <h2>Cylinder</h2>
+      <div class="scenes" data-shape="cylinder">
+       <div class="scene">
+        <div class="shape js-shape">
+          <div class="face wall axis-x x1"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-x x2"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-y y1"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-y y2"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face axis-z z1" data-index="2"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face axis-z z2" data-index="5"><span class="cross"></span><span class="circle"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Pyramid</h2>
+    <div class="scenes" data-shape="pyramid">
+      <div class="scene">
+        <div class="shape js-shape">
+          <div class="face wall axis-x x1" data-index="1"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-x x2" data-index="6"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-y y1" data-index="3"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-y y2" data-index="4"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face base axis-z z2" data-index="5"><span class="cross"></span><span class="circle"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Cone</h2>
+    <div class="scenes" data-shape="cone">
+      <div class="scene">
+        <div class="shape js-shape">
+          <div class="face wall axis-x x1" data-index="1"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-x x2" data-index="6"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-y y1" data-index="3"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face wall axis-y y2" data-index="4"><span class="cross"></span><span class="circle"></span></div>
+          <div class="face base axis-z z2" data-index="5"><span class="cross"></span><span class="circle"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+<h2>練習</h2>
+<ol>
+  <li>ひたすら眺めてどの方向へどう変形するのか観察</li>
+  <li>ある程度わかったら、x, y, zそれぞれの方向へ角度を変えた時の形を順番に描く</li>
+  <li>箱型がわかったら、箱をシリンダー・ピラミッド・球に変えて同じように練習</li>
+  <li>目に入るありとあらゆる物体をとりあえず箱型に置き換えたらどう感じになるか脳内でシミュレーションする</li>
+  <li>いろんな基本3Dシェイプを紙の上にバランスよく配置して描く練習をひたすらする</li>
+</ol>
+</main>
+<aside class="app-aside">
+  <ul class="simple-list">
+    <li><a href="https://youtu.be/wJ_k4aCknZY"><span class="material-icons">smart_display</span>箱を回転させる時の考え方</a></li>
+    <li><a href="https://youtu.be/P9bmV0hbcNo"><span class="material-icons">smart_display</span>描き方</a></li>
+  </ul>
+ <!--  <ul class="list">
+    <li>
+      <label>Speed: <input class="user-input" type="tel" value="2"></label>
+    </li>
+    <li>
+      <h3>Cube size</h3>
+      <label>
+        <span class="material-icons">fullscreen</span>
+        <input class="user-input js-slider" type="range" min="80" max="300" value="200">
+        <input class="user-input js-slider-number" type="tel" value="200">
+      </label>
+    </li>
+    <li>
+      <h3>Cuboid size</h3>
+      <label>
+        <span class="material-icons">height</span>
+        <input class="user-input js-slider" type="range" min="80" max="300" value="260">
+        <input class="user-input js-slider-number" type="tel" value="260">
+      </label>
+      <label>
+        <span class="material-icons rotate-90">height</span>
+        <input class="user-input js-slider" type="range" min="80" max="300" value="150">
+        <input class="user-input js-slider-number" type="tel" value="150">
+      </label>
+      <label>
+        <span class="material-icons rotate-45">height</span>
+        <input class="user-input js-slider" type="range" min="80" max="300" value="110">
+        <input class="user-input js-slider-number" type="tel" value="110">
+      </label>
+    </li>
+  </ul> -->
+</aside>
+</div>
+<footer class="app-footer">
+  <p>ここは私が「絵を描くににどんなことを勉強したのか」というのをまとめているサイトです。読んでくれてありがとうございます。</p>
+  <p>掲載している<a href="https://github.com/UniReevs/unireevs.github.io/tree/main/img">画像<span class="material-icons">launch</span></a>や<a href="https://github.com/UniReevs/unireevs.github.io/tree/main/downloads">デザインデータ<span class="material-icons">launch</span></a>はご自由にお使いください。ドット方眼と等角図のPDFに関しては<a href="http://houganshi.net/">方眼紙ネット<span class="material-icons">launch</span></a>さんからいただいたものなので、<a href="http://houganshi.net/houganshi_dot.php">そちらの規約<span class="material-icons">launch</span></a>に従ってください。</p>
+  <small>&copy;2021 Uni Reevs</small>
+</footer>
+
+</div>
+
+<script src="src/js/jquery.min.js"></script>
+<script src="src/js/basic-3d.js"></script>
+
+</body>
+</html>
+
+

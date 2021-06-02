@@ -1,0 +1,22 @@
+@@include('./common/html-start.html', {
+"title": "Simplified Torso",
+"css": "tool-torso"
+})
+<main class="app-main">
+  <time class="last-update" datetime="2021-05-18">May 18th, 2021</time>
+  <div class="shapes">
+    <div class="head" data-shape="cuboid">
+      @@include('./parts/_hexahedron.html')
+    </div>
+    <div class="rib-cage" data-shape="cuboid">
+      @@include('./parts/_hexahedron.html')
+    </div>
+    <div class="pelvis" data-shape="cuboid">
+      @@include('./parts/_hexahedron.html')
+    </div>
+  </div>
+</main>
+
+@@include('./common/html-end.html', {
+"script": ""
+})

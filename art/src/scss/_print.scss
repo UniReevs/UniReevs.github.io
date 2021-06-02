@@ -1,0 +1,14 @@
+@media print {
+  .app-header,
+  .app-footer,
+  .main-nav ,
+  .hide-for-print,
+  .last-update {
+    display: none;
+  }
+
+  .app-main {
+    border: 0;
+    padding: 0;
+  }
+}

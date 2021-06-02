@@ -1,0 +1,72 @@
+@@include('./common/html-start.html', {
+"title": "色んな角度の箱 - Rotating Boxes",
+"css": "tool-rotating-box"
+})
+<main class="app-main">
+  <time class="last-update" datetime="2021-05-06">May 12th, 2021</time>
+  <fieldset class="hide-for-print">
+    <legend>Options</legend>
+    <button onClick="window.print()">Print</button>
+    <div class="group">
+      <label><input class="user-input" type="radio" name="shape" value="cube">Cube</label>
+      <label><input class="user-input" type="radio" name="shape" value="cuboid" checked>Cuboid</label>
+    </div>
+    <div class="group">
+      <label><input class="user-input" type="radio" name="axis" value="x">x</label>
+      <label><input class="user-input" type="radio" name="axis" value="y">y</label>
+      <label><input class="user-input" type="radio" name="axis" value="z" checked>z</label>
+    </div>
+    <!-- <div class="group">
+        <span class="material-icons">360</span>
+        <input class="user-input js-slider" id="js-y" type="range" min="0" max="360" value="0">
+        <input class="user-input js-slider-number" type="tel" value="0">
+      </div> -->
+    <div class="group">
+      <label><input class="user-input" type="checkbox" name="face" value="face1" checked>1</label>
+      <label><input class="user-input" type="checkbox" name="face" value="face2" checked>2</label>
+      <label><input class="user-input" type="checkbox" name="face" value="face3" checked>3</label>
+      <label><input class="user-input" type="checkbox" name="face" value="face4" checked>4</label>
+      <label><input class="user-input" type="checkbox" name="face" value="face5" checked>5</label>
+      <label><input class="user-input" type="checkbox" name="face" value="face6" checked>6</label>
+    </div>
+    <div class="group">
+      <label><input class="user-input" type="checkbox" name="circle" value="has-circle" checked>Circle</label>
+    </div>
+    <div class="group">
+      <label><input class="user-input" type="checkbox" name="circle" value="has-cross" checked>Cross</label>
+    </div>
+    <div class="group">
+      <label><input class="user-input" id='js-grid' type="checkbox" name="circle" value="hide-grid" checked>Grid</label>
+    </div>
+  </fieldset>
+  <div class="container">
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="shapes">
+      <section class="has-cross has-circle" id="js-shape" data-shape="cuboid" data-axis="z">
+        @@include('./parts/_scenes.html')
+        @@include('./parts/_scenes.html')
+        @@include('./parts/_scenes.html')
+        @@include('./parts/_scenes.html')
+        @@include('./parts/_scenes.html')
+        @@include('./parts/_scenes.html')
+        @@include('./parts/_scenes.html')
+        @@include('./parts/_scenes.html')
+        @@include('./parts/_scenes.html')
+      </section>
+    </div>
+  </div>
+</main>
+
+@@include('./common/html-end.html', {
+"script": "tool-rotating-box"
+})

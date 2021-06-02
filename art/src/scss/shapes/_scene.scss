@@ -1,0 +1,71 @@
+.scenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.scene {
+  perspective: 600px;
+  margin: 20px;
+}
+
+.shapes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shape {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+}
+
+.face {
+  position: absolute;
+  border: 2px solid $color-black;
+
+  &::before {
+    position: absolute;
+    content: attr(data-index);
+    font-size: 30px;
+    display: block;
+    padding: 20px;
+  }
+}
+
+.has-circle-x .axis-x .circle::after,
+.has-circle-y .axis-y .circle::after,
+.has-circle-z .axis-z .circle::after  {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid $color-black;
+}
+
+.has-cross-x .axis-x .cross,
+.has-cross-y .axis-y .cross,
+.has-cross-z .axis-z .cross {
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    background: $color-black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  &::before {
+    width: 1px;
+  }
+  &::after {
+    height: 1px;
+  }
+}

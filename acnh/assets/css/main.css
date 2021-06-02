@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*
+DF2935
+FDCA40
+E6E8E6
+*/
+a {
+  color: #3772FF;
+}
+a:hover {
+  text-decoration: none;
+}
+label {
+  cursor: pointer;
+  display: inline-block;
+}
+button {
+  cursor: pointer;
+}
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.search {
+  position: relative;
+}
+
+.search .user-input {
+  border-radius: 30px;
+  display: inline-block;
+  width: 340px;
+  padding: 10px 10px 10px 35px;
+}
+.search .material-icons {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.filter li {
+  display: inline-block;
+}
+.filter label {
+  padding: 5px;
+}
+.main-nav {
+  background: #E6E8E6;
+  padding: 10px;
+}
+.main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.group {
+/*  background: rgba(255, 255, 255, .9);
+  padding: 5px 5px 4px;
+  border-radius: 20px;*/
+  margin: 5px 2px;
+}
+.group.all a {
+  border-radius: 20px;
+}
+.group li:first-child a {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.group li:last-child a {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.group a {
+  color: #fff;
+  display: inline-block;
+  padding: 5px 5px 4px;
+  background: #3772FF;
+}
+.main-nav .sub-nav {
+  display: none;
+}
+
+.sub-nav {
+  position: absolute;
+  margin-top: 20px;
+  left: 0;
+  border-right: 1px solid #ccc;
+  width: 10em;
+}
+.main-nav .is-active .sub-nav {
+  display: block;
+}
+
+.is-active a {
+  background: #DF2935;
+}
+
+.sub-nav li {
+  display: block;
+}
+.sub-nav label {
+  padding: 1px 3px;
+}
+.sub-nav .action {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.app-content {
+  margin-left: 10em;
+  padding: 10px;
+}
+
+.item-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.name.en {
+  display: none;
+}
+
+[data-display='grid'] {
+  display: flex;
+  flex-wrap: wrap;
+
+}

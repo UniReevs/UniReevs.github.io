@@ -1,0 +1,75 @@
+@charset 'UTF-8';
+@import 'core';
+@import 'forms';
+
+$base: 100;
+
+$head-w: #{$base * .7}px;
+$head-h: #{$base}px;
+$head-d: #{$base}px;
+$rib-w: #{$base * 1.2}px;
+$rib-h: #{$base}px;
+$rib-d: #{$base * 1.5}px;
+$pelvis-w: #{$base * 1.2}px;
+$pelvis-h: #{$base}px;
+$pelvis-d: #{$base * .7}px;
+
+// @import 'shapes/cuboid';
+// @import 'shapes/scene';
+
+// .head {
+//   $cuboid-w: $head-w;
+//   $cuboid-h: $head-h;
+//   $cuboid-d: $head-d;
+
+//   .axis-x {
+//     width: $width;
+//     height: $height;
+//   }
+//   .axis-y {
+//     width: $depth;
+//     height: $height;
+//   }
+//   .axis-z {
+//     width: $width;
+//     height: $depth;
+//   }
+// }
+
+// .rib-cage {
+//   $cuboid-w: $rib-w;
+//   $cuboid-h: $rib-h;
+//   $cuboid-d: $rib-d;
+
+//   .axis-x {
+//     width: $width;
+//     height: $height;
+//   }
+//   .axis-y {
+//     width: $depth;
+//     height: $height;
+//   }
+//   .axis-z {
+//     width: $width;
+//     height: $depth;
+//   }
+// }
+
+// .pelvis {
+//   $cuboid-w: $pelvis-w;
+//   $cuboid-h: $pelvis-h;
+//   $cuboid-d: $pelvis-d;
+
+//   .axis-x {
+//     width: $width;
+//     height: $height;
+//   }
+//   .axis-y {
+//     width: $depth;
+//     height: $height;
+//   }
+//   .axis-z {
+//     width: $width;
+//     height: $depth;
+//   }
+// }

@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-family-default;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+// img {
+//   width: 100%;
+//   max-width: 100%;
+// }
+
+label,
+input {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.copyright {
+}
+
+strong {
+  font-size: larger;
+}
+
+.last-update {
+  text-align: right;
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+footer {
+  font-size: smaller;
+  border-top: 1px solid #aaa;
+  margin-top: 5em;
+}
+
+.back-to-home {
+  position: fixed;
+  top: 0;
+  right: 10px;
+}
+
+.material-icons {
+  vertical-align: middle;
+  font-size: smaller;
+}
+
+.numbered-list {
+  li {
+    margin-bottom: 1em;
+  }
+}
+
+li .last-update {
+  text-align: left;
+}
+
+/*
+<span class="material-icons">settings</span>
+<span class="material-icons">arrow_right</span>
+<span class="material-icons">arrow_drop_down</span>
+<span class="material-icons">picture_as_pdf</span>
+<span class="material-icons">launch</span>
+<span class="material-icons">smart_display</span>
+*/

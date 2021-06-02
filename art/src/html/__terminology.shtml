@@ -1,0 +1,78 @@
+
+<table id="js-data-table"></table>
+
+<script src="src/js/jquery.min.js"></script>
+<script src="src/data/bones.js"></script>
+<script>
+  let terms = {
+    en: [],
+    jp: [],
+    nn: []
+  };
+
+  let html = `<tr>
+    <th>日本表記</th>
+    <th>英語表記</th>
+    <th>ニックネーム</th>
+  </tr>`;
+
+  function hasListOfBones(region) {
+    return region.bones ? true : false;
+  }
+  function getListOfBones(bones, array) {
+    for (let i = 0; i < bones.length; i++) {
+      let bone = bones[i];
+      pushNames(bone, terms);
+    }
+  }
+  function pushNames(bone, array) {
+    array.en.push(bone.name);
+    array.jp.push(bone.jp);
+    array.nn.push(bone.nickname);
+  }
+
+  for (let i = 0; i < humanBones.length; i++) {
+    let division = humanBones[i],
+    regions = division.list;
+    pushNames(division, terms)
+
+    for (let j = 0; j < regions.length; j++) {
+      let region = regions[j];
+
+      if (hasListOfBones(region)) {
+        getListOfBones(region.bones, terms);
+      }
+      else {
+        let sections = region.list;
+        for (let k = 0; k < sections.length; k++) {
+          let section = sections[k];
+
+          if (hasListOfBones(section)) {
+            getListOfBones(section.bones, terms);
+          } else {
+            let groups = section.list;
+            for (let l = 0; l < groups.length; l++) {
+              let group = groups[l];
+
+              if (hasListOfBones(group)) {
+                getListOfBones(group.bones, terms);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  for (var i = 0; i < terms.en.length; i++) {
+    html += `
+    <tr>
+      <td>${terms.jp[i]}</td>
+      <td>${terms.en[i]}</td>
+      <td>${terms.nn[i]}</td>
+    </tr>
+    `;
+  }
+  $('#js-data-table').html(html);
+  console.log(terms);
+</script>
+

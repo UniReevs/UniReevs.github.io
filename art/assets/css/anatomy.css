@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span,
+a, dl, dt, dd,
+em, img,
+small,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside,
+figure, figcaption, footer, header,
+nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: Helvetica, sans-serif; }
+
+.flex-wrapper {
+  display: flex; }
+
+.for-observation {
+  font-size: smaller; }
+  .for-observation .material-icons {
+    font-size: 22px; }
+
+.logo {
+  font-size: 1em;
+  padding: 0;
+  margin: 0; }
+
+dt {
+  font-weight: 700; }
+
+a:hover {
+  text-decoration: none; }
+
+.last-update {
+  font-size: smaller;
+  position: absolute;
+  right: 10px; }
+
+.app-header {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .app-header a {
+    color: #fff; }
+
+.material-icons {
+  vertical-align: middle; }
+
+.rotate-90 {
+  transform: rotateZ(90deg); }
+
+.rotate-45 {
+  transform: rotateZ(45deg); }
+
+.main-nav {
+  padding: 10px;
+  min-width: 180px; }
+  .main-nav ol,
+  .main-nav ul {
+    padding-left: 1em;
+    margin: 0; }
+  .main-nav li {
+    padding: 0;
+    margin: 0 0 1em; }
+  .main-nav .heading {
+    margin-top: 0; }
+
+.page-title {
+  margin-top: 0; }
+
+.app-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; }
+
+.app-main {
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333; }
+
+.simple-list {
+  margin: 0 0 2em 1.5em;
+  padding: 0; }
+  .simple-list p {
+    margin: 0; }
+  .simple-list li {
+    margin: .5em 0; }
+
+.en {
+  font-size: smaller;
+  display: block; }
+  .en::before {
+    content: '('; }
+  .en::after {
+    content: ')'; }
+
+.social-media {
+  margin: 0;
+  padding: 0;
+  font-size: smaller; }
+  .social-media li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 0 1em; }
+
+.heading {
+  font-size: 1.2em; }
+  .heading .en {
+    font-weight: 400;
+    font-size: .7em; }
+
+.app-footer {
+  font-size: smaller;
+  padding: 10px;
+  border-top: 1px solid #333; }
+  .app-footer .material-icons {
+    font-size: 1em; }
+
+.app-aside {
+  padding: 10px;
+  min-width: 400px; }
+  .app-aside .heading {
+    margin: 0; }
+
+@media print {
+  .app-header,
+  .app-footer,
+  .main-nav,
+  .hide-for-print,
+  .last-update {
+    display: none; }
+  .app-main {
+    border: 0;
+    padding: 0; } }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+.title {
+  margin: 0;
+  font-weight: 400;
+  display: inline-block; }
+
+.anatomy-nav {
+  min-width: 420px;
+  border: 1px solid #000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  .anatomy-nav > ol {
+    margin: 0;
+    padding: 0; }
+  .anatomy-nav li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 5px;
+    margin: 0;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    background: #fff; }
+    .anatomy-nav li:hover {
+      background: #ccc; }
+
+.toggle {
+  display: inline-block;
+  margin-left: -3px; }
+
+.paired-bones {
+  padding: 1px 3px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2px;
+  font-size: smaller;
+  position: absolute;
+  right: 0;
+  background: #0391d3; }
+
+.nickname {
+  /*display: none;*/
+  font-size: 1.4rem; }
+
+.name {
+  display: inline-block;
+  font-size: 1.4rem; }
+
+.icon-open,
+.icon-close {
+  font-size: 3rem;
+  line-height: 1;
+  width: 22px; }
+
+.is-collapsed ol,
+.icon-open,
+.is-collapsed .icon-close {
+  display: none; }
+
+.is-collapsed .icon-open {
+  display: inline-block; }

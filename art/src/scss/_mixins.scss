@@ -1,0 +1,275 @@
+@mixin rotate($x, $y, $z) {
+  transform: rotateX(#{$x}deg) rotateY(#{$y}deg) rotateZ(#{$z}deg);
+}
+
+@mixin hexahedron($width, $height, $depth) {
+  .shape {
+    width: $width;
+    height: $height;
+  }
+
+  .axis-x {
+    width: $width;
+    height: $height;
+  }
+  .axis-y {
+    width: $depth;
+    height: $height;
+  }
+  .axis-z {
+    width: $width;
+    height: $depth;
+  }
+
+  .x1 {
+    transform: rotateY(0deg) translateZ($depth/2);
+    background: $color-pink;
+  }
+  .x2 {
+    transform: rotateY(180deg) translateZ($depth/2);
+    background: $color-pink-light;
+  }
+  .y1 {
+    transform: rotateY(90deg) translateZ($width - $depth/2);
+    background: $color-yellow;
+  }
+  .y2 {
+    transform: rotateY(-90deg) translateZ($depth/2);
+    background: $color-yellow-light;
+  }
+  .z1 {
+    transform: rotateX(90deg) translateZ($depth/2);
+    background: $color-cyan;
+  }
+  .z2 {
+    transform: rotateX(-90deg) translateZ($height - $depth/2);
+    background: $color-cyan-light;
+  }
+}
+
+@mixin cylinder($width, $height, $depth) {
+  $wall-w: 360/36;
+
+  .shape {
+    width: $width;
+    height: $height;
+  }
+
+
+  .wall {
+    width: #{$wall-w}px;
+    height: $height;
+    border: 0;
+  }
+
+  .axis-z {
+    border-radius: 50%;
+    width: $width;
+    height: $depth;
+
+    &::before {
+      padding: 30px 0 0 30px;
+    }
+  }
+
+  $translateZ: #{$wall-w}px;
+  .x1 {
+    transform: rotateY(10deg) translateZ($translateZ);
+    background: $color-pink;
+  }
+  .x2 {
+    transform: rotateY(180deg) translateZ($translateZ);
+    background: $color-pink-light;
+  }
+  .y1 {
+    transform: rotateY(90deg) translateZ($translateZ);
+    background: $color-yellow;
+  }
+  .y2 {
+    transform: rotateY(-90deg) translateZ($translateZ);
+    background: $color-yellow-light;
+  }
+  .z1 {
+    transform: rotateX(90deg) translateZ($depth/2);
+    background: $color-cyan;
+  }
+  .z2 {
+    transform: rotateX(-90deg) translateZ($height - $depth/2);
+    background: $color-cyan-light;
+  }
+}
+
+// @mixin cylinderx($diameter, $height, $depth) {
+//   $wall-w: $diameter / 36;
+//   .wall {
+//     border: 0;
+//     width: $wall-w;
+//     height: $height;
+
+//     @for $i from 1 through 36 {
+
+//       &:nth-of-type(#{$i}) {
+//         $deg: $i * 10;
+//         transform: rotateY(#{$deg}deg) translateZ($depth/2);
+//       }
+
+//     }
+//   }
+
+//   .circle {
+//     // border-radius: 50%;
+//     width: $diameter;
+//     height: $diameter;
+//   }
+
+//   .x1 {
+//     transform: rotateY(0deg) translateZ($depth/2);
+//     background: $color-pink;
+//   }
+//   .x2 {
+//     transform: rotateY(180deg) translateZ($depth/2);
+//     background: $color-pink-light;
+//   }
+//   .y1 {
+//     transform: rotateY(90deg) translateZ($diameter - $depth/2);
+//     background: $color-yellow;
+//   }
+//   .y2 {
+//     transform: rotateY(-90deg) translateZ($depth/2);
+//     background: $color-yellow-light;
+//   }
+
+//   .z1 {
+//     transform: rotateX(90deg) translateZ($depth/2);
+//     background: $color-cyan;
+//   }
+//   .z2 {
+//     transform: rotateX(-90deg) translateZ($height - $depth/2);
+//     background: $color-cyan-light;
+//   }
+// }
+
+@mixin pyramid($size) {
+  .shape {
+    width: $size;
+    height: $size;
+  }
+
+  .face {
+    width: $size;
+    height: $size;
+  }
+
+  .wall {
+    border: 0;
+
+    &::before {
+      left: 30px;
+      bottom: 0;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: $size/2 solid transparent;
+      border-right: $size/2 solid transparent;
+      border-bottom: $size solid;
+    }
+  }
+
+  $translateZ: $size/2/2+7;
+
+  .x1 {
+    transform: rotateX(30deg) translateZ($translateZ);
+    &::after {
+      border-bottom-color: $color-pink;
+    }
+  }
+  .x2 {
+    transform: rotateX(-30deg) rotateY(180deg) translateZ($translateZ);
+    &::after {
+      border-bottom-color: $color-pink-light;
+    }
+  }
+  .y1 {
+    transform: rotateZ(-30deg) rotateY(90deg) translateZ($translateZ);
+    &::after {
+      border-bottom-color: $color-yellow;
+    }
+  }
+  .y2 {
+    transform: rotateZ(30deg) rotateY(-90deg) translateZ($translateZ);
+    &::after {
+      border-bottom-color: $color-yellow-light;
+    }
+  }
+  .z2 {
+    transform: rotateX(-90deg) translateZ($translateZ);
+    background: $color-cyan-light;
+  }
+}
+
+@mixin cone($size) {
+  $width: 360/36;
+  .shape {
+    width: $size;
+    height: $size;
+  }
+
+  .face {
+    width: $size;
+    height: $size;
+  }
+
+  .wall {
+    border: 0;
+
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: #{$width}px solid transparent;
+      border-right: #{$width}px solid transparent;
+      border-bottom: $size solid;
+    }
+  }
+
+  $translateZ: $size/2/2+7;
+
+  .x1 {
+    transform: rotateX(30deg) translateZ($translateZ);
+    &::after {
+      border-bottom-color: $color-pink;
+    }
+  }
+  .x2 {
+    transform: rotateX(-30deg) rotateY(180deg) translateZ($translateZ);
+    &::after {
+      border-bottom-color: $color-pink-light;
+    }
+  }
+  .y1 {
+    transform: rotateZ(-30deg) rotateY(90deg) translateZ($translateZ);
+    &::after {
+      border-bottom-color: $color-yellow;
+    }
+  }
+  .y2 {
+    transform: rotateZ(30deg) rotateY(-90deg) translateZ($translateZ);
+    &::after {
+      border-bottom-color: $color-yellow-light;
+    }
+  }
+  .z2 {
+    transform: rotateX(-90deg) translateZ($translateZ);
+    background: $color-cyan-light;
+    border-radius: 50%;
+  }
+}

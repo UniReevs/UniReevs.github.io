@@ -1,0 +1,86 @@
+@charset 'UTF-8';
+@import 'core';
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+.title {
+  margin: 0;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.anatomy-nav {
+  min-width: 420px;
+  border: 1px solid #000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  > ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 5px;
+    margin: 0;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    background: #fff;
+
+    &:hover {
+      background: #ccc;
+    }
+  }
+}
+
+.toggle {
+  display: inline-block;
+  margin-left: -3px;
+}
+
+.paired-bones {
+  padding: 1px 3px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2px;
+  font-size: smaller;
+  position: absolute;
+  right: 0;
+  background: $color-link;
+}
+
+.nickname {
+  /*display: none;*/
+  font-size: 1.4rem;
+}
+.name {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.icon-open,
+.icon-close {
+  font-size: 3rem;
+  line-height: 1;
+  width: 22px;
+}
+.is-collapsed ol,
+.icon-open,
+.is-collapsed .icon-close {
+  display: none;
+}
+
+.is-collapsed .icon-open {
+  display: inline-block;
+}

@@ -1,0 +1,72 @@
+@charset 'UTF-8';
+@import 'core';
+@import 'forms';
+@import 'shapes/scene';
+
+
+[data-shape='cube'] {
+  $size: 200px;
+  @include hexahedron($size, $size, $size);
+}
+
+[data-shape='cuboid'] {
+  $width: 150px;
+  $height: 260px;
+  $depth: 150px;
+  @include hexahedron($width, $height, $depth);
+}
+
+[data-shape='cylinder'] {
+  $width: 150px;
+  $height: 260px;
+  $depth: 150px;
+  @include cylinder($width, $height, $depth);
+}
+
+[data-shape='pyramid'] {
+  $size: 200px;
+  @include pyramid($size);
+}
+
+[data-shape='cone'] {
+  $size: 200px;
+  @include cone($size);
+}
+
+.app-aside {
+  width: 400px;
+}
+
+section {
+  width: 50%;
+}
+
+.user-input {
+  padding: 5px;
+  font-size: larger;
+  vertical-align: middle;
+
+  &[type='range'] {
+    width: 200px;
+  }
+  &[type='tel'] {
+    width: 3em;
+    text-align: center;
+  }
+}
+
+label {
+  margin-right: 30px;
+  display: block;
+}
+
+.slider-controlls {
+  .material-icons {
+    font-size: 50px;
+  }
+}
+
+fieldset .material-icons {
+  font-size: 30px;
+}
+
