@@ -1,5 +1,6 @@
 node_modules
 *.sublime-workspace
+*.psd
 portfolio/
 anatomy/
 src/html/bk.shtml

@@ -11,6 +11,9 @@ DF2935
 FDCA40
 E6E8E6
 */
+select {
+  padding: 5px;
+}
 a {
   color: #3772FF;
 }
@@ -30,6 +33,13 @@ button {
   align-items: center;
   padding: 10px;
 }
+.list {
+  margin-left: 5em;
+}
+.list li {
+  list-style: decimal;
+
+}
 
 .search {
   position: relative;
@@ -46,10 +56,10 @@ button {
   left: 10px;
   top: 10px;
 }
-.filter li {
+.filter-bar li {
   display: inline-block;
 }
-.filter label {
+.filter-bar label {
   padding: 5px;
 }
 .main-nav {
@@ -61,11 +71,13 @@ button {
   flex-wrap: wrap;
 }
 .main-nav a {
-  color: #fff;
   text-decoration: none;
+  display: inline-block;
+  border: 1px solid #ccc;
 }
 .main-nav a:hover {
   text-decoration: underline;
+  border-color: #000;
 }
 
 .group {
@@ -74,33 +86,37 @@ button {
   border-radius: 20px;*/
   margin: 5px 2px;
 }
-.group.all a {
-  border-radius: 20px;
+/*.group.all a {
+  border-radius: 50px;
 }
 .group li:first-child a {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 .group li:last-child a {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}*/
 .group a {
-  color: #fff;
+  color: #000;
   display: inline-block;
   padding: 5px 5px 4px;
-  background: #3772FF;
+  background: #ffffdd;
 }
 .main-nav .sub-nav {
   display: none;
 }
 
+.main-nav img {
+  width: 30px;
+  cursor: pointer;
+}
+
 .sub-nav {
   position: absolute;
   margin-top: 20px;
-  left: 0;
-  border-right: 1px solid #ccc;
-  width: 10em;
+  right: 0;
+  width: 11em;
 }
 .main-nav .is-active .sub-nav {
   display: block;
@@ -110,7 +126,8 @@ button {
   background: #DF2935;
 }
 
-.sub-nav li {
+.sub-nav li,
+.sub-nav ul {
   display: block;
 }
 .sub-nav label {
@@ -121,23 +138,93 @@ button {
   margin-bottom: 5px;
 }
 .app-content {
-  margin-left: 10em;
+
+  display: flex;
+}
+.main-content {
   padding: 10px;
+  margin-right: 11em;
+  width: 100%;
+}
+.filter {
+  width: 120px;
 }
 
-.item-list li {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
+.name {
+  font-size: 80%;
 }
-.name.en {
-  display: none;
+
+.variant {
+  font-size: 60%;
+}
+
+.price {
+  font-size: 60%;
+}
+
+.price img {
+  width: 12px;
+  display: inline-block;
+  margin-right: 3px;
+  margin-top: -2px;
+  vertical-align: middle;
 }
 
 [data-display='grid'] {
   display: flex;
   flex-wrap: wrap;
-
 }
+
+.variants {
+  display: flex;
+  justify-content: center;
+}
+.item-image {
+  width: 50px;
+  max-width: 128px;
+}
+.item-variant,
+.item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+.item-variant {
+  margin: 1px;
+  padding: 2px;
+}
+
+[data-category='Miscellaneous'],
+[data-category='Wall-mounted'],
+[data-category='Wallpaper'],
+[data-category='Floors'],
+[data-category='Rugs'],
+[data-category='Fencing'],
+[data-category='Photos'],
+[data-category='Posters'],
+[data-category='Tools'],
+[data-category='Tops'],
+[data-category='Bottoms'],
+[data-category='Dress-Up'],
+[data-category='Headwear'],
+[data-category='Accessories'],
+[data-category='Socks'],
+[data-category='Shoes'],
+[data-category='Bags'],
+[data-category='Umbrellas'],
+[data-category='Clothing-Other'],
+[data-category='Music'],
+[data-category='Fossils'],
+[data-category='Other'],
+[data-category='Art'],
+[data-category='Housewares']
+{
+  /*display: none;*/
+}
+.item {
+  /*display: none;*/
+}
+

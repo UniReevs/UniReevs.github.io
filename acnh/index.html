@@ -3,282 +3,200 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons&family=Open+Sans">
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/icons.css" rel="stylesheet">
   <title>ACNH</title>
 
 </head>
 <body>
+
   <div class="app">
-    <header class="app-header">
-      <nav class="filter">
+<!--     <header class="app-header">
+      <nav class="filter-bar">
         <ul>
-          <li><label><input type="checkbox">家具</label></li>
-          <li><label><input type="checkbox">衣類</label></li>
-          <li><label><input type="checkbox">DIY</label></li>
-          <li><label><input type="checkbox">購入可</label></li>
-          <li><label><input type="checkbox">非売品</label></li>
-          <li><label><input type="checkbox">マイル購入</label></li>
-          <li><label><input type="checkbox">季節もの</label></li>
-          <li><label><input type="checkbox">カタログに載らない</label></li>
-          <li><label><input type="checkbox">取得済み</label></li>
-          <li><label><input type="checkbox">未取得</label></li>
-          <li><button>全てチェック</button>　<button>全て外す</button></li>
+          <li><label><input type="checkbox" checked>家具</label></li>
+          <li><label><input type="checkbox" checked>衣類</label></li>
+          <li><label><input type="checkbox" checked>DIY</label></li>
+          <li><label><input type="checkbox" checked>購入可</label></li>
+          <li><label><input type="checkbox" checked>非売品</label></li>
+          <li><label><input type="checkbox" checked>マイル購入</label></li>
+          <li><label><input type="checkbox" checked>季節もの</label></li>
+          <li><label><input type="checkbox" checked>カタログに載らない</label></li>
+          <li><label><input type="checkbox" checked>取得済み</label></li>
+          <li><label><input type="checkbox" checked>未取得</label></li>
+          <li><button>全て選択</button>　<button>全て外す</button></li>
+          <li>
+            <select name="sort">
+              <option value="">あいうえお順</option>
+              <option value="">しゅるい順</option>
+              <option value="">入手方法</option>
+              <option value="">高い順</option>
+              <option value="">低い順</option>
+              <option value="">A-Z</option>
+            </select>
+          </li>
         </ul>
       </nav>
       <div class="search">
         <input type="text" class="user-input"><span class="material-icons">search</span>
       </div>
-    </header>
-    <main>
-      <nav class="main-nav" id="js-main-nav">
-        <ul>
-          <li class="group all"><a href="#">すべて</a></li>
-          <li class="group furniture">
-            <ul>
-              <li><a href="#">All</a></li>
-              <li><a href="#">かぐ</a></li>
-              <li><a href="#">小物</a></li>
-              <li><a href="#">壁掛け</a></li>
-              <li><a href="#">床・壁・ラグ</a></li>
-              <li><a href="#">非売品</a></li>
-              <li><a href="#">DIY</a></li>
-            </ul>
-          </li>
-          <li class="group clothing">
-            <ul>
-              <li><a href="#">All</a></li>
-              <li><a href="#">トップス</a></li>
-              <li><a href="#">ボトムス</a></li>
-              <li><a href="#">ワンピ</a></li>
-              <li><a href="#">被り物</a></li>
-              <li><a href="#">アクセサリー</a></li>
-              <li><a href="#">靴下</a></li>
-              <li><a href="#">靴</a></li>
-              <li><a href="#">鞄・傘・他</a></li>
-            </ul>
-          </li>
-          <li class="group not-for-sale">
-            <ul>
-              <li><a href="#">美術品</a></li>
-              <li><a href="#">ジョニー</a></li>
-              <li><a href="#">海賊</a></li>
-              <li><a href="#">ローラン</a></li>
-              <li><a href="#">レックス</a></li>
-              <li><a href="#">ジャスティン</a></li>
-              <li><a href="#">他</a></li>
-            </ul>
-          </li>
-          <li class="group npc">
-            <ul>
-              <li class="is-active">
-                <a href="#">写真</a>
-                <ul class="sub-nav">
-                  <li class="action"><button>写真</button> <button>ポスター</button></li>
-                  <li class="action"><button>全てチェック</button></li>
-                  <li><label><input type="checkbox">ねこ</label></li>
-                  <li><label><input type="checkbox">リス</label></li>
-                  <li><label><input type="checkbox">ぞう</label></li>
-                  <li><label><input type="checkbox">ゴリラ</label></li>
-                  <li><label><input type="checkbox">ライオン</label></li>
-                  <li><label><input type="checkbox">やぎ</label></li>
-                  <li><label><input type="checkbox">カエル</label></li>
-                  <li><label><input type="checkbox">うま</label></li>
-                  <li><label><input type="checkbox">こぐま</label></li>
-                  <li><label><input type="checkbox">ぶた</label></li>
-                  <li><label><input type="checkbox">ひつじ</label></li>
-                  <li><label><input type="checkbox">カンガルー</label></li>
-                  <li><label><input type="checkbox">アヒル</label></li>
-                  <li><label><input type="checkbox">ハムスター</label></li>
-                  <li><label><input type="checkbox">コアラ</label></li>
-                  <li><label><input type="checkbox">ワシ</label></li>
-                  <li><label><input type="checkbox">ウサギ</label></li>
-                  <li><label><input type="checkbox">ニワトリ</label></li>
-                  <li><label><input type="checkbox">ワニ</label></li>
-                  <li><label><input type="checkbox">アリくい</label></li>
-                  <li><label><input type="checkbox">カバ</label></li>
-                  <li><label><input type="checkbox">トリ</label></li>
-                  <li><label><input type="checkbox">うし</label></li>
-                  <li><label><input type="checkbox">ねずみ</label></li>
-                  <li><label><input type="checkbox">オオカミ</label></li>
-                  <li><label><input type="checkbox">サル</label></li>
-                  <li><label><input type="checkbox">ペンギン</label></li>
-                  <li><label><input type="checkbox">タコ</label></li>
-                  <li><label><input type="checkbox">サイ</label></li>
-                  <li><label><input type="checkbox">くま</label></li>
-                  <li><label><input type="checkbox">いぬ</label></li>
-                  <li><label><input type="checkbox">だちょう</label></li>
-                  <li><label><input type="checkbox">トラ</label></li>
-                  <li><label><input type="checkbox">しか</label></li>
-                  <li><label><input type="checkbox">いぬ</label></li>
-                  <li><label><input type="checkbox">その他</label></li>
-                  <li><label><input type="checkbox">サンリオ</label></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li class="group recipes">
-            <ul>
-              <li><a href="#">レシピ</a></li>
-            </ul>
-          </li>
-          <li class="group seasonal">
-            <ul>
-              <li>
-                <a href="#">季節</a>
-                <ul class="sub-nav">
-                  <li><label><input type="checkbox">たぬきショッピング</label></li>
-                  <li><label><input type="checkbox">魚釣り大会</label></li>
-                  <li><label><input type="checkbox">虫取り大会</label></li>
-                  <li><label><input type="checkbox">花火大会</label></li>
-                  <li><label><input type="checkbox">カーニバル</label></li>
-                  <li><label><input type="checkbox">はるのわかたけ</label></li>
-                  <li><label><input type="checkbox">シャムロックデー</label></li>
-                  <li><label><input type="checkbox">さくらのはなびら</label></li>
-                  <li><label><input type="checkbox">イースター</label></li>
-                  <li><label><input type="checkbox">メーデー</label></li>
-                  <li><label><input type="checkbox">国際ミュージアムデー</label></li>
-                  <li><label><input type="checkbox">ジューンブライド</label></li>
-                  <li><label><input type="checkbox">なつのかいがら</label></li>
-                  <li><label><input type="checkbox">どんぐり/まつぼっくり</label></li>
-                  <li><label><input type="checkbox">ハロウィン</label></li>
-                  <li><label><input type="checkbox">キノコ</label></li>
-                  <li><label><input type="checkbox">もみじのはっぱ</label></li>
-                  <li><label><input type="checkbox">サンクスギビングデー</label></li>
-                  <li><label><input type="checkbox">クリスマス</label></li>
-                  <li><label><input type="checkbox">ゆきのけっしょう</label></li>
-                  <li><label><input type="checkbox">オーナメント</label></li>
-                  <li><label><input type="checkbox">カウントダウン</label></li>
-                  <li><label><input type="checkbox">誕生日</label></li>
-                  <li><label><input type="checkbox">ははシリーズ</label></li>
-                </ul>
+    </header> -->
+    <nav class="main-nav" id="js-main-nav">
+      <ul>
+        <li class="group all is-active"><a href="#">すべて</a></li>
+        <li class="group furniture">
+          <ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#"><img src="assets/img/categories/housewares.png" alt="かぐ"></a></li>
+            <li><a href="#"><img src="assets/img/categories/miscellaneous.png" alt="こもの"></a></li>
+            <li><a href="#"><img src="assets/img/categories/wall-mounted.png" alt="かべかけ"></a></li>
+            <li><a href="#"><img src="assets/img/categories/wallpaper.png" alt="かべがみ"></a></li>
+            <li><a href="#"><img src="assets/img/categories/floors.png" alt="ゆかいた"></a></li>
+            <li><a href="#"><img src="assets/img/categories/rugs.png" alt="ラグ"></a></li>
+            <!-- <li><a href="#"><img src="assets/img/categories/housewares.png" alt="">非売品</a></li> -->
+            <!-- <li><a href="#"><img src="assets/img/categories/housewares.png" alt="">DIY</a></li> -->
+          </ul>
+        </li>
+        <li class="group clothing">
+          <ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#"><img src="assets/img/categories/tops.png" alt="トップス"></a></li>
+            <li><a href="#"><img src="assets/img/categories/bottoms.png" alt="ボトムス"></a></li>
+            <li><a href="#"><img src="assets/img/categories/dresses.png" alt="ワンピース"></a></li>
+            <li><a href="#"><img src="assets/img/categories/headwear.png" alt="かぶりもの"></a></li>
+            <li><a href="#"><img src="assets/img/categories/accessories.png" alt="アクセサリー"></a></li>
+            <li><a href="#"><img src="assets/img/categories/socks.png" alt="くつした"></a></li>
+            <li><a href="#"><img src="assets/img/categories/shoes.png" alt="くつ"></a></li>
+            <li><a href="#"><img src="assets/img/categories/bags.png" alt="バッグ"></a></li>
+            <li><a href="#"><img src="assets/img/categories/umbrellas.png" alt="かさ"></a></li>
+            <!-- <li><a href="#"><img src="assets/img/categories/others.png" alt="そのほか"></a></li> -->
+            <!-- <li><a href="#"><img src="assets/img/categories/clothing-other.png" alt=""></a></li> -->
+            <!-- <li><a href="#"><img src="assets/img/categories/fencing.png" alt=""></a></li> -->
+            <!-- <li><a href="#"><img src="assets/img/categories/fossils.png" alt=""></a></li> -->
+            <!-- <li><a href="#"><img src="assets/img/categories/item.png" alt=""></a></li> -->
+            <!-- <li><a href="#"><img src="assets/img/categories/tools.png" alt=""></a></li> -->
+          </ul>
+        </li>
+        <li class="group not-for-sale">
+          <ul>
+            <li><a href="#"><img src="assets/img/icons/redd.png" alt="つねきち"></a></li>
+            <li><a href="#"><img src="assets/img/icons/gulliver.png" alt="ジョニー"></a></li>
+            <li><a href="#"><img src="assets/img/icons/gullivarrr.png" alt="海賊ジョニー"></a></li>
+            <li><a href="#"><img src="assets/img/icons/saharah.png" alt="ローラン"></a></li>
+            <li><a href="#"><img src="assets/img/icons/flick.png" alt="レックス"></a></li>
+            <li><a href="#"><img src="assets/img/icons/cj.png" alt="ジャスティン"></a></li>
+            <li><a href="#"><img src="assets/img/icons/lisa.png" alt="リサ＆カイゾー"></a></li>
+            <li><a href="#"><img src="assets/img/icons/jingle.png" alt="ジングル"></a></li>
+            <li><a href="#"><img src="assets/img/icons/pck.png" alt="ベルリーナ"></a></li>
+            <li><a href="#"><img src="assets/img/icons/rks.png" alt="ラコスケ"></a></li>
+            <li><a href="#"><img src="assets/img/icons/franklin.png" alt="フランクリン"></a></li>
+            <li><a href="#"><img src="assets/img/icons/jack.png" alt="パンプキング"></a></li>
+            <li><a href="#">他</a></li>
+          </ul>
+        </li>
+        <li class="group npc">
+          <ul>
+            <li><a href="#"><img src="assets/img/categories/art.png" alt=""></a></li>
+            <li>
+              <a href="#"><img src="assets/img/categories/posters.png" alt="しゃしん・ポスター"></a>
+              <ul class="sub-nav">
+                <li class="action"><button>全て選択</button> <button>全て外す</button></li>
+                <li><label><input type="checkbox" checked>ねこ</label></li>
+                <li><label><input type="checkbox" checked>リス</label></li>
+                <li><label><input type="checkbox" checked>ぞう</label></li>
+                <li><label><input type="checkbox" checked>ゴリラ</label></li>
+                <li><label><input type="checkbox" checked>ライオン</label></li>
+                <li><label><input type="checkbox" checked>やぎ</label></li>
+                <li><label><input type="checkbox" checked>カエル</label></li>
+                <li><label><input type="checkbox" checked>うま</label></li>
+                <li><label><input type="checkbox" checked>こぐま</label></li>
+                <li><label><input type="checkbox" checked>ぶた</label></li>
+                <li><label><input type="checkbox" checked>ひつじ</label></li>
+                <li><label><input type="checkbox" checked>カンガルー</label></li>
+                <li><label><input type="checkbox" checked>アヒル</label></li>
+                <li><label><input type="checkbox" checked>ハムスター</label></li>
+                <li><label><input type="checkbox" checked>コアラ</label></li>
+                <li><label><input type="checkbox" checked>ワシ</label></li>
+                <li><label><input type="checkbox" checked>ウサギ</label></li>
+                <li><label><input type="checkbox" checked>ニワトリ</label></li>
+                <li><label><input type="checkbox" checked>ワニ</label></li>
+                <li><label><input type="checkbox" checked>アリくい</label></li>
+                <li><label><input type="checkbox" checked>カバ</label></li>
+                <li><label><input type="checkbox" checked>トリ</label></li>
+                <li><label><input type="checkbox" checked>うし</label></li>
+                <li><label><input type="checkbox" checked>ねずみ</label></li>
+                <li><label><input type="checkbox" checked>オオカミ</label></li>
+                <li><label><input type="checkbox" checked>サル</label></li>
+                <li><label><input type="checkbox" checked>ペンギン</label></li>
+                <li><label><input type="checkbox" checked>タコ</label></li>
+                <li><label><input type="checkbox" checked>サイ</label></li>
+                <li><label><input type="checkbox" checked>くま</label></li>
+                <li><label><input type="checkbox" checked>いぬ</label></li>
+                <li><label><input type="checkbox" checked>だちょう</label></li>
+                <li><label><input type="checkbox" checked>トラ</label></li>
+                <li><label><input type="checkbox" checked>しか</label></li>
+                <li><label><input type="checkbox" checked>いぬ</label></li>
+                <li><label><input type="checkbox" checked>その他</label></li>
+                <li><label><input type="checkbox" checked>サンリオ</label></li>
               </ul>
             </li>
-          </li>
-        </ul>
-      </nav>
-      <div class="app-content">
-        <ul class="item-list" data-display="grid">
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-          <li>
-            <div class="name jp">アップリケのしゃしん</div>
-            <div class="name en">aonfson</div>
-            <img src="https://acnhcdn.com/latest/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png" alt="">
-          </li>
-        </ul>
+            <li><a href="#"><img src="assets/img/categories/music.png" alt=""></a></li>
+          </ul>
+        </li>
+        <li class="group recipes">
+          <ul>
+            <li><a href="#">レシピ</a></li>
+          </ul>
+        </li>
+        <li class="group seasonal">
+          <ul>
+            <li>
+              <a href="#">季節</a>
+              <ul class="sub-nav">
+                <li class="action"><button>全て選択</button> <button>全て外す</button></li>
+                <li><label><input type="checkbox" checked>たぬきショッピング</label></li>
+                <li><label><input type="checkbox" checked>魚釣り大会</label></li>
+                <li><label><input type="checkbox" checked>虫取り大会</label></li>
+                <li><label><input type="checkbox" checked>花火大会</label></li>
+                <li><label><input type="checkbox" checked>カーニバル</label></li>
+                <li><label><input type="checkbox" checked>はるのわかたけ</label></li>
+                <li><label><input type="checkbox" checked>シャムロック</label></li>
+                <li><label><input type="checkbox" checked>さくらのはなびら</label></li>
+                <li><label><input type="checkbox" checked>イースター</label></li>
+                <li><label><input type="checkbox" checked>メーデー</label></li>
+                <li><label><input type="checkbox" checked>国際ミュージアム</label></li>
+                <li><label><input type="checkbox" checked>ジューンブライド</label></li>
+                <li><label><input type="checkbox" checked>なつのかいがら</label></li>
+                <li><label><input type="checkbox" checked>どんぐり/松ぼっくり</label></li>
+                <li><label><input type="checkbox" checked>ハロウィン</label></li>
+                <li><label><input type="checkbox" checked>キノコ</label></li>
+                <li><label><input type="checkbox" checked>もみじのはっぱ</label></li>
+                <li><label><input type="checkbox" checked>サンクスギビング</label></li>
+                <li><label><input type="checkbox" checked>クリスマス</label></li>
+                <li><label><input type="checkbox" checked>ゆきのけっしょう</label></li>
+                <li><label><input type="checkbox" checked>オーナメント</label></li>
+                <li><label><input type="checkbox" checked>カウントダウン</label></li>
+                <li><label><input type="checkbox" checked>誕生日</label></li>
+                <li><label><input type="checkbox" checked>ははシリーズ</label></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
 
+    </nav>
+    <main class="app-content">
+      <div class="main-content">
+        <ul class="item-list" id="js-item-list" data-display="grid"></ul>
       </div>
     </main>
-    <ol class="list" id="items"></ol>
-
-    <script src="assets/js/jquery.js"></script>
+<!--     <script src="assets/js/jquery.js"></script>
     <script src="assets/data/items.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/data/source.js"></script>
+    <script src="assets/js/data.js"></script>
+ -->    <!-- <script src="assets/js/main.js"></script> -->
   </div>
 </body>
 </html>
