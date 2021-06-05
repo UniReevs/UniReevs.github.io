@@ -9,8 +9,8 @@ const gulp = require('gulp'),
 sass.compiler = require('node-sass');
 
 const basePaths = {
-        src: 'src/',
-        dest: 'assets/'
+        src: 'acnh/src/',
+        dest: 'acnh/assets/'
       },
       paths = {
         js: {
@@ -22,8 +22,8 @@ const basePaths = {
           dest: basePaths.dest + 'css/'
         },
         html: {
-          src: 'src/html/',
-          dest: './'
+          src: basePaths.src + 'html/',
+          dest: 'acnh/'
         }
       };
 
@@ -45,7 +45,7 @@ const files = {
 gulp.task('clean', () => {
   return gulp.src([
     // 'assets/',
-    './' + '*.html'
+    'acnh/' + '*.html'
     ], {read: false})
     .pipe(clean());
 });
@@ -56,12 +56,15 @@ gulp.task('html', () => {
       prefix: '@@',
       basepath: '@file'
     }))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('acnh/'));
 });
+
+
 
 gulp.task('css', () => {
   return gulp.src(files.scss)
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
+    // .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(paths.css.dest));
 });
 
