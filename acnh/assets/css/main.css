@@ -79,7 +79,11 @@ button {
   text-decoration: underline;
   border-color: #000;
 }
-
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .group {
 /*  background: rgba(255, 255, 255, .9);
   padding: 5px 5px 4px;
@@ -162,12 +166,19 @@ button {
   font-size: 60%;
 }
 
+[data-price='-1'] {
+  color: transparent;
+}
+
 .price img {
   width: 12px;
   display: inline-block;
   margin-right: 3px;
   margin-top: -2px;
   vertical-align: middle;
+}
+[data-price='-1'] img {
+  display: none;
 }
 
 [data-display='grid'] {
@@ -190,11 +201,12 @@ button {
   margin: 5px;
   padding: 5px;
   text-align: center;
-  position: relative;
+  position: relativfffedae;
 }
 .item-variant {
   margin: 1px;
   padding: 2px;
+  background: #fff;
 }
 
 [data-category='Miscellaneous'],
@@ -225,6 +237,7 @@ button {
   /*display: none;*/
 }
 .item {
-  /*display: none;*/
+  border: 3px solid #ccc;
+  /*background: #fffeda;*/
 }
 
