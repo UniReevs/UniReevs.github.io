@@ -4,21 +4,19 @@ const className = {
 element = {
   nav: {
     main: '#js-main-nav'
-  }
+  },
+  itemList: '#js-item-list',
+  menu: '.js-menu'
 };
 
-$(element.nav.main).on('click', 'a', function(event) {
+$(element.nav.main).on('click', element.menu, function(event) {
   event.preventDefault();
   let $this = $(this),
+  category = $this.data('category'),
   $parent = $this.parent();
   $('.menu').removeClass(className.active);
   $parent.addClass(className.active);
+  $(element.itemList).attr('data-category', category);
 });
 
-$('.js-menu').on('click', function(event) {
-  event.preventDefault();
-  let $this = $(this),
-  $parent = $this.parent();
-  $('.menu').removeClass(className.active);
-  $parent.addClass(className.active);
-});
+
