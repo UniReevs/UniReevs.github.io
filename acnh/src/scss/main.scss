@@ -4,6 +4,8 @@
 @import 'item-list';
 @import 'icons';
 @import 'nav';
+@import 'island-map';
+
 
 html {
   box-sizing: border-box;
@@ -49,7 +51,7 @@ button {
   background: #fff;
 }
 .app-content {
-padding-top: 140px;
+  padding-top: 80px;
   display: flex;
 }
 .main-content {

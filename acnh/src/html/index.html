@@ -9,20 +9,26 @@
   <title>ACNH</title>
 </head>
 <body>
-
   <div class="app">
     <div class="sticky">
-      @@include('./includes/top-bar.html')
+      <!-- @@include('./includes/top-bar.html') -->
       @@include('./includes/main-nav.html')
     </div>
     <main class="app-content">
       <div class="main-content">
-        @@include('./includes/items.html')
+        <ul class="item-list" id="js-item-list" data-view="group" data-category="everything"></ul>
+        <!-- @@include('./includes/items.html') -->
       </div>
     </main>
+
+    <!-- @@include('./includes/island-map.html') -->
     <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/data.js"></script>
-    <!-- <script src="assets/js/main.js"></script> -->
+    <script src="assets/data/translation.js"></script>
+    <script src="assets/data/csv.js"></script>
+    <script src="assets/data/fashion.js"></script>
+    <script src="assets/data/mine/socks.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/events.js"></script>
   </div>
 </body>

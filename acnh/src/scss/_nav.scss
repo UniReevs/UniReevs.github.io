@@ -87,7 +87,7 @@ a:hover {
 
   font-size: 60%;
   font-weight: 700;
-  background: #f78b23;
+  background: $color-orange;
   color: #fff;
   padding: 2px 4px 0;
   border-radius: 10px;
@@ -99,5 +99,24 @@ a:hover {
 [data-menu] {
 
 }
-.view a:hover {
+.view {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 5px;
+    bottom: 0;
+    margin: auto;
+    left: 3px;
+    right: 3px;
+    border-radius: 10px;
+  }
+  &.is-active,
+  &:hover {
+    &::after {
+      background: $color-orange;
+    }
+  }
 }

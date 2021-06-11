@@ -1,0 +1,511 @@
+.island-map {
+  display: flex;
+  flex-wrap: wrap;
+}
+.area {
+  position: relative;
+  min-height: 100px;
+  width: 7.14%;
+  border: 1px solid $color-gray;
+  list-style-type: decimal;
+  list-style-position: inside;
+  &::before,
+  &::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    min-height: 30px;
+    min-width: 40px;
+    background-repeat: no-repeat;
+    top: 5px;
+  }
+  &::before {
+    background-size: 26px;
+    left: 5px;
+
+  }
+  &::after {
+    bottom: 5px;
+    right: 0;
+    background-position: right bottom;
+    background-size: 36px;
+    font-weight: 700;
+    text-align: right;
+    padding: 0 5px;
+  }
+}
+
+.area-44,
+.area-30 {
+  background: $color-light-purple;
+
+  &::before {
+    background-image: url(../img/1.10.0/NpcIcon/hgcCropped.png);
+  }
+}
+
+.area-29,
+.area-43,
+.area-57,
+.area-71,
+.area-85,
+.area-99,
+.area-113,
+.area-127,
+.area-141 {
+  background: $color-light-green;
+
+  &::before {
+    //background-image: url(../img/1.10.0/NpcIcon/hghCropped.png);
+  }
+  &::after {
+    background-image: url(../img/categories/shoes.png);
+  }
+}
+.area-58,
+.area-72,
+.area-86,
+.area-100,
+.area-114,
+.area-128,
+.area-142 {
+  background: $color-light-yellow;
+
+  &::before {
+    //background-image: url(../img/1.10.0/NpcIcon/hghCropped.png);
+  }
+  &::after {
+    background-image: url(../img/categories/socks.png);
+  }
+}
+.area-47,
+.area-61,
+.area-75,
+.area-89,
+.area-103,
+.area-117,
+.area-131,
+.area-145,
+.area-18,
+.area-32,
+.area-46,
+.area-60,
+.area-74,
+.area-88,
+.area-102,
+.area-116,
+.area-130,
+.area-144,
+.area-17,
+.area-31,
+.area-45,
+.area-59,
+.area-73,
+.area-87,
+.area-101,
+.area-115,
+.area-129,
+.area-143 {
+  background: $color-light-blue;
+
+  &::before {
+    //background-image: url(../img/1.10.0/NpcIcon/hghCropped.png);
+  }
+  &::after {
+    background-image: url(../img/categories/tops.png);
+  }
+}
+.area-91,
+.area-90,
+.area-104,
+.area-118,
+.area-132,
+.area-146 {
+  background: $color-light-pink;
+
+  &::before {
+    //background-image: url(../img/1.10.0/NpcIcon/hghCropped.png);
+  }
+  &::after {
+    background-image: url(../img/categories/accessories.png);
+  }
+}
+.area-96,
+.area-110,
+.area-124,
+.area-138,
+.area-152,
+.area-25,
+.area-39,
+.area-53,
+.area-67,
+.area-81,
+.area-95,
+.area-109,
+.area-123,
+.area-137,
+.area-151,
+.area-24,
+.area-38,
+.area-52,
+.area-66,
+.area-80,
+.area-94,
+.area-82,
+.area-108,
+.area-122,
+.area-136,
+.area-150 {
+  background: $color-light-blue;
+
+  &::before {
+    // background-image: url(../img/1.10.0/NpcIcon/hghCropped.png);
+  }
+  &::after {
+    background-image: url(../img/categories/dresses.png);
+  }
+}
+.area-6,
+.area-7,
+.area-8,
+.area-9,
+.area-120,
+.area-134,
+.area-148,
+.area-119,
+.area-133,
+.area-147,
+.area-23,
+.area-37,
+.area-51,
+.area-65,
+.area-79,
+.area-93,
+.area-107,
+.area-121,
+.area-135,
+.area-149 {
+  background: $color-light-green;
+
+  &::before {
+    //background-image: url(../img/1.10.0/NpcIcon/hghCropped.png);
+  }
+  &::after {
+    background-image: url(../img/categories/bottoms.png);
+  }
+}
+.area-19,
+.area-20,
+.area-21,
+.area-22,
+.area-33,
+.area-34,
+.area-35,
+.area-36,
+.area-48,
+.area-49,
+.area-50,
+.area-62,
+.area-63,
+.area-64,
+.area-76,
+.area-77,
+.area-78 {
+  background: $color-light-yellow;
+
+  &::before {
+    //background-image: url(../img/1.10.0/NpcIcon/hghCropped.png);
+  }
+  &::after {
+    background-image: url(../img/categories/headwear.png);
+  }
+}
+.area-150::after,
+.area-147::after,
+.area-44::after,
+.area-76::after,
+.area-141::after,
+.area-142::after,
+.area-143::after,
+.area-146::after {
+  content: 'I';
+}
+.area-136::after,
+.area-133::after,
+.area-62::after,
+.area-30::after,
+.area-127::after,
+.area-128::after,
+.area-129::after,
+.area-132::after {
+  content: 'II';
+}
+.area-122::after,
+.area-119::after,
+.area-48::after,
+.area-113::after,
+.area-114::after,
+.area-115::after,
+.area-118::after {
+  content: 'III';
+}
+.area-108::after,
+.area-120::after,
+.area-34::after,
+.area-99::after,
+.area-100::after,
+.area-101::after,
+.area-104::after {
+  content: 'IV';
+}
+.area-94::after,
+.area-134::after,
+.area-33::after,
+.area-85::after,
+.area-86::after,
+.area-87::after,
+.area-90::after {
+  content: 'V';
+}
+.area-80::after,
+.area-148::after,
+.area-19::after,
+.area-71::after,
+.area-72::after,
+.area-73::after,
+.area-91::after {
+  content: 'VI';
+}
+.area-66::after,
+.area-149::after,
+.area-20::after,
+.area-57::after,
+.area-58::after,
+.area-59::after {
+  content: 'VII';
+}
+.area-135::after,
+.area-21::after,
+.area-43::after,
+.area-52::after,
+.area-45::after {
+  content: 'VIII';
+}
+.area-38::after,
+.area-121::after,
+.area-35::after,
+.area-29::after,
+.area-31::after {
+  content: 'IX';
+}
+.area-24::after,
+.area-107::after,
+.area-49::after,
+.area-17::after {
+  content: 'X';
+}
+.area-25::after,
+.area-93::after,
+.area-63::after,
+.area-18::after {
+  content: 'XI';
+}
+.area-39::after,
+.area-79::after,
+.area-77::after,
+.area-32::after {
+  content: 'XII';
+}
+.area-53::after,
+.area-65::after,
+.area-78::after,
+.area-46::after {
+  content: 'XIII';
+}
+.area-67::after,
+.area-51::after,
+.area-64::after,
+.area-60::after {
+  content: 'XIV';
+}
+.area-81::after,
+.area-37::after,
+.area-50::after,
+.area-74::after {
+  content: 'XV';
+}
+.area-95::after,
+.area-23::after,
+.area-36::after,
+.area-88::after {
+  content: 'XVI';
+}
+.area-109::after,
+.area-9::after,
+.area-22::after,
+.area-102::after {
+  content: 'XVII';
+}
+.area-123::after,
+.area-8::after,
+.area-116::after {
+  content: 'XVIII';
+}
+.area-137::after,
+.area-7::after,
+.area-130::after {
+  content: 'XIX';
+}
+.area-151::after,
+.area-6::after,
+.area-144::after {
+  content: 'XX';
+}
+.area-152::after,
+.area-145::after {
+  content: 'XXI';
+}
+.area-138::after,
+.area-131::after {
+  content: 'XXII';
+}
+
+.area-124::after,
+.area-117::after {
+  content: 'XXIII';
+}
+.area-110::after,
+.area-103::after {
+  content: 'XXIV';
+}
+.area-96::after,
+.area-89::after {
+  content: 'XXV';
+}
+.area-82::after,
+.area-75::after {
+  content: 'XXVI';
+}
+.area-61::after {
+  content: 'XXVII';
+}
+.area-47::after {
+  content: 'XXVIII';
+}
+.area-::after {
+  content: 'XXIX';
+}
+.area-::after {
+  content: 'XXX';
+}
+
+.direction {
+  min-width: 30px;
+  min-height: 30px;
+  background-repeat: no-repeat;
+  background-image: url(../img/svg/arrow-up.svg);
+  display: inline-block;
+  display: none;
+}
+
+.area-54,
+.area-55,
+.area-56,
+.area-68,
+.area-69,
+.area-70,
+.area-83,
+.area-84,
+.area-105,
+.area-106,
+.area-92,
+.area-97,
+.area-98,
+.area-111,
+.area-112,
+.area-125,
+.area-126,
+.area-139,
+.area-140,
+.area-153,
+.area-154,
+.area-1,
+.area-2,
+.area-3,
+.area-4,
+.area-96,
+.area-5,
+.area-29,
+.area-30,
+.area-47,
+.area-58,
+.area-6,
+.area-16,
+.area-10,
+.area-11,
+.area-12,
+.area-13,
+.area-14,
+.area-26,
+.area-27,
+.area-28,
+.area-40,
+.area-41,
+.area-42,
+.area-22,
+.area-91,
+.area-15 {
+  .direction {
+    display: none;
+  }
+}
+.area-9,
+.area-8,
+.area-34,
+.area-7 {
+  .direction {
+    background-image: url(../img/svg/arrow-left.svg);
+  }
+}
+.area-19,
+.area-77,
+.area-20,
+.area-119,
+.area-148,
+.area-90,
+.area-144,
+.area-24,
+.area-151,
+.area-17 {
+  .direction {
+    background-image: url(../img/svg/arrow-right.svg);
+  }
+}
+.area-63,
+.area-49,
+.area-35,
+.area-21,
+.area-25,
+.area-39,
+.area-53,
+.area-67,
+.area-81,
+.area-95,
+.area-109,
+.area-123,
+.area-127,
+.area-130,
+.area-120,
+.area-134,
+.area-116,
+.area-102,
+.area-88,
+.area-74,
+.area-60,
+.area-46,
+.area-32,
+.area-18 {
+  .direction {
+    background-image: url(../img/svg/arrow-down.svg);
+  }
+}
