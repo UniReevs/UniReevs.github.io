@@ -103,6 +103,7 @@
 .area-73,
 .area-87,
 .area-101,
+.area-33,
 .area-115,
 .area-129,
 .area-143 {
@@ -194,11 +195,9 @@
     background-image: url(../img/categories/bottoms.png);
   }
 }
-.area-19,
 .area-20,
 .area-21,
 .area-22,
-.area-33,
 .area-34,
 .area-35,
 .area-36,
@@ -220,6 +219,7 @@
     background-image: url(../img/categories/headwear.png);
   }
 }
+.area-19::after,
 .area-150::after,
 .area-147::after,
 .area-44::after,
@@ -260,7 +260,6 @@
 }
 .area-94::after,
 .area-134::after,
-.area-33::after,
 .area-85::after,
 .area-86::after,
 .area-87::after,
@@ -269,7 +268,6 @@
 }
 .area-80::after,
 .area-148::after,
-.area-19::after,
 .area-71::after,
 .area-72::after,
 .area-73::after,
@@ -392,7 +390,7 @@
 .area-47::after {
   content: 'XXVIII';
 }
-.area-::after {
+.area-33::after {
   content: 'XXIX';
 }
 .area-::after {

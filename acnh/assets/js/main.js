@@ -1,10 +1,27 @@
-  const data = csv_tops;
-  let newData = [];
+function createNpcMenu() {
+  let html = '';
+  for (var i = 0; i < npcNames.length; i++) {
+    let npc = npcNames[i];
+    html += `
+    <div class="menu">
+      <a href="#" class="js-menu" data-category="${npc.en}">
+        <span class="menu-text">${npc.jp}</span>
+        <img src="assets/img/1.10.0/NpcIcon/${npc.label}.png" alt="">
+      </a>
+    </div>
+    `;
+  }
+  $('#js-npc-nav').html(html);
+}
 
+// createNpcMenu()
+
+let newData = [];
   let index = 0,
       prevID = 0,
-      category = 'tops',
-      categoryV = '_Tops_';
+      category = 'dresses',
+      categoryV = '_'+capitalizeFirstLetter(category)+'_',
+      data = csv[category];
 
   let variants = [];
 
@@ -69,16 +86,17 @@ function createList(data) {
   let html = '';
   for (let i = 0; i < data.length; i++) {
     let item = data[i],
-        isTrue = item.source.en === 'Able Sisters';
+        cropped = '', // Cropped
+        isTrue = item.map === 0;
 
     if (isTrue) {
         html += `
-
         <li class="item" data-category="${item.category}" data-id="${item.id}">
           <div class="item-header">
             <div class="name">${item.name.jp}</div>
             <div class="name en">${item.name.en}</div>
             <div class="count">${item.variants.length}</div>
+            <div class="count" style="display: none">${item.source.en}</div>
             <div class="info">
               <i class="category"></i>
               <i class="icon"></i>
@@ -89,7 +107,7 @@ function createList(data) {
 
       for (let j = 0; j < item.variants.length; j++) {
         let variant = item.variants[j];
-        if (item.count !== 1) {
+        // if (item.count !== 1) {
           html += `
           <li class="variant">
             <div class="name">${variant.name.jp}</div>
@@ -97,13 +115,7 @@ function createList(data) {
             <img src="assets/img/1.10.0/FtrIcon/${variant.fileName}.png">
           </li>
           `;
-        } else  {
-        html += `
-          <li class="variant">
-            <img src="assets/img/1.10.0/FtrIcon/${variant.fileName}.png">
-          </li>
-          `;
-          }
+
       }
 
       html += `
@@ -116,5 +128,5 @@ function createList(data) {
   }
   return html;
 }
-let html = createList(fashion.shoes.sort(compareValues('count')));
+let html = createList(fashion[category].sort(compareValues('count')));
 $('#js-item-list').html(html);

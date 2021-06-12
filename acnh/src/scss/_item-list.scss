@@ -84,6 +84,8 @@
 .variants {
   display: flex;
   justify-content: center;
+  background: #ccc;
+  border-radius: 3px;
 }
 .item-variant {
   $size: 70px;
@@ -119,12 +121,11 @@
   }
 }
 .variant {
-  font-size: 60%;
   // position: absolute;
   // top: 5px;
 
   img {
-    max-width: 80px;
+    max-width: 60px;
   }
 }
 

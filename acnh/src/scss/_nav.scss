@@ -1,45 +1,62 @@
+.nav {
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
 .nav,
 .menu-group {
   display: flex;
   flex-wrap: wrap;
 }
+
 .main-nav {
-  background: #E6E8E6;
+  background: #eeca2e;
+  // background: $color-cream;
   padding: 10px;
   display: flex;
   justify-content: space-between;
 
-  a {
-    text-decoration: none;
-    display: inline-block;
-  }
-  a:hover {
-    text-decoration: underline;
-    border-color: #000;
-  }
   img {
     width: 30px;
   }
+
+  .menu {
+    $size: 60px;
+    background: $color-cream;
+    min-width: $size;
+    min-height: $size;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -5px;
+
+    a {
+      padding: 3px;
+    }
+  }
 }
 
-.sub-nav {
-  display: none;
-  position: absolute;
-  margin-top: 20px;
-  right: 0;
-  width: 11em;
-  li,
-  ul {
-    display: block;
-  }
-  label {
-    padding: 1px 3px;
-  }
-  .action {
-    text-align: center;
-    margin-bottom: 5px;
-  }
-}
+// .sub-nav {
+//   display: none;
+//   position: absolute;
+//   margin-top: 20px;
+//   right: 0;
+//   width: 11em;
+//   li,
+//   ul {
+//     display: block;
+//   }
+//   label {
+//     padding: 1px 3px;
+//   }
+//   .action {
+//     text-align: center;
+//     margin-bottom: 5px;
+//   }
+// }
 
 .category-group {
   // border: 2px solid #b4ae99;
@@ -52,25 +69,7 @@
 .active-state {
   display: none;
 }
-.menu {
-  $size: 60px;
-  background: $color-cream;
-  min-width: $size;
-  min-height: $size;
-  // padding-top: 9px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 -5px;
 
-  a {
-    padding: 3px;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-}
 .is-active,
 a:hover {
   .active-state,
@@ -84,7 +83,6 @@ a:hover {
 
 .menu-text {
   display: none;
-
   font-size: 60%;
   font-weight: 700;
   background: $color-orange;
@@ -99,6 +97,7 @@ a:hover {
 [data-menu] {
 
 }
+
 .view {
   position: relative;
 
@@ -118,5 +117,26 @@ a:hover {
     &::after {
       background: $color-orange;
     }
+  }
+}
+
+.npc-nav {
+  background: #71604b;
+  padding: 10px;
+
+  img {
+    width: 40px;
+    margin-bottom: -2px;
+  }
+
+  .menu {
+    margin: 0 5px;
+    border-radius: 5px;
+    background: rgba(225, 225, 225, .5);
+  }
+
+  .menu-text {
+    background: #71604b;
+
   }
 }

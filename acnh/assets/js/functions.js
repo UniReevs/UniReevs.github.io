@@ -39,6 +39,10 @@ function getTranslation(array, searchID) {
   return value;
 }
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 function compareValues(key, order = 'asc') {
   return function innerSort(a, b) {
     if (!a.hasOwnProperty(key) || !b.hasOwnProperty(key)) {
