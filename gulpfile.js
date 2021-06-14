@@ -3,6 +3,8 @@
 const gulp = require('gulp'),
       sass = require('gulp-sass'),
       concat = require('gulp-concat'),
+      uglify = require('gulp-uglify'),
+      pipeline = require('readable-stream').pipeline,
       clean = require('gulp-clean'),
       fileInclude = require('gulp-file-include');
 
@@ -13,6 +15,10 @@ const basePaths = {
         dest: 'acnh/assets/'
       },
       paths = {
+        data: {
+          src: basePaths.src + 'js/',
+          dest: basePaths.dest + 'js/'
+        },
         js: {
           src: basePaths.src + 'js/',
           dest: basePaths.dest + 'js/'
@@ -28,10 +34,11 @@ const basePaths = {
       };
 
 const files = {
-  js: [
-    paths.js.src + 'vendor/jquery.js',
-    paths.js.src + 'globals.js',
-    paths.js.src + 'app.js'
+  data: [
+    paths.data.src + 'init.js',
+    paths.data.src + 'sheet-csv/**.js',
+    paths.data.src + 'translation/**.js',
+    paths.data.src + 'all-items.js'
   ],
   scss: [
     paths.css.src + '**/*.scss'
@@ -67,10 +74,17 @@ gulp.task('css', () => {
     // .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(paths.css.dest));
 });
-
+gulp.task('compress', function () {
+  return pipeline(
+        gulp.src(files.data, {allowEmpty: true}),
+        uglify(),
+        gulp.dest(paths.js.dest)
+  );
+});
 gulp.task('js', () => {
-  return gulp.src(files.js)
-    .pipe(concat('script.js'))
+  return gulp.src(files.data, {allowEmpty: true})
+    .pipe(concat('data.js'))
+    .pipe(uglify())
     .pipe(gulp.dest(paths.js.dest));
 });
 
