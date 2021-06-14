@@ -262,6 +262,7 @@
 .area-134::after,
 .area-85::after,
 .area-86::after,
+.area-20::after,
 .area-87::after,
 .area-90::after {
   content: 'V';
@@ -276,7 +277,6 @@
 }
 .area-66::after,
 .area-149::after,
-.area-20::after,
 .area-57::after,
 .area-58::after,
 .area-59::after {
@@ -403,7 +403,7 @@
   background-repeat: no-repeat;
   background-image: url(../img/svg/arrow-up.svg);
   display: inline-block;
-  display: none;
+  // display: none;
 }
 
 .area-54,
@@ -448,6 +448,8 @@
 .area-27,
 .area-28,
 .area-40,
+.area-33,
+.area-19,
 .area-41,
 .area-42,
 .area-22,
@@ -459,7 +461,6 @@
 }
 .area-9,
 .area-8,
-.area-34,
 .area-7 {
   .direction {
     background-image: url(../img/svg/arrow-left.svg);

@@ -139,6 +139,12 @@
   }
 }
 
+.map {
+  // position: absolute;
+  // top: 0;
+  // right: 0;
+}
+
 [data-category='everything'] .item,
 [data-category='Housewares'] .item[data-category='Housewares'],
 [data-category='Miscellaneous'] .item[data-category='Miscellaneous'],

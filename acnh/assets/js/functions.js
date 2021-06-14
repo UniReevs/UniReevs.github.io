@@ -26,11 +26,11 @@ function romanize (num) {
     return Array(+digits.join("") + 1).join("M") + roman;
 }
 
-function getTranslation(array, searchID) {
+function getTranslation(array, searchID, isVariant = false) {
   let value = '';
   for (var i = 0; i < array.length; i++) {
-    let label = parseInt(array[i].label),
-        id = parseInt(searchID);
+    let label = isVariant ? array[i].label : parseInt(array[i].label),
+        id = isVariant ? searchID : parseInt(searchID);
     if (label === id) {
       value = array[i].jp;
       break;
@@ -67,24 +67,86 @@ function compareValues(key, order = 'asc') {
   };
 }
 
-// function islandMap() {
-//   let aaa = '';
-//   for (var i = 0; i < 154; i++) {
-//     aaa += `<li class="area area-${i+1}"></li>`
-//   }
-//   $('.island-map').html(aaa);
-// }
+function csvTranlation(data) {
+  let  newData = [];
+  for (var i = 0; i < data.length; i++) {
+    let item = data[i];
+    ttt.push({
+      label: item.label,
+      en: item.English,
+      jp: item.Japanese
+    })
 
-// function csvTranlation() {
-//   let  newData = [];
-//   for (var i = 0; i < aaa.length; i++) {
-//     let item = aaa[i];
-//     newData.push({
-//       label: item.label,
-//       en: item.English,
-//       jp: item.Japanese
-//     })
+  }
+  return newData;
+}
 
-//   }
-//   console.log(newData)
-// }
+function createNpcMenu() {
+  let html = '';
+  for (var i = 0; i < npcNames.length; i++) {
+    let npc = npcNames[i];
+    html += `
+    <div class="menu">
+      <a href="#" class="js-menu" data-category="${npc.en}">
+        <span class="menu-text">${npc.jp}</span>
+        <img src="assets/img/1.10.0/NpcIcon/${npc.label}.png" alt="">
+      </a>
+    </div>
+    `;
+  }
+  $('#js-npc-nav').html(html);
+}
+function islandMap() {
+  let html = '';
+  for (var i = 0; i < 154; i++) {
+    html += `<li class="area area-${i+1}"></li>`
+  }
+  $('.island-map').html(html);
+}
+
+function createList(data) {
+  let html = '';
+  for (let i = 0; i < data.length; i++) {
+    let item = data[i],
+        cropped = '', // Cropped
+        isTrue = item.source.en === 'Able Sisters';
+        // isTrue = true;
+
+    if (isTrue) {
+        html += `
+        <li class="item" data-category="${item.category}" data-id="${item.id}" data-source="${item.source.en}">
+          <div class="item-header">
+            <div class="name en">${item.name.en}</div>
+            <div class="info">
+              <div class="count">${item.variants.length}</div>
+              <i class="category"></i>
+              <i class="icon"></i>
+              <i class="map">${romanize(item.map)}</i>
+            </div>
+            <ul class="variants">
+        `;
+
+      for (let j = 0; j < item.variants.length; j++) {
+        let variant = item.variants[j];
+        let hasPattern = false;
+        // if (item.count !== 1) {
+          html += `
+          <li class="variant">
+            <img src="assets/img/1.10.0/FtrIcon/${variant.fileName}.png">
+          </li>
+          `;
+
+            // <div class="name">${variant.name.jp}</div>
+            // <div class="name en">${variant.name.en}</div>
+      }
+
+      html += `
+          </ul>
+          </div>
+        </li>
+      `;
+
+    }
+  }
+  return html;
+}
