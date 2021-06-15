@@ -1,5454 +1,6206 @@
 house.floors = [
   {
     "name": {
-      en: "aqua tile flooring",
-      jp: ""
+      "en": "aqua tile flooring",
+      "jp": "みずいろモザイクタイルのゆか"
     },
     "id": 5036,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 900,
       "sell": 225
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTile01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTile01"
       }
     ]
   },
   {
     "name": {
-      en: "arabesque flooring",
-      jp: ""
+      "en": "arabesque flooring",
+      "jp": "アラベスクなゆか"
     },
     "id": 4953,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Cloth Floors",
     "price": {
       "buy": 2120,
       "sell": 530
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorArabesque00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorArabesque00"
       }
     ]
   },
   {
     "name": {
-      en: "arched-brick flooring",
-      jp: ""
+      "en": "arched-brick flooring",
+      "jp": "アーチレンガのゆか"
     },
     "id": 4998,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Arched Brick",
     "price": {
       "buy": 1100,
       "sell": 275
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorArchBrick00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorArchBrick00"
       }
     ]
   },
   {
     "name": {
-      en: "argyle tile flooring",
-      jp: ""
+      "en": "argyle tile flooring",
+      "jp": "アーガイルなタイルのゆか"
     },
     "id": 4994,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 1750,
       "sell": 437
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTileWood00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTileWood00"
       }
     ]
   },
   {
     "name": {
-      en: "artsy parquet flooring",
-      jp: ""
+      "en": "artsy parquet flooring",
+      "jp": "アートなよせぎざいくのゆか"
     },
     "id": 5232,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Simple Parquet",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParquetArt00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParquetArt00"
       }
     ]
   },
   {
     "name": {
-      en: "backyard lawn",
-      jp: ""
+      "en": "backyard lawn",
+      "jp": "しばふのゆか"
     },
     "id": 4979,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Grassland",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorLawn00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorLawn00"
       }
     ]
   },
   {
     "name": {
-      en: "bamboo flooring",
-      jp: ""
+      "en": "bamboo flooring",
+      "jp": "バンブーなゆか"
     },
     "id": 4964,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - Green",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBamboo00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBamboo00"
       }
     ]
   },
   {
     "name": {
-      en: "basement flooring",
-      jp: ""
+      "en": "basement flooring",
+      "jp": "ちかしつのゆか"
     },
     "id": 4797,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Stone Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBasement00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBasement00"
       }
     ]
   },
   {
     "name": {
-      en: "beige desert-tile flooring",
-      jp: ""
+      "en": "beige desert-tile flooring",
+      "jp": "ベージュのモロッカンタイルゆか"
     },
     "id": 4965,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Morocco",
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMorocco00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMorocco00"
       }
     ]
   },
   {
     "name": {
-      en: "berry-chocolates flooring",
-      jp: ""
+      "en": "berry-chocolates flooring",
+      "jp": "いちごチョコアソートなゆか"
     },
     "id": 5053,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Chocolate",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorChocolate02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorChocolate02"
       }
     ]
   },
   {
     "name": {
-      en: "birch flooring",
-      jp: ""
+      "en": "birch flooring",
+      "jp": "しらきのフローリング"
     },
     "id": 5032,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBirch00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBirch00"
       }
     ]
   },
   {
     "name": {
-      en: "black iron-parquet flooring",
-      jp: ""
+      "en": "black iron-parquet flooring",
+      "jp": "くろいアイアンパーケットのゆか"
     },
     "id": 5066,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Iron Parquet",
     "price": {
       "buy": 2350,
       "sell": 587
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParquetIron02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParquetIron02"
       }
     ]
   },
   {
     "name": {
-      en: "black-brick flooring",
-      jp: ""
+      "en": "black-brick flooring",
+      "jp": "くろレンガのゆか"
     },
     "id": 4976,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Brick",
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBrick02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBrick02"
       }
     ]
   },
   {
     "name": {
-      en: "block flooring",
-      jp: ""
+      "en": "block flooring",
+      "jp": "スーパーマリオのゆか"
     },
     "id": 13804,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Special Inorganic Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMario00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMario00"
       }
     ]
   },
   {
     "name": {
-      en: "blue camo flooring",
-      jp: ""
+      "en": "blue camo flooring",
+      "jp": "ブルーめいさいのゆか"
     },
     "id": 5016,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Camouflage",
     "price": {
       "buy": 1320,
       "sell": 330
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCamouflage01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCamouflage01"
       }
     ]
   },
   {
     "name": {
-      en: "blue desert-tile flooring",
-      jp: ""
+      "en": "blue desert-tile flooring",
+      "jp": "ブルーのモロッカンタイルゆか"
     },
     "id": 4966,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Morocco",
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMorocco01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMorocco01"
       }
     ]
   },
   {
     "name": {
-      en: "blue dot flooring",
-      jp: ""
+      "en": "blue dot flooring",
+      "jp": "ブルードットカーペット"
     },
     "id": 5028,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Dot",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDot04"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDot04"
       }
     ]
   },
   {
     "name": {
-      en: "blue floral flooring",
-      jp: ""
+      "en": "blue floral flooring",
+      "jp": "あおいフラワーフローリング"
     },
     "id": 5074,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Deco Wood",
     "price": {
       "buy": 1520,
       "sell": 380
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDecoWood01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDecoWood01"
       }
     ]
   },
   {
     "name": {
-      en: "blue honeycomb tile",
-      jp: ""
+      "en": "blue honeycomb tile",
+      "jp": "ブルーハニカムタイルのゆか"
     },
     "id": 5040,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Honeycomb",
     "price": {
       "buy": 1420,
       "sell": 355
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHoneycomb01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHoneycomb01"
       }
     ]
   },
   {
     "name": {
-      en: "blue mosaic-tile flooring",
-      jp: ""
+      "en": "blue mosaic-tile flooring",
+      "jp": "ブルーモザイクタイルのゆか"
     },
     "id": 6846,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 900,
       "sell": 225
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTile03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTile03"
       }
     ]
   },
   {
     "name": {
-      en: "blue rubber flooring",
-      jp: ""
+      "en": "blue rubber flooring",
+      "jp": "ブルーラバーのゆか"
     },
     "id": 4954,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Rubber",
     "price": {
       "buy": 850,
       "sell": 212
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRubber01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRubber01"
       }
     ]
   },
   {
     "name": {
-      en: "blue-paint flooring",
-      jp: ""
+      "en": "blue-paint flooring",
+      "jp": "あおいペイントフローリング"
     },
     "id": 5057,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Painted Wood",
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPaintWood00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPaintWood00"
       }
     ]
   },
   {
     "name": {
-      en: "boxing-ring mat",
-      jp: ""
+      "en": "boxing-ring mat",
+      "jp": "プロレスのゆか"
     },
     "id": 4982,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sports Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorWrestling00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorWrestling00"
       }
     ]
   },
   {
     "name": {
-      en: "brown argyle-tile flooring",
-      jp: ""
+      "en": "brown argyle-tile flooring",
+      "jp": "ブラウンのアーガイルタイルゆか"
     },
     "id": 5081,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Argyle",
     "price": {
       "buy": 1440,
       "sell": 360
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorArgyleTile01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorArgyleTile01"
       }
     ]
   },
   {
     "name": {
-      en: "brown floral flooring",
-      jp: ""
+      "en": "brown floral flooring",
+      "jp": "ちゃいろいフラワーフローリング"
     },
     "id": 5075,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Deco Wood",
     "price": {
       "buy": 1520,
       "sell": 380
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDecoWood02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDecoWood02"
       }
     ]
   },
   {
     "name": {
-      en: "brown honeycomb tile",
-      jp: ""
+      "en": "brown honeycomb tile",
+      "jp": "ブラウンハニカムタイルのゆか"
     },
     "id": 5038,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Honeycomb",
     "price": {
       "buy": 1420,
       "sell": 355
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHoneycomb00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHoneycomb00"
       }
     ]
   },
   {
     "name": {
-      en: "brown iron-parquet flooring",
-      jp: ""
+      "en": "brown iron-parquet flooring",
+      "jp": "ぎんのアイアンパーケットのゆか"
     },
     "id": 5065,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Iron Parquet",
     "price": {
       "buy": 2350,
       "sell": 587
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParquetIron01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParquetIron01"
       }
     ]
   },
   {
     "name": {
-      en: "brown wedding flooring",
-      jp: ""
+      "en": "brown wedding flooring",
+      "jp": "ウェディングなブラウンタイル"
     },
     "id": 12433,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMarbleTile01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMarbleTile01"
       }
     ]
   },
   {
     "name": {
-      en: "brown-brick flooring",
-      jp: ""
+      "en": "brown-brick flooring",
+      "jp": "ちゃいろいレンガのゆか"
     },
     "id": 6849,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Brick",
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBrick03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBrick03"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day flooring",
-      jp: ""
+      "en": "Bunny Day flooring",
+      "jp": "イースターなゆか"
     },
     "id": 12423,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Dot",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorEaster00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorEaster00"
       }
     ]
   },
   {
     "name": {
-      en: "camo flooring",
-      jp: ""
+      "en": "camo flooring",
+      "jp": "めいさいのゆか"
     },
     "id": 5015,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Camouflage",
     "price": {
       "buy": 1320,
       "sell": 330
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCamouflage00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCamouflage00"
       }
     ]
   },
   {
     "name": {
-      en: "cherry-blossom flooring",
-      jp: ""
+      "en": "cherry-blossom flooring",
+      "jp": "さくらのじゅうたん"
     },
     "id": 7204,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "cherry-blossom petals",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - Fallen Leaves",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSakura00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSakura00"
       }
     ]
   },
   {
     "name": {
-      en: "Cinnamoroll flooring",
-      jp: ""
+      "en": "Cinnamoroll flooring",
+      "jp": "シナモロールなゆか"
     },
     "id": 10182,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sanrio Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCinnamon00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCinnamon00"
       }
     ]
   },
   {
     "name": {
-      en: "circuit-board flooring",
-      jp: ""
+      "en": "circuit-board flooring",
+      "jp": "きばんのゆか"
     },
     "id": 5082,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Machine Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorGeek00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorGeek00"
       }
     ]
   },
   {
     "name": {
-      en: "cloud flooring",
-      jp: ""
+      "en": "cloud flooring",
+      "jp": "くものうえ"
     },
     "id": 5267,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Special Nature Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorCloud00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorCloud00"
       }
     ]
   },
   {
     "name": {
-      en: "colored-leaves flooring",
-      jp: ""
+      "en": "colored-leaves flooring",
+      "jp": "こうようのゆか"
     },
     "id": 4990,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "maple leaves",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - Fallen Leaves",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorAutumun00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorAutumun00"
       }
     ]
   },
   {
     "name": {
-      en: "colorful mosaic-tile flooring",
-      jp: ""
+      "en": "colorful mosaic-tile flooring",
+      "jp": "カラフルモザイクタイルのゆか"
     },
     "id": 5037,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 900,
       "sell": 225
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTile02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTile02"
       }
     ]
   },
   {
     "name": {
-      en: "colorful puzzle flooring",
-      jp: ""
+      "en": "colorful puzzle flooring",
+      "jp": "カラフルパズルのゆか"
     },
     "id": 4957,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Puzzle Mat",
     "price": {
       "buy": 1450,
       "sell": 362
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPuzzleMat01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPuzzleMat01"
       }
     ]
   },
   {
     "name": {
-      en: "colorful tile flooring",
-      jp: ""
+      "en": "colorful tile flooring",
+      "jp": "カラフルパネルカーペット"
     },
     "id": 5068,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Panel",
     "price": {
       "buy": 1620,
       "sell": 405
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPanel01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPanel01"
       }
     ]
   },
   {
     "name": {
-      en: "common flooring",
-      jp: ""
+      "en": "common flooring",
+      "jp": "よくあるゆかいた"
     },
     "id": 5018,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 720,
       "sell": 180
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCommon00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCommon00"
       }
     ]
   },
   {
     "name": {
-      en: "concrete flooring",
-      jp: ""
+      "en": "concrete flooring",
+      "jp": "コンクリートのゆか"
     },
     "id": 4951,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Stone Floors",
     "price": {
       "buy": 820,
       "sell": 205
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorConcrete00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorConcrete00"
       }
     ]
   },
   {
     "name": {
-      en: "construction-site flooring",
-      jp: ""
+      "en": "construction-site flooring",
+      "jp": "こうじげんばのゆか"
     },
     "id": 5235,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sidewalk",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorConstruction00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorConstruction00"
       }
     ]
   },
   {
     "name": {
-      en: "cool vinyl flooring",
-      jp: ""
+      "en": "cool vinyl flooring",
+      "jp": "クールなピータイル"
     },
     "id": 6844,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Checker",
     "price": {
       "buy": 1150,
       "sell": 287
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTileChecker03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTileChecker03"
       }
     ]
   },
   {
     "name": {
-      en: "cool-paint flooring",
-      jp: ""
+      "en": "cool-paint flooring",
+      "jp": "クールなペイントフローリング"
     },
     "id": 5071,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Colorful Wood",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorColorfulWood01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorColorfulWood01"
       }
     ]
   },
   {
     "name": {
-      en: "cork flooring",
-      jp: ""
+      "en": "cork flooring",
+      "jp": "コルクフローリング"
     },
     "id": 4969,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCork00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCork00"
       }
     ]
   },
   {
     "name": {
-      en: "crop-circles flooring",
-      jp: ""
+      "en": "crop-circles flooring",
+      "jp": "ミステリーサークルなゆか"
     },
     "id": 5243,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Green",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCropCircles00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCropCircles00"
       }
     ]
   },
   {
     "name": {
-      en: "crosswalk flooring",
-      jp: ""
+      "en": "crosswalk flooring",
+      "jp": "おうだんほどうのゆか"
     },
     "id": 5007,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sidewalk",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSidewalk00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSidewalk00"
       }
     ]
   },
   {
     "name": {
-      en: "cubic parquet flooring",
-      jp: ""
+      "en": "cubic parquet flooring",
+      "jp": "キュービックなよせぎのゆか"
     },
     "id": 4987,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Simple Parquet",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHoneycombWood00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHoneycombWood00"
       }
     ]
   },
   {
     "name": {
-      en: "cute blue-tile flooring",
-      jp: ""
+      "en": "cute blue-tile flooring",
+      "jp": "ブルーのキュートなフロアタイル"
     },
     "id": 7221,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 780,
       "sell": 195
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCute02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCute02"
       }
     ]
   },
   {
     "name": {
-      en: "cute red-tile flooring",
-      jp: ""
+      "en": "cute red-tile flooring",
+      "jp": "あかいキュートなフロアタイル"
     },
     "id": 7220,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 780,
       "sell": 195
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCute01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCute01"
       }
     ]
   },
   {
     "name": {
-      en: "cute white-tile flooring",
-      jp: ""
+      "en": "cute white-tile flooring",
+      "jp": "しろいキュートなフロアタイル"
     },
     "id": 7219,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 780,
       "sell": 195
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCute00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCute00"
       }
     ]
   },
   {
     "name": {
-      en: "cute yellow-tile flooring",
-      jp: ""
+      "en": "cute yellow-tile flooring",
+      "jp": "きいろいキュートなフロアタイル"
     },
     "id": 7222,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 780,
       "sell": 195
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCute03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCute03"
       }
     ]
   },
   {
     "name": {
-      en: "cute-paint flooring",
-      jp: ""
+      "en": "cute-paint flooring",
+      "jp": "キュートなペイントフローリング"
     },
     "id": 5070,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Colorful Wood",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorColorfulWood00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorColorfulWood00"
       }
     ]
   },
   {
     "name": {
-      en: "daisy meadow",
-      jp: ""
+      "en": "daisy meadow",
+      "jp": "そうげんのゆか"
     },
     "id": 5005,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Grassland",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorGrassland00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorGrassland00"
       }
     ]
   },
   {
     "name": {
-      en: "dark herringbone flooring",
-      jp: ""
+      "en": "dark herringbone flooring",
+      "jp": "ダークなヘリンボーンのゆか"
     },
     "id": 5062,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Herringbone",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHerringbone01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHerringbone01"
       }
     ]
   },
   {
     "name": {
-      en: "dark parquet flooring",
-      jp: ""
+      "en": "dark parquet flooring",
+      "jp": "ダークなパーケットフローリング"
     },
     "id": 5025,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Country",
     "price": {
       "buy": 1560,
       "sell": 390
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCountry01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCountry01"
       }
     ]
   },
   {
     "name": {
-      en: "dark wood-pattern flooring",
-      jp: ""
+      "en": "dark wood-pattern flooring",
+      "jp": "ダークなよせぎざいくのゆか"
     },
     "id": 4992,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Simple Parquet",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSimpleParquet01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSimpleParquet01"
       }
     ]
   },
   {
     "name": {
-      en: "dark-block flooring",
-      jp: ""
+      "en": "dark-block flooring",
+      "jp": "ダークなフローリングブロック"
     },
     "id": 5035,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Parquet",
     "price": {
       "buy": 1380,
       "sell": 345
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParquet01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParquet01"
       }
     ]
   },
   {
     "name": {
-      en: "dark-chocolates flooring",
-      jp: ""
+      "en": "dark-chocolates flooring",
+      "jp": "ビターチョコアソートなゆか"
     },
     "id": 5050,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Chocolate",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorChocolate00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorChocolate00"
       }
     ]
   },
   {
     "name": {
-      en: "dig-site flooring",
-      jp: ""
+      "en": "dig-site flooring",
+      "jp": "ちていのゆか"
     },
     "id": 5011,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Brown",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorStratum00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorStratum00"
       }
     ]
   },
   {
     "name": {
-      en: "dirt flooring",
-      jp: ""
+      "en": "dirt flooring",
+      "jp": "つちのゆか"
     },
     "id": 4981,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Brown",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCottonSoil00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCottonSoil00"
       }
     ]
   },
   {
     "name": {
-      en: "field flooring",
-      jp: ""
+      "en": "field flooring",
+      "jp": "はたけのゆか"
     },
     "id": 4980,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Brown",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorFarm00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorFarm00"
       }
     ]
   },
   {
     "name": {
-      en: "flagstone flooring",
-      jp: ""
+      "en": "flagstone flooring",
+      "jp": "フラッグストーンなゆか"
     },
     "id": 5031,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Stone Floors",
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorFlagStone00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorFlagStone00"
       }
     ]
   },
   {
     "name": {
-      en: "floral mosaic-tile flooring",
-      jp: ""
+      "en": "floral mosaic-tile flooring",
+      "jp": "フローラルなモザイクタイル"
     },
     "id": 4993,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 1080,
       "sell": 270
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMosaicTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMosaicTile00"
       }
     ]
   },
   {
     "name": {
-      en: "floral rush-mat flooring",
-      jp: ""
+      "en": "floral rush-mat flooring",
+      "jp": "はなござ"
     },
     "id": 4977,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Japanese",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRush00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRush00"
       }
     ]
   },
   {
     "name": {
-      en: "flowing-river flooring",
-      jp: ""
+      "en": "flowing-river flooring",
+      "jp": "かわのながれるゆか"
     },
     "id": 5273,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Special Nature Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorRiver00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorRiver00"
       }
     ]
   },
   {
     "name": {
-      en: "forest flooring",
-      jp: ""
+      "en": "forest flooring",
+      "jp": "キノコのもりのゆか"
     },
     "id": 7186,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "mushrooms",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - Fallen Leaves",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 35000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMushForest00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMushForest00"
       }
     ]
   },
   {
     "name": {
-      en: "future-tech flooring",
-      jp: ""
+      "en": "future-tech flooring",
+      "jp": "オーバーテクノロジーなゆか"
     },
     "id": 5250,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Special Inorganic Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorTechnology00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorTechnology00"
       }
     ]
   },
   {
     "name": {
-      en: "galaxy flooring",
-      jp: ""
+      "en": "galaxy flooring",
+      "jp": "ぎんがけいのゆか"
     },
     "id": 5269,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Special Nature Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorGalaxy00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorGalaxy00"
       }
     ]
   },
   {
     "name": {
-      en: "garbage-heap flooring",
-      jp: ""
+      "en": "garbage-heap flooring",
+      "jp": "おへやのゆか"
     },
     "id": 5236,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Decadence",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 120
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorGarbage00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorGarbage00"
       }
     ]
   },
   {
     "name": {
-      en: "giraffe-print flooring",
-      jp: ""
+      "en": "giraffe-print flooring",
+      "jp": "ジラフなゆか"
     },
     "id": 4961,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Animal Floor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorAnimal01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorAnimal01"
       }
     ]
   },
   {
     "name": {
-      en: "gold iron-parquet flooring",
-      jp: ""
+      "en": "gold iron-parquet flooring",
+      "jp": "きんのアイアンパーケットのゆか"
     },
     "id": 5064,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Iron Parquet",
     "price": {
       "buy": 2350,
       "sell": 587
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParquetIron00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParquetIron00"
       }
     ]
   },
   {
     "name": {
-      en: "golden flooring",
-      jp: ""
+      "en": "golden flooring",
+      "jp": "おうごんのゆか"
     },
     "id": 5021,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Luxury",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 40000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorGold00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorGold00"
       }
     ]
   },
   {
     "name": {
-      en: "gravel flooring",
-      jp: ""
+      "en": "gravel flooring",
+      "jp": "たまじゃりのゆか"
     },
     "id": 4978,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Stone Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorGravel00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorGravel00"
       }
     ]
   },
   {
     "name": {
-      en: "gray argyle-tile flooring",
-      jp: ""
+      "en": "gray argyle-tile flooring",
+      "jp": "グレーのアーガイルタイルゆか"
     },
     "id": 5080,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Argyle",
     "price": {
       "buy": 1440,
       "sell": 360
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorArgyleTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorArgyleTile00"
       }
     ]
   },
   {
     "name": {
-      en: "gray vinyl flooring",
-      jp: ""
+      "en": "gray vinyl flooring",
+      "jp": "モノクロピータイル"
     },
     "id": 5046,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Checker",
     "price": {
       "buy": 1150,
       "sell": 287
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTileChecker00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTileChecker00"
       }
     ]
   },
   {
     "name": {
-      en: "green floral flooring",
-      jp: ""
+      "en": "green floral flooring",
+      "jp": "グリーンのフラワーフローリング"
     },
     "id": 6847,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Deco Wood",
     "price": {
       "buy": 1520,
       "sell": 380
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDecoWood03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDecoWood03"
       }
     ]
   },
   {
     "name": {
-      en: "green honeycomb tile",
-      jp: ""
+      "en": "green honeycomb tile",
+      "jp": "グリーンハニカムタイルのゆか"
     },
     "id": 5041,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Honeycomb",
     "price": {
       "buy": 1420,
       "sell": 355
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHoneycomb02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHoneycomb02"
       }
     ]
   },
   {
     "name": {
-      en: "green retro flooring",
-      jp: ""
+      "en": "green retro flooring",
+      "jp": "グリーンレトロなゆか"
     },
     "id": 5045,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Kitchen Floors",
     "price": {
       "buy": 1540,
       "sell": 385
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorKitchen01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorKitchen01"
       }
     ]
   },
   {
     "name": {
-      en: "green rubber flooring",
-      jp: ""
+      "en": "green rubber flooring",
+      "jp": "グリーンラバーのゆか"
     },
     "id": 4952,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Rubber",
     "price": {
       "buy": 850,
       "sell": 212
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRubber00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRubber00"
       }
     ]
   },
   {
     "name": {
-      en: "green vinyl flooring",
-      jp: ""
+      "en": "green vinyl flooring",
+      "jp": "みどりのピータイル"
     },
     "id": 5048,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Checker",
     "price": {
       "buy": 1150,
       "sell": 287
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTileChecker02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTileChecker02"
       }
     ]
   },
   {
     "name": {
-      en: "green wedding flooring",
-      jp: ""
+      "en": "green wedding flooring",
+      "jp": "ウェディングなグリーンタイル"
     },
     "id": 12434,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMarbleTile02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMarbleTile02"
       }
     ]
   },
   {
     "name": {
-      en: "green-paint flooring",
-      jp: ""
+      "en": "green-paint flooring",
+      "jp": "みどりのペイントフローリング"
     },
     "id": 5058,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Painted Wood",
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPaintWood01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPaintWood01"
       }
     ]
   },
   {
     "name": {
-      en: "Hello Kitty flooring",
-      jp: ""
+      "en": "Hello Kitty flooring",
+      "jp": "ハローキティなゆか"
     },
     "id": 10183,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sanrio Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorKitty00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorKitty00"
       }
     ]
   },
   {
     "name": {
-      en: "hexagonal floral flooring",
-      jp: ""
+      "en": "hexagonal floral flooring",
+      "jp": "あさのはタイルのゆか"
     },
     "id": 4972,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 860,
       "sell": 215
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHempTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHempTile00"
       }
     ]
   },
   {
     "name": {
-      en: "highway flooring",
-      jp: ""
+      "en": "highway flooring",
+      "jp": "ハイウェイのゆか"
     },
     "id": 5237,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sidewalk",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHighway00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHighway00"
       }
     ]
   },
   {
     "name": {
-      en: "honeycomb flooring",
-      jp: ""
+      "en": "honeycomb flooring",
+      "jp": "ハチミツなゆか"
     },
     "id": 4999,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Neta",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHoney00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHoney00"
       }
     ]
   },
   {
     "name": {
-      en: "ice flooring",
-      jp: ""
+      "en": "ice flooring",
+      "jp": "アイスなゆか"
     },
     "id": 5516,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "snowflakes",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Special Nature Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 8200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorIce00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorIce00"
       }
     ]
   },
   {
     "name": {
-      en: "iceberg flooring",
-      jp: ""
+      "en": "iceberg flooring",
+      "jp": "りゅうひょうのゆか"
     },
     "id": 5253,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "snowflakes",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Special Nature Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorIceFloe00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorIceFloe00"
       }
     ]
   },
   {
     "name": {
-      en: "imperial tile",
-      jp: ""
+      "en": "imperial tile",
+      "jp": "おうちょうなゆか"
     },
     "id": 5012,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Luxury",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDynasty00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDynasty00"
       }
     ]
   },
   {
     "name": {
-      en: "jointed-mat flooring",
-      jp: ""
+      "en": "jointed-mat flooring",
+      "jp": "ジョイントマットのゆか"
     },
     "id": 4955,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Cloth Floors",
     "price": {
       "buy": 1050,
       "sell": 262
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorJointMat00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorJointMat00"
       }
     ]
   },
   {
     "name": {
-      en: "jungle flooring",
-      jp: ""
+      "en": "jungle flooring",
+      "jp": "ジャングルのゆか"
     },
     "id": 5515,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - Green",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorJungle00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorJungle00"
       }
     ]
   },
   {
     "name": {
-      en: "Kerokerokeroppi flooring",
-      jp: ""
+      "en": "Kerokerokeroppi flooring",
+      "jp": "けろけろけろっぴなゆか"
     },
     "id": 10178,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sanrio Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorKeroppi00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorKeroppi00"
       }
     ]
   },
   {
     "name": {
-      en: "Kiki & Lala flooring",
-      jp: ""
+      "en": "Kiki & Lala flooring",
+      "jp": "キキ&ララなゆか"
     },
     "id": 10179,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sanrio Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorKikilala00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorKikilala00"
       }
     ]
   },
   {
     "name": {
-      en: "kitschy tile",
-      jp: ""
+      "en": "kitschy tile",
+      "jp": "キッチュなゆか"
     },
     "id": 5076,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 1280,
       "sell": 320
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorKitschTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorKitschTile00"
       }
     ]
   },
   {
     "name": {
-      en: "lava flooring",
-      jp: ""
+      "en": "lava flooring",
+      "jp": "ようがんのゆか"
     },
     "id": 5274,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Special Inorganic Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorVolcano00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorVolcano00"
       }
     ]
   },
   {
     "name": {
-      en: "leopard-print flooring",
-      jp: ""
+      "en": "leopard-print flooring",
+      "jp": "レオパードなゆか"
     },
     "id": 4959,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Animal Floor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorAnimal00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorAnimal00"
       }
     ]
   },
   {
     "name": {
-      en: "light herringbone flooring",
-      jp: ""
+      "en": "light herringbone flooring",
+      "jp": "ライトなヘリンボーンのゆか"
     },
     "id": 5061,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Herringbone",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHerringbone00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHerringbone00"
       }
     ]
   },
   {
     "name": {
-      en: "light parquet flooring",
-      jp: ""
+      "en": "light parquet flooring",
+      "jp": "ライトなパーケットフローリング"
     },
     "id": 5022,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Country",
     "price": {
       "buy": 1560,
       "sell": 390
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCountry00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCountry00"
       }
     ]
   },
   {
     "name": {
-      en: "light wood-pattern flooring",
-      jp: ""
+      "en": "light wood-pattern flooring",
+      "jp": "ライトなよせぎざいくのゆか"
     },
     "id": 4991,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Simple Parquet",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSimpleParquet00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSimpleParquet00"
       }
     ]
   },
   {
     "name": {
-      en: "lobby flooring",
-      jp: ""
+      "en": "lobby flooring",
+      "jp": "ロビーのゆか"
     },
     "id": 5034,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Cloth Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorLobby00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorLobby00"
       }
     ]
   },
   {
     "name": {
-      en: "lunar surface",
-      jp: ""
+      "en": "lunar surface",
+      "jp": "げつめんのゆか"
     },
     "id": 4968,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - White",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorLunar00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorLunar00"
       }
     ]
   },
   {
     "name": {
-      en: "marine pop flooring",
-      jp: ""
+      "en": "marine pop flooring",
+      "jp": "なみもようのゆか"
     },
     "id": 5024,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Cloth Floors",
     "price": {
       "buy": 2020,
       "sell": 505
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorFishPop00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorFishPop00"
       }
     ]
   },
   {
     "name": {
-      en: "mermaid flooring",
-      jp: ""
+      "en": "mermaid flooring",
+      "jp": "マーメイドなゆか"
     },
     "id": 12568,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - White",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 20975
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorMermaid00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorMermaid00"
       }
     ]
   },
   {
     "name": {
-      en: "mint dot flooring",
-      jp: ""
+      "en": "mint dot flooring",
+      "jp": "ミントドットカーペット"
     },
     "id": 5026,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Dot",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDot01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDot01"
       }
     ]
   },
   {
     "name": {
-      en: "modern wood flooring",
-      jp: ""
+      "en": "modern wood flooring",
+      "jp": "ミックスウッドのフローリング"
     },
     "id": 5044,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 1280,
       "sell": 320
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMixwood00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMixwood00"
       }
     ]
   },
   {
     "name": {
-      en: "money flooring",
-      jp: ""
+      "en": "money flooring",
+      "jp": "マネーなゆか"
     },
     "id": 4986,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Decadence",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 25000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBill00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBill00"
       }
     ]
   },
   {
     "name": {
-      en: "monochromatic dot flooring",
-      jp: ""
+      "en": "monochromatic dot flooring",
+      "jp": "モノクロドットカーペット"
     },
     "id": 5023,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Dot",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDot00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDot00"
       }
     ]
   },
   {
     "name": {
-      en: "monochromatic tile flooring",
-      jp: ""
+      "en": "monochromatic tile flooring",
+      "jp": "モノクロパネルカーペット"
     },
     "id": 5067,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Panel",
     "price": {
       "buy": 1620,
       "sell": 405
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPanel00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPanel00"
       }
     ]
   },
   {
     "name": {
-      en: "mossy-garden flooring",
-      jp: ""
+      "en": "mossy-garden flooring",
+      "jp": "こけにわのゆか"
     },
     "id": 5234,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Green",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMoss00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMoss00"
       }
     ]
   },
   {
     "name": {
-      en: "My Melody flooring",
-      jp: ""
+      "en": "My Melody flooring",
+      "jp": "マイメロディなゆか"
     },
     "id": 10180,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sanrio Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMymelody00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMymelody00"
       }
     ]
   },
   {
     "name": {
-      en: "natural-block flooring",
-      jp: ""
+      "en": "natural-block flooring",
+      "jp": "ナチュラルフローリングブロック"
     },
     "id": 5033,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Parquet",
     "price": {
       "buy": 1380,
       "sell": 345
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParquet00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParquet00"
       }
     ]
   },
   {
     "name": {
-      en: "Nook Inc. flooring",
-      jp: ""
+      "en": "Nook Inc. flooring",
+      "jp": "たぬきかいはつのフローリング"
     },
     "id": 6005,
-    "source": {
-      en: "Nook Miles Redemption",
-      jp: "Nook Miles Redemption"
-    },
+    "source": "Nook Miles Redemption",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorFirst00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorFirst00"
       }
     ]
   },
   {
     "name": {
-      en: "oasis flooring",
-      jp: ""
+      "en": "oasis flooring",
+      "jp": "オアシスなゆか"
     },
     "id": 5255,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Special Inorganic Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorOasis00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorOasis00"
       }
     ]
   },
   {
     "name": {
-      en: "olive desert-tile flooring",
-      jp: ""
+      "en": "olive desert-tile flooring",
+      "jp": "きみどりモロッカンタイルゆか"
     },
     "id": 6928,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Morocco",
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMorocco03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMorocco03"
       }
     ]
   },
   {
     "name": {
-      en: "orange camo flooring",
-      jp: ""
+      "en": "orange camo flooring",
+      "jp": "オレンジめいさいのゆか"
     },
     "id": 6845,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Camouflage",
     "price": {
       "buy": 1320,
       "sell": 330
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCamouflage03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCamouflage03"
       }
     ]
   },
   {
     "name": {
-      en: "orange retro flooring",
-      jp: ""
+      "en": "orange retro flooring",
+      "jp": "オレンジレトロなゆか"
     },
     "id": 5043,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Kitchen Floors",
     "price": {
       "buy": 1540,
       "sell": 385
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorKitchen00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorKitchen00"
       }
     ]
   },
   {
     "name": {
-      en: "paintball flooring",
-      jp: ""
+      "en": "paintball flooring",
+      "jp": "アトリエのゆか"
     },
     "id": 4988,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Stone Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorAtelier00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorAtelier00"
       }
     ]
   },
   {
     "name": {
-      en: "palace tile",
-      jp: ""
+      "en": "palace tile",
+      "jp": "きゅうでんのゆか"
     },
     "id": 5051,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Luxury",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPalace00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPalace00"
       }
     ]
   },
   {
     "name": {
-      en: "parking flooring",
-      jp: ""
+      "en": "parking flooring",
+      "jp": "パーキングのゆか"
     },
     "id": 4997,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sidewalk",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParking00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParking00"
       }
     ]
   },
   {
     "name": {
-      en: "party flooring",
-      jp: ""
+      "en": "party flooring",
+      "jp": "パーティーのゆか"
     },
     "id": 5241,
-    "source": {
-      en: "Birthday",
-      jp: "Birthday"
-    },
+    "source": "Birthday",
     "map": 0,
+    "event": "Birthday",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Decadence",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 370
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParty00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParty00"
       }
     ]
   },
   {
     "name": {
-      en: "pastel puzzle flooring",
-      jp: ""
+      "en": "pastel puzzle flooring",
+      "jp": "パステルパズルのゆか"
     },
     "id": 4956,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Puzzle Mat",
     "price": {
       "buy": 1450,
       "sell": 362
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPuzzleMat00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPuzzleMat00"
       }
     ]
   },
   {
     "name": {
-      en: "patchwork-tile flooring",
-      jp: ""
+      "en": "patchwork-tile flooring",
+      "jp": "パッチワークタイルのゆか"
     },
     "id": 4995,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPatchworkTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPatchworkTile00"
       }
     ]
   },
   {
     "name": {
-      en: "pine-board flooring",
-      jp: ""
+      "en": "pine-board flooring",
+      "jp": "パインざいフローリング"
     },
     "id": 5019,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSimple00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSimple00"
       }
     ]
   },
   {
     "name": {
-      en: "pink-paint flooring",
-      jp: ""
+      "en": "pink-paint flooring",
+      "jp": "ピンクのペイントフローリング"
     },
     "id": 5059,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Painted Wood",
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPaintWood02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPaintWood02"
       }
     ]
   },
   {
     "name": {
-      en: "pirate flooring",
-      jp: ""
+      "en": "pirate flooring",
+      "jp": "かいぞくのゆか"
     },
     "id": 12569,
-    "source": {
-      en: "Gullivarrr",
-      jp: "Gullivarrr"
-    },
+    "source": "Gullivarrr",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Luxury",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPirates00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPirates00"
       }
     ]
   },
   {
     "name": {
-      en: "Pompompurin flooring",
-      jp: ""
+      "en": "Pompompurin flooring",
+      "jp": "ポムポムプリンなゆか"
     },
     "id": 10181,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sanrio Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPurin00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPurin00"
       }
     ]
   },
   {
     "name": {
-      en: "prom flooring",
-      jp: ""
+      "en": "prom flooring",
+      "jp": "プロムのゆか"
     },
     "id": 14253,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Prom (1)",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBallroom00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBallroom00"
       }
     ]
   },
   {
     "name": {
-      en: "purple camo flooring",
-      jp: ""
+      "en": "purple camo flooring",
+      "jp": "パープルめいさいのゆか"
     },
     "id": 5017,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Camouflage",
     "price": {
       "buy": 1320,
       "sell": 330
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCamouflage02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCamouflage02"
       }
     ]
   },
   {
     "name": {
-      en: "purple desert-tile flooring",
-      jp: ""
+      "en": "purple desert-tile flooring",
+      "jp": "むらさきのモロッカンタイルゆか"
     },
     "id": 6927,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Morocco",
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMorocco02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMorocco02"
       }
     ]
   },
   {
     "name": {
-      en: "purple puzzle flooring",
-      jp: ""
+      "en": "purple puzzle flooring",
+      "jp": "パープルパズルのゆか"
     },
     "id": 7185,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Puzzle Mat",
     "price": {
       "buy": 1450,
       "sell": 362
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPuzzleMat03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPuzzleMat03"
       }
     ]
   },
   {
     "name": {
-      en: "pyramid tile",
-      jp: ""
+      "en": "pyramid tile",
+      "jp": "ピラミッドのゆか"
     },
     "id": 5054,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Luxury",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorEgypt00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorEgypt00"
       }
     ]
   },
   {
     "name": {
-      en: "racetrack flooring",
-      jp: ""
+      "en": "racetrack flooring",
+      "jp": "レーストラックのゆか"
     },
     "id": 4996,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sports Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorAthletics00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorAthletics00"
       }
     ]
   },
   {
     "name": {
-      en: "ramshackle flooring",
-      jp: ""
+      "en": "ramshackle flooring",
+      "jp": "はいきょのゆか"
     },
     "id": 5240,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Decadence",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRuins00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRuins00"
       }
     ]
   },
   {
     "name": {
-      en: "random-square-tile flooring",
-      jp: ""
+      "en": "random-square-tile flooring",
+      "jp": "ランダムスクエアタイルのゆか"
     },
     "id": 4973,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 1360,
       "sell": 340
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSquareTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSquareTile00"
       }
     ]
   },
   {
     "name": {
-      en: "rattan flooring",
-      jp: ""
+      "en": "rattan flooring",
+      "jp": "ラタンのゆか"
     },
     "id": 4967,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 1100,
       "sell": 275
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRattan00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRattan00"
       }
     ]
   },
   {
     "name": {
-      en: "red dot flooring",
-      jp: ""
+      "en": "red dot flooring",
+      "jp": "レッドドットカーペット"
     },
     "id": 5027,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Dot",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDot02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDot02"
       }
     ]
   },
   {
     "name": {
-      en: "red-and-black vinyl flooring",
-      jp: ""
+      "en": "red-and-black vinyl flooring",
+      "jp": "あかくろピータイル"
     },
     "id": 5047,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Checker",
     "price": {
       "buy": 1150,
       "sell": 287
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTileChecker01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTileChecker01"
       }
     ]
   },
   {
     "name": {
-      en: "red-brick flooring",
-      jp: ""
+      "en": "red-brick flooring",
+      "jp": "あかレンガのゆか"
     },
     "id": 4975,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Brick",
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBrick01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBrick01"
       }
     ]
   },
   {
     "name": {
-      en: "rocky-mountain flooring",
-      jp: ""
+      "en": "rocky-mountain flooring",
+      "jp": "いわやまのゆか"
     },
     "id": 5239,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Brown",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRock00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRock00"
       }
     ]
   },
   {
     "name": {
-      en: "rose flooring",
-      jp: ""
+      "en": "rose flooring",
+      "jp": "バラのじゅうたん"
     },
     "id": 4958,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Cloth Floors",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRoseCarpet00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRoseCarpet00"
       }
     ]
   },
   {
     "name": {
-      en: "rosewood flooring",
-      jp: ""
+      "en": "rosewood flooring",
+      "jp": "ローズウッドのゆか"
     },
     "id": 5063,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 2420,
       "sell": 605
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRoseWood00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRoseWood00"
       }
     ]
   },
   {
     "name": {
-      en: "rubber-tile flooring",
-      jp: ""
+      "en": "rubber-tile flooring",
+      "jp": "ゴムタイルのゆか"
     },
     "id": 5163,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 700,
       "sell": 175
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorRubberTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorRubberTile00"
       }
     ]
   },
   {
     "name": {
-      en: "rush tatami",
-      jp: ""
+      "en": "rush tatami",
+      "jp": "いぐさのたたみ"
     },
     "id": 5079,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tatami",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTatami01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTatami01"
       }
     ]
   },
   {
     "name": {
-      en: "rush tatami flooring",
-      jp: ""
+      "en": "rush tatami flooring",
+      "jp": "いぐさのふちなしたたみ"
     },
     "id": 5078,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tatami Panel",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTatamiPanel01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTatamiPanel01"
       }
     ]
   },
   {
     "name": {
-      en: "Saharah's desert",
-      jp: ""
+      "en": "Saharah's desert",
+      "jp": "さばくなゆか"
     },
     "id": 4983,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - White",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDesert00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDesert00"
       }
     ]
   },
   {
     "name": {
-      en: "sakura-wood flooring",
-      jp: ""
+      "en": "sakura-wood flooring",
+      "jp": "さくらのウッドフローリング"
     },
     "id": 5056,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "cherry-blossom petals",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Wood Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSolidWood00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSolidWood00"
       }
     ]
   },
   {
     "name": {
-      en: "sandlot",
-      jp: ""
+      "en": "sandlot",
+      "jp": "あきちのゆか"
     },
     "id": 4985,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Brown",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorEmptyLot00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorEmptyLot00"
       }
     ]
   },
   {
     "name": {
-      en: "sandy-beach flooring",
-      jp: ""
+      "en": "sandy-beach flooring",
+      "jp": "すなはまのゆか"
     },
     "id": 4970,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - White",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4120
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSand00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSand00"
       }
     ]
   },
   {
     "name": {
-      en: "sci-fi flooring",
-      jp: ""
+      "en": "sci-fi flooring",
+      "jp": "うちゅうせんのゆか"
     },
     "id": 5270,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Special Inorganic Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorSF00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorSF00"
       }
     ]
   },
   {
     "name": {
-      en: "scramble crosswalk",
-      jp: ""
+      "en": "scramble crosswalk",
+      "jp": "スクランブルこうさてん"
     },
     "id": 5010,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sidewalk",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorScramble00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorScramble00"
       }
     ]
   },
   {
     "name": {
-      en: "sepia puzzle flooring",
-      jp: ""
+      "en": "sepia puzzle flooring",
+      "jp": "セピアパズルのゆか"
     },
     "id": 7184,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Puzzle Mat",
     "price": {
       "buy": 1450,
       "sell": 362
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPuzzleMat02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPuzzleMat02"
       }
     ]
   },
   {
     "name": {
-      en: "ship deck",
-      jp: ""
+      "en": "ship deck",
+      "jp": "かんぱんのゆか"
     },
     "id": 4950,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sports Floor",
     "price": {
       "buy": 4000,
       "sell": 1000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSeaView00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSeaView00"
       }
     ]
   },
   {
     "name": {
-      en: "sidewalk flooring",
-      jp: ""
+      "en": "sidewalk flooring",
+      "jp": "ほどうのゆか"
     },
     "id": 5008,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sidewalk",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSidewalk01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSidewalk01"
       }
     ]
   },
   {
     "name": {
-      en: "simple blue flooring",
-      jp: ""
+      "en": "simple blue flooring",
+      "jp": "あおいシンプルカーペット"
     },
     "id": 5001,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Simple Carpet",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSimpleCarpet01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSimpleCarpet01"
       }
     ]
   },
   {
     "name": {
-      en: "simple purple flooring",
-      jp: ""
+      "en": "simple purple flooring",
+      "jp": "むらさきのシンプルカーペット"
     },
     "id": 5003,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Simple Carpet",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSimpleCarpet03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSimpleCarpet03"
       }
     ]
   },
   {
     "name": {
-      en: "simple red flooring",
-      jp: ""
+      "en": "simple red flooring",
+      "jp": "あかいシンプルカーペット"
     },
     "id": 5000,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Simple Carpet",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSimpleCarpet00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSimpleCarpet00"
       }
     ]
   },
   {
     "name": {
-      en: "simple white flooring",
-      jp: ""
+      "en": "simple white flooring",
+      "jp": "しろいシンプルカーペット"
     },
     "id": 5004,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Simple Carpet",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSimpleCarpet04"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSimpleCarpet04"
       }
     ]
   },
   {
     "name": {
-      en: "ski-slope flooring",
-      jp: ""
+      "en": "ski-slope flooring",
+      "jp": "ゲレンデのゆか"
     },
     "id": 4989,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "snowflakes",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - White",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorGelande00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorGelande00"
       }
     ]
   },
   {
     "name": {
-      en: "skull-print flooring",
-      jp: ""
+      "en": "skull-print flooring",
+      "jp": "スカルなゆか"
     },
     "id": 5248,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Cloth Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSkull00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSkull00"
       }
     ]
   },
   {
     "name": {
-      en: "slate flooring",
-      jp: ""
+      "en": "slate flooring",
+      "jp": "ランダムなしきいし"
     },
     "id": 5233,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Stone Floors",
     "price": {
       "buy": 1380,
       "sell": 345
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSlate00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSlate00"
       }
     ]
   },
   {
     "name": {
-      en: "spooky flooring",
-      jp: ""
+      "en": "spooky flooring",
+      "jp": "ハロウィンなゆか"
     },
     "id": 13225,
-    "source": {
-      en: "All villagers",
-      jp: "All villagers"
-    },
+    "source": "All villagers",
     "map": 0,
+    "event": "Halloween",
+    "eventExclusive": "Yes",
+    "version": "1.5.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Parquet",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHalloween00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHalloween00"
       }
     ]
   },
   {
     "name": {
-      en: "starry-sands flooring",
-      jp: ""
+      "en": "starry-sands flooring",
+      "jp": "ほしのすなはまのゆか"
     },
     "id": 7239,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "summer shells",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Nature - White",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSandStar00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSandStar00"
       }
     ]
   },
   {
     "name": {
-      en: "steel flooring",
-      jp: ""
+      "en": "steel flooring",
+      "jp": "てっぱんのゆか"
     },
     "id": 4960,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Iron",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 5250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorSteel00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorSteel00"
       }
     ]
   },
   {
     "name": {
-      en: "stone tile",
-      jp: ""
+      "en": "stone tile",
+      "jp": "だいりせきのゆか"
     },
     "id": 5069,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Stone Floors",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMarble00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMarble00"
       }
     ]
   },
   {
     "name": {
-      en: "stripe flooring",
-      jp: ""
+      "en": "stripe flooring",
+      "jp": "ストライプなゆか"
     },
     "id": 4963,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Cloth Floors",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorStripe00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorStripe00"
       }
     ]
   },
   {
     "name": {
-      en: "sumo ring",
-      jp: ""
+      "en": "sumo ring",
+      "jp": "どひょう"
     },
     "id": 5013,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sports Floor",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorArena00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorArena00"
       }
     ]
   },
   {
     "name": {
-      en: "swamp flooring",
-      jp: ""
+      "en": "swamp flooring",
+      "jp": "どろぬまなゆか"
     },
     "id": 5238,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Brown",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBog00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBog00"
       }
     ]
   },
   {
     "name": {
-      en: "tatami",
-      jp: ""
+      "en": "tatami",
+      "jp": "たたみ"
     },
     "id": 5039,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tatami",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTatami00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTatami00"
       }
     ]
   },
   {
     "name": {
-      en: "tatami flooring",
-      jp: ""
+      "en": "tatami flooring",
+      "jp": "ふちなしたたみ"
     },
     "id": 5077,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tatami Panel",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTatamiPanel00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTatamiPanel00"
       }
     ]
   },
   {
     "name": {
-      en: "terra-cotta flooring",
-      jp: ""
+      "en": "terra-cotta flooring",
+      "jp": "テラコッタタイルのゆか"
     },
     "id": 4971,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTileTerracotta00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTileTerracotta00"
       }
     ]
   },
   {
     "name": {
-      en: "tiger-print flooring",
-      jp: ""
+      "en": "tiger-print flooring",
+      "jp": "タイガーなじゅうたん"
     },
     "id": 6848,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Animal Floor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorAnimal03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorAnimal03"
       }
     ]
   },
   {
     "name": {
-      en: "train-station flooring",
-      jp: ""
+      "en": "train-station flooring",
+      "jp": "えきのホームなゆか"
     },
     "id": 5009,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Sidewalk",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPlatform00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPlatform00"
       }
     ]
   },
   {
     "name": {
-      en: "Turkey Day flooring",
-      jp: ""
+      "en": "Turkey Day flooring",
+      "jp": "サンクスギビングなゆか"
     },
     "id": 13319,
-    "source": {
-      en: "Franklin",
-      jp: "Franklin"
-    },
+    "source": "Franklin",
     "map": 0,
+    "event": "Turkey Day",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHarvest00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHarvest00"
       }
     ]
   },
   {
     "name": {
-      en: "underwater flooring",
-      jp: ""
+      "en": "underwater flooring",
+      "jp": "うみのそこのゆか"
     },
     "id": 5268,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "summer shells",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Special Nature Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorFishTank00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorFishTank00"
       }
     ]
   },
   {
     "name": {
-      en: "water flooring",
-      jp: ""
+      "en": "water flooring",
+      "jp": "みなものゆか"
     },
     "id": 5030,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "summer shells",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "Yes",
+    "diy": true,
     "tag": "Special Nature Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomSpFloorWater00"
+        "isPattern": false,
+        "imageName": "RoomSpFloorWater00"
       }
     ]
   },
   {
     "name": {
-      en: "western desert",
-      jp: ""
+      "en": "western desert",
+      "jp": "こうやのゆか"
     },
     "id": 4984,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Nature - Brown",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorWilderness00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorWilderness00"
       }
     ]
   },
   {
     "name": {
-      en: "white honeycomb tile",
-      jp: ""
+      "en": "white honeycomb tile",
+      "jp": "ホワイトハニカムタイルのゆか"
     },
     "id": 5042,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Honeycomb",
     "price": {
       "buy": 1420,
       "sell": 355
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorHoneycomb03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorHoneycomb03"
       }
     ]
   },
   {
     "name": {
-      en: "white iron-parquet flooring",
-      jp: ""
+      "en": "white iron-parquet flooring",
+      "jp": "しろいアイアンパーケットのゆか"
     },
     "id": 6843,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Iron Parquet",
     "price": {
       "buy": 2350,
       "sell": 587
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorParquetIron03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorParquetIron03"
       }
     ]
   },
   {
     "name": {
-      en: "white mosaic-tile flooring",
-      jp: ""
+      "en": "white mosaic-tile flooring",
+      "jp": "しろいモザイクタイルのゆか"
     },
     "id": 5020,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
       "buy": 900,
       "sell": 225
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorTile00"
       }
     ]
   },
   {
     "name": {
-      en: "white wedding flooring",
-      jp: ""
+      "en": "white wedding flooring",
+      "jp": "ウェディングなホワイトタイル"
     },
     "id": 12431,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Tile Floors",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorMarbleTile00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorMarbleTile00"
       }
     ]
   },
   {
     "name": {
-      en: "white-brick flooring",
-      jp: ""
+      "en": "white-brick flooring",
+      "jp": "しろレンガのゆか"
     },
     "id": 4974,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Brick",
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorBrick00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorBrick00"
       }
     ]
   },
   {
     "name": {
-      en: "white-chocolates flooring",
-      jp: ""
+      "en": "white-chocolates flooring",
+      "jp": "ホワイトチョコアソートなゆか"
     },
     "id": 5052,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Chocolate",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorChocolate01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorChocolate01"
       }
     ]
   },
   {
     "name": {
-      en: "white-paint flooring",
-      jp: ""
+      "en": "white-paint flooring",
+      "jp": "しろいペイントフローリング"
     },
     "id": 5060,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Painted Wood",
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorPaintWood03"
+        "isPattern": false,
+        "imageName": "RoomTexFloorPaintWood03"
       }
     ]
   },
   {
     "name": {
-      en: "wildflower meadow",
-      jp: ""
+      "en": "wildflower meadow",
+      "jp": "くさばなのじゅうたん"
     },
     "id": 5006,
-    "source": {
-      en: "Saharah",
-      jp: "Saharah"
-    },
+    "source": "Saharah",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Grassland",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorGrassland01"
+        "isPattern": false,
+        "imageName": "RoomTexFloorGrassland01"
       }
     ]
   },
   {
     "name": {
-      en: "wooden-knot flooring",
-      jp: ""
+      "en": "wooden-knot flooring",
+      "jp": "ふしありフローリング"
     },
     "id": 5049,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Wood Floors",
     "price": {
       "buy": 780,
       "sell": 195
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorCedar00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorCedar00"
       }
     ]
   },
   {
     "name": {
-      en: "yellow floral flooring",
-      jp: ""
+      "en": "yellow floral flooring",
+      "jp": "きいろいフラワーフローリング"
     },
     "id": 5073,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Deco Wood",
     "price": {
       "buy": 1520,
       "sell": 380
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorDecoWood00"
+        "isPattern": false,
+        "imageName": "RoomTexFloorDecoWood00"
       }
     ]
   },
   {
     "name": {
-      en: "zebra-print flooring",
-      jp: ""
+      "en": "zebra-print flooring",
+      "jp": "ゼブラなゆか"
     },
     "id": 4962,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "floors",
-    "diy": "No",
+    "diy": false,
     "tag": "Animal Floor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "RoomTexFloorAnimal02"
+        "isPattern": false,
+        "imageName": "RoomTexFloorAnimal02"
       }
     ]
   }
-];
+]

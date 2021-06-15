@@ -1,476 +1,476 @@
 translationNames.music = [
   {
-    label: "Music_02405",
+    label: "2405",
     en: "K.K. Chorale",
     jp: "けけさんびか"
   },
   {
-    label: "Music_02406",
+    label: "2406",
     en: "K.K. March",
     jp: "けけマーチ"
   },
   {
-    label: "Music_02407",
+    label: "2407",
     en: "K.K. Waltz",
     jp: "けけワルツ"
   },
   {
-    label: "Music_02408",
+    label: "2408",
     en: "K.K. Swing",
     jp: "けけスウィング"
   },
   {
-    label: "Music_02409",
+    label: "2409",
     en: "K.K. Jazz",
     jp: "けけジャズ"
   },
   {
-    label: "Music_02410",
+    label: "2410",
     en: "K.K. Fusion",
     jp: "けけフュージョン"
   },
   {
-    label: "Music_02411",
+    label: "2411",
     en: "K.K. Étude",
     jp: "けけのエチュード"
   },
   {
-    label: "Music_02412",
+    label: "2412",
     en: "K.K. Lullaby",
     jp: "けけララバイ"
   },
   {
-    label: "Music_02413",
+    label: "2413",
     en: "K.K. Aria",
     jp: "けけマリア"
   },
   {
-    label: "Music_02414",
+    label: "2414",
     en: "K.K. Samba",
     jp: "けけサンバ"
   },
   {
-    label: "Music_02415",
+    label: "2415",
     en: "K.K. Bossa",
     jp: "けけボッサ"
   },
   {
-    label: "Music_02416",
+    label: "2416",
     en: "K.K. Calypso",
     jp: "けけカリプソ"
   },
   {
-    label: "Music_02417",
+    label: "2417",
     en: "K.K. Salsa",
     jp: "けけサルサ"
   },
   {
-    label: "Music_02418",
+    label: "2418",
     en: "K.K. Mambo",
     jp: "けけマンボ"
   },
   {
-    label: "Music_02419",
+    label: "2419",
     en: "K.K. Reggae",
     jp: "けけレゲエ"
   },
   {
-    label: "Music_02420",
+    label: "2420",
     en: "K.K. Ska",
     jp: "けけスカ"
   },
   {
-    label: "Music_02421",
+    label: "2421",
     en: "K.K. Tango",
     jp: "けけタンゴ"
   },
   {
-    label: "Music_02422",
+    label: "2422",
     en: "K.K. Faire",
     jp: "ハイサイけけ"
   },
   {
-    label: "Music_02423",
+    label: "2423",
     en: "Aloha K.K.",
     jp: "アロハけけ"
   },
   {
-    label: "Music_02424",
+    label: "2424",
     en: "Lucky K.K.",
     jp: "アイリッシュそんぐ"
   },
   {
-    label: "Music_02425",
+    label: "2425",
     en: "K.K. Condor",
     jp: "ペルーのうた"
   },
   {
-    label: "Music_02426",
+    label: "2426",
     en: "K.K. Steppe",
     jp: "コサックそんぐ"
   },
   {
-    label: "Music_02427",
+    label: "2427",
     en: "Imperial K.K.",
     jp: "けけチャイナ"
   },
   {
-    label: "Music_02428",
+    label: "2428",
     en: "K.K. Casbah",
     jp: "トルコそんぐ"
   },
   {
-    label: "Music_02429",
+    label: "2429",
     en: "K.K. Safari",
     jp: "けけアフロ"
   },
   {
-    label: "Music_02430",
+    label: "2430",
     en: "K.K. Folk",
     jp: "けけみんよう"
   },
   {
-    label: "Music_02431",
+    label: "2431",
     en: "K.K. Rock",
     jp: "けけロック"
   },
   {
-    label: "Music_02432",
+    label: "2432",
     en: "Rockin' K.K.",
     jp: "けけのロケンロール"
   },
   {
-    label: "Music_02433",
+    label: "2433",
     en: "K.K. Ragtime",
     jp: "ラグタイム"
   },
   {
-    label: "Music_02434",
+    label: "2434",
     en: "K.K. Gumbo",
     jp: "ニューオリンズそんぐ"
   },
   {
-    label: "Music_02435",
+    label: "2435",
     en: "The K. Funk",
     jp: "けけファンク"
   },
   {
-    label: "Music_02436",
+    label: "2436",
     en: "K.K. Blues",
     jp: "けけブルース"
   },
   {
-    label: "Music_02437",
+    label: "2437",
     en: "Soulful K.K.",
     jp: "けけゴスペル"
   },
   {
-    label: "Music_02438",
+    label: "2438",
     en: "K.K. Soul",
     jp: "けけソウル"
   },
   {
-    label: "Music_02439",
+    label: "2439",
     en: "K.K. Cruisin'",
     jp: "アーバンけけ"
   },
   {
-    label: "Music_02440",
+    label: "2440",
     en: "K.K. Love Song",
     jp: "けけラヴソング"
   },
   {
-    label: "Music_02441",
+    label: "2441",
     en: "K.K. D&B",
     jp: "ドラムンベース"
   },
   {
-    label: "Music_02442",
+    label: "2442",
     en: "K.K. Technopop",
     jp: "テクノビート"
   },
   {
-    label: "Music_02443",
+    label: "2443",
     en: "DJ K.K.",
     jp: "ユーロビート"
   },
   {
-    label: "Music_02444",
+    label: "2444",
     en: "Only Me",
     jp: "オンリーミー"
   },
   {
-    label: "Music_02445",
+    label: "2445",
     en: "K.K. Country",
     jp: "けけカントリー"
   },
   {
-    label: "Music_02446",
+    label: "2446",
     en: "Surfin' K.K.",
     jp: "エレキそんぐ"
   },
   {
-    label: "Music_02447",
+    label: "2447",
     en: "K.K. Ballad",
     jp: "けけバラッド"
   },
   {
-    label: "Music_02448",
+    label: "2448",
     en: "Comrade K.K.",
     jp: "しょうわけけかよう"
   },
   {
-    label: "Music_02449",
+    label: "2449",
     en: "K.K. Lament",
     jp: "けけえんか"
   },
   {
-    label: "Music_02450",
+    label: "2450",
     en: "Go K.K. Rider",
     jp: "ゆけ!けけライダー"
   },
   {
-    label: "Music_02451",
+    label: "2451",
     en: "K.K. Dirge",
     jp: "こわいうた"
   },
   {
-    label: "Music_02452",
+    label: "2452",
     en: "K.K. Western",
     jp: "けけウェスタン"
   },
   {
-    label: "Music_02453",
+    label: "2453",
     en: "Mr. K.K.",
     jp: "けけせんせい"
   },
   {
-    label: "Music_02454",
+    label: "2454",
     en: "Café K.K.",
     jp: "けけパリ"
   },
   {
-    label: "Music_02455",
+    label: "2455",
     en: "K.K. Parade",
     jp: "けけパレード"
   },
   {
-    label: "Music_02456",
+    label: "2456",
     en: "K.K. Mariachi",
     jp: "セニョールけけ"
   },
   {
-    label: "Music_02457",
+    label: "2457",
     en: "K.K. Song",
     jp: "けけソング"
   },
   {
-    label: "Music_02458",
+    label: "2458",
     en: "I Love You",
     jp: "だいすき"
   },
   {
-    label: "Music_02459",
+    label: "2459",
     en: "Two Days Ago",
     jp: "おととい"
   },
   {
-    label: "Music_02460",
+    label: "2460",
     en: "My Place",
     jp: "ぼくのばしょ"
   },
   {
-    label: "Music_02461",
+    label: "2461",
     en: "Forest Life",
     jp: "もりのせいかつ"
   },
   {
-    label: "Music_02462",
+    label: "2462",
     en: "To the Edge",
     jp: "ナミナミ"
   },
   {
-    label: "Music_02463",
+    label: "2463",
     en: "Pondering",
     jp: "かんがえちゅう"
   },
   {
-    label: "Music_02464",
+    label: "2464",
     en: "K.K. Dixie",
     jp: "けけディキシー"
   },
   {
-    label: "Music_02465",
+    label: "2465",
     en: "K.K. Marathon",
     jp: "けけガムラン"
   },
   {
-    label: "Music_02466",
+    label: "2466",
     en: "King K.K.",
     jp: "けけだいみょう"
   },
   {
-    label: "Music_02467",
+    label: "2467",
     en: "Mountain Song",
     jp: "アルペンそんぐ"
   },
   {
-    label: "Music_02468",
+    label: "2468",
     en: "Marine Song 2001",
     jp: "ふなうた2001"
   },
   {
-    label: "Music_02469",
+    label: "2469",
     en: "Neapolitan",
     jp: "ナポリタン"
   },
   {
-    label: "Music_02470",
+    label: "2470",
     en: "Steep Hill",
     jp: "にだんざか"
   },
   {
-    label: "Music_02471",
+    label: "2471",
     en: "K.K. Rockabilly",
     jp: "けけビリー"
   },
   {
-    label: "Music_02472",
+    label: "2472",
     en: "Agent K.K.",
     jp: "けけけいじ"
   },
   {
-    label: "Music_02473",
+    label: "2473",
     en: "K.K. Rally",
     jp: "けけおんど"
   },
   {
-    label: "Music_02474",
+    label: "2474",
     en: "K.K. Metal",
     jp: "けけメタル"
   },
   {
-    label: "Music_02475",
+    label: "2475",
     en: "Stale Cupcakes",
     jp: "ブルーおにぎり"
   },
   {
-    label: "Music_02476",
+    label: "2476",
     en: "Spring Blossoms",
     jp: "はるのこもれび"
   },
   {
-    label: "Music_02477",
+    label: "2477",
     en: "Wandering",
     jp: "ほうろう"
   },
   {
-    label: "Music_02478",
+    label: "2478",
     en: "K.K. House",
     jp: "けけハウス"
   },
   {
-    label: "Music_02479",
+    label: "2479",
     en: "K.K. Sonata",
     jp: "けけのソナタ"
   },
   {
-    label: "Music_02480",
+    label: "2480",
     en: "Hypno K.K.",
     jp: "うたたねのゆめ"
   },
   {
-    label: "Music_02481",
+    label: "2481",
     en: "K.K. Stroll",
     jp: "おさんぽ"
   },
   {
-    label: "Music_02482",
+    label: "2482",
     en: "K.K. Island",
     jp: "どうぶつのしま"
   },
   {
-    label: "Music_02483",
+    label: "2483",
     en: "Space K.K.",
     jp: "ミニマルおんがく"
   },
   {
-    label: "Music_02484",
+    label: "2484",
     en: "K.K. Adventure",
     jp: "けけハリウッド"
   },
   {
-    label: "Music_02485",
+    label: "2485",
     en: "K.K. Oasis",
     jp: "けけマハラジャ"
   },
   {
-    label: "Music_02486",
+    label: "2486",
     en: "K.K. Bazaar",
     jp: "けけロマ"
   },
   {
-    label: "Music_02487",
+    label: "2487",
     en: "K.K. Milonga",
     jp: "けけのミロンガ"
   },
   {
-    label: "Music_02488",
+    label: "2488",
     en: "K.K. Groove",
     jp: "けけグルーヴ"
   },
   {
-    label: "Music_02489",
+    label: "2489",
     en: "K.K. Jongara",
     jp: "けけじょんがら"
   },
   {
-    label: "Music_02490",
+    label: "2490",
     en: "K.K. Flamenco",
     jp: "けけフラメンコ"
   },
   {
-    label: "Music_02491",
+    label: "2491",
     en: "K.K. Moody",
     jp: "けけボレロ"
   },
   {
-    label: "Music_02492",
+    label: "2492",
     en: "Bubblegum K.K.",
     jp: "けけアイドル"
   },
   {
-    label: "Music_02493",
+    label: "2493",
     en: "K.K. Synth",
     jp: "けけトロニカ"
   },
   {
-    label: "Music_02494",
+    label: "2494",
     en: "K.K. Disco",
     jp: "けけディスコ"
   },
   {
-    label: "Music_02495",
+    label: "2495",
     en: "K.K. Birthday",
     jp: "きみのたんじょうび"
   },
   {
-    label: "Music_04312",
+    label: "4312",
     en: "Animal City",
     jp: "どうぶつのまち"
   },
   {
-    label: "Music_04313",
+    label: "4313",
     en: "Farewell",
     jp: "さよなら"
   },
   {
-    label: "Music_04314",
+    label: "4314",
     en: "Drivin'",
     jp: "ドライブ"
   },
   {
-    label: "Music_04318",
+    label: "4318",
     en: "Welcome Horizons",
     jp: "みんなあつまれ"
   },

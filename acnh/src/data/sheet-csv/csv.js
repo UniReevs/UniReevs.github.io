@@ -11,7 +11,7 @@ let csv = {
   umbrellas: [],
 
   art: [],
-  fences: [],
+  fencing: [],
   fossils: [],
 
   housewares: [],

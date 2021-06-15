@@ -35,16 +35,51 @@ element = {
 //   $(targetElement).removeClass(className);
 //   $(this).addClass(className);
 // }
-
+let filterList = [
+  'everything',
+  'bags',
+  'swimwear',
+  'miscellaneous',
+  'housewares',
+  'villagers',
+  'materials',
+  'bottoms',
+  'tops',
+  'art',
+  'recipes',
+  'dresses',
+  'umbrellas',
+  'wall-mounted',
+  'fossils',
+  'tools',
+  'headwear',
+  'floors',
+  'photos',
+  'music',
+  'events',
+  'shoes',
+  'rugs',
+  'posters',
+  'accessories',
+  'socks',
+  'wallpaper',
+  'special',
+  'fencing'
+];
 $(element.nav.main)
 .on('click', element.menu, function(event) {
   event.preventDefault();
   let $this = $(this),
-      value = $this.data('category'),
+      attribute = 'data-'+$this.data('category'),
       $parent = $this.parent();
   $('.menu').removeClass(className.active);
   $parent.addClass(className.active);
-  $(element.itemList).attr('data-category', value);
+
+  for (var i = 0; i < filterList.length; i++) {
+    $('#js-category-filter').attr('data-'+filterList[i], false);
+  }
+
+  $('#js-category-filter').attr(attribute, true);
 })
 
 .on('click', element.view, function(event) {;

@@ -1,140 +1,158 @@
 fashion.swimwear = [
   {
     "name": {
-      en: "horizontal-striped wet suit",
-      jp: "ボーダーのマリンスーツ"
+      "en": "horizontal-striped wet suit",
+      "jp": "ボーダーのマリンスーツ"
     },
     "id": 1260,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "For sale",
     "category": "swimwear",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13103,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexMarinesuitNormalNGreco3"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalNGreco3"
       },
       {
         "id": 12986,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexMarinesuitNormalNGreco0"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalNGreco0"
       },
       {
         "id": 13102,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexMarinesuitNormalNGreco2"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalNGreco2"
       },
       {
         "id": 13101,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexMarinesuitNormalNGreco1"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalNGreco1"
       }
     ]
   },
   {
     "name": {
-      en: "leaf-print wet suit",
-      jp: "はっぱがらマリンスーツ"
+      "en": "leaf-print wet suit",
+      "jp": "はっぱがらマリンスーツ"
     },
     "id": 1259,
-    "source": {
-      en: "Nook Shopping Daily Selection",
-      jp: "Nook Shopping Daily Selection"
-    },
+    "source": "Nook Shopping Daily Selection",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "For sale",
     "category": "swimwear",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13099,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexMarinesuitNormalLRashguard2"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalLRashguard2"
       },
       {
         "id": 13100,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexMarinesuitNormalLRashguard3"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalLRashguard3"
       },
       {
         "id": 12981,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexMarinesuitNormalLRashguard0"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalLRashguard0"
       },
       {
         "id": 13098,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexMarinesuitNormalLRashguard1"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalLRashguard1"
       }
     ]
   },
   {
     "name": {
-      en: "Nook Inc. wet suit",
-      jp: "たぬきかいはつマリンスーツ"
+      "en": "Nook Inc. wet suit",
+      "jp": "たぬきかいはつマリンスーツ"
     },
     "id": 1258,
-    "source": {
-      en: "Nook Miles Redemption",
-      jp: "Nook Miles Redemption"
-    },
+    "source": "Nook Miles Redemption",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "swimwear",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12970,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexMarinesuitNormalLNook0"
+        "isPattern": false,
+        "imageName": "TopsTexMarinesuitNormalLNook0"
       }
     ]
   }
-];
+]

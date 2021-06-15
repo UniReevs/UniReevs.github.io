@@ -1,12368 +1,13742 @@
 npc.posters = [
   {
     "name": {
-      en: "Admiral's poster",
-      jp: ""
+      "en": "Admiral's poster",
+      "jp": "イッテツのポスター"
     },
     "id": 10814,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd06"
+        "imageName": "PosterNpcNmlBrd06"
       }
     ]
   },
   {
     "name": {
-      en: "Agent S's poster",
-      jp: ""
+      "en": "Agent S's poster",
+      "jp": "２ごうのポスター"
     },
     "id": 10425,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu05"
+        "imageName": "PosterNpcNmlSqu05"
       }
     ]
   },
   {
     "name": {
-      en: "Agnes's poster",
-      jp: ""
+      "en": "Agnes's poster",
+      "jp": "アグネスのポスター"
     },
     "id": 10401,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig17"
+        "imageName": "PosterNpcNmlPig17"
       }
     ]
   },
   {
     "name": {
-      en: "Al's poster",
-      jp: ""
+      "en": "Al's poster",
+      "jp": "たもつのポスター"
     },
     "id": 10590,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor08"
+        "imageName": "PosterNpcNmlGor08"
       }
     ]
   },
   {
     "name": {
-      en: "Alfonso's poster",
-      jp: ""
+      "en": "Alfonso's poster",
+      "jp": "アルベルトのポスター"
     },
     "id": 10382,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCrd00"
+        "imageName": "PosterNpcNmlCrd00"
       }
     ]
   },
   {
     "name": {
-      en: "Alice's poster",
-      jp: ""
+      "en": "Alice's poster",
+      "jp": "メルボルンのポスター"
     },
     "id": 10411,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal01"
+        "imageName": "PosterNpcNmlKal01"
       }
     ]
   },
   {
     "name": {
-      en: "Alli's poster",
-      jp: ""
+      "en": "Alli's poster",
+      "jp": "クロコのポスター"
     },
     "id": 10655,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCrd01"
+        "imageName": "PosterNpcNmlCrd01"
       }
     ]
   },
   {
     "name": {
-      en: "Amelia's poster",
-      jp: ""
+      "en": "Amelia's poster",
+      "jp": "アンデスのポスター"
     },
     "id": 10687,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr01"
+        "imageName": "PosterNpcNmlPbr01"
       }
     ]
   },
   {
     "name": {
-      en: "Anabelle's poster",
-      jp: ""
+      "en": "Anabelle's poster",
+      "jp": "あるみのポスター"
     },
     "id": 10800,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlAnt03"
+        "imageName": "PosterNpcNmlAnt03"
       }
     ]
   },
   {
     "name": {
-      en: "Anchovy's poster",
-      jp: ""
+      "en": "Anchovy's poster",
+      "jp": "アンチョビのポスター"
     },
     "id": 10782,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd02"
+        "imageName": "PosterNpcNmlBrd02"
       }
     ]
   },
   {
     "name": {
-      en: "Angus's poster",
-      jp: ""
+      "en": "Angus's poster",
+      "jp": "セルバンテスのポスター"
     },
     "id": 10807,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBul00"
+        "imageName": "PosterNpcNmlBul00"
       }
     ]
   },
   {
     "name": {
-      en: "Anicotti's poster",
-      jp: ""
+      "en": "Anicotti's poster",
+      "jp": "ラザニアのポスター"
     },
     "id": 10413,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus10"
+        "imageName": "PosterNpcNmlMus10"
       }
     ]
   },
   {
     "name": {
-      en: "Ankha's poster",
-      jp: ""
+      "en": "Ankha's poster",
+      "jp": "ナイルのポスター"
     },
     "id": 10416,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat19"
+        "imageName": "PosterNpcNmlCat19"
       }
     ]
   },
   {
     "name": {
-      en: "Annalisa's poster",
-      jp: ""
+      "en": "Annalisa's poster",
+      "jp": "みやびのポスター"
     },
     "id": 10824,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlAnt08"
+        "imageName": "PosterNpcNmlAnt08"
       }
     ]
   },
   {
     "name": {
-      en: "Annalise's poster",
-      jp: ""
+      "en": "Annalise's poster",
+      "jp": "シルブプレのポスター"
     },
     "id": 10573,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs09"
+        "imageName": "PosterNpcNmlHrs09"
       }
     ]
   },
   {
     "name": {
-      en: "Antonio's poster",
-      jp: ""
+      "en": "Antonio's poster",
+      "jp": "マコトのポスター"
     },
     "id": 10795,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlAnt01"
+        "imageName": "PosterNpcNmlAnt01"
       }
     ]
   },
   {
     "name": {
-      en: "Apollo's poster",
-      jp: ""
+      "en": "Apollo's poster",
+      "jp": "アポロのポスター"
     },
     "id": 10512,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr00"
+        "imageName": "PosterNpcNmlPbr00"
       }
     ]
   },
   {
     "name": {
-      en: "Apple's poster",
-      jp: ""
+      "en": "Apple's poster",
+      "jp": "アップルのポスター"
     },
     "id": 10565,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHam01"
+        "imageName": "PosterNpcNmlHam01"
       }
     ]
   },
   {
     "name": {
-      en: "Astrid's poster",
-      jp: ""
+      "en": "Astrid's poster",
+      "jp": "キッズのポスター"
     },
     "id": 10493,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKgr05"
+        "imageName": "PosterNpcNmlKgr05"
       }
     ]
   },
   {
     "name": {
-      en: "Audie's poster",
-      jp: ""
+      "en": "Audie's poster",
+      "jp": "モニカのポスター"
     },
     "id": 10859,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol12"
+        "imageName": "PosterNpcNmlWol12"
       }
     ]
   },
   {
     "name": {
-      en: "Aurora's poster",
-      jp: ""
+      "en": "Aurora's poster",
+      "jp": "オーロラのポスター"
     },
     "id": 10563,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn00"
+        "imageName": "PosterNpcNmlPgn00"
       }
     ]
   },
   {
     "name": {
-      en: "Ava's poster",
-      jp: ""
+      "en": "Ava's poster",
+      "jp": "ドミグラのポスター"
     },
     "id": 10467,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn05"
+        "imageName": "PosterNpcNmlChn05"
       }
     ]
   },
   {
     "name": {
-      en: "Avery's poster",
-      jp: ""
+      "en": "Avery's poster",
+      "jp": "クスケチャのポスター"
     },
     "id": 10370,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr05"
+        "imageName": "PosterNpcNmlPbr05"
       }
     ]
   },
   {
     "name": {
-      en: "Axel's poster",
-      jp: ""
+      "en": "Axel's poster",
+      "jp": "エックスエルのポスター"
     },
     "id": 10319,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp06"
+        "imageName": "PosterNpcNmlElp06"
       }
     ]
   },
   {
     "name": {
-      en: "Baabara's poster",
-      jp: ""
+      "en": "Baabara's poster",
+      "jp": "トロワのポスター"
     },
     "id": 10508,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp01"
+        "imageName": "PosterNpcNmlShp01"
       }
     ]
   },
   {
     "name": {
-      en: "Bam's poster",
-      jp: ""
+      "en": "Bam's poster",
+      "jp": "タケルのポスター"
     },
     "id": 10456,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer01"
+        "imageName": "PosterNpcNmlDer01"
       }
     ]
   },
   {
     "name": {
-      en: "Bangle's poster",
-      jp: ""
+      "en": "Bangle's poster",
+      "jp": "ルーズのポスター"
     },
     "id": 10672,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlTig03"
+        "imageName": "PosterNpcNmlTig03"
       }
     ]
   },
   {
     "name": {
-      en: "Barold's poster",
-      jp: ""
+      "en": "Barold's poster",
+      "jp": "ニッシーのポスター"
     },
     "id": 10583,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr16"
+        "imageName": "PosterNpcNmlCbr16"
       }
     ]
   },
   {
     "name": {
-      en: "Bea's poster",
-      jp: ""
+      "en": "Bea's poster",
+      "jp": "ベーグルのポスター"
     },
     "id": 10632,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog10"
+        "imageName": "PosterNpcNmlDog10"
       }
     ]
   },
   {
     "name": {
-      en: "Beardo's poster",
-      jp: ""
+      "en": "Beardo's poster",
+      "jp": "ベアードのポスター"
     },
     "id": 10788,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea13"
+        "imageName": "PosterNpcNmlBea13"
       }
     ]
   },
   {
     "name": {
-      en: "Beau's poster",
-      jp: ""
+      "en": "Beau's poster",
+      "jp": "ペーターのポスター"
     },
     "id": 10396,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer07"
+        "imageName": "PosterNpcNmlDer07"
       }
     ]
   },
   {
     "name": {
-      en: "Becky's poster",
-      jp: ""
+      "en": "Becky's poster",
+      "jp": "アリアのポスター"
     },
     "id": 10580,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn09"
+        "imageName": "PosterNpcNmlChn09"
       }
     ]
   },
   {
     "name": {
-      en: "Bella's poster",
-      jp: ""
+      "en": "Bella's poster",
+      "jp": "イザベラのポスター"
     },
     "id": 10681,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus02"
+        "imageName": "PosterNpcNmlMus02"
       }
     ]
   },
   {
     "name": {
-      en: "Benedict's poster",
-      jp: ""
+      "en": "Benedict's poster",
+      "jp": "ぺしみちのポスター"
     },
     "id": 10400,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn01"
+        "imageName": "PosterNpcNmlChn01"
       }
     ]
   },
   {
     "name": {
-      en: "Benjamin's poster",
-      jp: ""
+      "en": "Benjamin's poster",
+      "jp": "ハチのポスター"
     },
     "id": 10695,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog16"
+        "imageName": "PosterNpcNmlDog16"
       }
     ]
   },
   {
     "name": {
-      en: "Bertha's poster",
-      jp: ""
+      "en": "Bertha's poster",
+      "jp": "あんこのポスター"
     },
     "id": 10322,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHip03"
+        "imageName": "PosterNpcNmlHip03"
       }
     ]
   },
   {
     "name": {
-      en: "Bettina's poster",
-      jp: ""
+      "en": "Bettina's poster",
+      "jp": "マルコのポスター"
     },
     "id": 10403,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus15"
+        "imageName": "PosterNpcNmlMus15"
       }
     ]
   },
   {
     "name": {
-      en: "Bianca's poster",
-      jp: ""
+      "en": "Bianca's poster",
+      "jp": "コユキのポスター"
     },
     "id": 10393,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlTig06"
+        "imageName": "PosterNpcNmlTig06"
       }
     ]
   },
   {
     "name": {
-      en: "Biff's poster",
-      jp: ""
+      "en": "Biff's poster",
+      "jp": "ガブリエルのポスター"
     },
     "id": 10682,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHip04"
+        "imageName": "PosterNpcNmlHip04"
       }
     ]
   },
   {
     "name": {
-      en: "Big Top's poster",
-      jp: ""
+      "en": "Big Top's poster",
+      "jp": "３ごうのポスター"
     },
     "id": 10426,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp02"
+        "imageName": "PosterNpcNmlElp02"
       }
     ]
   },
   {
     "name": {
-      en: "Bill's poster",
-      jp: ""
+      "en": "Bill's poster",
+      "jp": "ピータンのポスター"
     },
     "id": 10653,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk00"
+        "imageName": "PosterNpcNmlDuk00"
       }
     ]
   },
   {
     "name": {
-      en: "Billy's poster",
-      jp: ""
+      "en": "Billy's poster",
+      "jp": "アーシンドのポスター"
     },
     "id": 10620,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGoa02"
+        "imageName": "PosterNpcNmlGoa02"
       }
     ]
   },
   {
     "name": {
-      en: "Biskit's poster",
-      jp: ""
+      "en": "Biskit's poster",
+      "jp": "ロビンのポスター"
     },
     "id": 10496,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog03"
+        "imageName": "PosterNpcNmlDog03"
       }
     ]
   },
   {
     "name": {
-      en: "Bitty's poster",
-      jp: ""
+      "en": "Bitty's poster",
+      "jp": "エーミーのポスター"
     },
     "id": 10622,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHip05"
+        "imageName": "PosterNpcNmlHip05"
       }
     ]
   },
   {
     "name": {
-      en: "Blaire's poster",
-      jp: ""
+      "en": "Blaire's poster",
+      "jp": "シルエットのポスター"
     },
     "id": 10369,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu01"
+        "imageName": "PosterNpcNmlSqu01"
       }
     ]
   },
   {
     "name": {
-      en: "Blanca's poster",
-      jp: ""
+      "en": "Blanca's poster",
+      "jp": "あやしいネコのポスター"
     },
     "id": 10343,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpMka"
+        "imageName": "PosterNpcSpMka"
       }
     ]
   },
   {
     "name": {
-      en: "Blanche's poster",
-      jp: ""
+      "en": "Blanche's poster",
+      "jp": "しのぶのポスター"
     },
     "id": 10478,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst08"
+        "imageName": "PosterNpcNmlOst08"
       }
     ]
   },
   {
     "name": {
-      en: "Blathers's poster",
-      jp: ""
+      "en": "Blathers's poster",
+      "jp": "フータのポスター"
     },
     "id": 10324,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpOwl"
+        "imageName": "PosterNpcSpOwl"
       }
     ]
   },
   {
     "name": {
-      en: "Bluebear's poster",
-      jp: ""
+      "en": "Bluebear's poster",
+      "jp": "グルミンのポスター"
     },
     "id": 10652,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr00"
+        "imageName": "PosterNpcNmlCbr00"
       }
     ]
   },
   {
     "name": {
-      en: "Bob's poster",
-      jp: ""
+      "en": "Bob's poster",
+      "jp": "ニコバンのポスター"
     },
     "id": 10797,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat00"
+        "imageName": "PosterNpcNmlCat00"
       }
     ]
   },
   {
     "name": {
-      en: "Bonbon's poster",
-      jp: ""
+      "en": "Bonbon's poster",
+      "jp": "ミミィのポスター"
     },
     "id": 10666,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt17"
+        "imageName": "PosterNpcNmlRbt17"
       }
     ]
   },
   {
     "name": {
-      en: "Bones's poster",
-      jp: ""
+      "en": "Bones's poster",
+      "jp": "トミのポスター"
     },
     "id": 10548,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog04"
+        "imageName": "PosterNpcNmlDog04"
       }
     ]
   },
   {
     "name": {
-      en: "Booker's poster",
-      jp: ""
+      "en": "Booker's poster",
+      "jp": "おまわりさんのポスター"
     },
     "id": 10336,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpDgb"
+        "imageName": "PosterNpcSpDgb"
       }
     ]
   },
   {
     "name": {
-      en: "Boomer's poster",
-      jp: ""
+      "en": "Boomer's poster",
+      "jp": "ショーイのポスター"
     },
     "id": 10506,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn10"
+        "imageName": "PosterNpcNmlPgn10"
       }
     ]
   },
   {
     "name": {
-      en: "Boone's poster",
-      jp: ""
+      "en": "Boone's poster",
+      "jp": "まんたろうのポスター"
     },
     "id": 10534,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor02"
+        "imageName": "PosterNpcNmlGor02"
       }
     ]
   },
   {
     "name": {
-      en: "Boots's poster",
-      jp: ""
+      "en": "Boots's poster",
+      "jp": "ホウサクのポスター"
     },
     "id": 10634,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCrd02"
+        "imageName": "PosterNpcNmlCrd02"
       }
     ]
   },
   {
     "name": {
-      en: "Boris's poster",
-      jp: ""
+      "en": "Boris's poster",
+      "jp": "ダリーのポスター"
     },
     "id": 10613,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig09"
+        "imageName": "PosterNpcNmlPig09"
       }
     ]
   },
   {
     "name": {
-      en: "Boyd's poster",
-      jp: ""
+      "en": "Boyd's poster",
+      "jp": "ボイドのポスター"
     },
     "id": 10621,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor05"
+        "imageName": "PosterNpcNmlGor05"
       }
     ]
   },
   {
     "name": {
-      en: "Bree's poster",
-      jp: ""
+      "en": "Bree's poster",
+      "jp": "サラのポスター"
     },
     "id": 10486,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus03"
+        "imageName": "PosterNpcNmlMus03"
       }
     ]
   },
   {
     "name": {
-      en: "Brewster's poster",
-      jp: ""
+      "en": "Brewster's poster",
+      "jp": "マスターのポスター"
     },
     "id": 10516,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpPge"
+        "imageName": "PosterNpcSpPge"
       }
     ]
   },
   {
     "name": {
-      en: "Broccolo's poster",
-      jp: ""
+      "en": "Broccolo's poster",
+      "jp": "ブロッコリーのポスター"
     },
     "id": 10378,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus12"
+        "imageName": "PosterNpcNmlMus12"
       }
     ]
   },
   {
     "name": {
-      en: "Broffina's poster",
-      jp: ""
+      "en": "Broffina's poster",
+      "jp": "カサンドラのポスター"
     },
     "id": 10535,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn12"
+        "imageName": "PosterNpcNmlChn12"
       }
     ]
   },
   {
     "name": {
-      en: "Bruce's poster",
-      jp: ""
+      "en": "Bruce's poster",
+      "jp": "ブルースのポスター"
     },
     "id": 10594,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer03"
+        "imageName": "PosterNpcNmlDer03"
       }
     ]
   },
   {
     "name": {
-      en: "Bubbles's poster",
-      jp: ""
+      "en": "Bubbles's poster",
+      "jp": "チャコのポスター"
     },
     "id": 10447,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHip02"
+        "imageName": "PosterNpcNmlHip02"
       }
     ]
   },
   {
     "name": {
-      en: "Buck's poster",
-      jp: ""
+      "en": "Buck's poster",
+      "jp": "ヴァヤシコフのポスター"
     },
     "id": 10485,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs00"
+        "imageName": "PosterNpcNmlHrs00"
       }
     ]
   },
   {
     "name": {
-      en: "Bud's poster",
-      jp: ""
+      "en": "Bud's poster",
+      "jp": "グラさんのポスター"
     },
     "id": 10398,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlLon00"
+        "imageName": "PosterNpcNmlLon00"
       }
     ]
   },
   {
     "name": {
-      en: "Bunnie's poster",
-      jp: ""
+      "en": "Bunnie's poster",
+      "jp": "リリアンのポスター"
     },
     "id": 10316,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt00"
+        "imageName": "PosterNpcNmlRbt00"
       }
     ]
   },
   {
     "name": {
-      en: "Butch's poster",
-      jp: ""
+      "en": "Butch's poster",
+      "jp": "ジョンのポスター"
     },
     "id": 10385,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog01"
+        "imageName": "PosterNpcNmlDog01"
       }
     ]
   },
   {
     "name": {
-      en: "Buzz's poster",
-      jp: ""
+      "en": "Buzz's poster",
+      "jp": "ひでよしのポスター"
     },
     "id": 10648,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr03"
+        "imageName": "PosterNpcNmlPbr03"
       }
     ]
   },
   {
     "name": {
-      en: "Cally's poster",
-      jp: ""
+      "en": "Cally's poster",
+      "jp": "パセリのポスター"
     },
     "id": 10600,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu11"
+        "imageName": "PosterNpcNmlSqu11"
       }
     ]
   },
   {
     "name": {
-      en: "Camofrog's poster",
-      jp: ""
+      "en": "Camofrog's poster",
+      "jp": "フルメタルのポスター"
     },
     "id": 10412,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg03"
+        "imageName": "PosterNpcNmlFlg03"
       }
     ]
   },
   {
     "name": {
-      en: "Canberra's poster",
-      jp: ""
+      "en": "Canberra's poster",
+      "jp": "キャンベラのポスター"
     },
     "id": 10451,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal08"
+        "imageName": "PosterNpcNmlKal08"
       }
     ]
   },
   {
     "name": {
-      en: "Candi's poster",
-      jp: ""
+      "en": "Candi's poster",
+      "jp": "かんゆのポスター"
     },
     "id": 10637,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus08"
+        "imageName": "PosterNpcNmlMus08"
       }
     ]
   },
   {
     "name": {
-      en: "Carmen's poster",
-      jp: ""
+      "en": "Carmen's poster",
+      "jp": "チョコのポスター"
     },
     "id": 10374,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt16"
+        "imageName": "PosterNpcNmlRbt16"
       }
     ]
   },
   {
     "name": {
-      en: "Caroline's poster",
-      jp: ""
+      "en": "Caroline's poster",
+      "jp": "キャロラインのポスター"
     },
     "id": 10507,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu06"
+        "imageName": "PosterNpcNmlSqu06"
       }
     ]
   },
   {
     "name": {
-      en: "Carrie's poster",
-      jp: ""
+      "en": "Carrie's poster",
+      "jp": "マミィのポスター"
     },
     "id": 10615,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKgr02"
+        "imageName": "PosterNpcNmlKgr02"
       }
     ]
   },
   {
     "name": {
-      en: "Cashmere's poster",
-      jp: ""
+      "en": "Cashmere's poster",
+      "jp": "ラムールのポスター"
     },
     "id": 10640,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp04"
+        "imageName": "PosterNpcNmlShp04"
       }
     ]
   },
   {
     "name": {
-      en: "Celeste's poster",
-      jp: ""
+      "en": "Celeste's poster",
+      "jp": "フーコのポスター"
     },
     "id": 10334,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpOws"
+        "imageName": "PosterNpcSpOws"
       }
     ]
   },
   {
     "name": {
-      en: "Celia's poster",
-      jp: ""
+      "en": "Celia's poster",
+      "jp": "ティファニーのポスター"
     },
     "id": 10568,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr09"
+        "imageName": "PosterNpcNmlPbr09"
       }
     ]
   },
   {
     "name": {
-      en: "Cesar's poster",
-      jp: ""
+      "en": "Cesar's poster",
+      "jp": "アランのポスター"
     },
     "id": 10373,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor00"
+        "imageName": "PosterNpcNmlGor00"
       }
     ]
   },
   {
     "name": {
-      en: "Chadder's poster",
-      jp: ""
+      "en": "Chadder's poster",
+      "jp": "チーズのポスター"
     },
     "id": 10501,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus18"
+        "imageName": "PosterNpcNmlMus18"
       }
     ]
   },
   {
     "name": {
-      en: "Chai's poster",
-      jp: ""
+      "en": "Chai's poster",
+      "jp": "フィーカのポスター"
     },
     "id": 13036,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp11_2"
+        "imageName": "PosterNpcNmlElp11_2"
       }
     ]
   },
   {
     "name": {
-      en: "Charlise's poster",
-      jp: ""
+      "en": "Charlise's poster",
+      "jp": "チャーミーのポスター"
     },
     "id": 10778,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea12"
+        "imageName": "PosterNpcNmlBea12"
       }
     ]
   },
   {
     "name": {
-      en: "Chelsea's poster",
-      jp: ""
+      "en": "Chelsea's poster",
+      "jp": "チェルシーのポスター"
     },
     "id": 13037,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer10_2"
+        "imageName": "PosterNpcNmlDer10_2"
       }
     ]
   },
   {
     "name": {
-      en: "Cheri's poster",
-      jp: ""
+      "en": "Cheri's poster",
+      "jp": "アセロラのポスター"
     },
     "id": 10570,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr10"
+        "imageName": "PosterNpcNmlCbr10"
       }
     ]
   },
   {
     "name": {
-      en: "Cherry's poster",
-      jp: ""
+      "en": "Cherry's poster",
+      "jp": "ハンナのポスター"
     },
     "id": 10689,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog17"
+        "imageName": "PosterNpcNmlDog17"
       }
     ]
   },
   {
     "name": {
-      en: "Chester's poster",
-      jp: ""
+      "en": "Chester's poster",
+      "jp": "パンタのポスター"
     },
     "id": 10468,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr15"
+        "imageName": "PosterNpcNmlCbr15"
       }
     ]
   },
   {
     "name": {
-      en: "Chevre's poster",
-      jp: ""
+      "en": "Chevre's poster",
+      "jp": "ユキのポスター"
     },
     "id": 10461,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGoa00"
+        "imageName": "PosterNpcNmlGoa00"
       }
     ]
   },
   {
     "name": {
-      en: "Chief's poster",
-      jp: ""
+      "en": "Chief's poster",
+      "jp": "チーフのポスター"
     },
     "id": 10315,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol00"
+        "imageName": "PosterNpcNmlWol00"
       }
     ]
   },
   {
     "name": {
-      en: "Chip's poster",
-      jp: ""
+      "en": "Chip's poster",
+      "jp": "うおまさのポスター"
     },
     "id": 10345,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpBev"
+        "imageName": "PosterNpcSpBev"
       }
     ]
   },
   {
     "name": {
-      en: "Chops's poster",
-      jp: ""
+      "en": "Chops's poster",
+      "jp": "トンファンのポスター"
     },
     "id": 10414,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig14"
+        "imageName": "PosterNpcNmlPig14"
       }
     ]
   },
   {
     "name": {
-      en: "Chow's poster",
-      jp: ""
+      "en": "Chow's poster",
+      "jp": "チャウヤンのポスター"
     },
     "id": 10803,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea03"
+        "imageName": "PosterNpcNmlBea03"
       }
     ]
   },
   {
     "name": {
-      en: "Chrissy's poster",
-      jp: ""
+      "en": "Chrissy's poster",
+      "jp": "クリスチーヌのポスター"
     },
     "id": 10515,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt13"
+        "imageName": "PosterNpcNmlRbt13"
       }
     ]
   },
   {
     "name": {
-      en: "Cinnamoroll poster",
-      jp: ""
+      "en": "Cinnamoroll poster",
+      "jp": "シナモロールなポスター"
     },
     "id": 11124,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp11"
+        "imageName": "PosterNpcNmlElp11"
       }
     ]
   },
   {
     "name": {
-      en: "Claude's poster",
-      jp: ""
+      "en": "Claude's poster",
+      "jp": "ビネガーのポスター"
     },
     "id": 10628,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt11"
+        "imageName": "PosterNpcNmlRbt11"
       }
     ]
   },
   {
     "name": {
-      en: "Claudia's poster",
-      jp: ""
+      "en": "Claudia's poster",
+      "jp": "マリリンのポスター"
     },
     "id": 10504,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlTig05"
+        "imageName": "PosterNpcNmlTig05"
       }
     ]
   },
   {
     "name": {
-      en: "Clay's poster",
-      jp: ""
+      "en": "Clay's poster",
+      "jp": "どぐろうのポスター"
     },
     "id": 10317,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHam05"
+        "imageName": "PosterNpcNmlHam05"
       }
     ]
   },
   {
     "name": {
-      en: "Cleo's poster",
-      jp: ""
+      "en": "Cleo's poster",
+      "jp": "アイソトープのポスター"
     },
     "id": 10649,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs07"
+        "imageName": "PosterNpcNmlHrs07"
       }
     ]
   },
   {
     "name": {
-      en: "Clyde's poster",
-      jp: ""
+      "en": "Clyde's poster",
+      "jp": "デースケのポスター"
     },
     "id": 10680,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs10"
+        "imageName": "PosterNpcNmlHrs10"
       }
     ]
   },
   {
     "name": {
-      en: "Coach's poster",
-      jp: ""
+      "en": "Coach's poster",
+      "jp": "テッチャンのポスター"
     },
     "id": 10356,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBul07"
+        "imageName": "PosterNpcNmlBul07"
       }
     ]
   },
   {
     "name": {
-      en: "Cobb's poster",
-      jp: ""
+      "en": "Cobb's poster",
+      "jp": "ハカセのポスター"
     },
     "id": 10686,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig08"
+        "imageName": "PosterNpcNmlPig08"
       }
     ]
   },
   {
     "name": {
-      en: "Coco's poster",
-      jp: ""
+      "en": "Coco's poster",
+      "jp": "やよいのポスター"
     },
     "id": 10379,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt02"
+        "imageName": "PosterNpcNmlRbt02"
       }
     ]
   },
   {
     "name": {
-      en: "Cole's poster",
-      jp: ""
+      "en": "Cole's poster",
+      "jp": "アマミンのポスター"
     },
     "id": 10326,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt18"
+        "imageName": "PosterNpcNmlRbt18"
       }
     ]
   },
   {
     "name": {
-      en: "Colton's poster",
-      jp: ""
+      "en": "Colton's poster",
+      "jp": "アンソニーのポスター"
     },
     "id": 10452,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs11"
+        "imageName": "PosterNpcNmlHrs11"
       }
     ]
   },
   {
     "name": {
-      en: "Cookie's poster",
-      jp: ""
+      "en": "Cookie's poster",
+      "jp": "ペリーヌのポスター"
     },
     "id": 10367,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog08"
+        "imageName": "PosterNpcNmlDog08"
       }
     ]
   },
   {
     "name": {
-      en: "Copper's poster",
-      jp: ""
+      "en": "Copper's poster",
+      "jp": "おまわりさんのポスター"
     },
     "id": 10335,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpDga"
+        "imageName": "PosterNpcSpDga"
       }
     ]
   },
   {
     "name": {
-      en: "Cousteau's poster",
-      jp: ""
+      "en": "Cousteau's poster",
+      "jp": "ハルマキのポスター"
     },
     "id": 10448,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg10"
+        "imageName": "PosterNpcNmlFlg10"
       }
     ]
   },
   {
     "name": {
-      en: "Cranston's poster",
-      jp: ""
+      "en": "Cranston's poster",
+      "jp": "トキオのポスター"
     },
     "id": 10597,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst06"
+        "imageName": "PosterNpcNmlOst06"
       }
     ]
   },
   {
     "name": {
-      en: "Croque's poster",
-      jp: ""
+      "en": "Croque's poster",
+      "jp": "タイシのポスター"
     },
     "id": 10536,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg17"
+        "imageName": "PosterNpcNmlFlg17"
       }
     ]
   },
   {
     "name": {
-      en: "Cube's poster",
-      jp: ""
+      "en": "Cube's poster",
+      "jp": "ビスのポスター"
     },
     "id": 10503,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn02"
+        "imageName": "PosterNpcNmlPgn02"
       }
     ]
   },
   {
     "name": {
-      en: "Curlos's poster",
-      jp: ""
+      "en": "Curlos's poster",
+      "jp": "カルロスのポスター"
     },
     "id": 10488,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp08"
+        "imageName": "PosterNpcNmlShp08"
       }
     ]
   },
   {
     "name": {
-      en: "Curly's poster",
-      jp: ""
+      "en": "Curly's poster",
+      "jp": "ハムカツのポスター"
     },
     "id": 10505,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig00"
+        "imageName": "PosterNpcNmlPig00"
       }
     ]
   },
   {
     "name": {
-      en: "Curt's poster",
-      jp: ""
+      "en": "Curt's poster",
+      "jp": "ガンテツのポスター"
     },
     "id": 10799,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea02"
+        "imageName": "PosterNpcNmlBea02"
       }
     ]
   },
   {
     "name": {
-      en: "Cyd's poster",
-      jp: ""
+      "en": "Cyd's poster",
+      "jp": "パンクスのポスター"
     },
     "id": 10862,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp12"
+        "imageName": "PosterNpcNmlElp12"
       }
     ]
   },
   {
     "name": {
-      en: "Cyrano's poster",
-      jp: ""
+      "en": "Cyrano's poster",
+      "jp": "さくらじまのポスター"
     },
     "id": 10323,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlAnt00"
+        "imageName": "PosterNpcNmlAnt00"
       }
     ]
   },
   {
     "name": {
-      en: "Cyrus's poster",
-      jp: ""
+      "en": "Cyrus's poster",
+      "jp": "カイゾーのポスター"
     },
     "id": 10435,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpAlp"
+        "imageName": "PosterNpcSpAlp"
       }
     ]
   },
   {
     "name": {
-      en: "Daisy's poster",
-      jp: ""
+      "en": "Daisy's poster",
+      "jp": "バニラのポスター"
     },
     "id": 10474,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog07"
+        "imageName": "PosterNpcNmlDog07"
       }
     ]
   },
   {
     "name": {
-      en: "Deena's poster",
-      jp: ""
+      "en": "Deena's poster",
+      "jp": "まりものポスター"
     },
     "id": 10670,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk04"
+        "imageName": "PosterNpcNmlDuk04"
       }
     ]
   },
   {
     "name": {
-      en: "Deirdre's poster",
-      jp: ""
+      "en": "Deirdre's poster",
+      "jp": "ナディアのポスター"
     },
     "id": 10459,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer04"
+        "imageName": "PosterNpcNmlDer04"
       }
     ]
   },
   {
     "name": {
-      en: "Del's poster",
-      jp: ""
+      "en": "Del's poster",
+      "jp": "ヤマトのポスター"
     },
     "id": 10444,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCrd04"
+        "imageName": "PosterNpcNmlCrd04"
       }
     ]
   },
   {
     "name": {
-      en: "Deli's poster",
-      jp: ""
+      "en": "Deli's poster",
+      "jp": "デリーのポスター"
     },
     "id": 10654,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMnk08"
+        "imageName": "PosterNpcNmlMnk08"
       }
     ]
   },
   {
     "name": {
-      en: "Derwin's poster",
-      jp: ""
+      "en": "Derwin's poster",
+      "jp": "ボンのポスター"
     },
     "id": 10513,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk08"
+        "imageName": "PosterNpcNmlDuk08"
       }
     ]
   },
   {
     "name": {
-      en: "Diana's poster",
-      jp: ""
+      "en": "Diana's poster",
+      "jp": "ナタリーのポスター"
     },
     "id": 10318,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer08"
+        "imageName": "PosterNpcNmlDer08"
       }
     ]
   },
   {
     "name": {
-      en: "Digby's poster",
-      jp: ""
+      "en": "Digby's poster",
+      "jp": "ケントのポスター"
     },
     "id": 10438,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpSzo"
+        "imageName": "PosterNpcSpSzo"
       }
     ]
   },
   {
     "name": {
-      en: "Diva's poster",
-      jp: ""
+      "en": "Diva's poster",
+      "jp": "アイーダのポスター"
     },
     "id": 10473,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg18"
+        "imageName": "PosterNpcNmlFlg18"
       }
     ]
   },
   {
     "name": {
-      en: "Dizzy's poster",
-      jp: ""
+      "en": "Dizzy's poster",
+      "jp": "ヒュージのポスター"
     },
     "id": 10532,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp01"
+        "imageName": "PosterNpcNmlElp01"
       }
     ]
   },
   {
     "name": {
-      en: "DJ KK's poster",
-      jp: ""
+      "en": "DJ KK's poster",
+      "jp": "DJ K.Kのポスター"
     },
     "id": 10776,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpTkkB"
+        "imageName": "PosterNpcSpTkkB"
       }
     ]
   },
   {
     "name": {
-      en: "Dobie's poster",
-      jp: ""
+      "en": "Dobie's poster",
+      "jp": "けんのポスター"
     },
     "id": 10647,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol04"
+        "imageName": "PosterNpcNmlWol04"
       }
     ]
   },
   {
     "name": {
-      en: "Doc's poster",
-      jp: ""
+      "en": "Doc's poster",
+      "jp": "トビオのポスター"
     },
     "id": 10576,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt10"
+        "imageName": "PosterNpcNmlRbt10"
       }
     ]
   },
   {
     "name": {
-      en: "Dom's poster",
-      jp: ""
+      "en": "Dom's poster",
+      "jp": "ちゃちゃまるのポスター"
     },
     "id": 10864,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp15"
+        "imageName": "PosterNpcNmlShp15"
       }
     ]
   },
   {
     "name": {
-      en: "Don's poster",
-      jp: ""
+      "en": "Don's poster",
+      "jp": "ラケットさんのポスター"
     },
     "id": 10342,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpMob"
+        "imageName": "PosterNpcSpMob"
       }
     ]
   },
   {
     "name": {
-      en: "Dora's poster",
-      jp: ""
+      "en": "Dora's poster",
+      "jp": "とめのポスター"
     },
     "id": 10495,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus00"
+        "imageName": "PosterNpcNmlMus00"
       }
     ]
   },
   {
     "name": {
-      en: "Dotty's poster",
-      jp: ""
+      "en": "Dotty's poster",
+      "jp": "マーサのポスター"
     },
     "id": 10541,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt01"
+        "imageName": "PosterNpcNmlRbt01"
       }
     ]
   },
   {
     "name": {
-      en: "Drago's poster",
-      jp: ""
+      "en": "Drago's poster",
+      "jp": "タツオのポスター"
     },
     "id": 10462,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCrd08"
+        "imageName": "PosterNpcNmlCrd08"
       }
     ]
   },
   {
     "name": {
-      en: "Drake's poster",
-      jp: ""
+      "en": "Drake's poster",
+      "jp": "フォアグラのポスター"
     },
     "id": 10410,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk09"
+        "imageName": "PosterNpcNmlDuk09"
       }
     ]
   },
   {
     "name": {
-      en: "Drift's poster",
-      jp: ""
+      "en": "Drift's poster",
+      "jp": "ドクのポスター"
     },
     "id": 10417,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg04"
+        "imageName": "PosterNpcNmlFlg04"
       }
     ]
   },
   {
     "name": {
-      en: "Ed's poster",
-      jp: ""
+      "en": "Ed's poster",
+      "jp": "キザノホマレのポスター"
     },
     "id": 10392,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs06"
+        "imageName": "PosterNpcNmlHrs06"
       }
     ]
   },
   {
     "name": {
-      en: "Egbert's poster",
-      jp: ""
+      "en": "Egbert's poster",
+      "jp": "しもやけのポスター"
     },
     "id": 10366,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn02"
+        "imageName": "PosterNpcNmlChn02"
       }
     ]
   },
   {
     "name": {
-      en: "Elise's poster",
-      jp: ""
+      "en": "Elise's poster",
+      "jp": "モンこのポスター"
     },
     "id": 10558,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMnk05"
+        "imageName": "PosterNpcNmlMnk05"
       }
     ]
   },
   {
     "name": {
-      en: "Ellie's poster",
-      jp: ""
+      "en": "Ellie's poster",
+      "jp": "エクレアのポスター"
     },
     "id": 10633,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp07"
+        "imageName": "PosterNpcNmlElp07"
       }
     ]
   },
   {
     "name": {
-      en: "Elmer's poster",
-      jp: ""
+      "en": "Elmer's poster",
+      "jp": "サブレのポスター"
     },
     "id": 10555,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs03"
+        "imageName": "PosterNpcNmlHrs03"
       }
     ]
   },
   {
     "name": {
-      en: "Eloise's poster",
-      jp: ""
+      "en": "Eloise's poster",
+      "jp": "エレフィンのポスター"
     },
     "id": 10464,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp03"
+        "imageName": "PosterNpcNmlElp03"
       }
     ]
   },
   {
     "name": {
-      en: "Elvis's poster",
-      jp: ""
+      "en": "Elvis's poster",
+      "jp": "キングのポスター"
     },
     "id": 10450,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlLon01"
+        "imageName": "PosterNpcNmlLon01"
       }
     ]
   },
   {
     "name": {
-      en: "Erik's poster",
-      jp: ""
+      "en": "Erik's poster",
+      "jp": "チャックのポスター"
     },
     "id": 10540,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer09"
+        "imageName": "PosterNpcNmlDer09"
       }
     ]
   },
   {
     "name": {
-      en: "Étoile's poster",
-      jp: ""
+      "en": "Étoile's poster",
+      "jp": "エトワールのポスター"
     },
     "id": 13035,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp14_2"
+        "imageName": "PosterNpcNmlShp14_2"
       }
     ]
   },
   {
     "name": {
-      en: "Eugene's poster",
-      jp: ""
+      "en": "Eugene's poster",
+      "jp": "ロッキーのポスター"
     },
     "id": 10692,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal10"
+        "imageName": "PosterNpcNmlKal10"
       }
     ]
   },
   {
     "name": {
-      en: "Eunice's poster",
-      jp: ""
+      "en": "Eunice's poster",
+      "jp": "モヘアのポスター"
     },
     "id": 10693,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp02"
+        "imageName": "PosterNpcNmlShp02"
       }
     ]
   },
   {
     "name": {
-      en: "Fang's poster",
-      jp: ""
+      "en": "Fang's poster",
+      "jp": "シベリアのポスター"
     },
     "id": 10544,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol06"
+        "imageName": "PosterNpcNmlWol06"
       }
     ]
   },
   {
     "name": {
-      en: "Fauna's poster",
-      jp: ""
+      "en": "Fauna's poster",
+      "jp": "ドレミのポスター"
     },
     "id": 10530,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer00"
+        "imageName": "PosterNpcNmlDer00"
       }
     ]
   },
   {
     "name": {
-      en: "Felicity's poster",
-      jp: ""
+      "en": "Felicity's poster",
+      "jp": "みかっちのポスター"
     },
     "id": 10348,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat17"
+        "imageName": "PosterNpcNmlCat17"
       }
     ]
   },
   {
     "name": {
-      en: "Filbert's poster",
-      jp: ""
+      "en": "Filbert's poster",
+      "jp": "リッキーのポスター"
     },
     "id": 10394,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu02"
+        "imageName": "PosterNpcNmlSqu02"
       }
     ]
   },
   {
     "name": {
-      en: "Flip's poster",
-      jp: ""
+      "en": "Flip's poster",
+      "jp": "さすけのポスター"
     },
     "id": 10406,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMnk06"
+        "imageName": "PosterNpcNmlMnk06"
       }
     ]
   },
   {
     "name": {
-      en: "Flo's poster",
-      jp: ""
+      "en": "Flo's poster",
+      "jp": "レイラのポスター"
     },
     "id": 10685,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn13"
+        "imageName": "PosterNpcNmlPgn13"
       }
     ]
   },
   {
     "name": {
-      en: "Flora's poster",
-      jp: ""
+      "en": "Flora's poster",
+      "jp": "フララのポスター"
     },
     "id": 10490,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst09"
+        "imageName": "PosterNpcNmlOst09"
       }
     ]
   },
   {
     "name": {
-      en: "Flurry's poster",
-      jp: ""
+      "en": "Flurry's poster",
+      "jp": "ゆきみのポスター"
     },
     "id": 10679,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHam06"
+        "imageName": "PosterNpcNmlHam06"
       }
     ]
   },
   {
     "name": {
-      en: "Francine's poster",
-      jp: ""
+      "en": "Francine's poster",
+      "jp": "フランソワのポスター"
     },
     "id": 10514,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt12"
+        "imageName": "PosterNpcNmlRbt12"
       }
     ]
   },
   {
     "name": {
-      en: "Frank's poster",
-      jp: ""
+      "en": "Frank's poster",
+      "jp": "ハルクのポスター"
     },
     "id": 10500,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr06"
+        "imageName": "PosterNpcNmlPbr06"
       }
     ]
   },
   {
     "name": {
-      en: "Franklin's poster",
-      jp: ""
+      "en": "Franklin's poster",
+      "jp": "フランクリンのポスター"
     },
     "id": 10781,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpTuk"
+        "imageName": "PosterNpcSpTuk"
       }
     ]
   },
   {
     "name": {
-      en: "Freckles's poster",
-      jp: ""
+      "en": "Freckles's poster",
+      "jp": "マグロのポスター"
     },
     "id": 10455,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk07"
+        "imageName": "PosterNpcNmlDuk07"
       }
     ]
   },
   {
     "name": {
-      en: "Freya's poster",
-      jp: ""
+      "en": "Freya's poster",
+      "jp": "ツンドラのポスター"
     },
     "id": 10424,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol05"
+        "imageName": "PosterNpcNmlWol05"
       }
     ]
   },
   {
     "name": {
-      en: "Friga's poster",
-      jp: ""
+      "en": "Friga's poster",
+      "jp": "サブリナのポスター"
     },
     "id": 10457,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn04"
+        "imageName": "PosterNpcNmlPgn04"
       }
     ]
   },
   {
     "name": {
-      en: "Frita's poster",
-      jp: ""
+      "en": "Frita's poster",
+      "jp": "ウェンディのポスター"
     },
     "id": 10545,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp11"
+        "imageName": "PosterNpcNmlShp11"
       }
     ]
   },
   {
     "name": {
-      en: "Frobert's poster",
-      jp: ""
+      "en": "Frobert's poster",
+      "jp": "コージィのポスター"
     },
     "id": 10598,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg02"
+        "imageName": "PosterNpcNmlFlg02"
       }
     ]
   },
   {
     "name": {
-      en: "Fuchsia's poster",
-      jp: ""
+      "en": "Fuchsia's poster",
+      "jp": "ジェシカのポスター"
     },
     "id": 10352,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer06"
+        "imageName": "PosterNpcNmlDer06"
       }
     ]
   },
   {
     "name": {
-      en: "Gabi's poster",
-      jp: ""
+      "en": "Gabi's poster",
+      "jp": "ペチカのポスター"
     },
     "id": 10386,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt05"
+        "imageName": "PosterNpcNmlRbt05"
       }
     ]
   },
   {
     "name": {
-      en: "Gala's poster",
-      jp: ""
+      "en": "Gala's poster",
+      "jp": "ためこのポスター"
     },
     "id": 10482,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig13"
+        "imageName": "PosterNpcNmlPig13"
       }
     ]
   },
   {
     "name": {
-      en: "Gaston's poster",
-      jp: ""
+      "en": "Gaston's poster",
+      "jp": "モサキチのポスター"
     },
     "id": 10479,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt04"
+        "imageName": "PosterNpcNmlRbt04"
       }
     ]
   },
   {
     "name": {
-      en: "Gayle's poster",
-      jp: ""
+      "en": "Gayle's poster",
+      "jp": "アリゲッティのポスター"
     },
     "id": 10596,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCrd07"
+        "imageName": "PosterNpcNmlCrd07"
       }
     ]
   },
   {
     "name": {
-      en: "Genji's poster",
-      jp: ""
+      "en": "Genji's poster",
+      "jp": "ゲンジのポスター"
     },
     "id": 10469,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt08"
+        "imageName": "PosterNpcNmlRbt08"
       }
     ]
   },
   {
     "name": {
-      en: "Gigi's poster",
-      jp: ""
+      "en": "Gigi's poster",
+      "jp": "リンダのポスター"
     },
     "id": 10657,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg16"
+        "imageName": "PosterNpcNmlFlg16"
       }
     ]
   },
   {
     "name": {
-      en: "Gladys's poster",
-      jp: ""
+      "en": "Gladys's poster",
+      "jp": "ちとせのポスター"
     },
     "id": 10422,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst01"
+        "imageName": "PosterNpcNmlOst01"
       }
     ]
   },
   {
     "name": {
-      en: "Gloria's poster",
-      jp: ""
+      "en": "Gloria's poster",
+      "jp": "スワンソンのポスター"
     },
     "id": 10586,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk15"
+        "imageName": "PosterNpcNmlDuk15"
       }
     ]
   },
   {
     "name": {
-      en: "Goldie's poster",
-      jp: ""
+      "en": "Goldie's poster",
+      "jp": "キャラメルのポスター"
     },
     "id": 10523,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog00"
+        "imageName": "PosterNpcNmlDog00"
       }
     ]
   },
   {
     "name": {
-      en: "Gonzo's poster",
-      jp: ""
+      "en": "Gonzo's poster",
+      "jp": "ゴンゾーのポスター"
     },
     "id": 10643,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal04"
+        "imageName": "PosterNpcNmlKal04"
       }
     ]
   },
   {
     "name": {
-      en: "Goose's poster",
-      jp: ""
+      "en": "Goose's poster",
+      "jp": "ケンタのポスター"
     },
     "id": 10694,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn00"
+        "imageName": "PosterNpcNmlChn00"
       }
     ]
   },
   {
     "name": {
-      en: "Gracie's poster",
-      jp: ""
+      "en": "Gracie's poster",
+      "jp": "グレースのポスター"
     },
     "id": 10518,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpGrf"
+        "imageName": "PosterNpcSpGrf"
       }
     ]
   },
   {
     "name": {
-      en: "Graham's poster",
-      jp: ""
+      "en": "Graham's poster",
+      "jp": "グラハムのポスター"
     },
     "id": 10529,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHam02"
+        "imageName": "PosterNpcNmlHam02"
       }
     ]
   },
   {
     "name": {
-      en: "Grams's poster",
-      jp: ""
+      "en": "Grams's poster",
+      "jp": "ゲコのポスター"
     },
     "id": 10436,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpKpg"
+        "imageName": "PosterNpcSpKpg"
       }
     ]
   },
   {
     "name": {
-      en: "Greta's poster",
-      jp: ""
+      "en": "Greta's poster",
+      "jp": "ふくこのポスター"
     },
     "id": 10470,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus16"
+        "imageName": "PosterNpcNmlMus16"
       }
     ]
   },
   {
     "name": {
-      en: "Grizzly's poster",
-      jp: ""
+      "en": "Grizzly's poster",
+      "jp": "ムーのポスター"
     },
     "id": 10806,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea09"
+        "imageName": "PosterNpcNmlBea09"
       }
     ]
   },
   {
     "name": {
-      en: "Groucho's poster",
-      jp: ""
+      "en": "Groucho's poster",
+      "jp": "クローのポスター"
     },
     "id": 10380,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea06"
+        "imageName": "PosterNpcNmlBea06"
       }
     ]
   },
   {
     "name": {
-      en: "Gruff's poster",
-      jp: ""
+      "en": "Gruff's poster",
+      "jp": "ビリーのポスター"
     },
     "id": 10678,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGoa04"
+        "imageName": "PosterNpcNmlGoa04"
       }
     ]
   },
   {
     "name": {
-      en: "Gulliver's poster",
-      jp: ""
+      "en": "Gulliver's poster",
+      "jp": "ジョニーのポスター"
     },
     "id": 10521,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpGul"
+        "imageName": "PosterNpcSpGul"
       }
     ]
   },
   {
     "name": {
-      en: "Gwen's poster",
-      jp: ""
+      "en": "Gwen's poster",
+      "jp": "ポーラのポスター"
     },
     "id": 10355,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn05"
+        "imageName": "PosterNpcNmlPgn05"
       }
     ]
   },
   {
     "name": {
-      en: "Hamlet's poster",
-      jp: ""
+      "en": "Hamlet's poster",
+      "jp": "ハムスケのポスター"
     },
     "id": 10492,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHam00"
+        "imageName": "PosterNpcNmlHam00"
       }
     ]
   },
   {
     "name": {
-      en: "Hamphrey's poster",
-      jp: ""
+      "en": "Hamphrey's poster",
+      "jp": "ハムジのポスター"
     },
     "id": 10423,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHam07"
+        "imageName": "PosterNpcNmlHam07"
       }
     ]
   },
   {
     "name": {
-      en: "Hans's poster",
-      jp: ""
+      "en": "Hans's poster",
+      "jp": "スナイルのポスター"
     },
     "id": 10460,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor10"
+        "imageName": "PosterNpcNmlGor10"
       }
     ]
   },
   {
     "name": {
-      en: "Harriet's poster",
-      jp: ""
+      "en": "Harriet's poster",
+      "jp": "カットリーヌのポスター"
     },
     "id": 10787,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpPoo"
+        "imageName": "PosterNpcSpPoo"
       }
     ]
   },
   {
     "name": {
-      en: "Harry's poster",
-      jp: ""
+      "en": "Harry's poster",
+      "jp": "オリバーのポスター"
     },
     "id": 10353,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHip08"
+        "imageName": "PosterNpcNmlHip08"
       }
     ]
   },
   {
     "name": {
-      en: "Hazel's poster",
-      jp: ""
+      "en": "Hazel's poster",
+      "jp": "アイリスのポスター"
     },
     "id": 10466,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu18"
+        "imageName": "PosterNpcNmlSqu18"
       }
     ]
   },
   {
     "name": {
-      en: "Hello Kitty poster",
-      jp: ""
+      "en": "Hello Kitty poster",
+      "jp": "ハローキティなポスター"
     },
     "id": 11121,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor11"
+        "imageName": "PosterNpcNmlGor11"
       }
     ]
   },
   {
     "name": {
-      en: "Henry's poster",
-      jp: ""
+      "en": "Henry's poster",
+      "jp": "ヘンリーのポスター"
     },
     "id": 10321,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg19"
+        "imageName": "PosterNpcNmlFlg19"
       }
     ]
   },
   {
     "name": {
-      en: "Hippeux's poster",
-      jp: ""
+      "en": "Hippeux's poster",
+      "jp": "ディビッドのポスター"
     },
     "id": 10588,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHip09"
+        "imageName": "PosterNpcNmlHip09"
       }
     ]
   },
   {
     "name": {
-      en: "Hopkins's poster",
-      jp: ""
+      "en": "Hopkins's poster",
+      "jp": "プースケのポスター"
     },
     "id": 10604,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt14"
+        "imageName": "PosterNpcNmlRbt14"
       }
     ]
   },
   {
     "name": {
-      en: "Hopper's poster",
-      jp: ""
+      "en": "Hopper's poster",
+      "jp": "ダルマンのポスター"
     },
     "id": 10408,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn03"
+        "imageName": "PosterNpcNmlPgn03"
       }
     ]
   },
   {
     "name": {
-      en: "Hornsby's poster",
-      jp: ""
+      "en": "Hornsby's poster",
+      "jp": "みつおのポスター"
     },
     "id": 10608,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRhn04"
+        "imageName": "PosterNpcNmlRhn04"
       }
     ]
   },
   {
     "name": {
-      en: "Huck's poster",
-      jp: ""
+      "en": "Huck's poster",
+      "jp": "ストローのポスター"
     },
     "id": 10611,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg11"
+        "imageName": "PosterNpcNmlFlg11"
       }
     ]
   },
   {
     "name": {
-      en: "Hugh's poster",
-      jp: ""
+      "en": "Hugh's poster",
+      "jp": "クッチャネのポスター"
     },
     "id": 10407,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig03"
+        "imageName": "PosterNpcNmlPig03"
       }
     ]
   },
   {
     "name": {
-      en: "Iggly's poster",
-      jp: ""
+      "en": "Iggly's poster",
+      "jp": "のりまきのポスター"
     },
     "id": 10602,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn11"
+        "imageName": "PosterNpcNmlPgn11"
       }
     ]
   },
   {
     "name": {
-      en: "Ike's poster",
-      jp: ""
+      "en": "Ike's poster",
+      "jp": "ダイクのポスター"
     },
     "id": 10650,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea11"
+        "imageName": "PosterNpcNmlBea11"
       }
     ]
   },
   {
     "name": {
-      en: "Isabelle's poster",
-      jp: ""
+      "en": "Isabelle's poster",
+      "jp": "しずえのポスター"
     },
     "id": 10312,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpSza"
+        "imageName": "PosterNpcSpSza"
       }
     ]
   },
   {
     "name": {
-      en: "Jack's poster",
-      jp: ""
+      "en": "Jack's poster",
+      "jp": "パンプキングのポスター"
     },
     "id": 10346,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpPkn"
+        "imageName": "PosterNpcSpPkn"
       }
     ]
   },
   {
     "name": {
-      en: "Jacob's poster",
-      jp: ""
+      "en": "Jacob's poster",
+      "jp": "ジャコテンのポスター"
     },
     "id": 10813,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd11"
+        "imageName": "PosterNpcNmlBrd11"
       }
     ]
   },
   {
     "name": {
-      en: "Jacques's poster",
-      jp: ""
+      "en": "Jacques's poster",
+      "jp": "ジョッキーのポスター"
     },
     "id": 10804,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd16"
+        "imageName": "PosterNpcNmlBrd16"
       }
     ]
   },
   {
     "name": {
-      en: "Jambette's poster",
-      jp: ""
+      "en": "Jambette's poster",
+      "jp": "エスメラルダのポスター"
     },
     "id": 10617,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg13"
+        "imageName": "PosterNpcNmlFlg13"
       }
     ]
   },
   {
     "name": {
-      en: "Jay's poster",
-      jp: ""
+      "en": "Jay's poster",
+      "jp": "ツバクロのポスター"
     },
     "id": 10404,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd00"
+        "imageName": "PosterNpcNmlBrd00"
       }
     ]
   },
   {
     "name": {
-      en: "Jeremiah's poster",
-      jp: ""
+      "en": "Jeremiah's poster",
+      "jp": "クワトロのポスター"
     },
     "id": 10688,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg07"
+        "imageName": "PosterNpcNmlFlg07"
       }
     ]
   },
   {
     "name": {
-      en: "Jingle's poster",
-      jp: ""
+      "en": "Jingle's poster",
+      "jp": "ジングルのポスター"
     },
     "id": 10439,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpRei"
+        "imageName": "PosterNpcSpRei"
       }
     ]
   },
   {
     "name": {
-      en: "Jitters's poster",
-      jp: ""
+      "en": "Jitters's poster",
+      "jp": "ジーニョのポスター"
     },
     "id": 10818,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd04"
+        "imageName": "PosterNpcNmlBrd04"
       }
     ]
   },
   {
     "name": {
-      en: "Joan's poster",
-      jp: ""
+      "en": "Joan's poster",
+      "jp": "カブリバのポスター"
     },
     "id": 10430,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpBoa"
+        "imageName": "PosterNpcSpBoa"
       }
     ]
   },
   {
     "name": {
-      en: "Joey's poster",
-      jp: ""
+      "en": "Joey's poster",
+      "jp": "リチャードのポスター"
     },
     "id": 10483,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk01"
+        "imageName": "PosterNpcNmlDuk01"
       }
     ]
   },
   {
     "name": {
-      en: "Judy's poster",
-      jp: ""
+      "en": "Judy's poster",
+      "jp": "みすずのポスター"
     },
     "id": 10858,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr19"
+        "imageName": "PosterNpcNmlCbr19"
       }
     ]
   },
   {
     "name": {
-      en: "Julia's poster",
-      jp: ""
+      "en": "Julia's poster",
+      "jp": "ジュリアのポスター"
     },
     "id": 10630,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst05"
+        "imageName": "PosterNpcNmlOst05"
       }
     ]
   },
   {
     "name": {
-      en: "Julian's poster",
-      jp: ""
+      "en": "Julian's poster",
+      "jp": "ジュリーのポスター"
     },
     "id": 10402,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs13"
+        "imageName": "PosterNpcNmlHrs13"
       }
     ]
   },
   {
     "name": {
-      en: "June's poster",
-      jp: ""
+      "en": "June's poster",
+      "jp": "メイのポスター"
     },
     "id": 10605,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr13"
+        "imageName": "PosterNpcNmlCbr13"
       }
     ]
   },
   {
     "name": {
-      en: "K.K.'s poster",
-      jp: ""
+      "en": "K.K.'s poster",
+      "jp": "とたけけのポスター"
     },
     "id": 10331,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpTkkA"
+        "imageName": "PosterNpcSpTkkA"
       }
     ]
   },
   {
     "name": {
-      en: "Kabuki's poster",
-      jp: ""
+      "en": "Kabuki's poster",
+      "jp": "かぶきちのポスター"
     },
     "id": 10817,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat09"
+        "imageName": "PosterNpcNmlCat09"
       }
     ]
   },
   {
     "name": {
-      en: "Kapp'n's poster",
-      jp: ""
+      "en": "Kapp'n's poster",
+      "jp": "かっぺいのポスター"
     },
     "id": 10354,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpKpp"
+        "imageName": "PosterNpcSpKpp"
       }
     ]
   },
   {
     "name": {
-      en: "Katie's poster",
-      jp: ""
+      "en": "Katie's poster",
+      "jp": "まいこちゃんのポスター"
     },
     "id": 10337,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpLom"
+        "imageName": "PosterNpcSpLom"
       }
     ]
   },
   {
     "name": {
-      en: "Katrina's poster",
-      jp: ""
+      "en": "Katrina's poster",
+      "jp": "ハッケミィのポスター"
     },
     "id": 10517,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpBpt"
+        "imageName": "PosterNpcSpBpt"
       }
     ]
   },
   {
     "name": {
-      en: "Katt's poster",
-      jp: ""
+      "en": "Katt's poster",
+      "jp": "ちょいのポスター"
     },
     "id": 10528,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat21"
+        "imageName": "PosterNpcNmlCat21"
       }
     ]
   },
   {
     "name": {
-      en: "Keaton's poster",
-      jp: ""
+      "en": "Keaton's poster",
+      "jp": "フランクのポスター"
     },
     "id": 10421,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr08"
+        "imageName": "PosterNpcNmlPbr08"
       }
     ]
   },
   {
     "name": {
-      en: "Ken's poster",
-      jp: ""
+      "en": "Ken's poster",
+      "jp": "クロベエのポスター"
     },
     "id": 10445,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn13"
+        "imageName": "PosterNpcNmlChn13"
       }
     ]
   },
   {
     "name": {
-      en: "Kerokerokeroppi poster",
-      jp: ""
+      "en": "Kerokerokeroppi poster",
+      "jp": "けろけろけろっぴなポスター"
     },
     "id": 11126,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt20"
+        "imageName": "PosterNpcNmlRbt20"
       }
     ]
   },
   {
     "name": {
-      en: "Ketchup's poster",
-      jp: ""
+      "en": "Ketchup's poster",
+      "jp": "ケチャップのポスター"
     },
     "id": 10616,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk13"
+        "imageName": "PosterNpcNmlDuk13"
       }
     ]
   },
   {
     "name": {
-      en: "Kevin's poster",
-      jp: ""
+      "en": "Kevin's poster",
+      "jp": "イノッチのポスター"
     },
     "id": 10585,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig15"
+        "imageName": "PosterNpcNmlPig15"
       }
     ]
   },
   {
     "name": {
-      en: "Kicks's poster",
-      jp: ""
+      "en": "Kicks's poster",
+      "jp": "シャンクのポスター"
     },
     "id": 10332,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpSkk"
+        "imageName": "PosterNpcSpSkk"
       }
     ]
   },
   {
     "name": {
-      en: "Kid Cat's poster",
-      jp: ""
+      "en": "Kid Cat's poster",
+      "jp": "１ごうのポスター"
     },
     "id": 10779,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat10"
+        "imageName": "PosterNpcNmlCat10"
       }
     ]
   },
   {
     "name": {
-      en: "Kidd's poster",
-      jp: ""
+      "en": "Kidd's poster",
+      "jp": "やさおのポスター"
     },
     "id": 10364,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGoa07"
+        "imageName": "PosterNpcNmlGoa07"
       }
     ]
   },
   {
     "name": {
-      en: "Kiki & Lala poster",
-      jp: ""
+      "en": "Kiki & Lala poster",
+      "jp": "キキ&ララなポスター"
     },
     "id": 11123,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp14"
+        "imageName": "PosterNpcNmlShp14"
       }
     ]
   },
   {
     "name": {
-      en: "Kiki's poster",
-      jp: ""
+      "en": "Kiki's poster",
+      "jp": "キャビアのポスター"
     },
     "id": 10816,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat04"
+        "imageName": "PosterNpcNmlCat04"
       }
     ]
   },
   {
     "name": {
-      en: "Kitt's poster",
-      jp: ""
+      "en": "Kitt's poster",
+      "jp": "アップリケのポスター"
     },
     "id": 10357,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKgr00"
+        "imageName": "PosterNpcNmlKgr00"
       }
     ]
   },
   {
     "name": {
-      en: "Kitty's poster",
-      jp: ""
+      "en": "Kitty's poster",
+      "jp": "ショコラのポスター"
     },
     "id": 10395,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat14"
+        "imageName": "PosterNpcNmlCat14"
       }
     ]
   },
   {
     "name": {
-      en: "Klaus's poster",
-      jp: ""
+      "en": "Klaus's poster",
+      "jp": "クマロスのポスター"
     },
     "id": 10790,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea14"
+        "imageName": "PosterNpcNmlBea14"
       }
     ]
   },
   {
     "name": {
-      en: "Knox's poster",
-      jp: ""
+      "en": "Knox's poster",
+      "jp": "キンカクのポスター"
     },
     "id": 10664,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn11"
+        "imageName": "PosterNpcNmlChn11"
       }
     ]
   },
   {
     "name": {
-      en: "Kody's poster",
-      jp: ""
+      "en": "Kody's poster",
+      "jp": "アイダホのポスター"
     },
     "id": 10442,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr04"
+        "imageName": "PosterNpcNmlCbr04"
       }
     ]
   },
   {
     "name": {
-      en: "Kyle's poster",
-      jp: ""
+      "en": "Kyle's poster",
+      "jp": "リカルドのポスター"
     },
     "id": 10579,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol10"
+        "imageName": "PosterNpcNmlWol10"
       }
     ]
   },
   {
     "name": {
-      en: "Label's poster",
-      jp: ""
+      "en": "Label's poster",
+      "jp": "ことののポスター"
     },
     "id": 10333,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpHgc"
+        "imageName": "PosterNpcSpHgc"
       }
     ]
   },
   {
     "name": {
-      en: "Leif's poster",
-      jp: ""
+      "en": "Leif's poster",
+      "jp": "レイジのポスター"
     },
     "id": 10433,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpSlo"
+        "imageName": "PosterNpcSpSlo"
       }
     ]
   },
   {
     "name": {
-      en: "Leila's poster",
-      jp: ""
+      "en": "Leila's poster",
+      "jp": "ククのポスター"
     },
     "id": 10340,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpKps"
+        "imageName": "PosterNpcSpKps"
       }
     ]
   },
   {
     "name": {
-      en: "Leilani's poster",
-      jp: ""
+      "en": "Leilani's poster",
+      "jp": "クーコのポスター"
     },
     "id": 10519,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpKpm"
+        "imageName": "PosterNpcSpKpm"
       }
     ]
   },
   {
     "name": {
-      en: "Leonardo's poster",
-      jp: ""
+      "en": "Leonardo's poster",
+      "jp": "ヒョウタのポスター"
     },
     "id": 10560,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlTig04"
+        "imageName": "PosterNpcNmlTig04"
       }
     ]
   },
   {
     "name": {
-      en: "Leopold's poster",
-      jp: ""
+      "en": "Leopold's poster",
+      "jp": "ティーチャーのポスター"
     },
     "id": 10638,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlLon04"
+        "imageName": "PosterNpcNmlLon04"
       }
     ]
   },
   {
     "name": {
-      en: "Lily's poster",
-      jp: ""
+      "en": "Lily's poster",
+      "jp": "レイニーのポスター"
     },
     "id": 10440,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg00"
+        "imageName": "PosterNpcNmlFlg00"
       }
     ]
   },
   {
     "name": {
-      en: "Limberg's poster",
-      jp: ""
+      "en": "Limberg's poster",
+      "jp": "らっきょのポスター"
     },
     "id": 10669,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus01"
+        "imageName": "PosterNpcNmlMus01"
       }
     ]
   },
   {
     "name": {
-      en: "Lionel's poster",
-      jp: ""
+      "en": "Lionel's poster",
+      "jp": "ライオネルのポスター"
     },
     "id": 10684,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlLon08"
+        "imageName": "PosterNpcNmlLon08"
       }
     ]
   },
   {
     "name": {
-      en: "Lobo's poster",
-      jp: ""
+      "en": "Lobo's poster",
+      "jp": "ブンジロウのポスター"
     },
     "id": 10587,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol01"
+        "imageName": "PosterNpcNmlWol01"
       }
     ]
   },
   {
     "name": {
-      en: "Lolly's poster",
-      jp: ""
+      "en": "Lolly's poster",
+      "jp": "ラムネのポスター"
     },
     "id": 10539,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat18"
+        "imageName": "PosterNpcNmlCat18"
       }
     ]
   },
   {
     "name": {
-      en: "Lopez's poster",
-      jp: ""
+      "en": "Lopez's poster",
+      "jp": "トムソンのポスター"
     },
     "id": 10606,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer05"
+        "imageName": "PosterNpcNmlDer05"
       }
     ]
   },
   {
     "name": {
-      en: "Lottie's poster",
-      jp: ""
+      "en": "Lottie's poster",
+      "jp": "タクミのポスター"
     },
     "id": 10773,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpOtg"
+        "imageName": "PosterNpcSpOtg"
       }
     ]
   },
   {
     "name": {
-      en: "Louie's poster",
-      jp: ""
+      "en": "Louie's poster",
+      "jp": "マッスルのポスター"
     },
     "id": 10631,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor04"
+        "imageName": "PosterNpcNmlGor04"
       }
     ]
   },
   {
     "name": {
-      en: "Lucha's poster",
-      jp: ""
+      "en": "Lucha's poster",
+      "jp": "マスカラスのポスター"
     },
     "id": 10351,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd15"
+        "imageName": "PosterNpcNmlBrd15"
       }
     ]
   },
   {
     "name": {
-      en: "Lucky's poster",
-      jp: ""
+      "en": "Lucky's poster",
+      "jp": "ラッキーのポスター"
     },
     "id": 10591,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog02"
+        "imageName": "PosterNpcNmlDog02"
       }
     ]
   },
   {
     "name": {
-      en: "Lucy's poster",
-      jp: ""
+      "en": "Lucy's poster",
+      "jp": "ルーシーのポスター"
     },
     "id": 10554,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig04"
+        "imageName": "PosterNpcNmlPig04"
       }
     ]
   },
   {
     "name": {
-      en: "Luna's poster",
-      jp: ""
+      "en": "Luna's poster",
+      "jp": "ゆめみのポスター"
     },
     "id": 10491,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpTap"
+        "imageName": "PosterNpcSpTap"
       }
     ]
   },
   {
     "name": {
-      en: "Lyle's poster",
-      jp: ""
+      "en": "Lyle's poster",
+      "jp": "ホンマさんのポスター"
     },
     "id": 10794,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpOtt"
+        "imageName": "PosterNpcSpOtt"
       }
     ]
   },
   {
     "name": {
-      en: "Lyman's poster",
-      jp: ""
+      "en": "Lyman's poster",
+      "jp": "オズモンドのポスター"
     },
     "id": 10498,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal09"
+        "imageName": "PosterNpcNmlKal09"
       }
     ]
   },
   {
     "name": {
-      en: "Mabel's poster",
-      jp: ""
+      "en": "Mabel's poster",
+      "jp": "きぬよのポスター"
     },
     "id": 10432,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpHgh"
+        "imageName": "PosterNpcSpHgh"
       }
     ]
   },
   {
     "name": {
-      en: "Mac's poster",
-      jp: ""
+      "en": "Mac's poster",
+      "jp": "チャンプのポスター"
     },
     "id": 10463,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog14"
+        "imageName": "PosterNpcNmlDog14"
       }
     ]
   },
   {
     "name": {
-      en: "Maddie's poster",
-      jp: ""
+      "en": "Maddie's poster",
+      "jp": "マロンのポスター"
     },
     "id": 10619,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog09"
+        "imageName": "PosterNpcNmlDog09"
       }
     ]
   },
   {
     "name": {
-      en: "Maelle's poster",
-      jp: ""
+      "en": "Maelle's poster",
+      "jp": "アンヌのポスター"
     },
     "id": 10593,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk03"
+        "imageName": "PosterNpcNmlDuk03"
       }
     ]
   },
   {
     "name": {
-      en: "Maggie's poster",
-      jp: ""
+      "en": "Maggie's poster",
+      "jp": "マーガレットのポスター"
     },
     "id": 10623,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig10"
+        "imageName": "PosterNpcNmlPig10"
       }
     ]
   },
   {
     "name": {
-      en: "Mallary's poster",
-      jp: ""
+      "en": "Mallary's poster",
+      "jp": "スミモモのポスター"
     },
     "id": 10526,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk06"
+        "imageName": "PosterNpcNmlDuk06"
       }
     ]
   },
   {
     "name": {
-      en: "Maple's poster",
-      jp: ""
+      "en": "Maple's poster",
+      "jp": "メープルのポスター"
     },
     "id": 10510,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr01"
+        "imageName": "PosterNpcNmlCbr01"
       }
     ]
   },
   {
     "name": {
-      en: "Marcel's poster",
-      jp: ""
+      "en": "Marcel's poster",
+      "jp": "もんじゃのポスター"
     },
     "id": 10419,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog15"
+        "imageName": "PosterNpcNmlDog15"
       }
     ]
   },
   {
     "name": {
-      en: "Marcie's poster",
-      jp: ""
+      "en": "Marcie's poster",
+      "jp": "マリアのポスター"
     },
     "id": 10659,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKgr10"
+        "imageName": "PosterNpcNmlKgr10"
       }
     ]
   },
   {
     "name": {
-      en: "Margie's poster",
-      jp: ""
+      "en": "Margie's poster",
+      "jp": "サリーのポスター"
     },
     "id": 10589,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp04"
+        "imageName": "PosterNpcNmlElp04"
       }
     ]
   },
   {
     "name": {
-      en: "Marina's poster",
-      jp: ""
+      "en": "Marina's poster",
+      "jp": "タコリーナのポスター"
     },
     "id": 10453,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOcp01"
+        "imageName": "PosterNpcNmlOcp01"
       }
     ]
   },
   {
     "name": {
-      en: "Marshal's poster",
-      jp: ""
+      "en": "Marshal's poster",
+      "jp": "ジュンのポスター"
     },
     "id": 10480,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu17"
+        "imageName": "PosterNpcNmlSqu17"
       }
     ]
   },
   {
     "name": {
-      en: "Marty's poster",
-      jp: ""
+      "en": "Marty's poster",
+      "jp": "マーティーのポスター"
     },
     "id": 13034,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr18_2"
+        "imageName": "PosterNpcNmlCbr18_2"
       }
     ]
   },
   {
     "name": {
-      en: "Mathilda's poster",
-      jp: ""
+      "en": "Mathilda's poster",
+      "jp": "アザラクのポスター"
     },
     "id": 10391,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKgr01"
+        "imageName": "PosterNpcNmlKgr01"
       }
     ]
   },
   {
     "name": {
-      en: "Megan's poster",
-      jp: ""
+      "en": "Megan's poster",
+      "jp": "キャンディのポスター"
     },
     "id": 10860,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea15"
+        "imageName": "PosterNpcNmlBea15"
       }
     ]
   },
   {
     "name": {
-      en: "Melba's poster",
-      jp: ""
+      "en": "Melba's poster",
+      "jp": "アデレードのポスター"
     },
     "id": 10547,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal02"
+        "imageName": "PosterNpcNmlKal02"
       }
     ]
   },
   {
     "name": {
-      en: "Merengue's poster",
-      jp: ""
+      "en": "Merengue's poster",
+      "jp": "パティのポスター"
     },
     "id": 10502,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRhn07"
+        "imageName": "PosterNpcNmlRhn07"
       }
     ]
   },
   {
     "name": {
-      en: "Merry's poster",
-      jp: ""
+      "en": "Merry's poster",
+      "jp": "さっちのポスター"
     },
     "id": 10789,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat16"
+        "imageName": "PosterNpcNmlCat16"
       }
     ]
   },
   {
     "name": {
-      en: "Midge's poster",
-      jp: ""
+      "en": "Midge's poster",
+      "jp": "うずまきのポスター"
     },
     "id": 10677,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd08"
+        "imageName": "PosterNpcNmlBrd08"
       }
     ]
   },
   {
     "name": {
-      en: "Mint's poster",
-      jp: ""
+      "en": "Mint's poster",
+      "jp": "ミントのポスター"
     },
     "id": 10675,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu09"
+        "imageName": "PosterNpcNmlSqu09"
       }
     ]
   },
   {
     "name": {
-      en: "Mira's poster",
-      jp: ""
+      "en": "Mira's poster",
+      "jp": "ミラコのポスター"
     },
     "id": 10561,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt19"
+        "imageName": "PosterNpcNmlRbt19"
       }
     ]
   },
   {
     "name": {
-      en: "Miranda's poster",
-      jp: ""
+      "en": "Miranda's poster",
+      "jp": "ミランダのポスター"
     },
     "id": 10443,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk12"
+        "imageName": "PosterNpcNmlDuk12"
       }
     ]
   },
   {
     "name": {
-      en: "Mitzi's poster",
-      jp: ""
+      "en": "Mitzi's poster",
+      "jp": "マールのポスター"
     },
     "id": 10784,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat01"
+        "imageName": "PosterNpcNmlCat01"
       }
     ]
   },
   {
     "name": {
-      en: "Moe's poster",
-      jp: ""
+      "en": "Moe's poster",
+      "jp": "ジンペイのポスター"
     },
     "id": 10791,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat08"
+        "imageName": "PosterNpcNmlCat08"
       }
     ]
   },
   {
     "name": {
-      en: "Molly's poster",
-      jp: ""
+      "en": "Molly's poster",
+      "jp": "カモミのポスター"
     },
     "id": 10329,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk16"
+        "imageName": "PosterNpcNmlDuk16"
       }
     ]
   },
   {
     "name": {
-      en: "Monique's poster",
-      jp: ""
+      "en": "Monique's poster",
+      "jp": "ジェーンのポスター"
     },
     "id": 10820,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat11"
+        "imageName": "PosterNpcNmlCat11"
       }
     ]
   },
   {
     "name": {
-      en: "Monty's poster",
-      jp: ""
+      "en": "Monty's poster",
+      "jp": "サルモンティのポスター"
     },
     "id": 10494,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMnk04"
+        "imageName": "PosterNpcNmlMnk04"
       }
     ]
   },
   {
     "name": {
-      en: "Moose's poster",
-      jp: ""
+      "en": "Moose's poster",
+      "jp": "ピンのポスター"
     },
     "id": 10387,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus14"
+        "imageName": "PosterNpcNmlMus14"
       }
     ]
   },
   {
     "name": {
-      en: "Mott's poster",
-      jp: ""
+      "en": "Mott's poster",
+      "jp": "リックのポスター"
     },
     "id": 10525,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlLon06"
+        "imageName": "PosterNpcNmlLon06"
       }
     ]
   },
   {
     "name": {
-      en: "Muffy's poster",
-      jp: ""
+      "en": "Muffy's poster",
+      "jp": "フリルのポスター"
     },
     "id": 10320,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp12"
+        "imageName": "PosterNpcNmlShp12"
       }
     ]
   },
   {
     "name": {
-      en: "Murphy's poster",
-      jp: ""
+      "en": "Murphy's poster",
+      "jp": "のりおのポスター"
     },
     "id": 10624,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr07"
+        "imageName": "PosterNpcNmlCbr07"
       }
     ]
   },
   {
     "name": {
-      en: "My Melody poster",
-      jp: ""
+      "en": "My Melody poster",
+      "jp": "マイメロディなポスター"
     },
     "id": 11125,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer10"
+        "imageName": "PosterNpcNmlDer10"
       }
     ]
   },
   {
     "name": {
-      en: "Nan's poster",
-      jp: ""
+      "en": "Nan's poster",
+      "jp": "スミのポスター"
     },
     "id": 10397,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGoa01"
+        "imageName": "PosterNpcNmlGoa01"
       }
     ]
   },
   {
     "name": {
-      en: "Nana's poster",
-      jp: ""
+      "en": "Nana's poster",
+      "jp": "チッチのポスター"
     },
     "id": 10371,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMnk01"
+        "imageName": "PosterNpcNmlMnk01"
       }
     ]
   },
   {
     "name": {
-      en: "Naomi's poster",
-      jp: ""
+      "en": "Naomi's poster",
+      "jp": "ハナコのポスター"
     },
     "id": 10551,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCow07"
+        "imageName": "PosterNpcNmlCow07"
       }
     ]
   },
   {
     "name": {
-      en: "Nat's poster",
-      jp: ""
+      "en": "Nat's poster",
+      "jp": "カメヤマさんのポスター"
     },
     "id": 10344,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpChm"
+        "imageName": "PosterNpcSpChm"
       }
     ]
   },
   {
     "name": {
-      en: "Nate's poster",
-      jp: ""
+      "en": "Nate's poster",
+      "jp": "バッカスのポスター"
     },
     "id": 10821,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea05"
+        "imageName": "PosterNpcNmlBea05"
       }
     ]
   },
   {
     "name": {
-      en: "Nibbles's poster",
-      jp: ""
+      "en": "Nibbles's poster",
+      "jp": "ガリガリのポスター"
     },
     "id": 10584,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu04"
+        "imageName": "PosterNpcNmlSqu04"
       }
     ]
   },
   {
     "name": {
-      en: "Norma's poster",
-      jp: ""
+      "en": "Norma's poster",
+      "jp": "いさこのポスター"
     },
     "id": 10642,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCow06"
+        "imageName": "PosterNpcNmlCow06"
       }
     ]
   },
   {
     "name": {
-      en: "O'Hare's poster",
-      jp: ""
+      "en": "O'Hare's poster",
+      "jp": "サントスのポスター"
     },
     "id": 10595,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt15"
+        "imageName": "PosterNpcNmlRbt15"
       }
     ]
   },
   {
     "name": {
-      en: "Octavian's poster",
-      jp: ""
+      "en": "Octavian's poster",
+      "jp": "おくたろうのポスター"
     },
     "id": 10662,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOcp00"
+        "imageName": "PosterNpcNmlOcp00"
       }
     ]
   },
   {
     "name": {
-      en: "Olaf's poster",
-      jp: ""
+      "en": "Olaf's poster",
+      "jp": "アントニオのポスター"
     },
     "id": 10801,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlAnt09"
+        "imageName": "PosterNpcNmlAnt09"
       }
     ]
   },
   {
     "name": {
-      en: "Olive's poster",
-      jp: ""
+      "en": "Olive's poster",
+      "jp": "ピッコロのポスター"
     },
     "id": 10646,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr09"
+        "imageName": "PosterNpcNmlCbr09"
       }
     ]
   },
   {
     "name": {
-      en: "Olivia's poster",
-      jp: ""
+      "en": "Olivia's poster",
+      "jp": "オリビアのポスター"
     },
     "id": 10774,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat03"
+        "imageName": "PosterNpcNmlCat03"
       }
     ]
   },
   {
     "name": {
-      en: "Opal's poster",
-      jp: ""
+      "en": "Opal's poster",
+      "jp": "オパールのポスター"
     },
     "id": 10667,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp00"
+        "imageName": "PosterNpcNmlElp00"
       }
     ]
   },
   {
     "name": {
-      en: "Ozzie's poster",
-      jp: ""
+      "en": "Ozzie's poster",
+      "jp": "ドングリのポスター"
     },
     "id": 10349,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal05"
+        "imageName": "PosterNpcNmlKal05"
       }
     ]
   },
   {
     "name": {
-      en: "Pancetti's poster",
-      jp: ""
+      "en": "Pancetti's poster",
+      "jp": "ブリトニーのポスター"
     },
     "id": 10314,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig16"
+        "imageName": "PosterNpcNmlPig16"
       }
     ]
   },
   {
     "name": {
-      en: "Pango's poster",
-      jp: ""
+      "en": "Pango's poster",
+      "jp": "パトラのポスター"
     },
     "id": 10420,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlAnt02"
+        "imageName": "PosterNpcNmlAnt02"
       }
     ]
   },
   {
     "name": {
-      en: "Paolo's poster",
-      jp: ""
+      "en": "Paolo's poster",
+      "jp": "パオロのポスター"
     },
     "id": 10607,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp05"
+        "imageName": "PosterNpcNmlElp05"
       }
     ]
   },
   {
     "name": {
-      en: "Papi's poster",
-      jp: ""
+      "en": "Papi's poster",
+      "jp": "オカッピのポスター"
     },
     "id": 10564,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs12"
+        "imageName": "PosterNpcNmlHrs12"
       }
     ]
   },
   {
     "name": {
-      en: "Pascal's poster",
-      jp: ""
+      "en": "Pascal's poster",
+      "jp": "ラコスケのポスター"
     },
     "id": 10785,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpSeo"
+        "imageName": "PosterNpcSpSeo"
       }
     ]
   },
   {
     "name": {
-      en: "Pashmina's poster",
-      jp: ""
+      "en": "Pashmina's poster",
+      "jp": "バーバラのポスター"
     },
     "id": 10537,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGoa08"
+        "imageName": "PosterNpcNmlGoa08"
       }
     ]
   },
   {
     "name": {
-      en: "Pate's poster",
-      jp: ""
+      "en": "Pate's poster",
+      "jp": "ナッキーのポスター"
     },
     "id": 10361,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk02"
+        "imageName": "PosterNpcNmlDuk02"
       }
     ]
   },
   {
     "name": {
-      en: "Patty's poster",
-      jp: ""
+      "en": "Patty's poster",
+      "jp": "カルピのポスター"
     },
     "id": 10656,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCow00"
+        "imageName": "PosterNpcNmlCow00"
       }
     ]
   },
   {
     "name": {
-      en: "Paula's poster",
-      jp: ""
+      "en": "Paula's poster",
+      "jp": "レイチェルのポスター"
     },
     "id": 10783,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea10"
+        "imageName": "PosterNpcNmlBea10"
       }
     ]
   },
   {
     "name": {
-      en: "Pavé's poster",
-      jp: ""
+      "en": "Pavé's poster",
+      "jp": "ベルリーナのポスター"
     },
     "id": 10520,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpPck"
+        "imageName": "PosterNpcSpPck"
       }
     ]
   },
   {
     "name": {
-      en: "Peaches's poster",
-      jp: ""
+      "en": "Peaches's poster",
+      "jp": "ドサコのポスター"
     },
     "id": 10531,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs08"
+        "imageName": "PosterNpcNmlHrs08"
       }
     ]
   },
   {
     "name": {
-      en: "Peanut's poster",
-      jp: ""
+      "en": "Peanut's poster",
+      "jp": "ももこのポスター"
     },
     "id": 10325,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu00"
+        "imageName": "PosterNpcNmlSqu00"
       }
     ]
   },
   {
     "name": {
-      en: "Pecan's poster",
-      jp: ""
+      "en": "Pecan's poster",
+      "jp": "レベッカのポスター"
     },
     "id": 10409,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu03"
+        "imageName": "PosterNpcNmlSqu03"
       }
     ]
   },
   {
     "name": {
-      en: "Peck's poster",
-      jp: ""
+      "en": "Peck's poster",
+      "jp": "ふみたろうのポスター"
     },
     "id": 10372,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd17"
+        "imageName": "PosterNpcNmlBrd17"
       }
     ]
   },
   {
     "name": {
-      en: "Peewee's poster",
-      jp: ""
+      "en": "Peewee's poster",
+      "jp": "ダンベルのポスター"
     },
     "id": 10552,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor01"
+        "imageName": "PosterNpcNmlGor01"
       }
     ]
   },
   {
     "name": {
-      en: "Peggy's poster",
-      jp: ""
+      "en": "Peggy's poster",
+      "jp": "ちえりのポスター"
     },
     "id": 10571,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig11"
+        "imageName": "PosterNpcNmlPig11"
       }
     ]
   },
   {
     "name": {
-      en: "Pekoe's poster",
-      jp: ""
+      "en": "Pekoe's poster",
+      "jp": "ジャスミンのポスター"
     },
     "id": 10390,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr14"
+        "imageName": "PosterNpcNmlCbr14"
       }
     ]
   },
   {
     "name": {
-      en: "Pelly's poster",
-      jp: ""
+      "en": "Pelly's poster",
+      "jp": "ぺりこのポスター"
     },
     "id": 10429,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpPlk"
+        "imageName": "PosterNpcSpPlk"
       }
     ]
   },
   {
     "name": {
-      en: "Penelope's poster",
-      jp: ""
+      "en": "Penelope's poster",
+      "jp": "チューこのポスター"
     },
     "id": 10533,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus17"
+        "imageName": "PosterNpcNmlMus17"
       }
     ]
   },
   {
     "name": {
-      en: "Pete's poster",
-      jp: ""
+      "en": "Pete's poster",
+      "jp": "ぺりおのポスター"
     },
     "id": 10780,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpPlo"
+        "imageName": "PosterNpcSpPlo"
       }
     ]
   },
   {
     "name": {
-      en: "Phil's poster",
-      jp: ""
+      "en": "Phil's poster",
+      "jp": "ケインのポスター"
     },
     "id": 10673,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst07"
+        "imageName": "PosterNpcNmlOst07"
       }
     ]
   },
   {
     "name": {
-      en: "Phineas's poster",
-      jp: ""
+      "en": "Phineas's poster",
+      "jp": "パロンチーノのポスター"
     },
     "id": 10796,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpFsl"
+        "imageName": "PosterNpcSpFsl"
       }
     ]
   },
   {
     "name": {
-      en: "Phoebe's poster",
-      jp: ""
+      "en": "Phoebe's poster",
+      "jp": "ヒノコのポスター"
     },
     "id": 10365,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst10"
+        "imageName": "PosterNpcNmlOst10"
       }
     ]
   },
   {
     "name": {
-      en: "Phyllis's poster",
-      jp: ""
+      "en": "Phyllis's poster",
+      "jp": "ぺりみのポスター"
     },
     "id": 10431,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpPlm"
+        "imageName": "PosterNpcSpPlm"
       }
     ]
   },
   {
     "name": {
-      en: "Pierce's poster",
-      jp: ""
+      "en": "Pierce's poster",
+      "jp": "セバスチャンのポスター"
     },
     "id": 10542,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr02"
+        "imageName": "PosterNpcNmlPbr02"
       }
     ]
   },
   {
     "name": {
-      en: "Pietro's poster",
-      jp: ""
+      "en": "Pietro's poster",
+      "jp": "ジュペッティのポスター"
     },
     "id": 10562,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp13"
+        "imageName": "PosterNpcNmlShp13"
       }
     ]
   },
   {
     "name": {
-      en: "Pinky's poster",
-      jp: ""
+      "en": "Pinky's poster",
+      "jp": "タンタンのポスター"
     },
     "id": 10798,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea01"
+        "imageName": "PosterNpcNmlBea01"
       }
     ]
   },
   {
     "name": {
-      en: "Piper's poster",
-      jp: ""
+      "en": "Piper's poster",
+      "jp": "レイコのポスター"
     },
     "id": 10810,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd05"
+        "imageName": "PosterNpcNmlBrd05"
       }
     ]
   },
   {
     "name": {
-      en: "Pippy's poster",
-      jp: ""
+      "en": "Pippy's poster",
+      "jp": "ロッタのポスター"
     },
     "id": 10484,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt06"
+        "imageName": "PosterNpcNmlRbt06"
       }
     ]
   },
   {
     "name": {
-      en: "Plucky's poster",
-      jp: ""
+      "en": "Plucky's poster",
+      "jp": "パタヤのポスター"
     },
     "id": 10626,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlChn10"
+        "imageName": "PosterNpcNmlChn10"
       }
     ]
   },
   {
     "name": {
-      en: "Pompom's poster",
-      jp: ""
+      "en": "Pompom's poster",
+      "jp": "のりっぺのポスター"
     },
     "id": 10577,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk05"
+        "imageName": "PosterNpcNmlDuk05"
       }
     ]
   },
   {
     "name": {
-      en: "Pompompurin poster",
-      jp: ""
+      "en": "Pompompurin poster",
+      "jp": "ポムポムプリンなポスター"
     },
     "id": 11122,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr18"
+        "imageName": "PosterNpcNmlCbr18"
       }
     ]
   },
   {
     "name": {
-      en: "Poncho's poster",
-      jp: ""
+      "en": "Poncho's poster",
+      "jp": "ポンチョのポスター"
     },
     "id": 10347,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr02"
+        "imageName": "PosterNpcNmlCbr02"
       }
     ]
   },
   {
     "name": {
-      en: "Poppy's poster",
-      jp: ""
+      "en": "Poppy's poster",
+      "jp": "グミのポスター"
     },
     "id": 10668,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu15"
+        "imageName": "PosterNpcNmlSqu15"
       }
     ]
   },
   {
     "name": {
-      en: "Porter's poster",
-      jp: ""
+      "en": "Porter's poster",
+      "jp": "えきいんさんのポスター"
     },
     "id": 10339,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpMnk"
+        "imageName": "PosterNpcSpMnk"
       }
     ]
   },
   {
     "name": {
-      en: "Portia's poster",
-      jp: ""
+      "en": "Portia's poster",
+      "jp": "ブレンダのポスター"
     },
     "id": 10550,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog05"
+        "imageName": "PosterNpcNmlDog05"
       }
     ]
   },
   {
     "name": {
-      en: "Prince's poster",
-      jp: ""
+      "en": "Prince's poster",
+      "jp": "カールのポスター"
     },
     "id": 10360,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg12"
+        "imageName": "PosterNpcNmlFlg12"
       }
     ]
   },
   {
     "name": {
-      en: "Puck's poster",
-      jp: ""
+      "en": "Puck's poster",
+      "jp": "ホッケーのポスター"
     },
     "id": 10660,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn06"
+        "imageName": "PosterNpcNmlPgn06"
       }
     ]
   },
   {
     "name": {
-      en: "Puddles's poster",
-      jp: ""
+      "en": "Puddles's poster",
+      "jp": "チョキのポスター"
     },
     "id": 10556,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg06"
+        "imageName": "PosterNpcNmlFlg06"
       }
     ]
   },
   {
     "name": {
-      en: "Pudge's poster",
-      jp: ""
+      "en": "Pudge's poster",
+      "jp": "きんぞうのポスター"
     },
     "id": 10676,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr03"
+        "imageName": "PosterNpcNmlCbr03"
       }
     ]
   },
   {
     "name": {
-      en: "Punchy's poster",
-      jp: ""
+      "en": "Punchy's poster",
+      "jp": "ビンタのポスター"
     },
     "id": 10819,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat06"
+        "imageName": "PosterNpcNmlCat06"
       }
     ]
   },
   {
     "name": {
-      en: "Purrl's poster",
-      jp: ""
+      "en": "Purrl's poster",
+      "jp": "たまのポスター"
     },
     "id": 10802,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat07"
+        "imageName": "PosterNpcNmlCat07"
       }
     ]
   },
   {
     "name": {
-      en: "Queenie's poster",
-      jp: ""
+      "en": "Queenie's poster",
+      "jp": "タキュのポスター"
     },
     "id": 10543,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst00"
+        "imageName": "PosterNpcNmlOst00"
       }
     ]
   },
   {
     "name": {
-      en: "Quillson's poster",
-      jp: ""
+      "en": "Quillson's poster",
+      "jp": "タックンのポスター"
     },
     "id": 10658,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk17"
+        "imageName": "PosterNpcNmlDuk17"
       }
     ]
   },
   {
     "name": {
-      en: "Raddle's poster",
-      jp: ""
+      "en": "Raddle's poster",
+      "jp": "カックンのポスター"
     },
     "id": 10629,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg15"
+        "imageName": "PosterNpcNmlFlg15"
       }
     ]
   },
   {
     "name": {
-      en: "Rasher's poster",
-      jp: ""
+      "en": "Rasher's poster",
+      "jp": "グレオのポスター"
     },
     "id": 10625,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig02"
+        "imageName": "PosterNpcNmlPig02"
       }
     ]
   },
   {
     "name": {
-      en: "Raymond's poster",
-      jp: ""
+      "en": "Raymond's poster",
+      "jp": "ジャックのポスター"
     },
     "id": 10861,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat23"
+        "imageName": "PosterNpcNmlCat23"
       }
     ]
   },
   {
     "name": {
-      en: "Redd's poster",
-      jp: ""
+      "en": "Redd's poster",
+      "jp": "つねきちのポスター"
     },
     "id": 10471,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpFox"
+        "imageName": "PosterNpcSpFox"
       }
     ]
   },
   {
     "name": {
-      en: "Reese's poster",
-      jp: ""
+      "en": "Reese's poster",
+      "jp": "リサのポスター"
     },
     "id": 10772,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpAlw"
+        "imageName": "PosterNpcSpAlw"
       }
     ]
   },
   {
     "name": {
-      en: "Renée's poster",
-      jp: ""
+      "en": "Renée's poster",
+      "jp": "おさいのポスター"
     },
     "id": 10599,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRhn08"
+        "imageName": "PosterNpcNmlRhn08"
       }
     ]
   },
   {
     "name": {
-      en: "Reneigh's poster",
-      jp: ""
+      "en": "Reneigh's poster",
+      "jp": "リアーナのポスター"
     },
     "id": 10857,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs16"
+        "imageName": "PosterNpcNmlHrs16"
       }
     ]
   },
   {
     "name": {
-      en: "Resetti's poster",
-      jp: ""
+      "en": "Resetti's poster",
+      "jp": "リセットさんのポスター"
     },
     "id": 10313,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpMol"
+        "imageName": "PosterNpcSpMol"
       }
     ]
   },
   {
     "name": {
-      en: "Rex's poster",
-      jp: ""
+      "en": "Rex's poster",
+      "jp": "サンデーのポスター"
     },
     "id": 10618,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlLon02"
+        "imageName": "PosterNpcNmlLon02"
       }
     ]
   },
   {
     "name": {
-      en: "Rhonda's poster",
-      jp: ""
+      "en": "Rhonda's poster",
+      "jp": "ユメコのポスター"
     },
     "id": 10383,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRhn01"
+        "imageName": "PosterNpcNmlRhn01"
       }
     ]
   },
   {
     "name": {
-      en: "Ribbot's poster",
-      jp: ""
+      "en": "Ribbot's poster",
+      "jp": "ガチャのポスター"
     },
     "id": 10572,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg01"
+        "imageName": "PosterNpcNmlFlg01"
       }
     ]
   },
   {
     "name": {
-      en: "Ricky's poster",
-      jp: ""
+      "en": "Ricky's poster",
+      "jp": "カジロウのポスター"
     },
     "id": 10458,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu10"
+        "imageName": "PosterNpcNmlSqu10"
       }
     ]
   },
   {
     "name": {
-      en: "Rilla's poster",
-      jp: ""
+      "en": "Rilla's poster",
+      "jp": "リラのポスター"
     },
     "id": 13033,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor11_2"
+        "imageName": "PosterNpcNmlGor11_2"
       }
     ]
   },
   {
     "name": {
-      en: "Rizzo's poster",
-      jp: ""
+      "en": "Rizzo's poster",
+      "jp": "ちょろきちのポスター"
     },
     "id": 10581,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus09"
+        "imageName": "PosterNpcNmlMus09"
       }
     ]
   },
   {
     "name": {
-      en: "Roald's poster",
-      jp: ""
+      "en": "Roald's poster",
+      "jp": "ペンタのポスター"
     },
     "id": 10328,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn01"
+        "imageName": "PosterNpcNmlPgn01"
       }
     ]
   },
   {
     "name": {
-      en: "Robin's poster",
-      jp: ""
+      "en": "Robin's poster",
+      "jp": "パーチクのポスター"
     },
     "id": 10809,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd01"
+        "imageName": "PosterNpcNmlBrd01"
       }
     ]
   },
   {
     "name": {
-      en: "Rocco's poster",
-      jp: ""
+      "en": "Rocco's poster",
+      "jp": "ゴンザレスのポスター"
     },
     "id": 10527,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHip00"
+        "imageName": "PosterNpcNmlHip00"
       }
     ]
   },
   {
     "name": {
-      en: "Rocket's poster",
-      jp: ""
+      "en": "Rocket's poster",
+      "jp": "４ごうのポスター"
     },
     "id": 10427,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor09"
+        "imageName": "PosterNpcNmlGor09"
       }
     ]
   },
   {
     "name": {
-      en: "Rod's poster",
-      jp: ""
+      "en": "Rod's poster",
+      "jp": "ジャンのポスター"
     },
     "id": 10566,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus05"
+        "imageName": "PosterNpcNmlMus05"
       }
     ]
   },
   {
     "name": {
-      en: "Rodeo's poster",
-      jp: ""
+      "en": "Rodeo's poster",
+      "jp": "ロデオのポスター"
     },
     "id": 10446,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBul01"
+        "imageName": "PosterNpcNmlBul01"
       }
     ]
   },
   {
     "name": {
-      en: "Rodney's poster",
-      jp: ""
+      "en": "Rodney's poster",
+      "jp": "ジミーのポスター"
     },
     "id": 10375,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHam03"
+        "imageName": "PosterNpcNmlHam03"
       }
     ]
   },
   {
     "name": {
-      en: "Rolf's poster",
-      jp: ""
+      "en": "Rolf's poster",
+      "jp": "チョモランのポスター"
     },
     "id": 10509,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlTig00"
+        "imageName": "PosterNpcNmlTig00"
       }
     ]
   },
   {
     "name": {
-      en: "Rooney's poster",
-      jp: ""
+      "en": "Rooney's poster",
+      "jp": "マイクのポスター"
     },
     "id": 10487,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKgr09"
+        "imageName": "PosterNpcNmlKgr09"
       }
     ]
   },
   {
     "name": {
-      en: "Rory's poster",
-      jp: ""
+      "en": "Rory's poster",
+      "jp": "アーサーのポスター"
     },
     "id": 10557,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlLon07"
+        "imageName": "PosterNpcNmlLon07"
       }
     ]
   },
   {
     "name": {
-      en: "Roscoe's poster",
-      jp: ""
+      "en": "Roscoe's poster",
+      "jp": "シュバルツのポスター"
     },
     "id": 10690,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs04"
+        "imageName": "PosterNpcNmlHrs04"
       }
     ]
   },
   {
     "name": {
-      en: "Rosie's poster",
-      jp: ""
+      "en": "Rosie's poster",
+      "jp": "ブーケのポスター"
     },
     "id": 10805,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat02"
+        "imageName": "PosterNpcNmlCat02"
       }
     ]
   },
   {
     "name": {
-      en: "Rover's poster",
-      jp: ""
+      "en": "Rover's poster",
+      "jp": "みしらぬネコのポスター"
     },
     "id": 10428,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpXct"
+        "imageName": "PosterNpcSpXct"
       }
     ]
   },
   {
     "name": {
-      en: "Rowan's poster",
-      jp: ""
+      "en": "Rowan's poster",
+      "jp": "ゴメスのポスター"
     },
     "id": 10592,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlTig01"
+        "imageName": "PosterNpcNmlTig01"
       }
     ]
   },
   {
     "name": {
-      en: "Ruby's poster",
-      jp: ""
+      "en": "Ruby's poster",
+      "jp": "ルナのポスター"
     },
     "id": 10399,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt09"
+        "imageName": "PosterNpcNmlRbt09"
       }
     ]
   },
   {
     "name": {
-      en: "Rudy's poster",
-      jp: ""
+      "en": "Rudy's poster",
+      "jp": "チャスのポスター"
     },
     "id": 10549,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat20"
+        "imageName": "PosterNpcNmlCat20"
       }
     ]
   },
   {
     "name": {
-      en: "Sable's poster",
-      jp: ""
+      "en": "Sable's poster",
+      "jp": "あさみのポスター"
     },
     "id": 10777,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpHgs"
+        "imageName": "PosterNpcSpHgs"
       }
     ]
   },
   {
     "name": {
-      en: "Saharah's poster",
-      jp: ""
+      "en": "Saharah's poster",
+      "jp": "ローランのポスター"
     },
     "id": 10481,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpCml"
+        "imageName": "PosterNpcSpCml"
       }
     ]
   },
   {
     "name": {
-      en: "Sally's poster",
-      jp: ""
+      "en": "Sally's poster",
+      "jp": "ララミーのポスター"
     },
     "id": 10575,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu07"
+        "imageName": "PosterNpcNmlSqu07"
       }
     ]
   },
   {
     "name": {
-      en: "Samson's poster",
-      jp: ""
+      "en": "Samson's poster",
+      "jp": "ピースのポスター"
     },
     "id": 10674,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMus04"
+        "imageName": "PosterNpcNmlMus04"
       }
     ]
   },
   {
     "name": {
-      en: "Sandy's poster",
-      jp: ""
+      "en": "Sandy's poster",
+      "jp": "ランのポスター"
     },
     "id": 10627,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst02"
+        "imageName": "PosterNpcNmlOst02"
       }
     ]
   },
   {
     "name": {
-      en: "Savannah's poster",
-      jp: ""
+      "en": "Savannah's poster",
+      "jp": "サバンナのポスター"
     },
     "id": 10363,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs02"
+        "imageName": "PosterNpcNmlHrs02"
       }
     ]
   },
   {
     "name": {
-      en: "Scoot's poster",
-      jp: ""
+      "en": "Scoot's poster",
+      "jp": "マモルのポスター"
     },
     "id": 10376,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk10"
+        "imageName": "PosterNpcNmlDuk10"
       }
     ]
   },
   {
     "name": {
-      en: "Shari's poster",
-      jp: ""
+      "en": "Shari's poster",
+      "jp": "シェリーのポスター"
     },
     "id": 10661,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMnk07"
+        "imageName": "PosterNpcNmlMnk07"
       }
     ]
   },
   {
     "name": {
-      en: "Sheldon's poster",
-      jp: ""
+      "en": "Sheldon's poster",
+      "jp": "クリスのポスター"
     },
     "id": 10645,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu16"
+        "imageName": "PosterNpcNmlSqu16"
       }
     ]
   },
   {
     "name": {
-      en: "Shep's poster",
-      jp: ""
+      "en": "Shep's poster",
+      "jp": "ボブのポスター"
     },
     "id": 10538,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog18"
+        "imageName": "PosterNpcNmlDog18"
       }
     ]
   },
   {
     "name": {
-      en: "Sherb's poster",
-      jp: ""
+      "en": "Sherb's poster",
+      "jp": "レムのポスター"
     },
     "id": 10863,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGoa09"
+        "imageName": "PosterNpcNmlGoa09"
       }
     ]
   },
   {
     "name": {
-      en: "Shrunk's poster",
-      jp: ""
+      "en": "Shrunk's poster",
+      "jp": "ししょーのポスター"
     },
     "id": 10341,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpUpa"
+        "imageName": "PosterNpcSpUpa"
       }
     ]
   },
   {
     "name": {
-      en: "Simon's poster",
-      jp: ""
+      "en": "Simon's poster",
+      "jp": "エテキチのポスター"
     },
     "id": 10601,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMnk02"
+        "imageName": "PosterNpcNmlMnk02"
       }
     ]
   },
   {
     "name": {
-      en: "Skye's poster",
-      jp: ""
+      "en": "Skye's poster",
+      "jp": "リリィのポスター"
     },
     "id": 10489,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol09"
+        "imageName": "PosterNpcNmlWol09"
       }
     ]
   },
   {
     "name": {
-      en: "Sly's poster",
-      jp: ""
+      "en": "Sly's poster",
+      "jp": "ハイドのポスター"
     },
     "id": 10368,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCrd06"
+        "imageName": "PosterNpcNmlCrd06"
       }
     ]
   },
   {
     "name": {
-      en: "Snake's poster",
-      jp: ""
+      "en": "Snake's poster",
+      "jp": "モモチのポスター"
     },
     "id": 10671,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt03"
+        "imageName": "PosterNpcNmlRbt03"
       }
     ]
   },
   {
     "name": {
-      en: "Snooty's poster",
-      jp: ""
+      "en": "Snooty's poster",
+      "jp": "こまちのポスター"
     },
     "id": 10815,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlAnt06"
+        "imageName": "PosterNpcNmlAnt06"
       }
     ]
   },
   {
     "name": {
-      en: "Soleil's poster",
-      jp: ""
+      "en": "Soleil's poster",
+      "jp": "シャンティのポスター"
     },
     "id": 10511,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHam04"
+        "imageName": "PosterNpcNmlHam04"
       }
     ]
   },
   {
     "name": {
-      en: "Sparro's poster",
-      jp: ""
+      "en": "Sparro's poster",
+      "jp": "ちゅんのすけのポスター"
     },
     "id": 10793,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd18"
+        "imageName": "PosterNpcNmlBrd18"
       }
     ]
   },
   {
     "name": {
-      en: "Spike's poster",
-      jp: ""
+      "en": "Spike's poster",
+      "jp": "スクワットのポスター"
     },
     "id": 10639,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRhn02"
+        "imageName": "PosterNpcNmlRhn02"
       }
     ]
   },
   {
     "name": {
-      en: "Spork's poster",
-      jp: ""
+      "en": "Spork's poster",
+      "jp": "ポークのポスター"
     },
     "id": 10454,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig05"
+        "imageName": "PosterNpcNmlPig05"
       }
     ]
   },
   {
     "name": {
-      en: "Sprinkle's poster",
-      jp: ""
+      "en": "Sprinkle's poster",
+      "jp": "フラッペのポスター"
     },
     "id": 10405,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn14"
+        "imageName": "PosterNpcNmlPgn14"
       }
     ]
   },
   {
     "name": {
-      en: "Sprocket's poster",
-      jp: ""
+      "en": "Sprocket's poster",
+      "jp": "ヘルツのポスター"
     },
     "id": 10644,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOst03"
+        "imageName": "PosterNpcNmlOst03"
       }
     ]
   },
   {
     "name": {
-      en: "Static's poster",
-      jp: ""
+      "en": "Static's poster",
+      "jp": "スパークのポスター"
     },
     "id": 10567,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu08"
+        "imageName": "PosterNpcNmlSqu08"
       }
     ]
   },
   {
     "name": {
-      en: "Stella's poster",
-      jp: ""
+      "en": "Stella's poster",
+      "jp": "アクリルのポスター"
     },
     "id": 10609,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp03"
+        "imageName": "PosterNpcNmlShp03"
       }
     ]
   },
   {
     "name": {
-      en: "Sterling's poster",
-      jp: ""
+      "en": "Sterling's poster",
+      "jp": "ギンカクのポスター"
     },
     "id": 10665,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPbr07"
+        "imageName": "PosterNpcNmlPbr07"
       }
     ]
   },
   {
     "name": {
-      en: "Stinky's poster",
-      jp: ""
+      "en": "Stinky's poster",
+      "jp": "アセクサのポスター"
     },
     "id": 10475,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat13"
+        "imageName": "PosterNpcNmlCat13"
       }
     ]
   },
   {
     "name": {
-      en: "Stitches's poster",
-      jp: ""
+      "en": "Stitches's poster",
+      "jp": "パッチのポスター"
     },
     "id": 10524,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr05"
+        "imageName": "PosterNpcNmlCbr05"
       }
     ]
   },
   {
     "name": {
-      en: "Stu's poster",
-      jp: ""
+      "en": "Stu's poster",
+      "jp": "モーリスのポスター"
     },
     "id": 10811,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBul03"
+        "imageName": "PosterNpcNmlBul03"
       }
     ]
   },
   {
     "name": {
-      en: "Sydney's poster",
-      jp: ""
+      "en": "Sydney's poster",
+      "jp": "シドニーのポスター"
     },
     "id": 10582,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal03"
+        "imageName": "PosterNpcNmlKal03"
       }
     ]
   },
   {
     "name": {
-      en: "Sylvana's poster",
-      jp: ""
+      "en": "Sylvana's poster",
+      "jp": "もんぺのポスター"
     },
     "id": 10612,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu14"
+        "imageName": "PosterNpcNmlSqu14"
       }
     ]
   },
   {
     "name": {
-      en: "Sylvia's poster",
-      jp: ""
+      "en": "Sylvia's poster",
+      "jp": "シルビアのポスター"
     },
     "id": 10574,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKgr06"
+        "imageName": "PosterNpcNmlKgr06"
       }
     ]
   },
   {
     "name": {
-      en: "T-Bone's poster",
-      jp: ""
+      "en": "T-Bone's poster",
+      "jp": "ボルシチのポスター"
     },
     "id": 10823,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBul05"
+        "imageName": "PosterNpcNmlBul05"
       }
     ]
   },
   {
     "name": {
-      en: "Tabby's poster",
-      jp: ""
+      "en": "Tabby's poster",
+      "jp": "トラこのポスター"
     },
     "id": 10441,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat12"
+        "imageName": "PosterNpcNmlCat12"
       }
     ]
   },
   {
     "name": {
-      en: "Tad's poster",
-      jp: ""
+      "en": "Tad's poster",
+      "jp": "タンボのポスター"
     },
     "id": 10641,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg09"
+        "imageName": "PosterNpcNmlFlg09"
       }
     ]
   },
   {
     "name": {
-      en: "Tammi's poster",
-      jp: ""
+      "en": "Tammi's poster",
+      "jp": "エイプリルのポスター"
     },
     "id": 10476,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlMnk03"
+        "imageName": "PosterNpcNmlMnk03"
       }
     ]
   },
   {
     "name": {
-      en: "Tammy's poster",
-      jp: ""
+      "en": "Tammy's poster",
+      "jp": "アネッサのポスター"
     },
     "id": 10553,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr17"
+        "imageName": "PosterNpcNmlCbr17"
       }
     ]
   },
   {
     "name": {
-      en: "Tangy's poster",
-      jp: ""
+      "en": "Tangy's poster",
+      "jp": "ヒャクパーのポスター"
     },
     "id": 10786,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat05"
+        "imageName": "PosterNpcNmlCat05"
       }
     ]
   },
   {
     "name": {
-      en: "Tank's poster",
-      jp: ""
+      "en": "Tank's poster",
+      "jp": "くるぶしのポスター"
     },
     "id": 10578,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRhn00"
+        "imageName": "PosterNpcNmlRhn00"
       }
     ]
   },
   {
     "name": {
-      en: "Tasha's poster",
-      jp: ""
+      "en": "Tasha's poster",
+      "jp": "ナターシャのポスター"
     },
     "id": 10651,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlSqu13"
+        "imageName": "PosterNpcNmlSqu13"
       }
     ]
   },
   {
     "name": {
-      en: "Teddy's poster",
-      jp: ""
+      "en": "Teddy's poster",
+      "jp": "たいへいたのポスター"
     },
     "id": 10775,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea00"
+        "imageName": "PosterNpcNmlBea00"
       }
     ]
   },
   {
     "name": {
-      en: "Tex's poster",
-      jp: ""
+      "en": "Tex's poster",
+      "jp": "ボルトのポスター"
     },
     "id": 10546,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn12"
+        "imageName": "PosterNpcNmlPgn12"
       }
     ]
   },
   {
     "name": {
-      en: "Tia's poster",
-      jp: ""
+      "en": "Tia's poster",
+      "jp": "ティーナのポスター"
     },
     "id": 10350,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp10"
+        "imageName": "PosterNpcNmlElp10"
       }
     ]
   },
   {
     "name": {
-      en: "Tiffany's poster",
-      jp: ""
+      "en": "Tiffany's poster",
+      "jp": "バズレーのポスター"
     },
     "id": 10635,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt07"
+        "imageName": "PosterNpcNmlRbt07"
       }
     ]
   },
   {
     "name": {
-      en: "Timbra's poster",
-      jp: ""
+      "en": "Timbra's poster",
+      "jp": "つかさのポスター"
     },
     "id": 10388,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp10"
+        "imageName": "PosterNpcNmlShp10"
       }
     ]
   },
   {
     "name": {
-      en: "Timmy's poster",
-      jp: ""
+      "en": "Timmy's poster",
+      "jp": "まめきちのポスター"
     },
     "id": 10437,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpRcm"
+        "imageName": "PosterNpcSpRcm"
       }
     ]
   },
   {
     "name": {
-      en: "Tipper's poster",
-      jp: ""
+      "en": "Tipper's poster",
+      "jp": "まきばのポスター"
     },
     "id": 10359,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCow01"
+        "imageName": "PosterNpcNmlCow01"
       }
     ]
   },
   {
     "name": {
-      en: "Toby's poster",
-      jp: ""
+      "en": "Toby's poster",
+      "jp": "トビーのポスター"
     },
     "id": 13038,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlRbt20_2"
+        "imageName": "PosterNpcNmlRbt20_2"
       }
     ]
   },
   {
     "name": {
-      en: "Tom Nook's poster",
-      jp: ""
+      "en": "Tom Nook's poster",
+      "jp": "たぬきちのポスター"
     },
     "id": 10384,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpRco"
+        "imageName": "PosterNpcSpRco"
       }
     ]
   },
   {
     "name": {
-      en: "Tom's poster",
-      jp: ""
+      "en": "Tom's poster",
+      "jp": "バンタムのポスター"
     },
     "id": 10358,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCat15"
+        "imageName": "PosterNpcNmlCat15"
       }
     ]
   },
   {
     "name": {
-      en: "Tommy's poster",
-      jp: ""
+      "en": "Tommy's poster",
+      "jp": "つぶきちのポスター"
     },
     "id": 10338,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpRct"
+        "imageName": "PosterNpcSpRct"
       }
     ]
   },
   {
     "name": {
-      en: "Tortimer's poster",
-      jp: ""
+      "en": "Tortimer's poster",
+      "jp": "コトブキのポスター"
     },
     "id": 10792,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpTtlA"
+        "imageName": "PosterNpcSpTtlA"
       }
     ]
   },
   {
     "name": {
-      en: "Truffles's poster",
-      jp: ""
+      "en": "Truffles's poster",
+      "jp": "トンコのポスター"
     },
     "id": 10691,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPig01"
+        "imageName": "PosterNpcNmlPig01"
       }
     ]
   },
   {
     "name": {
-      en: "Tucker's poster",
-      jp: ""
+      "en": "Tucker's poster",
+      "jp": "はじめのポスター"
     },
     "id": 10477,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlElp09"
+        "imageName": "PosterNpcNmlElp09"
       }
     ]
   },
   {
     "name": {
-      en: "Tutu's poster",
-      jp: ""
+      "en": "Tutu's poster",
+      "jp": "れんにゅうのポスター"
     },
     "id": 10822,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea07"
+        "imageName": "PosterNpcNmlBea07"
       }
     ]
   },
   {
     "name": {
-      en: "Twiggy's poster",
-      jp: ""
+      "en": "Twiggy's poster",
+      "jp": "ピーチクのポスター"
     },
     "id": 10808,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBrd03"
+        "imageName": "PosterNpcNmlBrd03"
       }
     ]
   },
   {
     "name": {
-      en: "Tybalt's poster",
-      jp: ""
+      "en": "Tybalt's poster",
+      "jp": "ハリマオのポスター"
     },
     "id": 10610,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlTig02"
+        "imageName": "PosterNpcNmlTig02"
       }
     ]
   },
   {
     "name": {
-      en: "Ursala's poster",
-      jp: ""
+      "en": "Ursala's poster",
+      "jp": "ネーヤのポスター"
     },
     "id": 10812,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBea08"
+        "imageName": "PosterNpcNmlBea08"
       }
     ]
   },
   {
     "name": {
-      en: "Velma's poster",
-      jp: ""
+      "en": "Velma's poster",
+      "jp": "ピティエのポスター"
     },
     "id": 10449,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGoa06"
+        "imageName": "PosterNpcNmlGoa06"
       }
     ]
   },
   {
     "name": {
-      en: "Vesta's poster",
-      jp: ""
+      "en": "Vesta's poster",
+      "jp": "メリヤスのポスター"
     },
     "id": 10418,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp00"
+        "imageName": "PosterNpcNmlShp00"
       }
     ]
   },
   {
     "name": {
-      en: "Vic's poster",
-      jp: ""
+      "en": "Vic's poster",
+      "jp": "ノルマンのポスター"
     },
     "id": 10415,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlBul08"
+        "imageName": "PosterNpcNmlBul08"
       }
     ]
   },
   {
     "name": {
-      en: "Victoria's poster",
-      jp: ""
+      "en": "Victoria's poster",
+      "jp": "セントアローのポスター"
     },
     "id": 10497,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs01"
+        "imageName": "PosterNpcNmlHrs01"
       }
     ]
   },
   {
     "name": {
-      en: "Villager's poster",
-      jp: ""
+      "en": "Villager's poster",
+      "jp": "むらびとのポスター"
     },
     "id": 10741,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterVillager"
+        "imageName": "PosterVillager"
       }
     ]
   },
   {
     "name": {
-      en: "Violet's poster",
-      jp: ""
+      "en": "Violet's poster",
+      "jp": "ウズメのポスター"
     },
     "id": 10499,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlGor07"
+        "imageName": "PosterNpcNmlGor07"
       }
     ]
   },
   {
     "name": {
-      en: "Vivian's poster",
-      jp: ""
+      "en": "Vivian's poster",
+      "jp": "ヴァネッサのポスター"
     },
     "id": 10603,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol08"
+        "imageName": "PosterNpcNmlWol08"
       }
     ]
   },
   {
     "name": {
-      en: "Vladimir's poster",
-      jp: ""
+      "en": "Vladimir's poster",
+      "jp": "ガビのポスター"
     },
     "id": 10362,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlCbr06"
+        "imageName": "PosterNpcNmlCbr06"
       }
     ]
   },
   {
     "name": {
-      en: "Wade's poster",
-      jp: ""
+      "en": "Wade's poster",
+      "jp": "カマボコのポスター"
     },
     "id": 10614,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlPgn09"
+        "imageName": "PosterNpcNmlPgn09"
       }
     ]
   },
   {
     "name": {
-      en: "Walker's poster",
-      jp: ""
+      "en": "Walker's poster",
+      "jp": "ベンのポスター"
     },
     "id": 10330,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDog06"
+        "imageName": "PosterNpcNmlDog06"
       }
     ]
   },
   {
     "name": {
-      en: "Walt's poster",
-      jp: ""
+      "en": "Walt's poster",
+      "jp": "カンロクのポスター"
     },
     "id": 10559,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKgr08"
+        "imageName": "PosterNpcNmlKgr08"
       }
     ]
   },
   {
     "name": {
-      en: "Wart Jr.'s poster",
-      jp: ""
+      "en": "Wart Jr.'s poster",
+      "jp": "サムのポスター"
     },
     "id": 10465,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlFlg05"
+        "imageName": "PosterNpcNmlFlg05"
       }
     ]
   },
   {
     "name": {
-      en: "Weber's poster",
-      jp: ""
+      "en": "Weber's poster",
+      "jp": "アチョットのポスター"
     },
     "id": 10636,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDuk11"
+        "imageName": "PosterNpcNmlDuk11"
       }
     ]
   },
   {
     "name": {
-      en: "Wendell's poster",
-      jp: ""
+      "en": "Wendell's poster",
+      "jp": "セイイチのポスター"
     },
     "id": 10434,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpWrl"
+        "imageName": "PosterNpcSpWrl"
       }
     ]
   },
   {
     "name": {
-      en: "Wendy's poster",
-      jp: ""
+      "en": "Wendy's poster",
+      "jp": "みぞれのポスター"
     },
     "id": 10381,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp09"
+        "imageName": "PosterNpcNmlShp09"
       }
     ]
   },
   {
     "name": {
-      en: "Whitney's poster",
-      jp: ""
+      "en": "Whitney's poster",
+      "jp": "ビアンカのポスター"
     },
     "id": 10377,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol03"
+        "imageName": "PosterNpcNmlWol03"
       }
     ]
   },
   {
     "name": {
-      en: "Willow's poster",
-      jp: ""
+      "en": "Willow's poster",
+      "jp": "マリーのポスター"
     },
     "id": 10327,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlShp07"
+        "imageName": "PosterNpcNmlShp07"
       }
     ]
   },
   {
     "name": {
-      en: "Winnie's poster",
-      jp: ""
+      "en": "Winnie's poster",
+      "jp": "マキバスターのポスター"
     },
     "id": 10663,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlHrs05"
+        "imageName": "PosterNpcNmlHrs05"
       }
     ]
   },
   {
     "name": {
-      en: "Wolfgang's poster",
-      jp: ""
+      "en": "Wolfgang's poster",
+      "jp": "ロボのポスター"
     },
     "id": 10472,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlWol02"
+        "imageName": "PosterNpcNmlWol02"
       }
     ]
   },
   {
     "name": {
-      en: "Yuka's poster",
-      jp: ""
+      "en": "Yuka's poster",
+      "jp": "ユーカリのポスター"
     },
     "id": 10683,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlKal00"
+        "imageName": "PosterNpcNmlKal00"
       }
     ]
   },
   {
     "name": {
-      en: "Zell's poster",
-      jp: ""
+      "en": "Zell's poster",
+      "jp": "ネルソンのポスター"
     },
     "id": 10389,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlDer02"
+        "imageName": "PosterNpcNmlDer02"
       }
     ]
   },
   {
     "name": {
-      en: "Zipper's poster",
-      jp: ""
+      "en": "Zipper's poster",
+      "jp": "ぴょんたろうのポスター"
     },
     "id": 10522,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcSpPyn"
+        "imageName": "PosterNpcSpPyn"
       }
     ]
   },
   {
     "name": {
-      en: "Zucker's poster",
-      jp: ""
+      "en": "Zucker's poster",
+      "jp": "タコヤのポスター"
     },
     "id": 10569,
-    "source": {
-      en: "Nook Shopping Posters",
-      jp: "Nook Shopping Posters"
-    },
+    "source": "Nook Shopping Posters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "posters",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "PosterNpcNmlOcp02"
+        "imageName": "PosterNpcNmlOcp02"
       }
     ]
   }
-];
+]

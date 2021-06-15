@@ -1,55 +1,99 @@
-let combinedTranslation = {
+let combinedNameTranslation = {
   fashion: [
-  ...fashion.tops,
-  ...fashion.bottoms,
-  ...fashion.dresses,
-  ...fashion.headwear,
-  ...fashion.swimwear,
-  ...fashion.accessories,
-  ...fashion.socks,
-  ...fashion.shoes,
-  ...fashion.bags,
-  ...fashion.umbrellas
+  ...translationNames.tops,
+  ...translationNames.bottoms,
+  ...translationNames.dresses,
+  ...translationNames.headwear,
+  ...translationNames.swimwear,
+  ...translationNames.headwear,
+  ...translationNames.accessories,
+  ...translationNames.socks,
+  ...translationNames.shoes,
+  ...translationNames.bags,
+  ...translationNames.umbrellas,
   ],
   items: [
-  ...items.housewares,
-  ...items.misc,
-  ...items.wallMounted
+  ...translationNames.housewares,
+  ...translationNames.misc,
+  ...translationNames.wallMounted,
   ],
   house: [
-  ...house.wallpaper,
-  ...house.floors,
-  ...house.rugs
+  ...translationNames.wallpaper,
+  ...translationNames.floors,
+  ...translationNames.rugs,
   ],
   npc: [
-  ...npc.photos,
-  ...npc.posters,
-  ...npc.villagers
+  ...translationNames.photos,
+  ...translationNames.posters,
+  ...translationNames.special,
+  ...translationNames.race,
+  ...translationNames.villagers,
   ],
   creatures: [
-  ...creatures.insects,
-  ...creatures.fish,
-  ...creatures.seaCreatures
+  ...translationNames.insects,
+  ...translationNames.fish,
+  ...translationNames.seaCreatures,
   ],
   others: [
-  ...others.music,
-  ...others.fossils,
-  ...others.art
+  ...translationNames.music,
+  ...translationNames.fossils,
+  ...translationNames.art,
   ],
   diy: [
-  ...diy.tools,
-  ...diy.fencing,
-  ...diy.materials,
-  ...diy.recipes
+  ...translationNames.tools,
+  ...translationNames.fencing,
+  ...translationNames.materials,
+  ...translationNames.recipes,
+  ...translationNames.etc
+  ]
+},
+combinedVariantTranslation = {
+  fashion: [
+  ...translationVariants.tops,
+  ...translationVariants.bottoms,
+  ...translationVariants.dresses,
+  ...translationVariants.headwear,
+  ...translationVariants.swimwear,
+  ...translationVariants.headwear,
+  ...translationVariants.accessories,
+  ...translationVariants.socks,
+  ...translationVariants.shoes,
+  ...translationVariants.bags,
+  ...translationVariants.umbrellas,
+  ],
+  items: [
+  ...translationVariants.housewares,
+  ...translationVariants.misc,
+  ...translationVariants.wallMounted,
+  ],
+  house: [
+  ...translationVariants.wallpaper,
+  ...translationVariants.floors,
+  ...translationVariants.rugs,
+  ],
+  npc: [
+  ...translationVariants.photos,
+  ...translationVariants.posters,
+  ...translationVariants.special,
+  ...translationVariants.race,
+  ...translationVariants.villagers,
+  ],
+  creatures: [
+  ...translationVariants.insects,
+  ...translationVariants.fish,
+  ...translationVariants.seaCreatures,
+  ],
+  others: [
+  ...translationVariants.music,
+  ...translationVariants.fossils,
+  ...translationVariants.art,
+  ],
+  diy: [
+  ...translationVariants.tools,
+  ...translationVariants.fencing,
+  ...translationVariants.materials,
+  ...translationVariants.recipes,
+  ...translationVariants.etc
   ]
 };
 
-let allTranslation = [
-...combinedTranslation.fashion,
-...combinedTranslation.items,
-...combinedTranslation.house,
-...combinedTranslation.npc,
-...combinedTranslation.creatures,
-...combinedTranslation.others,
-...combinedTranslation.diy
-]

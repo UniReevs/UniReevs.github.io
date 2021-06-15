@@ -1,13938 +1,15747 @@
 fashion.dresses = [
   {
     "name": {
-      en: "academy uniform",
-      jp: "よそいきなふく"
+      "en": "academy uniform",
+      "jp": "よそいきなふく"
     },
     "id": 31,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2080,
       "sell": 520
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9016,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxLYosoiki1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLYosoiki1"
       },
       {
         "id": 9017,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxLYosoiki2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLYosoiki2"
       },
       {
         "id": 2699,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBoxLYosoiki0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLYosoiki0"
       }
     ]
   },
   {
     "name": {
-      en: "adventure dress",
-      jp: "ふしぎなワンピース"
+      "en": "adventure dress",
+      "jp": "ふしぎなワンピース"
     },
     "id": 227,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2800,
       "sell": 700
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3686,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHStrangeBlue"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHStrangeBlue"
       }
     ]
   },
   {
     "name": {
-      en: "alpinist dress",
-      jp: "チロリアンなドレス"
+      "en": "alpinist dress",
+      "jp": "チロリアンなドレス"
     },
     "id": 68,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8616,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonHTyrolean2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHTyrolean2"
       },
       {
         "id": 3168,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHTyrolean0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHTyrolean0"
       },
       {
         "id": 8615,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHTyrolean1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHTyrolean1"
       }
     ]
   },
   {
     "name": {
-      en: "alpinist overalls",
-      jp: "チロリアンなオーバーオール"
+      "en": "alpinist overalls",
+      "jp": "チロリアンなオーバーオール"
     },
     "id": 368,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8632,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallHTyrolean2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHTyrolean2"
       },
       {
         "id": 4443,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallHTyrolean0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHTyrolean0"
       },
       {
         "id": 8631,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallHTyrolean1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHTyrolean1"
       }
     ]
   },
   {
     "name": {
-      en: "ancient belted robe",
-      jp: "ぐんしのふく"
+      "en": "ancient belted robe",
+      "jp": "ぐんしのふく"
     },
     "id": 773,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3640,
       "sell": 910
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9160,
         "name": {
-          en: "White",
-          jp: "しろ"
+          "en": "White",
+          "jp": "しろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukumen3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukumen3"
       },
       {
         "id": 9158,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukumen1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukumen1"
       },
       {
         "id": 5518,
         "name": {
-          en: "Blue",
-          jp: "あお"
+          "en": "Blue",
+          "jp": "あお"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukumen0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukumen0"
       },
       {
         "id": 9161,
         "name": {
-          en: "Purple",
-          jp: "むらさき"
+          "en": "Purple",
+          "jp": "むらさき"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukumen4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukumen4"
       },
       {
         "id": 9159,
         "name": {
-          en: "Beige",
-          jp: "かれくさいろ"
+          "en": "Beige",
+          "jp": "かれくさいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukumen2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukumen2"
       }
     ]
   },
   {
     "name": {
-      en: "ancient sashed robe",
-      jp: "かんぷく"
+      "en": "ancient sashed robe",
+      "jp": "かんぷく"
     },
     "id": 774,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9163,
         "name": {
-          en: "Red",
-          jp: "あか"
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukuwomen2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukuwomen2"
       },
       {
         "id": 9162,
         "name": {
-          en: "Pink",
-          jp: "ももいろ"
+          "en": "Pink",
+          "jp": "ももいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukuwomen1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukuwomen1"
       },
       {
         "id": 5519,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukuwomen0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukuwomen0"
       },
       {
         "id": 9164,
         "name": {
-          en: "Blue",
-          jp: "あお"
+          "en": "Blue",
+          "jp": "あお"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukuwomen3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukuwomen3"
       },
       {
         "id": 9165,
         "name": {
-          en: "Purple",
-          jp: "むらさき"
+          "en": "Purple",
+          "jp": "むらさき"
         },
-        "fileName": "TopsTexOnepieceKimonoLKanpukuwomen4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKanpukuwomen4"
       }
     ]
   },
   {
     "name": {
-      en: "áo dài",
-      jp: "アオザイ"
+      "en": "áo dài",
+      "jp": "アオザイ"
     },
     "id": 181,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3493,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBlongLAodai0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLAodai0"
       },
       {
         "id": 9144,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBlongLAodai4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLAodai4"
       },
       {
         "id": 9142,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBlongLAodai2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLAodai2"
       },
       {
         "id": 9143,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBlongLAodai3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLAodai3"
       },
       {
         "id": 9141,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBlongLAodai1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLAodai1"
       }
     ]
   },
   {
     "name": {
-      en: "apple dress",
-      jp: "リンゴのふく"
+      "en": "apple dress",
+      "jp": "リンゴのふく"
     },
     "id": 1087,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9836,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineNApple0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNApple0"
       }
     ]
   },
   {
     "name": {
-      en: "astro dress",
-      jp: "スペースワンピース"
+      "en": "astro dress",
+      "jp": "スペースワンピース"
     },
     "id": 586,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7891,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNSpace2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNSpace2"
       },
       {
         "id": 7890,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineNSpace1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNSpace1"
       },
       {
         "id": 5135,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNSpace0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNSpace0"
       }
     ]
   },
   {
     "name": {
-      en: "attus robe",
-      jp: "アットゥシ"
+      "en": "attus robe",
+      "jp": "アットゥシ"
     },
     "id": 1158,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11999,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBlongLAttoushi2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLAttoushi2"
       },
       {
         "id": 10907,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBlongLAttoushi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLAttoushi0"
       },
       {
         "id": 11998,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBlongLAttoushi1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLAttoushi1"
       }
     ]
   },
   {
     "name": {
-      en: "baby romper",
-      jp: "ロンパース"
+      "en": "baby romper",
+      "jp": "ロンパース"
     },
     "id": 393,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7831,
         "name": {
-          en: "Baby pink",
-          jp: "ベビーピンク"
+          "en": "Baby pink",
+          "jp": "ベビーピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLRompers4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRompers4"
       },
       {
         "id": 7828,
         "name": {
-          en: "Baby purple",
-          jp: "ベビーパープル"
+          "en": "Baby purple",
+          "jp": "ベビーパープル"
         },
-        "fileName": "TopsTexOnepieceOverallLRompers1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRompers1"
       },
       {
         "id": 7834,
         "name": {
-          en: "Baby orange",
-          jp: "ベビーオレンジ"
+          "en": "Baby orange",
+          "jp": "ベビーオレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLRompers7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRompers7"
       },
       {
         "id": 7829,
         "name": {
-          en: "Baby yellow",
-          jp: "ベビーイエロー"
+          "en": "Baby yellow",
+          "jp": "ベビーイエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLRompers2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRompers2"
       },
       {
         "id": 7830,
         "name": {
-          en: "Baby green",
-          jp: "ベビーグリーン"
+          "en": "Baby green",
+          "jp": "ベビーグリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLRompers3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRompers3"
       },
       {
         "id": 4470,
         "name": {
-          en: "Baby mint",
-          jp: "ベビーミント"
+          "en": "Baby mint",
+          "jp": "ベビーミント"
         },
-        "fileName": "TopsTexOnepieceOverallLRompers0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRompers0"
       },
       {
         "id": 7833,
         "name": {
-          en: "Baby blue",
-          jp: "ベビーブルー"
+          "en": "Baby blue",
+          "jp": "ベビーブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLRompers6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRompers6"
       },
       {
         "id": 7832,
         "name": {
-          en: "Baby gray",
-          jp: "ベビーグレー"
+          "en": "Baby gray",
+          "jp": "ベビーグレー"
         },
-        "fileName": "TopsTexOnepieceOverallLRompers5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRompers5"
       }
     ]
   },
   {
     "name": {
-      en: "baby-chick costume",
-      jp: "ひよこなふく"
+      "en": "baby-chick costume",
+      "jp": "ひよこなふく"
     },
     "id": 805,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5644,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceRibNChick0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNChick0"
       },
       {
         "id": 9640,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceRibNChick1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNChick1"
       },
       {
         "id": 9641,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceRibNChick2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNChick2"
       }
     ]
   },
   {
     "name": {
-      en: "baji jeogori",
-      jp: "パジチョゴリ"
+      "en": "baji jeogori",
+      "jp": "パジチョゴリ"
     },
     "id": 892,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9168,
         "name": {
-          en: "Black",
-          jp: "くろ"
+          "en": "Black",
+          "jp": "くろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLKorea3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKorea3"
       },
       {
         "id": 9167,
         "name": {
-          en: "Aqua",
-          jp: "みずいろ"
+          "en": "Aqua",
+          "jp": "みずいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLKorea2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKorea2"
       },
       {
         "id": 5818,
         "name": {
-          en: "Blue",
-          jp: "あお"
+          "en": "Blue",
+          "jp": "あお"
         },
-        "fileName": "TopsTexOnepieceKimonoLKorea0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKorea0"
       },
       {
         "id": 9166,
         "name": {
-          en: "Purple",
-          jp: "むらさき"
+          "en": "Purple",
+          "jp": "むらさき"
         },
-        "fileName": "TopsTexOnepieceKimonoLKorea1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKorea1"
       }
     ]
   },
   {
     "name": {
-      en: "ballet outfit",
-      jp: "バレエのいしょう"
+      "en": "ballet outfit",
+      "jp": "バレエのいしょう"
     },
     "id": 66,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2880,
       "sell": 720
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9416,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBalloonNBallet5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBallet5"
       },
       {
         "id": 9415,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonNBallet4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBallet4"
       },
       {
         "id": 9418,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonNBallet7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBallet7"
       },
       {
         "id": 3166,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonNBallet0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBallet0"
       },
       {
         "id": 9417,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonNBallet6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBallet6"
       },
       {
         "id": 9412,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "TopsTexOnepieceBalloonNBallet1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBallet1"
       },
       {
         "id": 9413,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonNBallet2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBallet2"
       },
       {
         "id": 9414,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonNBallet3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBallet3"
       }
     ]
   },
   {
     "name": {
-      en: "balmacaan coat",
-      jp: "バルマカーンコート"
+      "en": "balmacaan coat",
+      "jp": "バルマカーンコート"
     },
     "id": 472,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1540,
       "sell": 385
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4606,
         "name": {
-          en: "Avocado",
-          jp: "カーキ"
+          "en": "Avocado",
+          "jp": "カーキ"
         },
-        "fileName": "TopsTexOnepieceBlongLBalmakarn0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLBalmakarn0"
       },
       {
         "id": 9307,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBlongLBalmakarn2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLBalmakarn2"
       },
       {
         "id": 9306,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceBlongLBalmakarn1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLBalmakarn1"
       }
     ]
   },
   {
     "name": {
-      en: "baseball uniform",
-      jp: "やきゅうのふく"
+      "en": "baseball uniform",
+      "jp": "やきゅうのふく"
     },
     "id": 202,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1760,
       "sell": 440
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11108,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLBaseball3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBaseball3"
       },
       {
         "id": 11109,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLBaseball4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBaseball4"
       },
       {
         "id": 3611,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLBaseball0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBaseball0"
       },
       {
         "id": 11107,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLBaseball2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBaseball2"
       },
       {
         "id": 11106,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceOverallLBaseball1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBaseball1"
       }
     ]
   },
   {
     "name": {
-      en: "bath-towel wrap",
-      jp: "バスタオル"
+      "en": "bath-towel wrap",
+      "jp": "バスタオル"
     },
     "id": 325,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 630,
       "sell": 157
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7811,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBoxNBathtowel1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNBathtowel1"
       },
       {
         "id": 7815,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxNBathtowel5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNBathtowel5"
       },
       {
         "id": 4361,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxNBathtowel0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNBathtowel0"
       },
       {
         "id": 7813,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNBathtowel3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNBathtowel3"
       },
       {
         "id": 7812,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxNBathtowel2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNBathtowel2"
       },
       {
         "id": 7814,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxNBathtowel4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNBathtowel4"
       },
       {
         "id": 7816,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBoxNBathtowel6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNBathtowel6"
       }
     ]
   },
   {
     "name": {
-      en: "bathrobe",
-      jp: "バスローブ"
+      "en": "bathrobe",
+      "jp": "バスローブ"
     },
     "id": 65,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 720,
       "sell": 180
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3165,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBoxLBathrobes0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBathrobes0"
       },
       {
         "id": 7821,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxLBathrobes5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBathrobes5"
       },
       {
         "id": 7817,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxLBathrobes1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBathrobes1"
       },
       {
         "id": 7819,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxLBathrobes3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBathrobes3"
       },
       {
         "id": 7818,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLBathrobes2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBathrobes2"
       },
       {
         "id": 7820,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxLBathrobes4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBathrobes4"
       },
       {
         "id": 7822,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBoxLBathrobes6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBathrobes6"
       }
     ]
   },
   {
     "name": {
-      en: "bear costume",
-      jp: "クマなふく"
+      "en": "bear costume",
+      "jp": "クマなふく"
     },
     "id": 163,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3417,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceOverallLBear0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBear0"
       },
       {
         "id": 9628,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLBear1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBear1"
       },
       {
         "id": 9629,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLBear2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBear2"
       },
       {
         "id": 9630,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLBear3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBear3"
       }
     ]
   },
   {
     "name": {
-      en: "bekasab robe",
-      jp: "ウズベクなふく"
+      "en": "bekasab robe",
+      "jp": "ウズベクなふく"
     },
     "id": 1157,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10906,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlongLUzbek0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLUzbek0"
       },
       {
         "id": 11996,
         "name": {
-          en: "Camel",
-          jp: "キャメル"
+          "en": "Camel",
+          "jp": "キャメル"
         },
-        "fileName": "TopsTexOnepieceAlongLUzbek2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLUzbek2"
       },
       {
         "id": 11995,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlongLUzbek1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLUzbek1"
       },
       {
         "id": 11997,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongLUzbek3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLUzbek3"
       }
     ]
   },
   {
     "name": {
-      en: "belted dotted dress",
-      jp: "ベルトつきみずたまワンピース"
+      "en": "belted dotted dress",
+      "jp": "ベルトつきみずたまワンピース"
     },
     "id": 41,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8866,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHPolkadot1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHPolkadot1"
       },
       {
         "id": 8867,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonHPolkadot2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHPolkadot2"
       },
       {
         "id": 8868,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHPolkadot3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHPolkadot3"
       },
       {
         "id": 3054,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHPolkadot0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHPolkadot0"
       }
     ]
   },
   {
     "name": {
-      en: "bingata dress",
-      jp: "びんがたいしょう"
+      "en": "bingata dress",
+      "jp": "びんがたいしょう"
     },
     "id": 1159,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10908,
         "name": {
-          en: "NA",
-          jp: "イエロー"
+          "en": false,
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceKimonoLBingata0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLBingata0"
       }
     ]
   },
   {
     "name": {
-      en: "blossom dress",
-      jp: "はながらワンピース"
+      "en": "blossom dress",
+      "jp": "はながらワンピース"
     },
     "id": 45,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3069,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineHFlower0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHFlower0"
       },
       {
         "id": 8807,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineHFlower2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHFlower2"
       },
       {
         "id": 8808,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineHFlower3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHFlower3"
       },
       {
         "id": 8806,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineHFlower1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHFlower1"
       },
       {
         "id": 8809,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlineHFlower4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHFlower4"
       }
     ]
   },
   {
     "name": {
-      en: "blossoming kimono",
-      jp: "ウメがらのきもの"
+      "en": "blossoming kimono",
+      "jp": "ウメがらのきもの"
     },
     "id": 188,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3220,
       "sell": 805
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3572,
         "name": {
-          en: "Pink",
-          jp: "ももいろ"
+          "en": "Pink",
+          "jp": "ももいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLUme0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLUme0"
       },
       {
         "id": 8980,
         "name": {
-          en: "Green tea",
-          jp: "まっちゃ"
+          "en": "Green tea",
+          "jp": "まっちゃ"
         },
-        "fileName": "TopsTexOnepieceKimonoLUme1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLUme1"
       }
     ]
   },
   {
     "name": {
-      en: "boa parka",
-      jp: "ボアパーカー"
+      "en": "boa parka",
+      "jp": "ボアパーカー"
     },
     "id": 470,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7982,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceRibLBore2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLBore2"
       },
       {
         "id": 7983,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceRibLBore3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLBore3"
       },
       {
         "id": 4604,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "TopsTexOnepieceRibLBore0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLBore0"
       },
       {
         "id": 7981,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceRibLBore1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLBore1"
       }
     ]
   },
   {
     "name": {
-      en: "Bohemian tunic dress",
-      jp: "ボヘミアンワンピ"
+      "en": "Bohemian tunic dress",
+      "jp": "ボヘミアンワンピ"
     },
     "id": 348,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1900,
       "sell": 475
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8593,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBoxLBohemian1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBohemian1"
       },
       {
         "id": 4409,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxLBohemian0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBohemian0"
       },
       {
         "id": 8594,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxLBohemian2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBohemian2"
       }
     ]
   },
   {
     "name": {
-      en: "bold muumuu",
-      jp: "ポリネシアンなムームー"
+      "en": "bold muumuu",
+      "jp": "ポリネシアンなムームー"
     },
     "id": 1019,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8604,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNPolynesia1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNPolynesia1"
       },
       {
         "id": 8190,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceAlineNPolynesia0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNPolynesia0"
       }
     ]
   },
   {
     "name": {
-      en: "bolero coat",
-      jp: "ボレロコート"
+      "en": "bolero coat",
+      "jp": "ボレロコート"
     },
     "id": 313,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2080,
       "sell": 520
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4334,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineLBolerocoat0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBolerocoat0"
       },
       {
         "id": 8441,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineLBolerocoat1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBolerocoat1"
       },
       {
         "id": 8443,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineLBolerocoat3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBolerocoat3"
       },
       {
         "id": 8442,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineLBolerocoat2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBolerocoat2"
       }
     ]
   },
   {
     "name": {
-      en: "bone costume",
-      jp: "ボーンなふく"
+      "en": "bone costume",
+      "jp": "ボーンなふく"
     },
     "id": 200,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1280,
       "sell": 320
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3609,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLBoneWhite"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBoneWhite"
       }
     ]
   },
   {
     "name": {
-      en: "box-skirt uniform",
-      jp: "ジャンパースカートのせいふく"
+      "en": "box-skirt uniform",
+      "jp": "ジャンパースカートのせいふく"
     },
     "id": 216,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2300,
       "sell": 575
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7575,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxLJumperskirtuniform4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLJumperskirtuniform4"
       },
       {
         "id": 7572,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxLJumperskirtuniform1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLJumperskirtuniform1"
       },
       {
         "id": 7576,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxLJumperskirtuniform5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLJumperskirtuniform5"
       },
       {
         "id": 7574,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxLJumperskirtuniform3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLJumperskirtuniform3"
       },
       {
         "id": 7573,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLJumperskirtuniform2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLJumperskirtuniform2"
       },
       {
         "id": 3662,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBoxLJumperskirtuniform0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLJumperskirtuniform0"
       },
       {
         "id": 7577,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBoxLJumperskirtuniform6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLJumperskirtuniform6"
       }
     ]
   },
   {
     "name": {
-      en: "bubble-skirt party dress",
-      jp: "バブルドレス"
+      "en": "bubble-skirt party dress",
+      "jp": "バブルドレス"
     },
     "id": 278,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Prom (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7898,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonNBubble7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBubble7"
       },
       {
         "id": 4264,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonNBubble0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBubble0"
       },
       {
         "id": 7897,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBalloonNBubble6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBubble6"
       },
       {
         "id": 7896,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonNBubble5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBubble5"
       },
       {
         "id": 7895,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonNBubble4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBubble4"
       },
       {
         "id": 7894,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonNBubble3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBubble3"
       },
       {
         "id": 7893,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonNBubble2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBubble2"
       },
       {
         "id": 7892,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonNBubble1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBubble1"
       }
     ]
   },
   {
     "name": {
-      en: "bunny dress",
-      jp: "ウサギなふく"
+      "en": "bunny dress",
+      "jp": "ウサギなふく"
     },
     "id": 61,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9623,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlineLRabbit2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLRabbit2"
       },
       {
         "id": 3146,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineLRabbit0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLRabbit0"
       },
       {
         "id": 9622,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineLRabbit1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLRabbit1"
       }
     ]
   },
   {
     "name": {
-      en: "butterfly visiting kimono",
-      jp: "ちょうがらのほうもんぎ"
+      "en": "butterfly visiting kimono",
+      "jp": "ちょうがらのほうもんぎ"
     },
     "id": 914,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2660,
       "sell": 665
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 6025,
         "name": {
-          en: "Black",
-          jp: "くろ"
+          "en": "Black",
+          "jp": "くろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLButterfly0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLButterfly0"
       },
       {
         "id": 9002,
         "name": {
-          en: "Indigo blue",
-          jp: "あいいろ"
+          "en": "Indigo blue",
+          "jp": "あいいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLButterfly1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLButterfly1"
       },
       {
         "id": 9003,
         "name": {
-          en: "Fuchsia",
-          jp: "あかむらさき"
+          "en": "Fuchsia",
+          "jp": "あかむらさき"
         },
-        "fileName": "TopsTexOnepieceKimonoLButterfly2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLButterfly2"
       }
     ]
   },
   {
     "name": {
-      en: "casual chic dress",
-      jp: "カシュクールワンピース"
+      "en": "casual chic dress",
+      "jp": "カシュクールワンピース"
     },
     "id": 462,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8599,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlongHCachecoeur2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHCachecoeur2"
       },
       {
         "id": 4596,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlongHCachecoeur0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHCachecoeur0"
       },
       {
         "id": 8600,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlongHCachecoeur3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHCachecoeur3"
       },
       {
         "id": 8598,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceAlongHCachecoeur1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHCachecoeur1"
       },
       {
         "id": 8601,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceAlongHCachecoeur4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHCachecoeur4"
       },
       {
         "id": 8602,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongHCachecoeur5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHCachecoeur5"
       }
     ]
   },
   {
     "name": {
-      en: "casual kimono",
-      jp: "きながし"
+      "en": "casual kimono",
+      "jp": "きながし"
     },
     "id": 318,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9216,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLKinagashi2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKinagashi2"
       },
       {
         "id": 9215,
         "name": {
-          en: "Aqua",
-          jp: "みずいろ"
+          "en": "Aqua",
+          "jp": "みずいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLKinagashi1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKinagashi1"
       },
       {
         "id": 4342,
         "name": {
-          en: "Dark blue",
-          jp: "こん"
+          "en": "Dark blue",
+          "jp": "こん"
         },
-        "fileName": "TopsTexOnepieceKimonoLKinagashi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKinagashi0"
       },
       {
         "id": 9217,
         "name": {
-          en: "Mustard",
-          jp: "からし"
+          "en": "Mustard",
+          "jp": "からし"
         },
-        "fileName": "TopsTexOnepieceKimonoLKinagashi3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLKinagashi3"
       }
     ]
   },
   {
     "name": {
-      en: "cat dress",
-      jp: "ネコなふく"
+      "en": "cat dress",
+      "jp": "ネコなふく"
     },
     "id": 67,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9625,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlineLCat2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLCat2"
       },
       {
         "id": 3167,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceAlineLCat0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLCat0"
       },
       {
         "id": 9624,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceAlineLCat1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLCat1"
       }
     ]
   },
   {
     "name": {
-      en: "caterpillar costume",
-      jp: "あおむしのふく"
+      "en": "caterpillar costume",
+      "jp": "あおむしのふく"
     },
     "id": 450,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4577,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceRibNCaterpillar0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNCaterpillar0"
       },
       {
         "id": 9638,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceRibNCaterpillar1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNCaterpillar1"
       },
       {
         "id": 9639,
         "name": {
-          en: "Rainbow",
-          jp: "レインボー"
+          "en": "Rainbow",
+          "jp": "レインボー"
         },
-        "fileName": "TopsTexOnepieceRibNCaterpillar2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNCaterpillar2"
       }
     ]
   },
   {
     "name": {
-      en: "caveman tank",
-      jp: "げんしじんなふく"
+      "en": "caveman tank",
+      "jp": "げんしじんなふく"
     },
     "id": 89,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1050,
       "sell": 262
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9627,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxNPrimitive2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNPrimitive2"
       },
       {
         "id": 3232,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBoxNPrimitive0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNPrimitive0"
       },
       {
         "id": 9626,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxNPrimitive1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNPrimitive1"
       }
     ]
   },
   {
     "name": {
-      en: "checkered jumper dress",
-      jp: "チェックのジャンパースカート"
+      "en": "checkered jumper dress",
+      "jp": "チェックのジャンパースカート"
     },
     "id": 527,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1840,
       "sell": 460
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8970,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceAlineLJumperskirt3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLJumperskirt3"
       },
       {
         "id": 4731,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineLJumperskirt0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLJumperskirt0"
       },
       {
         "id": 8969,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineLJumperskirt2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLJumperskirt2"
       },
       {
         "id": 8968,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineLJumperskirt1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLJumperskirt1"
       }
     ]
   },
   {
     "name": {
-      en: "cheerleading uniform",
-      jp: "チアのコスチューム"
+      "en": "cheerleading uniform",
+      "jp": "チアのコスチューム"
     },
     "id": 20,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3058,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineNCheer0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCheer0"
       },
       {
         "id": 9366,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNCheer2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCheer2"
       },
       {
         "id": 9365,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlineNCheer1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCheer1"
       },
       {
         "id": 9367,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "TopsTexOnepieceAlineNCheer3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCheer3"
       },
       {
         "id": 9369,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNCheer5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCheer5"
       },
       {
         "id": 9371,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineNCheer7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCheer7"
       },
       {
         "id": 9368,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineNCheer4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCheer4"
       },
       {
         "id": 9370,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNCheer6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCheer6"
       }
     ]
   },
   {
     "name": {
-      en: "cherry dress",
-      jp: "さくらんぼのふく"
+      "en": "cherry dress",
+      "jp": "さくらんぼのふく"
     },
     "id": 1089,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9838,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineNCherry0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNCherry0"
       }
     ]
   },
   {
     "name": {
-      en: "chic tuxedo dress",
-      jp: "タキシードドレス"
+      "en": "chic tuxedo dress",
+      "jp": "タキシードドレス"
     },
     "id": 322,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4347,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonNBunny0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBunny0"
       },
       {
         "id": 8277,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonNBunny2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBunny2"
       },
       {
         "id": 8276,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonNBunny1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBunny1"
       },
       {
         "id": 8278,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonNBunny3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBunny3"
       }
     ]
   },
   {
     "name": {
-      en: "chima jeogori",
-      jp: "チマチョゴリ"
+      "en": "chima jeogori",
+      "jp": "チマチョゴリ"
     },
     "id": 183,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9148,
         "name": {
-          en: "Red",
-          jp: "あか"
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "TopsTexOnepieceAlongLChimachogori4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLChimachogori4"
       },
       {
         "id": 3538,
         "name": {
-          en: "Vermilion",
-          jp: "しゅいろ"
+          "en": "Vermilion",
+          "jp": "しゅいろ"
         },
-        "fileName": "TopsTexOnepieceAlongLChimachogori0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLChimachogori0"
       },
       {
         "id": 9146,
         "name": {
-          en: "Pink",
-          jp: "ももいろ"
+          "en": "Pink",
+          "jp": "ももいろ"
         },
-        "fileName": "TopsTexOnepieceAlongLChimachogori2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLChimachogori2"
       },
       {
         "id": 9145,
         "name": {
-          en: "Yellow-green",
-          jp: "きみどり"
+          "en": "Yellow-green",
+          "jp": "きみどり"
         },
-        "fileName": "TopsTexOnepieceAlongLChimachogori1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLChimachogori1"
       },
       {
         "id": 9147,
         "name": {
-          en: "Blue",
-          jp: "あお"
+          "en": "Blue",
+          "jp": "あお"
         },
-        "fileName": "TopsTexOnepieceAlongLChimachogori3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLChimachogori3"
       }
     ]
   },
   {
     "name": {
-      en: "china poblana",
-      jp: "チナポブラーナ"
+      "en": "china poblana",
+      "jp": "チナポブラーナ"
     },
     "id": 398,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4484,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceDressHChinapoblanaRed"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressHChinapoblanaRed"
       }
     ]
   },
   {
     "name": {
-      en: "chiton",
-      jp: "ギリシャなふく"
+      "en": "chiton",
+      "jp": "ギリシャなふく"
     },
     "id": 190,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3574,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBoxNGreece"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNGreece"
       }
     ]
   },
   {
     "name": {
-      en: "clover dress",
-      jp: "クローバーなワンピース"
+      "en": "clover dress",
+      "jp": "クローバーなワンピース"
     },
     "id": 534,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9430,
         "name": {
-          en: "Dark green",
-          jp: "ダークグリーン"
+          "en": "Dark green",
+          "jp": "ダークグリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonNClover1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNClover1"
       },
       {
         "id": 4740,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonNClover0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNClover0"
       }
     ]
   },
   {
     "name": {
-      en: "cold-country bunad",
-      jp: "さむいくにのふく"
+      "en": "cold-country bunad",
+      "jp": "さむいくにのふく"
     },
     "id": 747,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8175,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLNordic2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNordic2"
       },
       {
         "id": 8174,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLNordic1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNordic1"
       },
       {
         "id": 5442,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLNordic0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNordic0"
       }
     ]
   },
   {
     "name": {
-      en: "cold-country dress",
-      jp: "さむいくにのドレス"
+      "en": "cold-country dress",
+      "jp": "さむいくにのドレス"
     },
     "id": 488,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8163,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceDressLNordic2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNordic2"
       },
       {
         "id": 8162,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceDressLNordic1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNordic1"
       },
       {
         "id": 4650,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceDressLNordic0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNordic0"
       }
     ]
   },
   {
     "name": {
-      en: "concierge uniform",
-      jp: "ホテルマンなふく"
+      "en": "concierge uniform",
+      "jp": "ホテルマンなふく"
     },
     "id": 176,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7446,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLHotel2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHotel2"
       },
       {
         "id": 7445,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLHotel1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHotel1"
       },
       {
         "id": 3464,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLHotel0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHotel0"
       },
       {
         "id": 7448,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLHotel4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHotel4"
       },
       {
         "id": 7447,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceOverallLHotel3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHotel3"
       }
     ]
   },
   {
     "name": {
-      en: "coveralls with arm covers",
-      jp: "うでカバーつきつなぎ"
+      "en": "coveralls with arm covers",
+      "jp": "うでカバーつきつなぎ"
     },
     "id": 651,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9612,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLFarmer3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarmer3"
       },
       {
         "id": 9611,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLFarmer2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarmer2"
       },
       {
         "id": 5288,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLFarmer0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarmer0"
       },
       {
         "id": 9610,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLFarmer1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarmer1"
       },
       {
         "id": 9613,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallLFarmer4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarmer4"
       }
     ]
   },
   {
     "name": {
-      en: "cyber suit",
-      jp: "サイバースーツ"
+      "en": "cyber suit",
+      "jp": "サイバースーツ"
     },
     "id": 715,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3500,
       "sell": 875
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8659,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLCyber2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLCyber2"
       },
       {
         "id": 8658,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLCyber1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLCyber1"
       },
       {
         "id": 5391,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLCyber0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLCyber0"
       }
     ]
   },
   {
     "name": {
-      en: "dazed dress",
-      jp: "ゆめいろこうしワンピース"
+      "en": "dazed dress",
+      "jp": "ゆめいろこうしワンピース"
     },
     "id": 38,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 2783,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNYumeiro0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNYumeiro0"
       },
       {
         "id": 8301,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineNYumeiro2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNYumeiro2"
       },
       {
         "id": 8300,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNYumeiro1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNYumeiro1"
       }
     ]
   },
   {
     "name": {
-      en: "denim overalls",
-      jp: "デニムのサロペット"
+      "en": "denim overalls",
+      "jp": "デニムのサロペット"
     },
     "id": 219,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9472,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLSaropetto4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSaropetto4"
       },
       {
         "id": 9475,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLSaropetto7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSaropetto7"
       },
       {
         "id": 9474,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLSaropetto6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSaropetto6"
       },
       {
         "id": 9473,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLSaropetto5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSaropetto5"
       },
       {
         "id": 9471,
         "name": {
-          en: "Avocado",
-          jp: "カーキ"
+          "en": "Avocado",
+          "jp": "カーキ"
         },
-        "fileName": "TopsTexOnepieceOverallLSaropetto3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSaropetto3"
       },
       {
         "id": 3668,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLSaropetto0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSaropetto0"
       },
       {
         "id": 9469,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceOverallLSaropetto1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSaropetto1"
       },
       {
         "id": 9470,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceOverallLSaropetto2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSaropetto2"
       }
     ]
   },
   {
     "name": {
-      en: "desert outfit",
-      jp: "アラビアなふく"
+      "en": "desert outfit",
+      "jp": "アラビアなふく"
     },
     "id": 198,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8155,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallNArabia2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNArabia2"
       },
       {
         "id": 8156,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallNArabia3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNArabia3"
       },
       {
         "id": 8154,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallNArabia1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNArabia1"
       },
       {
         "id": 3606,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallNArabia0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNArabia0"
       }
     ]
   },
   {
     "name": {
-      en: "desert-princess outfit",
-      jp: "アラビアひめなふく"
+      "en": "desert-princess outfit",
+      "jp": "アラビアひめなふく"
     },
     "id": 477,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8160,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallHArabia2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHArabia2"
       },
       {
         "id": 8161,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallHArabia3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHArabia3"
       },
       {
         "id": 4611,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallHArabia0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHArabia0"
       },
       {
         "id": 8159,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallHArabia1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHArabia1"
       }
     ]
   },
   {
     "name": {
-      en: "diner uniform",
-      jp: "ダイナーのユニフォーム"
+      "en": "diner uniform",
+      "jp": "ダイナーのユニフォーム"
     },
     "id": 58,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8881,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonHWaitress6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHWaitress6"
       },
       {
         "id": 8876,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonHWaitress1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHWaitress1"
       },
       {
         "id": 3142,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHWaitress0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHWaitress0"
       },
       {
         "id": 8878,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonHWaitress3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHWaitress3"
       },
       {
         "id": 8879,
         "name": {
-          en: "Aquamarine",
-          jp: "エメラルド"
+          "en": "Aquamarine",
+          "jp": "エメラルド"
         },
-        "fileName": "TopsTexOnepieceBalloonHWaitress4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHWaitress4"
       },
       {
         "id": 8877,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHWaitress2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHWaitress2"
       },
       {
         "id": 8880,
         "name": {
-          en: "Cream",
-          jp: "クリーム"
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "TopsTexOnepieceBalloonHWaitress5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHWaitress5"
       }
     ]
   },
   {
     "name": {
-      en: "dollhouse dress",
-      jp: "アイドルなふく"
+      "en": "dollhouse dress",
+      "jp": "アイドルなふく"
     },
     "id": 345,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2800,
       "sell": 700
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9427,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonNIdleeightys6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNIdleeightys6"
       },
       {
         "id": 9422,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonNIdleeightys1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNIdleeightys1"
       },
       {
         "id": 9424,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonNIdleeightys3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNIdleeightys3"
       },
       {
         "id": 4406,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonNIdleeightys0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNIdleeightys0"
       },
       {
         "id": 9423,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonNIdleeightys2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNIdleeightys2"
       },
       {
         "id": 9426,
         "name": {
-          en: "Sky blue",
-          jp: "スカイブルー"
+          "en": "Sky blue",
+          "jp": "スカイブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonNIdleeightys5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNIdleeightys5"
       },
       {
         "id": 9425,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonNIdleeightys4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNIdleeightys4"
       }
     ]
   },
   {
     "name": {
-      en: "dragon suit",
-      jp: "ドラゴンスーツ"
+      "en": "dragon suit",
+      "jp": "ドラゴンスーツ"
     },
     "id": 174,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3462,
         "name": {
-          en: "NA",
-          jp: "イエロー"
+          "en": false,
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLDragonYellow"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLDragonYellow"
       }
     ]
   },
   {
     "name": {
-      en: "dreamy dress",
-      jp: "ゆめかわなドレス"
+      "en": "dreamy dress",
+      "jp": "ゆめかわなドレス"
     },
     "id": 872,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2080,
       "sell": 520
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5796,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHYumekawa0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHYumekawa0"
       },
       {
         "id": 8699,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonHYumekawa1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHYumekawa1"
       },
       {
         "id": 8701,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHYumekawa3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHYumekawa3"
       },
       {
         "id": 8700,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHYumekawa2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHYumekawa2"
       }
     ]
   },
   {
     "name": {
-      en: "earth-egg outfit",
-      jp: "じめんのたまごのふく"
+      "en": "earth-egg outfit",
+      "jp": "じめんのたまごのふく"
     },
     "id": 1205,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12449,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceRibNEggground0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNEggground0"
       }
     ]
   },
   {
     "name": {
-      en: "egg party dress",
-      jp: "たまごのパーティーワンピ"
+      "en": "egg party dress",
+      "jp": "たまごのパーティーワンピ"
     },
     "id": 1204,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12448,
         "name": {
-          en: "NA",
-          jp: "カラフル"
+          "en": false,
+          "jp": "カラフル"
         },
-        "fileName": "TopsTexOnepieceBalloonLEgg0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLEgg0"
       }
     ]
   },
   {
     "name": {
-      en: "egg-sushi costume",
-      jp: "たまごずし"
+      "en": "egg-sushi costume",
+      "jp": "たまごずし"
     },
     "id": 943,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5614,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceRibNEgg"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNEgg"
       }
     ]
   },
   {
     "name": {
-      en: "elegant dress",
-      jp: "しゅくじょなワンピース"
+      "en": "elegant dress",
+      "jp": "しゅくじょなワンピース"
     },
     "id": 546,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8144,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "TopsTexOnepieceDressLLady3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLLady3"
       },
       {
         "id": 8145,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceDressLLady4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLLady4"
       },
       {
         "id": 8143,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceDressLLady2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLLady2"
       },
       {
         "id": 8142,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceDressLLady1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLLady1"
       },
       {
         "id": 4791,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceDressLLady0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLLady0"
       }
     ]
   },
   {
     "name": {
-      en: "fairy dress",
-      jp: "ようせいのふく"
+      "en": "fairy dress",
+      "jp": "ようせいのふく"
     },
     "id": 235,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3640,
       "sell": 910
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8127,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonNFairy1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFairy1"
       },
       {
         "id": 8128,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonNFairy2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFairy2"
       },
       {
         "id": 3703,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonNFairy0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFairy0"
       },
       {
         "id": 8129,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "TopsTexOnepieceBalloonNFairy3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFairy3"
       },
       {
         "id": 8130,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonNFairy4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFairy4"
       }
     ]
   },
   {
     "name": {
-      en: "fairy-tale dress",
-      jp: "メルヘンなドレス"
+      "en": "fairy-tale dress",
+      "jp": "メルヘンなドレス"
     },
     "id": 53,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3137,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonHHood0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHHood0"
       },
       {
         "id": 8869,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHHood1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHHood1"
       },
       {
         "id": 8875,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBalloonHHood7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHHood7"
       },
       {
         "id": 8870,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonHHood2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHHood2"
       },
       {
         "id": 8874,
         "name": {
-          en: "Light green",
-          jp: "ライトグリーン"
+          "en": "Light green",
+          "jp": "ライトグリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHHood6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHHood6"
       },
       {
         "id": 8871,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHHood3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHHood3"
       },
       {
         "id": 8873,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHHood5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHHood5"
       },
       {
         "id": 8872,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHHood4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHHood4"
       }
     ]
   },
   {
     "name": {
-      en: "fancy kimono",
-      jp: "はれぎ"
+      "en": "fancy kimono",
+      "jp": "はれぎ"
     },
     "id": 757,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 5200,
       "sell": 1300
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5461,
         "name": {
-          en: "Vermilion",
-          jp: "しゅいろ"
+          "en": "Vermilion",
+          "jp": "しゅいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHaregi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHaregi0"
       },
       {
         "id": 8986,
         "name": {
-          en: "Pink",
-          jp: "ももいろ"
+          "en": "Pink",
+          "jp": "ももいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHaregi3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHaregi3"
       },
       {
         "id": 8989,
         "name": {
-          en: "Pale orange",
-          jp: "くちなし"
+          "en": "Pale orange",
+          "jp": "くちなし"
         },
-        "fileName": "TopsTexOnepieceKimonoLHaregi6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHaregi6"
       },
       {
         "id": 8984,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLHaregi1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHaregi1"
       },
       {
         "id": 8990,
         "name": {
-          en: "Parrot green",
-          jp: "もえぎ"
+          "en": "Parrot green",
+          "jp": "もえぎ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHaregi7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHaregi7"
       },
       {
         "id": 8988,
         "name": {
-          en: "Aqua",
-          jp: "みずいろ"
+          "en": "Aqua",
+          "jp": "みずいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHaregi5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHaregi5"
       },
       {
         "id": 8985,
         "name": {
-          en: "Indigo blue",
-          jp: "あいいろ"
+          "en": "Indigo blue",
+          "jp": "あいいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHaregi2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHaregi2"
       },
       {
         "id": 8987,
         "name": {
-          en: "Purple",
-          jp: "むらさき"
+          "en": "Purple",
+          "jp": "むらさき"
         },
-        "fileName": "TopsTexOnepieceKimonoLHaregi4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHaregi4"
       }
     ]
   },
   {
     "name": {
-      en: "fancy party dress",
-      jp: "パーティーワンピ"
+      "en": "fancy party dress",
+      "jp": "パーティーワンピ"
     },
     "id": 50,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7922,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxHParty1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHParty1"
       },
       {
         "id": 7923,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxHParty2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHParty2"
       },
       {
         "id": 3131,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxHParty0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHParty0"
       },
       {
         "id": 7924,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceBoxHParty3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHParty3"
       }
     ]
   },
   {
     "name": {
-      en: "farmer overalls",
-      jp: "ファームなオーバーオール"
+      "en": "farmer overalls",
+      "jp": "ファームなオーバーオール"
     },
     "id": 897,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9480,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceOverallLFarm4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarm4"
       },
       {
         "id": 5830,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLFarm0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarm0"
       },
       {
         "id": 9479,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLFarm3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarm3"
       },
       {
         "id": 9477,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLFarm1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarm1"
       },
       {
         "id": 9478,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLFarm2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFarm2"
       }
     ]
   },
   {
     "name": {
-      en: "fashionable royal dress",
-      jp: "アントワネットなドレス"
+      "en": "fashionable royal dress",
+      "jp": "アントワネットなドレス"
     },
     "id": 167,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 6000,
       "sell": 1500
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8240,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceDressLClassic3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLClassic3"
       },
       {
         "id": 8239,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceDressLClassic2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLClassic2"
       },
       {
         "id": 3435,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceDressLClassic0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLClassic0"
       },
       {
         "id": 8238,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceDressLClassic1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLClassic1"
       },
       {
         "id": 8241,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceDressLClassic4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLClassic4"
       }
     ]
   },
   {
     "name": {
-      en: "Festivale costume",
-      jp: "カーニバルなコスチューム"
+      "en": "Festivale costume",
+      "jp": "カーニバルなコスチューム"
     },
     "id": 1344,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Festivale (ready days); Festivale",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14240,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceSalopetteLCarnival1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLCarnival1"
       },
       {
         "id": 14242,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceSalopetteLCarnival3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLCarnival3"
       },
       {
         "id": 14016,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLCarnival0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLCarnival0"
       },
       {
         "id": 14241,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceSalopetteLCarnival2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLCarnival2"
       }
     ]
   },
   {
     "name": {
-      en: "Festivale tank dress",
-      jp: "カーニバルなワンピース"
+      "en": "Festivale tank dress",
+      "jp": "カーニバルなワンピース"
     },
     "id": 1162,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Festivale (ready days); Festivale",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12023,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxNSamba1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSamba1"
       },
       {
         "id": 12025,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNSamba3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSamba3"
       },
       {
         "id": 10911,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxNSamba0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSamba0"
       },
       {
         "id": 12024,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxNSamba2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSamba2"
       }
     ]
   },
   {
     "name": {
-      en: "festive dress",
-      jp: "クリスマスなドレス"
+      "en": "festive dress",
+      "jp": "クリスマスなドレス"
     },
     "id": 52,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Festive shopping",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3135,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonNXmasRed"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNXmasRed"
       }
     ]
   },
   {
     "name": {
-      en: "festive-tree dress",
-      jp: "もみのきワンピース"
+      "en": "festive-tree dress",
+      "jp": "もみのきワンピース"
     },
     "id": 69,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Festive shopping",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3169,
         "name": {
-          en: "Green & white",
-          jp: "グリーン×ホワイト"
+          "en": "Green & white",
+          "jp": "グリーン×ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlineNXmastreeNormal0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNXmastreeNormal0"
       },
       {
         "id": 9489,
         "name": {
-          en: "Green & red",
-          jp: "グリーン×レッド"
+          "en": "Green & red",
+          "jp": "グリーン×レッド"
         },
-        "fileName": "TopsTexOnepieceAlineNXmastreeNormal2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNXmastreeNormal2"
       },
       {
         "id": 9488,
         "name": {
-          en: "Green & blue",
-          jp: "グリーン×ブルー"
+          "en": "Green & blue",
+          "jp": "グリーン×ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNXmastreeNormal1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNXmastreeNormal1"
       },
       {
         "id": 9490,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNXmastreeNormal3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNXmastreeNormal3"
       },
       {
         "id": 9492,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "TopsTexOnepieceAlineNXmastreeNormal5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNXmastreeNormal5"
       },
       {
         "id": 9491,
         "name": {
-          en: "Gold",
-          jp: "ゴールド"
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "TopsTexOnepieceAlineNXmastreeNormal4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNXmastreeNormal4"
       }
     ]
   },
   {
     "name": {
-      en: "figure-skating costume",
-      jp: "フィギュアないしょう"
+      "en": "figure-skating costume",
+      "jp": "フィギュアないしょう"
     },
     "id": 721,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2880,
       "sell": 720
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9527,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLFigure6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFigure6"
       },
       {
         "id": 9522,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLFigure1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFigure1"
       },
       {
         "id": 9525,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLFigure4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFigure4"
       },
       {
         "id": 9526,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLFigure5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFigure5"
       },
       {
         "id": 9523,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLFigure2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFigure2"
       },
       {
         "id": 5404,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLFigure0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFigure0"
       },
       {
         "id": 9524,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallLFigure3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFigure3"
       }
     ]
   },
   {
     "name": {
-      en: "figure-skating dress",
-      jp: "フィギュアのドレス"
+      "en": "figure-skating dress",
+      "jp": "フィギュアのドレス"
     },
     "id": 716,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2880,
       "sell": 720
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9521,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonNFigure6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFigure6"
       },
       {
         "id": 9516,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonNFigure1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFigure1"
       },
       {
         "id": 9519,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonNFigure4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFigure4"
       },
       {
         "id": 9520,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonNFigure5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFigure5"
       },
       {
         "id": 9517,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonNFigure2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFigure2"
       },
       {
         "id": 5393,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonNFigure0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFigure0"
       },
       {
         "id": 9518,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonNFigure3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNFigure3"
       }
     ]
   },
   {
     "name": {
-      en: "firefighter uniform",
-      jp: "しょうぼうしのふく"
+      "en": "firefighter uniform",
+      "jp": "しょうぼうしのふく"
     },
     "id": 164,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3420,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceSalopetteLFirefighter0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLFirefighter0"
       },
       {
         "id": 9455,
         "name": {
-          en: "Flame orange",
-          jp: "ファイアーカラー"
+          "en": "Flame orange",
+          "jp": "ファイアーカラー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLFirefighter1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLFirefighter1"
       },
       {
         "id": 9457,
         "name": {
-          en: "Lime yellow",
-          jp: "ライムイエロー"
+          "en": "Lime yellow",
+          "jp": "ライムイエロー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLFirefighter3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLFirefighter3"
       },
       {
         "id": 9458,
         "name": {
-          en: "Avocado",
-          jp: "カーキ"
+          "en": "Avocado",
+          "jp": "カーキ"
         },
-        "fileName": "TopsTexOnepieceSalopetteLFirefighter4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLFirefighter4"
       },
       {
         "id": 9456,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceSalopetteLFirefighter2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLFirefighter2"
       }
     ]
   },
   {
     "name": {
-      en: "fishing waders",
-      jp: "ウェーダー"
+      "en": "fishing waders",
+      "jp": "ウェーダー"
     },
     "id": 307,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8630,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceOverallLWaders3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWaders3"
       },
       {
         "id": 8628,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLWaders1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWaders1"
       },
       {
         "id": 4328,
         "name": {
-          en: "Avocado",
-          jp: "カーキ"
+          "en": "Avocado",
+          "jp": "カーキ"
         },
-        "fileName": "TopsTexOnepieceOverallLWaders0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWaders0"
       },
       {
         "id": 8629,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceOverallLWaders2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWaders2"
       }
     ]
   },
   {
     "name": {
-      en: "flapper dress",
-      jp: "フラッパードレス"
+      "en": "flapper dress",
+      "jp": "フラッパードレス"
     },
     "id": 891,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5817,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "TopsTexOnepieceBoxNFlapper0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNFlapper0"
       },
       {
         "id": 7887,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxNFlapper2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNFlapper2"
       },
       {
         "id": 7888,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxNFlapper3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNFlapper3"
       },
       {
         "id": 7886,
         "name": {
-          en: "Gold",
-          jp: "ゴールド"
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "TopsTexOnepieceBoxNFlapper1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNFlapper1"
       },
       {
         "id": 7889,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNFlapper4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNFlapper4"
       }
     ]
   },
   {
     "name": {
-      en: "flashy animal costume",
-      jp: "ハデなアニマルきぐるみ"
+      "en": "flashy animal costume",
+      "jp": "ハデなアニマルきぐるみ"
     },
     "id": 1264,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": false,
+    "version": "1.5.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13378,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLHalloween2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHalloween2"
       },
       {
         "id": 13381,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLHalloween5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHalloween5"
       },
       {
         "id": 13380,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLHalloween4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHalloween4"
       },
       {
         "id": 12990,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLHalloween0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHalloween0"
       },
       {
         "id": 13379,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLHalloween3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHalloween3"
       },
       {
         "id": 13377,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallLHalloween1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHalloween1"
       }
     ]
   },
   {
     "name": {
-      en: "flashy kimono",
-      jp: "ゴージャスなきもの"
+      "en": "flashy kimono",
+      "jp": "ゴージャスなきもの"
     },
     "id": 873,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4800,
       "sell": 1200
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8994,
         "name": {
-          en: "White",
-          jp: "しろ"
+          "en": "White",
+          "jp": "しろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLGaudy4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLGaudy4"
       },
       {
         "id": 8991,
         "name": {
-          en: "Red",
-          jp: "あか"
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "TopsTexOnepieceKimonoLGaudy1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLGaudy1"
       },
       {
         "id": 8992,
         "name": {
-          en: "Gold",
-          jp: "きんいろ"
+          "en": "Gold",
+          "jp": "きんいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLGaudy2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLGaudy2"
       },
       {
         "id": 5797,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLGaudy0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLGaudy0"
       },
       {
         "id": 8993,
         "name": {
-          en: "Blue",
-          jp: "あお"
+          "en": "Blue",
+          "jp": "あお"
         },
-        "fileName": "TopsTexOnepieceKimonoLGaudy3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLGaudy3"
       },
       {
         "id": 8995,
         "name": {
-          en: "Fuchsia",
-          jp: "あかむらさき"
+          "en": "Fuchsia",
+          "jp": "あかむらさき"
         },
-        "fileName": "TopsTexOnepieceKimonoLGaudy5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLGaudy5"
       }
     ]
   },
   {
     "name": {
-      en: "fleece pj's",
-      jp: "フリースパジャマ"
+      "en": "fleece pj's",
+      "jp": "フリースパジャマ"
     },
     "id": 323,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4359,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLFleecepajama0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFleecepajama0"
       },
       {
         "id": 7827,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceOverallLFleecepajama1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFleecepajama1"
       }
     ]
   },
   {
     "name": {
-      en: "flight-crew uniform",
-      jp: "フライトアテンダントのふく"
+      "en": "flight-crew uniform",
+      "jp": "フライトアテンダントのふく"
     },
     "id": 178,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2800,
       "sell": 700
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8115,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxLAttendant4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAttendant4"
       },
       {
         "id": 8112,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxLAttendant1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAttendant1"
       },
       {
         "id": 8114,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxLAttendant3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAttendant3"
       },
       {
         "id": 8113,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLAttendant2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAttendant2"
       },
       {
         "id": 3475,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBoxLAttendant0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAttendant0"
       }
     ]
   },
   {
     "name": {
-      en: "floral lace dress",
-      jp: "はながらレースのワンピース"
+      "en": "floral lace dress",
+      "jp": "はながらレースのワンピース"
     },
     "id": 446,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1820,
       "sell": 455
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8896,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonHLace7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHLace7"
       },
       {
         "id": 8892,
         "name": {
-          en: "Ruby red",
-          jp: "ルージュ"
+          "en": "Ruby red",
+          "jp": "ルージュ"
         },
-        "fileName": "TopsTexOnepieceBalloonHLace3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHLace3"
       },
       {
         "id": 8890,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHLace1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHLace1"
       },
       {
         "id": 8893,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBalloonHLace4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHLace4"
       },
       {
         "id": 8894,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHLace5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHLace5"
       },
       {
         "id": 4570,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHLace0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHLace0"
       },
       {
         "id": 8891,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHLace2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHLace2"
       },
       {
         "id": 8895,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonHLace6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHLace6"
       }
     ]
   },
   {
     "name": {
-      en: "flower-print dress",
-      jp: "フラワーなワンピース"
+      "en": "flower-print dress",
+      "jp": "フラワーなワンピース"
     },
     "id": 1004,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 6901,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineHOneflower0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHOneflower0"
       },
       {
         "id": 8820,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineHOneflower1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHOneflower1"
       }
     ]
   },
   {
     "name": {
-      en: "folk-dance outfit",
-      jp: "オランダなコスチューム"
+      "en": "folk-dance outfit",
+      "jp": "オランダなコスチューム"
     },
     "id": 469,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4603,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLVolendam"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLVolendam"
       }
     ]
   },
   {
     "name": {
-      en: "forest-print dress",
-      jp: "フォレストなワンピース"
+      "en": "forest-print dress",
+      "jp": "フォレストなワンピース"
     },
     "id": 453,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1540,
       "sell": 385
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8813,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxLForest3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLForest3"
       },
       {
         "id": 4584,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxLForest0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLForest0"
       },
       {
         "id": 8814,
         "name": {
-          en: "Pale blue",
-          jp: "ペールブルー"
+          "en": "Pale blue",
+          "jp": "ペールブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLForest4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLForest4"
       },
       {
         "id": 8812,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxLForest2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLForest2"
       },
       {
         "id": 8811,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBoxLForest1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLForest1"
       }
     ]
   },
   {
     "name": {
-      en: "frilly dress",
-      jp: "フリフリワンピース"
+      "en": "frilly dress",
+      "jp": "フリフリワンピース"
     },
     "id": 343,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4403,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlongLFrilled0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLFrilled0"
       },
       {
         "id": 8590,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceAlongLFrilled1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLFrilled1"
       },
       {
         "id": 8592,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlongLFrilled3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLFrilled3"
       },
       {
         "id": 8591,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlongLFrilled2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLFrilled2"
       }
     ]
   },
   {
     "name": {
-      en: "frog costume",
-      jp: "カエルなふく"
+      "en": "frog costume",
+      "jp": "カエルなふく"
     },
     "id": 165,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3421,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLFrog0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFrog0"
       },
       {
         "id": 9632,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLFrog2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFrog2"
       },
       {
         "id": 9633,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLFrog3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFrog3"
       },
       {
         "id": 9631,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLFrog1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLFrog1"
       }
     ]
   },
   {
     "name": {
-      en: "frugal dress",
-      jp: "しっそなドレス"
+      "en": "frugal dress",
+      "jp": "しっそなドレス"
     },
     "id": 320,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 490,
       "sell": 122
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8138,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHSimple1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHSimple1"
       },
       {
         "id": 8139,
         "name": {
-          en: "Blue-gray",
-          jp: "ブルーグレー"
+          "en": "Blue-gray",
+          "jp": "ブルーグレー"
         },
-        "fileName": "TopsTexOnepieceBalloonHSimple2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHSimple2"
       },
       {
         "id": 4344,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBalloonHSimple0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHSimple0"
       }
     ]
   },
   {
     "name": {
-      en: "frugal outfit",
-      jp: "しっそなふく"
+      "en": "frugal outfit",
+      "jp": "しっそなふく"
     },
     "id": 321,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 450,
       "sell": 112
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8140,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLSimple1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSimple1"
       },
       {
         "id": 8141,
         "name": {
-          en: "Blue-gray",
-          jp: "ブルーグレー"
+          "en": "Blue-gray",
+          "jp": "ブルーグレー"
         },
-        "fileName": "TopsTexOnepieceOverallLSimple2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSimple2"
       },
       {
         "id": 4345,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceOverallLSimple0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSimple0"
       }
     ]
   },
   {
     "name": {
-      en: "full-body tights",
-      jp: "ぜんしんタイツ"
+      "en": "full-body tights",
+      "jp": "ぜんしんタイツ"
     },
     "id": 304,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1120,
       "sell": 280
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8640,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLTights1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLTights1"
       },
       {
         "id": 8646,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "TopsTexOnepieceOverallLTights7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLTights7"
       },
       {
         "id": 4324,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLTights0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLTights0"
       },
       {
         "id": 8641,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLTights2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLTights2"
       },
       {
         "id": 8644,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLTights5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLTights5"
       },
       {
         "id": 8645,
         "name": {
-          en: "Gold",
-          jp: "ゴールド"
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "TopsTexOnepieceOverallLTights6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLTights6"
       },
       {
         "id": 8643,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLTights4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLTights4"
       },
       {
         "id": 8642,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLTights3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLTights3"
       }
     ]
   },
   {
     "name": {
-      en: "full-length dress with pearls",
-      jp: "パールつきロングドレス"
+      "en": "full-length dress with pearls",
+      "jp": "パールつきロングドレス"
     },
     "id": 317,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4341,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlongNPearl0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNPearl0"
       },
       {
         "id": 7938,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "TopsTexOnepieceAlongNPearl1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNPearl1"
       },
       {
         "id": 7940,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlongNPearl3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNPearl3"
       },
       {
         "id": 7939,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceAlongNPearl2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNPearl2"
       }
     ]
   },
   {
     "name": {
-      en: "gizzard-shad-sushi costume",
-      jp: "こはだずし"
+      "en": "gizzard-shad-sushi costume",
+      "jp": "こはだずし"
     },
     "id": 945,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1440,
       "sell": 360
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5616,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceRibNKohada"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNKohada"
       }
     ]
   },
   {
     "name": {
-      en: "gold armor",
-      jp: "ゴールデンアーマー"
+      "en": "gold armor",
+      "jp": "ゴールデンアーマー"
     },
     "id": 458,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 80000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4590,
         "name": {
-          en: "NA",
-          jp: "ゴールド"
+          "en": false,
+          "jp": "ゴールド"
         },
-        "fileName": "TopsTexOnepieceOverallLPlatearmorGold"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPlatearmorGold"
       }
     ]
   },
   {
     "name": {
-      en: "grape dress",
-      jp: "ぶどうのふく"
+      "en": "grape dress",
+      "jp": "ぶどうのふく"
     },
     "id": 117,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3290,
         "name": {
-          en: "NA",
-          jp: "パープル"
+          "en": false,
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlineNGrape"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNGrape"
       }
     ]
   },
   {
     "name": {
-      en: "gumdrop dress",
-      jp: "はるのみずたまワンピース"
+      "en": "gumdrop dress",
+      "jp": "はるのみずたまワンピース"
     },
     "id": 29,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 2686,
         "name": {
-          en: "Pop",
-          jp: "ポップ"
+          "en": "Pop",
+          "jp": "ポップ"
         },
-        "fileName": "TopsTexOnepieceAlineHPolkadotSpring0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHPolkadotSpring0"
       },
       {
         "id": 8805,
         "name": {
-          en: "Cool",
-          jp: "クール"
+          "en": "Cool",
+          "jp": "クール"
         },
-        "fileName": "TopsTexOnepieceAlineHPolkadotSpring1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHPolkadotSpring1"
       }
     ]
   },
   {
     "name": {
-      en: "hakama",
-      jp: "はかま"
+      "en": "hakama",
+      "jp": "はかま"
     },
     "id": 302,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3180,
       "sell": 795
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8982,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLHakama1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHakama1"
       },
       {
         "id": 8983,
         "name": {
-          en: "Dark blue",
-          jp: "こん"
+          "en": "Dark blue",
+          "jp": "こん"
         },
-        "fileName": "TopsTexOnepieceKimonoLHakama2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHakama2"
       },
       {
         "id": 4319,
         "name": {
-          en: "Plum",
-          jp: "えびいろ"
+          "en": "Plum",
+          "jp": "えびいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHakama0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHakama0"
       }
     ]
   },
   {
     "name": {
-      en: "hakama with crest",
-      jp: "もんつきはかま"
+      "en": "hakama with crest",
+      "jp": "もんつきはかま"
     },
     "id": 1086,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4800,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9835,
         "name": {
-          en: "NA",
-          jp: "くろ"
+          "en": false,
+          "jp": "くろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLCrested0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLCrested0"
       }
     ]
   },
   {
     "name": {
-      en: "Hello Kitty dress",
-      jp: "ハローキティなワンピース"
+      "en": "Hello Kitty dress",
+      "jp": "ハローキティなワンピース"
     },
     "id": 1303,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13276,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineLKitty0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLKitty0"
       }
     ]
   },
   {
     "name": {
-      en: "hibiscus muumuu",
-      jp: "ハイビスカスのムームー"
+      "en": "hibiscus muumuu",
+      "jp": "ハイビスカスのムームー"
     },
     "id": 1018,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8189,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineNHibiscus0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNHibiscus0"
       },
       {
         "id": 12104,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNHibiscus2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNHibiscus2"
       },
       {
         "id": 12103,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineNHibiscus1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNHibiscus1"
       }
     ]
   },
   {
     "name": {
-      en: "Hikoboshi outfit",
-      jp: "ひこぼしのふく"
+      "en": "Hikoboshi outfit",
+      "jp": "ひこぼしのふく"
     },
     "id": 1302,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Cowherd & Weaver Girl Day",
+    "eventExclusive": "Yes",
+    "version": "1.4.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13240,
         "name": {
-          en: "NA",
-          jp: "あお"
+          "en": false,
+          "jp": "あお"
         },
-        "fileName": "TopsTexOnepieceKimonoLWeavermen0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLWeavermen0"
       }
     ]
   },
   {
     "name": {
-      en: "hot-dog costume",
-      jp: "ホットドッグなふく"
+      "en": "hot-dog costume",
+      "jp": "ホットドッグなふく"
     },
     "id": 650,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1280,
       "sell": 320
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5287,
         "name": {
-          en: "NA",
-          jp: "マスタード"
+          "en": false,
+          "jp": "マスタード"
         },
-        "fileName": "TopsTexOnepieceRibNHotdogMustard"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNHotdogMustard"
       }
     ]
   },
   {
     "name": {
-      en: "house-print dress",
-      jp: "ハウスなプリントワンピ"
+      "en": "house-print dress",
+      "jp": "ハウスなプリントワンピ"
     },
     "id": 452,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8810,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxLHouse1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLHouse1"
       },
       {
         "id": 4579,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBoxLHouse0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLHouse0"
       }
     ]
   },
   {
     "name": {
-      en: "ice-hockey uniform",
-      jp: "アイスホッケーのユニフォーム"
+      "en": "ice-hockey uniform",
+      "jp": "アイスホッケーのユニフォーム"
     },
     "id": 898,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2640,
       "sell": 660
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5831,
         "name": {
-          en: "White & red",
-          jp: "ホワイト×レッド"
+          "en": "White & red",
+          "jp": "ホワイト×レッド"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHockey0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHockey0"
       },
       {
         "id": 9405,
         "name": {
-          en: "White & blue",
-          jp: "ホワイト×ブルー"
+          "en": "White & blue",
+          "jp": "ホワイト×ブルー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHockey1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHockey1"
       },
       {
         "id": 9411,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHockey7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHockey7"
       },
       {
         "id": 9406,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHockey2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHockey2"
       },
       {
         "id": 9409,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHockey5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHockey5"
       },
       {
         "id": 9408,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHockey4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHockey4"
       },
       {
         "id": 9410,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHockey6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHockey6"
       },
       {
         "id": 9407,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHockey3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHockey3"
       }
     ]
   },
   {
     "name": {
-      en: "icy dress",
-      jp: "こおりのじょおうなドレス"
+      "en": "icy dress",
+      "jp": "こおりのじょおうなドレス"
     },
     "id": 486,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 5200,
       "sell": 1300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4648,
         "name": {
-          en: "NA",
-          jp: "アイスブルー"
+          "en": false,
+          "jp": "アイスブルー"
         },
-        "fileName": "TopsTexOnepieceRobeLIcequeen0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLIcequeen0"
       }
     ]
   },
   {
     "name": {
-      en: "impish costume",
-      jp: "デビルなふく"
+      "en": "impish costume",
+      "jp": "デビルなふく"
     },
     "id": 514,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4711,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLDevil0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLDevil0"
       },
       {
         "id": 9497,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLDevil1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLDevil1"
       }
     ]
   },
   {
     "name": {
-      en: "instant-muscles suit",
-      jp: "マッスルスーツ"
+      "en": "instant-muscles suit",
+      "jp": "マッスルスーツ"
     },
     "id": 703,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2280,
       "sell": 570
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8655,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLMuscle5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMuscle5"
       },
       {
         "id": 8653,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLMuscle3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMuscle3"
       },
       {
         "id": 8657,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLMuscle7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMuscle7"
       },
       {
         "id": 8654,
         "name": {
-          en: "Lime",
-          jp: "ライム"
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "TopsTexOnepieceOverallLMuscle4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMuscle4"
       },
       {
         "id": 8651,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLMuscle1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMuscle1"
       },
       {
         "id": 8652,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLMuscle2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMuscle2"
       },
       {
         "id": 8656,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLMuscle6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMuscle6"
       },
       {
         "id": 5387,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallLMuscle0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMuscle0"
       }
     ]
   },
   {
     "name": {
-      en: "iron armor",
-      jp: "アイアンアーマー"
+      "en": "iron armor",
+      "jp": "アイアンアーマー"
     },
     "id": 456,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4588,
         "name": {
-          en: "NA",
-          jp: "グレー"
+          "en": false,
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceOverallLPlatearmorIron"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPlatearmorIron"
       }
     ]
   },
   {
     "name": {
-      en: "Jack's robe",
-      jp: "パンプキングローブ"
+      "en": "Jack's robe",
+      "jp": "パンプキングローブ"
     },
     "id": 1261,
-    "source": {
-      en: "Jack",
-      jp: "Jack"
-    },
+    "source": "Jack",
     "map": 0,
+    "event": "Halloween",
+    "eventExclusive": "Yes",
+    "version": "1.5.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12987,
         "name": {
-          en: "NA",
-          jp: "パープル"
+          "en": false,
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongLHalloween0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLHalloween0"
       }
     ]
   },
   {
     "name": {
-      en: "jester costume",
-      jp: "ピエロのふく"
+      "en": "jester costume",
+      "jp": "ピエロのふく"
     },
     "id": 170,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9505,
         "name": {
-          en: "Black & white",
-          jp: "ブラック＆ホワイト"
+          "en": "Black & white",
+          "jp": "ブラック＆ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLClown1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLClown1"
       },
       {
         "id": 9506,
         "name": {
-          en: "Red & blue",
-          jp: "レッド＆ブルー"
+          "en": "Red & blue",
+          "jp": "レッド＆ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLClown2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLClown2"
       },
       {
         "id": 9507,
         "name": {
-          en: "Green & red",
-          jp: "グリーン＆レッド"
+          "en": "Green & red",
+          "jp": "グリーン＆レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLClown3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLClown3"
       },
       {
         "id": 3450,
         "name": {
-          en: "Purple & yellow",
-          jp: "パープル＆イエロー"
+          "en": "Purple & yellow",
+          "jp": "パープル＆イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLClown0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLClown0"
       }
     ]
   },
   {
     "name": {
-      en: "jinbei",
-      jp: "じんべい"
+      "en": "jinbei",
+      "jp": "じんべい"
     },
     "id": 172,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1820,
       "sell": 455
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9206,
         "name": {
-          en: "Gray",
-          jp: "はいいろ"
+          "en": "Gray",
+          "jp": "はいいろ"
         },
-        "fileName": "TopsTexOnepieceOverallHJinbei2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHJinbei2"
       },
       {
         "id": 3452,
         "name": {
-          en: "Dark blue",
-          jp: "こん"
+          "en": "Dark blue",
+          "jp": "こん"
         },
-        "fileName": "TopsTexOnepieceOverallHJinbei0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHJinbei0"
       },
       {
         "id": 9205,
         "name": {
-          en: "Fuchsia",
-          jp: "あかむらさき"
+          "en": "Fuchsia",
+          "jp": "あかむらさき"
         },
-        "fileName": "TopsTexOnepieceOverallHJinbei1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHJinbei1"
       }
     ]
   },
   {
     "name": {
-      en: "jockey uniform",
-      jp: "ジョッキーのふく"
+      "en": "jockey uniform",
+      "jp": "ジョッキーのふく"
     },
     "id": 162,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11136,
         "name": {
-          en: "Zigzag",
-          jp: "のこぎりはがた"
+          "en": "Zigzag",
+          "jp": "のこぎりはがた"
         },
-        "fileName": "TopsTexOnepieceOverallLJockey7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJockey7"
       },
       {
         "id": 11135,
         "name": {
-          en: "Vertical stripes",
-          jp: "たてじま"
+          "en": "Vertical stripes",
+          "jp": "たてじま"
         },
-        "fileName": "TopsTexOnepieceOverallLJockey6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJockey6"
       },
       {
         "id": 11134,
         "name": {
-          en: "Double sash",
-          jp: "じゅうじたすき"
+          "en": "Double sash",
+          "jp": "じゅうじたすき"
         },
-        "fileName": "TopsTexOnepieceOverallLJockey5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJockey5"
       },
       {
         "id": 3409,
         "name": {
-          en: "Sash",
-          jp: "たすき"
+          "en": "Sash",
+          "jp": "たすき"
         },
-        "fileName": "TopsTexOnepieceOverallLJockey0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJockey0"
       },
       {
         "id": 11130,
         "name": {
-          en: "Checkered",
-          jp: "げんろく"
+          "en": "Checkered",
+          "jp": "げんろく"
         },
-        "fileName": "TopsTexOnepieceOverallLJockey1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJockey1"
       },
       {
         "id": 11132,
         "name": {
-          en: "Ring",
-          jp: "わ"
+          "en": "Ring",
+          "jp": "わ"
         },
-        "fileName": "TopsTexOnepieceOverallLJockey3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJockey3"
       },
       {
         "id": 11131,
         "name": {
-          en: "Diamonds",
-          jp: "ひしやまがた"
+          "en": "Diamonds",
+          "jp": "ひしやまがた"
         },
-        "fileName": "TopsTexOnepieceOverallLJockey2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJockey2"
       },
       {
         "id": 11133,
         "name": {
-          en: "Stars",
-          jp: "ほしちらし"
+          "en": "Stars",
+          "jp": "ほしちらし"
         },
-        "fileName": "TopsTexOnepieceOverallLJockey4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJockey4"
       }
     ]
   },
   {
     "name": {
-      en: "judogi",
-      jp: "じゅうどうぎ"
+      "en": "judogi",
+      "jp": "じゅうどうぎ"
     },
     "id": 268,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1760,
       "sell": 440
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4249,
         "name": {
-          en: "White",
-          jp: "しろ"
+          "en": "White",
+          "jp": "しろ"
         },
-        "fileName": "TopsTexOnepieceOverallLJudo0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJudo0"
       },
       {
         "id": 9214,
         "name": {
-          en: "Blue",
-          jp: "あお"
+          "en": "Blue",
+          "jp": "あお"
         },
-        "fileName": "TopsTexOnepieceOverallLJudo1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJudo1"
       }
     ]
   },
   {
     "name": {
-      en: "jumper work suit",
-      jp: "さぎょうぎ"
+      "en": "jumper work suit",
+      "jp": "さぎょうぎ"
     },
     "id": 169,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1050,
       "sell": 262
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9465,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLWorkwear7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWorkwear7"
       },
       {
         "id": 9459,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLWorkwear1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWorkwear1"
       },
       {
         "id": 9463,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLWorkwear5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWorkwear5"
       },
       {
         "id": 3448,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLWorkwear0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWorkwear0"
       },
       {
         "id": 9461,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLWorkwear3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWorkwear3"
       },
       {
         "id": 9462,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLWorkwear4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWorkwear4"
       },
       {
         "id": 9460,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLWorkwear2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWorkwear2"
       },
       {
         "id": 9464,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceOverallLWorkwear6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLWorkwear6"
       }
     ]
   },
   {
     "name": {
-      en: "junihitoe kimono",
-      jp: "じゅうにひとえ"
+      "en": "junihitoe kimono",
+      "jp": "じゅうにひとえ"
     },
     "id": 1084,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 7000,
       "sell": 1750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9833,
         "name": {
-          en: "NA",
-          jp: "あか"
+          "en": false,
+          "jp": "あか"
         },
-        "fileName": "TopsTexOnepieceKimonoLTwelve0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLTwelve0"
       }
     ]
   },
   {
     "name": {
-      en: "kabuki-actor yukata",
-      jp: "かぶきなゆかた"
+      "en": "kabuki-actor yukata",
+      "jp": "かぶきなゆかた"
     },
     "id": 915,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping; Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9220,
         "name": {
-          en: "Gray",
-          jp: "はいいろ"
+          "en": "Gray",
+          "jp": "はいいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLYukatamen2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLYukatamen2"
       },
       {
         "id": 9219,
         "name": {
-          en: "Dark blue",
-          jp: "こん"
+          "en": "Dark blue",
+          "jp": "こん"
         },
-        "fileName": "TopsTexOnepieceKimonoLYukatamen1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLYukatamen1"
       },
       {
         "id": 6024,
         "name": {
-          en: "Fuchsia",
-          jp: "あかむらさき"
+          "en": "Fuchsia",
+          "jp": "あかむらさき"
         },
-        "fileName": "TopsTexOnepieceKimonoLYukatamen0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLYukatamen0"
       }
     ]
   },
   {
     "name": {
-      en: "kandoora",
-      jp: "カンデューラ"
+      "en": "kandoora",
+      "jp": "カンデューラ"
     },
     "id": 1064,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9770,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBlongLCandula0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLCandula0"
       },
       {
         "id": 11986,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBlongLCandula2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLCandula2"
       },
       {
         "id": 11985,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBlongLCandula1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLCandula1"
       }
     ]
   },
   {
     "name": {
-      en: "kappa costume",
-      jp: "カッパスーツ"
+      "en": "kappa costume",
+      "jp": "カッパスーツ"
     },
     "id": 166,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3424,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLKappa0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLKappa0"
       },
       {
         "id": 9634,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLKappa1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLKappa1"
       }
     ]
   },
   {
     "name": {
-      en: "Kerokerokeroppi outfit",
-      jp: "けろけろけろっぴなセットアップ"
+      "en": "Kerokerokeroppi outfit",
+      "jp": "けろけろけろっぴなセットアップ"
     },
     "id": 1293,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13180,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceSalopetteHKeroppi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteHKeroppi0"
       }
     ]
   },
   {
     "name": {
-      en: "Kiki & Lala dress",
-      jp: "キキ&ララなワンピース"
+      "en": "Kiki & Lala dress",
+      "jp": "キキ&ララなワンピース"
     },
     "id": 1316,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13433,
         "name": {
-          en: "NA",
-          jp: "ピンク"
+          "en": false,
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineHKikilala0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHKikilala0"
       }
     ]
   },
   {
     "name": {
-      en: "kiwi dress",
-      jp: "キウイのふく"
+      "en": "kiwi dress",
+      "jp": "キウイのふく"
     },
     "id": 116,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3289,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineNKiwi"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNKiwi"
       }
     ]
   },
   {
     "name": {
-      en: "Labelle dress",
-      jp: "ケイトのワンピース"
+      "en": "Labelle dress",
+      "jp": "ケイトのワンピース"
     },
     "id": 1128,
-    "source": {
-      en: "Label",
-      jp: "Label"
-    },
+    "source": "Label",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3400,
       "sell": 850
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11726,
         "name": {
-          en: "Midnight",
-          jp: "ミッドナイト"
+          "en": "Midnight",
+          "jp": "ミッドナイト"
         },
-        "fileName": "TopsTexOnepieceAlineNKate1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNKate1"
       },
       {
         "id": 11727,
         "name": {
-          en: "Passion",
-          jp: "パッション"
+          "en": "Passion",
+          "jp": "パッション"
         },
-        "fileName": "TopsTexOnepieceAlineNKate2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNKate2"
       },
       {
         "id": 11730,
         "name": {
-          en: "Love",
-          jp: "ラブ"
+          "en": "Love",
+          "jp": "ラブ"
         },
-        "fileName": "TopsTexOnepieceAlineNKate5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNKate5"
       },
       {
         "id": 11729,
         "name": {
-          en: "Sunset",
-          jp: "サンセット"
+          "en": "Sunset",
+          "jp": "サンセット"
         },
-        "fileName": "TopsTexOnepieceAlineNKate4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNKate4"
       },
       {
         "id": 11728,
         "name": {
-          en: "Ocean",
-          jp: "オーシャン"
+          "en": "Ocean",
+          "jp": "オーシャン"
         },
-        "fileName": "TopsTexOnepieceAlineNKate3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNKate3"
       },
       {
         "id": 9877,
         "name": {
-          en: "Twilight",
-          jp: "トワイライト"
+          "en": "Twilight",
+          "jp": "トワイライト"
         },
-        "fileName": "TopsTexOnepieceAlineNKate0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNKate0"
       }
     ]
   },
   {
     "name": {
-      en: "lace-up dress",
-      jp: "ロリータなワンピース"
+      "en": "lace-up dress",
+      "jp": "ロリータなワンピース"
     },
     "id": 46,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3070,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonLLolita0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLLolita0"
       },
       {
         "id": 8679,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonLLolita1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLLolita1"
       },
       {
         "id": 8680,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonLLolita2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLLolita2"
       }
     ]
   },
   {
     "name": {
-      en: "lacy dress",
-      jp: "レースのワンピース"
+      "en": "lacy dress",
+      "jp": "レースのワンピース"
     },
     "id": 532,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1520,
       "sell": 380
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4737,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNLace0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNLace0"
       },
       {
         "id": 8365,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNLace2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNLace2"
       },
       {
         "id": 8364,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineNLace1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNLace1"
       }
     ]
   },
   {
     "name": {
-      en: "layered sleeveless dress",
-      jp: "レイヤーノースリーブワンピ"
+      "en": "layered sleeveless dress",
+      "jp": "レイヤーノースリーブワンピ"
     },
     "id": 389,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8378,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxNLayered2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNLayered2"
       },
       {
         "id": 8377,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBoxNLayered1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNLayered1"
       },
       {
         "id": 4466,
         "name": {
-          en: "Moss green",
-          jp: "モスグリーン"
+          "en": "Moss green",
+          "jp": "モスグリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNLayered0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNLayered0"
       }
     ]
   },
   {
     "name": {
-      en: "layered tank dress",
-      jp: "レイヤーキャミワンピ"
+      "en": "layered tank dress",
+      "jp": "レイヤーキャミワンピ"
     },
     "id": 12,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 2704,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "TopsTexOnepieceBoxHLayercamisoleRouge"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHLayercamisoleRouge"
       },
       {
         "id": 4168,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxHLayercamisoleBlue"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHLayercamisoleBlue"
       },
       {
         "id": 4169,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBoxHLayercamisoleBrown"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHLayercamisoleBrown"
       },
       {
         "id": 4167,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceBoxHLayercamisoleBeige"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHLayercamisoleBeige"
       }
     ]
   },
   {
     "name": {
-      en: "leaf-egg outfit",
-      jp: "はっぱのたまごのふく"
+      "en": "leaf-egg outfit",
+      "jp": "はっぱのたまごのふく"
     },
     "id": 1207,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12451,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceRibNEggleaf0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNEggleaf0"
       }
     ]
   },
   {
     "name": {
-      en: "linen dress",
-      jp: "リネンワンピース"
+      "en": "linen dress",
+      "jp": "リネンワンピース"
     },
     "id": 279,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8588,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlineHLinen3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHLinen3"
       },
       {
         "id": 4265,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlineHLinen0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHLinen0"
       },
       {
         "id": 8586,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineHLinen1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHLinen1"
       },
       {
         "id": 8587,
         "name": {
-          en: "Mustard",
-          jp: "マスタード"
+          "en": "Mustard",
+          "jp": "マスタード"
         },
-        "fileName": "TopsTexOnepieceAlineHLinen2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHLinen2"
       },
       {
         "id": 8589,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineHLinen4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHLinen4"
       }
     ]
   },
   {
     "name": {
-      en: "lively plaid dress",
-      jp: "げんきなチェックのワンピ"
+      "en": "lively plaid dress",
+      "jp": "げんきなチェックのワンピ"
     },
     "id": 1048,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9504,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineHPlaid0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHPlaid0"
       }
     ]
   },
   {
     "name": {
-      en: "long chenille cardigan",
-      jp: "モールロングカーディガン"
+      "en": "long chenille cardigan",
+      "jp": "モールロングカーディガン"
     },
     "id": 500,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8027,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceRibLCardigan2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLCardigan2"
       },
       {
         "id": 4674,
         "name": {
-          en: "Mustard",
-          jp: "マスタード"
+          "en": "Mustard",
+          "jp": "マスタード"
         },
-        "fileName": "TopsTexOnepieceRibLCardigan0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLCardigan0"
       },
       {
         "id": 8028,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceRibLCardigan3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLCardigan3"
       },
       {
         "id": 8026,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceRibLCardigan1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLCardigan1"
       }
     ]
   },
   {
     "name": {
-      en: "long denim cardigan",
-      jp: "ロングデニムカーディガン"
+      "en": "long denim cardigan",
+      "jp": "ロングデニムカーディガン"
     },
     "id": 435,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8505,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxLMuffler2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLMuffler2"
       },
       {
         "id": 4555,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxLMuffler0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLMuffler0"
       },
       {
         "id": 8504,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxLMuffler1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLMuffler1"
       }
     ]
   },
   {
     "name": {
-      en: "long down coat",
-      jp: "ロングダウンコート"
+      "en": "long down coat",
+      "jp": "ロングダウンコート"
     },
     "id": 457,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1900,
       "sell": 475
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8327,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlongLDowncoat2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLDowncoat2"
       },
       {
         "id": 4589,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlongLDowncoat0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLDowncoat0"
       },
       {
         "id": 8326,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlongLDowncoat1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLDowncoat1"
       },
       {
         "id": 8328,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongLDowncoat3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLDowncoat3"
       },
       {
         "id": 8329,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceAlongLDowncoat4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLDowncoat4"
       }
     ]
   },
   {
     "name": {
-      en: "long pleather coat",
-      jp: "レザーコート"
+      "en": "long pleather coat",
+      "jp": "レザーコート"
     },
     "id": 324,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1840,
       "sell": 460
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4360,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlongLLeathercoat0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLLeathercoat0"
       },
       {
         "id": 9301,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongLLeathercoat1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLLeathercoat1"
       },
       {
         "id": 9302,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceAlongLLeathercoat2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLLeathercoat2"
       }
     ]
   },
   {
     "name": {
-      en: "loose fall dress",
-      jp: "あきいろチェックワンピース"
+      "en": "loose fall dress",
+      "jp": "あきいろチェックワンピース"
     },
     "id": 338,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4396,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxLAutumncheck0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAutumncheck0"
       },
       {
         "id": 8955,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBoxLAutumncheck2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAutumncheck2"
       },
       {
         "id": 8954,
         "name": {
-          en: "Peacock blue",
-          jp: "ピーコックブルー"
+          "en": "Peacock blue",
+          "jp": "ピーコックブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLAutumncheck1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAutumncheck1"
       },
       {
         "id": 8956,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLAutumncheck3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLAutumncheck3"
       }
     ]
   },
   {
     "name": {
-      en: "Luigi outfit",
-      jp: "ルイージのふく"
+      "en": "Luigi outfit",
+      "jp": "ルイージのふく"
     },
     "id": 1322,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13556,
         "name": {
-          en: "NA",
-          jp: "ネイビー"
+          "en": false,
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLLuigi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLLuigi0"
       }
     ]
   },
   {
     "name": {
-      en: "mage's dress",
-      jp: "まほうつかいのドレス"
+      "en": "mage's dress",
+      "jp": "まほうつかいのドレス"
     },
     "id": 1263,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": false,
+    "version": "1.5.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2040,
       "sell": 510
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13383,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBalloonLHalloween2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLHalloween2"
       },
       {
         "id": 13386,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonLHalloween5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLHalloween5"
       },
       {
         "id": 13385,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonLHalloween4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLHalloween4"
       },
       {
         "id": 12989,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBalloonLHalloween0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLHalloween0"
       },
       {
         "id": 13384,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonLHalloween3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLHalloween3"
       },
       {
         "id": 13382,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonLHalloween1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLHalloween1"
       }
     ]
   },
   {
     "name": {
-      en: "mage's robe",
-      jp: "まほうつかいのローブ"
+      "en": "mage's robe",
+      "jp": "まほうつかいのローブ"
     },
     "id": 180,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4000,
       "sell": 1000
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3492,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlongLWitch0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLWitch0"
       },
       {
         "id": 8687,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlongLWitch2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLWitch2"
       },
       {
         "id": 8688,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlongLWitch3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLWitch3"
       },
       {
         "id": 8686,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlongLWitch1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLWitch1"
       }
     ]
   },
   {
     "name": {
-      en: "magic-academy robe",
-      jp: "まほうスクールのローブ"
+      "en": "magic-academy robe",
+      "jp": "まほうスクールのローブ"
     },
     "id": 1315,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": false,
+    "version": "1.5.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2040,
       "sell": 510
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13492,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceRobeLHalloween2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLHalloween2"
       },
       {
         "id": 13495,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceRobeLHalloween5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLHalloween5"
       },
       {
         "id": 13494,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceRobeLHalloween4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLHalloween4"
       },
       {
         "id": 13387,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceRobeLHalloween0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLHalloween0"
       },
       {
         "id": 13493,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceRobeLHalloween3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLHalloween3"
       },
       {
         "id": 13491,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceRobeLHalloween1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLHalloween1"
       }
     ]
   },
   {
     "name": {
-      en: "magical dress",
-      jp: "マジカルなドレス"
+      "en": "magical dress",
+      "jp": "マジカルなドレス"
     },
     "id": 311,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3180,
       "sell": 795
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4332,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHMagical0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMagical0"
       },
       {
         "id": 8697,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonHMagical6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMagical6"
       },
       {
         "id": 8695,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonHMagical4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMagical4"
       },
       {
         "id": 8692,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonHMagical1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMagical1"
       },
       {
         "id": 8693,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHMagical2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMagical2"
       },
       {
         "id": 8698,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHMagical7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMagical7"
       },
       {
         "id": 8694,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHMagical3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMagical3"
       },
       {
         "id": 8696,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonHMagical5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMagical5"
       }
     ]
   },
   {
     "name": {
-      en: "maid dress",
-      jp: "メイドのふく"
+      "en": "maid dress",
+      "jp": "メイドのふく"
     },
     "id": 54,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2320,
       "sell": 580
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3138,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonHMaid0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMaid0"
       },
       {
         "id": 8257,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonHMaid2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMaid2"
       },
       {
         "id": 8260,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHMaid5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMaid5"
       },
       {
         "id": 8262,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBalloonHMaid7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMaid7"
       },
       {
         "id": 8256,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHMaid1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMaid1"
       },
       {
         "id": 8259,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "TopsTexOnepieceBalloonHMaid4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMaid4"
       },
       {
         "id": 8261,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonHMaid6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMaid6"
       },
       {
         "id": 8258,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBalloonHMaid3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMaid3"
       }
     ]
   },
   {
     "name": {
-      en: "marble-dots dress",
-      jp: "マーブルドットのワンピース"
+      "en": "marble-dots dress",
+      "jp": "マーブルドットのワンピース"
     },
     "id": 1016,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8295,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlineNMarbledot1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNMarbledot1"
       },
       {
         "id": 8187,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlineNMarbledot0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNMarbledot0"
       }
     ]
   },
   {
     "name": {
-      en: "marble-print dress",
-      jp: "マーブルワンピース"
+      "en": "marble-print dress",
+      "jp": "マーブルワンピース"
     },
     "id": 491,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7926,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxLMarble1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLMarble1"
       },
       {
         "id": 7928,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBoxLMarble3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLMarble3"
       },
       {
         "id": 7927,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxLMarble2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLMarble2"
       },
       {
         "id": 4655,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLMarble0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLMarble0"
       },
       {
         "id": 7929,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxLMarble4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLMarble4"
       }
     ]
   },
   {
     "name": {
-      en: "mariachi clothing",
-      jp: "マリアッチのいしょう"
+      "en": "mariachi clothing",
+      "jp": "マリアッチのいしょう"
     },
     "id": 490,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8166,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLMariachi3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMariachi3"
       },
       {
         "id": 8168,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLMariachi5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMariachi5"
       },
       {
         "id": 8164,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLMariachi1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMariachi1"
       },
       {
         "id": 4653,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceOverallLMariachi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMariachi0"
       },
       {
         "id": 8167,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLMariachi4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMariachi4"
       },
       {
         "id": 8165,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceOverallLMariachi2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMariachi2"
       }
     ]
   },
   {
     "name": {
-      en: "Mario outfit",
-      jp: "マリオのふく"
+      "en": "Mario outfit",
+      "jp": "マリオのふく"
     },
     "id": 1321,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13555,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLMario0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLMario0"
       }
     ]
   },
   {
     "name": {
-      en: "maxi shirtdress",
-      jp: "ロングシャツワンピ"
+      "en": "maxi shirtdress",
+      "jp": "ロングシャツワンピ"
     },
     "id": 424,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8957,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBlongLShirt1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLShirt1"
       },
       {
         "id": 8961,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBlongLShirt5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLShirt5"
       },
       {
         "id": 4520,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBlongLShirt0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLShirt0"
       },
       {
         "id": 8958,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBlongLShirt2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLShirt2"
       },
       {
         "id": 8959,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBlongLShirt3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLShirt3"
       },
       {
         "id": 8960,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBlongLShirt4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLShirt4"
       }
     ]
   },
   {
     "name": {
-      en: "mermaid fishy dress",
-      jp: "マーメイドなおさかなドレス"
+      "en": "mermaid fishy dress",
+      "jp": "マーメイドなおさかなドレス"
     },
     "id": 1244,
-    "source": {
-      en: "Pascal",
-      jp: "Pascal"
-    },
+    "source": "Pascal",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1000
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12958,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlongNMermaiddress0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNMermaiddress0"
       },
       {
         "id": 13093,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceAlongNMermaiddress1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNMermaiddress1"
       }
     ]
   },
   {
     "name": {
-      en: "mermaid princess dress",
-      jp: "マーメイドなプリンセスドレス"
+      "en": "mermaid princess dress",
+      "jp": "マーメイドなプリンセスドレス"
     },
     "id": 1245,
-    "source": {
-      en: "Pascal",
-      jp: "Pascal"
-    },
+    "source": "Pascal",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12957,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceDressNMermaid0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressNMermaid0"
       },
       {
         "id": 13092,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceDressNMermaid1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressNMermaid1"
       }
     ]
   },
   {
     "name": {
-      en: "miko attire",
-      jp: "みこしょうぞく"
+      "en": "miko attire",
+      "jp": "みこしょうぞく"
     },
     "id": 293,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4292,
         "name": {
-          en: "Vermilion",
-          jp: "しゅいろ"
+          "en": "Vermilion",
+          "jp": "しゅいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLMiko0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLMiko0"
       },
       {
         "id": 8981,
         "name": {
-          en: "Aqua",
-          jp: "みずいろ"
+          "en": "Aqua",
+          "jp": "みずいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLMiko1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLMiko1"
       }
     ]
   },
   {
     "name": {
-      en: "milkmaid dress",
-      jp: "オランダなドレス"
+      "en": "milkmaid dress",
+      "jp": "オランダなドレス"
     },
     "id": 205,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3614,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceDressHHolland0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressHHolland0"
       },
       {
         "id": 8157,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceDressHHolland1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressHHolland1"
       },
       {
         "id": 8158,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceDressHHolland2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressHHolland2"
       }
     ]
   },
   {
     "name": {
-      en: "moldy dress",
-      jp: "かびたワンピース"
+      "en": "moldy dress",
+      "jp": "かびたワンピース"
     },
     "id": 192,
-    "source": {
-      en: "Recycle box",
-      jp: "Recycle box"
-    },
+    "source": "Recycle box",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3576,
         "name": {
-          en: "NA",
-          jp: "ベージュ"
+          "en": false,
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceAlineLMold"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLMold"
       }
     ]
   },
   {
     "name": {
-      en: "morning-glory yukata",
-      jp: "あさがおのゆかた"
+      "en": "morning-glory yukata",
+      "jp": "あさがおのゆかた"
     },
     "id": 893,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping; Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2280,
       "sell": 570
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8999,
         "name": {
-          en: "White",
-          jp: "しろ"
+          "en": "White",
+          "jp": "しろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLAsagao1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLAsagao1"
       },
       {
         "id": 5823,
         "name": {
-          en: "Aqua",
-          jp: "みずいろ"
+          "en": "Aqua",
+          "jp": "みずいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLAsagao0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLAsagao0"
       },
       {
         "id": 9000,
         "name": {
-          en: "Pale green",
-          jp: "うすみどり"
+          "en": "Pale green",
+          "jp": "うすみどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLAsagao2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLAsagao2"
       },
       {
         "id": 9001,
         "name": {
-          en: "Dark blue",
-          jp: "こん"
+          "en": "Dark blue",
+          "jp": "こん"
         },
-        "fileName": "TopsTexOnepieceKimonoLAsagao3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLAsagao3"
       }
     ]
   },
   {
     "name": {
-      en: "mummy outfit",
-      jp: "ほうたいのふく"
+      "en": "mummy outfit",
+      "jp": "ほうたいのふく"
     },
     "id": 199,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 700,
       "sell": 175
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3607,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLMummyWhite"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLMummyWhite"
       }
     ]
   },
   {
     "name": {
-      en: "My Melody dress",
-      jp: "マイメロディなワンピース"
+      "en": "My Melody dress",
+      "jp": "マイメロディなワンピース"
     },
     "id": 1332,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13758,
         "name": {
-          en: "NA",
-          jp: "ピンク"
+          "en": false,
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHMymelody0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMymelody0"
       }
     ]
   },
   {
     "name": {
-      en: "mysterious dress",
-      jp: "ゴシックなふく"
+      "en": "mysterious dress",
+      "jp": "ゴシックなふく"
     },
     "id": 189,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3120,
       "sell": 780
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8689,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlongLGothic1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLGothic1"
       },
       {
         "id": 8690,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlongLGothic2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLGothic2"
       },
       {
         "id": 3573,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongLGothic0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLGothic0"
       }
     ]
   },
   {
     "name": {
-      en: "nightgown",
-      jp: "ネグリジェ"
+      "en": "nightgown",
+      "jp": "ネグリジェ"
     },
     "id": 267,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11937,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlongHNegligee4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHNegligee4"
       },
       {
         "id": 8137,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlongHNegligee1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHNegligee1"
       },
       {
         "id": 4248,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlongHNegligee0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHNegligee0"
       },
       {
         "id": 11935,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongHNegligee2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHNegligee2"
       },
       {
         "id": 11936,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceAlongHNegligee3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHNegligee3"
       }
     ]
   },
   {
     "name": {
-      en: "ninja costume",
-      jp: "しのびのふく"
+      "en": "ninja costume",
+      "jp": "しのびのふく"
     },
     "id": 173,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3460,
         "name": {
-          en: "Dark blue",
-          jp: "こん"
+          "en": "Dark blue",
+          "jp": "こん"
         },
-        "fileName": "TopsTexOnepieceOverallLNinja0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNinja0"
       },
       {
         "id": 9207,
         "name": {
-          en: "Gray",
-          jp: "はいいろ"
+          "en": "Gray",
+          "jp": "はいいろ"
         },
-        "fileName": "TopsTexOnepieceOverallLNinja1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNinja1"
       },
       {
         "id": 9208,
         "name": {
-          en: "Red",
-          jp: "あか"
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "TopsTexOnepieceOverallLNinja2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNinja2"
       },
       {
         "id": 9213,
         "name": {
-          en: "Orange",
-          jp: "だいだい"
+          "en": "Orange",
+          "jp": "だいだい"
         },
-        "fileName": "TopsTexOnepieceOverallLNinja7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNinja7"
       },
       {
         "id": 9212,
         "name": {
-          en: "Yellow",
-          jp: "きいろ"
+          "en": "Yellow",
+          "jp": "きいろ"
         },
-        "fileName": "TopsTexOnepieceOverallLNinja6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNinja6"
       },
       {
         "id": 9211,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "TopsTexOnepieceOverallLNinja5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNinja5"
       },
       {
         "id": 9210,
         "name": {
-          en: "Aqua",
-          jp: "みずいろ"
+          "en": "Aqua",
+          "jp": "みずいろ"
         },
-        "fileName": "TopsTexOnepieceOverallLNinja4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNinja4"
       },
       {
         "id": 9209,
         "name": {
-          en: "Purple",
-          jp: "むらさき"
+          "en": "Purple",
+          "jp": "むらさき"
         },
-        "fileName": "TopsTexOnepieceOverallLNinja3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLNinja3"
       }
     ]
   },
   {
     "name": {
-      en: "noble dress",
-      jp: "きぞくのドレス"
+      "en": "noble dress",
+      "jp": "きぞくのドレス"
     },
     "id": 874,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 5200,
       "sell": 1300
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7427,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceDressLNoble2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNoble2"
       },
       {
         "id": 7429,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceDressLNoble4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNoble4"
       },
       {
         "id": 7432,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceDressLNoble7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNoble7"
       },
       {
         "id": 7426,
         "name": {
-          en: "Ruby red",
-          jp: "ルージュ"
+          "en": "Ruby red",
+          "jp": "ルージュ"
         },
-        "fileName": "TopsTexOnepieceDressLNoble1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNoble1"
       },
       {
         "id": 7431,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceDressLNoble6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNoble6"
       },
       {
         "id": 5798,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceDressLNoble0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNoble0"
       },
       {
         "id": 7428,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceDressLNoble3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNoble3"
       },
       {
         "id": 7430,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceDressLNoble5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLNoble5"
       }
     ]
   },
   {
     "name": {
-      en: "noble zap suit",
-      jp: "ヒロインスーツ"
+      "en": "noble zap suit",
+      "jp": "ヒロインスーツ"
     },
     "id": 63,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2760,
       "sell": 690
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3159,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineLHeroine0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLHeroine0"
       },
       {
         "id": 9487,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlineLHeroine7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLHeroine7"
       },
       {
         "id": 9486,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "TopsTexOnepieceAlineLHeroine6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLHeroine6"
       },
       {
         "id": 9485,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlineLHeroine5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLHeroine5"
       },
       {
         "id": 9483,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineLHeroine3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLHeroine3"
       },
       {
         "id": 9484,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineLHeroine4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLHeroine4"
       },
       {
         "id": 9482,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineLHeroine2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLHeroine2"
       },
       {
         "id": 9481,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineLHeroine1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLHeroine1"
       }
     ]
   },
   {
     "name": {
-      en: "nurse's dress uniform",
-      jp: "かんごしのワンピース"
+      "en": "nurse's dress uniform",
+      "jp": "かんごしのワンピース"
     },
     "id": 146,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7792,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBoxHNurse1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHNurse1"
       },
       {
         "id": 3347,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxHNurse0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHNurse0"
       },
       {
         "id": 7793,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxHNurse2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHNurse2"
       }
     ]
   },
   {
     "name": {
-      en: "office uniform",
-      jp: "オフィスなふく"
+      "en": "office uniform",
+      "jp": "オフィスなふく"
     },
     "id": 314,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9031,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxLOffice2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLOffice2"
       },
       {
         "id": 9030,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxLOffice1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLOffice1"
       },
       {
         "id": 4336,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLOffice0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLOffice0"
       }
     ]
   },
   {
     "name": {
-      en: "ogre costume",
-      jp: "オニのふく"
+      "en": "ogre costume",
+      "jp": "オニのふく"
     },
     "id": 584,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Setsubun (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8649,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLOgre1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLOgre1"
       },
       {
         "id": 8650,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLOgre2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLOgre2"
       },
       {
         "id": 5133,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLOgre0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLOgre0"
       }
     ]
   },
   {
     "name": {
-      en: "old commoner's kimono",
-      jp: "まちむすめのきもの"
+      "en": "old commoner's kimono",
+      "jp": "まちむすめのきもの"
     },
     "id": 877,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8998,
         "name": {
-          en: "Red",
-          jp: "あか"
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "TopsTexOnepieceKimonoLShitamachi3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLShitamachi3"
       },
       {
         "id": 5801,
         "name": {
-          en: "Golden yellow",
-          jp: "やまぶきいろ"
+          "en": "Golden yellow",
+          "jp": "やまぶきいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLShitamachi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLShitamachi0"
       },
       {
         "id": 8997,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLShitamachi2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLShitamachi2"
       },
       {
         "id": 8996,
         "name": {
-          en: "Blue",
-          jp: "あお"
+          "en": "Blue",
+          "jp": "あお"
         },
-        "fileName": "TopsTexOnepieceKimonoLShitamachi1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLShitamachi1"
       }
     ]
   },
   {
     "name": {
-      en: "orange dress",
-      jp: "オレンジのふく"
+      "en": "orange dress",
+      "jp": "オレンジのふく"
     },
     "id": 115,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3288,
         "name": {
-          en: "NA",
-          jp: "オレンジ"
+          "en": false,
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceAlineNOrange"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNOrange"
       }
     ]
   },
   {
     "name": {
-      en: "Orihime outfit",
-      jp: "おりひめのふく"
+      "en": "Orihime outfit",
+      "jp": "おりひめのふく"
     },
     "id": 1301,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Cowherd & Weaver Girl Day",
+    "eventExclusive": "Yes",
+    "version": "1.4.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13239,
         "name": {
-          en: "NA",
-          jp: "あか"
+          "en": false,
+          "jp": "あか"
         },
-        "fileName": "TopsTexOnepieceKimonoLWeaverwomen0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLWeaverwomen0"
       }
     ]
   },
   {
     "name": {
-      en: "overall dress",
-      jp: "ジャンパースカート"
+      "en": "overall dress",
+      "jp": "ジャンパースカート"
     },
     "id": 11,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3059,
         "name": {
-          en: "Denim",
-          jp: "デニム"
+          "en": "Denim",
+          "jp": "デニム"
         },
-        "fileName": "TopsTexOnepieceBoxHJumperskirt0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHJumperskirt0"
       },
       {
         "id": 4166,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxHJumperskirt3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHJumperskirt3"
       },
       {
         "id": 4164,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxHJumperskirt1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHJumperskirt1"
       },
       {
         "id": 9012,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxHJumperskirt4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHJumperskirt4"
       },
       {
         "id": 4165,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceBoxHJumperskirt2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHJumperskirt2"
       }
     ]
   },
   {
     "name": {
-      en: "oversized print dress",
-      jp: "おおばんがらワンピ"
+      "en": "oversized print dress",
+      "jp": "おおばんがらワンピ"
     },
     "id": 436,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4556,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxNStandard0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNStandard0"
       },
       {
         "id": 7920,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBoxNStandard4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNStandard4"
       },
       {
         "id": 7918,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNStandard2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNStandard2"
       },
       {
         "id": 7917,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxNStandard1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNStandard1"
       },
       {
         "id": 7919,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBoxNStandard3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNStandard3"
       },
       {
         "id": 7921,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceBoxNStandard5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNStandard5"
       }
     ]
   },
   {
     "name": {
-      en: "oversized-sweats dress",
-      jp: "きりかえビッグスウェット"
+      "en": "oversized-sweats dress",
+      "jp": "きりかえビッグスウェット"
     },
     "id": 357,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4424,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceRibLSwitchsweat0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLSwitchsweat0"
       },
       {
         "id": 7991,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceRibLSwitchsweat4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLSwitchsweat4"
       },
       {
         "id": 7990,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceRibLSwitchsweat3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLSwitchsweat3"
       },
       {
         "id": 7989,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceRibLSwitchsweat2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLSwitchsweat2"
       },
       {
         "id": 7988,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceRibLSwitchsweat1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLSwitchsweat1"
       }
     ]
   },
   {
     "name": {
-      en: "painter's coverall",
-      jp: "ペイントつなぎ"
+      "en": "painter's coverall",
+      "jp": "ペイントつなぎ"
     },
     "id": 1161,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12022,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLPaint2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPaint2"
       },
       {
         "id": 12021,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLPaint1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPaint1"
       },
       {
         "id": 10910,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceOverallLPaint0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPaint0"
       }
     ]
   },
   {
     "name": {
-      en: "pajama dress",
-      jp: "パジャマワンピ"
+      "en": "pajama dress",
+      "jp": "パジャマワンピ"
     },
     "id": 1155,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11932,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxLPajamas2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLPajamas2"
       },
       {
         "id": 11933,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "TopsTexOnepieceBoxLPajamas3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLPajamas3"
       },
       {
         "id": 11931,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxLPajamas1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLPajamas1"
       },
       {
         "id": 11096,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBoxLPajamas0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLPajamas0"
       },
       {
         "id": 11934,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBoxLPajamas4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLPajamas4"
       }
     ]
   },
   {
     "name": {
-      en: "palatial tank dress",
-      jp: "ナイルなふく"
+      "en": "palatial tank dress",
+      "jp": "ナイルなふく"
     },
     "id": 168,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3441,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlongNNile"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNNile"
       }
     ]
   },
   {
     "name": {
-      en: "parka and shirtdress",
-      jp: "パーカーインシャツワンピ"
+      "en": "parka and shirtdress",
+      "jp": "パーカーインシャツワンピ"
     },
     "id": 391,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7993,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceRibLParkershirt2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLParkershirt2"
       },
       {
         "id": 7992,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceRibLParkershirt1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLParkershirt1"
       },
       {
         "id": 4468,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceRibLParkershirt0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLParkershirt0"
       }
     ]
   },
   {
     "name": {
-      en: "parka dress",
-      jp: "パーカーワンピ"
+      "en": "parka dress",
+      "jp": "パーカーワンピ"
     },
     "id": 10,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4163,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceRibLParka4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLParka4"
       },
       {
         "id": 4160,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceRibLParka1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLParka1"
       },
       {
         "id": 3226,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceRibLParka0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLParka0"
       },
       {
         "id": 4162,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceRibLParka3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLParka3"
       },
       {
         "id": 4161,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceRibLParka2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLParka2"
       }
     ]
   },
   {
     "name": {
-      en: "peach dress",
-      jp: "モモのふく"
+      "en": "peach dress",
+      "jp": "モモのふく"
     },
     "id": 1090,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9839,
         "name": {
-          en: "NA",
-          jp: "ピーチ"
+          "en": false,
+          "jp": "ピーチ"
         },
-        "fileName": "TopsTexOnepieceAlineNPeach0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNPeach0"
       }
     ]
   },
   {
     "name": {
-      en: "peacoat-and-skirt combo",
-      jp: "スカートつきピーコート"
+      "en": "peacoat-and-skirt combo",
+      "jp": "スカートつきピーコート"
     },
     "id": 460,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8962,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineLPcoat1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLPcoat1"
       },
       {
         "id": 4594,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineLPcoat0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLPcoat0"
       }
     ]
   },
   {
     "name": {
-      en: "pear dress",
-      jp: "ナシのふく"
+      "en": "pear dress",
+      "jp": "ナシのふく"
     },
     "id": 1088,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9837,
         "name": {
-          en: "NA",
-          jp: "ベージュ"
+          "en": false,
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceAlineNPear0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNPear0"
       }
     ]
   },
   {
     "name": {
-      en: "pharaoh's outfit",
-      jp: "エジプトのふく"
+      "en": "pharaoh's outfit",
+      "jp": "エジプトのふく"
     },
     "id": 193,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3577,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBlongHEgypt"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongHEgypt"
       }
     ]
   },
   {
     "name": {
-      en: "pilot's uniform",
-      jp: "きちょうのふく"
+      "en": "pilot's uniform",
+      "jp": "きちょうのふく"
     },
     "id": 203,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8119,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLPilot1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPilot1"
       },
       {
         "id": 8120,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLPilot2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPilot2"
       },
       {
         "id": 3612,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceOverallLPilot0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPilot0"
       }
     ]
   },
   {
     "name": {
-      en: "pinafore",
-      jp: "かっぽうぎ"
+      "en": "pinafore",
+      "jp": "かっぽうぎ"
     },
     "id": 182,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8978,
         "name": {
-          en: "Pink",
-          jp: "ももいろ"
+          "en": "Pink",
+          "jp": "ももいろ"
         },
-        "fileName": "TopsTexOnepieceBlongLKappogi1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLKappogi1"
       },
       {
         "id": 3536,
         "name": {
-          en: "Dark blue",
-          jp: "こん"
+          "en": "Dark blue",
+          "jp": "こん"
         },
-        "fileName": "TopsTexOnepieceBlongLKappogi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLKappogi0"
       },
       {
         "id": 8979,
         "name": {
-          en: "Muslin",
-          jp: "きなり"
+          "en": "Muslin",
+          "jp": "きなり"
         },
-        "fileName": "TopsTexOnepieceBlongLKappogi2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLKappogi2"
       }
     ]
   },
   {
     "name": {
-      en: "pineapple dress",
-      jp: "パイナップルのふく"
+      "en": "pineapple dress",
+      "jp": "パイナップルのふく"
     },
     "id": 118,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3293,
         "name": {
-          en: "NA",
-          jp: "イエロー"
+          "en": false,
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineNPineapple"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNPineapple"
       }
     ]
   },
   {
     "name": {
-      en: "pintuck-pleated dress",
-      jp: "ドーリーワンピース"
+      "en": "pintuck-pleated dress",
+      "jp": "ドーリーワンピース"
     },
     "id": 413,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4506,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHDolly0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHDolly0"
       },
       {
         "id": 8885,
         "name": {
-          en: "Lime",
-          jp: "ライム"
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "TopsTexOnepieceBalloonHDolly1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHDolly1"
       },
       {
         "id": 8886,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonHDolly2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHDolly2"
       },
       {
         "id": 8888,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHDolly4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHDolly4"
       },
       {
         "id": 8887,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonHDolly3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHDolly3"
       },
       {
         "id": 8889,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBalloonHDolly5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHDolly5"
       }
     ]
   },
   {
     "name": {
-      en: "pirate dress",
-      jp: "かいぞくのワンピース"
+      "en": "pirate dress",
+      "jp": "かいぞくのワンピース"
     },
     "id": 294,
-    "source": {
-      en: "Gullivarrr",
-      jp: "Gullivarrr"
-    },
+    "source": "Gullivarrr",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7442,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonHPirate2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHPirate2"
       },
       {
         "id": 4295,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonHPirate0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHPirate0"
       },
       {
         "id": 7441,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHPirate1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHPirate1"
       }
     ]
   },
   {
     "name": {
-      en: "pirate outfit",
-      jp: "かいぞくのふく"
+      "en": "pirate outfit",
+      "jp": "かいぞくのふく"
     },
     "id": 1231,
-    "source": {
-      en: "Gullivarrr",
-      jp: "Gullivarrr"
-    },
+    "source": "Gullivarrr",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 630
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13091,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallHPirates2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHPirates2"
       },
       {
         "id": 12668,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallHPirates0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHPirates0"
       },
       {
         "id": 13090,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallHPirates1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHPirates1"
       }
     ]
   },
   {
     "name": {
-      en: "pirate-treasure robe",
-      jp: "かいぞくのおたからローブ"
+      "en": "pirate-treasure robe",
+      "jp": "かいぞくのおたからローブ"
     },
     "id": 1230,
-    "source": {
-      en: "Gullivarrr",
-      jp: "Gullivarrr"
-    },
+    "source": "Gullivarrr",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12667,
         "name": {
-          en: "NA",
-          jp: "ブラック"
+          "en": false,
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlongLPirates0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLPirates0"
       }
     ]
   },
   {
     "name": {
-      en: "PJ outfit",
-      jp: "パジャマ"
+      "en": "PJ outfit",
+      "jp": "パジャマ"
     },
     "id": 150,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1050,
       "sell": 262
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7824,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceOverallLPajama2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPajama2"
       },
       {
         "id": 7826,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLPajama4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPajama4"
       },
       {
         "id": 7825,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLPajama3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPajama3"
       },
       {
         "id": 3354,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLPajama0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPajama0"
       },
       {
         "id": 7823,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceOverallLPajama1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPajama1"
       }
     ]
   },
   {
     "name": {
-      en: "plaid-print dress",
-      jp: "ブロックチェックワンピ"
+      "en": "plaid-print dress",
+      "jp": "ブロックチェックワンピ"
     },
     "id": 340,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9419,
         "name": {
-          en: "Energetic plaid",
-          jp: "ビタミンチェック"
+          "en": "Energetic plaid",
+          "jp": "ビタミンチェック"
         },
-        "fileName": "TopsTexOnepieceBalloonNBlockcheck1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBlockcheck1"
       },
       {
         "id": 9421,
         "name": {
-          en: "Sweet plaid",
-          jp: "スイートチェック"
+          "en": "Sweet plaid",
+          "jp": "スイートチェック"
         },
-        "fileName": "TopsTexOnepieceBalloonNBlockcheck3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBlockcheck3"
       },
       {
         "id": 4399,
         "name": {
-          en: "Fancy plaid",
-          jp: "ファンシーチェック"
+          "en": "Fancy plaid",
+          "jp": "ファンシーチェック"
         },
-        "fileName": "TopsTexOnepieceBalloonNBlockcheck0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBlockcheck0"
       },
       {
         "id": 9420,
         "name": {
-          en: "Dreamy plaid",
-          jp: "ドリームチェック"
+          "en": "Dreamy plaid",
+          "jp": "ドリームチェック"
         },
-        "fileName": "TopsTexOnepieceBalloonNBlockcheck2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNBlockcheck2"
       }
     ]
   },
   {
     "name": {
-      en: "plover dress",
-      jp: "ちどりごうしワンピース"
+      "en": "plover dress",
+      "jp": "ちどりごうしワンピース"
     },
     "id": 49,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9020,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxLChidori1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLChidori1"
       },
       {
         "id": 9021,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxLChidori2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLChidori2"
       },
       {
         "id": 3128,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceBoxLChidori0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLChidori0"
       }
     ]
   },
   {
     "name": {
-      en: "Pompompurin outfit",
-      jp: "ポムポムプリンなセットアップ"
+      "en": "Pompompurin outfit",
+      "jp": "ポムポムプリンなセットアップ"
     },
     "id": 1317,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13486,
         "name": {
-          en: "NA",
-          jp: "イエロー"
+          "en": false,
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineLPurin0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLPurin0"
       }
     ]
   },
   {
     "name": {
-      en: "power suit",
-      jp: "パワードスーツ"
+      "en": "power suit",
+      "jp": "パワードスーツ"
     },
     "id": 739,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3780,
       "sell": 945
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11566,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLPowered3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPowered3"
       },
       {
         "id": 5424,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLPoweredRed"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPoweredRed"
       },
       {
         "id": 11565,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLPowered2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPowered2"
       },
       {
         "id": 11564,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLPowered1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPowered1"
       }
     ]
   },
   {
     "name": {
-      en: "prim outfit",
-      jp: "せいそなアンサンブル"
+      "en": "prim outfit",
+      "jp": "せいそなアンサンブル"
     },
     "id": 39,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9018,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBoxLEnsemble1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLEnsemble1"
       },
       {
         "id": 9019,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxLEnsemble2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLEnsemble2"
       },
       {
         "id": 2784,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLEnsemble0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLEnsemble0"
       }
     ]
   },
   {
     "name": {
-      en: "princess dress",
-      jp: "プリンセスなふく"
+      "en": "princess dress",
+      "jp": "プリンセスなふく"
     },
     "id": 104,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 5500,
       "sell": 1375
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8237,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceDressLPrincess7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLPrincess7"
       },
       {
         "id": 8233,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceDressLPrincess3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLPrincess3"
       },
       {
         "id": 8236,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceDressLPrincess6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLPrincess6"
       },
       {
         "id": 8232,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceDressLPrincess2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLPrincess2"
       },
       {
         "id": 8231,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceDressLPrincess1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLPrincess1"
       },
       {
         "id": 8235,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "TopsTexOnepieceDressLPrincess5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLPrincess5"
       },
       {
         "id": 3260,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceDressLPrincess0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLPrincess0"
       },
       {
         "id": 8234,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceDressLPrincess4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLPrincess4"
       }
     ]
   },
   {
     "name": {
-      en: "Princess Peach dress",
-      jp: "ピーチひめのドレス"
+      "en": "Princess Peach dress",
+      "jp": "ピーチひめのドレス"
     },
     "id": 1330,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 6000,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13564,
         "name": {
-          en: "NA",
-          jp: "ピンク"
+          "en": false,
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceDressHPeach0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressHPeach0"
       }
     ]
   },
   {
     "name": {
-      en: "racing outfit",
-      jp: "レーサーなふく"
+      "en": "racing outfit",
+      "jp": "レーサーなふく"
     },
     "id": 213,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2450,
       "sell": 612
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9468,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLRacer3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRacer3"
       },
       {
         "id": 3655,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLRacer0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRacer0"
       },
       {
         "id": 9467,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLRacer2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRacer2"
       },
       {
         "id": 9466,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLRacer1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLRacer1"
       }
     ]
   },
   {
     "name": {
-      en: "rad power skirt suit",
-      jp: "バブリーなセットアップ"
+      "en": "rad power skirt suit",
+      "jp": "バブリーなセットアップ"
     },
     "id": 51,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3134,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxLBubbly0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBubbly0"
       },
       {
         "id": 7901,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxLBubbly1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBubbly1"
       },
       {
         "id": 7905,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxLBubbly5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBubbly5"
       },
       {
         "id": 7904,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxLBubbly4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBubbly4"
       },
       {
         "id": 7906,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLBubbly6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBubbly6"
       },
       {
         "id": 7903,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLBubbly3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBubbly3"
       },
       {
         "id": 7902,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxLBubbly2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLBubbly2"
       }
     ]
   },
   {
     "name": {
-      en: "raggedy outfit",
-      jp: "ボロボロなふく"
+      "en": "raggedy outfit",
+      "jp": "ボロボロなふく"
     },
     "id": 1262,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": false,
+    "version": "1.5.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13389,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHalloween2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHalloween2"
       },
       {
         "id": 13392,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHalloween5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHalloween5"
       },
       {
         "id": 13391,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHalloween4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHalloween4"
       },
       {
         "id": 12988,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHalloween0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHalloween0"
       },
       {
         "id": 13390,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHalloween3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHalloween3"
       },
       {
         "id": 13388,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceSalopetteLHalloween1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLHalloween1"
       }
     ]
   },
   {
     "name": {
-      en: "reindeer costume",
-      jp: "トナカイなふく"
+      "en": "reindeer costume",
+      "jp": "トナカイなふく"
     },
     "id": 416,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Toy Day (ready days phase 2); Toy Day; Toy Day (day after)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4511,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceOverallLReindeerBrown"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLReindeerBrown"
       }
     ]
   },
   {
     "name": {
-      en: "Renaissance dress",
-      jp: "ルネッサンスなドレス"
+      "en": "Renaissance dress",
+      "jp": "ルネッサンスなドレス"
     },
     "id": 740,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 6000,
       "sell": 1500
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5432,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlongLRenaissance0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLRenaissance0"
       },
       {
         "id": 8172,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlongLRenaissance4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLRenaissance4"
       },
       {
         "id": 8169,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlongLRenaissance1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLRenaissance1"
       },
       {
         "id": 8171,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceAlongLRenaissance3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLRenaissance3"
       },
       {
         "id": 8170,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlongLRenaissance2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLRenaissance2"
       },
       {
         "id": 8173,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongLRenaissance5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLRenaissance5"
       }
     ]
   },
   {
     "name": {
-      en: "retro A-line dress",
-      jp: "レトロＡラインワンピース"
+      "en": "retro A-line dress",
+      "jp": "レトロＡラインワンピース"
     },
     "id": 437,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2550,
       "sell": 637
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7909,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceAlineLRetro2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLRetro2"
       },
       {
         "id": 7911,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlineLRetro4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLRetro4"
       },
       {
         "id": 4557,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineLRetro0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLRetro0"
       },
       {
         "id": 7908,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineLRetro1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLRetro1"
       },
       {
         "id": 7910,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineLRetro3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLRetro3"
       }
     ]
   },
   {
     "name": {
-      en: "retro dress",
-      jp: "レトロボックスワンピース"
+      "en": "retro dress",
+      "jp": "レトロボックスワンピース"
     },
     "id": 32,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2550,
       "sell": 637
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7912,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxNRetro1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNRetro1"
       },
       {
         "id": 7914,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxNRetro3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNRetro3"
       },
       {
         "id": 7913,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBoxNRetro2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNRetro2"
       },
       {
         "id": 7915,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxNRetro4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNRetro4"
       },
       {
         "id": 2706,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNRetro0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNRetro0"
       },
       {
         "id": 7916,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBoxNRetro5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNRetro5"
       }
     ]
   },
   {
     "name": {
-      en: "retro sleeveless dress",
-      jp: "モガなワンピース"
+      "en": "retro sleeveless dress",
+      "jp": "モガなワンピース"
     },
     "id": 297,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7878,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxNModern2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNModern2"
       },
       {
         "id": 7879,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxNModern3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNModern3"
       },
       {
         "id": 4300,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxNModern0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNModern0"
       },
       {
         "id": 7877,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNModern1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNModern1"
       },
       {
         "id": 7880,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxNModern4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNModern4"
       }
     ]
   },
   {
     "name": {
-      en: "ruffled dress",
-      jp: "コルセットドレス"
+      "en": "ruffled dress",
+      "jp": "コルセットドレス"
     },
     "id": 153,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4240,
       "sell": 1060
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8684,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonLCorset1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLCorset1"
       },
       {
         "id": 8685,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBalloonLCorset2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLCorset2"
       },
       {
         "id": 3385,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonLCorset0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonLCorset0"
       }
     ]
   },
   {
     "name": {
-      en: "rugby uniform",
-      jp: "ラグビーのユニフォーム"
+      "en": "rugby uniform",
+      "jp": "ラグビーのユニフォーム"
     },
     "id": 454,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1760,
       "sell": 440
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4586,
         "name": {
-          en: "Red & white",
-          jp: "レッド×ホワイト"
+          "en": "Red & white",
+          "jp": "レッド×ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallHRugby0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHRugby0"
       },
       {
         "id": 7631,
         "name": {
-          en: "Orange & white",
-          jp: "オレンジ×ホワイト"
+          "en": "Orange & white",
+          "jp": "オレンジ×ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallHRugby3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHRugby3"
       },
       {
         "id": 7630,
         "name": {
-          en: "Green & white",
-          jp: "グリーン×ホワイト"
+          "en": "Green & white",
+          "jp": "グリーン×ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallHRugby2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHRugby2"
       },
       {
         "id": 7629,
         "name": {
-          en: "Blue & white",
-          jp: "ブルー×ホワイト"
+          "en": "Blue & white",
+          "jp": "ブルー×ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallHRugby1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHRugby1"
       },
       {
         "id": 7632,
         "name": {
-          en: "Red & black",
-          jp: "レッド×ブラック"
+          "en": "Red & black",
+          "jp": "レッド×ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallHRugby4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHRugby4"
       },
       {
         "id": 7635,
         "name": {
-          en: "Orange & black",
-          jp: "オレンジ×ブラック"
+          "en": "Orange & black",
+          "jp": "オレンジ×ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallHRugby7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHRugby7"
       },
       {
         "id": 7634,
         "name": {
-          en: "Green & black",
-          jp: "グリーン×ブラック"
+          "en": "Green & black",
+          "jp": "グリーン×ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallHRugby6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHRugby6"
       },
       {
         "id": 7633,
         "name": {
-          en: "Blue & black",
-          jp: "ブルー×ブラック"
+          "en": "Blue & black",
+          "jp": "ブルー×ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallHRugby5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHRugby5"
       }
     ]
   },
   {
     "name": {
-      en: "rumba costume",
-      jp: "ルンバないしょう"
+      "en": "rumba costume",
+      "jp": "ルンバないしょう"
     },
     "id": 793,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5610,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceSalopetteLRumba0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLRumba0"
       },
       {
         "id": 11579,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceSalopetteLRumba2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLRumba2"
       },
       {
         "id": 11578,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceSalopetteLRumba1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLRumba1"
       }
     ]
   },
   {
     "name": {
-      en: "rumba dress",
-      jp: "ルンバなドレス"
+      "en": "rumba dress",
+      "jp": "ルンバなドレス"
     },
     "id": 806,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5645,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlongHRumba0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHRumba0"
       },
       {
         "id": 9529,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlongHRumba2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHRumba2"
       },
       {
         "id": 9528,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceAlongHRumba1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongHRumba1"
       }
     ]
   },
   {
     "name": {
-      en: "sailor-collar dress",
-      jp: "マリンルックワンピース"
+      "en": "sailor-collar dress",
+      "jp": "マリンルックワンピース"
     },
     "id": 221,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3673,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBalloonHMarine0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMarine0"
       },
       {
         "id": 8884,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonHMarine3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMarine3"
       },
       {
         "id": 8883,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonHMarine2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMarine2"
       },
       {
         "id": 8882,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBalloonHMarine1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHMarine1"
       }
     ]
   },
   {
     "name": {
-      en: "sari",
-      jp: "サリー"
+      "en": "sari",
+      "jp": "サリー"
     },
     "id": 226,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3685,
         "name": {
-          en: "Garnet",
-          jp: "ガーネット"
+          "en": "Garnet",
+          "jp": "ガーネット"
         },
-        "fileName": "TopsTexOnepieceBlongHSally0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongHSally0"
       },
       {
         "id": 9150,
         "name": {
-          en: "Topaz",
-          jp: "トパーズ"
+          "en": "Topaz",
+          "jp": "トパーズ"
         },
-        "fileName": "TopsTexOnepieceBlongHSally2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongHSally2"
       },
       {
         "id": 9149,
         "name": {
-          en: "Aquamarine",
-          jp: "エメラルド"
+          "en": "Aquamarine",
+          "jp": "エメラルド"
         },
-        "fileName": "TopsTexOnepieceBlongHSally1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongHSally1"
       },
       {
         "id": 9151,
         "name": {
-          en: "Amethyst",
-          jp: "アメジスト"
+          "en": "Amethyst",
+          "jp": "アメジスト"
         },
-        "fileName": "TopsTexOnepieceBlongHSally3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongHSally3"
       }
     ]
   },
   {
     "name": {
-      en: "satin dress",
-      jp: "サテンのワンピース"
+      "en": "satin dress",
+      "jp": "サテンのワンピース"
     },
     "id": 24,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7943,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "TopsTexOnepieceBalloonNSatin2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNSatin2"
       },
       {
         "id": 7945,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBalloonNSatin4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNSatin4"
       },
       {
         "id": 2599,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBalloonNSatin0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNSatin0"
       },
       {
         "id": 7942,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBalloonNSatin1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNSatin1"
       },
       {
         "id": 7944,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonNSatin3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNSatin3"
       }
     ]
   },
   {
     "name": {
-      en: "school smock",
-      jp: "スクールスモック"
+      "en": "school smock",
+      "jp": "スクールスモック"
     },
     "id": 788,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5567,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxLSchoolsmockNavy"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLSchoolsmockNavy"
       }
     ]
   },
   {
     "name": {
-      en: "security uniform",
-      jp: "けいかんのふく"
+      "en": "security uniform",
+      "jp": "けいかんのふく"
     },
     "id": 186,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3565,
         "name": {
-          en: "NA",
-          jp: "ネイビー"
+          "en": false,
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceOverallLPoliceNavy"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLPoliceNavy"
       }
     ]
   },
   {
     "name": {
-      en: "sequin dress",
-      jp: "スパンコールのワンピース"
+      "en": "sequin dress",
+      "jp": "スパンコールのワンピース"
     },
     "id": 214,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Prom (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7873,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBoxNSequins4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSequins4"
       },
       {
         "id": 7871,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxNSequins2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSequins2"
       },
       {
         "id": 7870,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxNSequins1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSequins1"
       },
       {
         "id": 3659,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxNSequins0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSequins0"
       },
       {
         "id": 7872,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxNSequins3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSequins3"
       },
       {
         "id": 7876,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNSequins7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSequins7"
       },
       {
         "id": 7874,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxNSequins5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSequins5"
       },
       {
         "id": 7875,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxNSequins6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNSequins6"
       }
     ]
   },
   {
     "name": {
-      en: "shamrock suit",
-      jp: "シャムロックスーツ"
+      "en": "shamrock suit",
+      "jp": "シャムロックスーツ"
     },
     "id": 1352,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Shamrock Day (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14236,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceSalopetteLShamrock0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLShamrock0"
       }
     ]
   },
   {
     "name": {
-      en: "shawl-and-dress combo",
-      jp: "ショールコーデワンピ"
+      "en": "shawl-and-dress combo",
+      "jp": "ショールコーデワンピ"
     },
     "id": 403,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4489,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceRibLShawl0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLShawl0"
       },
       {
         "id": 8597,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceRibLShawl3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLShawl3"
       },
       {
         "id": 8595,
         "name": {
-          en: "Ochre",
-          jp: "オーカー"
+          "en": "Ochre",
+          "jp": "オーカー"
         },
-        "fileName": "TopsTexOnepieceRibLShawl1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLShawl1"
       },
       {
         "id": 8596,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceRibLShawl2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLShawl2"
       }
     ]
   },
   {
     "name": {
-      en: "sheep costume",
-      jp: "ひつじなふく"
+      "en": "sheep costume",
+      "jp": "ひつじなふく"
     },
     "id": 362,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4431,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceRibNSheep0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNSheep0"
       },
       {
         "id": 9635,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceRibNSheep1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNSheep1"
       },
       {
         "id": 9636,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceRibNSheep2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNSheep2"
       },
       {
         "id": 9637,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceRibNSheep3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNSheep3"
       }
     ]
   },
   {
     "name": {
-      en: "shell dress",
-      jp: "かいがらのドレス"
+      "en": "shell dress",
+      "jp": "かいがらのドレス"
     },
     "id": 492,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3500,
       "sell": 875
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8249,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlongNMermaid4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNMermaid4"
       },
       {
         "id": 4657,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlongNMermaid0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNMermaid0"
       },
       {
         "id": 8247,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlongNMermaid2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNMermaid2"
       },
       {
         "id": 8248,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "TopsTexOnepieceAlongNMermaid3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNMermaid3"
       },
       {
         "id": 8246,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlongNMermaid1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNMermaid1"
       },
       {
         "id": 8250,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongNMermaid5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNMermaid5"
       }
     ]
   },
   {
     "name": {
-      en: "shiromuku",
-      jp: "しろむく"
+      "en": "shiromuku",
+      "jp": "しろむく"
     },
     "id": 1377,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Wedding Season (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4800,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14282,
         "name": {
-          en: "NA",
-          jp: "しろ"
+          "en": false,
+          "jp": "しろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLPurewhite0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLPurewhite0"
       }
     ]
   },
   {
     "name": {
-      en: "shirtdress",
-      jp: "シャツワンピ"
+      "en": "shirtdress",
+      "jp": "シャツワンピ"
     },
     "id": 154,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8950,
         "name": {
-          en: "Olive",
-          jp: "オリーブ"
+          "en": "Olive",
+          "jp": "オリーブ"
         },
-        "fileName": "TopsTexOnepieceBoxLShirt2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLShirt2"
       },
       {
         "id": 3386,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBoxLShirt0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLShirt0"
       },
       {
         "id": 8949,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceBoxLShirt1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxLShirt1"
       }
     ]
   },
   {
     "name": {
-      en: "shorts outfit",
-      jp: "ショートコンビネゾン"
+      "en": "shorts outfit",
+      "jp": "ショートコンビネゾン"
     },
     "id": 483,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1680,
       "sell": 420
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8025,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceSalopetteNCombinaison4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteNCombinaison4"
       },
       {
         "id": 8024,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceSalopetteNCombinaison3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteNCombinaison3"
       },
       {
         "id": 8022,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceSalopetteNCombinaison1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteNCombinaison1"
       },
       {
         "id": 8023,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceSalopetteNCombinaison2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteNCombinaison2"
       },
       {
         "id": 4617,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceSalopetteNCombinaison0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteNCombinaison0"
       }
     ]
   },
   {
     "name": {
-      en: "simple checkered dress",
-      jp: "シンプルチェックのワンピ"
+      "en": "simple checkered dress",
+      "jp": "シンプルチェックのワンピ"
     },
     "id": 1039,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8509,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNPlaid0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNPlaid0"
       },
       {
         "id": 12096,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineNPlaid1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNPlaid1"
       },
       {
         "id": 12097,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceAlineNPlaid2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNPlaid2"
       }
     ]
   },
   {
     "name": {
-      en: "simple visiting kimono",
-      jp: "むじのほうもんぎ"
+      "en": "simple visiting kimono",
+      "jp": "むじのほうもんぎ"
     },
     "id": 913,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2480,
       "sell": 620
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9010,
         "name": {
-          en: "Gray",
-          jp: "はいいろ"
+          "en": "Gray",
+          "jp": "はいいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHomongi7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHomongi7"
       },
       {
         "id": 9005,
         "name": {
-          en: "Pink",
-          jp: "ももいろ"
+          "en": "Pink",
+          "jp": "ももいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHomongi2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHomongi2"
       },
       {
         "id": 9007,
         "name": {
-          en: "Orange",
-          jp: "だいだい"
+          "en": "Orange",
+          "jp": "だいだい"
         },
-        "fileName": "TopsTexOnepieceKimonoLHomongi4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHomongi4"
       },
       {
         "id": 9009,
         "name": {
-          en: "Yellow",
-          jp: "きいろ"
+          "en": "Yellow",
+          "jp": "きいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHomongi6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHomongi6"
       },
       {
         "id": 6026,
         "name": {
-          en: "Pale green",
-          jp: "うすみどり"
+          "en": "Pale green",
+          "jp": "うすみどり"
         },
-        "fileName": "TopsTexOnepieceKimonoLHomongi0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHomongi0"
       },
       {
         "id": 9008,
         "name": {
-          en: "Aqua",
-          jp: "みずいろ"
+          "en": "Aqua",
+          "jp": "みずいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHomongi5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHomongi5"
       },
       {
         "id": 9006,
         "name": {
-          en: "Indigo blue",
-          jp: "あいいろ"
+          "en": "Indigo blue",
+          "jp": "あいいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHomongi3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHomongi3"
       },
       {
         "id": 9004,
         "name": {
-          en: "Wisteria",
-          jp: "ふじいろ"
+          "en": "Wisteria",
+          "jp": "ふじいろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLHomongi1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLHomongi1"
       }
     ]
   },
   {
     "name": {
-      en: "simple-dots dress",
-      jp: "シンプルドットワンピース"
+      "en": "simple-dots dress",
+      "jp": "シンプルドットワンピース"
     },
     "id": 1017,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12109,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlineNSimpledot4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNSimpledot4"
       },
       {
         "id": 8188,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineNSimpledot0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNSimpledot0"
       },
       {
         "id": 12106,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineNSimpledot1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNSimpledot1"
       },
       {
         "id": 12108,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineNSimpledot3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNSimpledot3"
       },
       {
         "id": 12107,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNSimpledot2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNSimpledot2"
       }
     ]
   },
   {
     "name": {
-      en: "skirt with suspenders",
-      jp: "つりスカート"
+      "en": "skirt with suspenders",
+      "jp": "つりスカート"
     },
     "id": 215,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9025,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceAlineHSuspendersskirt4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHSuspendersskirt4"
       },
       {
         "id": 3660,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineHSuspendersskirt0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHSuspendersskirt0"
       },
       {
         "id": 9023,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineHSuspendersskirt2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHSuspendersskirt2"
       },
       {
         "id": 9022,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceAlineHSuspendersskirt1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHSuspendersskirt1"
       },
       {
         "id": 9024,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineHSuspendersskirt3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineHSuspendersskirt3"
       }
     ]
   },
   {
     "name": {
-      en: "sky-egg outfit",
-      jp: "そらとぶたまごのふく"
+      "en": "sky-egg outfit",
+      "jp": "そらとぶたまごのふく"
     },
     "id": 1209,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12453,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceRibNEggsky0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNEggsky0"
       }
     ]
   },
   {
     "name": {
-      en: "sleeveless shirtdress",
-      jp: "そでなしシャツワンピ"
+      "en": "sleeveless shirtdress",
+      "jp": "そでなしシャツワンピ"
     },
     "id": 155,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8951,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlineNShirt1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNShirt1"
       },
       {
         "id": 8952,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNShirt2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNShirt2"
       },
       {
         "id": 8953,
         "name": {
-          en: "Lime",
-          jp: "ライム"
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "TopsTexOnepieceAlineNShirt3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNShirt3"
       },
       {
         "id": 3387,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNShirt0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNShirt0"
       }
     ]
   },
   {
     "name": {
-      en: "sleeveless silk dress",
-      jp: "チャイナドレス"
+      "en": "sleeveless silk dress",
+      "jp": "チャイナドレス"
     },
     "id": 582,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9154,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBlongLChina3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLChina3"
       },
       {
         "id": 5131,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBlongLChina0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLChina0"
       },
       {
         "id": 9155,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBlongLChina4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLChina4"
       },
       {
         "id": 9157,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBlongLChina6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLChina6"
       },
       {
         "id": 9152,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBlongLChina1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLChina1"
       },
       {
         "id": 9156,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceBlongLChina5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLChina5"
       },
       {
         "id": 9153,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBlongLChina2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongLChina2"
       }
     ]
   },
   {
     "name": {
-      en: "sleeveless sweater dress",
-      jp: "そでなしニットワンピ"
+      "en": "sleeveless sweater dress",
+      "jp": "そでなしニットワンピ"
     },
     "id": 105,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8011,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceRibNKnit2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNKnit2"
       },
       {
         "id": 3261,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceRibNKnit0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNKnit0"
       },
       {
         "id": 8010,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceRibNKnit1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNKnit1"
       },
       {
         "id": 8014,
         "name": {
-          en: "Lime",
-          jp: "ライム"
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "TopsTexOnepieceRibNKnit5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNKnit5"
       },
       {
         "id": 8013,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceRibNKnit4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNKnit4"
       },
       {
         "id": 8012,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceRibNKnit3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNKnit3"
       }
     ]
   },
   {
     "name": {
-      en: "slip dress",
-      jp: "スリップドレス"
+      "en": "slip dress",
+      "jp": "スリップドレス"
     },
     "id": 455,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Prom (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7933,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceBlongNSlip4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongNSlip4"
       },
       {
         "id": 7930,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBlongNSlip1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongNSlip1"
       },
       {
         "id": 7934,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBlongNSlip5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongNSlip5"
       },
       {
         "id": 7931,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBlongNSlip2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongNSlip2"
       },
       {
         "id": 7932,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBlongNSlip3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongNSlip3"
       },
       {
         "id": 4587,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBlongNSlip0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongNSlip0"
       }
     ]
   },
   {
     "name": {
-      en: "space suit",
-      jp: "うちゅうふく"
+      "en": "space suit",
+      "jp": "うちゅうふく"
     },
     "id": 211,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 5000,
       "sell": 1250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3636,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLSpaceWhite"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSpaceWhite"
       }
     ]
   },
   {
     "name": {
-      en: "sprite costume",
-      jp: "こびとのふく"
+      "en": "sprite costume",
+      "jp": "こびとのふく"
     },
     "id": 247,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8131,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallHDwarf1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHDwarf1"
       },
       {
         "id": 8135,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallHDwarf5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHDwarf5"
       },
       {
         "id": 8134,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallHDwarf4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHDwarf4"
       },
       {
         "id": 4171,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallHDwarf0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHDwarf0"
       },
       {
         "id": 8136,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "TopsTexOnepieceOverallHDwarf6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHDwarf6"
       },
       {
         "id": 8133,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallHDwarf3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHDwarf3"
       },
       {
         "id": 8132,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceOverallHDwarf2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHDwarf2"
       }
     ]
   },
   {
     "name": {
-      en: "star costume",
-      jp: "スタアのふく"
+      "en": "star costume",
+      "jp": "スタアのふく"
     },
     "id": 373,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2800,
       "sell": 700
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4449,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLStarsinger0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLStarsinger0"
       },
       {
         "id": 9512,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLStarsinger1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLStarsinger1"
       },
       {
         "id": 9513,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLStarsinger2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLStarsinger2"
       },
       {
         "id": 9515,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLStarsinger4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLStarsinger4"
       },
       {
         "id": 9514,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceOverallLStarsinger3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLStarsinger3"
       }
     ]
   },
   {
     "name": {
-      en: "steampunk costume",
-      jp: "スチームパンクなふく"
+      "en": "steampunk costume",
+      "jp": "スチームパンクなふく"
     },
     "id": 895,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2240,
       "sell": 560
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5825,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLSteampunk0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSteampunk0"
       },
       {
         "id": 9534,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallLSteampunk1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSteampunk1"
       }
     ]
   },
   {
     "name": {
-      en: "stellar jumpsuit",
-      jp: "サイケなつなぎ"
+      "en": "stellar jumpsuit",
+      "jp": "サイケなつなぎ"
     },
     "id": 875,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9531,
         "name": {
-          en: "Dark red",
-          jp: "ダークレッド"
+          "en": "Dark red",
+          "jp": "ダークレッド"
         },
-        "fileName": "TopsTexOnepieceSalopetteLPsychedelic2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLPsychedelic2"
       },
       {
         "id": 9533,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceSalopetteLPsychedelic4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLPsychedelic4"
       },
       {
         "id": 5799,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceSalopetteLPsychedelic0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLPsychedelic0"
       },
       {
         "id": 9530,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLPsychedelic1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLPsychedelic1"
       },
       {
         "id": 9532,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceSalopetteLPsychedelic3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLPsychedelic3"
       }
     ]
   },
   {
     "name": {
-      en: "stone-egg outfit",
-      jp: "いわのたまごのふく"
+      "en": "stone-egg outfit",
+      "jp": "いわのたまごのふく"
     },
     "id": 1206,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12450,
         "name": {
-          en: "NA",
-          jp: "イエロー"
+          "en": false,
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceRibNEggrock0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNEggrock0"
       }
     ]
   },
   {
     "name": {
-      en: "strawberry dress",
-      jp: "イチゴのふく"
+      "en": "strawberry dress",
+      "jp": "イチゴのふく"
     },
     "id": 113,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3286,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineNStrawberry"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNStrawberry"
       }
     ]
   },
   {
     "name": {
-      en: "striped dress",
-      jp: "ボーダーワンピース"
+      "en": "striped dress",
+      "jp": "ボーダーワンピース"
     },
     "id": 276,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7773,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceAlineLBorder5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBorder5"
       },
       {
         "id": 4262,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceAlineLBorder0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBorder0"
       },
       {
         "id": 7772,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineLBorder4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBorder4"
       },
       {
         "id": 7775,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineLBorder7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBorder7"
       },
       {
         "id": 7769,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceAlineLBorder1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBorder1"
       },
       {
         "id": 7771,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineLBorder3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBorder3"
       },
       {
         "id": 7774,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineLBorder6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBorder6"
       },
       {
         "id": 7770,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineLBorder2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLBorder2"
       }
     ]
   },
   {
     "name": {
-      en: "striped halter dress",
-      jp: "ホルターネックのワンピース"
+      "en": "striped halter dress",
+      "jp": "ホルターネックのワンピース"
     },
     "id": 291,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4290,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNHalterneckstripe0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNHalterneckstripe0"
       },
       {
         "id": 7786,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceAlineNHalterneckstripe2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNHalterneckstripe2"
       },
       {
         "id": 7785,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlineNHalterneckstripe1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNHalterneckstripe1"
       },
       {
         "id": 7787,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNHalterneckstripe3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNHalterneckstripe3"
       }
     ]
   },
   {
     "name": {
-      en: "striped maxi dress",
-      jp: "ストライプのマキシワンピ"
+      "en": "striped maxi dress",
+      "jp": "ストライプのマキシワンピ"
     },
     "id": 525,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4729,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlongNStripe0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNStripe0"
       },
       {
         "id": 7784,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceAlongNStripe3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNStripe3"
       },
       {
         "id": 7783,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlongNStripe2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNStripe2"
       },
       {
         "id": 7782,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlongNStripe1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNStripe1"
       }
     ]
   },
   {
     "name": {
-      en: "stylish jumpsuit",
-      jp: "オールインワン"
+      "en": "stylish jumpsuit",
+      "jp": "オールインワン"
     },
     "id": 695,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9039,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceSalopetteLAllinone1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLAllinone1"
       },
       {
         "id": 5350,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceSalopetteLAllinone0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLAllinone0"
       },
       {
         "id": 9042,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceSalopetteLAllinone4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLAllinone4"
       },
       {
         "id": 9041,
         "name": {
-          en: "Avocado",
-          jp: "カーキ"
+          "en": "Avocado",
+          "jp": "カーキ"
         },
-        "fileName": "TopsTexOnepieceSalopetteLAllinone3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLAllinone3"
       },
       {
         "id": 9040,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceSalopetteLAllinone2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceSalopetteLAllinone2"
       }
     ]
   },
   {
     "name": {
-      en: "suit of lights",
-      jp: "マタドールなふく"
+      "en": "suit of lights",
+      "jp": "マタドールなふく"
     },
     "id": 204,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3613,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLBull0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBull0"
       },
       {
         "id": 9508,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLBull1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBull1"
       },
       {
         "id": 9511,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLBull4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBull4"
       },
       {
         "id": 9510,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLBull3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBull3"
       },
       {
         "id": 9509,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLBull2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBull2"
       }
     ]
   },
   {
     "name": {
-      en: "suit with stand-up collar",
-      jp: "つめえりスーツ"
+      "en": "suit with stand-up collar",
+      "jp": "つめえりスーツ"
     },
     "id": 810,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7570,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLHighcollar2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHighcollar2"
       },
       {
         "id": 5653,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLHighcollar0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHighcollar0"
       },
       {
         "id": 7569,
         "name": {
-          en: "Avocado",
-          jp: "カーキ"
+          "en": "Avocado",
+          "jp": "カーキ"
         },
-        "fileName": "TopsTexOnepieceOverallLHighcollar1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHighcollar1"
       },
       {
         "id": 7571,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceOverallLHighcollar3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHighcollar3"
       }
     ]
   },
   {
     "name": {
-      en: "sunflower dress",
-      jp: "ひまわりのワンピース"
+      "en": "sunflower dress",
+      "jp": "ひまわりのワンピース"
     },
     "id": 363,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4432,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBalloonNSunflower0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNSunflower0"
       },
       {
         "id": 9428,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceBalloonNSunflower1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNSunflower1"
       },
       {
         "id": 9429,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBalloonNSunflower2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonNSunflower2"
       }
     ]
   },
   {
     "name": {
-      en: "superhero uniform",
-      jp: "スーパーヒーロースーツ"
+      "en": "superhero uniform",
+      "jp": "スーパーヒーロースーツ"
     },
     "id": 396,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3640,
       "sell": 910
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9494,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLSuper2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuper2"
       },
       {
         "id": 9493,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLSuper1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuper1"
       },
       {
         "id": 9495,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLSuper3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuper3"
       },
       {
         "id": 4475,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLSuper0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuper0"
       }
     ]
   },
   {
     "name": {
-      en: "suspender outfit",
-      jp: "サスペンダーなふく"
+      "en": "suspender outfit",
+      "jp": "サスペンダーなふく"
     },
     "id": 239,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1900,
       "sell": 475
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8626,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLSuspenders3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuspenders3"
       },
       {
         "id": 8625,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLSuspenders2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuspenders2"
       },
       {
         "id": 8627,
         "name": {
-          en: "Light green",
-          jp: "ライトグリーン"
+          "en": "Light green",
+          "jp": "ライトグリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLSuspenders4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuspenders4"
       },
       {
         "id": 8624,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "TopsTexOnepieceOverallLSuspenders1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuspenders1"
       },
       {
         "id": 3707,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLSuspenders0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLSuspenders0"
       }
     ]
   },
   {
     "name": {
-      en: "sweater dress",
-      jp: "ニットワンピース"
+      "en": "sweater dress",
+      "jp": "ニットワンピース"
     },
     "id": 9,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1470,
       "sell": 367
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3234,
         "name": {
-          en: "Olive",
-          jp: "オリーブ"
+          "en": "Olive",
+          "jp": "オリーブ"
         },
-        "fileName": "TopsTexOnepieceRibLKnit0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLKnit0"
       },
       {
         "id": 4159,
         "name": {
-          en: "Dark brown",
-          jp: "ダークブラウン"
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "TopsTexOnepieceRibLKnit2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLKnit2"
       },
       {
         "id": 4158,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceRibLKnit1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibLKnit1"
       }
     ]
   },
   {
     "name": {
-      en: "sweet dress",
-      jp: "エンジェルなワンピース"
+      "en": "sweet dress",
+      "jp": "エンジェルなワンピース"
     },
     "id": 512,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2700,
       "sell": 675
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4686,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBalloonHAngel0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHAngel0"
       },
       {
         "id": 9496,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBalloonHAngel1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHAngel1"
       }
     ]
   },
   {
     "name": {
-      en: "sweetheart dress",
-      jp: "ビスチェワンピース"
+      "en": "sweetheart dress",
+      "jp": "ビスチェワンピース"
     },
     "id": 232,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9028,
         "name": {
-          en: "Greige",
-          jp: "グレージュ"
+          "en": "Greige",
+          "jp": "グレージュ"
         },
-        "fileName": "TopsTexOnepieceAlongLBustier3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLBustier3"
       },
       {
         "id": 9029,
         "name": {
-          en: "Moss green",
-          jp: "モスグリーン"
+          "en": "Moss green",
+          "jp": "モスグリーン"
         },
-        "fileName": "TopsTexOnepieceAlongLBustier4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLBustier4"
       },
       {
         "id": 9026,
         "name": {
-          en: "Peacock blue",
-          jp: "ピーコックブルー"
+          "en": "Peacock blue",
+          "jp": "ピーコックブルー"
         },
-        "fileName": "TopsTexOnepieceAlongLBustier1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLBustier1"
       },
       {
         "id": 3696,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceAlongLBustier0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLBustier0"
       },
       {
         "id": 9027,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceAlongLBustier2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongLBustier2"
       }
     ]
   },
   {
     "name": {
-      en: "tango dress",
-      jp: "タンゴなドレス"
+      "en": "tango dress",
+      "jp": "タンゴなドレス"
     },
     "id": 889,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7881,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxNTango1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNTango1"
       },
       {
         "id": 5815,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxNTango0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNTango0"
       },
       {
         "id": 7882,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxNTango2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNTango2"
       },
       {
         "id": 7885,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceBoxNTango5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNTango5"
       },
       {
         "id": 7883,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceBoxNTango3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNTango3"
       },
       {
         "id": 7884,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxNTango4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxNTango4"
       }
     ]
   },
   {
     "name": {
-      en: "tee dress",
-      jp: "Ｔシャツワンピ"
+      "en": "tee dress",
+      "jp": "Ｔシャツワンピ"
     },
     "id": 439,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8385,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBoxHTshirts3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTshirts3"
       },
       {
         "id": 4559,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxHTshirts0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTshirts0"
       },
       {
         "id": 8387,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBoxHTshirts5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTshirts5"
       },
       {
         "id": 8386,
         "name": {
-          en: "Olive",
-          jp: "オリーブ"
+          "en": "Olive",
+          "jp": "オリーブ"
         },
-        "fileName": "TopsTexOnepieceBoxHTshirts4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTshirts4"
       },
       {
         "id": 8384,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceBoxHTshirts2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTshirts2"
       },
       {
         "id": 8383,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceBoxHTshirts1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTshirts1"
       }
     ]
   },
   {
     "name": {
-      en: "tiger-face tee dress",
-      jp: "トラのＴシャツワンピ"
+      "en": "tiger-face tee dress",
+      "jp": "トラのＴシャツワンピ"
     },
     "id": 390,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8379,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceBoxHTiger1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTiger1"
       },
       {
         "id": 4467,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBoxHTiger0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTiger0"
       },
       {
         "id": 8381,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceBoxHTiger3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTiger3"
       },
       {
         "id": 8382,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceBoxHTiger4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTiger4"
       },
       {
         "id": 8380,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBoxHTiger2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBoxHTiger2"
       }
     ]
   },
   {
     "name": {
-      en: "tight punk outfit",
-      jp: "ボンテージ"
+      "en": "tight punk outfit",
+      "jp": "ボンテージ"
     },
     "id": 394,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4471,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLBondage0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBondage0"
       },
       {
         "id": 8571,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLBondage1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLBondage1"
       }
     ]
   },
   {
     "name": {
-      en: "toga",
-      jp: "ローマなふく"
+      "en": "toga",
+      "jp": "ローマなふく"
     },
     "id": 187,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3570,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceBlongHToga0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongHToga0"
       },
       {
         "id": 8126,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceBlongHToga1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBlongHToga1"
       }
     ]
   },
   {
     "name": {
-      en: "tropical muumuu",
-      jp: "パインがらムームー"
+      "en": "tropical muumuu",
+      "jp": "パインがらムームー"
     },
     "id": 30,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9576,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceAlineNMuumuu1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNMuumuu1"
       },
       {
         "id": 9579,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineNMuumuu4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNMuumuu4"
       },
       {
         "id": 9578,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineNMuumuu3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNMuumuu3"
       },
       {
         "id": 2687,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "TopsTexOnepieceAlineNMuumuu0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNMuumuu0"
       },
       {
         "id": 9577,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineNMuumuu2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNMuumuu2"
       }
     ]
   },
   {
     "name": {
-      en: "tuna-sushi costume",
-      jp: "まぐろずし"
+      "en": "tuna-sushi costume",
+      "jp": "まぐろずし"
     },
     "id": 944,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5615,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceRibNTuna"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNTuna"
       }
     ]
   },
   {
     "name": {
-      en: "tweed dress",
-      jp: "ツイードワンピース"
+      "en": "tweed dress",
+      "jp": "ツイードワンピース"
     },
     "id": 28,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8803,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceAlineLTweed1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLTweed1"
       },
       {
         "id": 2677,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceAlineLTweed0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLTweed0"
       },
       {
         "id": 8804,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceAlineLTweed2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineLTweed2"
       }
     ]
   },
   {
     "name": {
-      en: "vibrant tuxedo",
-      jp: "カラータキシード"
+      "en": "vibrant tuxedo",
+      "jp": "カラータキシード"
     },
     "id": 1361,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Prom (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2880,
       "sell": 720
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14409,
         "name": {
-          en: "Monotone",
-          jp: "モノトーン"
+          "en": "Monotone",
+          "jp": "モノトーン"
         },
-        "fileName": "TopsTexOnepieceOverallLColorsuits7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLColorsuits7"
       },
       {
         "id": 14261,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLColorsuits0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLColorsuits0"
       },
       {
         "id": 14406,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceOverallLColorsuits4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLColorsuits4"
       },
       {
         "id": 14405,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLColorsuits3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLColorsuits3"
       },
       {
         "id": 14404,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLColorsuits2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLColorsuits2"
       },
       {
         "id": 14403,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLColorsuits1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLColorsuits1"
       },
       {
         "id": 14407,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallLColorsuits5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLColorsuits5"
       },
       {
         "id": 14408,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceOverallLColorsuits6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLColorsuits6"
       }
     ]
   },
   {
     "name": {
-      en: "Victorian dress",
-      jp: "セニョリータなドレス"
+      "en": "Victorian dress",
+      "jp": "セニョリータなドレス"
     },
     "id": 1085,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2520,
       "sell": 630
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12080,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceDressLMexico3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLMexico3"
       },
       {
         "id": 12082,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceDressLMexico5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLMexico5"
       },
       {
         "id": 12078,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceDressLMexico1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLMexico1"
       },
       {
         "id": 12081,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceDressLMexico4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLMexico4"
       },
       {
         "id": 9834,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "TopsTexOnepieceDressLMexico0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLMexico0"
       },
       {
         "id": 12079,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "TopsTexOnepieceDressLMexico2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressLMexico2"
       }
     ]
   },
   {
     "name": {
-      en: "visual-punk dress",
-      jp: "ヴィジュアルけいドレス"
+      "en": "visual-punk dress",
+      "jp": "ヴィジュアルけいドレス"
     },
     "id": 1156,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2040,
       "sell": 510
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11179,
         "name": {
-          en: "NA",
-          jp: "ブラック"
+          "en": false,
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceBalloonHVisual0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceBalloonHVisual0"
       }
     ]
   },
   {
     "name": {
-      en: "visual-punk outfit",
-      jp: "ヴィジュアルけいコスチューム"
+      "en": "visual-punk outfit",
+      "jp": "ヴィジュアルけいコスチューム"
     },
     "id": 442,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2040,
       "sell": 510
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4563,
         "name": {
-          en: "NA",
-          jp: "ブラック"
+          "en": false,
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLVisualBlack"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLVisualBlack"
       }
     ]
   },
   {
     "name": {
-      en: "Wario outfit",
-      jp: "ワリオのふく"
+      "en": "Wario outfit",
+      "jp": "ワリオのふく"
     },
     "id": 1323,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13557,
         "name": {
-          en: "NA",
-          jp: "パープル"
+          "en": false,
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceOverallHWario0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallHWario0"
       }
     ]
   },
   {
     "name": {
-      en: "water-egg outfit",
-      jp: "サカナのたまごのふく"
+      "en": "water-egg outfit",
+      "jp": "サカナのたまごのふく"
     },
     "id": 1210,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12454,
         "name": {
-          en: "NA",
-          jp: "パープル"
+          "en": false,
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceRibNEggfish0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNEggfish0"
       }
     ]
   },
   {
     "name": {
-      en: "watermelon dress",
-      jp: "スイカのふく"
+      "en": "watermelon dress",
+      "jp": "スイカのふく"
     },
     "id": 114,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3287,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceAlineNWatermelon"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlineNWatermelon"
       }
     ]
   },
   {
     "name": {
-      en: "wedding dress",
-      jp: "じゅんぱくのドレス"
+      "en": "wedding dress",
+      "jp": "じゅんぱくのドレス"
     },
     "id": 141,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 5000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 3336,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceDressNWedding"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceDressNWedding"
       }
     ]
   },
   {
     "name": {
-      en: "wedding tuxedo",
-      jp: "じゅんぱくのタキシード"
+      "en": "wedding tuxedo",
+      "jp": "じゅんぱくのタキシード"
     },
     "id": 1219,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12497,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLJune0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLJune0"
       }
     ]
   },
   {
     "name": {
-      en: "white hakama with crest",
-      jp: "しろいもんつきはかま"
+      "en": "white hakama with crest",
+      "jp": "しろいもんつきはかま"
     },
     "id": 1376,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Wedding Season (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4800,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14281,
         "name": {
-          en: "NA",
-          jp: "しろ"
+          "en": false,
+          "jp": "しろ"
         },
-        "fileName": "TopsTexOnepieceKimonoLCrestedWhite0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceKimonoLCrestedWhite0"
       }
     ]
   },
   {
     "name": {
-      en: "wizard's robe",
-      jp: "まじゅつしのローブ"
+      "en": "wizard's robe",
+      "jp": "まじゅつしのローブ"
     },
     "id": 282,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4000,
       "sell": 1000
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4273,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceRobeLWizard0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLWizard0"
       },
       {
         "id": 8691,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceRobeLWizard1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRobeLWizard1"
       }
     ]
   },
   {
     "name": {
-      en: "wood-egg outfit",
-      jp: "ウッディなたまごのふく"
+      "en": "wood-egg outfit",
+      "jp": "ウッディなたまごのふく"
     },
     "id": 1208,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "dresses",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12452,
         "name": {
-          en: "NA",
-          jp: "オレンジ"
+          "en": false,
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceRibNEggforest0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceRibNEggforest0"
       }
     ]
   },
   {
     "name": {
-      en: "wrestler uniform",
-      jp: "プロレススーツ"
+      "en": "wrestler uniform",
+      "jp": "プロレススーツ"
     },
     "id": 201,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8638,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestling4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestling4"
       },
       {
         "id": 3610,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestling0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestling0"
       },
       {
         "id": 8637,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestling3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestling3"
       },
       {
         "id": 8639,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestling5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestling5"
       },
       {
         "id": 8636,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestling2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestling2"
       },
       {
         "id": 8635,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestling1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestling1"
       }
     ]
   },
   {
     "name": {
-      en: "wrestling singlet",
-      jp: "レスリングのユニフォーム"
+      "en": "wrestling singlet",
+      "jp": "レスリングのユニフォーム"
     },
     "id": 578,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1540,
       "sell": 385
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5127,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestler0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestler0"
       },
       {
         "id": 8648,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestler2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestler2"
       },
       {
         "id": 8647,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallNWrestler1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallNWrestler1"
       }
     ]
   },
   {
     "name": {
-      en: "zap suit",
-      jp: "ヒーロースーツ"
+      "en": "zap suit",
+      "jp": "ヒーロースーツ"
     },
     "id": 171,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2760,
       "sell": 690
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11573,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "TopsTexOnepieceOverallLHero3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHero3"
       },
       {
         "id": 11577,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "TopsTexOnepieceOverallLHero7"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHero7"
       },
       {
         "id": 11576,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "TopsTexOnepieceOverallLHero6"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHero6"
       },
       {
         "id": 11575,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "TopsTexOnepieceOverallLHero5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHero5"
       },
       {
         "id": 3451,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "TopsTexOnepieceOverallLHero0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHero0"
       },
       {
         "id": 11574,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "TopsTexOnepieceOverallLHero4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHero4"
       },
       {
         "id": 11572,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceOverallLHero2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHero2"
       },
       {
         "id": 11571,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "TopsTexOnepieceOverallLHero1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceOverallLHero1"
       }
     ]
   },
   {
     "name": {
-      en: "zigzag-print dress",
-      jp: "エスニックワンピ"
+      "en": "zigzag-print dress",
+      "jp": "エスニックワンピ"
     },
     "id": 482,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "dresses",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 8817,
         "name": {
-          en: "Coral",
-          jp: "コーラル"
+          "en": "Coral",
+          "jp": "コーラル"
         },
-        "fileName": "TopsTexOnepieceAlongNEthnic3"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNEthnic3"
       },
       {
         "id": 8816,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "TopsTexOnepieceAlongNEthnic2"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNEthnic2"
       },
       {
         "id": 8818,
         "name": {
-          en: "Lime",
-          jp: "ライム"
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "TopsTexOnepieceAlongNEthnic4"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNEthnic4"
       },
       {
         "id": 8815,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "TopsTexOnepieceAlongNEthnic1"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNEthnic1"
       },
       {
         "id": 4616,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "TopsTexOnepieceAlongNEthnic0"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNEthnic0"
       },
       {
         "id": 8819,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "TopsTexOnepieceAlongNEthnic5"
+        "isPattern": false,
+        "imageName": "TopsTexOnepieceAlongNEthnic5"
       }
     ]
   }
-];
+]

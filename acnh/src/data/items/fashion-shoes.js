@@ -1,6172 +1,6969 @@
 fashion.shoes = [
   {
     "name": {
-      en: "antique boots",
-      jp: "アンティークなブーツ"
+      "en": "antique boots",
+      "jp": "アンティークなブーツ"
     },
     "id": 776,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2640,
       "sell": 660
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11689,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeAntique1"
+        "isPattern": false,
+        "imageName": "ShoesKneeAntique1"
       },
       {
         "id": 5523,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesKneeAntique0"
+        "isPattern": false,
+        "imageName": "ShoesKneeAntique0"
       },
       {
         "id": 11690,
         "name": {
-          en: "Greige",
-          jp: "グレージュ"
+          "en": "Greige",
+          "jp": "グレージュ"
         },
-        "fileName": "ShoesKneeAntique2"
+        "isPattern": false,
+        "imageName": "ShoesKneeAntique2"
       }
     ]
   },
   {
     "name": {
-      en: "armor shoes",
-      jp: "アイアンアーマーシューズ"
+      "en": "armor shoes",
+      "jp": "アイアンアーマーシューズ"
     },
     "id": 763,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5472,
         "name": {
-          en: "NA",
-          jp: "グレー"
+          "en": false,
+          "jp": "グレー"
         },
-        "fileName": "ShoesKneeKnightIron"
+        "isPattern": false,
+        "imageName": "ShoesKneeKnightIron"
       }
     ]
   },
   {
     "name": {
-      en: "babouches",
-      jp: "バブーシュ"
+      "en": "babouches",
+      "jp": "バブーシュ"
     },
     "id": 925,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 560,
       "sell": 140
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10112,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesSandalBaboush4"
+        "isPattern": false,
+        "imageName": "ShoesSandalBaboush4"
       },
       {
         "id": 10115,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalBaboush7"
+        "isPattern": false,
+        "imageName": "ShoesSandalBaboush7"
       },
       {
         "id": 10110,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalBaboush2"
+        "isPattern": false,
+        "imageName": "ShoesSandalBaboush2"
       },
       {
         "id": 10109,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesSandalBaboush1"
+        "isPattern": false,
+        "imageName": "ShoesSandalBaboush1"
       },
       {
         "id": 10111,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalBaboush3"
+        "isPattern": false,
+        "imageName": "ShoesSandalBaboush3"
       },
       {
         "id": 10114,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "ShoesSandalBaboush6"
+        "isPattern": false,
+        "imageName": "ShoesSandalBaboush6"
       },
       {
         "id": 6043,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalBaboush0"
+        "isPattern": false,
+        "imageName": "ShoesSandalBaboush0"
       },
       {
         "id": 10113,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalBaboush5"
+        "isPattern": false,
+        "imageName": "ShoesSandalBaboush5"
       }
     ]
   },
   {
     "name": {
-      en: "ballet slippers",
-      jp: "バレエシューズ"
+      "en": "ballet slippers",
+      "jp": "バレエシューズ"
     },
     "id": 791,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10158,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutBallet4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBallet4"
       },
       {
         "id": 5608,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutBallet0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBallet0"
       },
       {
         "id": 10161,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutBallet7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBallet7"
       },
       {
         "id": 10160,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutBallet6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBallet6"
       },
       {
         "id": 10155,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "ShoesLowcutBallet1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBallet1"
       },
       {
         "id": 10156,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutBallet2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBallet2"
       },
       {
         "id": 10157,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutBallet3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBallet3"
       },
       {
         "id": 10159,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutBallet5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBallet5"
       }
     ]
   },
   {
     "name": {
-      en: "basketball shoes",
-      jp: "バスケットシューズ"
+      "en": "basketball shoes",
+      "jp": "バスケットシューズ"
     },
     "id": 800,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5638,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesHighcutBasket0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBasket0"
       },
       {
         "id": 10066,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesHighcutBasket7"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBasket7"
       },
       {
         "id": 10062,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesHighcutBasket3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBasket3"
       },
       {
         "id": 10060,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutBasket1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBasket1"
       },
       {
         "id": 10065,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesHighcutBasket6"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBasket6"
       },
       {
         "id": 10063,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutBasket4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBasket4"
       },
       {
         "id": 10064,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesHighcutBasket5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBasket5"
       },
       {
         "id": 10061,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesHighcutBasket2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBasket2"
       }
     ]
   },
   {
     "name": {
-      en: "beaded sandals",
-      jp: "ビーズししゅうのサンダル"
+      "en": "beaded sandals",
+      "jp": "ビーズししゅうのサンダル"
     },
     "id": 769,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10139,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalBeads3"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeads3"
       },
       {
         "id": 5478,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesSandalBeads0"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeads0"
       },
       {
         "id": 10138,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalBeads2"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeads2"
       },
       {
         "id": 10140,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalBeads4"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeads4"
       },
       {
         "id": 10137,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalBeads1"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeads1"
       },
       {
         "id": 10141,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesSandalBeads5"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeads5"
       }
     ]
   },
   {
     "name": {
-      en: "boots",
-      jp: "ながぐつ"
+      "en": "boots",
+      "jp": "ながぐつ"
     },
     "id": 772,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 560,
       "sell": 140
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11685,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeRubberboots1"
+        "isPattern": false,
+        "imageName": "ShoesKneeRubberboots1"
       },
       {
         "id": 11687,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneeRubberboots3"
+        "isPattern": false,
+        "imageName": "ShoesKneeRubberboots3"
       },
       {
         "id": 11688,
         "name": {
-          en: "Olive",
-          jp: "オリーブ"
+          "en": "Olive",
+          "jp": "オリーブ"
         },
-        "fileName": "ShoesKneeRubberboots4"
+        "isPattern": false,
+        "imageName": "ShoesKneeRubberboots4"
       },
       {
         "id": 5479,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesKneeRubberboots0"
+        "isPattern": false,
+        "imageName": "ShoesKneeRubberboots0"
       },
       {
         "id": 11686,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesKneeRubberboots2"
+        "isPattern": false,
+        "imageName": "ShoesKneeRubberboots2"
       }
     ]
   },
   {
     "name": {
-      en: "business shoes",
-      jp: "ビジネスシューズ"
+      "en": "business shoes",
+      "jp": "ビジネスシューズ"
     },
     "id": 526,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4730,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutBusiness0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBusiness0"
       },
       {
         "id": 11455,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutBusiness1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBusiness1"
       }
     ]
   },
   {
     "name": {
-      en: "Cinnamoroll sneakers",
-      jp: "シナモロールなスニーカー"
+      "en": "Cinnamoroll sneakers",
+      "jp": "シナモロールなスニーカー"
     },
     "id": 1292,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13179,
         "name": {
-          en: "NA",
-          jp: "ライトブルー"
+          "en": false,
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutCinnamoroll0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutCinnamoroll0"
       }
     ]
   },
   {
     "name": {
-      en: "cleats",
-      jp: "スパイク"
+      "en": "cleats",
+      "jp": "スパイク"
     },
     "id": 811,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10248,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutSpike4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSpike4"
       },
       {
         "id": 10246,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutSpike2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSpike2"
       },
       {
         "id": 10249,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesLowcutSpike5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSpike5"
       },
       {
         "id": 10247,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutSpike3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSpike3"
       },
       {
         "id": 10250,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutSpike6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSpike6"
       },
       {
         "id": 10245,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutSpike1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSpike1"
       },
       {
         "id": 5654,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutSpike0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSpike0"
       },
       {
         "id": 10251,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutSpike7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSpike7"
       }
     ]
   },
   {
     "name": {
-      en: "comfy sandals",
-      jp: "コンフォートサンダル"
+      "en": "comfy sandals",
+      "jp": "コンフォートサンダル"
     },
     "id": 796,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10700,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesSandalComfort1"
+        "isPattern": false,
+        "imageName": "ShoesSandalComfort1"
       },
       {
         "id": 10703,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalComfort4"
+        "isPattern": false,
+        "imageName": "ShoesSandalComfort4"
       },
       {
         "id": 10704,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesSandalComfort5"
+        "isPattern": false,
+        "imageName": "ShoesSandalComfort5"
       },
       {
         "id": 10705,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalComfort6"
+        "isPattern": false,
+        "imageName": "ShoesSandalComfort6"
       },
       {
         "id": 10701,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalComfort2"
+        "isPattern": false,
+        "imageName": "ShoesSandalComfort2"
       },
       {
         "id": 10702,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalComfort3"
+        "isPattern": false,
+        "imageName": "ShoesSandalComfort3"
       },
       {
         "id": 10706,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalComfort7"
+        "isPattern": false,
+        "imageName": "ShoesSandalComfort7"
       },
       {
         "id": 5619,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesSandalComfort0"
+        "isPattern": false,
+        "imageName": "ShoesSandalComfort0"
       }
     ]
   },
   {
     "name": {
-      en: "cowboy boots",
-      jp: "ウェスタンブーツ"
+      "en": "cowboy boots",
+      "jp": "ウェスタンブーツ"
     },
     "id": 804,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2380,
       "sell": 595
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11254,
         "name": {
-          en: "Ivory",
-          jp: "アイボリー"
+          "en": "Ivory",
+          "jp": "アイボリー"
         },
-        "fileName": "ShoesKneeWestern2"
+        "isPattern": false,
+        "imageName": "ShoesKneeWestern2"
       },
       {
         "id": 11253,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeWestern1"
+        "isPattern": false,
+        "imageName": "ShoesKneeWestern1"
       },
       {
         "id": 11255,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesKneeWestern3"
+        "isPattern": false,
+        "imageName": "ShoesKneeWestern3"
       },
       {
         "id": 11256,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesKneeWestern4"
+        "isPattern": false,
+        "imageName": "ShoesKneeWestern4"
       },
       {
         "id": 5643,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesKneeWestern0"
+        "isPattern": false,
+        "imageName": "ShoesKneeWestern0"
       }
     ]
   },
   {
     "name": {
-      en: "cross-belt sandals",
-      jp: "クロスベルトサンダル"
+      "en": "cross-belt sandals",
+      "jp": "クロスベルトサンダル"
     },
     "id": 523,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10122,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesSandalCrossbelt2"
+        "isPattern": false,
+        "imageName": "ShoesSandalCrossbelt2"
       },
       {
         "id": 10124,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesSandalCrossbelt4"
+        "isPattern": false,
+        "imageName": "ShoesSandalCrossbelt4"
       },
       {
         "id": 10121,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalCrossbelt1"
+        "isPattern": false,
+        "imageName": "ShoesSandalCrossbelt1"
       },
       {
         "id": 4725,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalCrossbelt0"
+        "isPattern": false,
+        "imageName": "ShoesSandalCrossbelt0"
       },
       {
         "id": 10125,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalCrossbelt5"
+        "isPattern": false,
+        "imageName": "ShoesSandalCrossbelt5"
       },
       {
         "id": 10123,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesSandalCrossbelt3"
+        "isPattern": false,
+        "imageName": "ShoesSandalCrossbelt3"
       }
     ]
   },
   {
     "name": {
-      en: "cute sneakers",
-      jp: "キュートなスニーカー"
+      "en": "cute sneakers",
+      "jp": "キュートなスニーカー"
     },
     "id": 878,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1260,
       "sell": 315
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10267,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesHighcutCute2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutCute2"
       },
       {
         "id": 10268,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesHighcutCute3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutCute3"
       },
       {
         "id": 10266,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutCute1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutCute1"
       },
       {
         "id": 5803,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesHighcutCute0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutCute0"
       },
       {
         "id": 10270,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutCute5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutCute5"
       },
       {
         "id": 10269,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesHighcutCute4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutCute4"
       }
     ]
   },
   {
     "name": {
-      en: "DAL slippers",
-      jp: "ＤＡＬスリッパ"
+      "en": "DAL slippers",
+      "jp": "ＤＡＬスリッパ"
     },
     "id": 1184,
-    "source": {
-      en: "Dodo Airlines",
-      jp: "Dodo Airlines"
-    },
+    "source": "Dodo Airlines",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1010
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12130,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": "ブルー"
         },
-        "fileName": "AccessoryGlassSlippers0"
+        "isPattern": false,
+        "imageName": "AccessoryGlassSlippers0"
       }
     ]
   },
   {
     "name": {
-      en: "dance shoes",
-      jp: "ダンスシューズ"
+      "en": "dance shoes",
+      "jp": "ダンスシューズ"
     },
     "id": 1363,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Prom (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14383,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "ShoesLowcutDanceshoes3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutDanceshoes3"
       },
       {
         "id": 14263,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutDanceshoes0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutDanceshoes0"
       },
       {
         "id": 14385,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutDanceshoes5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutDanceshoes5"
       },
       {
         "id": 14382,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesLowcutDanceshoes2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutDanceshoes2"
       },
       {
         "id": 14381,
         "name": {
-          en: "Gold",
-          jp: "ゴールド"
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "ShoesLowcutDanceshoes1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutDanceshoes1"
       },
       {
         "id": 14386,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutDanceshoes6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutDanceshoes6"
       },
       {
         "id": 14384,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutDanceshoes4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutDanceshoes4"
       },
       {
         "id": 14387,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutDanceshoes7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutDanceshoes7"
       }
     ]
   },
   {
     "name": {
-      en: "earth-egg shoes",
-      jp: "じめんのたまごのくつ"
+      "en": "earth-egg shoes",
+      "jp": "じめんのたまごのくつ"
     },
     "id": 1211,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12455,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutEggground0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEggground0"
       }
     ]
   },
   {
     "name": {
-      en: "embroidered shoes",
-      jp: "ししゅうのくつ"
+      "en": "embroidered shoes",
+      "jp": "ししゅうのくつ"
     },
     "id": 1098,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11987,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutEmbroidery1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEmbroidery1"
       },
       {
         "id": 11988,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutEmbroidery2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEmbroidery2"
       },
       {
         "id": 9847,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutEmbroidery0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEmbroidery0"
       },
       {
         "id": 11989,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutEmbroidery3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEmbroidery3"
       }
     ]
   },
   {
     "name": {
-      en: "faux-fur ankle booties",
-      jp: "ファーブーツ"
+      "en": "faux-fur ankle booties",
+      "jp": "ファーブーツ"
     },
     "id": 767,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1450,
       "sell": 362
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11683,
         "name": {
-          en: "Ruby red",
-          jp: "ルージュ"
+          "en": "Ruby red",
+          "jp": "ルージュ"
         },
-        "fileName": "ShoesHighcutFurboots2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutFurboots2"
       },
       {
         "id": 5476,
         "name": {
-          en: "Olive",
-          jp: "オリーブ"
+          "en": "Olive",
+          "jp": "オリーブ"
         },
-        "fileName": "ShoesHighcutFurboots0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutFurboots0"
       },
       {
         "id": 11684,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "ShoesHighcutFurboots3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutFurboots3"
       },
       {
         "id": 11682,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesHighcutFurboots1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutFurboots1"
       }
     ]
   },
   {
     "name": {
-      en: "faux-shearling boots",
-      jp: "ムートンブーツ"
+      "en": "faux-shearling boots",
+      "jp": "ムートンブーツ"
     },
     "id": 520,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11550,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesHighcutMouton4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMouton4"
       },
       {
         "id": 11549,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesHighcutMouton3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMouton3"
       },
       {
         "id": 11547,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesHighcutMouton1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMouton1"
       },
       {
         "id": 11548,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutMouton2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMouton2"
       },
       {
         "id": 4721,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesHighcutMouton0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMouton0"
       }
     ]
   },
   {
     "name": {
-      en: "faux-suede sneakers",
-      jp: "スエードスニーカー"
+      "en": "faux-suede sneakers",
+      "jp": "スエードスニーカー"
     },
     "id": 1003,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1080,
       "sell": 270
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10080,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "ShoesLowcutSuede7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSuede7"
       },
       {
         "id": 10077,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutSuede4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSuede4"
       },
       {
         "id": 10076,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesLowcutSuede3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSuede3"
       },
       {
         "id": 6893,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutSuede0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSuede0"
       },
       {
         "id": 10078,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutSuede5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSuede5"
       },
       {
         "id": 10074,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "ShoesLowcutSuede1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSuede1"
       },
       {
         "id": 10079,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutSuede6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSuede6"
       },
       {
         "id": 10075,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesLowcutSuede2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSuede2"
       }
     ]
   },
   {
     "name": {
-      en: "flashy animal boots",
-      jp: "ハデなアニマルきぐるみブーツ"
+      "en": "flashy animal boots",
+      "jp": "ハデなアニマルきぐるみブーツ"
     },
     "id": 1269,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": false,
+    "version": "1.5.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1260,
       "sell": 315
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13414,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutHalloween2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHalloween2"
       },
       {
         "id": 13417,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutHalloween5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHalloween5"
       },
       {
         "id": 13416,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutHalloween4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHalloween4"
       },
       {
         "id": 13016,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesLowcutHalloween0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHalloween0"
       },
       {
         "id": 13415,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutHalloween3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHalloween3"
       },
       {
         "id": 13413,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutHalloween1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHalloween1"
       }
     ]
   },
   {
     "name": {
-      en: "flip-flops",
-      jp: "ビーチサンダル"
+      "en": "flip-flops",
+      "jp": "ビーチサンダル"
     },
     "id": 761,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 350,
       "sell": 87
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10735,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesSandalBeachborder3"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeachborder3"
       },
       {
         "id": 10739,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalBeachborder7"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeachborder7"
       },
       {
         "id": 10738,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalBeachborder6"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeachborder6"
       },
       {
         "id": 10736,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesSandalBeachborder4"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeachborder4"
       },
       {
         "id": 10169,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalBeachborder2"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeachborder2"
       },
       {
         "id": 6922,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalBeachborder1"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeachborder1"
       },
       {
         "id": 10737,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesSandalBeachborder5"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeachborder5"
       },
       {
         "id": 5470,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalBeachborder0"
+        "isPattern": false,
+        "imageName": "ShoesSandalBeachborder0"
       }
     ]
   },
   {
     "name": {
-      en: "flower sandals",
-      jp: "フラワーなサンダル"
+      "en": "flower sandals",
+      "jp": "フラワーなサンダル"
     },
     "id": 766,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10131,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesSandalFlower6"
+        "isPattern": false,
+        "imageName": "ShoesSandalFlower6"
       },
       {
         "id": 10130,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesSandalFlower5"
+        "isPattern": false,
+        "imageName": "ShoesSandalFlower5"
       },
       {
         "id": 10126,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalFlower1"
+        "isPattern": false,
+        "imageName": "ShoesSandalFlower1"
       },
       {
         "id": 5475,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalFlower0"
+        "isPattern": false,
+        "imageName": "ShoesSandalFlower0"
       },
       {
         "id": 10127,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalFlower2"
+        "isPattern": false,
+        "imageName": "ShoesSandalFlower2"
       },
       {
         "id": 10129,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalFlower4"
+        "isPattern": false,
+        "imageName": "ShoesSandalFlower4"
       },
       {
         "id": 10128,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalFlower3"
+        "isPattern": false,
+        "imageName": "ShoesSandalFlower3"
       }
     ]
   },
   {
     "name": {
-      en: "ghillie brogues",
-      jp: "ギリー・ブローグズ"
+      "en": "ghillie brogues",
+      "jp": "ギリー・ブローグズ"
     },
     "id": 924,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2340,
       "sell": 585
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11478,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutBrogues2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBrogues2"
       },
       {
         "id": 11477,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutBrogues1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBrogues1"
       },
       {
         "id": 6042,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutBrogues0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutBrogues0"
       }
     ]
   },
   {
     "name": {
-      en: "gladiator sandals",
-      jp: "グラディエーターサンダル"
+      "en": "gladiator sandals",
+      "jp": "グラディエーターサンダル"
     },
     "id": 797,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11251,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesSandalGladiator1"
+        "isPattern": false,
+        "imageName": "ShoesSandalGladiator1"
       },
       {
         "id": 11252,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalGladiator2"
+        "isPattern": false,
+        "imageName": "ShoesSandalGladiator2"
       },
       {
         "id": 5620,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesSandalGladiator0"
+        "isPattern": false,
+        "imageName": "ShoesSandalGladiator0"
       }
     ]
   },
   {
     "name": {
-      en: "gold-armor shoes",
-      jp: "ゴールデンアーマーシューズ"
+      "en": "gold-armor shoes",
+      "jp": "ゴールデンアーマーシューズ"
     },
     "id": 777,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 40000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5524,
         "name": {
-          en: "NA",
-          jp: "ゴールド"
+          "en": false,
+          "jp": "ゴールド"
         },
-        "fileName": "ShoesKneeKnightGold"
+        "isPattern": false,
+        "imageName": "ShoesKneeKnightGold"
       }
     ]
   },
   {
     "name": {
-      en: "Hello Kitty shoes",
-      jp: "ハローキティなくつ"
+      "en": "Hello Kitty shoes",
+      "jp": "ハローキティなくつ"
     },
     "id": 1281,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13167,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutKitty0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKitty0"
       }
     ]
   },
   {
     "name": {
-      en: "hi-tech sneakers",
-      jp: "ハイテクシューズ"
+      "en": "hi-tech sneakers",
+      "jp": "ハイテクシューズ"
     },
     "id": 814,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1260,
       "sell": 315
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10252,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesHighcutHightech1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHightech1"
       },
       {
         "id": 5659,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesHighcutHightech0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHightech0"
       },
       {
         "id": 10253,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutHightech2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHightech2"
       },
       {
         "id": 10254,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesHighcutHightech3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHightech3"
       },
       {
         "id": 10255,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutHightech4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHightech4"
       }
     ]
   },
   {
     "name": {
-      en: "high-tops",
-      jp: "ハイカットスニーカー"
+      "en": "high-tops",
+      "jp": "ハイカットスニーカー"
     },
     "id": 938,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1080,
       "sell": 270
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10045,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesHighcutSneaker7"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSneaker7"
       },
       {
         "id": 2572,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesHighcutSneaker0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSneaker0"
       },
       {
         "id": 10043,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesHighcutSneaker5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSneaker5"
       },
       {
         "id": 10044,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesHighcutSneaker6"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSneaker6"
       },
       {
         "id": 10040,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutSneaker2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSneaker2"
       },
       {
         "id": 10041,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutSneaker3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSneaker3"
       },
       {
         "id": 10042,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesHighcutSneaker4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSneaker4"
       },
       {
         "id": 10039,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesHighcutSneaker1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSneaker1"
       }
     ]
   },
   {
     "name": {
-      en: "house slippers",
-      jp: "ルームシューズ"
+      "en": "house slippers",
+      "jp": "ルームシューズ"
     },
     "id": 785,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 490,
       "sell": 122
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5564,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesSandalRoomborder0"
+        "isPattern": false,
+        "imageName": "ShoesSandalRoomborder0"
       },
       {
         "id": 10096,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalRoomborder6"
+        "isPattern": false,
+        "imageName": "ShoesSandalRoomborder6"
       },
       {
         "id": 10092,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalRoomborder2"
+        "isPattern": false,
+        "imageName": "ShoesSandalRoomborder2"
       },
       {
         "id": 10093,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalRoomborder3"
+        "isPattern": false,
+        "imageName": "ShoesSandalRoomborder3"
       },
       {
         "id": 10094,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalRoomborder4"
+        "isPattern": false,
+        "imageName": "ShoesSandalRoomborder4"
       },
       {
         "id": 10095,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalRoomborder5"
+        "isPattern": false,
+        "imageName": "ShoesSandalRoomborder5"
       },
       {
         "id": 10091,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "ShoesSandalRoomborder1"
+        "isPattern": false,
+        "imageName": "ShoesSandalRoomborder1"
       },
       {
         "id": 10097,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesSandalRoomborder7"
+        "isPattern": false,
+        "imageName": "ShoesSandalRoomborder7"
       }
     ]
   },
   {
     "name": {
-      en: "jester's shoes",
-      jp: "ピエロのくつ"
+      "en": "jester's shoes",
+      "jp": "ピエロのくつ"
     },
     "id": 801,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1900,
       "sell": 475
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11558,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeClown1"
+        "isPattern": false,
+        "imageName": "ShoesKneeClown1"
       },
       {
         "id": 11559,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneeClown2"
+        "isPattern": false,
+        "imageName": "ShoesKneeClown2"
       },
       {
         "id": 11560,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesKneeClown3"
+        "isPattern": false,
+        "imageName": "ShoesKneeClown3"
       },
       {
         "id": 5639,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesKneeClown0"
+        "isPattern": false,
+        "imageName": "ShoesKneeClown0"
       }
     ]
   },
   {
     "name": {
-      en: "Kerokerokeroppi boots",
-      jp: "けろけろけろっぴなブーツ"
+      "en": "Kerokerokeroppi boots",
+      "jp": "けろけろけろっぴなブーツ"
     },
     "id": 1297,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13184,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutKeroppi0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKeroppi0"
       }
     ]
   },
   {
     "name": {
-      en: "kiddie sneakers",
-      jp: "キッズなスニーカー"
+      "en": "kiddie sneakers",
+      "jp": "キッズなスニーカー"
     },
     "id": 864,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 700,
       "sell": 175
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10264,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "ShoesHighcutSports4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSports4"
       },
       {
         "id": 10265,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesHighcutSports5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSports5"
       },
       {
         "id": 5761,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesHighcutSports0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSports0"
       },
       {
         "id": 10262,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutSports2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSports2"
       },
       {
         "id": 10261,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutSports1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSports1"
       },
       {
         "id": 10263,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesHighcutSports3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutSports3"
       }
     ]
   },
   {
     "name": {
-      en: "Kiki & Lala shoes",
-      jp: "キキ&ララなストラップシューズ"
+      "en": "Kiki & Lala shoes",
+      "jp": "キキ&ララなストラップシューズ"
     },
     "id": 1287,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13174,
         "name": {
-          en: "NA",
-          jp: "ピンク"
+          "en": false,
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutKikilala0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKikilala0"
       }
     ]
   },
   {
     "name": {
-      en: "kimono sandals",
-      jp: "げた"
+      "en": "kimono sandals",
+      "jp": "げた"
     },
     "id": 236,
-    "source": {
-      en: "Kicks; Able Sisters",
-      jp: "Kicks; Able Sisters"
-    },
+    "source": "Kicks; Able Sisters",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10965,
         "name": {
-          en: "Gray",
-          jp: "はいいろ"
+          "en": "Gray",
+          "jp": "はいいろ"
         },
-        "fileName": "ShoesSandalGeta4"
+        "isPattern": false,
+        "imageName": "ShoesSandalGeta4"
       },
       {
         "id": 3704,
         "name": {
-          en: "Black",
-          jp: "くろ"
+          "en": "Black",
+          "jp": "くろ"
         },
-        "fileName": "ShoesSandalGeta0"
+        "isPattern": false,
+        "imageName": "ShoesSandalGeta0"
       },
       {
         "id": 10962,
         "name": {
-          en: "Red",
-          jp: "あか"
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "ShoesSandalGeta1"
+        "isPattern": false,
+        "imageName": "ShoesSandalGeta1"
       },
       {
         "id": 10963,
         "name": {
-          en: "Pink",
-          jp: "ももいろ"
+          "en": "Pink",
+          "jp": "ももいろ"
         },
-        "fileName": "ShoesSandalGeta2"
+        "isPattern": false,
+        "imageName": "ShoesSandalGeta2"
       },
       {
         "id": 10967,
         "name": {
-          en: "Yellow",
-          jp: "きいろ"
+          "en": "Yellow",
+          "jp": "きいろ"
         },
-        "fileName": "ShoesSandalGeta6"
+        "isPattern": false,
+        "imageName": "ShoesSandalGeta6"
       },
       {
         "id": 10968,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "ShoesSandalGeta7"
+        "isPattern": false,
+        "imageName": "ShoesSandalGeta7"
       },
       {
         "id": 10964,
         "name": {
-          en: "Dark blue",
-          jp: "こん"
+          "en": "Dark blue",
+          "jp": "こん"
         },
-        "fileName": "ShoesSandalGeta3"
+        "isPattern": false,
+        "imageName": "ShoesSandalGeta3"
       },
       {
         "id": 10966,
         "name": {
-          en: "Purple",
-          jp: "むらさき"
+          "en": "Purple",
+          "jp": "むらさき"
         },
-        "fileName": "ShoesSandalGeta5"
+        "isPattern": false,
+        "imageName": "ShoesSandalGeta5"
       }
     ]
   },
   {
     "name": {
-      en: "kung-fu shoes",
-      jp: "カンフーシューズ"
+      "en": "kung-fu shoes",
+      "jp": "カンフーシューズ"
     },
     "id": 1097,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1260,
       "sell": 315
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9846,
         "name": {
-          en: "NA",
-          jp: "ブラック"
+          "en": false,
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutKungfu0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKungfu0"
       }
     ]
   },
   {
     "name": {
-      en: "Labelle pumps",
-      jp: "ケイトのパンプス"
+      "en": "Labelle pumps",
+      "jp": "ケイトのパンプス"
     },
     "id": 1135,
-    "source": {
-      en: "Label",
-      jp: "Label"
-    },
+    "source": "Label",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3500,
       "sell": 875
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11766,
         "name": {
-          en: "Midnight",
-          jp: "ミッドナイト"
+          "en": "Midnight",
+          "jp": "ミッドナイト"
         },
-        "fileName": "ShoesLowcutKateheel1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKateheel1"
       },
       {
         "id": 11767,
         "name": {
-          en: "Passion",
-          jp: "パッション"
+          "en": "Passion",
+          "jp": "パッション"
         },
-        "fileName": "ShoesLowcutKateheel2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKateheel2"
       },
       {
         "id": 11770,
         "name": {
-          en: "Love",
-          jp: "ラブ"
+          "en": "Love",
+          "jp": "ラブ"
         },
-        "fileName": "ShoesLowcutKateheel5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKateheel5"
       },
       {
         "id": 11769,
         "name": {
-          en: "Sunset",
-          jp: "サンセット"
+          "en": "Sunset",
+          "jp": "サンセット"
         },
-        "fileName": "ShoesLowcutKateheel4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKateheel4"
       },
       {
         "id": 11768,
         "name": {
-          en: "Ocean",
-          jp: "オーシャン"
+          "en": "Ocean",
+          "jp": "オーシャン"
         },
-        "fileName": "ShoesLowcutKateheel3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKateheel3"
       },
       {
         "id": 9884,
         "name": {
-          en: "Twilight",
-          jp: "トワイライト"
+          "en": "Twilight",
+          "jp": "トワイライト"
         },
-        "fileName": "ShoesLowcutKateheel0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutKateheel0"
       }
     ]
   },
   {
     "name": {
-      en: "Labelle sneakers",
-      jp: "ケイトのスニーカー"
+      "en": "Labelle sneakers",
+      "jp": "ケイトのスニーカー"
     },
     "id": 1136,
-    "source": {
-      en: "Label",
-      jp: "Label"
-    },
+    "source": "Label",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3300,
       "sell": 825
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11771,
         "name": {
-          en: "Midnight",
-          jp: "ミッドナイト"
+          "en": "Midnight",
+          "jp": "ミッドナイト"
         },
-        "fileName": "ShoesHighcutKatesneaker1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutKatesneaker1"
       },
       {
         "id": 11772,
         "name": {
-          en: "Passion",
-          jp: "パッション"
+          "en": "Passion",
+          "jp": "パッション"
         },
-        "fileName": "ShoesHighcutKatesneaker2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutKatesneaker2"
       },
       {
         "id": 11775,
         "name": {
-          en: "Love",
-          jp: "ラブ"
+          "en": "Love",
+          "jp": "ラブ"
         },
-        "fileName": "ShoesHighcutKatesneaker5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutKatesneaker5"
       },
       {
         "id": 11774,
         "name": {
-          en: "Sunset",
-          jp: "サンセット"
+          "en": "Sunset",
+          "jp": "サンセット"
         },
-        "fileName": "ShoesHighcutKatesneaker4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutKatesneaker4"
       },
       {
         "id": 11773,
         "name": {
-          en: "Ocean",
-          jp: "オーシャン"
+          "en": "Ocean",
+          "jp": "オーシャン"
         },
-        "fileName": "ShoesHighcutKatesneaker3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutKatesneaker3"
       },
       {
         "id": 9885,
         "name": {
-          en: "Twilight",
-          jp: "トワイライト"
+          "en": "Twilight",
+          "jp": "トワイライト"
         },
-        "fileName": "ShoesHighcutKatesneaker0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutKatesneaker0"
       }
     ]
   },
   {
     "name": {
-      en: "lace-up boots",
-      jp: "あみあげブーツ"
+      "en": "lace-up boots",
+      "jp": "あみあげブーツ"
     },
     "id": 820,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11257,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesKneeLaceup1"
+        "isPattern": false,
+        "imageName": "ShoesKneeLaceup1"
       },
       {
         "id": 5667,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeLaceup0"
+        "isPattern": false,
+        "imageName": "ShoesKneeLaceup0"
       },
       {
         "id": 11259,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneeLaceup3"
+        "isPattern": false,
+        "imageName": "ShoesKneeLaceup3"
       },
       {
         "id": 11258,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesKneeLaceup2"
+        "isPattern": false,
+        "imageName": "ShoesKneeLaceup2"
       }
     ]
   },
   {
     "name": {
-      en: "leaf-egg shoes",
-      jp: "はっぱのたまごのくつ"
+      "en": "leaf-egg shoes",
+      "jp": "はっぱのたまごのくつ"
     },
     "id": 1213,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12457,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutEggleaf0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEggleaf0"
       }
     ]
   },
   {
     "name": {
-      en: "leopard pumps",
-      jp: "アニマルパンプス"
+      "en": "leopard pumps",
+      "jp": "アニマルパンプス"
     },
     "id": 768,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1560,
       "sell": 390
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10132,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesLowcutLeopard1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeopard1"
       },
       {
         "id": 10136,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutLeopard5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeopard5"
       },
       {
         "id": 10134,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutLeopard3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeopard3"
       },
       {
         "id": 10133,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutLeopard2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeopard2"
       },
       {
         "id": 10135,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutLeopard4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeopard4"
       },
       {
         "id": 5477,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesLowcutLeopard0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeopard0"
       }
     ]
   },
   {
     "name": {
-      en: "loafers",
-      jp: "ローファー"
+      "en": "loafers",
+      "jp": "ローファー"
     },
     "id": 522,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11450,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutLoafers2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLoafers2"
       },
       {
         "id": 11449,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutLoafers1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLoafers1"
       },
       {
         "id": 11454,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutLoafers6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLoafers6"
       },
       {
         "id": 11451,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutLoafers3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLoafers3"
       },
       {
         "id": 11453,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutLoafers5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLoafers5"
       },
       {
         "id": 11452,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutLoafers4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLoafers4"
       },
       {
         "id": 4724,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutLoafers0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLoafers0"
       }
     ]
   },
   {
     "name": {
-      en: "Luigi shoes",
-      jp: "ルイージのくつ"
+      "en": "Luigi shoes",
+      "jp": "ルイージのくつ"
     },
     "id": 1355,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14243,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutLuigi0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLuigi0"
       }
     ]
   },
   {
     "name": {
-      en: "mage's booties",
-      jp: "とんがりブーツ"
+      "en": "mage's booties",
+      "jp": "とんがりブーツ"
     },
     "id": 947,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1550,
       "sell": 387
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11562,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesKneeWitch2"
+        "isPattern": false,
+        "imageName": "ShoesKneeWitch2"
       },
       {
         "id": 6894,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeWitch0"
+        "isPattern": false,
+        "imageName": "ShoesKneeWitch0"
       },
       {
         "id": 11563,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneeWitch3"
+        "isPattern": false,
+        "imageName": "ShoesKneeWitch3"
       },
       {
         "id": 11561,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesKneeWitch1"
+        "isPattern": false,
+        "imageName": "ShoesKneeWitch1"
       }
     ]
   },
   {
     "name": {
-      en: "mage's boots",
-      jp: "まほうつかいのブーツ"
+      "en": "mage's boots",
+      "jp": "まほうつかいのブーツ"
     },
     "id": 1270,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": false,
+    "version": "1.5.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13429,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesHighcutHalloween2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHalloween2"
       },
       {
         "id": 13432,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesHighcutHalloween5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHalloween5"
       },
       {
         "id": 13431,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesHighcutHalloween4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHalloween4"
       },
       {
         "id": 13017,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesHighcutHalloween0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHalloween0"
       },
       {
         "id": 13430,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutHalloween3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHalloween3"
       },
       {
         "id": 13428,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesHighcutHalloween1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutHalloween1"
       }
     ]
   },
   {
     "name": {
-      en: "Mario shoes",
-      jp: "マリオのくつ"
+      "en": "Mario shoes",
+      "jp": "マリオのくつ"
     },
     "id": 1328,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13561,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutMario0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMario0"
       }
     ]
   },
   {
     "name": {
-      en: "mary janes",
-      jp: "ストラップシューズ"
+      "en": "mary janes",
+      "jp": "ストラップシューズ"
     },
     "id": 762,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10163,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutStrap2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutStrap2"
       },
       {
         "id": 5471,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutStrap0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutStrap0"
       },
       {
         "id": 10162,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutStrap1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutStrap1"
       },
       {
         "id": 10168,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutStrap7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutStrap7"
       },
       {
         "id": 10165,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutStrap4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutStrap4"
       },
       {
         "id": 10167,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutStrap6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutStrap6"
       },
       {
         "id": 10164,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutStrap3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutStrap3"
       },
       {
         "id": 10166,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutStrap5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutStrap5"
       }
     ]
   },
   {
     "name": {
-      en: "mermaid shoes",
-      jp: "マーメイドなくつ"
+      "en": "mermaid shoes",
+      "jp": "マーメイドなくつ"
     },
     "id": 1223,
-    "source": {
-      en: "Pascal",
-      jp: "Pascal"
-    },
+    "source": "Pascal",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 450
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12660,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutMermaid0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMermaid0"
       },
       {
         "id": 13087,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutMermaid1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMermaid1"
       }
     ]
   },
   {
     "name": {
-      en: "moccasin boots",
-      jp: "モカシンブーツ"
+      "en": "moccasin boots",
+      "jp": "モカシンブーツ"
     },
     "id": 780,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1120,
       "sell": 280
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11459,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesHighcutMoccasin4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMoccasin4"
       },
       {
         "id": 11458,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesHighcutMoccasin3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMoccasin3"
       },
       {
         "id": 5542,
         "name": {
-          en: "Camel",
-          jp: "キャメル"
+          "en": "Camel",
+          "jp": "キャメル"
         },
-        "fileName": "ShoesHighcutMoccasin0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMoccasin0"
       },
       {
         "id": 11456,
         "name": {
-          en: "Olive",
-          jp: "オリーブ"
+          "en": "Olive",
+          "jp": "オリーブ"
         },
-        "fileName": "ShoesHighcutMoccasin1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMoccasin1"
       },
       {
         "id": 11460,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutMoccasin5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMoccasin5"
       },
       {
         "id": 11461,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesHighcutMoccasin6"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMoccasin6"
       },
       {
         "id": 11457,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesHighcutMoccasin2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutMoccasin2"
       }
     ]
   },
   {
     "name": {
-      en: "moccasins",
-      jp: "モカシン"
+      "en": "moccasins",
+      "jp": "モカシン"
     },
     "id": 881,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1080,
       "sell": 270
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11467,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutMoccasin3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMoccasin3"
       },
       {
         "id": 11469,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesLowcutMoccasin5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMoccasin5"
       },
       {
         "id": 11470,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutMoccasin6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMoccasin6"
       },
       {
         "id": 11465,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutMoccasin1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMoccasin1"
       },
       {
         "id": 11468,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutMoccasin4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMoccasin4"
       },
       {
         "id": 5807,
         "name": {
-          en: "Camel",
-          jp: "キャメル"
+          "en": "Camel",
+          "jp": "キャメル"
         },
-        "fileName": "ShoesLowcutMoccasin0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMoccasin0"
       },
       {
         "id": 11466,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutMoccasin2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMoccasin2"
       }
     ]
   },
   {
     "name": {
-      en: "My Melody boots",
-      jp: "マイメロディなブーツ"
+      "en": "My Melody boots",
+      "jp": "マイメロディなブーツ"
     },
     "id": 1283,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13169,
         "name": {
-          en: "NA",
-          jp: "ピンク"
+          "en": false,
+          "jp": "ピンク"
         },
-        "fileName": "ShoesKneeMymelody0"
+        "isPattern": false,
+        "imageName": "ShoesKneeMymelody0"
       }
     ]
   },
   {
     "name": {
-      en: "Nook Inc. slippers",
-      jp: "たぬきかいはつスリッパ"
+      "en": "Nook Inc. slippers",
+      "jp": "たぬきかいはつスリッパ"
     },
     "id": 1145,
-    "source": {
-      en: "Nook Miles Redemption",
-      jp: "Nook Miles Redemption"
-    },
+    "source": "Nook Miles Redemption",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5630,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesSandalRco"
+        "isPattern": false,
+        "imageName": "ShoesSandalRco"
       }
     ]
   },
   {
     "name": {
-      en: "outdoor sandals",
-      jp: "アウトドアサンダル"
+      "en": "outdoor sandals",
+      "jp": "アウトドアサンダル"
     },
     "id": 802,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 630,
       "sell": 157
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10712,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesSandalOutdoor6"
+        "isPattern": false,
+        "imageName": "ShoesSandalOutdoor6"
       },
       {
         "id": 10713,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesSandalOutdoor7"
+        "isPattern": false,
+        "imageName": "ShoesSandalOutdoor7"
       },
       {
         "id": 10707,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalOutdoor1"
+        "isPattern": false,
+        "imageName": "ShoesSandalOutdoor1"
       },
       {
         "id": 10711,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesSandalOutdoor5"
+        "isPattern": false,
+        "imageName": "ShoesSandalOutdoor5"
       },
       {
         "id": 10710,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalOutdoor4"
+        "isPattern": false,
+        "imageName": "ShoesSandalOutdoor4"
       },
       {
         "id": 5640,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalOutdoor0"
+        "isPattern": false,
+        "imageName": "ShoesSandalOutdoor0"
       },
       {
         "id": 10708,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalOutdoor2"
+        "isPattern": false,
+        "imageName": "ShoesSandalOutdoor2"
       },
       {
         "id": 10709,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalOutdoor3"
+        "isPattern": false,
+        "imageName": "ShoesSandalOutdoor3"
       }
     ]
   },
   {
     "name": {
-      en: "paw slippers",
-      jp: "アニマルスリッパ"
+      "en": "paw slippers",
+      "jp": "アニマルスリッパ"
     },
     "id": 760,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1260,
       "sell": 315
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10977,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutAnimal2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutAnimal2"
       },
       {
         "id": 10979,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutAnimal4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutAnimal4"
       },
       {
         "id": 5469,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutAnimal0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutAnimal0"
       },
       {
         "id": 10978,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutAnimal3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutAnimal3"
       },
       {
         "id": 10976,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutAnimal1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutAnimal1"
       }
     ]
   },
   {
     "name": {
-      en: "pirate boots",
-      jp: "かいぞくのブーツ"
+      "en": "pirate boots",
+      "jp": "かいぞくのブーツ"
     },
     "id": 1228,
-    "source": {
-      en: "Gullivarrr",
-      jp: "Gullivarrr"
-    },
+    "source": "Gullivarrr",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 660
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12665,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesKneePirates0"
+        "isPattern": false,
+        "imageName": "ShoesKneePirates0"
       }
     ]
   },
   {
     "name": {
-      en: "pleather ankle booties",
-      jp: "レザーのショートブーツ"
+      "en": "pleather ankle booties",
+      "jp": "レザーのショートブーツ"
     },
     "id": 765,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1280,
       "sell": 320
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11679,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesHighcutShortboots1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutShortboots1"
       },
       {
         "id": 11681,
         "name": {
-          en: "Mustard",
-          jp: "マスタード"
+          "en": "Mustard",
+          "jp": "マスタード"
         },
-        "fileName": "ShoesHighcutShortboots3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutShortboots3"
       },
       {
         "id": 11680,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutShortboots2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutShortboots2"
       },
       {
         "id": 5474,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesHighcutShortboots0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutShortboots0"
       }
     ]
   },
   {
     "name": {
-      en: "pleather sneakers",
-      jp: "レザーのスニーカー"
+      "en": "pleather sneakers",
+      "jp": "レザーのスニーカー"
     },
     "id": 517,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 700,
       "sell": 175
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 4716,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutLeathersneker0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeathersneker0"
       },
       {
         "id": 10046,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutLeathersneker1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeathersneker1"
       },
       {
         "id": 10047,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutLeathersneker2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeathersneker2"
       },
       {
         "id": 10052,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesLowcutLeathersneker7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeathersneker7"
       },
       {
         "id": 10050,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutLeathersneker5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeathersneker5"
       },
       {
         "id": 10048,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutLeathersneker3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeathersneker3"
       },
       {
         "id": 10051,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutLeathersneker6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeathersneker6"
       },
       {
         "id": 10049,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutLeathersneker4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLeathersneker4"
       }
     ]
   },
   {
     "name": {
-      en: "pom-pom boots",
-      jp: "ポンポンつきブーツ"
+      "en": "pom-pom boots",
+      "jp": "ポンポンつきブーツ"
     },
     "id": 782,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11694,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesHighcutBobbles6"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBobbles6"
       },
       {
         "id": 6860,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesHighcutBobbles1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBobbles1"
       },
       {
         "id": 5545,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesHighcutBobbles0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBobbles0"
       },
       {
         "id": 6867,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesHighcutBobbles2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBobbles2"
       },
       {
         "id": 11692,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutBobbles4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBobbles4"
       },
       {
         "id": 11693,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutBobbles5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBobbles5"
       },
       {
         "id": 11691,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesHighcutBobbles3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutBobbles3"
       }
     ]
   },
   {
     "name": {
-      en: "Pompompurin boots",
-      jp: "ポムポムプリンなブーツ"
+      "en": "Pompompurin boots",
+      "jp": "ポムポムプリンなブーツ"
     },
     "id": 1290,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13177,
         "name": {
-          en: "NA",
-          jp: "イエロー"
+          "en": false,
+          "jp": "イエロー"
         },
-        "fileName": "ShoesKneePurin0"
+        "isPattern": false,
+        "imageName": "ShoesKneePurin0"
       }
     ]
   },
   {
     "name": {
-      en: "power boots",
-      jp: "パワードブーツ"
+      "en": "power boots",
+      "jp": "パワードブーツ"
     },
     "id": 839,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3150,
       "sell": 787
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11799,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneePowered3"
+        "isPattern": false,
+        "imageName": "ShoesKneePowered3"
       },
       {
         "id": 5698,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneePowered0"
+        "isPattern": false,
+        "imageName": "ShoesKneePowered0"
       },
       {
         "id": 11798,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesKneePowered2"
+        "isPattern": false,
+        "imageName": "ShoesKneePowered2"
       },
       {
         "id": 11797,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesKneePowered1"
+        "isPattern": false,
+        "imageName": "ShoesKneePowered1"
       }
     ]
   },
   {
     "name": {
-      en: "Princess Peach shoes",
-      jp: "ピーチひめのくつ"
+      "en": "Princess Peach shoes",
+      "jp": "ピーチひめのくつ"
     },
     "id": 1331,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13602,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutPeach0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutPeach0"
       }
     ]
   },
   {
     "name": {
-      en: "rain boots",
-      jp: "レインブーツ"
+      "en": "rain boots",
+      "jp": "レインブーツ"
     },
     "id": 529,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 490,
       "sell": 122
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11557,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeRainboots7"
+        "isPattern": false,
+        "imageName": "ShoesKneeRainboots7"
       },
       {
         "id": 11555,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneeRainboots5"
+        "isPattern": false,
+        "imageName": "ShoesKneeRainboots5"
       },
       {
         "id": 11554,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesKneeRainboots4"
+        "isPattern": false,
+        "imageName": "ShoesKneeRainboots4"
       },
       {
         "id": 4733,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesKneeRainboots0"
+        "isPattern": false,
+        "imageName": "ShoesKneeRainboots0"
       },
       {
         "id": 11551,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesKneeRainboots1"
+        "isPattern": false,
+        "imageName": "ShoesKneeRainboots1"
       },
       {
         "id": 11552,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesKneeRainboots2"
+        "isPattern": false,
+        "imageName": "ShoesKneeRainboots2"
       },
       {
         "id": 11553,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesKneeRainboots3"
+        "isPattern": false,
+        "imageName": "ShoesKneeRainboots3"
       },
       {
         "id": 11556,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesKneeRainboots6"
+        "isPattern": false,
+        "imageName": "ShoesKneeRainboots6"
       }
     ]
   },
   {
     "name": {
-      en: "recycled boots",
-      jp: "リサイクルながぐつ"
+      "en": "recycled boots",
+      "jp": "リサイクルながぐつ"
     },
     "id": 1191,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 40
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12326,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesKneeRecyclingboots0"
+        "isPattern": false,
+        "imageName": "ShoesKneeRecyclingboots0"
       }
     ]
   },
   {
     "name": {
-      en: "restroom slippers",
-      jp: "トイレスリッパ"
+      "en": "restroom slippers",
+      "jp": "トイレスリッパ"
     },
     "id": 876,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 350,
       "sell": 87
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10105,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutToilet1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutToilet1"
       },
       {
         "id": 10108,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutToilet4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutToilet4"
       },
       {
         "id": 10106,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutToilet2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutToilet2"
       },
       {
         "id": 10107,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutToilet3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutToilet3"
       },
       {
         "id": 5800,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "ShoesLowcutToilet0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutToilet0"
       }
     ]
   },
   {
     "name": {
-      en: "ribbon sandals",
-      jp: "リボンサンダル"
+      "en": "ribbon sandals",
+      "jp": "リボンサンダル"
     },
     "id": 888,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10721,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesSandalRibbon1"
+        "isPattern": false,
+        "imageName": "ShoesSandalRibbon1"
       },
       {
         "id": 10727,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesSandalRibbon7"
+        "isPattern": false,
+        "imageName": "ShoesSandalRibbon7"
       },
       {
         "id": 10726,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesSandalRibbon6"
+        "isPattern": false,
+        "imageName": "ShoesSandalRibbon6"
       },
       {
         "id": 10725,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "ShoesSandalRibbon5"
+        "isPattern": false,
+        "imageName": "ShoesSandalRibbon5"
       },
       {
         "id": 10722,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalRibbon2"
+        "isPattern": false,
+        "imageName": "ShoesSandalRibbon2"
       },
       {
         "id": 10723,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalRibbon3"
+        "isPattern": false,
+        "imageName": "ShoesSandalRibbon3"
       },
       {
         "id": 10724,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalRibbon4"
+        "isPattern": false,
+        "imageName": "ShoesSandalRibbon4"
       },
       {
         "id": 5814,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalRibbon0"
+        "isPattern": false,
+        "imageName": "ShoesSandalRibbon0"
       }
     ]
   },
   {
     "name": {
-      en: "rubber-toe high tops",
-      jp: "ラバートゥハイカットスニーカー"
+      "en": "rubber-toe high tops",
+      "jp": "ラバートゥハイカットスニーカー"
     },
     "id": 794,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1260,
       "sell": 315
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10058,
         "name": {
-          en: "Ivory",
-          jp: "アイボリー"
+          "en": "Ivory",
+          "jp": "アイボリー"
         },
-        "fileName": "ShoesHighcutRubbertoe6"
+        "isPattern": false,
+        "imageName": "ShoesHighcutRubbertoe6"
       },
       {
         "id": 10059,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesHighcutRubbertoe7"
+        "isPattern": false,
+        "imageName": "ShoesHighcutRubbertoe7"
       },
       {
         "id": 10056,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "ShoesHighcutRubbertoe4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutRubbertoe4"
       },
       {
         "id": 10055,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesHighcutRubbertoe3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutRubbertoe3"
       },
       {
         "id": 10057,
         "name": {
-          en: "Coral",
-          jp: "コーラル"
+          "en": "Coral",
+          "jp": "コーラル"
         },
-        "fileName": "ShoesHighcutRubbertoe5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutRubbertoe5"
       },
       {
         "id": 10053,
         "name": {
-          en: "Olive",
-          jp: "オリーブ"
+          "en": "Olive",
+          "jp": "オリーブ"
         },
-        "fileName": "ShoesHighcutRubbertoe1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutRubbertoe1"
       },
       {
         "id": 5617,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutRubbertoe0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutRubbertoe0"
       },
       {
         "id": 10054,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesHighcutRubbertoe2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutRubbertoe2"
       }
     ]
   },
   {
     "name": {
-      en: "rubber-toe sneakers",
-      jp: "ラバートゥスニーカー"
+      "en": "rubber-toe sneakers",
+      "jp": "ラバートゥスニーカー"
     },
     "id": 946,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1080,
       "sell": 270
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10073,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutRubbertoe7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutRubbertoe7"
       },
       {
         "id": 10070,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutRubbertoe4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutRubbertoe4"
       },
       {
         "id": 10071,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutRubbertoe5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutRubbertoe5"
       },
       {
         "id": 10068,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutRubbertoe2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutRubbertoe2"
       },
       {
         "id": 10067,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutRubbertoe1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutRubbertoe1"
       },
       {
         "id": 10069,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutRubbertoe3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutRubbertoe3"
       },
       {
         "id": 10072,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutRubbertoe6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutRubbertoe6"
       },
       {
         "id": 6892,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutRubbertoe0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutRubbertoe0"
       }
     ]
   },
   {
     "name": {
-      en: "samurai greaves",
-      jp: "かっちゅうのすねあて"
+      "en": "samurai greaves",
+      "jp": "かっちゅうのすねあて"
     },
     "id": 783,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4300,
       "sell": 1075
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11569,
         "name": {
-          en: "White",
-          jp: "しろ"
+          "en": "White",
+          "jp": "しろ"
         },
-        "fileName": "ShoesKneeLegguard3"
+        "isPattern": false,
+        "imageName": "ShoesKneeLegguard3"
       },
       {
         "id": 11567,
         "name": {
-          en: "Black",
-          jp: "くろ"
+          "en": "Black",
+          "jp": "くろ"
         },
-        "fileName": "ShoesKneeLegguard1"
+        "isPattern": false,
+        "imageName": "ShoesKneeLegguard1"
       },
       {
         "id": 5546,
         "name": {
-          en: "Red",
-          jp: "あか"
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "ShoesKneeLegguard0"
+        "isPattern": false,
+        "imageName": "ShoesKneeLegguard0"
       },
       {
         "id": 11570,
         "name": {
-          en: "Golden yellow",
-          jp: "やまぶきいろ"
+          "en": "Golden yellow",
+          "jp": "やまぶきいろ"
         },
-        "fileName": "ShoesKneeLegguard4"
+        "isPattern": false,
+        "imageName": "ShoesKneeLegguard4"
       },
       {
         "id": 11568,
         "name": {
-          en: "Blue",
-          jp: "あお"
+          "en": "Blue",
+          "jp": "あお"
         },
-        "fileName": "ShoesKneeLegguard2"
+        "isPattern": false,
+        "imageName": "ShoesKneeLegguard2"
       }
     ]
   },
   {
     "name": {
-      en: "shamrock shoes",
-      jp: "シャムロックシューズ"
+      "en": "shamrock shoes",
+      "jp": "シャムロックシューズ"
     },
     "id": 1353,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Shamrock Day (Able Sisters)",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1680,
       "sell": 420
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14237,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutShamrock0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutShamrock0"
       }
     ]
   },
   {
     "name": {
-      en: "shiny bow platform shoes",
-      jp: "ロリータシューズ"
+      "en": "shiny bow platform shoes",
+      "jp": "ロリータシューズ"
     },
     "id": 789,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10153,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutLolita5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLolita5"
       },
       {
         "id": 10149,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutLolita1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLolita1"
       },
       {
         "id": 10150,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutLolita2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLolita2"
       },
       {
         "id": 5606,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutLolita0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLolita0"
       },
       {
         "id": 10152,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutLolita4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLolita4"
       },
       {
         "id": 10151,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutLolita3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLolita3"
       },
       {
         "id": 10154,
         "name": {
-          en: "Light purple",
-          jp: "ライトパープル"
+          "en": "Light purple",
+          "jp": "ライトパープル"
         },
-        "fileName": "ShoesLowcutLolita6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutLolita6"
       }
     ]
   },
   {
     "name": {
-      en: "shower sandals",
-      jp: "シャワーサンダル"
+      "en": "shower sandals",
+      "jp": "シャワーサンダル"
     },
     "id": 515,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 350,
       "sell": 87
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10696,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesSandalShower1"
+        "isPattern": false,
+        "imageName": "ShoesSandalShower1"
       },
       {
         "id": 4714,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesSandalShower0"
+        "isPattern": false,
+        "imageName": "ShoesSandalShower0"
       },
       {
         "id": 10698,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalShower3"
+        "isPattern": false,
+        "imageName": "ShoesSandalShower3"
       },
       {
         "id": 10697,
         "name": {
-          en: "Gold",
-          jp: "ゴールド"
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "ShoesSandalShower2"
+        "isPattern": false,
+        "imageName": "ShoesSandalShower2"
       },
       {
         "id": 10699,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalShower4"
+        "isPattern": false,
+        "imageName": "ShoesSandalShower4"
       }
     ]
   },
   {
     "name": {
-      en: "ski boots",
-      jp: "スキーブーツ"
+      "en": "ski boots",
+      "jp": "スキーブーツ"
     },
     "id": 815,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5660,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesKneeSki0"
+        "isPattern": false,
+        "imageName": "ShoesKneeSki0"
       },
       {
         "id": 10993,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneeSki2"
+        "isPattern": false,
+        "imageName": "ShoesKneeSki2"
       },
       {
         "id": 10992,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesKneeSki1"
+        "isPattern": false,
+        "imageName": "ShoesKneeSki1"
       },
       {
         "id": 10994,
         "name": {
-          en: "Lime",
-          jp: "ライム"
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "ShoesKneeSki3"
+        "isPattern": false,
+        "imageName": "ShoesKneeSki3"
       },
       {
         "id": 10995,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesKneeSki4"
+        "isPattern": false,
+        "imageName": "ShoesKneeSki4"
       },
       {
         "id": 10996,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesKneeSki5"
+        "isPattern": false,
+        "imageName": "ShoesKneeSki5"
       }
     ]
   },
   {
     "name": {
-      en: "sky-egg shoes",
-      jp: "そらとぶたまごのくつ"
+      "en": "sky-egg shoes",
+      "jp": "そらとぶたまごのくつ"
     },
     "id": 1215,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12459,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutEggsky0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEggsky0"
       }
     ]
   },
   {
     "name": {
-      en: "slip-on loafers",
-      jp: "スリッポン"
+      "en": "slip-on loafers",
+      "jp": "スリッポン"
     },
     "id": 787,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 490,
       "sell": 122
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10082,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutSlipon6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipon6"
       },
       {
         "id": 6890,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutSlipon4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipon4"
       },
       {
         "id": 6884,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutSlipon1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipon1"
       },
       {
         "id": 5566,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutSlipon0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipon0"
       },
       {
         "id": 6889,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutSlipon3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipon3"
       },
       {
         "id": 10081,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutSlipon5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipon5"
       },
       {
         "id": 6885,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutSlipon2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipon2"
       },
       {
         "id": 10083,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesLowcutSlipon7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipon7"
       }
     ]
   },
   {
     "name": {
-      en: "slip-on sandals",
-      jp: "スリッポンサンダル"
+      "en": "slip-on sandals",
+      "jp": "スリッポンサンダル"
     },
     "id": 786,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 560,
       "sell": 140
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10099,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesSandalResin2"
+        "isPattern": false,
+        "imageName": "ShoesSandalResin2"
       },
       {
         "id": 10102,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalResin5"
+        "isPattern": false,
+        "imageName": "ShoesSandalResin5"
       },
       {
         "id": 10100,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalResin3"
+        "isPattern": false,
+        "imageName": "ShoesSandalResin3"
       },
       {
         "id": 10103,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesSandalResin6"
+        "isPattern": false,
+        "imageName": "ShoesSandalResin6"
       },
       {
         "id": 10098,
         "name": {
-          en: "Lime",
-          jp: "ライム"
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "ShoesSandalResin1"
+        "isPattern": false,
+        "imageName": "ShoesSandalResin1"
       },
       {
         "id": 5565,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesSandalResin0"
+        "isPattern": false,
+        "imageName": "ShoesSandalResin0"
       },
       {
         "id": 10101,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "ShoesSandalResin4"
+        "isPattern": false,
+        "imageName": "ShoesSandalResin4"
       },
       {
         "id": 10104,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalResin7"
+        "isPattern": false,
+        "imageName": "ShoesSandalResin7"
       }
     ]
   },
   {
     "name": {
-      en: "slip-on school shoes",
-      jp: "うわばき"
+      "en": "slip-on school shoes",
+      "jp": "うわばき"
     },
     "id": 764,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 350,
       "sell": 87
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5473,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutSchool0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSchool0"
       },
       {
         "id": 10983,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutSchool4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSchool4"
       },
       {
         "id": 10982,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutSchool3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSchool3"
       },
       {
         "id": 10981,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutSchool2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSchool2"
       },
       {
         "id": 10980,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutSchool1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSchool1"
       }
     ]
   },
   {
     "name": {
-      en: "slippers",
-      jp: "スリッパ"
+      "en": "slippers",
+      "jp": "スリッパ"
     },
     "id": 778,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 350,
       "sell": 87
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10085,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutSlipper2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipper2"
       },
       {
         "id": 5525,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesLowcutSlipper0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipper0"
       },
       {
         "id": 10084,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutSlipper1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipper1"
       },
       {
         "id": 10089,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutSlipper6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipper6"
       },
       {
         "id": 10086,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutSlipper3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipper3"
       },
       {
         "id": 10090,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutSlipper7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipper7"
       },
       {
         "id": 10087,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutSlipper4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipper4"
       },
       {
         "id": 10088,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutSlipper5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutSlipper5"
       }
     ]
   },
   {
     "name": {
-      en: "space boots",
-      jp: "スペースブーツ"
+      "en": "space boots",
+      "jp": "スペースブーツ"
     },
     "id": 863,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4300,
       "sell": 1075
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5760,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesKneeSpaceWhite"
+        "isPattern": false,
+        "imageName": "ShoesKneeSpaceWhite"
       }
     ]
   },
   {
     "name": {
-      en: "sporty sandals",
-      jp: "スポーツサンダル"
+      "en": "sporty sandals",
+      "jp": "スポーツサンダル"
     },
     "id": 894,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5824,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalSports0"
+        "isPattern": false,
+        "imageName": "ShoesSandalSports0"
       },
       {
         "id": 10732,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalSports5"
+        "isPattern": false,
+        "imageName": "ShoesSandalSports5"
       },
       {
         "id": 10728,
         "name": {
-          en: "Olive",
-          jp: "オリーブ"
+          "en": "Olive",
+          "jp": "オリーブ"
         },
-        "fileName": "ShoesSandalSports1"
+        "isPattern": false,
+        "imageName": "ShoesSandalSports1"
       },
       {
         "id": 10731,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalSports4"
+        "isPattern": false,
+        "imageName": "ShoesSandalSports4"
       },
       {
         "id": 10734,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesSandalSports7"
+        "isPattern": false,
+        "imageName": "ShoesSandalSports7"
       },
       {
         "id": 10729,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesSandalSports2"
+        "isPattern": false,
+        "imageName": "ShoesSandalSports2"
       },
       {
         "id": 10730,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalSports3"
+        "isPattern": false,
+        "imageName": "ShoesSandalSports3"
       },
       {
         "id": 10733,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesSandalSports6"
+        "isPattern": false,
+        "imageName": "ShoesSandalSports6"
       }
     ]
   },
   {
     "name": {
-      en: "steel-toed boots",
-      jp: "エンジニアブーツ"
+      "en": "steel-toed boots",
+      "jp": "エンジニアブーツ"
     },
     "id": 941,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2640,
       "sell": 660
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11236,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesKneeEngineerboots5"
+        "isPattern": false,
+        "imageName": "ShoesKneeEngineerboots5"
       },
       {
         "id": 11234,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeEngineerboots3"
+        "isPattern": false,
+        "imageName": "ShoesKneeEngineerboots3"
       },
       {
         "id": 11235,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneeEngineerboots4"
+        "isPattern": false,
+        "imageName": "ShoesKneeEngineerboots4"
       },
       {
         "id": 11233,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesKneeEngineerboots2"
+        "isPattern": false,
+        "imageName": "ShoesKneeEngineerboots2"
       },
       {
         "id": 2593,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesKneeEngineerboots0"
+        "isPattern": false,
+        "imageName": "ShoesKneeEngineerboots0"
       },
       {
         "id": 11232,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesKneeEngineerboots1"
+        "isPattern": false,
+        "imageName": "ShoesKneeEngineerboots1"
       }
     ]
   },
   {
     "name": {
-      en: "stone-egg shoes",
-      jp: "いわのたまごのくつ"
+      "en": "stone-egg shoes",
+      "jp": "いわのたまごのくつ"
     },
     "id": 1212,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12456,
         "name": {
-          en: "NA",
-          jp: "イエロー"
+          "en": false,
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutEggrock0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEggrock0"
       }
     ]
   },
   {
     "name": {
-      en: "strappy heels",
-      jp: "ストラップつきパンプス"
+      "en": "strappy heels",
+      "jp": "ストラップつきパンプス"
     },
     "id": 784,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1560,
       "sell": 390
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10144,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "ShoesLowcutGlitter3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGlitter3"
       },
       {
         "id": 10145,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutGlitter4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGlitter4"
       },
       {
         "id": 5561,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutGlitter0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGlitter0"
       },
       {
         "id": 10146,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutGlitter5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGlitter5"
       },
       {
         "id": 10143,
         "name": {
-          en: "Gold",
-          jp: "ゴールド"
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "ShoesLowcutGlitter2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGlitter2"
       },
       {
         "id": 10147,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutGlitter6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGlitter6"
       },
       {
         "id": 10142,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutGlitter1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGlitter1"
       },
       {
         "id": 10148,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutGlitter7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGlitter7"
       }
     ]
   },
   {
     "name": {
-      en: "traditional flower shoes",
-      jp: "コッシン"
+      "en": "traditional flower shoes",
+      "jp": "コッシン"
     },
     "id": 808,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5622,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutGgotshin0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGgotshin0"
       },
       {
         "id": 10988,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutGgotshin1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGgotshin1"
       },
       {
         "id": 10991,
         "name": {
-          en: "Lime",
-          jp: "ライム"
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "ShoesLowcutGgotshin4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGgotshin4"
       },
       {
         "id": 10990,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutGgotshin3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGgotshin3"
       },
       {
         "id": 10989,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutGgotshin2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutGgotshin2"
       }
     ]
   },
   {
     "name": {
-      en: "trekking shoes",
-      jp: "トレッキングシューズ"
+      "en": "trekking shoes",
+      "jp": "トレッキングシューズ"
     },
     "id": 705,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11242,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesHighcutTrekking6"
+        "isPattern": false,
+        "imageName": "ShoesHighcutTrekking6"
       },
       {
         "id": 11237,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesHighcutTrekking1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutTrekking1"
       },
       {
         "id": 11238,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesHighcutTrekking2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutTrekking2"
       },
       {
         "id": 11240,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesHighcutTrekking4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutTrekking4"
       },
       {
         "id": 11239,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesHighcutTrekking3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutTrekking3"
       },
       {
         "id": 11241,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesHighcutTrekking5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutTrekking5"
       },
       {
         "id": 5388,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesHighcutTrekking0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutTrekking0"
       },
       {
         "id": 11243,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesHighcutTrekking7"
+        "isPattern": false,
+        "imageName": "ShoesHighcutTrekking7"
       }
     ]
   },
   {
     "name": {
-      en: "velour boots",
-      jp: "ベロアブーツ"
+      "en": "velour boots",
+      "jp": "ベロアブーツ"
     },
     "id": 528,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11675,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesKneeVelour1"
+        "isPattern": false,
+        "imageName": "ShoesKneeVelour1"
       },
       {
         "id": 4732,
         "name": {
-          en: "Ruby red",
-          jp: "ルージュ"
+          "en": "Ruby red",
+          "jp": "ルージュ"
         },
-        "fileName": "ShoesKneeVelour0"
+        "isPattern": false,
+        "imageName": "ShoesKneeVelour0"
       },
       {
         "id": 11678,
         "name": {
-          en: "Mustard",
-          jp: "マスタード"
+          "en": "Mustard",
+          "jp": "マスタード"
         },
-        "fileName": "ShoesKneeVelour4"
+        "isPattern": false,
+        "imageName": "ShoesKneeVelour4"
       },
       {
         "id": 11677,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesKneeVelour3"
+        "isPattern": false,
+        "imageName": "ShoesKneeVelour3"
       },
       {
         "id": 11676,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesKneeVelour2"
+        "isPattern": false,
+        "imageName": "ShoesKneeVelour2"
       }
     ]
   },
   {
     "name": {
-      en: "vinyl round-toed pumps",
-      jp: "エナメルのパンプス"
+      "en": "vinyl round-toed pumps",
+      "jp": "エナメルのパンプス"
     },
     "id": 521,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10119,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutEnamelpumps4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEnamelpumps4"
       },
       {
         "id": 10120,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutEnamelpumps5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEnamelpumps5"
       },
       {
         "id": 10118,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutEnamelpumps3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEnamelpumps3"
       },
       {
         "id": 10116,
         "name": {
-          en: "Mint",
-          jp: "ミント"
+          "en": "Mint",
+          "jp": "ミント"
         },
-        "fileName": "ShoesLowcutEnamelpumps1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEnamelpumps1"
       },
       {
         "id": 10117,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutEnamelpumps2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEnamelpumps2"
       },
       {
         "id": 4723,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesLowcutEnamelpumps0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEnamelpumps0"
       }
     ]
   },
   {
     "name": {
-      en: "visual-punk boots",
-      jp: "ヴィジュアルけいブーツ"
+      "en": "visual-punk boots",
+      "jp": "ヴィジュアルけいブーツ"
     },
     "id": 792,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5609,
         "name": {
-          en: "NA",
-          jp: "ブラック"
+          "en": false,
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeVisualBlack"
+        "isPattern": false,
+        "imageName": "ShoesKneeVisualBlack"
       }
     ]
   },
   {
     "name": {
-      en: "walking shoes",
-      jp: "ウォーキングシューズ"
+      "en": "walking shoes",
+      "jp": "ウォーキングシューズ"
     },
     "id": 868,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 560,
       "sell": 140
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10998,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutHealth2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHealth2"
       },
       {
         "id": 5775,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutHealth0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHealth0"
       },
       {
         "id": 10997,
         "name": {
-          en: "Beige",
-          jp: "ベージュ"
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "ShoesLowcutHealth1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutHealth1"
       }
     ]
   },
   {
     "name": {
-      en: "Wario shoes",
-      jp: "ワリオのくつ"
+      "en": "Wario shoes",
+      "jp": "ワリオのくつ"
     },
     "id": 1327,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13562,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutWario0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutWario0"
       }
     ]
   },
   {
     "name": {
-      en: "water sandals",
-      jp: "アクアサンダル"
+      "en": "water sandals",
+      "jp": "アクアサンダル"
     },
     "id": 809,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10715,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesSandalAqua2"
+        "isPattern": false,
+        "imageName": "ShoesSandalAqua2"
       },
       {
         "id": 5652,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesSandalAqua0"
+        "isPattern": false,
+        "imageName": "ShoesSandalAqua0"
       },
       {
         "id": 10717,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesSandalAqua4"
+        "isPattern": false,
+        "imageName": "ShoesSandalAqua4"
       },
       {
         "id": 10720,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesSandalAqua7"
+        "isPattern": false,
+        "imageName": "ShoesSandalAqua7"
       },
       {
         "id": 10719,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesSandalAqua6"
+        "isPattern": false,
+        "imageName": "ShoesSandalAqua6"
       },
       {
         "id": 10716,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesSandalAqua3"
+        "isPattern": false,
+        "imageName": "ShoesSandalAqua3"
       },
       {
         "id": 10714,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "ShoesSandalAqua1"
+        "isPattern": false,
+        "imageName": "ShoesSandalAqua1"
       },
       {
         "id": 10718,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesSandalAqua5"
+        "isPattern": false,
+        "imageName": "ShoesSandalAqua5"
       }
     ]
   },
   {
     "name": {
-      en: "water shoes",
-      jp: "マリンシューズ"
+      "en": "water shoes",
+      "jp": "マリンシューズ"
     },
     "id": 882,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 900,
       "sell": 225
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10276,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutMarine7"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMarine7"
       },
       {
         "id": 10275,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutMarine6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMarine6"
       },
       {
         "id": 5808,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesLowcutMarine0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMarine0"
       },
       {
         "id": 10271,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesLowcutMarine2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMarine2"
       },
       {
         "id": 10274,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutMarine5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMarine5"
       },
       {
         "id": 10272,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutMarine3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMarine3"
       },
       {
         "id": 10177,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "ShoesLowcutMarine1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMarine1"
       },
       {
         "id": 10273,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "ShoesLowcutMarine4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutMarine4"
       }
     ]
   },
   {
     "name": {
-      en: "water-egg shoes",
-      jp: "サカナのたまごのくつ"
+      "en": "water-egg shoes",
+      "jp": "サカナのたまごのくつ"
     },
     "id": 1216,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12460,
         "name": {
-          en: "NA",
-          jp: "パープル"
+          "en": false,
+          "jp": "パープル"
         },
-        "fileName": "ShoesLowcutEggfish0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEggfish0"
       }
     ]
   },
   {
     "name": {
-      en: "wedding pumps",
-      jp: "じゅんぱくのパンプス"
+      "en": "wedding pumps",
+      "jp": "じゅんぱくのパンプス"
     },
     "id": 1217,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12495,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutJunepumps0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutJunepumps0"
       }
     ]
   },
   {
     "name": {
-      en: "wedding shoes",
-      jp: "じゅんぱくのシューズ"
+      "en": "wedding shoes",
+      "jp": "じゅんぱくのシューズ"
     },
     "id": 1218,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12496,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutJuneshoes0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutJuneshoes0"
       }
     ]
   },
   {
     "name": {
-      en: "wingtip shoes",
-      jp: "ウイングチップのシューズ"
+      "en": "wingtip shoes",
+      "jp": "ウイングチップのシューズ"
     },
     "id": 883,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 900,
       "sell": 225
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11472,
         "name": {
-          en: "Greige",
-          jp: "グレージュ"
+          "en": "Greige",
+          "jp": "グレージュ"
         },
-        "fileName": "ShoesLowcutWing2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutWing2"
       },
       {
         "id": 11474,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesLowcutWing4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutWing4"
       },
       {
         "id": 5809,
         "name": {
-          en: "Black & white",
-          jp: "ブラック＆ホワイト"
+          "en": "Black & white",
+          "jp": "ブラック＆ホワイト"
         },
-        "fileName": "ShoesLowcutWing0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutWing0"
       },
       {
         "id": 11476,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutWing6"
+        "isPattern": false,
+        "imageName": "ShoesLowcutWing6"
       },
       {
         "id": 11475,
         "name": {
-          en: "Berry red",
-          jp: "ワインレッド"
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "ShoesLowcutWing5"
+        "isPattern": false,
+        "imageName": "ShoesLowcutWing5"
       },
       {
         "id": 11473,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutWing3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutWing3"
       },
       {
         "id": 11471,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutWing1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutWing1"
       }
     ]
   },
   {
     "name": {
-      en: "winklepickers",
-      jp: "トンがったクツ"
+      "en": "winklepickers",
+      "jp": "トンがったクツ"
     },
     "id": 812,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 910,
       "sell": 227
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11462,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesLowcutPointedtoe1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutPointedtoe1"
       },
       {
         "id": 11463,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesLowcutPointedtoe2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutPointedtoe2"
       },
       {
         "id": 5655,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutPointedtoe0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutPointedtoe0"
       },
       {
         "id": 11464,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutPointedtoe3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutPointedtoe3"
       }
     ]
   },
   {
     "name": {
-      en: "wood-egg shoes",
-      jp: "ウッディなたまごのくつ"
+      "en": "wood-egg shoes",
+      "jp": "ウッディなたまごのくつ"
     },
     "id": 1214,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "shoes",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12458,
         "name": {
-          en: "NA",
-          jp: "オレンジ"
+          "en": false,
+          "jp": "オレンジ"
         },
-        "fileName": "ShoesLowcutEggforest0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutEggforest0"
       }
     ]
   },
   {
     "name": {
-      en: "wooden clogs",
-      jp: "きぐつ"
+      "en": "wooden clogs",
+      "jp": "きぐつ"
     },
     "id": 795,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10985,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesLowcutClog2"
+        "isPattern": false,
+        "imageName": "ShoesLowcutClog2"
       },
       {
         "id": 5618,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesLowcutClog0"
+        "isPattern": false,
+        "imageName": "ShoesLowcutClog0"
       },
       {
         "id": 10986,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesLowcutClog3"
+        "isPattern": false,
+        "imageName": "ShoesLowcutClog3"
       },
       {
         "id": 10984,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesLowcutClog1"
+        "isPattern": false,
+        "imageName": "ShoesLowcutClog1"
       },
       {
         "id": 10987,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "ShoesLowcutClog4"
+        "isPattern": false,
+        "imageName": "ShoesLowcutClog4"
       }
     ]
   },
   {
     "name": {
-      en: "work boots",
-      jp: "ワークブーツ"
+      "en": "work boots",
+      "jp": "ワークブーツ"
     },
     "id": 779,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1920,
       "sell": 480
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11247,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesHighcutWorkboots4"
+        "isPattern": false,
+        "imageName": "ShoesHighcutWorkboots4"
       },
       {
         "id": 11250,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "ShoesHighcutWorkboots7"
+        "isPattern": false,
+        "imageName": "ShoesHighcutWorkboots7"
       },
       {
         "id": 5541,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesHighcutWorkboots0"
+        "isPattern": false,
+        "imageName": "ShoesHighcutWorkboots0"
       },
       {
         "id": 11245,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesHighcutWorkboots2"
+        "isPattern": false,
+        "imageName": "ShoesHighcutWorkboots2"
       },
       {
         "id": 11246,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesHighcutWorkboots3"
+        "isPattern": false,
+        "imageName": "ShoesHighcutWorkboots3"
       },
       {
         "id": 11249,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesHighcutWorkboots6"
+        "isPattern": false,
+        "imageName": "ShoesHighcutWorkboots6"
       },
       {
         "id": 11248,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesHighcutWorkboots5"
+        "isPattern": false,
+        "imageName": "ShoesHighcutWorkboots5"
       },
       {
         "id": 11244,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "ShoesHighcutWorkboots1"
+        "isPattern": false,
+        "imageName": "ShoesHighcutWorkboots1"
       }
     ]
   },
   {
     "name": {
-      en: "wrestling shoes",
-      jp: "リングシューズ"
+      "en": "wrestling shoes",
+      "jp": "リングシューズ"
     },
     "id": 821,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1080,
       "sell": 270
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10259,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "ShoesKneeRing4"
+        "isPattern": false,
+        "imageName": "ShoesKneeRing4"
       },
       {
         "id": 5668,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "ShoesKneeRing0"
+        "isPattern": false,
+        "imageName": "ShoesKneeRing0"
       },
       {
         "id": 10258,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "ShoesKneeRing3"
+        "isPattern": false,
+        "imageName": "ShoesKneeRing3"
       },
       {
         "id": 10260,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "ShoesKneeRing5"
+        "isPattern": false,
+        "imageName": "ShoesKneeRing5"
       },
       {
         "id": 10257,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "ShoesKneeRing2"
+        "isPattern": false,
+        "imageName": "ShoesKneeRing2"
       },
       {
         "id": 10256,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "ShoesKneeRing1"
+        "isPattern": false,
+        "imageName": "ShoesKneeRing1"
       }
     ]
   },
   {
     "name": {
-      en: "zap boots",
-      jp: "ヒーローブーツ"
+      "en": "zap boots",
+      "jp": "ヒーローブーツ"
     },
     "id": 799,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2640,
       "sell": 660
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 5624,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": "ホワイト"
         },
-        "fileName": "ShoesKneeHeroWhite"
+        "isPattern": false,
+        "imageName": "ShoesKneeHeroWhite"
       }
     ]
   },
   {
     "name": {
-      en: "zori",
-      jp: "ぞうり"
+      "en": "zori",
+      "jp": "ぞうり"
     },
     "id": 530,
-    "source": {
-      en: "Able Sisters",
-      jp: "Able Sisters"
-    },
+    "source": "Able Sisters",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "shoes",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 4300,
       "sell": 1075
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 10974,
         "name": {
-          en: "Aqua",
-          jp: "みずいろ"
+          "en": "Aqua",
+          "jp": "みずいろ"
         },
-        "fileName": "ShoesSandalZori6"
+        "isPattern": false,
+        "imageName": "ShoesSandalZori6"
       },
       {
         "id": 10973,
         "name": {
-          en: "White",
-          jp: "しろ"
+          "en": "White",
+          "jp": "しろ"
         },
-        "fileName": "ShoesSandalZori5"
+        "isPattern": false,
+        "imageName": "ShoesSandalZori5"
       },
       {
         "id": 4734,
         "name": {
-          en: "Black",
-          jp: "くろ"
+          "en": "Black",
+          "jp": "くろ"
         },
-        "fileName": "ShoesSandalZori0"
+        "isPattern": false,
+        "imageName": "ShoesSandalZori0"
       },
       {
         "id": 10970,
         "name": {
-          en: "Pink",
-          jp: "ももいろ"
+          "en": "Pink",
+          "jp": "ももいろ"
         },
-        "fileName": "ShoesSandalZori2"
+        "isPattern": false,
+        "imageName": "ShoesSandalZori2"
       },
       {
         "id": 10971,
         "name": {
-          en: "Light pink",
-          jp: "さくらいろ"
+          "en": "Light pink",
+          "jp": "さくらいろ"
         },
-        "fileName": "ShoesSandalZori3"
+        "isPattern": false,
+        "imageName": "ShoesSandalZori3"
       },
       {
         "id": 10975,
         "name": {
-          en: "Red",
-          jp: "あか"
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "ShoesSandalZori7"
+        "isPattern": false,
+        "imageName": "ShoesSandalZori7"
       },
       {
         "id": 10969,
         "name": {
-          en: "Gold",
-          jp: "きんいろ"
+          "en": "Gold",
+          "jp": "きんいろ"
         },
-        "fileName": "ShoesSandalZori1"
+        "isPattern": false,
+        "imageName": "ShoesSandalZori1"
       },
       {
         "id": 10972,
         "name": {
-          en: "Green",
-          jp: "みどり"
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "ShoesSandalZori4"
+        "isPattern": false,
+        "imageName": "ShoesSandalZori4"
       }
     ]
   }
-];
+]

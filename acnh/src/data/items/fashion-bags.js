@@ -1,1938 +1,2192 @@
 fashion.bags = [
   {
     "name": {
-      en: "acorn pochette",
-      jp: "どんぐりポシェット"
+      "en": "acorn pochette",
+      "jp": "どんぐりポシェット"
     },
     "id": 980,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "acorns and pine cones",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7492,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderAcorn0"
+        "isPattern": false,
+        "imageName": "BagShoulderAcorn0"
       }
     ]
   },
   {
     "name": {
-      en: "basket pack",
-      jp: "しょいこ"
+      "en": "basket pack",
+      "jp": "しょいこ"
     },
     "id": 995,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "young spring bamboo",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7506,
         "name": {
-          en: "NA",
-          jp: "みどり"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackBasket0"
+        "isPattern": false,
+        "imageName": "BagBackpackBasket0"
       }
     ]
   },
   {
     "name": {
-      en: "bug cage",
-      jp: "ムシかご"
+      "en": "bug cage",
+      "jp": "ムシかご"
     },
     "id": 967,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 122
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7479,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderCage0"
+        "isPattern": false,
+        "imageName": "BagShoulderCage0"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day bag",
-      jp: "イースターなバッグ"
+      "en": "Bunny Day bag",
+      "jp": "イースターなバッグ"
     },
     "id": 1203,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12447,
         "name": {
-          en: "NA",
-          jp: "カラフル"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackEgg0"
+        "isPattern": false,
+        "imageName": "BagBackpackEgg0"
       }
     ]
   },
   {
     "name": {
-      en: "butterfly backpack",
-      jp: "ちょうちょのバッグ"
+      "en": "butterfly backpack",
+      "jp": "ちょうちょのバッグ"
     },
     "id": 991,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 210
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7502,
         "name": {
-          en: "NA",
-          jp: "ピンク"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackButterfly0"
+        "isPattern": false,
+        "imageName": "BagBackpackButterfly0"
       }
     ]
   },
   {
     "name": {
-      en: "canvas backpack",
-      jp: "はんぷリュック"
+      "en": "canvas backpack",
+      "jp": "はんぷリュック"
     },
     "id": 998,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7509,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackTote0"
+        "isPattern": false,
+        "imageName": "BagBackpackTote0"
       }
     ]
   },
   {
     "name": {
-      en: "cherry-blossom pochette",
-      jp: "さくらのポシェット"
+      "en": "cherry-blossom pochette",
+      "jp": "さくらのポシェット"
     },
     "id": 978,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "cherry-blossom petals",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7490,
         "name": {
-          en: "NA",
-          jp: "ピンク"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderCherryblossoms0"
+        "isPattern": false,
+        "imageName": "BagShoulderCherryblossoms0"
       }
     ]
   },
   {
     "name": {
-      en: "cloth shoulder bag",
-      jp: "はんぷショルダー"
+      "en": "cloth shoulder bag",
+      "jp": "はんぷショルダー"
     },
     "id": 975,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12014,
         "name": {
-          en: "Ivory",
-          jp: "アイボリー"
+          "en": "Ivory",
+          "jp": ""
         },
-        "fileName": "BagShoulderCanvas2"
+        "isPattern": false,
+        "imageName": "BagShoulderCanvas2"
       },
       {
         "id": 12013,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "BagShoulderCanvas1"
+        "isPattern": false,
+        "imageName": "BagShoulderCanvas1"
       },
       {
         "id": 7487,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagShoulderCanvas0"
+        "isPattern": false,
+        "imageName": "BagShoulderCanvas0"
       }
     ]
   },
   {
     "name": {
-      en: "crossbody bag",
-      jp: "ボディバッグ"
+      "en": "crossbody bag",
+      "jp": "ボディバッグ"
     },
     "id": 971,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 700,
       "sell": 175
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11982,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "BagBackpackBody3"
+        "isPattern": false,
+        "imageName": "BagBackpackBody3"
       },
       {
         "id": 7483,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "BagBackpackBody0"
+        "isPattern": false,
+        "imageName": "BagBackpackBody0"
       },
       {
         "id": 11981,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "BagBackpackBody2"
+        "isPattern": false,
+        "imageName": "BagBackpackBody2"
       },
       {
         "id": 11980,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagBackpackBody1"
+        "isPattern": false,
+        "imageName": "BagBackpackBody1"
       }
     ]
   },
   {
     "name": {
-      en: "crossbody boston bag",
-      jp: "ななめかけボストン"
+      "en": "crossbody boston bag",
+      "jp": "ななめかけボストン"
     },
     "id": 973,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1680,
       "sell": 420
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7485,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "BagShoulderDrum0"
+        "isPattern": false,
+        "imageName": "BagShoulderDrum0"
       },
       {
         "id": 12011,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagShoulderDrum1"
+        "isPattern": false,
+        "imageName": "BagShoulderDrum1"
       }
     ]
   },
   {
     "name": {
-      en: "DAL backpack",
-      jp: "ＤＡＬのバッグ"
+      "en": "DAL backpack",
+      "jp": "ＤＡＬのバッグ"
     },
     "id": 1185,
-    "source": {
-      en: "Dodo Airlines",
-      jp: "Dodo Airlines"
-    },
+    "source": "Dodo Airlines",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1010
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12131,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackDal0"
+        "isPattern": false,
+        "imageName": "BagBackpackDal0"
       }
     ]
   },
   {
     "name": {
-      en: "dry bag",
-      jp: "ドライサック"
+      "en": "dry bag",
+      "jp": "ドライサック"
     },
     "id": 963,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7471,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "BagBackpackDry0"
+        "isPattern": false,
+        "imageName": "BagBackpackDry0"
       },
       {
         "id": 11964,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackDry1"
+        "isPattern": false,
+        "imageName": "BagBackpackDry1"
       }
     ]
   },
   {
     "name": {
-      en: "evening bag",
-      jp: "パーティーバッグ"
+      "en": "evening bag",
+      "jp": "パーティーバッグ"
     },
     "id": 986,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1250,
       "sell": 312
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11977,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagShoulderParty2"
+        "isPattern": false,
+        "imageName": "BagShoulderParty2"
       },
       {
         "id": 7305,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "BagShoulderParty0"
+        "isPattern": false,
+        "imageName": "BagShoulderParty0"
       },
       {
         "id": 11976,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagShoulderParty1"
+        "isPattern": false,
+        "imageName": "BagShoulderParty1"
       }
     ]
   },
   {
     "name": {
-      en: "extra-large backpack",
-      jp: "おおきめザック"
+      "en": "extra-large backpack",
+      "jp": "おおきめザック"
     },
     "id": 994,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11972,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagBackpackMountain2"
+        "isPattern": false,
+        "imageName": "BagBackpackMountain2"
       },
       {
         "id": 7505,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "BagBackpackMountain0"
+        "isPattern": false,
+        "imageName": "BagBackpackMountain0"
       },
       {
         "id": 11971,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagBackpackMountain1"
+        "isPattern": false,
+        "imageName": "BagBackpackMountain1"
       },
       {
         "id": 11973,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackMountain3"
+        "isPattern": false,
+        "imageName": "BagBackpackMountain3"
       }
     ]
   },
   {
     "name": {
-      en: "faux-fur bag",
-      jp: "フェイクファーバッグ"
+      "en": "faux-fur bag",
+      "jp": "フェイクファーバッグ"
     },
     "id": 968,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7480,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "BagShoulderFakefur0"
+        "isPattern": false,
+        "imageName": "BagShoulderFakefur0"
       },
       {
         "id": 12003,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "BagShoulderFakefur1"
+        "isPattern": false,
+        "imageName": "BagShoulderFakefur1"
       }
     ]
   },
   {
     "name": {
-      en: "fish pochette",
-      jp: "おさかなポシェット"
+      "en": "fish pochette",
+      "jp": "おさかなポシェット"
     },
     "id": 965,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": "Fishing Tourney",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 210
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7477,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderFish0"
+        "isPattern": false,
+        "imageName": "BagShoulderFish0"
       }
     ]
   },
   {
     "name": {
-      en: "foldover-top backpack",
-      jp: "ふたつきリュック"
+      "en": "foldover-top backpack",
+      "jp": "ふたつきリュック"
     },
     "id": 996,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12017,
         "name": {
-          en: "Gray",
-          jp: "グレー"
+          "en": "Gray",
+          "jp": ""
         },
-        "fileName": "BagBackpackLid2"
+        "isPattern": false,
+        "imageName": "BagBackpackLid2"
       },
       {
         "id": 12018,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "BagBackpackLid3"
+        "isPattern": false,
+        "imageName": "BagBackpackLid3"
       },
       {
         "id": 7507,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagBackpackLid0"
+        "isPattern": false,
+        "imageName": "BagBackpackLid0"
       },
       {
         "id": 12016,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackLid1"
+        "isPattern": false,
+        "imageName": "BagBackpackLid1"
       }
     ]
   },
   {
     "name": {
-      en: "grape-harvest basket",
-      jp: "ぶどうのしゅうかくおけ"
+      "en": "grape-harvest basket",
+      "jp": "ぶどうのしゅうかくおけ"
     },
     "id": 1233,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Grape Harvest Festival",
+    "eventExclusive": "Yes",
+    "version": "1.4.0",
     "catalog": "Not in catalog",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12797,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackHarvest0"
+        "isPattern": false,
+        "imageName": "BagBackpackHarvest0"
       }
     ]
   },
   {
     "name": {
-      en: "gumdrop shoulder bag",
-      jp: "はるのみずたまショルダー"
+      "en": "gumdrop shoulder bag",
+      "jp": "はるのみずたまショルダー"
     },
     "id": 974,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7486,
         "name": {
-          en: "Pop",
-          jp: "ポップ"
+          "en": "Pop",
+          "jp": ""
         },
-        "fileName": "BagShoulderPattern0"
+        "isPattern": false,
+        "imageName": "BagShoulderPattern0"
       },
       {
         "id": 12012,
         "name": {
-          en: "Cool",
-          jp: "クール"
+          "en": "Cool",
+          "jp": ""
         },
-        "fileName": "BagShoulderPattern1"
+        "isPattern": false,
+        "imageName": "BagShoulderPattern1"
       }
     ]
   },
   {
     "name": {
-      en: "hand-knit pouch",
-      jp: "てあみポーチ"
+      "en": "hand-knit pouch",
+      "jp": "てあみポーチ"
     },
     "id": 970,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1250,
       "sell": 312
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7482,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagShoulderRace0"
+        "isPattern": false,
+        "imageName": "BagShoulderRace0"
       },
       {
         "id": 12004,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "BagShoulderRace1"
+        "isPattern": false,
+        "imageName": "BagShoulderRace1"
       }
     ]
   },
   {
     "name": {
-      en: "hard-shell backpack",
-      jp: "ハードシェルリュック"
+      "en": "hard-shell backpack",
+      "jp": "ハードシェルリュック"
     },
     "id": 1001,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1680,
       "sell": 420
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11946,
         "name": {
-          en: "Silver",
-          jp: "シルバー"
+          "en": "Silver",
+          "jp": ""
         },
-        "fileName": "BagBackpackHardshell2"
+        "isPattern": false,
+        "imageName": "BagBackpackHardshell2"
       },
       {
         "id": 10184,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "BagBackpackHardshell1"
+        "isPattern": false,
+        "imageName": "BagBackpackHardshell1"
       },
       {
         "id": 7512,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackHardshell0"
+        "isPattern": false,
+        "imageName": "BagBackpackHardshell0"
       }
     ]
   },
   {
     "name": {
-      en: "impish wings",
-      jp: "こあくまなつばさバッグ"
+      "en": "impish wings",
+      "jp": "こあくまなつばさバッグ"
     },
     "id": 1268,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": false,
+    "version": "1.5.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 13409,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "BagBackpackHalloween2"
+        "isPattern": false,
+        "imageName": "BagBackpackHalloween2"
       },
       {
         "id": 13412,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagBackpackHalloween5"
+        "isPattern": false,
+        "imageName": "BagBackpackHalloween5"
       },
       {
         "id": 13411,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "BagBackpackHalloween4"
+        "isPattern": false,
+        "imageName": "BagBackpackHalloween4"
       },
       {
         "id": 13015,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "BagBackpackHalloween0"
+        "isPattern": false,
+        "imageName": "BagBackpackHalloween0"
       },
       {
         "id": 13410,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagBackpackHalloween3"
+        "isPattern": false,
+        "imageName": "BagBackpackHalloween3"
       },
       {
         "id": 13408,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "BagBackpackHalloween1"
+        "isPattern": false,
+        "imageName": "BagBackpackHalloween1"
       }
     ]
   },
   {
     "name": {
-      en: "knapsack",
-      jp: "ナップサック"
+      "en": "knapsack",
+      "jp": "ナップサック"
     },
     "id": 997,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 630,
       "sell": 157
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12019,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagBackpackKnapsack1"
+        "isPattern": false,
+        "imageName": "BagBackpackKnapsack1"
       },
       {
         "id": 7508,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackKnapsack0"
+        "isPattern": false,
+        "imageName": "BagBackpackKnapsack0"
       }
     ]
   },
   {
     "name": {
-      en: "knitted-grass backpack",
-      jp: "くさあみリュック"
+      "en": "knitted-grass backpack",
+      "jp": "くさあみリュック"
     },
     "id": 1000,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7511,
         "name": {
-          en: "NA",
-          jp: "グリーン"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackGrass0"
+        "isPattern": false,
+        "imageName": "BagBackpackGrass0"
       }
     ]
   },
   {
     "name": {
-      en: "log pack",
-      jp: "せおいばしご"
+      "en": "log pack",
+      "jp": "せおいばしご"
     },
     "id": 987,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 960
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7498,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackWood0"
+        "isPattern": false,
+        "imageName": "BagBackpackWood0"
       }
     ]
   },
   {
     "name": {
-      en: "maple-leaf pochette",
-      jp: "もみじのポシェット"
+      "en": "maple-leaf pochette",
+      "jp": "もみじのポシェット"
     },
     "id": 979,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "maple leaves",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7491,
         "name": {
-          en: "NA",
-          jp: "レッド"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderMaple0"
+        "isPattern": false,
+        "imageName": "BagShoulderMaple0"
       }
     ]
   },
   {
     "name": {
-      en: "messenger bag",
-      jp: "メッセンジャーバッグ"
+      "en": "messenger bag",
+      "jp": "メッセンジャーバッグ"
     },
     "id": 962,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 840,
       "sell": 210
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11979,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagShoulderMessenger2"
+        "isPattern": false,
+        "imageName": "BagShoulderMessenger2"
       },
       {
         "id": 11978,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "BagShoulderMessenger1"
+        "isPattern": false,
+        "imageName": "BagShoulderMessenger1"
       },
       {
         "id": 7470,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagShoulderMessenger0"
+        "isPattern": false,
+        "imageName": "BagShoulderMessenger0"
       }
     ]
   },
   {
     "name": {
-      en: "mini pleather bag",
-      jp: "ミニレザーバッグ"
+      "en": "mini pleather bag",
+      "jp": "ミニレザーバッグ"
     },
     "id": 993,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7504,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "BagBackpackSmall0"
+        "isPattern": false,
+        "imageName": "BagBackpackSmall0"
       },
       {
         "id": 12015,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagBackpackSmall1"
+        "isPattern": false,
+        "imageName": "BagBackpackSmall1"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's knapsack",
-      jp: "ははのナップサック"
+      "en": "Mom's knapsack",
+      "jp": "ははのナップサック"
     },
     "id": 999,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 175
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12153,
         "name": {
-          en: "Forest print",
-          jp: "フォレスト"
+          "en": "Forest print",
+          "jp": ""
         },
-        "fileName": "BagBackpackQuilt6"
+        "isPattern": false,
+        "imageName": "BagBackpackQuilt6"
       },
       {
         "id": 12148,
         "name": {
-          en: "Flowers",
-          jp: "フラワー"
+          "en": "Flowers",
+          "jp": ""
         },
-        "fileName": "BagBackpackQuilt1"
+        "isPattern": false,
+        "imageName": "BagBackpackQuilt1"
       },
       {
         "id": 12149,
         "name": {
-          en: "Polka dots",
-          jp: "ドット"
+          "en": "Polka dots",
+          "jp": ""
         },
-        "fileName": "BagBackpackQuilt2"
+        "isPattern": false,
+        "imageName": "BagBackpackQuilt2"
       },
       {
         "id": 12154,
         "name": {
-          en: "Chick",
-          jp: "ヒヨコ"
+          "en": "Chick",
+          "jp": ""
         },
-        "fileName": "BagBackpackQuilt7"
+        "isPattern": false,
+        "imageName": "BagBackpackQuilt7"
       },
       {
         "id": 7510,
         "name": {
-          en: "M",
-          jp: "M"
+          "en": "M",
+          "jp": ""
         },
-        "fileName": "BagBackpackQuilt0"
+        "isPattern": false,
+        "imageName": "BagBackpackQuilt0"
       },
       {
         "id": 12151,
         "name": {
-          en: "Cherries",
-          jp: "チェリー"
+          "en": "Cherries",
+          "jp": ""
         },
-        "fileName": "BagBackpackQuilt4"
+        "isPattern": false,
+        "imageName": "BagBackpackQuilt4"
       },
       {
         "id": 12152,
         "name": {
-          en: "Denim with stripes",
-          jp: "デニムストライプ"
+          "en": "Denim with stripes",
+          "jp": ""
         },
-        "fileName": "BagBackpackQuilt5"
+        "isPattern": false,
+        "imageName": "BagBackpackQuilt5"
       },
       {
         "id": 12150,
         "name": {
-          en: "Colorful quilt design",
-          jp: "カラフルキルト"
+          "en": "Colorful quilt design",
+          "jp": ""
         },
-        "fileName": "BagBackpackQuilt3"
+        "isPattern": false,
+        "imageName": "BagBackpackQuilt3"
       }
     ]
   },
   {
     "name": {
-      en: "Nook Inc. knapsack",
-      jp: "たぬきかいはつナップサック"
+      "en": "Nook Inc. knapsack",
+      "jp": "たぬきかいはつナップサック"
     },
     "id": 1150,
-    "source": {
-      en: "Nook Miles Redemption",
-      jp: "Nook Miles Redemption"
-    },
+    "source": "Nook Miles Redemption",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 9761,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagBackpackNook0"
+        "isPattern": false,
+        "imageName": "BagBackpackNook0"
       }
     ]
   },
   {
     "name": {
-      en: "outdoor backpack",
-      jp: "アウトドアリュック"
+      "en": "outdoor backpack",
+      "jp": "アウトドアリュック"
     },
     "id": 990,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1560,
       "sell": 390
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11969,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "BagBackpackOutdoor1"
+        "isPattern": false,
+        "imageName": "BagBackpackOutdoor1"
       },
       {
         "id": 7501,
         "name": {
-          en: "Avocado",
-          jp: "カーキ"
+          "en": "Avocado",
+          "jp": ""
         },
-        "fileName": "BagBackpackOutdoor0"
+        "isPattern": false,
+        "imageName": "BagBackpackOutdoor0"
       },
       {
         "id": 11970,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackOutdoor2"
+        "isPattern": false,
+        "imageName": "BagBackpackOutdoor2"
       }
     ]
   },
   {
     "name": {
-      en: "pleather crossbody bag",
-      jp: "レザーボディバッグ"
+      "en": "pleather crossbody bag",
+      "jp": "レザーボディバッグ"
     },
     "id": 972,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1120,
       "sell": 280
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12005,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagBackpackBodybag1"
+        "isPattern": false,
+        "imageName": "BagBackpackBodybag1"
       },
       {
         "id": 7484,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackBodybag0"
+        "isPattern": false,
+        "imageName": "BagBackpackBodybag0"
       }
     ]
   },
   {
     "name": {
-      en: "pleather fringe bag",
-      jp: "フリンジレザーバッグ"
+      "en": "pleather fringe bag",
+      "jp": "フリンジレザーバッグ"
     },
     "id": 969,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12010,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "BagShoulderFringe1"
+        "isPattern": false,
+        "imageName": "BagShoulderFringe1"
       },
       {
         "id": 7481,
         "name": {
-          en: "Camel",
-          jp: "キャメル"
+          "en": "Camel",
+          "jp": ""
         },
-        "fileName": "BagShoulderFringe0"
+        "isPattern": false,
+        "imageName": "BagShoulderFringe0"
       }
     ]
   },
   {
     "name": {
-      en: "pleather shoulder bag",
-      jp: "レザーショルダー"
+      "en": "pleather shoulder bag",
+      "jp": "レザーショルダー"
     },
     "id": 964,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12009,
         "name": {
-          en: "Navy blue",
-          jp: "ネイビー"
+          "en": "Navy blue",
+          "jp": ""
         },
-        "fileName": "BagShoulderLeather1"
+        "isPattern": false,
+        "imageName": "BagShoulderLeather1"
       },
       {
         "id": 7476,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": ""
         },
-        "fileName": "BagShoulderLeather0"
+        "isPattern": false,
+        "imageName": "BagShoulderLeather0"
       }
     ]
   },
   {
     "name": {
-      en: "prom sash",
-      jp: "プロムなたすき"
+      "en": "prom sash",
+      "jp": "プロムなたすき"
     },
     "id": 1362,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Prom (2)",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 3500,
       "sell": 875
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 14398,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "BagShoulderTasukiprom4"
+        "isPattern": false,
+        "imageName": "BagShoulderTasukiprom4"
       },
       {
         "id": 14399,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagShoulderTasukiprom5"
+        "isPattern": false,
+        "imageName": "BagShoulderTasukiprom5"
       },
       {
         "id": 14262,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "BagShoulderTasukiprom0"
+        "isPattern": false,
+        "imageName": "BagShoulderTasukiprom0"
       },
       {
         "id": 14400,
         "name": {
-          en: "Gold",
-          jp: "ゴールド"
+          "en": "Gold",
+          "jp": ""
         },
-        "fileName": "BagShoulderTasukiprom6"
+        "isPattern": false,
+        "imageName": "BagShoulderTasukiprom6"
       },
       {
         "id": 14396,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagShoulderTasukiprom2"
+        "isPattern": false,
+        "imageName": "BagShoulderTasukiprom2"
       },
       {
         "id": 14395,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagShoulderTasukiprom1"
+        "isPattern": false,
+        "imageName": "BagShoulderTasukiprom1"
       },
       {
         "id": 14397,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "BagShoulderTasukiprom3"
+        "isPattern": false,
+        "imageName": "BagShoulderTasukiprom3"
       }
     ]
   },
   {
     "name": {
-      en: "retro sports bag",
-      jp: "スポーツバッグ"
+      "en": "retro sports bag",
+      "jp": "スポーツバッグ"
     },
     "id": 984,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12007,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "BagShoulderSports1"
+        "isPattern": false,
+        "imageName": "BagShoulderSports1"
       },
       {
         "id": 7302,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagShoulderSports0"
+        "isPattern": false,
+        "imageName": "BagShoulderSports0"
       },
       {
         "id": 12008,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagShoulderSports2"
+        "isPattern": false,
+        "imageName": "BagShoulderSports2"
       }
     ]
   },
   {
     "name": {
-      en: "sacoche bag",
-      jp: "サコッシュ"
+      "en": "sacoche bag",
+      "jp": "サコッシュ"
     },
     "id": 985,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 980,
       "sell": 245
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11975,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagShoulderSacosh2"
+        "isPattern": false,
+        "imageName": "BagShoulderSacosh2"
       },
       {
         "id": 11974,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "BagShoulderSacosh1"
+        "isPattern": false,
+        "imageName": "BagShoulderSacosh1"
       },
       {
         "id": 7304,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagShoulderSacosh0"
+        "isPattern": false,
+        "imageName": "BagShoulderSacosh0"
       }
     ]
   },
   {
     "name": {
-      en: "shellfish pochette",
-      jp: "かいがらポシェット"
+      "en": "shellfish pochette",
+      "jp": "かいがらポシェット"
     },
     "id": 982,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "summer shells",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7494,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderShell0"
+        "isPattern": false,
+        "imageName": "BagShoulderShell0"
       }
     ]
   },
   {
     "name": {
-      en: "snowflake pochette",
-      jp: "スノーフレークポシェット"
+      "en": "snowflake pochette",
+      "jp": "スノーフレークポシェット"
     },
     "id": 981,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "snowflakes",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7493,
         "name": {
-          en: "NA",
-          jp: "ホワイト"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderSnow0"
+        "isPattern": false,
+        "imageName": "BagShoulderSnow0"
       }
     ]
   },
   {
     "name": {
-      en: "square backpack",
-      jp: "しかくいリュック"
+      "en": "square backpack",
+      "jp": "しかくいリュック"
     },
     "id": 989,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11967,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "BagBackpackSquare1"
+        "isPattern": false,
+        "imageName": "BagBackpackSquare1"
       },
       {
         "id": 7500,
         "name": {
-          en: "Yellow",
-          jp: "イエロー"
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "BagBackpackSquare0"
+        "isPattern": false,
+        "imageName": "BagBackpackSquare0"
       },
       {
         "id": 11968,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagBackpackSquare2"
+        "isPattern": false,
+        "imageName": "BagBackpackSquare2"
       }
     ]
   },
   {
     "name": {
-      en: "star pochette",
-      jp: "スターなポシェット"
+      "en": "star pochette",
+      "jp": "スターなポシェット"
     },
     "id": 977,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "Yes",
+    "diy": true,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7489,
         "name": {
-          en: "NA",
-          jp: "イエロー"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderStar0"
+        "isPattern": false,
+        "imageName": "BagShoulderStar0"
       }
     ]
   },
   {
     "name": {
-      en: "straw pochette",
-      jp: "ラタンポシェット"
+      "en": "straw pochette",
+      "jp": "ラタンポシェット"
     },
     "id": 976,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 980,
       "sell": 245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7488,
         "name": {
-          en: "NA",
-          jp: "ブラウン"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderRattan0"
+        "isPattern": false,
+        "imageName": "BagShoulderRattan0"
       }
     ]
   },
   {
     "name": {
-      en: "studded backpack",
-      jp: "スタッズリュック"
+      "en": "studded backpack",
+      "jp": "スタッズリュック"
     },
     "id": 992,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1560,
       "sell": 390
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 12006,
         "name": {
-          en: "White",
-          jp: "ホワイト"
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "BagBackpackStuds1"
+        "isPattern": false,
+        "imageName": "BagBackpackStuds1"
       },
       {
         "id": 7503,
         "name": {
-          en: "Black",
-          jp: "ブラック"
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "BagBackpackStuds0"
+        "isPattern": false,
+        "imageName": "BagBackpackStuds0"
       }
     ]
   },
   {
     "name": {
-      en: "tackle bag",
-      jp: "フィッシングバッグ"
+      "en": "tackle bag",
+      "jp": "フィッシングバッグ"
     },
     "id": 966,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": "Fishing Tourney",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 175
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7478,
         "name": {
-          en: "NA",
-          jp: "ブルー"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderFishing0"
+        "isPattern": false,
+        "imageName": "BagShoulderFishing0"
       }
     ]
   },
   {
     "name": {
-      en: "tool bag",
-      jp: "ツールバッグ"
+      "en": "tool bag",
+      "jp": "ツールバッグ"
     },
     "id": 983,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 910,
       "sell": 227
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7497,
         "name": {
-          en: "NA",
-          jp: "ブラック"
+          "en": false,
+          "jp": ""
         },
-        "fileName": "BagShoulderTool0"
+        "isPattern": false,
+        "imageName": "BagShoulderTool0"
       }
     ]
   },
   {
     "name": {
-      en: "town backpack",
-      jp: "タウンリュック"
+      "en": "town backpack",
+      "jp": "タウンリュック"
     },
     "id": 957,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 1040,
       "sell": 260
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 11945,
         "name": {
-          en: "Red",
-          jp: "レッド"
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "BagBackpackTown3"
+        "isPattern": false,
+        "imageName": "BagBackpackTown3"
       },
       {
         "id": 6839,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "BagBackpackTown1"
+        "isPattern": false,
+        "imageName": "BagBackpackTown1"
       },
       {
         "id": 6838,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagBackpackTown0"
+        "isPattern": false,
+        "imageName": "BagBackpackTown0"
       },
       {
         "id": 11944,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackTown2"
+        "isPattern": false,
+        "imageName": "BagBackpackTown2"
       }
     ]
   },
   {
     "name": {
-      en: "travel pouch",
-      jp: "トラベルポーチ"
+      "en": "travel pouch",
+      "jp": "トラベルポーチ"
     },
     "id": 958,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 840,
       "sell": 210
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 2550,
         "name": {
-          en: "Pink",
-          jp: "ピンク"
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "BagShoulderTravel0"
+        "isPattern": false,
+        "imageName": "BagShoulderTravel0"
       },
       {
         "id": 12000,
         "name": {
-          en: "Green",
-          jp: "グリーン"
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "BagShoulderTravel1"
+        "isPattern": false,
+        "imageName": "BagShoulderTravel1"
       },
       {
         "id": 12001,
         "name": {
-          en: "Light blue",
-          jp: "ライトブルー"
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "BagShoulderTravel2"
+        "isPattern": false,
+        "imageName": "BagShoulderTravel2"
       },
       {
         "id": 12002,
         "name": {
-          en: "Purple",
-          jp: "パープル"
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "BagShoulderTravel3"
+        "isPattern": false,
+        "imageName": "BagShoulderTravel3"
       }
     ]
   },
   {
     "name": {
-      en: "traveler's backpack",
-      jp: "たびびとのリュック"
+      "en": "traveler's backpack",
+      "jp": "たびびとのリュック"
     },
     "id": 988,
-    "source": {
-      en: "Kicks",
-      jp: "Kicks"
-    },
+    "source": "Kicks",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "bags",
-    "diy": "No",
+    "diy": false,
     "price": {
       "buy": 2940,
       "sell": 735
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": 7499,
         "name": {
-          en: "Orange",
-          jp: "オレンジ"
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "BagBackpackJourney0"
+        "isPattern": false,
+        "imageName": "BagBackpackJourney0"
       },
       {
         "id": 11965,
         "name": {
-          en: "Blue",
-          jp: "ブルー"
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "BagBackpackJourney1"
+        "isPattern": false,
+        "imageName": "BagBackpackJourney1"
       },
       {
         "id": 11966,
         "name": {
-          en: "Brown",
-          jp: "ブラウン"
+          "en": "Brown",
+          "jp": ""
         },
-        "fileName": "BagBackpackJourney2"
+        "isPattern": false,
+        "imageName": "BagBackpackJourney2"
       }
     ]
   }
-];
+]

@@ -1,7466 +1,8252 @@
 items.wallMounted = [
   {
     "name": {
-      en: "air conditioner",
-      jp: ""
+      "en": "air conditioner",
+      "jp": "エアコン"
     },
     "id": 929,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Air Conditioning",
     "price": {
       "buy": 63000,
       "sell": 15750
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrAirconditioner_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrAirconditioner_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrAirconditioner_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrAirconditioner_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrAirconditioner_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrAirconditioner_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrAirconditioner_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrAirconditioner_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrAirconditioner_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrAirconditioner_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrAirconditioner_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrAirconditioner_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "antique phone",
-      jp: ""
+      "en": "antique phone",
+      "jp": "アンティークなでんわ"
     },
     "id": 3953,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 16000,
       "sell": 4000
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrAntiquePhoneW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrAntiquePhoneW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrAntiquePhoneW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrAntiquePhoneW_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrAntiquePhoneW_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrAntiquePhoneW_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "art plaque",
-      jp: ""
+      "en": "art plaque",
+      "jp": "アートのかべかざり"
     },
     "id": 14532,
-    "source": {
-      en: "Blathers",
-      jp: "Blathers"
-    },
+    "source": "Blathers",
     "map": 0,
+    "event": "International Museum Day",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMuseumArtWall"
+        "isPattern": false,
+        "imageName": "FtrMuseumArtWall"
       }
     ]
   },
   {
     "name": {
-      en: "autograph cards",
-      jp: ""
+      "en": "autograph cards",
+      "jp": "しきし"
     },
     "id": 1899,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "Comedian's signature",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 8,
+    "count": {
+      "variants": 4,
+      "patterns": 4
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Signature",
-          jp: ""
+          "en": "Signature",
+          "jp": "サイン"
         },
-        "fileName": "FtrAutograph_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrAutograph_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Signature",
-          jp: ""
+          "en": "Signature",
+          "jp": "サイン"
         },
-        "fileName": "FtrAutograph_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrAutograph_Remake_0_1"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Handprints",
-          jp: ""
+          "en": "Handprints",
+          "jp": "手形"
         },
-        "fileName": "FtrAutograph_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrAutograph_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Handprints",
-          jp: ""
+          "en": "Handprints",
+          "jp": "手形"
         },
-        "fileName": "FtrAutograph_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrAutograph_Remake_1_1"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Illustration",
-          jp: ""
+          "en": "Illustration",
+          "jp": "イラスト"
         },
-        "fileName": "FtrAutograph_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrAutograph_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Illustration",
-          jp: ""
+          "en": "Illustration",
+          "jp": "イラスト"
         },
-        "fileName": "FtrAutograph_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrAutograph_Remake_2_1"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Words of wisdom",
-          jp: ""
+          "en": "Words of wisdom",
+          "jp": "名言"
         },
-        "fileName": "FtrAutograph_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrAutograph_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Words of wisdom",
-          jp: ""
+          "en": "Words of wisdom",
+          "jp": "名言"
         },
-        "fileName": "FtrAutograph_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrAutograph_Remake_3_1"
       }
     ]
   },
   {
     "name": {
-      en: "bamboo wall decoration",
-      jp: ""
+      "en": "bamboo wall decoration",
+      "jp": "たけのいちりんざし"
     },
     "id": 3558,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 160
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green bamboo",
-          jp: ""
+          "en": "Green bamboo",
+          "jp": "青竹"
         },
-        "fileName": "FtrBambooFlowerwall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBambooFlowerwall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dried bamboo",
-          jp: ""
+          "en": "Dried bamboo",
+          "jp": "枯竹"
         },
-        "fileName": "FtrBambooFlowerwall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBambooFlowerwall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Smoke-cured bamboo",
-          jp: ""
+          "en": "Smoke-cured bamboo",
+          "jp": "煤竹"
         },
-        "fileName": "FtrBambooFlowerwall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBambooFlowerwall_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "bathroom towel rack",
-      jp: ""
+      "en": "bathroom towel rack",
+      "jp": "タオルラック"
     },
     "id": 4030,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Bathroom Things",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrTowelrackWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTowelrackWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrTowelrackWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTowelrackWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Copper",
-          jp: ""
+          "en": "Copper",
+          "jp": "ブロンズ"
         },
-        "fileName": "FtrTowelrackWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTowelrackWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTowelrackWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTowelrackWall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "blue rose wreath",
-      jp: ""
+      "en": "blue rose wreath",
+      "jp": ""
     },
     "id": 5772,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 20000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathRoseUrtraRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathRoseUrtraRare"
       }
     ]
   },
   {
     "name": {
-      en: "bone doorplate",
-      jp: ""
+      "en": "bone doorplate",
+      "jp": ""
     },
     "id": 4751,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 360
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrDoorPlateBone_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateBone_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDoorPlateBone_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateBone_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDoorPlateBone_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateBone_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDoorPlateBone_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateBone_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrDoorPlateBone_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateBone_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrDoorPlateBone_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateBone_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorPlateBone_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateBone_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Natural wood",
-          jp: ""
+          "en": "Natural wood",
+          "jp": "ナチュラルウッド"
         },
-        "fileName": "FtrDoorPlateBone_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateBone_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "boomerang",
-      jp: ""
+      "en": "boomerang",
+      "jp": "ブーメラン"
     },
     "id": 682,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 360
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrBoomerang_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBoomerang_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green & orange",
-          jp: ""
+          "en": "Green & orange",
+          "jp": "グリーン＆オレンジ"
         },
-        "fileName": "FtrBoomerang_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBoomerang_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Dark brown",
-          jp: ""
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "FtrBoomerang_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBoomerang_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red & black",
-          jp: ""
+          "en": "Red & black",
+          "jp": "レッド＆ブラック"
         },
-        "fileName": "FtrBoomerang_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBoomerang_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White & blue",
-          jp: ""
+          "en": "White & blue",
+          "jp": "ホワイト＆ブルー"
         },
-        "fileName": "FtrBoomerang_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBoomerang_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "breaker",
-      jp: ""
+      "en": "breaker",
+      "jp": "ブレーカー"
     },
     "id": 875,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 820,
       "sell": 205
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBreaker"
+        "isPattern": false,
+        "imageName": "FtrBreaker"
       }
     ]
   },
   {
     "name": {
-      en: "bronze HHA plaque",
-      jp: ""
+      "en": "bronze HHA plaque",
+      "jp": "アカデミーのどうのたて"
     },
     "id": 7037,
-    "source": {
-      en: "HHA",
-      jp: "HHA"
-    },
+    "source": "HHA",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrShieldHhaBronze"
+        "isPattern": false,
+        "imageName": "FtrShieldHhaBronze"
       }
     ]
   },
   {
     "name": {
-      en: "broom and dustpan",
-      jp: ""
+      "en": "broom and dustpan",
+      "jp": "ほうきとちりとり"
     },
     "id": 3967,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
       "buy": 910,
       "sell": 227
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCleaningset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCleaningset_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCleaningset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCleaningset_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Dark brown",
-          jp: ""
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "FtrCleaningset_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCleaningset_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrCleaningset_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCleaningset_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "bug plaque",
-      jp: ""
+      "en": "bug plaque",
+      "jp": "ムシのかべかざり"
     },
     "id": 12485,
-    "source": {
-      en: "Blathers",
-      jp: "Blathers"
-    },
+    "source": "Blathers",
     "map": 0,
+    "event": "International Museum Day",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMuseumInsectWall"
+        "isPattern": false,
+        "imageName": "FtrMuseumInsectWall"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day glowy garland",
-      jp: ""
+      "en": "Bunny Day glowy garland",
+      "jp": "イースターなライトガーランド"
     },
     "id": 12417,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrEggLampWall"
+        "isPattern": false,
+        "imageName": "FtrEggLampWall"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day wall clock",
-      jp: ""
+      "en": "Bunny Day wall clock",
+      "jp": "イースターなウォールクロック"
     },
     "id": 12418,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Clock",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrEggClock"
+        "isPattern": false,
+        "imageName": "FtrEggClock"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day wreath",
-      jp: ""
+      "en": "Bunny Day wreath",
+      "jp": ""
     },
     "id": 12517,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathEaster"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathEaster"
       }
     ]
   },
   {
     "name": {
-      en: "butterfly-fish model",
-      jp: ""
+      "en": "butterfly-fish model",
+      "jp": "かべかけチョウチョウウオ"
     },
     "id": 11182,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Special Fish",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishChouchouuoWall"
+        "isPattern": false,
+        "imageName": "FtrFishChouchouuoWall"
       }
     ]
   },
   {
     "name": {
-      en: "cherry lamp",
-      jp: ""
+      "en": "cherry lamp",
+      "jp": "さくらんぼのランプ"
     },
     "id": 4012,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Cherry",
-          jp: ""
+          "en": "Cherry",
+          "jp": "チェリー"
         },
-        "fileName": "FtrFruitsLampW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFruitsLampW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black cherry",
-          jp: ""
+          "en": "Black cherry",
+          "jp": "アメリカンチェリー"
         },
-        "fileName": "FtrFruitsLampW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFruitsLampW_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "cherry-blossom clock",
-      jp: ""
+      "en": "cherry-blossom clock",
+      "jp": "さくらクロック"
     },
     "id": 6832,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "cherry-blossom petals",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Clock",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2750
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrSakuraClockW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSakuraClockW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink-white",
-          jp: ""
+          "en": "Pink-white",
+          "jp": "ピンクホワイト"
         },
-        "fileName": "FtrSakuraClockW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSakuraClockW_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "chic cosmos wreath",
-      jp: ""
+      "en": "chic cosmos wreath",
+      "jp": ""
     },
     "id": 5764,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathCosmosRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathCosmosRare"
       }
     ]
   },
   {
     "name": {
-      en: "chic windflower wreath",
-      jp: ""
+      "en": "chic windflower wreath",
+      "jp": ""
     },
     "id": 5765,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathAnemoneRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathAnemoneRare"
       }
     ]
   },
   {
     "name": {
-      en: "coconut wall planter",
-      jp: ""
+      "en": "coconut wall planter",
+      "jp": "ヤシのウォールプランター"
     },
     "id": 4130,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrPlanterPalm"
+        "isPattern": false,
+        "imageName": "FtrPlanterPalm"
       }
     ]
   },
   {
     "name": {
-      en: "cool hyacinth wreath",
-      jp: ""
+      "en": "cool hyacinth wreath",
+      "jp": ""
     },
     "id": 5750,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1440
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathHyacinthMix"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathHyacinthMix"
       }
     ]
   },
   {
     "name": {
-      en: "cool pansy wreath",
-      jp: ""
+      "en": "cool pansy wreath",
+      "jp": ""
     },
     "id": 5767,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathPansyRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathPansyRare"
       }
     ]
   },
   {
     "name": {
-      en: "cool windflower wreath",
-      jp: ""
+      "en": "cool windflower wreath",
+      "jp": ""
     },
     "id": 5746,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathAnemoneMix"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathAnemoneMix"
       }
     ]
   },
   {
     "name": {
-      en: "corkboard",
-      jp: ""
+      "en": "corkboard",
+      "jp": "コルクボード"
     },
     "id": 1783,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "Flower",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 9,
+    "count": {
+      "variants": 3,
+      "patterns": 6
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCorkboard_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCorkboard_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCorkboard_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrCorkboard_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCorkboard_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrCorkboard_Remake_0_2"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCorkboard_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCorkboard_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCorkboard_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrCorkboard_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCorkboard_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrCorkboard_Remake_1_2"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCorkboard_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCorkboard_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCorkboard_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrCorkboard_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCorkboard_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrCorkboard_Remake_2_2"
       }
     ]
   },
   {
     "name": {
-      en: "cosmos wreath",
-      jp: ""
+      "en": "cosmos wreath",
+      "jp": ""
     },
     "id": 4293,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathCosmos"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathCosmos"
       }
     ]
   },
   {
     "name": {
-      en: "crest doorplate",
-      jp: ""
+      "en": "crest doorplate",
+      "jp": ""
     },
     "id": 5717,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDoorOrnamentCrest_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentCrest_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gold & silver",
-          jp: ""
+          "en": "Gold & silver",
+          "jp": "ゴールド＆シルバー"
         },
-        "fileName": "FtrDoorOrnamentCrest_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentCrest_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver & blue",
-          jp: ""
+          "en": "Silver & blue",
+          "jp": "シルバー＆ブルー"
         },
-        "fileName": "FtrDoorOrnamentCrest_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentCrest_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red & white",
-          jp: ""
+          "en": "Red & white",
+          "jp": "レッド＆ホワイト"
         },
-        "fileName": "FtrDoorOrnamentCrest_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentCrest_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Silver & green",
-          jp: ""
+          "en": "Silver & green",
+          "jp": "シルバー＆グリーン"
         },
-        "fileName": "FtrDoorOrnamentCrest_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentCrest_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrDoorOrnamentCrest_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentCrest_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "cuckoo clock",
-      jp: ""
+      "en": "cuckoo clock",
+      "jp": "はとどけい"
     },
     "id": 915,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 3200,
       "sell": 800
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCuckooclock_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCuckooclock_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCuckooclock_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCuckooclock_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCuckooclock_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCuckooclock_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrCuckooclock_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCuckooclock_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCuckooclock_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCuckooclock_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCuckooclock_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCuckooclock_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCuckooclock_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrCuckooclock_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "cute wall-mounted clock",
-      jp: ""
+      "en": "cute wall-mounted clock",
+      "jp": "キュートなかべかけどけい"
     },
     "id": 3996,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCuteClockW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCuteClockW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Sky blue",
-          jp: ""
+          "en": "Sky blue",
+          "jp": "スカイブルー"
         },
-        "fileName": "FtrCuteClockW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCuteClockW_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrCuteClockW_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCuteClockW_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCuteClockW_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCuteClockW_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCuteClockW_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCuteClockW_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "dark lily wreath",
-      jp: ""
+      "en": "dark lily wreath",
+      "jp": ""
     },
     "id": 5770,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathYuriRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathYuriRare"
       }
     ]
   },
   {
     "name": {
-      en: "dark rose wreath",
-      jp: ""
+      "en": "dark rose wreath",
+      "jp": ""
     },
     "id": 5766,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4320
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathRoseRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathRoseRare"
       }
     ]
   },
   {
     "name": {
-      en: "dark tulip wreath",
-      jp: ""
+      "en": "dark tulip wreath",
+      "jp": ""
     },
     "id": 5771,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathTulipRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathTulipRare"
       }
     ]
   },
   {
     "name": {
-      en: "deer decoration",
-      jp: ""
+      "en": "deer decoration",
+      "jp": "しかのオブジェ"
     },
     "id": 3340,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Animal",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 960
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrHuntingtrophy_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHuntingtrophy_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Ash",
-          jp: ""
+          "en": "Ash",
+          "jp": "アッシュ"
         },
-        "fileName": "FtrHuntingtrophy_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHuntingtrophy_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Ivory",
-          jp: ""
+          "en": "Ivory",
+          "jp": "アイボリー"
         },
-        "fileName": "FtrHuntingtrophy_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHuntingtrophy_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrHuntingtrophy_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHuntingtrophy_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrHuntingtrophy_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrHuntingtrophy_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "diner neon clock",
-      jp: ""
+      "en": "diner neon clock",
+      "jp": "ダイナーなネオンクロック"
     },
     "id": 4144,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "B & W numeral",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 21,
+    "count": {
+      "variants": 7,
+      "patterns": 14
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrAmeretroClock_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrAmeretroClock_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrAmeretroClock_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrAmeretroClock_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_0_2"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrAmeretroClock_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrAmeretroClock_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrAmeretroClock_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrAmeretroClock_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_1_2"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrAmeretroClock_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrAmeretroClock_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrAmeretroClock_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrAmeretroClock_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_2_2"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Aquamarine",
-          jp: ""
+          "en": "Aquamarine",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrAmeretroClock_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrAmeretroClock_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Aquamarine",
-          jp: ""
+          "en": "Aquamarine",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrAmeretroClock_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Aquamarine",
-          jp: ""
+          "en": "Aquamarine",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrAmeretroClock_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_3_2"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrAmeretroClock_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrAmeretroClock_Remake_4_0"
       },
       {
         "id": "4_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrAmeretroClock_Remake_4_1"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_4_1"
       },
       {
         "id": "4_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrAmeretroClock_Remake_4_2"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_4_2"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrAmeretroClock_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrAmeretroClock_Remake_5_0"
       },
       {
         "id": "5_1",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrAmeretroClock_Remake_5_1"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_5_1"
       },
       {
         "id": "5_2",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrAmeretroClock_Remake_5_2"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_5_2"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrAmeretroClock_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrAmeretroClock_Remake_6_0"
       },
       {
         "id": "6_1",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrAmeretroClock_Remake_6_1"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_6_1"
       },
       {
         "id": "6_2",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrAmeretroClock_Remake_6_2"
+        "isPattern": true,
+        "imageName": "FtrAmeretroClock_Remake_6_2"
       }
     ]
   },
   {
     "name": {
-      en: "double-sided wall clock",
-      jp: ""
+      "en": "double-sided wall clock",
+      "jp": "りょうめんウォールクロック"
     },
     "id": 4133,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 1100,
       "sell": 275
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrBothsideclockWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBothsideclockWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrBothsideclockWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBothsideclockWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrBothsideclockWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBothsideclockWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrBothsideclockWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBothsideclockWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrBothsideclockWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBothsideclockWall_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrBothsideclockWall_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrBothsideclockWall_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "exit sign",
-      jp: ""
+      "en": "exit sign",
+      "jp": "ひじょうぐち"
     },
     "id": 955,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Facility Decor",
     "price": {
       "buy": 810,
       "sell": 202
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "←",
-          jp: ""
+          "en": "←",
+          "jp": "←"
         },
-        "fileName": "FtrExit_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrExit_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "→",
-          jp: ""
+          "en": "→",
+          "jp": "→"
         },
-        "fileName": "FtrExit_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrExit_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red exit",
-          jp: ""
+          "en": "Red exit",
+          "jp": "<EXIT>"
         },
-        "fileName": "FtrExit_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrExit_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "← →",
-          jp: ""
+          "en": "← →",
+          "jp": "← →"
         },
-        "fileName": "FtrExit_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrExit_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "fancy lily wreath",
-      jp: ""
+      "en": "fancy lily wreath",
+      "jp": ""
     },
     "id": 5677,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathYuriMix"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathYuriMix"
       }
     ]
   },
   {
     "name": {
-      en: "fancy mum wreath",
-      jp: ""
+      "en": "fancy mum wreath",
+      "jp": ""
     },
     "id": 5749,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathMumMix"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathMumMix"
       }
     ]
   },
   {
     "name": {
-      en: "fancy rose wreath",
-      jp: ""
+      "en": "fancy rose wreath",
+      "jp": ""
     },
     "id": 5747,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathRoseMix"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathRoseMix"
       }
     ]
   },
   {
     "name": {
-      en: "festive wreath",
-      jp: ""
+      "en": "festive wreath",
+      "jp": ""
     },
     "id": 13357,
-    "source": {
-      en: "All villagers",
-      jp: "All villagers"
-    },
+    "source": "All villagers",
     "map": 0,
+    "event": "Toy Day (ready days phase 2); Toy Day",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentXmasWreath"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentXmasWreath"
       }
     ]
   },
   {
     "name": {
-      en: "fish doorplate",
-      jp: ""
+      "en": "fish doorplate",
+      "jp": ""
     },
     "id": 4764,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": "Fishing Tourney",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 90
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrDoorOrnamentFish_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFish_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrDoorOrnamentFish_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFish_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrDoorOrnamentFish_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFish_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrDoorOrnamentFish_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFish_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrDoorOrnamentFish_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFish_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentFish_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFish_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDoorOrnamentFish_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFish_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrDoorOrnamentFish_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFish_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "fish plaque",
-      jp: ""
+      "en": "fish plaque",
+      "jp": "サカナのかべかざり"
     },
     "id": 12486,
-    "source": {
-      en: "Blathers",
-      jp: "Blathers"
-    },
+    "source": "Blathers",
     "map": 0,
+    "event": "International Museum Day",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMuseumFishWall"
+        "isPattern": false,
+        "imageName": "FtrMuseumFishWall"
       }
     ]
   },
   {
     "name": {
-      en: "fish print",
-      jp: ""
+      "en": "fish print",
+      "jp": "ぎょたく"
     },
     "id": 3699,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": "Fishing Tourney",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seaside",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 700
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Giant trevally",
-          jp: ""
+          "en": "Giant trevally",
+          "jp": "ロウニンアジ"
         },
-        "fileName": "FtrFishprint_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFishprint_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red snapper",
-          jp: ""
+          "en": "Red snapper",
+          "jp": "タイ"
         },
-        "fileName": "FtrFishprint_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFishprint_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue marlin",
-          jp: ""
+          "en": "Blue marlin",
+          "jp": "カジキ"
         },
-        "fileName": "FtrFishprint_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrFishprint_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Squid",
-          jp: ""
+          "en": "Squid",
+          "jp": "イカ"
         },
-        "fileName": "FtrFishprint_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrFishprint_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black bass",
-          jp: ""
+          "en": "Black bass",
+          "jp": "ブラックバス"
         },
-        "fileName": "FtrFishprint_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrFishprint_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Carp",
-          jp: ""
+          "en": "Carp",
+          "jp": "コイ"
         },
-        "fileName": "FtrFishprint_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrFishprint_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Giant snakehead",
-          jp: ""
+          "en": "Giant snakehead",
+          "jp": "ライギョ"
         },
-        "fileName": "FtrFishprint_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrFishprint_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "fishing-boat flag",
-      jp: ""
+      "en": "fishing-boat flag",
+      "jp": "たいりょうき"
     },
     "id": 3583,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seaside",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Nintenmaru - Big Catch",
-          jp: ""
+          "en": "Nintenmaru - Big Catch",
+          "jp": "大漁"
         },
-        "fileName": "FtrBigcatchflag_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBigcatchflag_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Tsurukamemaru - Longevity",
-          jp: ""
+          "en": "Tsurukamemaru - Longevity",
+          "jp": "鶴亀丸"
         },
-        "fileName": "FtrBigcatchflag_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBigcatchflag_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Marufukumaru - Bounty",
-          jp: ""
+          "en": "Marufukumaru - Bounty",
+          "jp": "丸福丸"
         },
-        "fileName": "FtrBigcatchflag_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBigcatchflag_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Uomasamaru III - Launch",
-          jp: ""
+          "en": "Uomasamaru III - Launch",
+          "jp": "魚政丸"
         },
-        "fileName": "FtrBigcatchflag_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBigcatchflag_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "floral swag",
-      jp: ""
+      "en": "floral swag",
+      "jp": "スワッグ"
     },
     "id": 4027,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 200
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrFlowerSwag_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerSwag_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrFlowerSwag_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerSwag_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrFlowerSwag_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerSwag_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrFlowerSwag_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerSwag_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrFlowerSwag_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerSwag_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "formal paper",
-      jp: ""
+      "en": "formal paper",
+      "jp": "ひょうしょうじょう"
     },
     "id": 4099,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 620,
       "sell": 155
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrTestimonial_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTestimonial_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Light brown",
-          jp: ""
+          "en": "Light brown",
+          "jp": "ライトブラウン"
         },
-        "fileName": "FtrTestimonial_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTestimonial_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Dark brown",
-          jp: ""
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "FtrTestimonial_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTestimonial_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "fossil doorplate",
-      jp: ""
+      "en": "fossil doorplate",
+      "jp": ""
     },
     "id": 5719,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 500
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrDoorOrnamentFossil_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFossil_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentFossil_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentFossil_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "fossil plaque",
-      jp: ""
+      "en": "fossil plaque",
+      "jp": "かせきのかべかざり"
     },
     "id": 12484,
-    "source": {
-      en: "Blathers",
-      jp: "Blathers"
-    },
+    "source": "Blathers",
     "map": 0,
+    "event": "International Museum Day",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMuseumFossilWall"
+        "isPattern": false,
+        "imageName": "FtrMuseumFossilWall"
       }
     ]
   },
   {
     "name": {
-      en: "fruit wreath",
-      jp: ""
+      "en": "fruit wreath",
+      "jp": ""
     },
     "id": 4378,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathFruit"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathFruit"
       }
     ]
   },
   {
     "name": {
-      en: "gears",
-      jp: ""
+      "en": "gears",
+      "jp": "はぐるま"
     },
     "id": 7280,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Facility Decor",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrGearWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrGearWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Copper",
-          jp: ""
+          "en": "Copper",
+          "jp": "ブロンズ"
         },
-        "fileName": "FtrGearWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrGearWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrGearWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrGearWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrGearWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrGearWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Wooden",
-          jp: ""
+          "en": "Wooden",
+          "jp": "木製"
         },
-        "fileName": "FtrGearWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrGearWall_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "gold HHA plaque",
-      jp: ""
+      "en": "gold HHA plaque",
+      "jp": "アカデミーのきんのたて"
     },
     "id": 7035,
-    "source": {
-      en: "HHA",
-      jp: "HHA"
-    },
+    "source": "HHA",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrShieldHhaGold"
+        "isPattern": false,
+        "imageName": "FtrShieldHhaGold"
       }
     ]
   },
   {
     "name": {
-      en: "gold rose wreath",
-      jp: ""
+      "en": "gold rose wreath",
+      "jp": ""
     },
     "id": 5820,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 20000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathRoseGold"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathRoseGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden gears",
-      jp: ""
+      "en": "golden gears",
+      "jp": "おうごんのはぐるま"
     },
     "id": 11261,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Facility Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 11125
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrGearWallGold"
+        "isPattern": false,
+        "imageName": "FtrGearWallGold"
       }
     ]
   },
   {
     "name": {
-      en: "grasshopper-head model",
-      jp: ""
+      "en": "grasshopper-head model",
+      "jp": "バッタヘッド"
     },
     "id": 11099,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Special Insect",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectTonosamabattaFace"
+        "isPattern": false,
+        "imageName": "FtrInsectTonosamabattaFace"
       }
     ]
   },
   {
     "name": {
-      en: "hanging scroll",
-      jp: ""
+      "en": "hanging scroll",
+      "jp": "かけじく"
     },
     "id": 7282,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "Flower",
+    "diy": false,
     "tag": "Japanese Style",
     "price": {
       "buy": 140000,
       "sell": 35000
     },
-    "count": 25,
+    "count": {
+      "variants": 5,
+      "patterns": 20
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "緑"
         },
-        "fileName": "FtrHangingscroll_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHangingscroll_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "緑"
         },
-        "fileName": "FtrHangingscroll_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "緑"
         },
-        "fileName": "FtrHangingscroll_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "緑"
         },
-        "fileName": "FtrHangingscroll_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "緑"
         },
-        "fileName": "FtrHangingscroll_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_0_4"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "茶色"
         },
-        "fileName": "FtrHangingscroll_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHangingscroll_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "茶色"
         },
-        "fileName": "FtrHangingscroll_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "茶色"
         },
-        "fileName": "FtrHangingscroll_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "茶色"
         },
-        "fileName": "FtrHangingscroll_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_1_3"
       },
       {
         "id": "1_4",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "茶色"
         },
-        "fileName": "FtrHangingscroll_Remake_1_4"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_1_4"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "桃色"
         },
-        "fileName": "FtrHangingscroll_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHangingscroll_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "桃色"
         },
-        "fileName": "FtrHangingscroll_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "桃色"
         },
-        "fileName": "FtrHangingscroll_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "桃色"
         },
-        "fileName": "FtrHangingscroll_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_2_3"
       },
       {
         "id": "2_4",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "桃色"
         },
-        "fileName": "FtrHangingscroll_Remake_2_4"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_2_4"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "青"
         },
-        "fileName": "FtrHangingscroll_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHangingscroll_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "青"
         },
-        "fileName": "FtrHangingscroll_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "青"
         },
-        "fileName": "FtrHangingscroll_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "青"
         },
-        "fileName": "FtrHangingscroll_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_3_3"
       },
       {
         "id": "3_4",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "青"
         },
-        "fileName": "FtrHangingscroll_Remake_3_4"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_3_4"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "紫"
         },
-        "fileName": "FtrHangingscroll_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrHangingscroll_Remake_4_0"
       },
       {
         "id": "4_1",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "紫"
         },
-        "fileName": "FtrHangingscroll_Remake_4_1"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_4_1"
       },
       {
         "id": "4_2",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "紫"
         },
-        "fileName": "FtrHangingscroll_Remake_4_2"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_4_2"
       },
       {
         "id": "4_3",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "紫"
         },
-        "fileName": "FtrHangingscroll_Remake_4_3"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_4_3"
       },
       {
         "id": "4_4",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "紫"
         },
-        "fileName": "FtrHangingscroll_Remake_4_4"
+        "isPattern": true,
+        "imageName": "FtrHangingscroll_Remake_4_4"
       }
     ]
   },
   {
     "name": {
-      en: "hanging terrarium",
-      jp: ""
+      "en": "hanging terrarium",
+      "jp": "ハンギングテラリウム"
     },
     "id": 3775,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3240
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTerrariumWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTerrariumWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrTerrariumWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTerrariumWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrTerrariumWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTerrariumWall_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "heart doorplate",
-      jp: ""
+      "en": "heart doorplate",
+      "jp": ""
     },
     "id": 5309,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDoorOrnamentPlateHeart_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateHeart_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentPlateHeart_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateHeart_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Monotone",
-          jp: ""
+          "en": "Monotone",
+          "jp": "モノトーン"
         },
-        "fileName": "FtrDoorOrnamentPlateHeart_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateHeart_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrDoorOrnamentPlateHeart_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateHeart_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrDoorOrnamentPlateHeart_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateHeart_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrDoorOrnamentPlateHeart_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateHeart_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrDoorOrnamentPlateHeart_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateHeart_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrDoorOrnamentPlateHeart_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateHeart_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "Hello Kitty clock",
-      jp: ""
+      "en": "Hello Kitty clock",
+      "jp": "ハローキティなとけい"
     },
     "id": 12268,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Hello Kitty",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioKtyClockWall"
+        "isPattern": false,
+        "imageName": "FtrSanrioKtyClockWall"
       }
     ]
   },
   {
     "name": {
-      en: "HHA pennant",
-      jp: ""
+      "en": "HHA pennant",
+      "jp": "アカデミーのペナント"
     },
     "id": 7040,
-    "source": {
-      en: "HHA",
-      jp: "HHA"
-    },
+    "source": "HHA",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrPenantHha"
+        "isPattern": false,
+        "imageName": "FtrPenantHha"
       }
     ]
   },
   {
     "name": {
-      en: "hyacinth wreath",
-      jp: ""
+      "en": "hyacinth wreath",
+      "jp": ""
     },
     "id": 5468,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathHyacinth"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathHyacinth"
       }
     ]
   },
   {
     "name": {
-      en: "imperial decorative shelves",
-      jp: ""
+      "en": "imperial decorative shelves",
+      "jp": "オリエンタルなかざりだな"
     },
     "id": 3970,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Shelf",
     "price": {
       "buy": 8500,
       "sell": 2125
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrOrientalShelfWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrOrientalShelfWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrOrientalShelfWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrOrientalShelfWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrOrientalShelfWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrOrientalShelfWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrOrientalShelfWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrOrientalShelfWall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "imperial dining lantern",
-      jp: ""
+      "en": "imperial dining lantern",
+      "jp": "ちゅうかなランタン"
     },
     "id": 8415,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 19000,
       "sell": 4750
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrChineseLampWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrChineseLampWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrChineseLampWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrChineseLampWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrChineseLampWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrChineseLampWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrChineseLampWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrChineseLampWall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "intercom monitor",
-      jp: ""
+      "en": "intercom monitor",
+      "jp": "インターフォンモニター"
     },
     "id": 3399,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 860,
       "sell": 215
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrIntercom"
+        "isPattern": false,
+        "imageName": "FtrIntercom"
       }
     ]
   },
   {
     "name": {
-      en: "iron doorplate",
-      jp: ""
+      "en": "iron doorplate",
+      "jp": ""
     },
     "id": 4752,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDoorOrnamentIron_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentIron_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDoorOrnamentIron_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentIron_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentIron_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentIron_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDoorOrnamentIron_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentIron_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Ash brown",
-          jp: ""
+          "en": "Ash brown",
+          "jp": "アッシュブラウン"
         },
-        "fileName": "FtrDoorOrnamentIron_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentIron_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrDoorOrnamentIron_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentIron_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDoorOrnamentIron_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentIron_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrDoorOrnamentIron_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentIron_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "iron wall lamp",
-      jp: ""
+      "en": "iron wall lamp",
+      "jp": "アイアンウォールランプ"
     },
     "id": 3559,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3400
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrIronLampW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrIronLampW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrIronLampW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrIronLampW_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "iron wall rack",
-      jp: ""
+      "en": "iron wall rack",
+      "jp": "アイアンウォールラック"
     },
     "id": 3562,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Shelf",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2450
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrIronShelfW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrIronShelfW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrIronShelfW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrIronShelfW_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "ironwood clock",
-      jp: ""
+      "en": "ironwood clock",
+      "jp": "アイアンウッドクロック"
     },
     "id": 3275,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Clock",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1740
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Birch",
-          jp: ""
+          "en": "Birch",
+          "jp": "バーチ"
         },
-        "fileName": "FtrIronwoodClockW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrIronwoodClockW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Teak",
-          jp: ""
+          "en": "Teak",
+          "jp": "チーク"
         },
-        "fileName": "FtrIronwoodClockW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrIronwoodClockW_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Walnut",
-          jp: ""
+          "en": "Walnut",
+          "jp": "ウォルナット"
         },
-        "fileName": "FtrIronwoodClockW_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrIronwoodClockW_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Old",
-          jp: ""
+          "en": "Old",
+          "jp": "オールド"
         },
-        "fileName": "FtrIronwoodClockW_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrIronwoodClockW_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Oak",
-          jp: ""
+          "en": "Oak",
+          "jp": "オーク"
         },
-        "fileName": "FtrIronwoodClockW_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrIronwoodClockW_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Jack's portrait",
-      jp: ""
+      "en": "Jack's portrait",
+      "jp": "パンプキングのしょうぞうが"
     },
     "id": 13353,
-    "source": {
-      en: "Jack",
-      jp: "Jack"
-    },
+    "source": "Jack",
     "map": 0,
+    "event": "Halloween (ready days)",
+    "eventExclusive": "Yes",
+    "version": "1.5.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrHwnPortraitWall"
+        "isPattern": false,
+        "imageName": "FtrHwnPortraitWall"
       }
     ]
   },
   {
     "name": {
-      en: "key holder",
-      jp: ""
+      "en": "key holder",
+      "jp": "キーハンガー"
     },
     "id": 3992,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Facility Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1110
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Dark wood",
-          jp: ""
+          "en": "Dark wood",
+          "jp": "ダークウッド"
         },
-        "fileName": "FtrKeyhanger_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrKeyhanger_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown wood",
-          jp: ""
+          "en": "Brown wood",
+          "jp": "ブラウンウッド"
         },
-        "fileName": "FtrKeyhanger_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrKeyhanger_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrKeyhanger_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrKeyhanger_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrKeyhanger_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrKeyhanger_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "Kiki & Lala clock",
-      jp: ""
+      "en": "Kiki & Lala clock",
+      "jp": "キキ&ララなとけい"
     },
     "id": 12242,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kiki & Lala",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioLtsClockWall"
+        "isPattern": false,
+        "imageName": "FtrSanrioLtsClockWall"
       }
     ]
   },
   {
     "name": {
-      en: "Leo sculpture",
-      jp: ""
+      "en": "Leo sculpture",
+      "jp": "レオのちょうこく"
     },
     "id": 5964,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Leo",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Sculpture",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 21975
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrZodiacLeo"
+        "isPattern": false,
+        "imageName": "FtrZodiacLeo"
       }
     ]
   },
   {
     "name": {
-      en: "light switch",
-      jp: ""
+      "en": "light switch",
+      "jp": "スイッチ"
     },
     "id": 3471,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 340,
       "sell": 85
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrSwitchWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSwitchWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrSwitchWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSwitchWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrSwitchWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSwitchWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Wood grain",
-          jp: ""
+          "en": "Wood grain",
+          "jp": "木目調"
         },
-        "fileName": "FtrSwitchWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSwitchWall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "lily wreath",
-      jp: ""
+      "en": "lily wreath",
+      "jp": ""
     },
     "id": 5641,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathYuri"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathYuri"
       }
     ]
   },
   {
     "name": {
-      en: "log wall-mounted clock",
-      jp: ""
+      "en": "log wall-mounted clock",
+      "jp": "まるたのかべかけどけい"
     },
     "id": 4037,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Clock",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 990
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Dark wood",
-          jp: ""
+          "en": "Dark wood",
+          "jp": "ダークウッド"
         },
-        "fileName": "FtrLogClockWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrLogClockWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange wood",
-          jp: ""
+          "en": "Orange wood",
+          "jp": "オレンジウッド"
         },
-        "fileName": "FtrLogClockWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrLogClockWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White wood",
-          jp: ""
+          "en": "White wood",
+          "jp": "ホワイトウッド"
         },
-        "fileName": "FtrLogClockWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrLogClockWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White birch",
-          jp: ""
+          "en": "White birch",
+          "jp": "白樺"
         },
-        "fileName": "FtrLogClockWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrLogClockWall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "Lunar New Year decoration",
-      jp: ""
+      "en": "Lunar New Year decoration",
+      "jp": ""
     },
     "id": 14032,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Lunar New Year",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentShunsetsu"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentShunsetsu"
       }
     ]
   },
   {
     "name": {
-      en: "macrame tapestry",
-      jp: ""
+      "en": "macrame tapestry",
+      "jp": "マクラメタペストリー"
     },
     "id": 4119,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
       "buy": 840,
       "sell": 210
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMacrametapestry_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMacrametapestry_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMacrametapestry_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMacrametapestry_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrMacrametapestry_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMacrametapestry_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMacrametapestry_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMacrametapestry_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "magnetic knife rack",
-      jp: ""
+      "en": "magnetic knife rack",
+      "jp": "マグネットナイフラック"
     },
     "id": 4118,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Stainless steel",
-          jp: ""
+          "en": "Stainless steel",
+          "jp": "ステンレス"
         },
-        "fileName": "FtrKniferackWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrKniferackWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Wooden",
-          jp: ""
+          "en": "Wooden",
+          "jp": "木製"
         },
-        "fileName": "FtrKniferackWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrKniferackWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pop",
-          jp: ""
+          "en": "Pop",
+          "jp": "ポップ"
         },
-        "fileName": "FtrKniferackWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrKniferackWall_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "mantis-head model",
-      jp: ""
+      "en": "mantis-head model",
+      "jp": "カマキリヘッド"
     },
     "id": 11098,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Special Insect",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKamakiriFace"
+        "isPattern": false,
+        "imageName": "FtrInsectKamakiriFace"
       }
     ]
   },
   {
     "name": {
-      en: "mermaid wall clock",
-      jp: ""
+      "en": "mermaid wall clock",
+      "jp": "マーメイドなウォールクロック"
     },
     "id": 12557,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.3.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Clock",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 12290
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMermaidclockWall"
+        "isPattern": false,
+        "imageName": "FtrMermaidclockWall"
       }
     ]
   },
   {
     "name": {
-      en: "mobile",
-      jp: ""
+      "en": "mobile",
+      "jp": "モビール"
     },
     "id": 9565,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
       "buy": 780,
       "sell": 195
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Hot air balloons",
-          jp: ""
+          "en": "Hot air balloons",
+          "jp": "気球"
         },
-        "fileName": "FtrMobile_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMobile_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Sheep",
-          jp: ""
+          "en": "Sheep",
+          "jp": "羊"
         },
-        "fileName": "FtrMobile_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMobile_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Ocean creatures",
-          jp: ""
+          "en": "Ocean creatures",
+          "jp": "オーシャン"
         },
-        "fileName": "FtrMobile_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMobile_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Space",
-          jp: ""
+          "en": "Space",
+          "jp": "スペース"
         },
-        "fileName": "FtrMobile_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMobile_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gorgeous",
-          jp: ""
+          "en": "Gorgeous",
+          "jp": "ゴージャス"
         },
-        "fileName": "FtrMobile_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMobile_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's art",
-      jp: ""
+      "en": "Mom's art",
+      "jp": "ははのアート"
     },
     "id": 7139,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Still Life",
-          jp: ""
+          "en": "Still Life",
+          "jp": "花とバナナ"
         },
-        "fileName": "FtrMomArt_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomArt_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Street with Trees",
-          jp: ""
+          "en": "Street with Trees",
+          "jp": "街路樹"
         },
-        "fileName": "FtrMomArt_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomArt_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Nostalgia",
-          jp: ""
+          "en": "Nostalgia",
+          "jp": "追憶の風景"
         },
-        "fileName": "FtrMomArt_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomArt_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Angel",
-          jp: ""
+          "en": "Angel",
+          "jp": "愛"
         },
-        "fileName": "FtrMomArt_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomArt_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Sweet Roses",
-          jp: ""
+          "en": "Sweet Roses",
+          "jp": "可憐"
         },
-        "fileName": "FtrMomArt_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomArt_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Field of Flowers",
-          jp: ""
+          "en": "Field of Flowers",
+          "jp": "花園"
         },
-        "fileName": "FtrMomArt_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomArt_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Dog",
-          jp: ""
+          "en": "Dog",
+          "jp": "家族"
         },
-        "fileName": "FtrMomArt_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrMomArt_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Blooming",
-          jp: ""
+          "en": "Blooming",
+          "jp": "開花"
         },
-        "fileName": "FtrMomArt_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrMomArt_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's embroidery",
-      jp: ""
+      "en": "Mom's embroidery",
+      "jp": "ははのししゅうかざり"
     },
     "id": 7145,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Flowers",
-          jp: ""
+          "en": "Flowers",
+          "jp": "フラワー"
         },
-        "fileName": "FtrMomEmbroidery_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomEmbroidery_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Bird",
-          jp: ""
+          "en": "Bird",
+          "jp": "バード"
         },
-        "fileName": "FtrMomEmbroidery_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomEmbroidery_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Bouquet",
-          jp: ""
+          "en": "Bouquet",
+          "jp": "ブーケ"
         },
-        "fileName": "FtrMomEmbroidery_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomEmbroidery_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Girl",
-          jp: ""
+          "en": "Girl",
+          "jp": "ガール"
         },
-        "fileName": "FtrMomEmbroidery_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomEmbroidery_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Fairy tale",
-          jp: ""
+          "en": "Fairy tale",
+          "jp": "メルヘン"
         },
-        "fileName": "FtrMomEmbroidery_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomEmbroidery_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Trees",
-          jp: ""
+          "en": "Trees",
+          "jp": "ツリー"
         },
-        "fileName": "FtrMomEmbroidery_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomEmbroidery_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "mounted black bass",
-      jp: ""
+      "en": "mounted black bass",
+      "jp": "かべかけブラックバス"
     },
     "id": 11127,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Special Fish",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishBlackbassWall"
+        "isPattern": false,
+        "imageName": "FtrFishBlackbassWall"
       }
     ]
   },
   {
     "name": {
-      en: "mounted blue marlin",
-      jp: ""
+      "en": "mounted blue marlin",
+      "jp": "かべかけカジキ"
     },
     "id": 11128,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Special Fish",
     "price": {
       "buy": 5000,
       "sell": 1250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKajikiWall"
+        "isPattern": false,
+        "imageName": "FtrFishKajikiWall"
       }
     ]
   },
   {
     "name": {
-      en: "mum wreath",
-      jp: ""
+      "en": "mum wreath",
+      "jp": ""
     },
     "id": 5467,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathMum"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathMum"
       }
     ]
   },
   {
     "name": {
-      en: "mushroom wreath",
-      jp: ""
+      "en": "mushroom wreath",
+      "jp": ""
     },
     "id": 4726,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "mushrooms",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathMushroom"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathMushroom"
       }
     ]
   },
   {
     "name": {
-      en: "My Melody clock",
-      jp: ""
+      "en": "My Melody clock",
+      "jp": "マイメロディなとけい"
     },
     "id": 12266,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "My Melody",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioMymClockWall"
+        "isPattern": false,
+        "imageName": "FtrSanrioMymClockWall"
       }
     ]
   },
   {
     "name": {
-      en: "natural mum wreath",
-      jp: ""
+      "en": "natural mum wreath",
+      "jp": ""
     },
     "id": 5768,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathMumRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathMumRare"
       }
     ]
   },
   {
     "name": {
-      en: "New Year's shimekazari",
-      jp: ""
+      "en": "New Year's shimekazari",
+      "jp": ""
     },
     "id": 13501,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Shōgatsu (3)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathShimenawa"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathShimenawa"
       }
     ]
   },
   {
     "name": {
-      en: "Nook Inc. doorplate",
-      jp: ""
+      "en": "Nook Inc. doorplate",
+      "jp": ""
     },
     "id": 14250,
-    "source": {
-      en: "NookLink",
-      jp: "NookLink"
-    },
+    "source": "NookLink",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentNooklogo"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentNooklogo"
       }
     ]
   },
   {
     "name": {
-      en: "Nook Inc. poster",
-      jp: ""
+      "en": "Nook Inc. poster",
+      "jp": "たぬきかいはつのポスター"
     },
     "id": 13315,
-    "source": {
-      en: "NookLink",
-      jp: "NookLink"
-    },
+    "source": "NookLink",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Office",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 160
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrNookPoster"
+        "isPattern": false,
+        "imageName": "FtrNookPoster"
       }
     ]
   },
   {
     "name": {
-      en: "nuptial doorplate",
-      jp: ""
+      "en": "nuptial doorplate",
+      "jp": ""
     },
     "id": 14475,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Wedding Season (Nook Shopping 2)",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "Pink",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 9,
+    "count": {
+      "variants": 3,
+      "patterns": 6
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_0_2"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_1_2"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red & white",
-          jp: ""
+          "en": "Red & white",
+          "jp": "レッド×ホワイト"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Red & white",
-          jp: ""
+          "en": "Red & white",
+          "jp": "レッド×ホワイト"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Red & white",
-          jp: ""
+          "en": "Red & white",
+          "jp": "レッド×ホワイト"
         },
-        "fileName": "FtrDoorOrnamentWreathWedding_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrDoorOrnamentWreathWedding_Remake_2_2"
       }
     ]
   },
   {
     "name": {
-      en: "orange wall-mounted clock",
-      jp: ""
+      "en": "orange wall-mounted clock",
+      "jp": "オレンジのかべかけどけい"
     },
     "id": 3976,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Clock",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2240
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrFruitsClockW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFruitsClockW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blood orange",
-          jp: ""
+          "en": "Blood orange",
+          "jp": "ブラッドオレンジ"
         },
-        "fileName": "FtrFruitsClockW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFruitsClockW_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "ornament mobile",
-      jp: ""
+      "en": "ornament mobile",
+      "jp": "オーナメントのモビール"
     },
     "id": 6818,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "ornaments",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 340
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrOrnamentMobile_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrOrnamentMobile_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrOrnamentMobile_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrOrnamentMobile_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrOrnamentMobile_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrOrnamentMobile_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrOrnamentMobile_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrOrnamentMobile_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrOrnamentMobile_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrOrnamentMobile_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrOrnamentMobile_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrOrnamentMobile_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "ornament wreath",
-      jp: ""
+      "en": "ornament wreath",
+      "jp": ""
     },
     "id": 4377,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "ornaments",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 800
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentWreathOrnament_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathOrnament_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrDoorOrnamentWreathOrnament_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathOrnament_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDoorOrnamentWreathOrnament_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathOrnament_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrDoorOrnamentWreathOrnament_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathOrnament_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrDoorOrnamentWreathOrnament_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathOrnament_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Light green",
-          jp: ""
+          "en": "Light green",
+          "jp": "ライトグリーン"
         },
-        "fileName": "FtrDoorOrnamentWreathOrnament_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathOrnament_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDoorOrnamentWreathOrnament_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathOrnament_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrDoorOrnamentWreathOrnament_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathOrnament_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "pansy wreath",
-      jp: ""
+      "en": "pansy wreath",
+      "jp": ""
     },
     "id": 5466,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathPansy"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathPansy"
       }
     ]
   },
   {
     "name": {
-      en: "party garland",
-      jp: ""
+      "en": "party garland",
+      "jp": "パーティーのかざり"
     },
     "id": 4077,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 650,
       "sell": 162
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrPartydecorationWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPartydecorationWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pastel",
-          jp: ""
+          "en": "Pastel",
+          "jp": "パステル"
         },
-        "fileName": "FtrPartydecorationWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPartydecorationWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Boating stripes",
-          jp: ""
+          "en": "Boating stripes",
+          "jp": "マリンボーダー"
         },
-        "fileName": "FtrPartydecorationWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPartydecorationWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Orange & black",
-          jp: ""
+          "en": "Orange & black",
+          "jp": "オレンジ×ブラック"
         },
-        "fileName": "FtrPartydecorationWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPartydecorationWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pop",
-          jp: ""
+          "en": "Pop",
+          "jp": "ポップ"
         },
-        "fileName": "FtrPartydecorationWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPartydecorationWall_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Gorgeous",
-          jp: ""
+          "en": "Gorgeous",
+          "jp": "ゴージャス"
         },
-        "fileName": "FtrPartydecorationWall_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPartydecorationWall_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "paw-print doorplate",
-      jp: ""
+      "en": "paw-print doorplate",
+      "jp": ""
     },
     "id": 5716,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 360
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Light wood",
-          jp: ""
+          "en": "Light wood",
+          "jp": "ライトウッド"
         },
-        "fileName": "FtrDoorOrnamentPaw_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPaw_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrDoorOrnamentPaw_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPaw_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Dark gray",
-          jp: ""
+          "en": "Dark gray",
+          "jp": "ダークグレー"
         },
-        "fileName": "FtrDoorOrnamentPaw_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPaw_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Natural wood",
-          jp: ""
+          "en": "Natural wood",
+          "jp": "ナチュラルウッド"
         },
-        "fileName": "FtrDoorOrnamentPaw_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPaw_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Dark brown",
-          jp: ""
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "FtrDoorOrnamentPaw_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPaw_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDoorOrnamentPaw_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPaw_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentPaw_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPaw_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDoorOrnamentPaw_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPaw_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "pendulum clock",
-      jp: ""
+      "en": "pendulum clock",
+      "jp": "ふりこどけい"
     },
     "id": 4106,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 1900,
       "sell": 475
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrClockPendulumWall"
+        "isPattern": false,
+        "imageName": "FtrClockPendulumWall"
       }
     ]
   },
   {
     "name": {
-      en: "pennant",
-      jp: ""
+      "en": "pennant",
+      "jp": "ペナント"
     },
     "id": 3818,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Shop",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Sports",
-          jp: ""
+          "en": "Sports",
+          "jp": "スポーツ"
         },
-        "fileName": "FtrPennant_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPennant_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "University",
-          jp: ""
+          "en": "University",
+          "jp": "ユニバーシティ"
         },
-        "fileName": "FtrPennant_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPennant_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Classic",
-          jp: ""
+          "en": "Classic",
+          "jp": "クラシック"
         },
-        "fileName": "FtrPennant_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPennant_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Sponsor",
-          jp: ""
+          "en": "Sponsor",
+          "jp": "スポンサー"
         },
-        "fileName": "FtrPennant_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPennant_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Souvenir",
-          jp: ""
+          "en": "Souvenir",
+          "jp": "お土産"
         },
-        "fileName": "FtrPennant_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPennant_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Pompompurin TV",
-      jp: ""
+      "en": "Pompompurin TV",
+      "jp": "ポムポムプリンなテレビ"
     },
     "id": 12257,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Pompompurin",
     "price": {
       "buy": 8000,
       "sell": 2000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioPppTVWall"
+        "isPattern": false,
+        "imageName": "FtrSanrioPppTVWall"
       }
     ]
   },
   {
     "name": {
-      en: "pot rack",
-      jp: ""
+      "en": "pot rack",
+      "jp": "キッチンつるし"
     },
     "id": 928,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Wooden",
-          jp: ""
+          "en": "Wooden",
+          "jp": "木製"
         },
-        "fileName": "FtrPotrack_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPotrack_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Stainless steel",
-          jp: ""
+          "en": "Stainless steel",
+          "jp": "ステンレス"
         },
-        "fileName": "FtrPotrack_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPotrack_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pop",
-          jp: ""
+          "en": "Pop",
+          "jp": "ポップ"
         },
-        "fileName": "FtrPotrack_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPotrack_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "potted ivy",
-      jp: ""
+      "en": "potted ivy",
+      "jp": "かべかけのはっぱ"
     },
     "id": 3785,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1100
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Light green",
-          jp: ""
+          "en": "Light green",
+          "jp": "ライトグリーン"
         },
-        "fileName": "FtrLeafWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrLeafWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrLeafWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrLeafWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLeafWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrLeafWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrLeafWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrLeafWall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "pretty cosmos wreath",
-      jp: ""
+      "en": "pretty cosmos wreath",
+      "jp": ""
     },
     "id": 5745,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathCosmosMix"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathCosmosMix"
       }
     ]
   },
   {
     "name": {
-      en: "pretty tulip wreath",
-      jp: ""
+      "en": "pretty tulip wreath",
+      "jp": ""
     },
     "id": 5751,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathTulipMix"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathTulipMix"
       }
     ]
   },
   {
     "name": {
-      en: "purple hyacinth wreath",
-      jp: ""
+      "en": "purple hyacinth wreath",
+      "jp": ""
     },
     "id": 5769,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathHyacinthRare"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathHyacinthRare"
       }
     ]
   },
   {
     "name": {
-      en: "retro radiator",
-      jp: ""
+      "en": "retro radiator",
+      "jp": "セントラルヒーティング"
     },
     "id": 4028,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Heating",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCentralheating"
+        "isPattern": false,
+        "imageName": "FtrCentralheating"
       }
     ]
   },
   {
     "name": {
-      en: "rose wreath",
-      jp: ""
+      "en": "rose wreath",
+      "jp": ""
     },
     "id": 5437,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathRose"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathRose"
       }
     ]
   },
   {
     "name": {
-      en: "Sagittarius arrow",
-      jp: ""
+      "en": "Sagittarius arrow",
+      "jp": "サジタリアスのや"
     },
     "id": 5958,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Sagittarius",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 21750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrZodiacSagittarius"
+        "isPattern": false,
+        "imageName": "FtrZodiacSagittarius"
       }
     ]
   },
   {
     "name": {
-      en: "set of stockings",
-      jp: ""
+      "en": "set of stockings",
+      "jp": "かべかけソックス"
     },
     "id": 13930,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Toy Day (ready days phase 1); Toy Day (ready days phase 2); Toy Day; Toy Day (day after)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrCrsSocksWallColor_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCrsSocksWallColor_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Cute",
-          jp: ""
+          "en": "Cute",
+          "jp": "キュート"
         },
-        "fileName": "FtrCrsSocksWallColor_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCrsSocksWallColor_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Cool",
-          jp: ""
+          "en": "Cool",
+          "jp": "クール"
         },
-        "fileName": "FtrCrsSocksWallColor_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCrsSocksWallColor_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Chic",
-          jp: ""
+          "en": "Chic",
+          "jp": "シック"
         },
-        "fileName": "FtrCrsSocksWallColor_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCrsSocksWallColor_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Elegant",
-          jp: ""
+          "en": "Elegant",
+          "jp": "エレガント"
         },
-        "fileName": "FtrCrsSocksWallColor_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCrsSocksWallColor_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCrsSocksWallColor_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCrsSocksWallColor_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "shamrock doorplate",
-      jp: ""
+      "en": "shamrock doorplate",
+      "jp": ""
     },
     "id": 14031,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Shamrock Day",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentShamrock"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentShamrock"
       }
     ]
   },
   {
     "name": {
-      en: "shell wreath",
-      jp: ""
+      "en": "shell wreath",
+      "jp": ""
     },
     "id": 4376,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "summer shells",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathShell"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathShell"
       }
     ]
   },
   {
     "name": {
-      en: "ship-wheel door decoration",
-      jp: ""
+      "en": "ship-wheel door decoration",
+      "jp": ""
     },
     "id": 14358,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Marine Day",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "Not in catalog",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentRudder"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentRudder"
       }
     ]
   },
   {
     "name": {
-      en: "shower set",
-      jp: ""
+      "en": "shower set",
+      "jp": "シャワーセット"
     },
     "id": 4017,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Bathtub",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrShowerWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrShowerWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrShowerWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrShowerWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Copper",
-          jp: ""
+          "en": "Copper",
+          "jp": "ブロンズ"
         },
-        "fileName": "FtrShowerWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrShowerWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrShowerWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrShowerWall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "silver HHA plaque",
-      jp: ""
+      "en": "silver HHA plaque",
+      "jp": "アカデミーのぎんのたて"
     },
     "id": 7036,
-    "source": {
-      en: "HHA",
-      jp: "HHA"
-    },
+    "source": "HHA",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 425
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrShieldHhaSilver"
+        "isPattern": false,
+        "imageName": "FtrShieldHhaSilver"
       }
     ]
   },
   {
     "name": {
-      en: "skull doorplate",
-      jp: ""
+      "en": "skull doorplate",
+      "jp": ""
     },
     "id": 4738,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
       "buy": 540,
       "sell": 135
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrDoorPlateSkull_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateSkull_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDoorPlateSkull_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorPlateSkull_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "snazzy pansy wreath",
-      jp: ""
+      "en": "snazzy pansy wreath",
+      "jp": ""
     },
     "id": 5748,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathPansyMix"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathPansyMix"
       }
     ]
   },
   {
     "name": {
-      en: "snowflake wreath",
-      jp: ""
+      "en": "snowflake wreath",
+      "jp": ""
     },
     "id": 4375,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "snowflakes",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathIce"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathIce"
       }
     ]
   },
   {
     "name": {
-      en: "spider doorplate",
-      jp: ""
+      "en": "spider doorplate",
+      "jp": ""
     },
     "id": 5310,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 90
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDoorOrnamentPlateInsect_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateInsect_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrDoorOrnamentPlateInsect_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateInsect_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrDoorOrnamentPlateInsect_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateInsect_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDoorOrnamentPlateInsect_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateInsect_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrDoorOrnamentPlateInsect_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateInsect_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrDoorOrnamentPlateInsect_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateInsect_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrDoorOrnamentPlateInsect_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateInsect_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentPlateInsect_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentPlateInsect_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "spider web",
-      jp: ""
+      "en": "spider web",
+      "jp": "クモのす"
     },
     "id": 3817,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Ranch",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 25
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSpiderweb"
+        "isPattern": false,
+        "imageName": "FtrSpiderweb"
       }
     ]
   },
   {
     "name": {
-      en: "spooky garland",
-      jp: ""
+      "en": "spooky garland",
+      "jp": "ハロウィンなガーランド"
     },
     "id": 13222,
-    "source": {
-      en: "Crafting; All villagers",
-      jp: "Crafting; All villagers"
-    },
+    "source": "Crafting; All villagers",
     "map": 0,
+    "event": "Halloween",
+    "eventExclusive": "Yes",
+    "version": "1.5.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1650
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrHwnDecorationWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHwnDecorationWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrHwnDecorationWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHwnDecorationWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrHwnDecorationWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHwnDecorationWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Monochrome",
-          jp: ""
+          "en": "Monochrome",
+          "jp": "モノクロ"
         },
-        "fileName": "FtrHwnDecorationWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHwnDecorationWall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "starry garland",
-      jp: ""
+      "en": "starry garland",
+      "jp": "スターなガーランド"
     },
     "id": 6827,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Space",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 5000
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrStarDecorationWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrStarDecorationWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrStarDecorationWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrStarDecorationWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrStarDecorationWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrStarDecorationWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrStarDecorationWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrStarDecorationWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrStarDecorationWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrStarDecorationWall_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrStarDecorationWall_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrStarDecorationWall_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrStarDecorationWall_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrStarDecorationWall_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "studio wall spotlight",
-      jp: ""
+      "en": "studio wall spotlight",
+      "jp": "かべかけスポットライト"
     },
     "id": 7190,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 2300,
       "sell": 575
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrLampSpotWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrLampSpotWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrLampSpotWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrLampSpotWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrLampSpotWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrLampSpotWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLampSpotWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrLampSpotWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrLampSpotWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrLampSpotWall_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrLampSpotWall_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrLampSpotWall_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLampSpotWall_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrLampSpotWall_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrLampSpotWall_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrLampSpotWall_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "study poster",
-      jp: ""
+      "en": "study poster",
+      "jp": "がくしゅうポスター"
     },
     "id": 3584,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 640,
       "sell": 160
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Alphabet",
-          jp: ""
+          "en": "Alphabet",
+          "jp": "アルファベット"
         },
-        "fileName": "FtrStudyposter_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrStudyposter_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Multiplication tables",
-          jp: ""
+          "en": "Multiplication tables",
+          "jp": "九九"
         },
-        "fileName": "FtrStudyposter_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrStudyposter_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Periodic table",
-          jp: ""
+          "en": "Periodic table",
+          "jp": "元素記号"
         },
-        "fileName": "FtrStudyposter_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrStudyposter_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Constellations",
-          jp: ""
+          "en": "Constellations",
+          "jp": "星図"
         },
-        "fileName": "FtrStudyposter_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrStudyposter_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "surveillance camera",
-      jp: ""
+      "en": "surveillance camera",
+      "jp": "かんしカメラ"
     },
     "id": 1165,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Facility Decor",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSurveillance"
+        "isPattern": false,
+        "imageName": "FtrSurveillance"
       }
     ]
   },
   {
     "name": {
-      en: "tapestry",
-      jp: ""
+      "en": "tapestry",
+      "jp": "タペストリー"
     },
     "id": 704,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
       "buy": 880,
       "sell": 220
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Geometric pattern",
-          jp: ""
+          "en": "Geometric pattern",
+          "jp": "パターン"
         },
-        "fileName": "FtrTapestry_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTapestry_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Animal",
-          jp: ""
+          "en": "Animal",
+          "jp": "アニマル"
         },
-        "fileName": "FtrTapestry_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTapestry_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "フラワー"
         },
-        "fileName": "FtrTapestry_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTapestry_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Fairy tale",
-          jp: ""
+          "en": "Fairy tale",
+          "jp": "メルヘン"
         },
-        "fileName": "FtrTapestry_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTapestry_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Bird",
-          jp: ""
+          "en": "Bird",
+          "jp": "バード"
         },
-        "fileName": "FtrTapestry_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTapestry_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Snow",
-          jp: ""
+          "en": "Snow",
+          "jp": "スノー"
         },
-        "fileName": "FtrTapestry_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrTapestry_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "throwback wall clock",
-      jp: ""
+      "en": "throwback wall clock",
+      "jp": "TOYなウォールクロック"
     },
     "id": 4756,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 4200,
       "sell": 1050
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrBoyClockWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBoyClockWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrBoyClockWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBoyClockWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrBoyClockWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBoyClockWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrBoyClockWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBoyClockWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrBoyClockWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBoyClockWall_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrBoyClockWall_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrBoyClockWall_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrBoyClockWall_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrBoyClockWall_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "timber doorplate",
-      jp: ""
+      "en": "timber doorplate",
+      "jp": ""
     },
     "id": 5718,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 400
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural wood",
-          jp: ""
+          "en": "Natural wood",
+          "jp": "ナチュラルウッド"
         },
-        "fileName": "FtrDoorOrnamentLog_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentLog_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrDoorOrnamentLog_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentLog_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Dark brown",
-          jp: ""
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "FtrDoorOrnamentLog_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentLog_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Light brown",
-          jp: ""
+          "en": "Light brown",
+          "jp": "ライトブラウン"
         },
-        "fileName": "FtrDoorOrnamentLog_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentLog_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Ash brown",
-          jp: ""
+          "en": "Ash brown",
+          "jp": "アッシュブラウン"
         },
-        "fileName": "FtrDoorOrnamentLog_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentLog_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDoorOrnamentLog_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentLog_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoorOrnamentLog_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentLog_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDoorOrnamentLog_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentLog_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "Toy Day stockings",
-      jp: ""
+      "en": "Toy Day stockings",
+      "jp": "クリスマスなかべかけソックス"
     },
     "id": 13248,
-    "source": {
-      en: "Jingle",
-      jp: "Jingle"
-    },
+    "source": "Jingle",
     "map": 0,
+    "event": "Toy Day",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCrsSocksWall"
+        "isPattern": false,
+        "imageName": "FtrCrsSocksWall"
       }
     ]
   },
   {
     "name": {
-      en: "tree branch wreath",
-      jp: ""
+      "en": "tree branch wreath",
+      "jp": ""
     },
     "id": 4727,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathBranch"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathBranch"
       }
     ]
   },
   {
     "name": {
-      en: "tree's bounty mobile",
-      jp: ""
+      "en": "tree's bounty mobile",
+      "jp": "きのみのモビール"
     },
     "id": 6075,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "acorns and pine cones",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Supplies",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2030
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウンナッツ"
         },
-        "fileName": "FtrNutMobile_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrNutMobile_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイトナッツ"
         },
-        "fileName": "FtrNutMobile_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrNutMobile_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "tulip wreath",
-      jp: ""
+      "en": "tulip wreath",
+      "jp": ""
     },
     "id": 5670,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathTulip"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathTulip"
       }
     ]
   },
   {
     "name": {
-      en: "ventilation fan",
-      jp: ""
+      "en": "ventilation fan",
+      "jp": "かんきせん"
     },
     "id": 957,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrExtractorfan_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrExtractorfan_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrExtractorfan_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrExtractorfan_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrExtractorfan_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrExtractorfan_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrExtractorfan_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrExtractorfan_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrExtractorfan_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrExtractorfan_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "wall clock",
-      jp: ""
+      "en": "wall clock",
+      "jp": "ウォールクロック"
     },
     "id": 1744,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 690,
       "sell": 172
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrOfficeClock_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrOfficeClock_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrOfficeClock_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrOfficeClock_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrOfficeClock_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrOfficeClock_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrOfficeClock_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrOfficeClock_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrOfficeClock_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrOfficeClock_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "wall fan",
-      jp: ""
+      "en": "wall fan",
+      "jp": "かべかけせんぷうき"
     },
     "id": 3431,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Air Conditioning",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrFanRetroWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFanRetroWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrFanRetroWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFanRetroWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrFanRetroWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrFanRetroWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrFanRetroWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrFanRetroWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrFanRetroWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrFanRetroWall_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrFanRetroWall_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrFanRetroWall_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrFanRetroWall_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrFanRetroWall_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrFanRetroWall_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrFanRetroWall_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "wall-mounted candle",
-      jp: ""
+      "en": "wall-mounted candle",
+      "jp": "かべかけのキャンドル"
     },
     "id": 5165,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrCandleWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCandleWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrCandleWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCandleWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Copper",
-          jp: ""
+          "en": "Copper",
+          "jp": "ブロンズ"
         },
-        "fileName": "FtrCandleWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCandleWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCandleWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCandleWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCandleWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCandleWall_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "wall-mounted phone",
-      jp: ""
+      "en": "wall-mounted phone",
+      "jp": "かべかけでんわ"
     },
     "id": 3987,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPhoneWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrPhoneWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrPhoneWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrPhoneWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrPhoneWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneWall_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrPhoneWall_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneWall_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "wall-mounted tool board",
-      jp: ""
+      "en": "wall-mounted tool board",
+      "jp": "かべかけツールハンガー"
     },
     "id": 8417,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrToolhanger_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrToolhanger_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Camel",
-          jp: ""
+          "en": "Camel",
+          "jp": "キャメル"
         },
-        "fileName": "FtrToolhanger_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrToolhanger_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrToolhanger_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrToolhanger_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrToolhanger_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrToolhanger_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrToolhanger_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrToolhanger_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrToolhanger_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrToolhanger_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "wall-mounted TV (20 in.)",
-      jp: ""
+      "en": "wall-mounted TV (20 in.)",
+      "jp": "かべかけテレビ 20インチ"
     },
     "id": 3986,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "TV",
     "price": {
       "buy": 8900,
       "sell": 2225
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTV20inchWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inchWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTV20inchWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inchWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrTV20inchWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inchWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTV20inchWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inchWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrTV20inchWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inchWall_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTV20inchWall_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inchWall_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrTV20inchWall_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inchWall_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrTV20inchWall_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inchWall_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "wall-mounted TV (50 in.)",
-      jp: ""
+      "en": "wall-mounted TV (50 in.)",
+      "jp": "かべかけテレビ 50インチ"
     },
     "id": 3428,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "TV",
     "price": {
       "buy": 22000,
       "sell": 5500
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTV50inchWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inchWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTV50inchWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inchWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrTV50inchWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inchWall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTV50inchWall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inchWall_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTV50inchWall_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inchWall_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "wasp-head model",
-      jp: ""
+      "en": "wasp-head model",
+      "jp": "ハチヘッド"
     },
     "id": 11100,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Special Insect",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHachiFace"
+        "isPattern": false,
+        "imageName": "FtrInsectHachiFace"
       }
     ]
   },
   {
     "name": {
-      en: "wedding decoration",
-      jp: ""
+      "en": "wedding decoration",
+      "jp": "ウェディングなかべかざり"
     },
     "id": 12407,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 250
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Cute",
-          jp: ""
+          "en": "Cute",
+          "jp": "キュート"
         },
-        "fileName": "FtrWeddingFlowerWall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingFlowerWall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Chic",
-          jp: ""
+          "en": "Chic",
+          "jp": "シック"
         },
-        "fileName": "FtrWeddingFlowerWall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingFlowerWall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Garden",
-          jp: ""
+          "en": "Garden",
+          "jp": "ガーデン"
         },
-        "fileName": "FtrWeddingFlowerWall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingFlowerWall_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "windflower wreath",
-      jp: ""
+      "en": "windflower wreath",
+      "jp": ""
     },
     "id": 5436,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "House Door Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDoorOrnamentWreathAnemone"
+        "isPattern": false,
+        "imageName": "FtrDoorOrnamentWreathAnemone"
       }
     ]
   },
   {
     "name": {
-      en: "wooden-block wall clock",
-      jp: ""
+      "en": "wooden-block wall clock",
+      "jp": "つみきウォールクロック"
     },
     "id": 3208,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Clock",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1350
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrBlockClock_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBlockClock_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Mixed wood",
-          jp: ""
+          "en": "Mixed wood",
+          "jp": "ミックスウッド"
         },
-        "fileName": "FtrBlockClock_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBlockClock_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrBlockClock_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBlockClock_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pastel",
-          jp: ""
+          "en": "Pastel",
+          "jp": "パステル"
         },
-        "fileName": "FtrBlockClock_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBlockClock_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Vivid",
-          jp: ""
+          "en": "Vivid",
+          "jp": "ビビッド"
         },
-        "fileName": "FtrBlockClock_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBlockClock_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "wooden-plank sign",
-      jp: ""
+      "en": "wooden-plank sign",
+      "jp": "いちまいいたのかんばん"
     },
     "id": 5636,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "wallMounted",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Ranch",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrSignboardWood_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSignboardWood_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dark brown",
-          jp: ""
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "FtrSignboardWood_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSignboardWood_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrSignboardWood_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSignboardWood_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrSignboardWood_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSignboardWood_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "world map",
-      jp: ""
+      "en": "world map",
+      "jp": "せかいちず"
     },
     "id": 12741,
-    "source": {
-      en: "Nintendo; Nook Shopping Daily Selection",
-      jp: "Nintendo; Nook Shopping Daily Selection"
-    },
+    "source": "Nintendo; Nook Shopping Daily Selection",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.2.0",
     "catalog": "For sale",
     "category": "wallMounted",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Space",
     "price": {
       "buy": 640,
       "sell": 160
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Pacific Ocean",
-          jp: ""
+          "en": "Pacific Ocean",
+          "jp": "太平洋"
         },
-        "fileName": "FtrWorldMap_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWorldMap_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Atlantic Ocean",
-          jp: ""
+          "en": "Atlantic Ocean",
+          "jp": "大西洋"
         },
-        "fileName": "FtrWorldMap_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWorldMap_Remake_1_0"
       }
     ]
   }
-];
+]

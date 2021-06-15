@@ -1,751 +1,751 @@
 translationNames.rugs = [
   {
-    label: "Rug_07322",
+    label: "7322",
     en: "pink heart rug",
     jp: "ピンクハートのラグ"
   },
   {
-    label: "Rug_07323",
+    label: "7323",
     en: "brown wooden-deck rug",
     jp: "ちゃいろいウッドデッキのラグ"
   },
   {
-    label: "Rug_07324",
+    label: "7324",
     en: "rough rug",
     jp: "ハードマット"
   },
   {
-    label: "Rug_07325",
+    label: "7325",
     en: "ivory medium round mat",
     jp: "アイボリーのラウンドマット・M"
   },
   {
-    label: "Rug_07327",
+    label: "7327",
     en: "apple rug",
     jp: "リンゴのラグ"
   },
   {
-    label: "Rug_07328",
+    label: "7328",
     en: "cherry rug",
     jp: "さくらんぼのラグ"
   },
   {
-    label: "Rug_07329",
+    label: "7329",
     en: "fluffy rug",
     jp: "もくもくのラグ"
   },
   {
-    label: "Rug_07330",
+    label: "7330",
     en: "orange rug",
     jp: "オレンジのラグ"
   },
   {
-    label: "Rug_07331",
+    label: "7331",
     en: "peach rug",
     jp: "モモのラグ"
   },
   {
-    label: "Rug_07332",
+    label: "7332",
     en: "pear rug",
     jp: "ナシのラグ"
   },
   {
-    label: "Rug_07333",
+    label: "7333",
     en: "ivory simple bath mat",
     jp: "アイボリーのシンプルバスマット"
   },
   {
-    label: "Rug_07334",
+    label: "7334",
     en: "ivory small round mat",
     jp: "アイボリーのラウンドマット・S"
   },
   {
-    label: "Rug_07335",
+    label: "7335",
     en: "white simple medium mat",
     jp: "しろいシンプルマット・M"
   },
   {
-    label: "Rug_07336",
+    label: "7336",
     en: "white simple small mat",
     jp: "しろいシンプルマット・S"
   },
   {
-    label: "Rug_07337",
+    label: "7337",
     en: "iron entrance mat",
     jp: "アイアンなげんかんマット"
   },
   {
-    label: "Rug_07338",
+    label: "7338",
     en: "white message mat",
     jp: "しろいメッセージマット"
   },
   {
-    label: "Rug_07339",
+    label: "7339",
     en: "rubber mud mat",
     jp: "ゴムのどろふきマット"
   },
   {
-    label: "Rug_07340",
+    label: "7340",
     en: "red-design kitchen mat",
     jp: "あかいパターンキッチンマット"
   },
   {
-    label: "Rug_07341",
+    label: "7341",
     en: "brown kitchen mat",
     jp: "ちゃいろいキッチンマット"
   },
   {
-    label: "Rug_07343",
+    label: "7343",
     en: "red-and-blue checked rug",
     jp: "あかあおチェックキルトのラグ"
   },
   {
-    label: "Rug_07345",
+    label: "7345",
     en: "shanty mat",
     jp: "ふるいむしろのラグ"
   },
   {
-    label: "Rug_07346",
+    label: "7346",
     en: "snowflake rug",
     jp: "スノーフレークなラグ"
   },
   {
-    label: "Rug_07347",
+    label: "7347",
     en: "red Persian rug",
     jp: "あかいペルシャじゅうたん"
   },
   {
-    label: "Rug_07348",
+    label: "7348",
     en: "red carpet",
     jp: "レッドカーペット"
   },
   {
-    label: "Rug_07349",
+    label: "7349",
     en: "monochromatic dotted rug",
     jp: "モノクロドットのラグ"
   },
   {
-    label: "Rug_07350",
+    label: "7350",
     en: "modern wavy rug",
     jp: "モダンなウェーブのラグ"
   },
   {
-    label: "Rug_07351",
+    label: "7351",
     en: "yellow stripes rug",
     jp: "きいろボーダーのラグ"
   },
   {
-    label: "Rug_07352",
+    label: "7352",
     en: "yellow argyle rug",
     jp: "きいろいアーガイルのラグ"
   },
   {
-    label: "Rug_07353",
+    label: "7353",
     en: "botanical rug",
     jp: "ボタニカルなラグ"
   },
   {
-    label: "Rug_07354",
+    label: "7354",
     en: "green shaggy rug",
     jp: "みどりのシャギーなラグ"
   },
   {
-    label: "Rug_07356",
+    label: "7356",
     en: "aluminum rug",
     jp: "アルミマット"
   },
   {
-    label: "Rug_07357",
+    label: "7357",
     en: "Earth rug",
     jp: "ちきゅうのラグ"
   },
   {
-    label: "Rug_07358",
+    label: "7358",
     en: "tropical rug",
     jp: "みなみのしまのラグ"
   },
   {
-    label: "Rug_07359",
+    label: "7359",
     en: "colorful vinyl sheet",
     jp: "カラフルなビニールシート"
   },
   {
-    label: "Rug_07360",
+    label: "7360",
     en: "ladybug rug",
     jp: "テントウムシのラグ"
   },
   {
-    label: "Rug_07361",
+    label: "7361",
     en: "fish rug",
     jp: "おサカナのラグ"
   },
   {
-    label: "Rug_07362",
+    label: "7362",
     en: "shell rug",
     jp: "かいがらのラグ"
   },
   {
-    label: "Rug_07363",
+    label: "7363",
     en: "mush rug",
     jp: "キノコのラグ"
   },
   {
-    label: "Rug_07364",
+    label: "7364",
     en: "Nook Inc. rug",
     jp: "たぬきかいはつのラグ"
   },
   {
-    label: "Rug_07365",
+    label: "7365",
     en: "pink rose rug",
     jp: "ピンクローズのラグ"
   },
   {
-    label: "Rug_07366",
+    label: "7366",
     en: "fossil rug",
     jp: "かせきのラグ"
   },
   {
-    label: "Rug_07367",
+    label: "7367",
     en: "magic-circle rug",
     jp: "まほうじんのラグ"
   },
   {
-    label: "Rug_07368",
+    label: "7368",
     en: "lacy rug",
     jp: "レースのラグ"
   },
   {
-    label: "Rug_07369",
+    label: "7369",
     en: "tatami mat",
     jp: "いちじょうのたたみ"
   },
   {
-    label: "Rug_07370",
+    label: "7370",
     en: "oval entrance mat",
     jp: "オーバルなげんかんマット"
   },
   {
-    label: "Rug_07371",
+    label: "7371",
     en: "sloppy rug",
     jp: "だらしないラグ"
   },
   {
-    label: "Rug_07380",
+    label: "7380",
     en: "natural wooden-deck rug",
     jp: "ナチュラルなウッドデッキのラグ"
   },
   {
-    label: "Rug_07381",
+    label: "7381",
     en: "white wooden-deck rug",
     jp: "しろいウッドデッキのラグ"
   },
   {
-    label: "Rug_07382",
+    label: "7382",
     en: "black wooden-deck rug",
     jp: "くろいウッドデッキのラグ"
   },
   {
-    label: "Rug_07402",
+    label: "7402",
     en: "Mom's cool kitchen mat",
     jp: "クールなははのキッチンマット"
   },
   {
-    label: "Rug_07403",
+    label: "7403",
     en: "yellow vinyl sheet",
     jp: "きいろいビニールシート"
   },
   {
-    label: "Rug_07404",
+    label: "7404",
     en: "blue vinyl sheet",
     jp: "あおいビニールシート"
   },
   {
-    label: "Rug_07405",
+    label: "7405",
     en: "red vinyl sheet",
     jp: "あかいビニールシート"
   },
   {
-    label: "Rug_07456",
+    label: "7456",
     en: "monochromatic wavy rug",
     jp: "モノクロウェーブのラグ"
   },
   {
-    label: "Rug_07457",
+    label: "7457",
     en: "red wavy rug",
     jp: "あかいウェーブのラグ"
   },
   {
-    label: "Rug_07458",
+    label: "7458",
     en: "blue wavy rug",
     jp: "あおいウェーブのラグ"
   },
   {
-    label: "Rug_07462",
+    label: "7462",
     en: "yellow checked rug",
     jp: "きいろいチェックキルトのラグ"
   },
   {
-    label: "Rug_07463",
+    label: "7463",
     en: "peach checked rug",
     jp: "ももいろチェックキルトのラグ"
   },
   {
-    label: "Rug_07464",
+    label: "7464",
     en: "green checked rug",
     jp: "みどりのチェックキルトのラグ"
   },
   {
-    label: "Rug_07465",
+    label: "7465",
     en: "red dotted rug",
     jp: "レッドドットのラグ"
   },
   {
-    label: "Rug_07466",
+    label: "7466",
     en: "retro dotted rug",
     jp: "レトロドットのラグ"
   },
   {
-    label: "Rug_07467",
+    label: "7467",
     en: "blue dotted rug",
     jp: "ブルードットのラグ"
   },
   {
-    label: "Rug_07516",
+    label: "7516",
     en: "simple green bath mat",
     jp: "グリーンのシンプルバスマット"
   },
   {
-    label: "Rug_07517",
+    label: "7517",
     en: "simple pink bath mat",
     jp: "ピンクのシンプルバスマット"
   },
   {
-    label: "Rug_07518",
+    label: "7518",
     en: "simple navy bath mat",
     jp: "ネイビーのシンプルバスマット"
   },
   {
-    label: "Rug_07519",
+    label: "7519",
     en: "simple medium brown mat",
     jp: "ちゃいろいシンプルマット・M"
   },
   {
-    label: "Rug_07520",
+    label: "7520",
     en: "simple small avocado mat",
     jp: "カーキのシンプルマット・S"
   },
   {
-    label: "Rug_07521",
+    label: "7521",
     en: "simple small blue mat",
     jp: "あおいシンプルマット・S"
   },
   {
-    label: "Rug_07522",
+    label: "7522",
     en: "simple small brown mat",
     jp: "ちゃいろいシンプルマット・S"
   },
   {
-    label: "Rug_07523",
+    label: "7523",
     en: "simple medium blue mat",
     jp: "あおいシンプルマット・M"
   },
   {
-    label: "Rug_07524",
+    label: "7524",
     en: "simple medium avocado mat",
     jp: "カーキのシンプルマット・M"
   },
   {
-    label: "Rug_07532",
+    label: "7532",
     en: "peach stripes rug",
     jp: "ももいろボーダーのラグ"
   },
   {
-    label: "Rug_07533",
+    label: "7533",
     en: "blue stripes rug",
     jp: "あおボーダーのラグ"
   },
   {
-    label: "Rug_07534",
+    label: "7534",
     en: "green stripes rug",
     jp: "みどりボーダーのラグ"
   },
   {
-    label: "Rug_07536",
+    label: "7536",
     en: "simple medium orange mat",
     jp: "オレンジのシンプルマット・M"
   },
   {
-    label: "Rug_07537",
+    label: "7537",
     en: "simple small red mat",
     jp: "あかいシンプルマット・S"
   },
   {
-    label: "Rug_07538",
+    label: "7538",
     en: "simple medium purple mat",
     jp: "むらさきのシンプルマット・M"
   },
   {
-    label: "Rug_07539",
+    label: "7539",
     en: "simple medium black mat",
     jp: "くろいシンプルマット・M"
   },
   {
-    label: "Rug_07540",
+    label: "7540",
     en: "simple medium red mat",
     jp: "あかいシンプルマット・M"
   },
   {
-    label: "Rug_07541",
+    label: "7541",
     en: "simple small orange mat",
     jp: "オレンジのシンプルマット・S"
   },
   {
-    label: "Rug_07542",
+    label: "7542",
     en: "simple small purple mat",
     jp: "むらさきのシンプルマット・S"
   },
   {
-    label: "Rug_07543",
+    label: "7543",
     en: "simple small black mat",
     jp: "くろいシンプルマット・S"
   },
   {
-    label: "Rug_07544",
+    label: "7544",
     en: "festive rug",
     jp: "クリスマスなラグ"
   },
   {
-    label: "Rug_07545",
+    label: "7545",
     en: "spooky rug",
     jp: "ハロウィンなラグ"
   },
   {
-    label: "Rug_07546",
+    label: "7546",
     en: "Bunny Day rug",
     jp: "イースターなラグ"
   },
   {
-    label: "Rug_07547",
+    label: "7547",
     en: "shamrock rug",
     jp: "シャムロックのラグ"
   },
   {
-    label: "Rug_07578",
+    label: "7578",
     en: "white heart rug",
     jp: "ホワイトハートのラグ"
   },
   {
-    label: "Rug_07579",
+    label: "7579",
     en: "turquoise heart rug",
     jp: "ブルーハートのラグ"
   },
   {
-    label: "Rug_07580",
+    label: "7580",
     en: "purple heart rug",
     jp: "パープルハートのラグ"
   },
   {
-    label: "Rug_07594",
+    label: "7594",
     en: "black-design kitchen mat",
     jp: "くろいパターンキッチンマット"
   },
   {
-    label: "Rug_07595",
+    label: "7595",
     en: "blue-design kitchen mat",
     jp: "あおいパターンキッチンマット"
   },
   {
-    label: "Rug_07596",
+    label: "7596",
     en: "yellow-design kitchen mat",
     jp: "きいろパターンキッチンマット"
   },
   {
-    label: "Rug_08035",
+    label: "8035",
     en: "blue Persian rug",
     jp: "あおいペルシャじゅうたん"
   },
   {
-    label: "Rug_08036",
+    label: "8036",
     en: "yellow Persian rug",
     jp: "きいろいペルシャじゅうたん"
   },
   {
-    label: "Rug_08037",
+    label: "8037",
     en: "purple Persian rug",
     jp: "むらさきのペルシャじゅうたん"
   },
   {
-    label: "Rug_08393",
+    label: "8393",
     en: "green kitchen mat",
     jp: "みどりのキッチンマット"
   },
   {
-    label: "Rug_08394",
+    label: "8394",
     en: "blue kitchen mat",
     jp: "あおいキッチンマット"
   },
   {
-    label: "Rug_08395",
+    label: "8395",
     en: "yellow kitchen mat",
     jp: "きいろいキッチンマット"
   },
   {
-    label: "Rug_08466",
+    label: "8466",
     en: "red argyle rug",
     jp: "あかいアーガイルのラグ"
   },
   {
-    label: "Rug_08467",
+    label: "8467",
     en: "blue argyle rug",
     jp: "あおいアーガイルのラグ"
   },
   {
-    label: "Rug_08468",
+    label: "8468",
     en: "brown argyle rug",
     jp: "ちゃいろいアーガイルのラグ"
   },
   {
-    label: "Rug_08757",
+    label: "8757",
     en: "white rose rug",
     jp: "ホワイトローズのラグ"
   },
   {
-    label: "Rug_08758",
+    label: "8758",
     en: "red rose rug",
     jp: "レッドローズのラグ"
   },
   {
-    label: "Rug_08759",
+    label: "8759",
     en: "yellow rose rug",
     jp: "イエローローズのラグ"
   },
   {
-    label: "Rug_09310",
+    label: "9310",
     en: "blue message mat",
     jp: "あおいメッセージマット"
   },
   {
-    label: "Rug_09311",
+    label: "9311",
     en: "yellow message mat",
     jp: "きいろいメッセージマット"
   },
   {
-    label: "Rug_09312",
+    label: "9312",
     en: "red message mat",
     jp: "あかいメッセージマット"
   },
   {
-    label: "Rug_09313",
+    label: "9313",
     en: "red kilim-style carpet",
     jp: "あかいキリムのカーペット"
   },
   {
-    label: "Rug_09314",
+    label: "9314",
     en: "green kilim-style carpet",
     jp: "みどりのキリムのカーペット"
   },
   {
-    label: "Rug_09315",
+    label: "9315",
     en: "yellow kilim-style carpet",
     jp: "きいろいキリムのカーペット"
   },
   {
-    label: "Rug_09316",
+    label: "9316",
     en: "blue kilim-style carpet",
     jp: "あおいキリムのカーペット"
   },
   {
-    label: "Rug_09541",
+    label: "9541",
     en: "Mom's reliable kitchen mat",
     jp: "たよれるははのキッチンマット"
   },
   {
-    label: "Rug_09542",
+    label: "9542",
     en: "Mom's playful kitchen mat",
     jp: "オチャメなははのキッチンマット"
   },
   {
-    label: "Rug_09543",
+    label: "9543",
     en: "Mom's lively kitchen mat",
     jp: "げんきなははのキッチンマット"
   },
   {
-    label: "Rug_09544",
+    label: "9544",
     en: "yellow medium round mat",
     jp: "きいろいラウンドマット・M"
   },
   {
-    label: "Rug_09545",
+    label: "9545",
     en: "red medium round mat",
     jp: "あかいラウンドマット・M"
   },
   {
-    label: "Rug_09546",
+    label: "9546",
     en: "blue medium round mat",
     jp: "あおいラウンドマット・M"
   },
   {
-    label: "Rug_09547",
+    label: "9547",
     en: "yellow small round mat",
     jp: "きいろいラウンドマット・S"
   },
   {
-    label: "Rug_09548",
+    label: "9548",
     en: "red small round mat",
     jp: "あかいラウンドマット・S"
   },
   {
-    label: "Rug_09549",
+    label: "9549",
     en: "blue small round mat",
     jp: "あおいラウンドマット・S"
   },
   {
-    label: "Rug_09562",
+    label: "9562",
     en: "purple shaggy rug",
     jp: "むらさきのシャギーなラグ"
   },
   {
-    label: "Rug_09563",
+    label: "9563",
     en: "brown shaggy rug",
     jp: "ちゃいろいシャギーなラグ"
   },
   {
-    label: "Rug_09564",
+    label: "9564",
     en: "blue shaggy rug",
     jp: "あおいシャギーなラグ"
   },
   {
-    label: "Rug_11101",
+    label: "11101",
     en: "red blocks rug",
     jp: "あかブロックのラグ"
   },
   {
-    label: "Rug_11102",
+    label: "11102",
     en: "blue blocks rug",
     jp: "あおブロックのラグ"
   },
   {
-    label: "Rug_11103",
+    label: "11103",
     en: "yellow blocks rug",
     jp: "きいろブロックのラグ"
   },
   {
-    label: "Rug_11104",
+    label: "11104",
     en: "black blocks rug",
     jp: "モノクロブロックのラグ"
   },
   {
-    label: "Rug_11113",
+    label: "11113",
     en: "light bamboo rug",
     jp: "ライトなバンブーラグ"
   },
   {
-    label: "Rug_11114",
+    label: "11114",
     en: "dark bamboo rug",
     jp: "ダークなバンブーラグ"
   },
   {
-    label: "Rug_12214",
+    label: "12214",
     en: "Bell-bag rug",
     jp: "ベルぶくろのラグ"
   },
   {
-    label: "Rug_12217",
+    label: "12217",
     en: "summer-shell rug",
     jp: "なつのかいがらのラグ"
   },
   {
-    label: "Rug_12288",
+    label: "12288",
     en: "Cinnamoroll rug",
     jp: "シナモロールなラグ"
   },
   {
-    label: "Rug_12289",
+    label: "12289",
     en: "Kerokerokeroppi rug",
     jp: "けろけろけろっぴなラグ"
   },
   {
-    label: "Rug_12290",
+    label: "12290",
     en: "Kiki & Lala rug",
     jp: "キキ&ララなラグ"
   },
   {
-    label: "Rug_12291",
+    label: "12291",
     en: "Hello Kitty rug",
     jp: "ハローキティなラグ"
   },
   {
-    label: "Rug_12292",
+    label: "12292",
     en: "My Melody rug",
     jp: "マイメロディなラグ"
   },
   {
-    label: "Rug_12293",
+    label: "12293",
     en: "Pompompurin rug",
     jp: "ポムポムプリンなラグ"
   },
   {
-    label: "Rug_12325",
+    label: "12325",
     en: "Nook Inc. botanical rug",
     jp: "たぬきかいはつのボタニカルラグ"
   },
   {
-    label: "Rug_12396",
+    label: "12396",
     en: "Nook Inc. silk rug",
     jp: "たぬきかいはつのスクエアラグ"
   },
   {
-    label: "Rug_12462",
+    label: "12462",
     en: "blue wedding rug",
     jp: "ウェディングなラグ・ブルー"
   },
   {
-    label: "Rug_12464",
+    label: "12464",
     en: "white wedding rug",
     jp: "ウェディングなラグ・ホワイト"
   },
   {
-    label: "Rug_12465",
+    label: "12465",
     en: "red wedding rug",
     jp: "ウェディングなラグ・レッド"
   },
   {
-    label: "Rug_12563",
+    label: "12563",
     en: "mermaid rug",
     jp: "マーメイドなラグ"
   },
   {
-    label: "Rug_12564",
+    label: "12564",
     en: "pirate rug",
     jp: "かいぞくのラグ"
   },
   {
-    label: "Rug_13287",
+    label: "13287",
     en: "moon rug",
     jp: "つきのラグ"
   },
   {
-    label: "Rug_13525",
+    label: "13525",
     en: "Turkey Day rug",
     jp: "サンクスギビングなラグ"
   },
   {
-    label: "Rug_13596",
+    label: "13596",
     en: "sunflower rug",
     jp: "ひまわりのラグ"
   },
   {
-    label: "Rug_13872",
+    label: "13872",
     en: "Yoshi's Egg rug",
     jp: "ヨッシーのタマゴのラグ"
   },
   {
-    label: "Rug_13873",
+    label: "13873",
     en: "Lakitu's Cloud rug",
     jp: "ジュゲムのくものラグ"
   },
   {
-    label: "Rug_13904",
+    label: "13904",
     en: "football rug",
     jp: "アメフトのラグ"
   },

@@ -1,351 +1,351 @@
 translationNames.art = [
   {
-    label: "Picture_00002",
+    label: "2",
     en: "scenic painting",
     jp: "みごとなめいが"
   },
   {
-    label: "Picture_00006",
+    label: "6",
     en: "graceful painting",
     jp: "しなやかなめいが"
   },
   {
-    label: "Picture_00010",
+    label: "10",
     en: "quaint painting",
     jp: "おちついためいが"
   },
   {
-    label: "Picture_00014",
+    label: "14",
     en: "basic painting",
     jp: "いさましいめいが"
   },
   {
-    label: "Picture_00018",
+    label: "18",
     en: "famous painting",
     jp: "ゆうめいなめいが"
   },
   {
-    label: "Picture_00020",
+    label: "20",
     en: "perfect painting",
     jp: "すばらしいめいが"
   },
   {
-    label: "Picture_00024",
+    label: "24",
     en: "serene painting",
     jp: "たおやかなめいが"
   },
   {
-    label: "Picture_00028",
+    label: "28",
     en: "wistful painting",
     jp: "すてきなめいが"
   },
   {
-    label: "Picture_00032",
+    label: "32",
     en: "moving painting",
     jp: "きれいなめいが"
   },
   {
-    label: "Picture_00034",
+    label: "34",
     en: "warm painting",
     jp: "いいかんじのめいが"
   },
   {
-    label: "Picture_00038",
+    label: "38",
     en: "dynamic painting",
     jp: "いきなめいが"
   },
   {
-    label: "Picture_00042",
+    label: "42",
     en: "jolly painting",
     jp: "おもしろいめいが"
   },
   {
-    label: "Picture_00044",
+    label: "44",
     en: "common painting",
     jp: "よくみるめいが"
   },
   {
-    label: "Picture_00046",
+    label: "46",
     en: "proper painting",
     jp: "にぎやかなめいが"
   },
   {
-    label: "Picture_00048",
+    label: "48",
     en: "nice painting",
     jp: "いいめいが"
   },
   {
-    label: "Picture_00050",
+    label: "50",
     en: "flowery painting",
     jp: "たぐいまれなるめいが"
   },
   {
-    label: "Picture_00052",
+    label: "52",
     en: "moody painting",
     jp: "ちからづよいめいが"
   },
   {
-    label: "Picture_00056",
+    label: "56",
     en: "amazing painting",
     jp: "すごいめいが"
   },
   {
-    label: "Picture_00066",
+    label: "66",
     en: "scary painting",
     jp: "いなせなめいが"
   },
   {
-    label: "Picture_00068",
+    label: "68",
     en: "worthy painting",
     jp: "かちのあるめいが"
   },
   {
-    label: "Picture_00072",
+    label: "72",
     en: "solemn painting",
     jp: "おごそかなめいが"
   },
   {
-    label: "Picture_00078",
+    label: "78",
     en: "calm painting",
     jp: "おだやかなめいが"
   },
   {
-    label: "Picture_12618",
+    label: "12618",
     en: "twinkling painting",
     jp: "またたくめいが"
   },
   {
-    label: "Picture_12619",
+    label: "12619",
     en: "academic painting",
     jp: "アカデミックなめいが"
   },
   {
-    label: "Picture_12621",
+    label: "12621",
     en: "sinking painting",
     jp: "しずみゆくめいが"
   },
   {
-    label: "Picture_12622",
+    label: "12622",
     en: "detailed painting",
     jp: "ちみつなめいが"
   },
   {
-    label: "Picture_12624",
+    label: "12624",
     en: "glowing painting",
     jp: "ひかりのめいが"
   },
   {
-    label: "Picture_12625",
+    label: "12625",
     en: "mysterious painting",
     jp: "なぞめいためいが"
   },
   {
-    label: "PictureFake_00005",
+    label: "5",
     en: "graceful painting",
     jp: "しなやかなめいが"
   },
   {
-    label: "PictureFake_00009",
+    label: "9",
     en: "quaint painting",
     jp: "おちついためいが"
   },
   {
-    label: "PictureFake_00013",
+    label: "13",
     en: "basic painting",
     jp: "いさましいめいが"
   },
   {
-    label: "PictureFake_00017",
+    label: "17",
     en: "famous painting",
     jp: "ゆうめいなめいが"
   },
   {
-    label: "PictureFake_00023",
+    label: "23",
     en: "serene painting",
     jp: "たおやかなめいが"
   },
   {
-    label: "PictureFake_00027",
+    label: "27",
     en: "wistful painting",
     jp: "すてきなめいが"
   },
   {
-    label: "PictureFake_00031",
+    label: "31",
     en: "moving painting",
     jp: "きれいなめいが"
   },
   {
-    label: "PictureFake_00041",
+    label: "41",
     en: "jolly painting",
     jp: "おもしろいめいが"
   },
   {
-    label: "PictureFake_00055",
+    label: "55",
     en: "amazing painting",
     jp: "すごいめいが"
   },
   {
-    label: "PictureFake_00065",
+    label: "65",
     en: "scary painting",
     jp: "いなせなめいが"
   },
   {
-    label: "PictureFake_00071",
+    label: "71",
     en: "solemn painting",
     jp: "おごそかなめいが"
   },
   {
-    label: "PictureFake_12620",
+    label: "12620",
     en: "academic painting",
     jp: "アカデミックなめいが"
   },
   {
-    label: "PictureFake_12623",
+    label: "12623",
     en: "detailed painting",
     jp: "ちみつなめいが"
   },
   {
-    label: "PictureFake_12629",
+    label: "12629",
     en: "scenic painting",
     jp: "みごとなめいが"
   },
   {
-    label: "Sculpture_00076",
+    label: "76",
     en: "wild painting right half",
     jp: "あらぶるめいがのみぎ"
   },
   {
-    label: "Sculpture_01331",
+    label: "1331",
     en: "motherly statue",
     jp: "ぼせいあふれるちょうこく"
   },
   {
-    label: "Sculpture_01333",
+    label: "1333",
     en: "gallant statue",
     jp: "りりしいちょうこく"
   },
   {
-    label: "Sculpture_01335",
+    label: "1335",
     en: "robust statue",
     jp: "たくましいちょうこく"
   },
   {
-    label: "Sculpture_01337",
+    label: "1337",
     en: "ancient statue",
     jp: "いにしえのちょうこく"
   },
   {
-    label: "Sculpture_01339",
+    label: "1339",
     en: "great statue",
     jp: "いだいなちょうこく"
   },
   {
-    label: "Sculpture_01341",
+    label: "1341",
     en: "beautiful statue",
     jp: "うつくしいちょうこく"
   },
   {
-    label: "Sculpture_01343",
+    label: "1343",
     en: "mystic statue",
     jp: "しんぴてきなちょうこく"
   },
   {
-    label: "Sculpture_01345",
+    label: "1345",
     en: "valiant statue",
     jp: "こうごうしいちょうこく"
   },
   {
-    label: "Sculpture_12533",
+    label: "12533",
     en: "rock-head statue",
     jp: "いしあたまなちょうこく"
   },
   {
-    label: "Sculpture_12535",
+    label: "12535",
     en: "informative statue",
     jp: "てがかりのちょうこく"
   },
   {
-    label: "Sculpture_12537",
+    label: "12537",
     en: "tremendous statue",
     jp: "とてつもないちょうこく"
   },
   {
-    label: "Sculpture_12539",
+    label: "12539",
     en: "warrior statue",
     jp: "もののふのちょうこく"
   },
   {
-    label: "Sculpture_12541",
+    label: "12541",
     en: "familiar statue",
     jp: "なじみのあるちょうこく"
   },
   {
-    label: "Sculpture_12570",
+    label: "12570",
     en: "wild painting left half",
     jp: "あらぶるめいがのひだり"
   },
   {
-    label: "SculptureFake_00075",
+    label: "75",
     en: "wild painting right half",
     jp: "あらぶるめいがのみぎ"
   },
   {
-    label: "SculptureFake_01332",
+    label: "1332",
     en: "motherly statue",
     jp: "ぼせいあふれるちょうこく"
   },
   {
-    label: "SculptureFake_01334",
+    label: "1334",
     en: "gallant statue",
     jp: "りりしいちょうこく"
   },
   {
-    label: "SculptureFake_01336",
+    label: "1336",
     en: "robust statue",
     jp: "たくましいちょうこく"
   },
   {
-    label: "SculptureFake_01338",
+    label: "1338",
     en: "ancient statue",
     jp: "いにしえのちょうこく"
   },
   {
-    label: "SculptureFake_01342",
+    label: "1342",
     en: "beautiful statue",
     jp: "うつくしいちょうこく"
   },
   {
-    label: "SculptureFake_01344",
+    label: "1344",
     en: "mystic statue",
     jp: "しんぴてきなちょうこく"
   },
   {
-    label: "SculptureFake_01346",
+    label: "1346",
     en: "valiant statue",
     jp: "こうごうしいちょうこく"
   },
   {
-    label: "SculptureFake_12534",
+    label: "12534",
     en: "rock-head statue",
     jp: "いしあたまなちょうこく"
   },
   {
-    label: "SculptureFake_12536",
+    label: "12536",
     en: "informative statue",
     jp: "てがかりのちょうこく"
   },
   {
-    label: "SculptureFake_12538",
+    label: "12538",
     en: "tremendous statue",
     jp: "とてつもないちょうこく"
   },
   {
-    label: "SculptureFake_12540",
+    label: "12540",
     en: "warrior statue",
     jp: "もののふのちょうこく"
   },
   {
-    label: "SculptureFake_12571",
+    label: "12571",
     en: "wild painting left half",
     jp: "あらぶるめいがのひだり"
   }

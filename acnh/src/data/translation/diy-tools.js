@@ -1,21 +1,21 @@
 translationNames.tools = [
   {
-    label: "02100",
+    label: "2100",
     en: "axe",
     jp: "オノ"
   },
   {
-    label: "03068",
+    label: "3068",
     en: "flimsy axe",
     jp: "ショボいオノ"
   },
   {
-    label: "05856",
+    label: "5856",
     en: "stone axe",
     jp: "いしのオノ"
   },
   {
-    label: "09617",
+    label: "9617",
     en: "golden axe",
     jp: "きんのオノ"
   },
@@ -25,102 +25,102 @@ translationNames.tools = [
     jp: "こわれかけのオノ"
   },
   {
-    label: "02544",
+    label: "2544",
     en: "star wand",
     jp: "スターなステッキ"
   },
   {
-    label: "05083",
+    label: "5083",
     en: "hyacinth wand",
     jp: "ヒヤシンスのステッキ"
   },
   {
-    label: "05084",
+    label: "5084",
     en: "windflower wand",
     jp: "アネモネのステッキ"
   },
   {
-    label: "05085",
+    label: "5085",
     en: "tulip wand",
     jp: "チューリップのステッキ"
   },
   {
-    label: "05091",
+    label: "5091",
     en: "pansy wand",
     jp: "パンジーのステッキ"
   },
   {
-    label: "05092",
+    label: "5092",
     en: "cosmos wand",
     jp: "コスモスのステッキ"
   },
   {
-    label: "05093",
+    label: "5093",
     en: "rose wand",
     jp: "バラのステッキ"
   },
   {
-    label: "05094",
+    label: "5094",
     en: "lily wand",
     jp: "ユリのステッキ"
   },
   {
-    label: "05095",
+    label: "5095",
     en: "mums wand",
     jp: "キクのステッキ"
   },
   {
-    label: "07584",
+    label: "7584",
     en: "wand",
     jp: "ステッキ"
   },
   {
-    label: "07585",
+    label: "7585",
     en: "ice wand",
     jp: "こおりのステッキ"
   },
   {
-    label: "07586",
+    label: "7586",
     en: "shell wand",
     jp: "かいがらのステッキ"
   },
   {
-    label: "07587",
+    label: "7587",
     en: "tree-branch wand",
     jp: "きのえだのステッキ"
   },
   {
-    label: "07588",
+    label: "7588",
     en: "mushroom wand",
     jp: "キノコのステッキ"
   },
   {
-    label: "07589",
+    label: "7589",
     en: "cherry-blossom wand",
     jp: "さくらのステッキ"
   },
   {
-    label: "07590",
+    label: "7590",
     en: "bamboo wand",
     jp: "たけのステッキ"
   },
   {
-    label: "07591",
+    label: "7591",
     en: "golden wand",
     jp: "おうごんのステッキ"
   },
   {
-    label: "07592",
+    label: "7592",
     en: "iron wand",
     jp: "てつのステッキ"
   },
   {
-    label: "08769",
+    label: "8769",
     en: "bug wand",
     jp: "ムシのステッキ"
   },
   {
-    label: "08770",
+    label: "8770",
     en: "fish wand",
     jp: "おサカナのステッキ"
   },
@@ -150,7 +150,7 @@ translationNames.tools = [
     jp: "シャムロックステッキ"
   },
   {
-    label: "CliffMaker_02543",
+    label: "2543",
     en: "cliff construction permit",
     jp: "がけこうじライセンス"
   },
@@ -185,12 +185,12 @@ translationNames.tools = [
     jp: "きんのつりざお"
   },
   {
-    label: "GroundMaker_03075",
+    label: "3075",
     en: "path construction permit",
     jp: "どうろこうじライセンス"
   },
   {
-    label: "Ladder_02615",
+    label: "2615",
     en: "ladder",
     jp: "はしご"
   },
@@ -225,7 +225,7 @@ translationNames.tools = [
     jp: "きんのあみ"
   },
   {
-    label: "RiverMaker_03247",
+    label: "3247",
     en: "waterscaping permit",
     jp: "かせんこうじライセンス"
   },
@@ -280,7 +280,7 @@ translationNames.tools = [
     jp: "カラフルなパチンコ"
   },
   {
-    label: "Timer_03331",
+    label: "3331",
     en: "timer",
     jp: "タイマー"
   },
@@ -315,7 +315,7 @@ translationNames.tools = [
     jp: "アウトドアなジョウロ"
   },
   {
-    label: "WoodenStickTool_04703",
+    label: "4703",
     en: "vaulting pole",
     jp: "たかとびぼう"
   }
@@ -324,852 +324,852 @@ translationNames.tools = [
 
 translationNames.etc = [
   {
-    label: "Balloon_07869",
+    label: "7869",
     en: "blue balloon",
     jp: "あおいふうせん"
   },
   {
-    label: "Balloon_13123",
+    label: "13123",
     en: "red balloon",
     jp: "あかいふうせん"
   },
   {
-    label: "Balloon_13124",
+    label: "13124",
     en: "yellow balloon",
     jp: "きいろのふうせん"
   },
   {
-    label: "Balloon_13125",
+    label: "13125",
     en: "green balloon",
     jp: "みどりのふうせん"
   },
   {
-    label: "Balloon_13126",
+    label: "13126",
     en: "pink balloon",
     jp: "ピンクのふうせん"
   },
   {
-    label: "BigbagPresent_13836",
+    label: "13836",
     en: "magic bag",
     jp: "プレゼントぶくろ"
   },
   {
-    label: "BlowBubble_04386",
+    label: "4386",
     en: "bubble blower",
     jp: "シャボンだま"
   },
   {
-    label: "BlowBubble_04386_pl",
+    label: "4386_pl",
     en: "bubble blowers",
     jp: "シャボンだま"
   },
   {
-    label: "DummyCardboard_04645",
+    label: "4645",
     en: "delivery",
     jp: "おとどけもの"
   },
   {
-    label: "DummyDIYRecipe_09046",
+    label: "9046",
     en: "Vaulting Pole Recipe",
     jp: "たかとびぼうのDIYレシピ"
   },
   {
-    label: "DummyDIYRecipe_09047",
+    label: "9047",
     en: "Flimsy Shovel Recipe",
     jp: "ショボいスコップのDIYレシピ"
   },
   {
-    label: "DummyDIYRecipe_09048",
+    label: "9048",
     en: "Flimsy Watering Can Recipe",
     jp: "ショボいジョウロのDIYレシピ"
   },
   {
-    label: "DummyDIYRecipe_10309",
+    label: "10309",
     en: "Slingshot Recipe",
     jp: "パチンコのDIYレシピ"
   },
   {
-    label: "DummyDIYRecipe_12294",
+    label: "12294",
     en: "Flimsy Axe Recipe",
     jp: "ショボいオノのDIYレシピ"
   },
   {
-    label: "DummyDIYRecipe_12327",
+    label: "12327",
     en: "Ladder Recipe",
     jp: "はしごのDIYレシピ"
   },
   {
-    label: "DummyHowtoBook_09049",
+    label: "9049",
     en: "Top 8 Pop Hairstyles",
     jp: "ポップ！ヘアアレンジBEST8"
   },
   {
-    label: "DummyHowtoBook_09050",
+    label: "9050",
     en: "Top 8 Cool Hairstyles",
     jp: "クール！ヘアアレンジBEST8"
   },
   {
-    label: "DummyHowtoBook_09051",
+    label: "9051",
     en: "Top 8 Stylish Hair Colors",
     jp: "おしゃれ！ヘアカラーBEST8"
   },
   {
-    label: "DummyHowtoBook_09052",
+    label: "9052",
     en: "Pocket Organization Guide",
     jp: "ポケットせいとんテクニック"
   },
   {
-    label: "DummyHowtoBook_09221",
+    label: "9221",
     en: "Pretty Good Tools Recipes",
     jp: "フツーにつかえる！どうぐレシピ"
   },
   {
-    label: "DummyHowtoBook_09616",
+    label: "9616",
     en: "Tool Ring: It's Essential!",
     jp: "どうぐスッキリ！おきにリング"
   },
   {
-    label: "DummyHowtoBook_11140",
+    label: "11140",
     en: "Ultimate Pocket Stuffing",
     jp: "ポケットつめこみウルトラテク"
   },
   {
-    label: "DummyHowtoBook_12185",
+    label: "12185",
     en: "Custom Design Pro Editor",
     jp: "マイデザインPROエディタ"
   },
   {
-    label: "DummyHowtoBook_13195",
+    label: "13195",
     en: "Custom Design Pro Editor+",
     jp: "マイデザインPROエディタ＋"
   },
   {
-    label: "DummyHowtoBook_13256",
+    label: "13256",
     en: "Body-Paint Costume Tips",
     jp: "へんしん！ボディカラーペイント"
   },
   {
-    label: "DummyHowtoBook_13257",
+    label: "13257",
     en: "Exploring New Eye Colors",
     jp: "みせる！カラーコンタクト"
   },
   {
-    label: "DummyHowtoBook_13610",
+    label: "13610",
     en: "Hip Reaction Collection",
     jp: "ナウい！リアクションずかん"
   },
   {
-    label: "DummyHowtoBook_13766",
+    label: "13766",
     en: "Top 6 Stylish Hairstyles",
     jp: "もっと！ヘアアレンジ×6"
   },
   {
-    label: "DummyHowtoBook_14030",
+    label: "14030",
     en: "Viva Festivale Reaction Set",
     jp: "ビバ！カーニバルリアクション"
   },
   {
-    label: "DummyHowtoBook_14158",
+    label: "14158",
     en: "Custom Designs Portal",
     jp: "マイデザイン・ショーケース"
   },
   {
-    label: "DummyPresentbox_04480",
+    label: "4480",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyRecipe_02695",
+    label: "2695",
     en: "ダミーDIYレシピ",
     jp: "ダミーDIYレシピ"
   },
   {
-    label: "DummyRecipe_05603",
+    label: "5603",
     en: "DIY for Beginners",
     jp: "はじめてのDIYレシピ"
   },
   {
-    label: "DummyRecipe_05604",
+    label: "5604",
     en: "Test Your DIY Skills",
     jp: "チャレンジ！DIYレシピ"
   },
   {
-    label: "DummyRecipe_05605",
+    label: "5605",
     en: "Wildest Dreams DIY",
     jp: "こんなモノまで？！DIY"
   },
   {
-    label: "DummyRecipe_13787",
+    label: "13787",
     en: "Cozy Turkey Day DIY",
     jp: "いろどりサンクスギビングDIY"
   },
   {
-    label: "DummyWrapping_07699",
+    label: "7699",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07700",
+    label: "7700",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07701",
+    label: "7701",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07702",
+    label: "7702",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07703",
+    label: "7703",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07704",
+    label: "7704",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07705",
+    label: "7705",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07706",
+    label: "7706",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07707",
+    label: "7707",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07708",
+    label: "7708",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07709",
+    label: "7709",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07710",
+    label: "7710",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07711",
+    label: "7711",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07712",
+    label: "7712",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07713",
+    label: "7713",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_07714",
+    label: "7714",
     en: "present",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrapping_13793",
+    label: "13793",
     en: "gift",
     jp: "プレゼント"
   },
   {
-    label: "DummyWrappingOtoshidama_14042",
+    label: "14042",
     en: "lucky money",
     jp: "しゅんせつのおとしだま"
   },
   {
-    label: "DummyWrappingOtoshidama_14043",
+    label: "14043",
     en: "sebaetdon",
     jp: "ソルラルのおとしだま"
   },
   {
-    label: "FierworkHand_05743",
+    label: "5743",
     en: "red sparkler",
     jp: "あかいてもちはなび"
   },
   {
-    label: "FierworkHand_05743_pl",
+    label: "5743_pl",
     en: "red sparklers",
     jp: "あかいてもちはなび"
   },
   {
-    label: "FierworkHand_12974",
+    label: "12974",
     en: "blue sparkler",
     jp: "あおいてもちはなび"
   },
   {
-    label: "FierworkHand_12974_pl",
+    label: "12974_pl",
     en: "blue sparklers",
     jp: "あおいてもちはなび"
   },
   {
-    label: "FireworkM_13106",
+    label: "13106",
     en: "fountain firework",
     jp: "おきはなび"
   },
   {
-    label: "FishBait_04549",
+    label: "4549",
     en: "fish bait",
     jp: "サカナのまきエサ"
   },
   {
-    label: "FishBait_04549_pl",
+    label: "4549_pl",
     en: "fish bait",
     jp: "サカナのまきエサ"
   },
   {
-    label: "FlowerShower_14284",
+    label: "14284",
     en: "flower-petal basket",
     jp: "フラワーシャワー"
   },
   {
-    label: "HandheldPennant_13128",
+    label: "13128",
     en: "Nook Inc. handheld pennant",
     jp: "たぬきかいはつのてもちペナント"
   },
   {
-    label: "Honeycomb_03263",
+    label: "3263",
     en: "wasp nest",
     jp: "ハチのす"
   },
   {
-    label: "Honeycomb_03263_pl",
+    label: "3263_pl",
     en: "wasp nests",
     jp: "ハチのす"
   },
   {
-    label: "HousingKit_02750",
+    label: "2750",
     en: "tent",
     jp: "テント"
   },
   {
-    label: "HousingKit_02755",
+    label: "2755",
     en: "Blathers's tent marker",
     jp: "フータさんのテントよていち"
   },
   {
-    label: "HousingKit_02756",
+    label: "2756",
     en: "shop construction kit",
     jp: "おみせのこうじかんばん"
   },
   {
-    label: "HousingKit_02757",
+    label: "2757",
     en: "'s tent",
     jp: "のテント"
   },
   {
-    label: "HousingKit_03349",
+    label: "3349",
     en: "housing kit",
     jp: "ハウジングキット"
   },
   {
-    label: "HousingKit_04311",
+    label: "4311",
     en: "incline marker kit",
     jp: "さかよていちキット"
   },
   {
-    label: "HousingKit_04411",
+    label: "4411",
     en: "tailors construction kit",
     jp: "したてやのこうじかんばん"
   },
   {
-    label: "HousingKit_05166",
+    label: "5166",
     en: "campsite construction kit",
     jp: "キャンプサイトこうじキット"
   },
   {
-    label: "HousingKit_05357",
+    label: "5357",
     en: "'s kit",
     jp: "・いせつキット"
   },
   {
-    label: "HousingKit_05358",
+    label: "5358",
     en: "moving kit",
     jp: "いせつキット"
   },
   {
-    label: "HousingKit_05359",
+    label: "5359",
     en: "tailors moving kit",
     jp: "したてや・いせつキット"
   },
   {
-    label: "HousingKit_05360",
+    label: "5360",
     en: "shop moving kit",
     jp: "おみせ・いせつキット"
   },
   {
-    label: "HousingKit_05361",
+    label: "5361",
     en: "museum moving kit",
     jp: "はくぶつかん・いせつキット"
   },
   {
-    label: "HousingKit_06841",
+    label: "6841",
     en: "campsite moving kit",
     jp: "キャンプサイト・いせつキット"
   },
   {
-    label: "HousingKit_13346",
+    label: "13346",
     en: "transfer kit",
     jp: "ひっこしキット"
   },
   {
-    label: "HousingKitBirdge_04310",
+    label: "4310",
     en: "bridge marker kit",
     jp: "はしよていちキット"
   },
   {
-    label: "HousingKitBirdge_07211",
+    label: "7211",
     en: "bridge construction kit",
     jp: "はしのこうじキット"
   },
   {
-    label: "HousingKitRcoQuest_05827",
+    label: "5827",
     en: "plot 1 housing kit",
     jp: "ハウジングキット・1ごうち"
   },
   {
-    label: "HousingKitRcoQuest_05828",
+    label: "5828",
     en: "plot 2 housing kit",
     jp: "ハウジングキット・2ごうち"
   },
   {
-    label: "HousingKitRcoQuest_05829",
+    label: "5829",
     en: "plot 3 housing kit",
     jp: "ハウジングキット・3ごうち"
   },
   {
-    label: "JuiceFuzzyapple_13835",
+    label: "13835",
     en: "sparkling cider",
     jp: "スパークリングサイダー"
   },
   {
-    label: "JuiceFuzzyapple_14028",
+    label: "14028",
     en: "shamrock soda",
     jp: "シャムロックソーダ"
   },
   {
-    label: "LicenseItem_08773",
+    label: "8773",
     en: "stone path permit",
     jp: "どうろこうじ・いしだたみ"
   },
   {
-    label: "LicenseItem_08774",
+    label: "8774",
     en: "brick path permit",
     jp: "どうろこうじ・レンガのみち"
   },
   {
-    label: "LicenseItem_08775",
+    label: "8775",
     en: "dark dirt path permit",
     jp: "どうろこうじ・くろつちのみち"
   },
   {
-    label: "LicenseItem_08776",
+    label: "8776",
     en: "arched tile path permit",
     jp: "どうろこうじ・アーチタイル"
   },
   {
-    label: "LicenseItem_08777",
+    label: "8777",
     en: "sand path permit",
     jp: "どうろこうじ・すなのみち"
   },
   {
-    label: "LicenseItem_08778",
+    label: "8778",
     en: "terra-cotta tile permit",
     jp: "どうろこうじ・テラコッタタイル"
   },
   {
-    label: "LicenseItem_08779",
+    label: "8779",
     en: "wooden path permit",
     jp: "どうろこうじ・くみきのみち"
   },
   {
-    label: "LicenseItem_08780",
+    label: "8780",
     en: "waterscaping permit",
     jp: "かせんこうじライセンス"
   },
   {
-    label: "LicenseItem_08781",
+    label: "8781",
     en: "cliff construction permit",
     jp: "がけこうじライセンス"
   },
   {
-    label: "LicenseItem_09771",
+    label: "9771",
     en: "custom design path permit",
     jp: "どうろこうじ・マイデザイン"
   },
   {
-    label: "MaracasCarnival_13958",
+    label: "13958",
     en: "maracas",
     jp: "マラカス"
   },
   {
-    label: "Medicine_02777",
+    label: "2777",
     en: "medicine",
     jp: "おくすり"
   },
   {
-    label: "Medicine_02777_pl",
+    label: "2777_pl",
     en: "medicine",
     jp: "おくすり"
   },
   {
-    label: "Megaphone_13913",
+    label: "13913",
     en: "football cheer megaphone",
     jp: "おうえんメガホン・アメフト"
   },
   {
-    label: "Megaphone_14013",
+    label: "14013",
     en: "fiery cheer megaphone",
     jp: "おうえんメガホン・ファイアー"
   },
   {
-    label: "Megaphone_14014",
+    label: "14014",
     en: "starry cheer megaphone",
     jp: "おうえんメガホン・スター"
   },
   {
-    label: "Megaphone_14015",
+    label: "14015",
     en: "glittery cheer megaphone",
     jp: "おうえんメガホン・グリッター"
   },
   {
-    label: "MessageBottle_05793",
+    label: "5793",
     en: "message bottle",
     jp: "メッセージボトル"
   },
   {
-    label: "MessageBottle_12544",
+    label: "12544",
     en: "egg message bottle",
     jp: "たまごのメッセージボトル"
   },
   {
-    label: "MilePlaneTicket_05851",
+    label: "5851",
     en: "Nook Miles Ticket",
     jp: "マイルりょこうけん"
   },
   {
-    label: "MilePlaneTicket_05851_pl",
+    label: "5851_pl",
     en: "Nook Miles Tickets",
     jp: "マイルりょこうけん"
   },
   {
-    label: "MilePlaneTicket_09964",
+    label: "9964",
     en: "Bell voucher",
     jp: "ベルひきかえけん"
   },
   {
-    label: "MilePlaneTicket_09964_pl",
+    label: "9964_pl",
     en: "Bell vouchers",
     jp: "ベルひきかえけん"
   },
   {
-    label: "MilePlaneTicket_13228",
+    label: "13228",
     en: "Dream Bell exchange ticket",
     jp: "ゆめのベルひきかえけん"
   },
   {
-    label: "MilePlaneTicket_13228_pl",
+    label: "13228_pl",
     en: "Dream Bell exchange tickets",
     jp: "ゆめのベルひきかえけん"
   },
   {
-    label: "Ocarina_05320",
+    label: "5320",
     en: "ocarina",
     jp: "オカリナ"
   },
   {
-    label: "Otoshidama_13954",
+    label: "13954",
     en: "lucky red envelope",
     jp: "しゅんせつのおとしだま"
   },
   {
-    label: "Otoshidama_13954_pl",
+    label: "13954_pl",
     en: "lucky red envelopes",
     jp: "しゅんせつのおとしだま"
   },
   {
-    label: "Otoshidama_13955",
+    label: "13955",
     en: "bokjumeoni lucky pouch",
     jp: "ソルラルのおとしだま"
   },
   {
-    label: "Otoshidama_13955_pl",
+    label: "13955_pl",
     en: "bokjumeoni lucky pouches",
     jp: "ソルラルのおとしだま"
   },
   {
-    label: "Panflute_05517",
+    label: "5517",
     en: "pan flute",
     jp: "パンフルート"
   },
   {
-    label: "Partyhorn_05742",
+    label: "5742",
     en: "tweeter",
     jp: "ふきもどし"
   },
   {
-    label: "PartyPopper_02753",
+    label: "2753",
     en: "party popper",
     jp: "クラッカー"
   },
   {
-    label: "PartyPopper_02753_pl",
+    label: "2753_pl",
     en: "party poppers",
     jp: "クラッカー"
   },
   {
-    label: "PitFallSeed_02578",
+    label: "2578",
     en: "pitfall seed",
     jp: "おとしあなのタネ"
   },
   {
-    label: "PitFallSeed_02578_pl",
+    label: "2578_pl",
     en: "pitfall seeds",
     jp: "おとしあなのタネ"
   },
   {
-    label: "QuestChristmasPresentbox_13869",
+    label: "13869",
     en: "someone's gift",
     jp: "だれかのプレゼント"
   },
   {
-    label: "QuestWrapping_04245",
+    label: "4245",
     en: "delivery box",
     jp: "はいたつボックス"
   },
   {
-    label: "SoySet_13914",
+    label: "13914",
     en: "bean-tossing kit",
     jp: "まめまきセット"
   },
   {
-    label: "StickLight_05741",
+    label: "5741",
     en: "light stick",
     jp: "スティックライト"
   },
   {
-    label: "Tambourine_05430",
+    label: "5430",
     en: "tambourine",
     jp: "タンバリン"
   },
   {
-    label: "Trash_03466",
+    label: "3466",
     en: "empty can",
     jp: "あきカン"
   },
   {
-    label: "Trash_03469",
+    label: "3469",
     en: "boot",
     jp: "ながぐつ"
   },
   {
-    label: "Trash_03470",
+    label: "3470",
     en: "old tire",
     jp: "タイヤ"
   },
   {
-    label: "Trash_13107",
+    label: "13107",
     en: "used fountain firework",
     jp: "おきはなびのもえかす"
   },
   {
-    label: "Uchiwa_05319",
+    label: "5319",
     en: "uchiwa fan",
     jp: "うちわ"
   },
   {
-    label: "Uchiwa_09762",
+    label: "9762",
     en: "Nook Inc. uchiwa fan",
     jp: "たぬきかいはつうちわ"
   },
   {
-    label: "Windmill_05744",
+    label: "5744",
     en: "pinwheel",
     jp: "かざぐるま"
   },
   {
-    label: "WrappingPaper_07683",
+    label: "7683",
     en: "yellow wrapping paper",
     jp: "きいろいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07683_pl",
+    label: "7683_pl",
     en: "yellow wrapping paper",
     jp: "きいろいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07684",
+    label: "7684",
     en: "pink wrapping paper",
     jp: "ピンクのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07684_pl",
+    label: "7684_pl",
     en: "pink wrapping paper",
     jp: "ピンクのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07685",
+    label: "7685",
     en: "orange wrapping paper",
     jp: "オレンジのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07685_pl",
+    label: "7685_pl",
     en: "orange wrapping paper",
     jp: "オレンジのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07686",
+    label: "7686",
     en: "chartreuse wrapping paper",
     jp: "きみどりのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07686_pl",
+    label: "7686_pl",
     en: "chartreuse wrapping paper",
     jp: "きみどりのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07687",
+    label: "7687",
     en: "green wrapping paper",
     jp: "みどりのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07687_pl",
+    label: "7687_pl",
     en: "green wrapping paper",
     jp: "みどりのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07688",
+    label: "7688",
     en: "mint wrapping paper",
     jp: "ミントのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07688_pl",
+    label: "7688_pl",
     en: "mint wrapping paper",
     jp: "ミントのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07689",
+    label: "7689",
     en: "light-blue wrapping paper",
     jp: "みずいろのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07689_pl",
+    label: "7689_pl",
     en: "light-blue wrapping paper",
     jp: "みずいろのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07690",
+    label: "7690",
     en: "purple wrapping paper",
     jp: "むらさきのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07690_pl",
+    label: "7690_pl",
     en: "purple wrapping paper",
     jp: "むらさきのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07691",
+    label: "7691",
     en: "navy wrapping paper",
     jp: "こんいろのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07691_pl",
+    label: "7691_pl",
     en: "navy wrapping paper",
     jp: "こんいろのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07692",
+    label: "7692",
     en: "blue wrapping paper",
     jp: "あおいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07692_pl",
+    label: "7692_pl",
     en: "blue wrapping paper",
     jp: "あおいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07693",
+    label: "7693",
     en: "white wrapping paper",
     jp: "しろいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07693_pl",
+    label: "7693_pl",
     en: "white wrapping paper",
     jp: "しろいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07694",
+    label: "7694",
     en: "red wrapping paper",
     jp: "あかいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07694_pl",
+    label: "7694_pl",
     en: "red wrapping paper",
     jp: "あかいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07695",
+    label: "7695",
     en: "gold wrapping paper",
     jp: "きんいろのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07695_pl",
+    label: "7695_pl",
     en: "gold wrapping paper",
     jp: "きんいろのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07696",
+    label: "7696",
     en: "brown wrapping paper",
     jp: "ちゃいろのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07696_pl",
+    label: "7696_pl",
     en: "brown wrapping paper",
     jp: "ちゃいろのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07697",
+    label: "7697",
     en: "gray wrapping paper",
     jp: "グレーのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07697_pl",
+    label: "7697_pl",
     en: "gray wrapping paper",
     jp: "グレーのラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07698",
+    label: "7698",
     en: "black wrapping paper",
     jp: "くろいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_07698_pl",
+    label: "7698_pl",
     en: "black wrapping paper",
     jp: "くろいラッピングペーパー"
   },
   {
-    label: "WrappingPaper_13792",
+    label: "13792",
     en: "festive wrapping paper",
     jp: "クリスマスなラッピングペーパー"
   },
   {
-    label: "WrappingPaper_13792_pl",
+    label: "13792_pl",
     en: "festive wrapping paper",
     jp: "クリスマスなラッピングペーパー"
   }

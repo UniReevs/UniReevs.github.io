@@ -16,15 +16,46 @@
       <!-- @@include('./includes/npc-nav.html') -->
     </div>
     <main class="app-content">
-      <div class="main-content">
-        <ul class="item-list" id="js-item-list" data-view="group" data-category="everything"></ul>
-        <!-- @@include('./includes/items.html') -->
+      <div class="main-content"
+        data-everything="false"
+        data-bags="false"
+        data-swimwear="false"
+        data-miscellaneous="false"
+        data-housewares="false"
+        data-villagers="false"
+        data-materials="false"
+        data-bottoms="false"
+        data-tops="false"
+        data-art="false"
+        data-recipes="false"
+        data-dresses="false"
+        data-umbrellas="false"
+        data-wall-mounted="false"
+        data-fossils="false"
+        data-tools="false"
+        data-headwear="false"
+        data-floors="false"
+        data-photos="false"
+        data-music="false"
+        data-events="false"
+        data-shoes="false"
+        data-rugs="false"
+        data-posters="false"
+        data-accessories="false"
+        data-socks="false"
+        data-wallpaper="false"
+        data-special="false"
+        data-fencing="false"
+        id="js-category-filter">
+       <!--  <ul class="item-list" id="xjs-item-list" data-view="group" data-category="everything"></ul> -->
+        @@include('./pages/lists.html')
       </div>
     </main>
 
     <!-- @@include('./includes/island-map.html') -->
 
     <script src="src/js/jquery.js"></script>
+
 
     <script src="src/data/init.js"></script>
 
@@ -38,12 +69,12 @@
 
     <script src="src/data/translation/fashion-bags.js"></script>
     <script src="src/data/translation/fashion-swimwear.js"></script>
+    <script src="src/data/translation/items-miscellaneous.js"></script>
     <script src="src/data/translation/items-housewares.js"></script>
     <script src="src/data/translation/npc-villagers.js"></script>
     <script src="src/data/translation/diy-materials.js"></script>
     <script src="src/data/translation/fashion-bottoms.js"></script>
     <script src="src/data/translation/fashion-tops.js"></script>
-    <script src="src/data/translation/items-miscellaneous.js"></script>
     <script src="src/data/translation/others-art.js"></script>
     <script src="src/data/translation/diy-recipes.js"></script>
     <script src="src/data/translation/fashion-dresses.js"></script>
@@ -64,6 +95,38 @@
     <script src="src/data/translation/house-wallpaper.js"></script>
     <script src="src/data/translation/npc-special.js"></script>
     <script src="src/data/translation/diy-fencing.js"></script>
+
+    <script src="src/data/items/fashion-bags.js"></script>
+    <script src="src/data/items/fashion-swimwear.js"></script>
+    <script src="src/data/items/items-housewares.js"></script>
+    <script src="src/data/items/npc-villagers.js"></script>
+    <script src="src/data/items/diy-materials.js"></script>
+    <script src="src/data/items/fashion-bottoms.js"></script>
+    <script src="src/data/items/fashion-tops.js"></script>
+    <script src="src/data/items/items-miscellaneous.js"></script>
+    <script src="src/data/items/others-art.js"></script>
+    <script src="src/data/items/diy-recipes.js"></script>
+    <script src="src/data/items/fashion-dresses.js"></script>
+    <script src="src/data/items/fashion-umbrellas.js"></script>
+    <script src="src/data/items/items-wallMounted.js"></script>
+    <script src="src/data/items/others-fossils.js"></script>
+    <script src="src/data/items/diy-tools.js"></script>
+    <script src="src/data/items/fashion-headwear.js"></script>
+    <script src="src/data/items/house-floors.js"></script>
+    <script src="src/data/items/npc-photos.js"></script>
+    <script src="src/data/items/others-music.js"></script>
+    <script src="src/data/items/etc-events.js"></script>
+    <script src="src/data/items/fashion-shoes.js"></script>
+    <script src="src/data/items/house-rugs.js"></script>
+    <script src="src/data/items/npc-posters.js"></script>
+    <script src="src/data/items/fashion-accessories.js"></script>
+    <script src="src/data/items/fashion-socks.js"></script>
+    <script src="src/data/items/house-wallpaper.js"></script>
+    <script src="src/data/items/npc-special.js"></script>
+    <script src="src/data/items/diy-fencing.js"></script>
+
+
+    <script src="src/data/translation.js"></script>
 
     <script src="src/js/functions.js"></script>
     <script src="src/js/events.js"></script>

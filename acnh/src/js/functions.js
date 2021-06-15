@@ -39,15 +39,6 @@ function getTranslation(array, searchID, isVariant = false) {
   return value;
 }
 
-function trimData(data) {
-  for (var i = 0; i < data.length; i++) {
-    let item = data[i];
-    if (parseInt(item.label) === NaN) {
-      conosole.log(item.label)
-    }
-  }
-}
-
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -118,35 +109,35 @@ function createList(data) {
   for (let i = 0; i < data.length; i++) {
     let item = data[i],
         cropped = '', // Cropped
-        isTrue = item.source.en === 'Able Sisters';
+        isTrue = item.price.buy < 0 && !item.diy;
         // isTrue = true;
 
     if (isTrue) {
         html += `
-        <li class="item" data-category="${item.category}" data-id="${item.id}" data-source="${item.source.en}">
+        <li class="item" data-category="${item.category}" data-source="${item.source}">
           <div class="item-header">
+            <div class="name">${item.name.jp}</div>
             <div class="name en">${item.name.en}</div>
             <div class="info">
-              <div class="count">${item.variants.length}</div>
+              <div class="count">${item.count.variants}</div>
               <i class="category"></i>
               <i class="icon"></i>
-              <i class="map">${romanize(item.map)}</i>
             </div>
             <ul class="variants">
         `;
 
       for (let j = 0; j < item.variants.length; j++) {
         let variant = item.variants[j];
-        let hasPattern = false;
-        // if (item.count !== 1) {
+
+        if (!variant.isPattern) {
           html += `
           <li class="variant">
-            <img src="assets/img/1.10.0/FtrIcon/${variant.fileName}.png">
+            <img src="assets/img/1.10.0/FtrIcon/${variant.imageName}.png">
+            <div class="name">${variant.name.jp}</div>
+            <div class="name en">${variant.name.en}</div>
           </li>
           `;
-
-            // <div class="name">${variant.name.jp}</div>
-            // <div class="name en">${variant.name.en}</div>
+        }
       }
 
       html += `
@@ -158,4 +149,188 @@ function createList(data) {
     }
   }
   return html;
+}
+
+
+
+function itemsWithVariants(data) {
+
+  for (var i = 0; i < data.length; i++) {
+    // let  item = data[i];
+
+    // if (i !== 0) {
+    //   newData.push({
+    //     name: {
+    //       en: item.Name,
+    //       jp: 'getNameTranslation(fashionNames[category], prevItem[itemID])'
+    //     },
+    //     id: item[itemID],
+    //     source: {
+    //       en: prevItem.Source,
+    //       jp: prevItem.Source
+    //     },
+    //     map: 0,
+    //     catalog: prevItem.Catalog,
+    //     category: category,
+    //     diy: prevItem.DIY,
+    //     tag: prevItem.Tag,
+    //     price: {
+    //       buy: prevItem.Buy,
+    //       sell: prevItem.Sell,
+    //     },
+    //     count: variants.length,
+    //     variants: variants
+    //   });
+    // }
+
+    let prevItem,
+        item = data[i],
+        isLastItem = i === data.length - 1;
+
+    if (i === 0) {
+      prevItem = item[i];
+      prevID = item[itemID];
+    } else {
+      prevItem = data[i-1];
+    }
+
+    if ((prevID !== item[itemID]) || isLastItem) {
+      newData.push({
+        name: {
+          en: prevItem.Name,
+          // jp: getNameTranslation(itemNames[category], prevItem[itemID])
+          jp: ''
+        },
+        id: prevItem[itemID],
+        source: {
+          en: prevItem.Source,
+          jp: prevItem.Source
+        },
+        map: 0,
+        event: 0,
+        catalog: prevItem.Catalog,
+        category: category,
+        diy: prevItem.DIY,
+        pattern: prevItem.Pattern,
+        tag: prevItem.Tag,
+        price: {
+          buy: prevItem.Buy,
+          sell: prevItem.Sell,
+        },
+        count: variants.length,
+        variants: variants
+      });
+
+      prevID = item[itemID]
+      index = 0;
+      variants = [];
+    }
+    // let string = item[variantID];
+    // let trim = (item[variantID] !== 'NA') ? string.charAt(0) : false;
+    let string = item[variantID];
+    let hasPattern = string ? string.includes('_') : false;
+    let newVariantID = hasPattern ? string.charAt(0) : string;
+    let searchID = item[itemID]+'_'+newVariantID;
+
+    variants.push({
+      id: item[variantID],
+      name: {
+        en: item.Variation,
+        // jp: getVariantTranslation(itemVariantNames, searchID)
+        jp: ''
+      },
+      fileName: item.Filename
+    });
+  }
+}
+
+
+function fashionNoVariants(data) {
+  for (var i = 0; i < data.length; i++) {
+
+    let item = data[i];
+
+      newData.push({
+        name: {
+          en: item.Name,
+          jp: getNameTranslation(fashionNames[category], item[variantID])
+        },
+        id: item[variantID],
+        source: {
+          en: item.Source,
+          jp: item.Source
+        },
+        map: 0,
+        catalog: item.Catalog,
+        category: category,
+        diy: item.DIY,
+        tag: item.Tag,
+        price: {
+          buy: item.Buy,
+          sell: item.Sell,
+        },
+        variants: [{
+          fileName: item.Filename
+        }]
+      });
+
+  }
+}
+
+function fashionWithVariants() {
+  data.push({lastFakeItem: true});
+
+  for (var i = 0; i < data.length; i++) {
+
+    let prevItem,
+        item = data[i],
+        isLastItem = i === data.length - 1;
+
+    if (i === 0) {
+      prevItem = item[i];
+      prevID = item[itemID];
+    } else {
+      prevItem = data[i-1];
+    }
+
+    if ((prevID !== item[itemID]) || isLastItem) {
+      newData.push({
+        name: {
+          en: prevItem.Name,
+          jp: getNameTranslation(fashionNames[category], prevItem[itemID])
+        },
+        id: prevItem[itemID],
+        source: {
+          en: prevItem.Source,
+          jp: prevItem.Source
+        },
+        map: 0,
+        catalog: prevItem.Catalog,
+        category: category,
+        diy: prevItem.DIY,
+        tag: prevItem.Tag,
+        price: {
+          buy: prevItem.Buy,
+          sell: prevItem.Sell,
+        },
+        count: variants.length,
+        variants: variants
+      });
+
+      prevID = item[itemID]
+      index = 0;
+      variants = [];
+    }
+
+    let searchID = item[itemID]+categoryV+item[variantID];
+
+    variants.push({
+      id: item[variantID],
+      name: {
+        en: item.Variation,
+        jp: getVariantTranslation(fashionVariants[category], searchID)
+      },
+      fileName: item.Filename
+    });
+  }
 }

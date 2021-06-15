@@ -109,8 +109,8 @@
   padding: 2px;
   text-align: center;
   position: relative;
-  display: none;
   min-width: 200px;
+  display: none;
 
   /*background: #fffeda;*/
   &-image {
@@ -145,31 +145,42 @@
   // right: 0;
 }
 
-[data-category='everything'] .item,
-[data-category='Housewares'] .item[data-category='Housewares'],
-[data-category='Miscellaneous'] .item[data-category='Miscellaneous'],
-[data-category='Wall-mounted'] .item[data-category='Wall-mounted'],
-[data-category='Wallpaper'] .item[data-category='Wallpaper'],
-[data-category='Floors'] .item[data-category='Floors'],
-[data-category='Rugs'] .item[data-category='Rugs'],
-[data-category='Fencing'] .item[data-category='Fencing'],
-[data-category='Photos'] .item[data-category='Photos'],
-[data-category='Posters'] .item[data-category='Posters'],
-[data-category='Tools'] .item[data-category='Tools'],
-[data-category='Tops'] .item[data-category='Tops'],
-[data-category='Bottoms'] .item[data-category='Bottoms'],
-[data-category='Dress-Up'] .item[data-category='Dress-Up'],
-[data-category='Headwear'] .item[data-category='Headwear'],
-[data-category='Accessories'] .item[data-category='Accessories'],
-[data-category='Socks'] .item[data-category='Socks'],
-[data-category='Shoes'] .item[data-category='Shoes'],
-[data-category='Bags'] .item[data-category='Bags'],
-[data-category='Umbrellas'] .item[data-category='Umbrellas'],
-[data-category='Clothing-Other'] .item[data-category='Clothing-Other'],
-[data-category='Music'] .item[data-category='Music'],
-[data-category='Fossils'] .item[data-category='Fossils'],
-[data-category='Other'] .item[data-category='Other'],
-[data-category='Art'] .item[data-category='Art'] {
+[data-everything='true'] .item,
+[data-bags='true'] .item[data-category='bags'],
+[data-swimwear='true'] .item[data-category='swimwear'],
+[data-miscellaneous='true'] .item[data-category='misc'],
+[data-housewares='true'] .item[data-category='housewares'],
+[data-villagers='true'] .item[data-category='villagers'],
+[data-materials='true'] .item[data-category='materials'],
+[data-bottoms='true'] .item[data-category='bottoms'],
+[data-tops='true'] .item[data-category='tops'],
+[data-art='true'] .item[data-category='art'],
+[data-recipes='true'] .item[data-category='recipes'],
+[data-dresses='true'] .item[data-category='dresses'],
+[data-umbrellas='true'] .item[data-category='umbrellas'],
+[data-wall-mounted='true'] .item[data-category='wall-mounted'],
+[data-fossils='true'] .item[data-category='fossils'],
+[data-tools='true'] .item[data-category='tools'],
+[data-headwear='true'] .item[data-category='headwear'],
+[data-floors='true'] .item[data-category='floors'],
+[data-photos='true'] .item[data-category='photos'],
+[data-music='true'] .item[data-category='music'],
+[data-events='true'] .item[data-category='events'],
+[data-shoes='true'] .item[data-category='shoes'],
+[data-rugs='true'] .item[data-category='rugs'],
+[data-posters='true'] .item[data-category='posters'],
+[data-accessories='true'] .item[data-category='accessories'],
+[data-socks='true'] .item[data-category='socks'],
+[data-wallpaper='true'] .item[data-category='wallpaper'],
+[data-special='true'] .item[data-category='special'],
+[data-fencing='true'] .item[data-category='fencing'] {
   display: block;
 }
 
+// [data-category='everything'] .item-list .item {
+//   display: block !important;
+// }
+.count,
+.variant .name {
+  display: none;
+}

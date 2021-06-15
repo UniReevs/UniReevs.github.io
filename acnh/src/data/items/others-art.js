@@ -1,15 +1,13 @@
 others.art = [
   {
     "name": {
-      en: "academic painting",
-      jp: ""
+      "en": "academic painting",
+      "jp": "アカデミックなめいが"
     },
     "id": 12619,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -17,55 +15,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtVitruvianMan"
+        "isPattern": false,
+        "imageName": "FtrArtVitruvianMan"
       }
     ]
   },
   {
     "name": {
-      en: "academic painting",
-      jp: ""
+      "en": "academic painting",
+      "jp": "アカデミックなめいが"
     },
     "id": 12620,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtVitruvianManFake"
+        "isPattern": false,
+        "imageName": "FtrArtVitruvianManFake"
       }
     ]
   },
   {
     "name": {
-      en: "amazing painting",
-      jp: ""
+      "en": "amazing painting",
+      "jp": "すごいめいが"
     },
     "id": 56,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -73,55 +75,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtNightWatch"
+        "isPattern": false,
+        "imageName": "FtrArtNightWatch"
       }
     ]
   },
   {
     "name": {
-      en: "amazing painting",
-      jp: ""
+      "en": "amazing painting",
+      "jp": "すごいめいが"
     },
     "id": 55,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtNightWatchFake"
+        "isPattern": false,
+        "imageName": "FtrArtNightWatchFake"
       }
     ]
   },
   {
     "name": {
-      en: "ancient statue",
-      jp: ""
+      "en": "ancient statue",
+      "jp": "いにしえのちょうこく"
     },
     "id": 1337,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -129,55 +135,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureDoguu"
+        "isPattern": false,
+        "imageName": "FtrSculptureDoguu"
       }
     ]
   },
   {
     "name": {
-      en: "ancient statue",
-      jp: ""
+      "en": "ancient statue",
+      "jp": "いにしえのちょうこく"
     },
     "id": 1338,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureDoguuFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureDoguuFake"
       }
     ]
   },
   {
     "name": {
-      en: "basic painting",
-      jp: ""
+      "en": "basic painting",
+      "jp": "いさましいめいが"
     },
     "id": 14,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -185,55 +195,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtBlueBoy"
+        "isPattern": false,
+        "imageName": "FtrArtBlueBoy"
       }
     ]
   },
   {
     "name": {
-      en: "basic painting",
-      jp: ""
+      "en": "basic painting",
+      "jp": "いさましいめいが"
     },
     "id": 13,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtBlueBoyFake"
+        "isPattern": false,
+        "imageName": "FtrArtBlueBoyFake"
       }
     ]
   },
   {
     "name": {
-      en: "beautiful statue",
-      jp: ""
+      "en": "beautiful statue",
+      "jp": "うつくしいちょうこく"
     },
     "id": 1341,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -241,55 +255,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureMilo"
+        "isPattern": false,
+        "imageName": "FtrSculptureMilo"
       }
     ]
   },
   {
     "name": {
-      en: "beautiful statue",
-      jp: ""
+      "en": "beautiful statue",
+      "jp": "うつくしいちょうこく"
     },
     "id": 1342,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureMiloFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureMiloFake"
       }
     ]
   },
   {
     "name": {
-      en: "calm painting",
-      jp: ""
+      "en": "calm painting",
+      "jp": "おだやかなめいが"
     },
     "id": 78,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -297,27 +315,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtSundayOn"
+        "isPattern": false,
+        "imageName": "FtrArtSundayOn"
       }
     ]
   },
   {
     "name": {
-      en: "common painting",
-      jp: ""
+      "en": "common painting",
+      "jp": "よくみるめいが"
     },
     "id": 44,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -325,27 +345,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtGleaners"
+        "isPattern": false,
+        "imageName": "FtrArtGleaners"
       }
     ]
   },
   {
     "name": {
-      en: "detailed painting",
-      jp: ""
+      "en": "detailed painting",
+      "jp": "ちみつなめいが"
     },
     "id": 12622,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -353,55 +375,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtAjisaisoukeizu"
+        "isPattern": false,
+        "imageName": "FtrArtAjisaisoukeizu"
       }
     ]
   },
   {
     "name": {
-      en: "detailed painting",
-      jp: ""
+      "en": "detailed painting",
+      "jp": "ちみつなめいが"
     },
     "id": 12623,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtAjisaisoukeizuFake"
+        "isPattern": false,
+        "imageName": "FtrArtAjisaisoukeizuFake"
       }
     ]
   },
   {
     "name": {
-      en: "dynamic painting",
-      jp: ""
+      "en": "dynamic painting",
+      "jp": "いきなめいが"
     },
     "id": 38,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -409,27 +435,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtKanagawaOki"
+        "isPattern": false,
+        "imageName": "FtrArtKanagawaOki"
       }
     ]
   },
   {
     "name": {
-      en: "familiar statue",
-      jp: ""
+      "en": "familiar statue",
+      "jp": "なじみのあるちょうこく"
     },
     "id": 12541,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -437,27 +465,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureThinker"
+        "isPattern": false,
+        "imageName": "FtrSculptureThinker"
       }
     ]
   },
   {
     "name": {
-      en: "famous painting",
-      jp: ""
+      "en": "famous painting",
+      "jp": "ゆうめいなめいが"
     },
     "id": 18,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -465,55 +495,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtMonaLisa"
+        "isPattern": false,
+        "imageName": "FtrArtMonaLisa"
       }
     ]
   },
   {
     "name": {
-      en: "famous painting",
-      jp: ""
+      "en": "famous painting",
+      "jp": "ゆうめいなめいが"
     },
     "id": 17,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtMonaLisaFake"
+        "isPattern": false,
+        "imageName": "FtrArtMonaLisaFake"
       }
     ]
   },
   {
     "name": {
-      en: "flowery painting",
-      jp: ""
+      "en": "flowery painting",
+      "jp": "たぐいまれなるめいが"
     },
     "id": 50,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -521,27 +555,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtSunflower"
+        "isPattern": false,
+        "imageName": "FtrArtSunflower"
       }
     ]
   },
   {
     "name": {
-      en: "gallant statue",
-      jp: ""
+      "en": "gallant statue",
+      "jp": "りりしいちょうこく"
     },
     "id": 1333,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -549,55 +585,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureDavid"
+        "isPattern": false,
+        "imageName": "FtrSculptureDavid"
       }
     ]
   },
   {
     "name": {
-      en: "gallant statue",
-      jp: ""
+      "en": "gallant statue",
+      "jp": "りりしいちょうこく"
     },
     "id": 1334,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureDavidFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureDavidFake"
       }
     ]
   },
   {
     "name": {
-      en: "glowing painting",
-      jp: ""
+      "en": "glowing painting",
+      "jp": "ひかりのめいが"
     },
     "id": 12624,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -605,27 +645,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtFightingTemeraire"
+        "isPattern": false,
+        "imageName": "FtrArtFightingTemeraire"
       }
     ]
   },
   {
     "name": {
-      en: "graceful painting",
-      jp: ""
+      "en": "graceful painting",
+      "jp": "しなやかなめいが"
     },
     "id": 6,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -633,55 +675,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtMikaeri"
+        "isPattern": false,
+        "imageName": "FtrArtMikaeri"
       }
     ]
   },
   {
     "name": {
-      en: "graceful painting",
-      jp: ""
+      "en": "graceful painting",
+      "jp": "しなやかなめいが"
     },
     "id": 5,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtMikaeriFake"
+        "isPattern": false,
+        "imageName": "FtrArtMikaeriFake"
       }
     ]
   },
   {
     "name": {
-      en: "great statue",
-      jp: ""
+      "en": "great statue",
+      "jp": "いだいなちょうこく"
     },
     "id": 1339,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -689,27 +735,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureKamehameha"
+        "isPattern": false,
+        "imageName": "FtrSculptureKamehameha"
       }
     ]
   },
   {
     "name": {
-      en: "informative statue",
-      jp: ""
+      "en": "informative statue",
+      "jp": "てがかりのちょうこく"
     },
     "id": 12535,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -717,55 +765,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureRosettaStone"
+        "isPattern": false,
+        "imageName": "FtrSculptureRosettaStone"
       }
     ]
   },
   {
     "name": {
-      en: "informative statue",
-      jp: ""
+      "en": "informative statue",
+      "jp": "てがかりのちょうこく"
     },
     "id": 12536,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureRosettaStoneFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureRosettaStoneFake"
       }
     ]
   },
   {
     "name": {
-      en: "jolly painting",
-      jp: ""
+      "en": "jolly painting",
+      "jp": "おもしろいめいが"
     },
     "id": 42,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -773,55 +825,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtSummer"
+        "isPattern": false,
+        "imageName": "FtrArtSummer"
       }
     ]
   },
   {
     "name": {
-      en: "jolly painting",
-      jp: ""
+      "en": "jolly painting",
+      "jp": "おもしろいめいが"
     },
     "id": 41,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtSummerFake"
+        "isPattern": false,
+        "imageName": "FtrArtSummerFake"
       }
     ]
   },
   {
     "name": {
-      en: "moody painting",
-      jp: ""
+      "en": "moody painting",
+      "jp": "ちからづよいめいが"
     },
     "id": 52,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -829,27 +885,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtSlower"
+        "isPattern": false,
+        "imageName": "FtrArtSlower"
       }
     ]
   },
   {
     "name": {
-      en: "motherly statue",
-      jp: ""
+      "en": "motherly statue",
+      "jp": "ぼせいあふれるちょうこく"
     },
     "id": 1331,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -857,55 +915,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureCapitolini"
+        "isPattern": false,
+        "imageName": "FtrSculptureCapitolini"
       }
     ]
   },
   {
     "name": {
-      en: "motherly statue",
-      jp: ""
+      "en": "motherly statue",
+      "jp": "ぼせいあふれるちょうこく"
     },
     "id": 1332,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureCapitoliniFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureCapitoliniFake"
       }
     ]
   },
   {
     "name": {
-      en: "moving painting",
-      jp: ""
+      "en": "moving painting",
+      "jp": "きれいなめいが"
     },
     "id": 32,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -913,55 +975,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtBirthVenus"
+        "isPattern": false,
+        "imageName": "FtrArtBirthVenus"
       }
     ]
   },
   {
     "name": {
-      en: "moving painting",
-      jp: ""
+      "en": "moving painting",
+      "jp": "きれいなめいが"
     },
     "id": 31,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtBirthVenusFake"
+        "isPattern": false,
+        "imageName": "FtrArtBirthVenusFake"
       }
     ]
   },
   {
     "name": {
-      en: "mysterious painting",
-      jp: ""
+      "en": "mysterious painting",
+      "jp": "なぞめいためいが"
     },
     "id": 12625,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -969,27 +1035,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtIsleOfDead"
+        "isPattern": false,
+        "imageName": "FtrArtIsleOfDead"
       }
     ]
   },
   {
     "name": {
-      en: "mystic statue",
-      jp: ""
+      "en": "mystic statue",
+      "jp": "しんぴてきなちょうこく"
     },
     "id": 1343,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -997,55 +1065,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureNefertiti"
+        "isPattern": false,
+        "imageName": "FtrSculptureNefertiti"
       }
     ]
   },
   {
     "name": {
-      en: "mystic statue",
-      jp: ""
+      "en": "mystic statue",
+      "jp": "しんぴてきなちょうこく"
     },
     "id": 1344,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureNefertitiFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureNefertitiFake"
       }
     ]
   },
   {
     "name": {
-      en: "nice painting",
-      jp: ""
+      "en": "nice painting",
+      "jp": "いいめいが"
     },
     "id": 48,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1053,27 +1125,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtFifePlayer"
+        "isPattern": false,
+        "imageName": "FtrArtFifePlayer"
       }
     ]
   },
   {
     "name": {
-      en: "perfect painting",
-      jp: ""
+      "en": "perfect painting",
+      "jp": "すばらしいめいが"
     },
     "id": 20,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1081,27 +1155,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtAppleOrange"
+        "isPattern": false,
+        "imageName": "FtrArtAppleOrange"
       }
     ]
   },
   {
     "name": {
-      en: "proper painting",
-      jp: ""
+      "en": "proper painting",
+      "jp": "にぎやかなめいが"
     },
     "id": 46,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1109,27 +1185,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtBarFB"
+        "isPattern": false,
+        "imageName": "FtrArtBarFB"
       }
     ]
   },
   {
     "name": {
-      en: "quaint painting",
-      jp: ""
+      "en": "quaint painting",
+      "jp": "おちついためいが"
     },
     "id": 10,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1137,55 +1215,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtMilkmaid"
+        "isPattern": false,
+        "imageName": "FtrArtMilkmaid"
       }
     ]
   },
   {
     "name": {
-      en: "quaint painting",
-      jp: ""
+      "en": "quaint painting",
+      "jp": "おちついためいが"
     },
     "id": 9,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtMilkmaidFake"
+        "isPattern": false,
+        "imageName": "FtrArtMilkmaidFake"
       }
     ]
   },
   {
     "name": {
-      en: "robust statue",
-      jp: ""
+      "en": "robust statue",
+      "jp": "たくましいちょうこく"
     },
     "id": 1335,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -1193,55 +1275,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureDiskobolos"
+        "isPattern": false,
+        "imageName": "FtrSculptureDiskobolos"
       }
     ]
   },
   {
     "name": {
-      en: "robust statue",
-      jp: ""
+      "en": "robust statue",
+      "jp": "たくましいちょうこく"
     },
     "id": 1336,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureDiskobolosFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureDiskobolosFake"
       }
     ]
   },
   {
     "name": {
-      en: "rock-head statue",
-      jp: ""
+      "en": "rock-head statue",
+      "jp": "いしあたまなちょうこく"
     },
     "id": 12533,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -1249,55 +1335,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureOlmecaHead"
+        "isPattern": false,
+        "imageName": "FtrSculptureOlmecaHead"
       }
     ]
   },
   {
     "name": {
-      en: "rock-head statue",
-      jp: ""
+      "en": "rock-head statue",
+      "jp": "いしあたまなちょうこく"
     },
     "id": 12534,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureOlmecaHeadFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureOlmecaHeadFake"
       }
     ]
   },
   {
     "name": {
-      en: "scary painting",
-      jp: ""
+      "en": "scary painting",
+      "jp": "いなせなめいが"
     },
     "id": 66,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1305,55 +1395,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtOotaniOniji"
+        "isPattern": false,
+        "imageName": "FtrArtOotaniOniji"
       }
     ]
   },
   {
     "name": {
-      en: "scary painting",
-      jp: ""
+      "en": "scary painting",
+      "jp": "いなせなめいが"
     },
     "id": 65,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtOotaniOnijiFake"
+        "isPattern": false,
+        "imageName": "FtrArtOotaniOnijiFake"
       }
     ]
   },
   {
     "name": {
-      en: "scenic painting",
-      jp: ""
+      "en": "scenic painting",
+      "jp": "みごとなめいが"
     },
     "id": 2,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1361,55 +1455,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtHunterSnow"
+        "isPattern": false,
+        "imageName": "FtrArtHunterSnow"
       }
     ]
   },
   {
     "name": {
-      en: "scenic painting",
-      jp: ""
+      "en": "scenic painting",
+      "jp": "みごとなめいが"
     },
     "id": 12629,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtHunterSnowFake"
+        "isPattern": false,
+        "imageName": "FtrArtHunterSnowFake"
       }
     ]
   },
   {
     "name": {
-      en: "serene painting",
-      jp: ""
+      "en": "serene painting",
+      "jp": "たおやかなめいが"
     },
     "id": 24,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1417,55 +1515,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtPortraitCecilia"
+        "isPattern": false,
+        "imageName": "FtrArtPortraitCecilia"
       }
     ]
   },
   {
     "name": {
-      en: "serene painting",
-      jp: ""
+      "en": "serene painting",
+      "jp": "たおやかなめいが"
     },
     "id": 23,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtPortraitCeciliaFake"
+        "isPattern": false,
+        "imageName": "FtrArtPortraitCeciliaFake"
       }
     ]
   },
   {
     "name": {
-      en: "sinking painting",
-      jp: ""
+      "en": "sinking painting",
+      "jp": "しずみゆくめいが"
     },
     "id": 12621,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1473,27 +1575,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtOphelia"
+        "isPattern": false,
+        "imageName": "FtrArtOphelia"
       }
     ]
   },
   {
     "name": {
-      en: "solemn painting",
-      jp: ""
+      "en": "solemn painting",
+      "jp": "おごそかなめいが"
     },
     "id": 72,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1501,55 +1605,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtLasMeninas"
+        "isPattern": false,
+        "imageName": "FtrArtLasMeninas"
       }
     ]
   },
   {
     "name": {
-      en: "solemn painting",
-      jp: ""
+      "en": "solemn painting",
+      "jp": "おごそかなめいが"
     },
     "id": 71,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtLasMeninasFake"
+        "isPattern": false,
+        "imageName": "FtrArtLasMeninasFake"
       }
     ]
   },
   {
     "name": {
-      en: "tremendous statue",
-      jp: ""
+      "en": "tremendous statue",
+      "jp": "とてつもないちょうこく"
     },
     "id": 12537,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -1557,55 +1665,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureHoumuwuDing"
+        "isPattern": false,
+        "imageName": "FtrSculptureHoumuwuDing"
       }
     ]
   },
   {
     "name": {
-      en: "tremendous statue",
-      jp: ""
+      "en": "tremendous statue",
+      "jp": "とてつもないちょうこく"
     },
     "id": 12538,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureHoumuwuDingFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureHoumuwuDingFake"
       }
     ]
   },
   {
     "name": {
-      en: "twinkling painting",
-      jp: ""
+      "en": "twinkling painting",
+      "jp": "またたくめいが"
     },
     "id": 12618,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1613,27 +1725,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtStarryNight"
+        "isPattern": false,
+        "imageName": "FtrArtStarryNight"
       }
     ]
   },
   {
     "name": {
-      en: "valiant statue",
-      jp: ""
+      "en": "valiant statue",
+      "jp": "こうごうしいちょうこく"
     },
     "id": 1345,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -1641,55 +1755,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureSamothrace"
+        "isPattern": false,
+        "imageName": "FtrSculptureSamothrace"
       }
     ]
   },
   {
     "name": {
-      en: "valiant statue",
-      jp: ""
+      "en": "valiant statue",
+      "jp": "こうごうしいちょうこく"
     },
     "id": 1346,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureSamothraceFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureSamothraceFake"
       }
     ]
   },
   {
     "name": {
-      en: "warm painting",
-      jp: ""
+      "en": "warm painting",
+      "jp": "いいかんじのめいが"
     },
     "id": 34,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1697,27 +1815,29 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtClothedMaja"
+        "isPattern": false,
+        "imageName": "FtrArtClothedMaja"
       }
     ]
   },
   {
     "name": {
-      en: "warrior statue",
-      jp: ""
+      "en": "warrior statue",
+      "jp": "もののふのちょうこく"
     },
     "id": 12539,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
@@ -1725,55 +1845,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureHeibayo"
+        "isPattern": false,
+        "imageName": "FtrSculptureHeibayo"
       }
     ]
   },
   {
     "name": {
-      en: "warrior statue",
-      jp: ""
+      "en": "warrior statue",
+      "jp": "もののふのちょうこく"
     },
     "id": 12540,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Sculpture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrSculptureHeibayoFake"
+        "isPattern": false,
+        "imageName": "FtrSculptureHeibayoFake"
       }
     ]
   },
   {
     "name": {
-      en: "wild painting left half",
-      jp: ""
+      "en": "wild painting left half",
+      "jp": "あらぶるめいがのひだり"
     },
     "id": 12570,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1781,55 +1905,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtRaijin"
+        "isPattern": false,
+        "imageName": "FtrArtRaijin"
       }
     ]
   },
   {
     "name": {
-      en: "wild painting left half",
-      jp: ""
+      "en": "wild painting left half",
+      "jp": "あらぶるめいがのひだり"
     },
     "id": 12571,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtRaijinFake"
+        "isPattern": false,
+        "imageName": "FtrArtRaijinFake"
       }
     ]
   },
   {
     "name": {
-      en: "wild painting right half",
-      jp: ""
+      "en": "wild painting right half",
+      "jp": "あらぶるめいがのみぎ"
     },
     "id": 76,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1837,55 +1965,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtFuujin"
+        "isPattern": false,
+        "imageName": "FtrArtFuujin"
       }
     ]
   },
   {
     "name": {
-      en: "wild painting right half",
-      jp: ""
+      "en": "wild painting right half",
+      "jp": "あらぶるめいがのみぎ"
     },
     "id": 75,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtFuujinFake"
+        "isPattern": false,
+        "imageName": "FtrArtFuujinFake"
       }
     ]
   },
   {
     "name": {
-      en: "wistful painting",
-      jp: ""
+      "en": "wistful painting",
+      "jp": "すてきなめいが"
     },
     "id": 28,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1893,55 +2025,59 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtPearlEarring"
+        "isPattern": false,
+        "imageName": "FtrArtPearlEarring"
       }
     ]
   },
   {
     "name": {
-      en: "wistful painting",
-      jp: ""
+      "en": "wistful painting",
+      "jp": "すてきなめいが"
     },
     "id": 27,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
     "price": {
       "buy": 4980,
-      "sell": "NA"
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtPearlEarringFake"
+        "isPattern": false,
+        "imageName": "FtrArtPearlEarringFake"
       }
     ]
   },
   {
     "name": {
-      en: "worthy painting",
-      jp: ""
+      "en": "worthy painting",
+      "jp": "かちのあるめいが"
     },
     "id": 68,
-    "source": {
-      en: "Jolly Redd's Treasure Trawler",
-      jp: "Jolly Redd's Treasure Trawler"
-    },
+    "source": "Jolly Redd's Treasure Trawler",
     "map": 0,
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "art",
     "tag": "Picture",
@@ -1949,14 +2085,18 @@ others.art = [
       "buy": 4980,
       "sell": 1245
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
         "name": {
-          jp: ""
+          "jp": ""
         },
-        "fileName": "FtrArtLibertyLeading"
+        "isPattern": false,
+        "imageName": "FtrArtLibertyLeading"
       }
     ]
   }
-];
+]

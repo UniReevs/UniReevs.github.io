@@ -1,401 +1,401 @@
 translationNames.fishModels = [
   {
-    label: "FishToy_06929",
+    label: "6929",
     en: "crucian carp model",
     jp: "フナのもけい"
   },
   {
-    label: "FishToy_06930",
+    label: "6930",
     en: "goldfish model",
     jp: "キンギョのもけい"
   },
   {
-    label: "FishToy_06931",
+    label: "6931",
     en: "bitterling model",
     jp: "タナゴのもけい"
   },
   {
-    label: "FishToy_06932",
+    label: "6932",
     en: "horse mackerel model",
     jp: "アジのもけい"
   },
   {
-    label: "FishToy_06933",
+    label: "6933",
     en: "angelfish model",
     jp: "エンゼルフィッシュのもけい"
   },
   {
-    label: "FishToy_06935",
+    label: "6935",
     en: "arowana model",
     jp: "アロワナのもけい"
   },
   {
-    label: "FishToy_06936",
+    label: "6936",
     en: "sweetfish model",
     jp: "アユのもけい"
   },
   {
-    label: "FishToy_06937",
+    label: "6937",
     en: "betta model",
     jp: "ベタのもけい"
   },
   {
-    label: "FishToy_06938",
+    label: "6938",
     en: "black bass model",
     jp: "ブラックバスのもけい"
   },
   {
-    label: "FishToy_06939",
+    label: "6939",
     en: "bluegill model",
     jp: "ブルーギルのもけい"
   },
   {
-    label: "FishToy_06940",
+    label: "6940",
     en: "football fish model",
     jp: "チョウチンアンコウのもけい"
   },
   {
-    label: "FishToy_06941",
+    label: "6941",
     en: "butterfly fish model",
     jp: "チョウチョウウオのもけい"
   },
   {
-    label: "FishToy_06942",
+    label: "6942",
     en: "pop-eyed goldfish model",
     jp: "デメキンのもけい"
   },
   {
-    label: "FishToy_06943",
+    label: "6943",
     en: "barreleye model",
     jp: "デメニギスのもけい"
   },
   {
-    label: "FishToy_06944",
+    label: "6944",
     en: "loach model",
     jp: "ドジョウのもけい"
   },
   {
-    label: "FishToy_06945",
+    label: "6945",
     en: "nibble fish model",
     jp: "ドクターフィッシュのもけい"
   },
   {
-    label: "FishToy_06946",
+    label: "6946",
     en: "freshwater goby model",
     jp: "ドンコのもけい"
   },
   {
-    label: "FishToy_06949",
+    label: "6949",
     en: "ray model",
     jp: "エイのもけい"
   },
   {
-    label: "FishToy_06950",
+    label: "6950",
     en: "saddled bichir model",
     jp: "エンドリケリーのもけい"
   },
   {
-    label: "FishToy_06951",
+    label: "6951",
     en: "blowfish model",
     jp: "フグのもけい"
   },
   {
-    label: "FishToy_06952",
+    label: "6952",
     en: "gar model",
     jp: "ガーのもけい"
   },
   {
-    label: "FishToy_06953",
+    label: "6953",
     en: "golden trout model",
     jp: "ゴールデントラウトのもけい"
   },
   {
-    label: "FishToy_06954",
+    label: "6954",
     en: "guppy model",
     jp: "グッピーのもけい"
   },
   {
-    label: "FishToy_06955",
+    label: "6955",
     en: "ribbon eel model",
     jp: "ハナヒゲウツボのもけい"
   },
   {
-    label: "FishToy_06956",
+    label: "6956",
     en: "puffer fish model",
     jp: "ハリセンボンのもけい"
   },
   {
-    label: "FishToy_06957",
+    label: "6957",
     en: "olive flounder model",
     jp: "ヒラメのもけい"
   },
   {
-    label: "FishToy_06958",
+    label: "6958",
     en: "squid model",
     jp: "イカのもけい"
   },
   {
-    label: "FishToy_06959",
+    label: "6959",
     en: "barred knifejaw model",
     jp: "イシダイのもけい"
   },
   {
-    label: "FishToy_06960",
+    label: "6960",
     en: "stringfish model",
     jp: "イトウのもけい"
   },
   {
-    label: "FishToy_06961",
+    label: "6961",
     en: "whale shark model",
     jp: "ジンベエザメのもけい"
   },
   {
-    label: "FishToy_06962",
+    label: "6962",
     en: "frog model",
     jp: "カエルのもけい"
   },
   {
-    label: "FishToy_06963",
+    label: "6963",
     en: "blue marlin model",
     jp: "カジキのもけい"
   },
   {
-    label: "FishToy_06964",
+    label: "6964",
     en: "snapping turtle model",
     jp: "カミツキガメのもけい"
   },
   {
-    label: "FishToy_06965",
+    label: "6965",
     en: "dab model",
     jp: "カレイのもけい"
   },
   {
-    label: "FishToy_06978",
+    label: "6978",
     en: "king salmon model",
     jp: "キングサーモンのもけい"
   },
   {
-    label: "FishToy_06979",
+    label: "6979",
     en: "suckerfish model",
     jp: "コバンザメのもけい"
   },
   {
-    label: "FishToy_06980",
+    label: "6980",
     en: "carp model",
     jp: "コイのもけい"
   },
   {
-    label: "FishToy_06981",
+    label: "6981",
     en: "clown fish model",
     jp: "クマノミのもけい"
   },
   {
-    label: "FishToy_06982",
+    label: "6982",
     en: "sea butterfly model",
     jp: "クリオネのもけい"
   },
   {
-    label: "FishToy_06983",
+    label: "6983",
     en: "tuna model",
     jp: "マグロのもけい"
   },
   {
-    label: "FishToy_06984",
+    label: "6984",
     en: "ocean sunfish model",
     jp: "マンボウのもけい"
   },
   {
-    label: "FishToy_06985",
+    label: "6985",
     en: "killifish model",
     jp: "メダカのもけい"
   },
   {
-    label: "FishToy_06987",
+    label: "6987",
     en: "catfish model",
     jp: "ナマズのもけい"
   },
   {
-    label: "FishToy_06988",
+    label: "6988",
     en: "surgeonfish model",
     jp: "ナンヨウハギのもけい"
   },
   {
-    label: "FishToy_06989",
+    label: "6989",
     en: "Napoleonfish model",
     jp: "ナポレオンフィッシュのもけい"
   },
   {
-    label: "FishToy_06990",
+    label: "6990",
     en: "neon tetra model",
     jp: "ネオンテトラのもけい"
   },
   {
-    label: "FishToy_06991",
+    label: "6991",
     en: "koi model",
     jp: "ニシキゴイのもけい"
   },
   {
-    label: "FishToy_06999",
+    label: "6999",
     en: "anchovy model",
     jp: "アンチョビのもけい"
   },
   {
-    label: "FishToy_07000",
+    label: "7000",
     en: "pale chub model",
     jp: "オイカワのもけい"
   },
   {
-    label: "FishToy_07001",
+    label: "7001",
     en: "tadpole model",
     jp: "オタマジャクシのもけい"
   },
   {
-    label: "FishToy_07002",
+    label: "7002",
     en: "saw shark model",
     jp: "ノコギリザメのもけい"
   },
   {
-    label: "FishToy_07003",
+    label: "7003",
     en: "char model",
     jp: "オオイワナのもけい"
   },
   {
-    label: "FishToy_07004",
+    label: "7004",
     en: "pike model",
     jp: "パイクのもけい"
   },
   {
-    label: "FishToy_07005",
+    label: "7005",
     en: "piranha model",
     jp: "ピラニアのもけい"
   },
   {
-    label: "FishToy_07006",
+    label: "7006",
     en: "arapaima model",
     jp: "ピラルクのもけい"
   },
   {
-    label: "FishToy_07007",
+    label: "7007",
     en: "giant snakehead model",
     jp: "ライギョのもけい"
   },
   {
-    label: "FishToy_07008",
+    label: "7008",
     en: "rainbowfish model",
     jp: "レインボーフィッシュのもけい"
   },
   {
-    label: "FishToy_07009",
+    label: "7009",
     en: "ranchu goldfish model",
     jp: "ランチュウのもけい"
   },
   {
-    label: "FishToy_07010",
+    label: "7010",
     en: "giant trevally model",
     jp: "ロウニンアジのもけい"
   },
   {
-    label: "FishToy_07011",
+    label: "7011",
     en: "oarfish model",
     jp: "リュウグウノツカイのもけい"
   },
   {
-    label: "FishToy_07012",
+    label: "7012",
     en: "salmon model",
     jp: "サケのもけい"
   },
   {
-    label: "FishToy_07013",
+    label: "7013",
     en: "great white shark model",
     jp: "サメのもけい"
   },
   {
-    label: "FishToy_07014",
+    label: "7014",
     en: "mahi-mahi model",
     jp: "シイラのもけい"
   },
   {
-    label: "FishToy_07015",
+    label: "7015",
     en: "hammerhead shark model",
     jp: "シュモクザメのもけい"
   },
   {
-    label: "FishToy_07016",
+    label: "7016",
     en: "coelacanth model",
     jp: "シーラカンスのもけい"
   },
   {
-    label: "FishToy_07017",
+    label: "7017",
     en: "soft-shelled turtle model",
     jp: "スッポンのもけい"
   },
   {
-    label: "FishToy_07018",
+    label: "7018",
     en: "sea bass model",
     jp: "スズキのもけい"
   },
   {
-    label: "FishToy_07019",
+    label: "7019",
     en: "mitten crab model",
     jp: "シャンハイガニのもけい"
   },
   {
-    label: "FishToy_07020",
+    label: "7020",
     en: "red snapper model",
     jp: "タイのもけい"
   },
   {
-    label: "FishToy_07021",
+    label: "7021",
     en: "sea horse model",
     jp: "タツノオトシゴのもけい"
   },
   {
-    label: "FishToy_07022",
+    label: "7022",
     en: "tilapia model",
     jp: "ティラピアのもけい"
   },
   {
-    label: "FishToy_07023",
+    label: "7023",
     en: "sturgeon model",
     jp: "チョウザメのもけい"
   },
   {
-    label: "FishToy_07024",
+    label: "7024",
     en: "dace model",
     jp: "ウグイのもけい"
   },
   {
-    label: "FishToy_07025",
+    label: "7025",
     en: "moray eel model",
     jp: "ウツボのもけい"
   },
   {
-    label: "FishToy_07026",
+    label: "7026",
     en: "pond smelt model",
     jp: "ワカサギのもけい"
   },
   {
-    label: "FishToy_07027",
+    label: "7027",
     en: "cherry salmon model",
     jp: "ヤマメのもけい"
   },
   {
-    label: "FishToy_07028",
+    label: "7028",
     en: "yellow perch model",
     jp: "イエローパーチのもけい"
   },
   {
-    label: "FishToy_07029",
+    label: "7029",
     en: "crawfish model",
     jp: "ザリガニのもけい"
   },
   {
-    label: "FishToy_07836",
+    label: "7836",
     en: "zebra turkeyfish model",
     jp: "ミノカサゴのもけい"
   },
   {
-    label: "FishToy_07837",
+    label: "7837",
     en: "dorado model",
     jp: "ドラドのもけい"
   }
@@ -403,402 +403,402 @@ translationNames.fishModels = [
 
 translationNames.insectModels = [
   {
-    label: "InsectToy_05922",
+    label: "5922",
     en: "saw stag model",
     jp: "ノコギリクワガタのもけい"
   },
   {
-    label: "InsectToy_05924",
+    label: "5924",
     en: "grand h. hercules model",
     jp: "おおいなるカブトのもけい"
   },
   {
-    label: "InsectToy_05927",
+    label: "5927",
     en: "wasp model",
     jp: "ハチのもけい"
   },
   {
-    label: "InsectToy_05928",
+    label: "5928",
     en: "honeybee model",
     jp: "ミツバチのもけい"
   },
   {
-    label: "InsectToy_05929",
+    label: "5929",
     en: "scarab beetle model",
     jp: "プラチナコガネのもけい"
   },
   {
-    label: "InsectToy_05935",
+    label: "5935",
     en: "flea model",
     jp: "ノミのもけい"
   },
   {
-    label: "InsectToy_05936",
+    label: "5936",
     en: "mosquito model",
     jp: "カのもけい"
   },
   {
-    label: "InsectToy_05938",
+    label: "5938",
     en: "horned dynastid model",
     jp: "カブトムシのもけい"
   },
   {
-    label: "InsectToy_05944",
+    label: "5944",
     en: "tiger butterfly model",
     jp: "アゲハチョウのもけい"
   },
   {
-    label: "InsectToy_07046",
+    label: "7046",
     en: "brown cicada model",
     jp: "アブラゼミのもけい"
   },
   {
-    label: "InsectToy_07049",
+    label: "7049",
     en: "R. Brooke's birdwing model",
     jp: "アカエリトリバネアゲハのもけい"
   },
   {
-    label: "InsectToy_07050",
+    label: "7050",
     en: "red dragonfly model",
     jp: "アキアカネのもけい"
   },
   {
-    label: "InsectToy_07051",
+    label: "7051",
     en: "grand Q. A. birdwing model",
     jp: "おおいなるチョウのもけい"
   },
   {
-    label: "InsectToy_07052",
+    label: "7052",
     en: "pondskater model",
     jp: "アメンボのもけい"
   },
   {
-    label: "InsectToy_07053",
+    label: "7053",
     en: "ant model",
     jp: "アリのもけい"
   },
   {
-    label: "InsectToy_07054",
+    label: "7054",
     en: "pill bug model",
     jp: "ダンゴムシのもけい"
   },
   {
-    label: "InsectToy_07055",
+    label: "7055",
     en: "wharf roach model",
     jp: "フナムシのもけい"
   },
   {
-    label: "InsectToy_07056",
+    label: "7056",
     en: "moth model",
     jp: "ガのもけい"
   },
   {
-    label: "InsectToy_07057",
+    label: "7057",
     en: "diving beetle model",
     jp: "ゲンゴロウのもけい"
   },
   {
-    label: "InsectToy_07058",
+    label: "7058",
     en: "darner dragonfly model",
     jp: "ギンヤンマのもけい"
   },
   {
-    label: "InsectToy_07059",
+    label: "7059",
     en: "grand goliath beetle model",
     jp: "おおいなるハナムグリのもけい"
   },
   {
-    label: "InsectToy_07060",
+    label: "7060",
     en: "fly model",
     jp: "ハエのもけい"
   },
   {
-    label: "InsectToy_07061",
+    label: "7061",
     en: "orchid mantis model",
     jp: "ハナカマキリのもけい"
   },
   {
-    label: "InsectToy_07062",
+    label: "7062",
     en: "tiger beetle model",
     jp: "ハンミョウのもけい"
   },
   {
-    label: "InsectToy_07063",
+    label: "7063",
     en: "evening cicada model",
     jp: "ヒグラシのもけい"
   },
   {
-    label: "InsectToy_07064",
+    label: "7064",
     en: "cyclommatus stag model",
     jp: "ホソアカクワガタのもけい"
   },
   {
-    label: "InsectToy_07065",
+    label: "7065",
     en: "firefly model",
     jp: "ホタルのもけい"
   },
   {
-    label: "InsectToy_07066",
+    label: "7066",
     en: "dung beetle model",
     jp: "フンコロガシのもけい"
   },
   {
-    label: "InsectToy_07067",
+    label: "7067",
     en: "rice grasshopper model",
     jp: "イナゴのもけい"
   },
   {
-    label: "InsectToy_07068",
+    label: "7068",
     en: "mantis model",
     jp: "カマキリのもけい"
   },
   {
-    label: "InsectToy_07069",
+    label: "7069",
     en: "stinkbug model",
     jp: "カメムシのもけい"
   },
   {
-    label: "InsectToy_07070",
+    label: "7070",
     en: "citrus long-horned b. model",
     jp: "ゴマダラカミキリのもけい"
   },
   {
-    label: "InsectToy_07071",
+    label: "7071",
     en: "peacock butterfly model",
     jp: "カラスアゲハのもけい"
   },
   {
-    label: "InsectToy_07072",
+    label: "7072",
     en: "snail model",
     jp: "カタツムリのもけい"
   },
   {
-    label: "InsectToy_07073",
+    label: "7073",
     en: "grasshopper model",
     jp: "キリギリスのもけい"
   },
   {
-    label: "InsectToy_07074",
+    label: "7074",
     en: "earth-boring dung b. model",
     jp: "オオセンチコガネのもけい"
   },
   {
-    label: "InsectToy_07075",
+    label: "7075",
     en: "horned atlas model",
     jp: "コーカサスオオカブトのもけい"
   },
   {
-    label: "InsectToy_07076",
+    label: "7076",
     en: "walking leaf model",
     jp: "コノハムシのもけい"
   },
   {
-    label: "InsectToy_07077",
+    label: "7077",
     en: "cricket model",
     jp: "コオロギのもけい"
   },
   {
-    label: "InsectToy_07078",
+    label: "7078",
     en: "giant cicada model",
     jp: "クマゼミのもけい"
   },
   {
-    label: "InsectToy_07079",
+    label: "7079",
     en: "spider model",
     jp: "クモのもけい"
   },
   {
-    label: "InsectToy_07080",
+    label: "7080",
     en: "agrias butterfly model",
     jp: "ミイロタテハのもけい"
   },
   {
-    label: "InsectToy_07081",
+    label: "7081",
     en: "robust cicada model",
     jp: "ミンミンゼミのもけい"
   },
   {
-    label: "InsectToy_07082",
+    label: "7082",
     en: "bagworm model",
     jp: "ミノムシのもけい"
   },
   {
-    label: "InsectToy_07083",
+    label: "7083",
     en: "miyama stag model",
     jp: "ミヤマクワガタのもけい"
   },
   {
-    label: "InsectToy_07084",
+    label: "7084",
     en: "yellow butterfly model",
     jp: "モンキチョウのもけい"
   },
   {
-    label: "InsectToy_07085",
+    label: "7085",
     en: "common butterfly model",
     jp: "モンシロチョウのもけい"
   },
   {
-    label: "InsectToy_07086",
+    label: "7086",
     en: "emperor butterfly model",
     jp: "モルフォチョウのもけい"
   },
   {
-    label: "InsectToy_07087",
+    label: "7087",
     en: "walking stick model",
     jp: "ナナフシのもけい"
   },
   {
-    label: "InsectToy_07088",
+    label: "7088",
     en: "rainbow stag model",
     jp: "ニジイロクワガタのもけい"
   },
   {
-    label: "InsectToy_07089",
+    label: "7089",
     en: "mole cricket model",
     jp: "オケラのもけい"
   },
   {
-    label: "InsectToy_07090",
+    label: "7090",
     en: "grand b. dragonfly model",
     jp: "おおいなるトンボのもけい"
   },
   {
-    label: "InsectToy_07091",
+    label: "7091",
     en: "monarch butterfly model",
     jp: "オオカバマダラのもけい"
   },
   {
-    label: "InsectToy_07092",
+    label: "7092",
     en: "giant stag model",
     jp: "オオクワガタのもけい"
   },
   {
-    label: "InsectToy_07093",
+    label: "7093",
     en: "golden stag model",
     jp: "オウゴンオニクワガタのもけい"
   },
   {
-    label: "InsectToy_07094",
+    label: "7094",
     en: "scorpion model",
     jp: "サソリのもけい"
   },
   {
-    label: "InsectToy_07095",
+    label: "7095",
     en: "cicada shell model",
     jp: "セミのぬけがらのもけい"
   },
   {
-    label: "InsectToy_07096",
+    label: "7096",
     en: "bell cricket model",
     jp: "スズムシのもけい"
   },
   {
-    label: "InsectToy_07097",
+    label: "7097",
     en: "long locust model",
     jp: "ショウリョウバッタのもけい"
   },
   {
-    label: "InsectToy_07099",
+    label: "7099",
     en: "jewel beetle model",
     jp: "タマムシのもけい"
   },
   {
-    label: "InsectToy_07101",
+    label: "7101",
     en: "tarantula model",
     jp: "タランチュラのもけい"
   },
   {
-    label: "InsectToy_07102",
+    label: "7102",
     en: "ladybug model",
     jp: "テントウムシのもけい"
   },
   {
-    label: "InsectToy_07103",
+    label: "7103",
     en: "migratory locust model",
     jp: "トノサマバッタのもけい"
   },
   {
-    label: "InsectToy_07104",
+    label: "7104",
     en: "walker cicada model",
     jp: "ツクツクホウシのもけい"
   },
   {
-    label: "InsectToy_07105",
+    label: "7105",
     en: "violin beetle model",
     jp: "バイオリンムシのもけい"
   },
   {
-    label: "InsectToy_07108",
+    label: "7108",
     en: "hermit crab model",
     jp: "ヤドカリのもけい"
   },
   {
-    label: "InsectToy_07109",
+    label: "7109",
     en: "grand Atlas moth model",
     jp: "おおいなるガのもけい"
   },
   {
-    label: "InsectToy_07110",
+    label: "7110",
     en: "horned elephant model",
     jp: "ゾウカブトのもけい"
   },
   {
-    label: "InsectToy_07111",
+    label: "7111",
     en: "common bluebottle model",
     jp: "アオスジアゲハのもけい"
   },
   {
-    label: "InsectToy_07112",
+    label: "7112",
     en: "paper kite butterfly model",
     jp: "オオゴマダラのもけい"
   },
   {
-    label: "InsectToy_07113",
+    label: "7113",
     en: "great purple emperor model",
     jp: "オオムラサキのもけい"
   },
   {
-    label: "InsectToy_07114",
+    label: "7114",
     en: "drone beetle model",
     jp: "カナブンのもけい"
   },
   {
-    label: "InsectToy_07115",
+    label: "7115",
     en: "grand giraffe stag model",
     jp: "おおいなるクワガタのもけい"
   },
   {
-    label: "InsectToy_07116",
+    label: "7116",
     en: "man-faced stink bug model",
     jp: "ジンメンカメムシのもけい"
   },
   {
-    label: "InsectToy_07117",
+    label: "7117",
     en: "M. sunset moth model",
     jp: "ニシキオオツバメガのもけい"
   },
   {
-    label: "InsectToy_07118",
+    label: "7118",
     en: "blue weevil beetle model",
     jp: "ホウセキゾウムシのもけい"
   },
   {
-    label: "InsectToy_07119",
+    label: "7119",
     en: "rosalia batesi beetle model",
     jp: "ルリボシカミキリのもけい"
   },
   {
-    label: "InsectToy_07120",
+    label: "7120",
     en: "giant water bug model",
     jp: "タガメのもけい"
   },
   {
-    label: "InsectToy_07121",
+    label: "7121",
     en: "damselfly model",
     jp: "イトトンボのもけい"
   },
   {
-    label: "InsectToy_07407",
+    label: "7407",
     en: "centipede model",
     jp: "ムカデのもけい"
   }

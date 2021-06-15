@@ -1,21978 +1,24288 @@
 items.misc = [
   {
     "name": {
-      en: "1-Up Mushroom",
-      jp: ""
+      "en": "1-Up Mushroom",
+      "jp": "1UPキノコ"
     },
     "id": 13828,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Mario",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMarioRoundB"
+        "isPattern": false,
+        "imageName": "FtrMarioRoundB"
       }
     ]
   },
   {
     "name": {
-      en: "accessories stand",
-      jp: ""
+      "en": "accessories stand",
+      "jp": "アクセサリースタンド"
     },
     "id": 3948,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Beauty",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrJewelrystand_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrJewelrystand_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrJewelrystand_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrJewelrystand_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrJewelrystand_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrJewelrystand_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrJewelrystand_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrJewelrystand_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrJewelrystand_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrJewelrystand_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "ACNH Nintendo Switch",
-      jp: ""
+      "en": "ACNH Nintendo Switch",
+      "jp": "どうぶつのもりのSwitch"
     },
     "id": 12579,
-    "source": {
-      en: "Nintendo; Nook Shopping Daily Selection",
-      jp: "Nintendo; Nook Shopping Daily Selection"
-    },
+    "source": "Nintendo; Nook Shopping Daily Selection",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.1.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Game Console",
     "price": {
       "buy": 35960,
       "sell": 8990
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSwitchAC"
+        "isPattern": false,
+        "imageName": "FtrSwitchAC"
       }
     ]
   },
   {
     "name": {
-      en: "agrias butterfly model",
-      jp: ""
+      "en": "agrias butterfly model",
+      "jp": "ミイロタテハのもけい"
     },
     "id": 7080,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 9000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMiirotatehaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMiirotatehaToy"
       }
     ]
   },
   {
     "name": {
-      en: "aloha-edition carrying case",
-      jp: ""
+      "en": "aloha-edition carrying case",
+      "jp": "たぬきアロハSwitchケース"
     },
     "id": 14298,
-    "source": {
-      en: "NookLink",
-      jp: "NookLink"
-    },
+    "source": "NookLink",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Game Console",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 620
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSwitchcaseAC"
+        "isPattern": false,
+        "imageName": "FtrSwitchcaseAC"
       }
     ]
   },
   {
     "name": {
-      en: "aluminum briefcase",
-      jp: ""
+      "en": "aluminum briefcase",
+      "jp": "ジュラルミンケース"
     },
     "id": 7453,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Office",
     "price": {
       "buy": 100000,
       "sell": 25000
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Stacks of cash",
-          jp: ""
+          "en": "Stacks of cash",
+          "jp": "札束"
         },
-        "fileName": "FtrDuralumincase_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDuralumincase_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gold bars",
-          jp: ""
+          "en": "Gold bars",
+          "jp": "金塊"
         },
-        "fileName": "FtrDuralumincase_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDuralumincase_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "amp",
-      jp: ""
+      "en": "amp",
+      "jp": "アンプ"
     },
     "id": 849,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Musical Instrument",
     "price": {
       "buy": 5100,
       "sell": 1275
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrAmp_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrAmp_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrAmp_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrAmp_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrAmp_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrAmp_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrAmp_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrAmp_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrAmp_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrAmp_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrAmp_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrAmp_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrAmp_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrAmp_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "analog kitchen scale",
-      jp: ""
+      "en": "analog kitchen scale",
+      "jp": "キッチンスケール"
     },
     "id": 3993,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1100,
       "sell": 275
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrWeighing_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWeighing_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrWeighing_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWeighing_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrWeighing_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrWeighing_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrWeighing_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrWeighing_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrWeighing_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrWeighing_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Ivory",
-          jp: ""
+          "en": "Ivory",
+          "jp": "アイボリー"
         },
-        "fileName": "FtrWeighing_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrWeighing_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrWeighing_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrWeighing_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrWeighing_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrWeighing_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "anchovy model",
-      jp: ""
+      "en": "anchovy model",
+      "jp": "アンチョビのもけい"
     },
     "id": 6999,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishAntyobiToy"
+        "isPattern": false,
+        "imageName": "FtrFishAntyobiToy"
       }
     ]
   },
   {
     "name": {
-      en: "angelfish model",
-      jp: ""
+      "en": "angelfish model",
+      "jp": "エンゼルフィッシュのもけい"
     },
     "id": 6933,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 9000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishAngelfishToy"
+        "isPattern": false,
+        "imageName": "FtrFishAngelfishToy"
       }
     ]
   },
   {
     "name": {
-      en: "ant farm",
-      jp: ""
+      "en": "ant farm",
+      "jp": "アントファーム"
     },
     "id": 11866,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Special Insect",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectAriFarm"
+        "isPattern": false,
+        "imageName": "FtrInsectAriFarm"
       }
     ]
   },
   {
     "name": {
-      en: "ant model",
-      jp: ""
+      "en": "ant model",
+      "jp": "アリのもけい"
     },
     "id": 7053,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 240
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectAriToy"
+        "isPattern": false,
+        "imageName": "FtrInsectAriToy"
       }
     ]
   },
   {
     "name": {
-      en: "anthurium plant",
-      jp: ""
+      "en": "anthurium plant",
+      "jp": "アンスリウム"
     },
     "id": 3949,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Plants",
     "price": {
       "buy": 990,
       "sell": 247
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPlantAnthurium_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPlantAnthurium_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrPlantAnthurium_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPlantAnthurium_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrPlantAnthurium_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPlantAnthurium_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPlantAnthurium_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPlantAnthurium_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrPlantAnthurium_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPlantAnthurium_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "arapaima model",
-      jp: ""
+      "en": "arapaima model",
+      "jp": "ピラルクのもけい"
     },
     "id": 7006,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishPirarukuToy"
+        "isPattern": false,
+        "imageName": "FtrFishPirarukuToy"
       }
     ]
   },
   {
     "name": {
-      en: "aroma pot",
-      jp: ""
+      "en": "aroma pot",
+      "jp": "アロマポット"
     },
     "id": 1753,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Beauty",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrAlomapot_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrAlomapot_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrAlomapot_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrAlomapot_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrAlomapot_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrAlomapot_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrAlomapot_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrAlomapot_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrAlomapot_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrAlomapot_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrAlomapot_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrAlomapot_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "arowana model",
-      jp: ""
+      "en": "arowana model",
+      "jp": "アロワナのもけい"
     },
     "id": 6935,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishArowanaToy"
+        "isPattern": false,
+        "imageName": "FtrFishArowanaToy"
       }
     ]
   },
   {
     "name": {
-      en: "Baby bear",
-      jp: ""
+      "en": "Baby bear",
+      "jp": "くまのチビちゃん"
     },
     "id": 1501,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Star",
+    "diy": false,
     "tag": "Animal",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 24,
+    "count": {
+      "variants": 6,
+      "patterns": 18
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrBearS_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBearS_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrBearS_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrBearS_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrBearS_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_0_3"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Caramel mocha",
-          jp: ""
+          "en": "Caramel mocha",
+          "jp": "キャラメル・モカ"
         },
-        "fileName": "FtrBearS_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBearS_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Caramel mocha",
-          jp: ""
+          "en": "Caramel mocha",
+          "jp": "キャラメル・モカ"
         },
-        "fileName": "FtrBearS_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Caramel mocha",
-          jp: ""
+          "en": "Caramel mocha",
+          "jp": "キャラメル・モカ"
         },
-        "fileName": "FtrBearS_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Caramel mocha",
-          jp: ""
+          "en": "Caramel mocha",
+          "jp": "キャラメル・モカ"
         },
-        "fileName": "FtrBearS_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_1_3"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Choco",
-          jp: ""
+          "en": "Choco",
+          "jp": "チョコ"
         },
-        "fileName": "FtrBearS_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBearS_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Choco",
-          jp: ""
+          "en": "Choco",
+          "jp": "チョコ"
         },
-        "fileName": "FtrBearS_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Choco",
-          jp: ""
+          "en": "Choco",
+          "jp": "チョコ"
         },
-        "fileName": "FtrBearS_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Choco",
-          jp: ""
+          "en": "Choco",
+          "jp": "チョコ"
         },
-        "fileName": "FtrBearS_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_2_3"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "フラワー"
         },
-        "fileName": "FtrBearS_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBearS_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "フラワー"
         },
-        "fileName": "FtrBearS_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "フラワー"
         },
-        "fileName": "FtrBearS_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "フラワー"
         },
-        "fileName": "FtrBearS_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_3_3"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Checkered",
-          jp: ""
+          "en": "Checkered",
+          "jp": "チェック"
         },
-        "fileName": "FtrBearS_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBearS_Remake_4_0"
       },
       {
         "id": "4_1",
         "name": {
-          en: "Checkered",
-          jp: ""
+          "en": "Checkered",
+          "jp": "チェック"
         },
-        "fileName": "FtrBearS_Remake_4_1"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_4_1"
       },
       {
         "id": "4_2",
         "name": {
-          en: "Checkered",
-          jp: ""
+          "en": "Checkered",
+          "jp": "チェック"
         },
-        "fileName": "FtrBearS_Remake_4_2"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_4_2"
       },
       {
         "id": "4_3",
         "name": {
-          en: "Checkered",
-          jp: ""
+          "en": "Checkered",
+          "jp": "チェック"
         },
-        "fileName": "FtrBearS_Remake_4_3"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_4_3"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Tweed",
-          jp: ""
+          "en": "Tweed",
+          "jp": "ツイード"
         },
-        "fileName": "FtrBearS_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrBearS_Remake_5_0"
       },
       {
         "id": "5_1",
         "name": {
-          en: "Tweed",
-          jp: ""
+          "en": "Tweed",
+          "jp": "ツイード"
         },
-        "fileName": "FtrBearS_Remake_5_1"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_5_1"
       },
       {
         "id": "5_2",
         "name": {
-          en: "Tweed",
-          jp: ""
+          "en": "Tweed",
+          "jp": "ツイード"
         },
-        "fileName": "FtrBearS_Remake_5_2"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_5_2"
       },
       {
         "id": "5_3",
         "name": {
-          en: "Tweed",
-          jp: ""
+          "en": "Tweed",
+          "jp": "ツイード"
         },
-        "fileName": "FtrBearS_Remake_5_3"
+        "isPattern": true,
+        "imageName": "FtrBearS_Remake_5_3"
       }
     ]
   },
   {
     "name": {
-      en: "Baby panda",
-      jp: ""
+      "en": "Baby panda",
+      "jp": "パンダのシャオシャオ"
     },
     "id": 9698,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Animal",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrPandaS"
+        "isPattern": false,
+        "imageName": "FtrPandaS"
       }
     ]
   },
   {
     "name": {
-      en: "bagworm model",
-      jp: ""
+      "en": "bagworm model",
+      "jp": "ミノムシのもけい"
     },
     "id": 7082,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMinomushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMinomushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "ball",
-      jp: ""
+      "en": "ball",
+      "jp": "ボール"
     },
     "id": 2010,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Sports",
     "price": {
       "buy": 520,
       "sell": 130
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Basketball",
-          jp: ""
+          "en": "Basketball",
+          "jp": "バスケットボール"
         },
-        "fileName": "FtrBall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Soccer ball",
-          jp: ""
+          "en": "Soccer ball",
+          "jp": "サッカーボール"
         },
-        "fileName": "FtrBall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Volleyball",
-          jp: ""
+          "en": "Volleyball",
+          "jp": "バレーボール"
         },
-        "fileName": "FtrBall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBall_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Dodgeball",
-          jp: ""
+          "en": "Dodgeball",
+          "jp": "ドッジボール"
         },
-        "fileName": "FtrBall_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBall_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "bamboo candleholder",
-      jp: ""
+      "en": "bamboo candleholder",
+      "jp": "たけのキャンドルホルダー"
     },
     "id": 3554,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 880
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green bamboo",
-          jp: ""
+          "en": "Green bamboo",
+          "jp": "青竹"
         },
-        "fileName": "FtrBambooCandle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBambooCandle_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dried bamboo",
-          jp: ""
+          "en": "Dried bamboo",
+          "jp": "枯竹"
         },
-        "fileName": "FtrBambooCandle_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBambooCandle_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Smoke-cured bamboo",
-          jp: ""
+          "en": "Smoke-cured bamboo",
+          "jp": "煤竹"
         },
-        "fileName": "FtrBambooCandle_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBambooCandle_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "bamboo drum",
-      jp: ""
+      "en": "bamboo drum",
+      "jp": "バンブードラム"
     },
     "id": 4093,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Musical Instrument",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green bamboo",
-          jp: ""
+          "en": "Green bamboo",
+          "jp": "青竹"
         },
-        "fileName": "FtrBamboodrum_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBamboodrum_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dried bamboo",
-          jp: ""
+          "en": "Dried bamboo",
+          "jp": "枯竹"
         },
-        "fileName": "FtrBamboodrum_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBamboodrum_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Smoke-cured bamboo",
-          jp: ""
+          "en": "Smoke-cured bamboo",
+          "jp": "煤竹"
         },
-        "fileName": "FtrBamboodrum_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBamboodrum_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "bamboo lunch box",
-      jp: ""
+      "en": "bamboo lunch box",
+      "jp": "たけのべんとうばこ"
     },
     "id": 5978,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 640
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green bamboo",
-          jp: ""
+          "en": "Green bamboo",
+          "jp": "青竹"
         },
-        "fileName": "FtrBambooLunch_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBambooLunch_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dried bamboo",
-          jp: ""
+          "en": "Dried bamboo",
+          "jp": "枯竹"
         },
-        "fileName": "FtrBambooLunch_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBambooLunch_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Smoke-cured bamboo",
-          jp: ""
+          "en": "Smoke-cured bamboo",
+          "jp": "煤竹"
         },
-        "fileName": "FtrBambooLunch_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBambooLunch_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "bamboo sphere",
-      jp: ""
+      "en": "bamboo sphere",
+      "jp": "たけのまり"
     },
     "id": 5976,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 480
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green bamboo",
-          jp: ""
+          "en": "Green bamboo",
+          "jp": "青竹"
         },
-        "fileName": "FtrBambooBall_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBambooBall_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dried bamboo",
-          jp: ""
+          "en": "Dried bamboo",
+          "jp": "枯竹"
         },
-        "fileName": "FtrBambooBall_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBambooBall_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Smoke-cured bamboo",
-          jp: ""
+          "en": "Smoke-cured bamboo",
+          "jp": "煤竹"
         },
-        "fileName": "FtrBambooBall_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBambooBall_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "bamboo-shoot lamp",
-      jp: ""
+      "en": "bamboo-shoot lamp",
+      "jp": "たけのこランプ"
     },
     "id": 5977,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "young spring bamboo",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBambooshootLamp"
+        "isPattern": false,
+        "imageName": "FtrBambooshootLamp"
       }
     ]
   },
   {
     "name": {
-      en: "barred knifejaw model",
-      jp: ""
+      "en": "barred knifejaw model",
+      "jp": "イシダイのもけい"
     },
     "id": 6959,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 15000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishIshidaiToy"
+        "isPattern": false,
+        "imageName": "FtrFishIshidaiToy"
       }
     ]
   },
   {
     "name": {
-      en: "barreleye model",
-      jp: ""
+      "en": "barreleye model",
+      "jp": "デメニギスのもけい"
     },
     "id": 6943,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 45000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishDemenigisuToy"
+        "isPattern": false,
+        "imageName": "FtrFishDemenigisuToy"
       }
     ]
   },
   {
     "name": {
-      en: "beach ball",
-      jp: ""
+      "en": "beach ball",
+      "jp": "ビーチボール"
     },
     "id": 9584,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seaside",
     "price": {
       "buy": 430,
       "sell": 107
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrBeachball_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBeachball_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrBeachball_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBeachball_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrBeachball_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBeachball_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Watermelon",
-          jp: ""
+          "en": "Watermelon",
+          "jp": "スイカ"
         },
-        "fileName": "FtrBeachball_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBeachball_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "bell cricket model",
-      jp: ""
+      "en": "bell cricket model",
+      "jp": "スズムシのもけい"
     },
     "id": 7096,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1290
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectSuzumushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectSuzumushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "berliner",
-      jp: ""
+      "en": "berliner",
+      "jp": "ベルリーナー"
     },
     "id": 13463,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Silvester",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBerliner"
+        "isPattern": false,
+        "imageName": "FtrBerliner"
       }
     ]
   },
   {
     "name": {
-      en: "betta model",
-      jp: ""
+      "en": "betta model",
+      "jp": "ベタのもけい"
     },
     "id": 6937,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishBetaToy"
+        "isPattern": false,
+        "imageName": "FtrFishBetaToy"
       }
     ]
   },
   {
     "name": {
-      en: "bingo wheel",
-      jp: ""
+      "en": "bingo wheel",
+      "jp": "ビンゴマシン"
     },
     "id": 864,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBingo"
+        "isPattern": false,
+        "imageName": "FtrBingo"
       }
     ]
   },
   {
     "name": {
-      en: "birthday cake",
-      jp: ""
+      "en": "birthday cake",
+      "jp": "バースデーケーキ"
     },
     "id": 3592,
-    "source": {
-      en: "Birthday",
-      jp: "Birthday"
-    },
+    "source": "Birthday",
     "map": 0,
+    "event": "Birthday",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 100
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Whipped-cream topping",
-          jp: ""
+          "en": "Whipped-cream topping",
+          "jp": "生クリーム"
         },
-        "fileName": "FtrBirthdayCake_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCake_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Chocolate buttercream",
-          jp: ""
+          "en": "Chocolate buttercream",
+          "jp": "チョコレートクリーム"
         },
-        "fileName": "FtrBirthdayCake_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCake_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Strawberry buttercream",
-          jp: ""
+          "en": "Strawberry buttercream",
+          "jp": "ストロベリークリーム"
         },
-        "fileName": "FtrBirthdayCake_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCake_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "birthday candles",
-      jp: ""
+      "en": "birthday candles",
+      "jp": "バースデーキャンドル"
     },
     "id": 3591,
-    "source": {
-      en: "Birthday",
-      jp: "Birthday"
-    },
+    "source": "Birthday",
     "map": 0,
+    "event": "Birthday",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 300
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrBirthdayCandle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCandle_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrBirthdayCandle_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCandle_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrBirthdayCandle_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCandle_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrBirthdayCandle_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCandle_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrBirthdayCandle_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCandle_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Gorgeous",
-          jp: ""
+          "en": "Gorgeous",
+          "jp": "ゴージャス"
         },
-        "fileName": "FtrBirthdayCandle_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrBirthdayCandle_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "bitterling model",
-      jp: ""
+      "en": "bitterling model",
+      "jp": "タナゴのもけい"
     },
     "id": 6931,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2700
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishTanagoToy"
+        "isPattern": false,
+        "imageName": "FtrFishTanagoToy"
       }
     ]
   },
   {
     "name": {
-      en: "black bass model",
-      jp: ""
+      "en": "black bass model",
+      "jp": "ブラックバスのもけい"
     },
     "id": 6938,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishBlackbassToy"
+        "isPattern": false,
+        "imageName": "FtrFishBlackbassToy"
       }
     ]
   },
   {
     "name": {
-      en: "blossom lantern",
-      jp: ""
+      "en": "blossom lantern",
+      "jp": "ぼんぼり"
     },
     "id": 867,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Hinamatsuri",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBonbori"
+        "isPattern": false,
+        "imageName": "FtrBonbori"
       }
     ]
   },
   {
     "name": {
-      en: "blowfish model",
-      jp: ""
+      "en": "blowfish model",
+      "jp": "フグのもけい"
     },
     "id": 6951,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 15000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishFuguToy"
+        "isPattern": false,
+        "imageName": "FtrFishFuguToy"
       }
     ]
   },
   {
     "name": {
-      en: "blue marlin model",
-      jp: ""
+      "en": "blue marlin model",
+      "jp": "カジキのもけい"
     },
     "id": 6963,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKajikiToy"
+        "isPattern": false,
+        "imageName": "FtrFishKajikiToy"
       }
     ]
   },
   {
     "name": {
-      en: "blue weevil beetle model",
-      jp: ""
+      "en": "blue weevil beetle model",
+      "jp": "ホウセキゾウムシのもけい"
     },
     "id": 7118,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHousekizoumushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHousekizoumushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "bluegill model",
-      jp: ""
+      "en": "bluegill model",
+      "jp": "ブルーギルのもけい"
     },
     "id": 6939,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 540
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishBlueguillToy"
+        "isPattern": false,
+        "imageName": "FtrFishBlueguillToy"
       }
     ]
   },
   {
     "name": {
-      en: "board game",
-      jp: ""
+      "en": "board game",
+      "jp": "ボードゲーム"
     },
     "id": 7599,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Simple path game",
-          jp: ""
+          "en": "Simple path game",
+          "jp": "すごろく"
         },
-        "fileName": "FtrBoardgame_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBoardgame_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Territory game",
-          jp: ""
+          "en": "Territory game",
+          "jp": "陣取り"
         },
-        "fileName": "FtrBoardgame_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBoardgame_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Kids' game",
-          jp: ""
+          "en": "Kids' game",
+          "jp": "キッズ向け"
         },
-        "fileName": "FtrBoardgame_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBoardgame_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "book",
-      jp: ""
+      "en": "book",
+      "jp": "ほん"
     },
     "id": 3582,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 290,
       "sell": 72
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Western literature",
-          jp: ""
+          "en": "Western literature",
+          "jp": "洋書"
         },
-        "fileName": "FtrBookOpened_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBookOpened_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Japanese literature",
-          jp: ""
+          "en": "Japanese literature",
+          "jp": "和書"
         },
-        "fileName": "FtrBookOpened_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBookOpened_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Encyclopedia",
-          jp: ""
+          "en": "Encyclopedia",
+          "jp": "百科事典"
         },
-        "fileName": "FtrBookOpened_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBookOpened_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Textbook",
-          jp: ""
+          "en": "Textbook",
+          "jp": "教科書"
         },
-        "fileName": "FtrBookOpened_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBookOpened_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "book stands",
-      jp: ""
+      "en": "book stands",
+      "jp": "ブックスタンド"
     },
     "id": 870,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 1100,
       "sell": 275
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrBookstand_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBookstand_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrBookstand_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBookstand_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrBookstand_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBookstand_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pastel",
-          jp: ""
+          "en": "Pastel",
+          "jp": "パステル"
         },
-        "fileName": "FtrBookstand_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBookstand_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "bottled ship",
-      jp: ""
+      "en": "bottled ship",
+      "jp": "ボトルシップ"
     },
     "id": 683,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seaside",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Trading ship",
-          jp: ""
+          "en": "Trading ship",
+          "jp": "交易船"
         },
-        "fileName": "FtrBottleship_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBottleship_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Leisure boat",
-          jp: ""
+          "en": "Leisure boat",
+          "jp": "遊覧船"
         },
-        "fileName": "FtrBottleship_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBottleship_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pirate ship",
-          jp: ""
+          "en": "Pirate ship",
+          "jp": "海賊船"
         },
-        "fileName": "FtrBottleship_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBottleship_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "brine-shrimp aquarium",
-      jp: ""
+      "en": "brine-shrimp aquarium",
+      "jp": "アルテミアすいそう"
     },
     "id": 11283,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Special Fish",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrArtemiaAquarium"
+        "isPattern": false,
+        "imageName": "FtrArtemiaAquarium"
       }
     ]
   },
   {
     "name": {
-      en: "bronze bug trophy",
-      jp: ""
+      "en": "bronze bug trophy",
+      "jp": "どうのムシトロフィー"
     },
     "id": 1205,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyInsectBronz"
+        "isPattern": false,
+        "imageName": "FtrTrophyInsectBronz"
       }
     ]
   },
   {
     "name": {
-      en: "bronze fish trophy",
-      jp: ""
+      "en": "bronze fish trophy",
+      "jp": "どうのサカナトロフィー"
     },
     "id": 1202,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": "Fishing Tourney",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyFishBronz"
+        "isPattern": false,
+        "imageName": "FtrTrophyFishBronz"
       }
     ]
   },
   {
     "name": {
-      en: "bronze HHA trophy",
-      jp: ""
+      "en": "bronze HHA trophy",
+      "jp": "どうのおうちトロフィー"
     },
     "id": 7098,
-    "source": {
-      en: "HHA",
-      jp: "HHA"
-    },
+    "source": "HHA",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyHhaBronze"
+        "isPattern": false,
+        "imageName": "FtrTrophyHhaBronze"
       }
     ]
   },
   {
     "name": {
-      en: "brown cicada model",
-      jp: ""
+      "en": "brown cicada model",
+      "jp": "アブラゼミのもけい"
     },
     "id": 7046,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectAburazemiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectAburazemiToy"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day basket",
-      jp: ""
+      "en": "Bunny Day basket",
+      "jp": "イースターなバスケット"
     },
     "id": 12438,
-    "source": {
-      en: "Zipper",
-      jp: "Zipper"
-    },
+    "source": "Zipper",
     "map": 0,
+    "event": "Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Easter",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrEggBasket"
+        "isPattern": false,
+        "imageName": "FtrEggBasket"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day candy",
-      jp: ""
+      "en": "Bunny Day candy",
+      "jp": "イースターなおかし"
     },
     "id": 14009,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Easter",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrEggSweets"
+        "isPattern": false,
+        "imageName": "FtrEggSweets"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day lamp",
-      jp: ""
+      "en": "Bunny Day lamp",
+      "jp": "イースターなランプ"
     },
     "id": 12413,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrEggLamp"
+        "isPattern": false,
+        "imageName": "FtrEggLamp"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day planter box",
-      jp: ""
+      "en": "Bunny Day planter box",
+      "jp": "イースターなプランター"
     },
     "id": 14008,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Bunny Day (ready days); Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Easter",
     "price": {
       "buy": 2300,
       "sell": 575
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrEggPlanter"
+        "isPattern": false,
+        "imageName": "FtrEggPlanter"
       }
     ]
   },
   {
     "name": {
-      en: "butterfly fish model",
-      jp: ""
+      "en": "butterfly fish model",
+      "jp": "チョウチョウウオのもけい"
     },
     "id": 6941,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishChouchouuoToy"
+        "isPattern": false,
+        "imageName": "FtrFishChouchouuoToy"
       }
     ]
   },
   {
     "name": {
-      en: "camp stove",
-      jp: ""
+      "en": "camp stove",
+      "jp": "コッフェル"
     },
     "id": 889,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Outdoors Decor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrKocher_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrKocher_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrKocher_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrKocher_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrKocher_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrKocher_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrKocher_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrKocher_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrKocher_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrKocher_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrKocher_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrKocher_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "candle",
-      jp: ""
+      "en": "candle",
+      "jp": "キャンドル"
     },
     "id": 2562,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrCandle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCandle_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrCandle_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCandle_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Copper",
-          jp: ""
+          "en": "Copper",
+          "jp": "ブロンズ"
         },
-        "fileName": "FtrCandle_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCandle_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCandle_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCandle_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCandle_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCandle_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "cardboard box",
-      jp: ""
+      "en": "cardboard box",
+      "jp": "ダンボール"
     },
     "id": 3672,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Desk",
     "price": {
       "buy": 120,
       "sell": 30
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Plain",
-          jp: ""
+          "en": "Plain",
+          "jp": "無地"
         },
-        "fileName": "FtrCardboard_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCardboard_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Labeled",
-          jp: ""
+          "en": "Labeled",
+          "jp": "ラベルつき"
         },
-        "fileName": "FtrCardboard_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCardboard_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Oranges",
-          jp: ""
+          "en": "Oranges",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrCardboard_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCardboard_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Apples",
-          jp: ""
+          "en": "Apples",
+          "jp": "リンゴ"
         },
-        "fileName": "FtrCardboard_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCardboard_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Peaches",
-          jp: ""
+          "en": "Peaches",
+          "jp": "モモ"
         },
-        "fileName": "FtrCardboard_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCardboard_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pears",
-          jp: ""
+          "en": "Pears",
+          "jp": "ナシ"
         },
-        "fileName": "FtrCardboard_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCardboard_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Cherries",
-          jp: ""
+          "en": "Cherries",
+          "jp": "さくらんぼ"
         },
-        "fileName": "FtrCardboard_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrCardboard_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "carnations",
-      jp: ""
+      "en": "carnations",
+      "jp": "カーネーション"
     },
     "id": 14024,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Mother's Day",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Plants",
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCarnation"
+        "isPattern": false,
+        "imageName": "FtrCarnation"
       }
     ]
   },
   {
     "name": {
-      en: "carp model",
-      jp: ""
+      "en": "carp model",
+      "jp": "コイのもけい"
     },
     "id": 6980,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKoiToy"
+        "isPattern": false,
+        "imageName": "FtrFishKoiToy"
       }
     ]
   },
   {
     "name": {
-      en: "cartoonist's set",
-      jp: ""
+      "en": "cartoonist's set",
+      "jp": "まんがかセット"
     },
     "id": 4122,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Gag comic",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 12,
+    "count": {
+      "variants": 4,
+      "patterns": 8
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCartoonistset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCartoonistset_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCartoonistset_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrCartoonistset_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCartoonistset_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrCartoonistset_Remake_0_2"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrCartoonistset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCartoonistset_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrCartoonistset_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrCartoonistset_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrCartoonistset_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrCartoonistset_Remake_1_2"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrCartoonistset_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCartoonistset_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrCartoonistset_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrCartoonistset_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrCartoonistset_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrCartoonistset_Remake_2_2"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrCartoonistset_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCartoonistset_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrCartoonistset_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrCartoonistset_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrCartoonistset_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrCartoonistset_Remake_3_2"
       }
     ]
   },
   {
     "name": {
-      en: "cassette player",
-      jp: ""
+      "en": "cassette player",
+      "jp": "ダブルラジカセ"
     },
     "id": 1708,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Audio",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrRadicaseW_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrRadicaseW_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrRadicaseW_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrRadicaseW_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrRadicaseW_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrRadicaseW_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrRadicaseW_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrRadicaseW_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrRadicaseW_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrRadicaseW_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrRadicaseW_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrRadicaseW_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRadicaseW_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrRadicaseW_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRadicaseW_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrRadicaseW_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "cat grass",
-      jp: ""
+      "en": "cat grass",
+      "jp": "ネコぐさ"
     },
     "id": 7136,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Plants",
     "price": {
       "buy": 570,
       "sell": 142
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCatgrass_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCatgrass_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCatgrass_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCatgrass_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCatgrass_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCatgrass_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrCatgrass_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCatgrass_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrCatgrass_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCatgrass_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "catfish model",
-      jp: ""
+      "en": "catfish model",
+      "jp": "ナマズのもけい"
     },
     "id": 6987,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishNamazuToy"
+        "isPattern": false,
+        "imageName": "FtrFishNamazuToy"
       }
     ]
   },
   {
     "name": {
-      en: "celebratory candles",
-      jp: ""
+      "en": "celebratory candles",
+      "jp": "うたげのキャンドル"
     },
     "id": 4719,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrCelebratoryCandle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCelebratoryCandle_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Light brown",
-          jp: ""
+          "en": "Light brown",
+          "jp": "ライトブラウン"
         },
-        "fileName": "FtrCelebratoryCandle_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCelebratoryCandle_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCelebratoryCandle_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCelebratoryCandle_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCelebratoryCandle_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCelebratoryCandle_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCelebratoryCandle_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCelebratoryCandle_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "centipede model",
-      jp: ""
+      "en": "centipede model",
+      "jp": "ムカデのもけい"
     },
     "id": 7407,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMukadeToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMukadeToy"
       }
     ]
   },
   {
     "name": {
-      en: "char model",
-      jp: ""
+      "en": "char model",
+      "jp": "オオイワナのもけい"
     },
     "id": 7003,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 11400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishOoiwanaToy"
+        "isPattern": false,
+        "imageName": "FtrFishOoiwanaToy"
       }
     ]
   },
   {
     "name": {
-      en: "cherry salmon model",
-      jp: ""
+      "en": "cherry salmon model",
+      "jp": "ヤマメのもけい"
     },
     "id": 7027,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishYamameToy"
+        "isPattern": false,
+        "imageName": "FtrFishYamameToy"
       }
     ]
   },
   {
     "name": {
-      en: "cherry speakers",
-      jp: ""
+      "en": "cherry speakers",
+      "jp": "さくらんぼのスピーカー"
     },
     "id": 4011,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Audio",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3500
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Cherry",
-          jp: ""
+          "en": "Cherry",
+          "jp": "チェリー"
         },
-        "fileName": "FtrFruitsMusic_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFruitsMusic_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black cherry",
-          jp: ""
+          "en": "Black cherry",
+          "jp": "アメリカンチェリー"
         },
-        "fileName": "FtrFruitsMusic_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFruitsMusic_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "cherry-blossom bonsai",
-      jp: ""
+      "en": "cherry-blossom bonsai",
+      "jp": "さくらのぼんさい"
     },
     "id": 6030,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "cherry-blossom petals",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBonsaiSakura"
+        "isPattern": false,
+        "imageName": "FtrBonsaiSakura"
       }
     ]
   },
   {
     "name": {
-      en: "chessboard",
-      jp: ""
+      "en": "chessboard",
+      "jp": "チェス"
     },
     "id": 2770,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 95000,
       "sell": 23750
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrChess_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrChess_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrChess_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrChess_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "chocolate heart",
-      jp: ""
+      "en": "chocolate heart",
+      "jp": "ハートのチョコレート"
     },
     "id": 13488,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Valentine's Day (Nook Shopping)",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Milk chocolate",
-          jp: ""
+          "en": "Milk chocolate",
+          "jp": "ミルクチョコレート"
         },
-        "fileName": "FtrChocolateHeart_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrChocolateHeart_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dark chocolate",
-          jp: ""
+          "en": "Dark chocolate",
+          "jp": "ビターチョコレート"
         },
-        "fileName": "FtrChocolateHeart_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrChocolateHeart_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White chocolate",
-          jp: ""
+          "en": "White chocolate",
+          "jp": "ホワイトチョコレート"
         },
-        "fileName": "FtrChocolateHeart_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrChocolateHeart_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Strawberry chocolate",
-          jp: ""
+          "en": "Strawberry chocolate",
+          "jp": "ストロベリーチョコレート"
         },
-        "fileName": "FtrChocolateHeart_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrChocolateHeart_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "cicada shell model",
-      jp: ""
+      "en": "cicada shell model",
+      "jp": "セミのぬけがらのもけい"
     },
     "id": 7095,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectSeminonukegaraToy"
+        "isPattern": false,
+        "imageName": "FtrInsectSeminonukegaraToy"
       }
     ]
   },
   {
     "name": {
-      en: "Cinnamoroll tray",
-      jp: ""
+      "en": "Cinnamoroll tray",
+      "jp": "シナモロールなトレー"
     },
     "id": 12251,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Cinnamoroll",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioCnmTeaset"
+        "isPattern": false,
+        "imageName": "FtrSanrioCnmTeaset"
       }
     ]
   },
   {
     "name": {
-      en: "citrus long-horned b. model",
-      jp: ""
+      "en": "citrus long-horned b. model",
+      "jp": "ゴマダラカミキリのもけい"
     },
     "id": 7070,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1050
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectGomadarakamikiriToy"
+        "isPattern": false,
+        "imageName": "FtrInsectGomadarakamikiriToy"
       }
     ]
   },
   {
     "name": {
-      en: "classic pitcher",
-      jp: ""
+      "en": "classic pitcher",
+      "jp": "とうきのジャグ"
     },
     "id": 4073,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 800
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Unglazed",
-          jp: ""
+          "en": "Unglazed",
+          "jp": "素焼き"
         },
-        "fileName": "FtrPotteryjug_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPotteryjug_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Simple",
-          jp: ""
+          "en": "Simple",
+          "jp": "シンプル"
         },
-        "fileName": "FtrPotteryjug_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPotteryjug_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Sky blue",
-          jp: ""
+          "en": "Sky blue",
+          "jp": "スカイブルー"
         },
-        "fileName": "FtrPotteryjug_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPotteryjug_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow amber",
-          jp: ""
+          "en": "Yellow amber",
+          "jp": "イエローアンバー"
         },
-        "fileName": "FtrPotteryjug_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPotteryjug_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Fruits",
-          jp: ""
+          "en": "Fruits",
+          "jp": "フルーツ"
         },
-        "fileName": "FtrPotteryjug_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPotteryjug_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Artistic",
-          jp: ""
+          "en": "Artistic",
+          "jp": "アーティスティック"
         },
-        "fileName": "FtrPotteryjug_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPotteryjug_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "clown fish model",
-      jp: ""
+      "en": "clown fish model",
+      "jp": "クマノミのもけい"
     },
     "id": 6981,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1950
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKumanomiToy"
+        "isPattern": false,
+        "imageName": "FtrFishKumanomiToy"
       }
     ]
   },
   {
     "name": {
-      en: "coconut juice",
-      jp: ""
+      "en": "coconut juice",
+      "jp": "ココナッツジュース"
     },
     "id": 3684,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCoconutjuice"
+        "isPattern": false,
+        "imageName": "FtrCoconutjuice"
       }
     ]
   },
   {
     "name": {
-      en: "coelacanth model",
-      jp: ""
+      "en": "coelacanth model",
+      "jp": "シーラカンスのもけい"
     },
     "id": 7016,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 45000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishSirakansuToy"
+        "isPattern": false,
+        "imageName": "FtrFishSirakansuToy"
       }
     ]
   },
   {
     "name": {
-      en: "coffee cup",
-      jp: ""
+      "en": "coffee cup",
+      "jp": "コーヒーカップ"
     },
     "id": 918,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 270,
       "sell": 67
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Plain",
-          jp: ""
+          "en": "Plain",
+          "jp": "無地"
         },
-        "fileName": "FtrCoffeecup_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCoffeecup_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "草花"
         },
-        "fileName": "FtrCoffeecup_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCoffeecup_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Polka dots",
-          jp: ""
+          "en": "Polka dots",
+          "jp": "水玉"
         },
-        "fileName": "FtrCoffeecup_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCoffeecup_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Rose",
-          jp: ""
+          "en": "Rose",
+          "jp": "ローズ"
         },
-        "fileName": "FtrCoffeecup_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCoffeecup_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Royal",
-          jp: ""
+          "en": "Royal",
+          "jp": "ロイヤル"
         },
-        "fileName": "FtrCoffeecup_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCoffeecup_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Elegant",
-          jp: ""
+          "en": "Elegant",
+          "jp": "ゴージャス"
         },
-        "fileName": "FtrCoffeecup_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCoffeecup_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "coffee grinder",
-      jp: ""
+      "en": "coffee grinder",
+      "jp": "コーヒーミル"
     },
     "id": 920,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCoffeemill"
+        "isPattern": false,
+        "imageName": "FtrCoffeemill"
       }
     ]
   },
   {
     "name": {
-      en: "coin",
-      jp: ""
+      "en": "coin",
+      "jp": "コイン"
     },
     "id": 13830,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Mario",
     "price": {
       "buy": 350,
       "sell": 87
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMarioGold"
+        "isPattern": false,
+        "imageName": "FtrMarioGold"
       }
     ]
   },
   {
     "name": {
-      en: "common bluebottle model",
-      jp: ""
+      "en": "common bluebottle model",
+      "jp": "アオスジアゲハのもけい"
     },
     "id": 7111,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectAosujiagehaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectAosujiagehaToy"
       }
     ]
   },
   {
     "name": {
-      en: "common butterfly model",
-      jp: ""
+      "en": "common butterfly model",
+      "jp": "モンシロチョウのもけい"
     },
     "id": 7085,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 480
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMonshirochoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMonshirochoToy"
       }
     ]
   },
   {
     "name": {
-      en: "cool globe",
-      jp: ""
+      "en": "cool globe",
+      "jp": "かっこいいちきゅうぎ"
     },
     "id": 14023,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Nature Day (Nook Shopping)",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Space",
     "price": {
       "buy": 2300,
       "sell": 575
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrGlobeAntique"
+        "isPattern": false,
+        "imageName": "FtrGlobeAntique"
       }
     ]
   },
   {
     "name": {
-      en: "cooler box",
-      jp: ""
+      "en": "cooler box",
+      "jp": "クーラーボックス"
     },
     "id": 3064,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCoolerbox_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCoolerbox_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCoolerbox_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCoolerbox_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrCoolerbox_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCoolerbox_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCoolerbox_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCoolerbox_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "cordless phone",
-      jp: ""
+      "en": "cordless phone",
+      "jp": "コードレスでんわ"
     },
     "id": 4009,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPhoneCordless_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneCordless_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrPhoneCordless_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneCordless_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrPhoneCordless_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneCordless_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrPhoneCordless_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneCordless_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrPhoneCordless_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneCordless_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPhoneCordless_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneCordless_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPhoneCordless_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneCordless_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "cornucopia",
-      jp: ""
+      "en": "cornucopia",
+      "jp": "ほうじょうのつの"
     },
     "id": 931,
-    "source": {
-      en: "Franklin",
-      jp: "Franklin"
-    },
+    "source": "Franklin",
     "map": 0,
+    "event": "Turkey Day",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Folk Craft Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCornucopia"
+        "isPattern": false,
+        "imageName": "FtrCornucopia"
       }
     ]
   },
   {
     "name": {
-      en: "crawfish model",
-      jp: ""
+      "en": "crawfish model",
+      "jp": "ザリガニのもけい"
     },
     "id": 7029,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishZariganiToy"
+        "isPattern": false,
+        "imageName": "FtrFishZariganiToy"
       }
     ]
   },
   {
     "name": {
-      en: "cream and sugar",
-      jp: ""
+      "en": "cream and sugar",
+      "jp": "シュガー&ミルク"
     },
     "id": 1161,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 500,
       "sell": 125
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrSugermilk_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSugermilk_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrSugermilk_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSugermilk_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrSugermilk_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSugermilk_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "フラワー"
         },
-        "fileName": "FtrSugermilk_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSugermilk_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "cricket model",
-      jp: ""
+      "en": "cricket model",
+      "jp": "コオロギのもけい"
     },
     "id": 7077,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 390
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKohrogiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKohrogiToy"
       }
     ]
   },
   {
     "name": {
-      en: "crucian carp model",
-      jp: ""
+      "en": "crucian carp model",
+      "jp": "フナのもけい"
     },
     "id": 6929,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 480
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishFunaToy"
+        "isPattern": false,
+        "imageName": "FtrFishFunaToy"
       }
     ]
   },
   {
     "name": {
-      en: "cushion",
-      jp: ""
+      "en": "cushion",
+      "jp": "クッション"
     },
     "id": 1792,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Pop",
+    "diy": false,
     "tag": "Chair",
     "price": {
       "buy": 300,
       "sell": 75
     },
-    "count": 6,
+    "count": {
+      "variants": 1,
+      "patterns": 5
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrCushion_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCushion_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrCushion_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrCushion_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrCushion_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrCushion_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrCushion_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrCushion_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrCushion_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrCushion_Remake_0_4"
       },
       {
         "id": "0_5",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrCushion_Remake_0_5"
+        "isPattern": true,
+        "imageName": "FtrCushion_Remake_0_5"
       }
     ]
   },
   {
     "name": {
-      en: "cute music player",
-      jp: ""
+      "en": "cute music player",
+      "jp": "キュートなオーディオプレーヤー"
     },
     "id": 4003,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Audio",
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrCuteAudio_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCuteAudio_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Sky blue",
-          jp: ""
+          "en": "Sky blue",
+          "jp": "スカイブルー"
         },
-        "fileName": "FtrCuteAudio_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCuteAudio_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrCuteAudio_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCuteAudio_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCuteAudio_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCuteAudio_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCuteAudio_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCuteAudio_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "cutting board",
-      jp: ""
+      "en": "cutting board",
+      "jp": "カッティングボード"
     },
     "id": 3618,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "Yellow",
+    "diy": true,
     "tag": "Kitchen Things",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 990
     },
-    "count": 12,
+    "count": {
+      "variants": 4,
+      "patterns": 8
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "No finish",
-          jp: ""
+          "en": "No finish",
+          "jp": "無塗装"
         },
-        "fileName": "FtrCuttingboard_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCuttingboard_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "No finish",
-          jp: ""
+          "en": "No finish",
+          "jp": "無塗装"
         },
-        "fileName": "FtrCuttingboard_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrCuttingboard_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "No finish",
-          jp: ""
+          "en": "No finish",
+          "jp": "無塗装"
         },
-        "fileName": "FtrCuttingboard_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrCuttingboard_Remake_0_2"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Cherry brown",
-          jp: ""
+          "en": "Cherry brown",
+          "jp": "チェリーブラウン"
         },
-        "fileName": "FtrCuttingboard_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCuttingboard_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Cherry brown",
-          jp: ""
+          "en": "Cherry brown",
+          "jp": "チェリーブラウン"
         },
-        "fileName": "FtrCuttingboard_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrCuttingboard_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Cherry brown",
-          jp: ""
+          "en": "Cherry brown",
+          "jp": "チェリーブラウン"
         },
-        "fileName": "FtrCuttingboard_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrCuttingboard_Remake_1_2"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Dark",
-          jp: ""
+          "en": "Dark",
+          "jp": "ダーク"
         },
-        "fileName": "FtrCuttingboard_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCuttingboard_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Dark",
-          jp: ""
+          "en": "Dark",
+          "jp": "ダーク"
         },
-        "fileName": "FtrCuttingboard_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrCuttingboard_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Dark",
-          jp: ""
+          "en": "Dark",
+          "jp": "ダーク"
         },
-        "fileName": "FtrCuttingboard_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrCuttingboard_Remake_2_2"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCuttingboard_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCuttingboard_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCuttingboard_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrCuttingboard_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrCuttingboard_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrCuttingboard_Remake_3_2"
       }
     ]
   },
   {
     "name": {
-      en: "cyclommatus stag model",
-      jp: ""
+      "en": "cyclommatus stag model",
+      "jp": "ホソアカクワガタのもけい"
     },
     "id": 7064,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 24000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHosoakakuwagataToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHosoakakuwagataToy"
       }
     ]
   },
   {
     "name": {
-      en: "dab model",
-      jp: ""
+      "en": "dab model",
+      "jp": "カレイのもけい"
     },
     "id": 6965,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKareiToy"
+        "isPattern": false,
+        "imageName": "FtrFishKareiToy"
       }
     ]
   },
   {
     "name": {
-      en: "dace model",
-      jp: ""
+      "en": "dace model",
+      "jp": "ウグイのもけい"
     },
     "id": 7024,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishUguiToy"
+        "isPattern": false,
+        "imageName": "FtrFishUguiToy"
       }
     ]
   },
   {
     "name": {
-      en: "DAL model plane",
-      jp: ""
+      "en": "DAL model plane",
+      "jp": "ＤＡＬのひこうきもけい"
     },
     "id": 12140,
-    "source": {
-      en: "Dodo Airlines",
-      jp: "Dodo Airlines"
-    },
+    "source": "Dodo Airlines",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1010
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDalFigure_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDalFigure_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrDalFigure_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDalFigure_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrDalFigure_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDalFigure_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrDalFigure_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDalFigure_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "DAL mug",
-      jp: ""
+      "en": "DAL mug",
+      "jp": "ＤＡＬマグカップ"
     },
     "id": 12139,
-    "source": {
-      en: "Dodo Airlines",
-      jp: "Dodo Airlines"
-    },
+    "source": "Dodo Airlines",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1010
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDalMug"
+        "isPattern": false,
+        "imageName": "FtrDalMug"
       }
     ]
   },
   {
     "name": {
-      en: "Dala horse",
-      jp: ""
+      "en": "Dala horse",
+      "jp": "ダーラヘスト"
     },
     "id": 685,
-    "source": {
-      en: "Gulliver",
-      jp: "Gulliver"
-    },
+    "source": "Gulliver",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Folk Craft Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1300
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrDalecarlianhorse_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDalecarlianhorse_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDalecarlianhorse_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDalecarlianhorse_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDalecarlianhorse_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDalecarlianhorse_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "damselfly model",
-      jp: ""
+      "en": "damselfly model",
+      "jp": "イトトンボのもけい"
     },
     "id": 7121,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectItotonboToy"
+        "isPattern": false,
+        "imageName": "FtrInsectItotonboToy"
       }
     ]
   },
   {
     "name": {
-      en: "darner dragonfly model",
-      jp: ""
+      "en": "darner dragonfly model",
+      "jp": "ギンヤンマのもけい"
     },
     "id": 7058,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 690
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectGinyanmaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectGinyanmaToy"
       }
     ]
   },
   {
     "name": {
-      en: "decoy duck",
-      jp: ""
+      "en": "decoy duck",
+      "jp": "デコイ"
     },
     "id": 1797,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Animal",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 480
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrDecoy_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDecoy_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Mallard",
-          jp: ""
+          "en": "Mallard",
+          "jp": "マガモ"
         },
-        "fileName": "FtrDecoy_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDecoy_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Spot-billed",
-          jp: ""
+          "en": "Spot-billed",
+          "jp": "カルガモ"
         },
-        "fileName": "FtrDecoy_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDecoy_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Greater scaup",
-          jp: ""
+          "en": "Greater scaup",
+          "jp": "スズガモ"
         },
-        "fileName": "FtrDecoy_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDecoy_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Common pochard",
-          jp: ""
+          "en": "Common pochard",
+          "jp": "ホシハジロ"
         },
-        "fileName": "FtrDecoy_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDecoy_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Steamer duck",
-          jp: ""
+          "en": "Steamer duck",
+          "jp": "オオフナガモ"
         },
-        "fileName": "FtrDecoy_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDecoy_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Duck",
-          jp: ""
+          "en": "Duck",
+          "jp": "アヒル"
         },
-        "fileName": "FtrDecoy_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDecoy_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "desk mirror",
-      jp: ""
+      "en": "desk mirror",
+      "jp": "おきかがみ"
     },
     "id": 1868,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dresser",
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrMirror_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMirror_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMirror_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMirror_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrMirror_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMirror_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMirror_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMirror_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMirror_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMirror_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMirror_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMirror_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "desktop computer",
-      jp: ""
+      "en": "desktop computer",
+      "jp": "デスクトップPC"
     },
     "id": 3590,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Digital audio workstation",
+    "diy": false,
     "tag": "Office",
     "price": {
       "buy": 100000,
       "sell": 25000
     },
-    "count": 28,
+    "count": {
+      "variants": 4,
+      "patterns": 24
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDesktopPC_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDesktopPC_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDesktopPC_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDesktopPC_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDesktopPC_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDesktopPC_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_0_4"
       },
       {
         "id": "0_5",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDesktopPC_Remake_0_5"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_0_5"
       },
       {
         "id": "0_6",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDesktopPC_Remake_0_6"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_0_6"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDesktopPC_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDesktopPC_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDesktopPC_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDesktopPC_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDesktopPC_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_1_3"
       },
       {
         "id": "1_4",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDesktopPC_Remake_1_4"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_1_4"
       },
       {
         "id": "1_5",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDesktopPC_Remake_1_5"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_1_5"
       },
       {
         "id": "1_6",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDesktopPC_Remake_1_6"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_1_6"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDesktopPC_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDesktopPC_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDesktopPC_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDesktopPC_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDesktopPC_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_2_3"
       },
       {
         "id": "2_4",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDesktopPC_Remake_2_4"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_2_4"
       },
       {
         "id": "2_5",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDesktopPC_Remake_2_5"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_2_5"
       },
       {
         "id": "2_6",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDesktopPC_Remake_2_6"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_2_6"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDesktopPC_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDesktopPC_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDesktopPC_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDesktopPC_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDesktopPC_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_3_3"
       },
       {
         "id": "3_4",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDesktopPC_Remake_3_4"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_3_4"
       },
       {
         "id": "3_5",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDesktopPC_Remake_3_5"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_3_5"
       },
       {
         "id": "3_6",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDesktopPC_Remake_3_6"
+        "isPattern": true,
+        "imageName": "FtrDesktopPC_Remake_3_6"
       }
     ]
   },
   {
     "name": {
-      en: "digital alarm clock",
-      jp: ""
+      "en": "digital alarm clock",
+      "jp": "デジタルアラームどけい"
     },
     "id": 2731,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrDigitalclock_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDigitalclock_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Lime",
-          jp: ""
+          "en": "Lime",
+          "jp": "ライム"
         },
-        "fileName": "FtrDigitalclock_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDigitalclock_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrDigitalclock_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDigitalclock_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDigitalclock_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDigitalclock_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrDigitalclock_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDigitalclock_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDigitalclock_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDigitalclock_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDigitalclock_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDigitalclock_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDigitalclock_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDigitalclock_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "dinnerware",
-      jp: ""
+      "en": "dinnerware",
+      "jp": "しょっき"
     },
     "id": 1798,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 930,
       "sell": 232
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDishes"
+        "isPattern": false,
+        "imageName": "FtrDishes"
       }
     ]
   },
   {
     "name": {
-      en: "dinosaur toy",
-      jp: ""
+      "en": "dinosaur toy",
+      "jp": "きょうりゅうのおもちゃ"
     },
     "id": 13251,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Toy Day (ready days phase 1); Toy Day (ready days phase 2); Toy Day; Toy Day (day after)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrCrsDinosaur_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDinosaur_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrCrsDinosaur_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDinosaur_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCrsDinosaur_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDinosaur_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCrsDinosaur_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDinosaur_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCrsDinosaur_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDinosaur_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "dish-drying rack",
-      jp: ""
+      "en": "dish-drying rack",
+      "jp": "みずきりラック"
     },
     "id": 3400,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 530,
       "sell": 132
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDrainerbasket_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDrainerbasket_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrDrainerbasket_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDrainerbasket_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrDrainerbasket_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDrainerbasket_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrDrainerbasket_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDrainerbasket_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDrainerbasket_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDrainerbasket_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrDrainerbasket_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDrainerbasket_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "diving beetle model",
-      jp: ""
+      "en": "diving beetle model",
+      "jp": "ゲンゴロウのもけい"
     },
     "id": 7057,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectGengorouToy"
+        "isPattern": false,
+        "imageName": "FtrInsectGengorouToy"
       }
     ]
   },
   {
     "name": {
-      en: "document stack",
-      jp: ""
+      "en": "document stack",
+      "jp": "しょるいのやま"
     },
     "id": 1750,
-    "source": {
-      en: "Crafting; Nook's Cranny",
-      jp: "Crafting; Nook's Cranny"
-    },
+    "source": "Crafting; Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "Storyboards",
+    "diy": true,
     "tag": "Office",
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 4,
+    "count": {
+      "variants": 1,
+      "patterns": 3
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrOfficePapers_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrOfficePapers_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrOfficePapers_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrOfficePapers_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrOfficePapers_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrOfficePapers_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrOfficePapers_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrOfficePapers_Remake_0_3"
       }
     ]
   },
   {
     "name": {
-      en: "dollhouse",
-      jp: ""
+      "en": "dollhouse",
+      "jp": "ドールハウス"
     },
     "id": 13252,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Toy Day (ready days phase 1); Toy Day (ready days phase 2); Toy Day; Toy Day (day after)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 4000,
       "sell": 1000
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCrsDollhouse_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDollhouse_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrCrsDollhouse_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDollhouse_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCrsDollhouse_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDollhouse_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrCrsDollhouse_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDollhouse_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCrsDollhouse_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDollhouse_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrCrsDollhouse_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDollhouse_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrCrsDollhouse_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDollhouse_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "dolly",
-      jp: ""
+      "en": "dolly",
+      "jp": "おにんぎょう"
     },
     "id": 1495,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrDoll_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDoll_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrDoll_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDoll_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrDoll_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDoll_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrDoll_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDoll_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrDoll_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDoll_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrDoll_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDoll_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "dorado model",
-      jp: ""
+      "en": "dorado model",
+      "jp": "ドラドのもけい"
     },
     "id": 7837,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 45000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishDoladoToy"
+        "isPattern": false,
+        "imageName": "FtrFishDoladoToy"
       }
     ]
   },
   {
     "name": {
-      en: "double Gloucester cheese",
-      jp: ""
+      "en": "double Gloucester cheese",
+      "jp": "ダブルグロスターチーズ"
     },
     "id": 14357,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Cheese Rolling",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCheeseRound"
+        "isPattern": false,
+        "imageName": "FtrCheeseRound"
       }
     ]
   },
   {
     "name": {
-      en: "drone beetle model",
-      jp: ""
+      "en": "drone beetle model",
+      "jp": "カナブンのもけい"
     },
     "id": 7114,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKanabunToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKanabunToy"
       }
     ]
   },
   {
     "name": {
-      en: "dung beetle model",
-      jp: ""
+      "en": "dung beetle model",
+      "jp": "フンコロガシのもけい"
     },
     "id": 7066,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 9000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectFunkorogashiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectFunkorogashiToy"
       }
     ]
   },
   {
     "name": {
-      en: "earth-boring dung b. model",
-      jp: ""
+      "en": "earth-boring dung b. model",
+      "jp": "オオセンチコガネのもけい"
     },
     "id": 7074,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectSenchikoganeToy"
+        "isPattern": false,
+        "imageName": "FtrInsectSenchikoganeToy"
       }
     ]
   },
   {
     "name": {
-      en: "electronics kit",
-      jp: ""
+      "en": "electronics kit",
+      "jp": "でんしこうさくセット"
     },
     "id": 4071,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "School",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrElectronicset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrElectronicset_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrElectronicset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrElectronicset_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "emperor butterfly model",
-      jp: ""
+      "en": "emperor butterfly model",
+      "jp": "モルフォチョウのもけい"
     },
     "id": 7086,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 12000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMorufuochoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMorufuochoToy"
       }
     ]
   },
   {
     "name": {
-      en: "espresso maker",
-      jp: ""
+      "en": "espresso maker",
+      "jp": "エスプレッソマシン"
     },
     "id": 954,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 5600,
       "sell": 1400
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrEspresso_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrEspresso_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrEspresso_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrEspresso_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrEspresso_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrEspresso_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrEspresso_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrEspresso_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrEspresso_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrEspresso_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrEspresso_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrEspresso_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrEspresso_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrEspresso_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "essay set",
-      jp: ""
+      "en": "essay set",
+      "jp": "ぶんごうセット"
     },
     "id": 4110,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 650,
       "sell": 162
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blank",
-          jp: ""
+          "en": "Blank",
+          "jp": "白紙"
         },
-        "fileName": "FtrWriterset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWriterset_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Writer's block",
-          jp: ""
+          "en": "Writer's block",
+          "jp": "スランプ"
         },
-        "fileName": "FtrWriterset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWriterset_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "In progress",
-          jp: ""
+          "en": "In progress",
+          "jp": "執筆中"
         },
-        "fileName": "FtrWriterset_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrWriterset_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Letter",
-          jp: ""
+          "en": "Letter",
+          "jp": "英文"
         },
-        "fileName": "FtrWriterset_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrWriterset_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "evening cicada model",
-      jp: ""
+      "en": "evening cicada model",
+      "jp": "ヒグラシのもけい"
     },
     "id": 7063,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1650
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHigurashiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHigurashiToy"
       }
     ]
   },
   {
     "name": {
-      en: "fancy violin",
-      jp: ""
+      "en": "fancy violin",
+      "jp": "ヴァイオリン"
     },
     "id": 2772,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Musical Instrument",
     "price": {
       "buy": 140000,
       "sell": 35000
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrViolin_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrViolin_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrViolin_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrViolin_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrViolin_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrViolin_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "fax machine",
-      jp: ""
+      "en": "fax machine",
+      "jp": "ファクシミリ"
     },
     "id": 4101,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Written note",
+    "diy": false,
     "tag": "Office",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 16,
+    "count": {
+      "variants": 4,
+      "patterns": 12
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrFax_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFax_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrFax_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrFax_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrFax_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_0_3"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrFax_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFax_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrFax_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrFax_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrFax_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_1_3"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrFax_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrFax_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrFax_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrFax_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrFax_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_2_3"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrFax_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrFax_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrFax_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrFax_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrFax_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrFax_Remake_3_3"
       }
     ]
   },
   {
     "name": {
-      en: "festival zongzi",
-      jp: ""
+      "en": "festival zongzi",
+      "jp": "たんごせつのちまき"
     },
     "id": 14355,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Dragon Boat Festival",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrChimaki"
+        "isPattern": false,
+        "imageName": "FtrChimaki"
       }
     ]
   },
   {
     "name": {
-      en: "Festivale confetti machine",
-      jp: ""
+      "en": "Festivale confetti machine",
+      "jp": "カーニバルなかみふぶきマシン"
     },
     "id": 13776,
-    "source": {
-      en: "Nook's Cranny; Pavé",
-      jp: "Nook's Cranny; Pavé"
-    },
+    "source": "Nook's Cranny; Pavé",
     "map": 0,
+    "event": "Festivale (ready days); Festivale",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 5000,
       "sell": 1250
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCarnivalConfetti_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalConfetti_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCarnivalConfetti_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalConfetti_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCarnivalConfetti_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalConfetti_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrCarnivalConfetti_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalConfetti_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Rainbow",
-          jp: ""
+          "en": "Rainbow",
+          "jp": "レインボー"
         },
-        "fileName": "FtrCarnivalConfetti_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalConfetti_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Festivale drum",
-      jp: ""
+      "en": "Festivale drum",
+      "jp": "カーニバルなパーカッション"
     },
     "id": 13774,
-    "source": {
-      en: "Nook's Cranny; Pavé",
-      jp: "Nook's Cranny; Pavé"
-    },
+    "source": "Nook's Cranny; Pavé",
     "map": 0,
+    "event": "Festivale (ready days); Festivale",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Musical Instrument",
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCarnivalSurdo_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalSurdo_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCarnivalSurdo_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalSurdo_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCarnivalSurdo_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalSurdo_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrCarnivalSurdo_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalSurdo_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Rainbow",
-          jp: ""
+          "en": "Rainbow",
+          "jp": "レインボー"
         },
-        "fileName": "FtrCarnivalSurdo_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalSurdo_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Festivale lamp",
-      jp: ""
+      "en": "Festivale lamp",
+      "jp": "カーニバルなランプ"
     },
     "id": 13777,
-    "source": {
-      en: "Nook's Cranny; Pavé",
-      jp: "Nook's Cranny; Pavé"
-    },
+    "source": "Nook's Cranny; Pavé",
     "map": 0,
+    "event": "Festivale (ready days); Festivale",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCarnivalLantern_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalLantern_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCarnivalLantern_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalLantern_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCarnivalLantern_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalLantern_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrCarnivalLantern_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalLantern_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Rainbow",
-          jp: ""
+          "en": "Rainbow",
+          "jp": "レインボー"
         },
-        "fileName": "FtrCarnivalLantern_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCarnivalLantern_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "festive top set",
-      jp: ""
+      "en": "festive top set",
+      "jp": "おまつりのコマ"
     },
     "id": 12230,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "ornaments",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 320
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFestivaltop"
+        "isPattern": false,
+        "imageName": "FtrFestivaltop"
       }
     ]
   },
   {
     "name": {
-      en: "film projector",
-      jp: ""
+      "en": "film projector",
+      "jp": "えいしゃき"
     },
     "id": 3963,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Facility Decor",
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrProjector"
+        "isPattern": false,
+        "imageName": "FtrProjector"
       }
     ]
   },
   {
     "name": {
-      en: "Fire Flower",
-      jp: ""
+      "en": "Fire Flower",
+      "jp": "ファイアフラワー"
     },
     "id": 13826,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Mario",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMarioGrass"
+        "isPattern": false,
+        "imageName": "FtrMarioGrass"
       }
     ]
   },
   {
     "name": {
-      en: "firefly model",
-      jp: ""
+      "en": "firefly model",
+      "jp": "ホタルのもけい"
     },
     "id": 7065,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHotaruToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHotaruToy"
       }
     ]
   },
   {
     "name": {
-      en: "firewood",
-      jp: ""
+      "en": "firewood",
+      "jp": "まき"
     },
     "id": 5970,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 960
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFirewood"
+        "isPattern": false,
+        "imageName": "FtrFirewood"
       }
     ]
   },
   {
     "name": {
-      en: "first-anniversary cake",
-      jp: ""
+      "en": "first-anniversary cake",
+      "jp": "1stアニバーサリーケーキ"
     },
     "id": 14142,
-    "source": {
-      en: "Nintendo",
-      jp: "Nintendo"
-    },
+    "source": "Nintendo",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 20000,
       "sell": 5000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrAnniversaryCake"
+        "isPattern": false,
+        "imageName": "FtrAnniversaryCake"
       }
     ]
   },
   {
     "name": {
-      en: "flea model",
-      jp: ""
+      "en": "flea model",
+      "jp": "ノミのもけい"
     },
     "id": 5935,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 210
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectNomiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectNomiToy"
       }
     ]
   },
   {
     "name": {
-      en: "floating-biotope planter",
-      jp: ""
+      "en": "floating-biotope planter",
+      "jp": "ビオトープ"
     },
     "id": 4094,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Plants",
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrBiotope_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBiotope_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Artistic",
-          jp: ""
+          "en": "Artistic",
+          "jp": "絵付け"
         },
-        "fileName": "FtrBiotope_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBiotope_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrBiotope_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBiotope_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrBiotope_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBiotope_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "floor sign",
-      jp: ""
+      "en": "floor sign",
+      "jp": "フロアサイン"
     },
     "id": 7260,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Vehicle",
     "price": {
       "buy": 890,
       "sell": 222
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Warning",
-          jp: ""
+          "en": "Warning",
+          "jp": "警告"
         },
-        "fileName": "FtrSafetycone_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSafetycone_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Stop",
-          jp: ""
+          "en": "Stop",
+          "jp": "ストップ"
         },
-        "fileName": "FtrSafetycone_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSafetycone_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "No Entry",
-          jp: ""
+          "en": "No Entry",
+          "jp": "立ち入り禁止"
         },
-        "fileName": "FtrSafetycone_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSafetycone_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Slippery",
-          jp: ""
+          "en": "Slippery",
+          "jp": "スリップ注意"
         },
-        "fileName": "FtrSafetycone_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSafetycone_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "No Parking",
-          jp: ""
+          "en": "No Parking",
+          "jp": "駐車禁止"
         },
-        "fileName": "FtrSafetycone_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrSafetycone_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "fly model",
-      jp: ""
+      "en": "fly model",
+      "jp": "ハエのもけい"
     },
     "id": 7060,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 180
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHaeToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHaeToy"
       }
     ]
   },
   {
     "name": {
-      en: "football",
-      jp: ""
+      "en": "football",
+      "jp": "アメフトボール"
     },
     "id": 4381,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Sports",
     "price": {
       "buy": 400,
       "sell": 100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFootball"
+        "isPattern": false,
+        "imageName": "FtrFootball"
       }
     ]
   },
   {
     "name": {
-      en: "football fish model",
-      jp: ""
+      "en": "football fish model",
+      "jp": "チョウチンアンコウのもけい"
     },
     "id": 6940,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishChouchinankouToy"
+        "isPattern": false,
+        "imageName": "FtrFishChouchinankouToy"
       }
     ]
   },
   {
     "name": {
-      en: "fortune-telling set",
-      jp: ""
+      "en": "fortune-telling set",
+      "jp": "うらないセット"
     },
     "id": 3961,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrPsychicset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPsychicset_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrPsychicset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPsychicset_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "fragrance diffuser",
-      jp: ""
+      "en": "fragrance diffuser",
+      "jp": "アロマディフューザー"
     },
     "id": 8418,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Beauty",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrAromadiffuser_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrAromadiffuser_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrAromadiffuser_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrAromadiffuser_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrAromadiffuser_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrAromadiffuser_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrAromadiffuser_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrAromadiffuser_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrAromadiffuser_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrAromadiffuser_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "fragrance sticks",
-      jp: ""
+      "en": "fragrance sticks",
+      "jp": "アロマスティック"
     },
     "id": 10244,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Beauty",
     "price": {
       "buy": 830,
       "sell": 207
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrAromastick_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrAromastick_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrAromastick_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrAromastick_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrAromastick_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrAromastick_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrAromastick_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrAromastick_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "freshwater goby model",
-      jp: ""
+      "en": "freshwater goby model",
+      "jp": "ドンコのもけい"
     },
     "id": 6946,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishDonkoToy"
+        "isPattern": false,
+        "imageName": "FtrFishDonkoToy"
       }
     ]
   },
   {
     "name": {
-      en: "frog model",
-      jp: ""
+      "en": "frog model",
+      "jp": "カエルのもけい"
     },
     "id": 6962,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 360
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKaeruToy"
+        "isPattern": false,
+        "imageName": "FtrFishKaeruToy"
       }
     ]
   },
   {
     "name": {
-      en: "frozen-treat set",
-      jp: ""
+      "en": "frozen-treat set",
+      "jp": "アイスキャンディー"
     },
     "id": 4279,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "snowflakes",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 5400
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Soda",
-          jp: ""
+          "en": "Soda",
+          "jp": "ソーダ"
         },
-        "fileName": "FtrIceCandy_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrIceCandy_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Vanilla & chocolate",
-          jp: ""
+          "en": "Vanilla & chocolate",
+          "jp": "バニラ＆チョコ"
         },
-        "fileName": "FtrIceCandy_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrIceCandy_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Citrus",
-          jp: ""
+          "en": "Citrus",
+          "jp": "シトラス"
         },
-        "fileName": "FtrIceCandy_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrIceCandy_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Berry",
-          jp: ""
+          "en": "Berry",
+          "jp": "ベリー"
         },
-        "fileName": "FtrIceCandy_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrIceCandy_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Kiwifruit",
-          jp: ""
+          "en": "Kiwifruit",
+          "jp": "キウイ"
         },
-        "fileName": "FtrIceCandy_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrIceCandy_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Chocolate mint",
-          jp: ""
+          "en": "Chocolate mint",
+          "jp": "チョコミント"
         },
-        "fileName": "FtrIceCandy_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrIceCandy_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "fruit basket",
-      jp: ""
+      "en": "fruit basket",
+      "jp": "フルーツバスケット"
     },
     "id": 975,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFruitbasket"
+        "isPattern": false,
+        "imageName": "FtrFruitbasket"
       }
     ]
   },
   {
     "name": {
-      en: "frying pan",
-      jp: ""
+      "en": "frying pan",
+      "jp": "フライパン"
     },
     "id": 4104,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Kitchen Things",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Empty",
-          jp: ""
+          "en": "Empty",
+          "jp": "調理前"
         },
-        "fileName": "FtrPan_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPan_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Veggie sauté",
-          jp: ""
+          "en": "Veggie sauté",
+          "jp": "野菜いため"
         },
-        "fileName": "FtrPan_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPan_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pasta",
-          jp: ""
+          "en": "Pasta",
+          "jp": "パスタ"
         },
-        "fileName": "FtrPan_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPan_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Ratatouille",
-          jp: ""
+          "en": "Ratatouille",
+          "jp": "ラタトゥイユ"
         },
-        "fileName": "FtrPan_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPan_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pizza",
-          jp: ""
+          "en": "Pizza",
+          "jp": "ピザ"
         },
-        "fileName": "FtrPan_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPan_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Failed attempt",
-          jp: ""
+          "en": "Failed attempt",
+          "jp": "失敗作"
         },
-        "fileName": "FtrPan_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPan_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "gar model",
-      jp: ""
+      "en": "gar model",
+      "jp": "ガーのもけい"
     },
     "id": 6952,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 18000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishGaToy"
+        "isPattern": false,
+        "imageName": "FtrFishGaToy"
       }
     ]
   },
   {
     "name": {
-      en: "garden gnome",
-      jp: ""
+      "en": "garden gnome",
+      "jp": "ノームのおきもの"
     },
     "id": 1624,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 1900,
       "sell": 475
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Sprightly gnome",
-          jp: ""
+          "en": "Sprightly gnome",
+          "jp": "はつらつノーム"
         },
-        "fileName": "FtrDwarf_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDwarf_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Sleepy gnome",
-          jp: ""
+          "en": "Sleepy gnome",
+          "jp": "ねぼすけノーム"
         },
-        "fileName": "FtrDwarf_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDwarf_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Surprised gnome",
-          jp: ""
+          "en": "Surprised gnome",
+          "jp": "おとぼけノーム"
         },
-        "fileName": "FtrDwarf_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDwarf_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Reliable gnome",
-          jp: ""
+          "en": "Reliable gnome",
+          "jp": "たよれるノーム"
         },
-        "fileName": "FtrDwarf_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDwarf_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Hungry gnome",
-          jp: ""
+          "en": "Hungry gnome",
+          "jp": "はらぺこノーム"
         },
-        "fileName": "FtrDwarf_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDwarf_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Laid-back gnome",
-          jp: ""
+          "en": "Laid-back gnome",
+          "jp": "のんびりノーム"
         },
-        "fileName": "FtrDwarf_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDwarf_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Passionate gnome",
-          jp: ""
+          "en": "Passionate gnome",
+          "jp": "熱血ノーム"
         },
-        "fileName": "FtrDwarf_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrDwarf_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Rebel gnome",
-          jp: ""
+          "en": "Rebel gnome",
+          "jp": "チョイわるノーム"
         },
-        "fileName": "FtrDwarf_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrDwarf_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "giant cicada model",
-      jp: ""
+      "en": "giant cicada model",
+      "jp": "クマゼミのもけい"
     },
     "id": 7078,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKumazemiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKumazemiToy"
       }
     ]
   },
   {
     "name": {
-      en: "giant snakehead model",
-      jp: ""
+      "en": "giant snakehead model",
+      "jp": "ライギョのもけい"
     },
     "id": 7007,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 16500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishRaigyoToy"
+        "isPattern": false,
+        "imageName": "FtrFishRaigyoToy"
       }
     ]
   },
   {
     "name": {
-      en: "giant stag model",
-      jp: ""
+      "en": "giant stag model",
+      "jp": "オオクワガタのもけい"
     },
     "id": 7092,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectOhkuwagataToy"
+        "isPattern": false,
+        "imageName": "FtrInsectOhkuwagataToy"
       }
     ]
   },
   {
     "name": {
-      en: "giant trevally model",
-      jp: ""
+      "en": "giant trevally model",
+      "jp": "ロウニンアジのもけい"
     },
     "id": 7010,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 13500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishRouninajiToy"
+        "isPattern": false,
+        "imageName": "FtrFishRouninajiToy"
       }
     ]
   },
   {
     "name": {
-      en: "giant water bug model",
-      jp: ""
+      "en": "giant water bug model",
+      "jp": "タガメのもけい"
     },
     "id": 7120,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectTagameToy"
+        "isPattern": false,
+        "imageName": "FtrInsectTagameToy"
       }
     ]
   },
   {
     "name": {
-      en: "glass holder with candle",
-      jp: ""
+      "en": "glass holder with candle",
+      "jp": "ガラスのキャンドルホルダー"
     },
     "id": 4230,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 350,
       "sell": 87
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrGlasscandle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrGlasscandle_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrGlasscandle_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrGlasscandle_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrGlasscandle_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrGlasscandle_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrGlasscandle_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrGlasscandle_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrGlasscandle_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrGlasscandle_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrGlasscandle_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrGlasscandle_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "globe",
-      jp: ""
+      "en": "globe",
+      "jp": "ちきゅうぎ"
     },
     "id": 1411,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Space",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Standard",
-          jp: ""
+          "en": "Standard",
+          "jp": "スタンダード"
         },
-        "fileName": "FtrGlobe_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrGlobe_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Sepia",
-          jp: ""
+          "en": "Sepia",
+          "jp": "セピア"
         },
-        "fileName": "FtrGlobe_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrGlobe_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Cool",
-          jp: ""
+          "en": "Cool",
+          "jp": "クール"
         },
-        "fileName": "FtrGlobe_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrGlobe_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "gold bars",
-      jp: ""
+      "en": "gold bars",
+      "jp": "きんののべぼう"
     },
     "id": 3065,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrGoldbar"
+        "isPattern": false,
+        "imageName": "FtrGoldbar"
       }
     ]
   },
   {
     "name": {
-      en: "gold bug trophy",
-      jp: ""
+      "en": "gold bug trophy",
+      "jp": "きんのムシトロフィー"
     },
     "id": 1203,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyInsectGold"
+        "isPattern": false,
+        "imageName": "FtrTrophyInsectGold"
       }
     ]
   },
   {
     "name": {
-      en: "gold fish trophy",
-      jp: ""
+      "en": "gold fish trophy",
+      "jp": "きんのサカナトロフィー"
     },
     "id": 1200,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": "Fishing Tourney",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyFishGold"
+        "isPattern": false,
+        "imageName": "FtrTrophyFishGold"
       }
     ]
   },
   {
     "name": {
-      en: "gold HHA trophy",
-      jp: ""
+      "en": "gold HHA trophy",
+      "jp": "きんのおうちトロフィー"
     },
     "id": 7032,
-    "source": {
-      en: "HHA",
-      jp: "HHA"
-    },
+    "source": "HHA",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyHhaGold"
+        "isPattern": false,
+        "imageName": "FtrTrophyHhaGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden arowana model",
-      jp: ""
+      "en": "golden arowana model",
+      "jp": "きんのアロワナ"
     },
     "id": 11260,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Special Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishArowanaGold"
+        "isPattern": false,
+        "imageName": "FtrFishArowanaGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden candlestick",
-      jp: ""
+      "en": "golden candlestick",
+      "jp": "おうごんのしょくだい"
     },
     "id": 3772,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 20000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrGoldCandlestand"
+        "isPattern": false,
+        "imageName": "FtrGoldCandlestand"
       }
     ]
   },
   {
     "name": {
-      en: "golden dishes",
-      jp: ""
+      "en": "golden dishes",
+      "jp": "おうごんのしょっき"
     },
     "id": 3810,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrGoldDishes"
+        "isPattern": false,
+        "imageName": "FtrGoldDishes"
       }
     ]
   },
   {
     "name": {
-      en: "golden dung beetle",
-      jp: ""
+      "en": "golden dung beetle",
+      "jp": "きんのスカラベ"
     },
     "id": 5941,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKabutomushiGold"
+        "isPattern": false,
+        "imageName": "FtrInsectKabutomushiGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden stag model",
-      jp: ""
+      "en": "golden stag model",
+      "jp": "オウゴンオニクワガタのもけい"
     },
     "id": 7093,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 36000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectOugononikuwagataToy"
+        "isPattern": false,
+        "imageName": "FtrInsectOugononikuwagataToy"
       }
     ]
   },
   {
     "name": {
-      en: "golden trout model",
-      jp: ""
+      "en": "golden trout model",
+      "jp": "ゴールデントラウトのもけい"
     },
     "id": 6953,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 45000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishGoldenTorautoToy"
+        "isPattern": false,
+        "imageName": "FtrFishGoldenTorautoToy"
       }
     ]
   },
   {
     "name": {
-      en: "goldfish model",
-      jp: ""
+      "en": "goldfish model",
+      "jp": "キンギョのもけい"
     },
     "id": 6930,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKingyoToy"
+        "isPattern": false,
+        "imageName": "FtrFishKingyoToy"
       }
     ]
   },
   {
     "name": {
-      en: "grand giraffe stag model",
-      jp: ""
+      "en": "grand giraffe stag model",
+      "jp": "おおいなるクワガタのもけい"
     },
     "id": 7115,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 36000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectGirafanokogirikuwagataToy"
+        "isPattern": false,
+        "imageName": "FtrInsectGirafanokogirikuwagataToy"
       }
     ]
   },
   {
     "name": {
-      en: "grand goliath beetle model",
-      jp: ""
+      "en": "grand goliath beetle model",
+      "jp": "おおいなるハナムグリのもけい"
     },
     "id": 7059,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 24000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectGoraiasuohtsunohanamuguriToy"
+        "isPattern": false,
+        "imageName": "FtrInsectGoraiasuohtsunohanamuguriToy"
       }
     ]
   },
   {
     "name": {
-      en: "grand h. hercules model",
-      jp: ""
+      "en": "grand h. hercules model",
+      "jp": "おおいなるカブトのもけい"
     },
     "id": 5924,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 36000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHerakuresuohkabutoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHerakuresuohkabutoToy"
       }
     ]
   },
   {
     "name": {
-      en: "grasshopper model",
-      jp: ""
+      "en": "grasshopper model",
+      "jp": "キリギリスのもけい"
     },
     "id": 7073,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 480
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKirigirisuToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKirigirisuToy"
       }
     ]
   },
   {
     "name": {
-      en: "great purple emperor model",
-      jp: ""
+      "en": "great purple emperor model",
+      "jp": "オオムラサキのもけい"
     },
     "id": 7113,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 9000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectOhmurasakiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectOhmurasakiToy"
       }
     ]
   },
   {
     "name": {
-      en: "great white shark model",
-      jp: ""
+      "en": "great white shark model",
+      "jp": "サメのもけい"
     },
     "id": 7013,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 45000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishSameToy"
+        "isPattern": false,
+        "imageName": "FtrFishSameToy"
       }
     ]
   },
   {
     "name": {
-      en: "guppy model",
-      jp: ""
+      "en": "guppy model",
+      "jp": "グッピーのもけい"
     },
     "id": 6954,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishGuppiToy"
+        "isPattern": false,
+        "imageName": "FtrFishGuppiToy"
       }
     ]
   },
   {
     "name": {
-      en: "hammerhead shark model",
-      jp: ""
+      "en": "hammerhead shark model",
+      "jp": "シュモクザメのもけい"
     },
     "id": 7015,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 24000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishShumokuzameToy"
+        "isPattern": false,
+        "imageName": "FtrFishShumokuzameToy"
       }
     ]
   },
   {
     "name": {
-      en: "hamster cage",
-      jp: ""
+      "en": "hamster cage",
+      "jp": "ハムスターのかご"
     },
     "id": 1348,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Animal",
     "price": {
       "buy": 870,
       "sell": 217
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrHamstercage_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHamstercage_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrHamstercage_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHamstercage_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrHamstercage_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHamstercage_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrHamstercage_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHamstercage_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrHamstercage_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrHamstercage_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "handy water cooler",
-      jp: ""
+      "en": "handy water cooler",
+      "jp": "ウォータージャグ"
     },
     "id": 3960,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrWaterjug_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWaterjug_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrWaterjug_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWaterjug_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrWaterjug_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrWaterjug_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrWaterjug_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrWaterjug_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Avocado",
-          jp: ""
+          "en": "Avocado",
+          "jp": "カーキ"
         },
-        "fileName": "FtrWaterjug_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrWaterjug_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Plaid",
-          jp: ""
+          "en": "Plaid",
+          "jp": "チェック柄"
         },
-        "fileName": "FtrWaterjug_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrWaterjug_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "heart-shaped bouquet",
-      jp: ""
+      "en": "heart-shaped bouquet",
+      "jp": "ハートのバラブーケ"
     },
     "id": 14029,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Valentine's Day (Nook Shopping)",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrRosebouquetHeart_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrRosebouquetHeart_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrRosebouquetHeart_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrRosebouquetHeart_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrRosebouquetHeart_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrRosebouquetHeart_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrRosebouquetHeart_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrRosebouquetHeart_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRosebouquetHeart_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrRosebouquetHeart_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRosebouquetHeart_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrRosebouquetHeart_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Hello Kitty planter",
-      jp: ""
+      "en": "Hello Kitty planter",
+      "jp": "ハローキティなプランター"
     },
     "id": 12272,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Hello Kitty",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioKtyPlanter"
+        "isPattern": false,
+        "imageName": "FtrSanrioKtyPlanter"
       }
     ]
   },
   {
     "name": {
-      en: "hermit crab model",
-      jp: ""
+      "en": "hermit crab model",
+      "jp": "ヤドカリのもけい"
     },
     "id": 7108,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectYadokariToy"
+        "isPattern": false,
+        "imageName": "FtrInsectYadokariToy"
       }
     ]
   },
   {
     "name": {
-      en: "holiday candle",
-      jp: ""
+      "en": "holiday candle",
+      "jp": "クリスマスキャンドル"
     },
     "id": 891,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "ornaments",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCandleXmas_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCandleXmas_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCandleXmas_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCandleXmas_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrCandleXmas_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCandleXmas_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrCandleXmas_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCandleXmas_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrCandleXmas_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCandleXmas_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "homework set",
-      jp: ""
+      "en": "homework set",
+      "jp": "おべんきょうセット"
     },
     "id": 3968,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 330,
       "sell": 82
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrStudySet"
+        "isPattern": false,
+        "imageName": "FtrStudySet"
       }
     ]
   },
   {
     "name": {
-      en: "honeybee model",
-      jp: ""
+      "en": "honeybee model",
+      "jp": "ミツバチのもけい"
     },
     "id": 5928,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMitsubachiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMitsubachiToy"
       }
     ]
   },
   {
     "name": {
-      en: "horned atlas model",
-      jp: ""
+      "en": "horned atlas model",
+      "jp": "コーカサスオオカブトのもけい"
     },
     "id": 7075,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 24000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKohkasasuohkabutoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKohkasasuohkabutoToy"
       }
     ]
   },
   {
     "name": {
-      en: "horned dynastid model",
-      jp: ""
+      "en": "horned dynastid model",
+      "jp": "カブトムシのもけい"
     },
     "id": 5938,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4050
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKabutomushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKabutomushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "horned elephant model",
-      jp: ""
+      "en": "horned elephant model",
+      "jp": "ゾウカブトのもけい"
     },
     "id": 7110,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 24000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectZoukabutoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectZoukabutoToy"
       }
     ]
   },
   {
     "name": {
-      en: "horse mackerel model",
-      jp: ""
+      "en": "horse mackerel model",
+      "jp": "アジのもけい"
     },
     "id": 6932,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishAjiToy"
+        "isPattern": false,
+        "imageName": "FtrFishAjiToy"
       }
     ]
   },
   {
     "name": {
-      en: "hourglass",
-      jp: ""
+      "en": "hourglass",
+      "jp": "すなどけい"
     },
     "id": 1892,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 660,
       "sell": 165
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrSandglass_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSandglass_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrSandglass_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSandglass_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrSandglass_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSandglass_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrSandglass_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSandglass_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "hula doll",
-      jp: ""
+      "en": "hula doll",
+      "jp": "フラダンスにんぎょう"
     },
     "id": 690,
-    "source": {
-      en: "Gulliver",
-      jp: "Gulliver"
-    },
+    "source": "Gulliver",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Folk Craft Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrHuladoll_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHuladoll_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrHuladoll_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHuladoll_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrHuladoll_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHuladoll_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrHuladoll_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHuladoll_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrHuladoll_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrHuladoll_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Beige",
-          jp: ""
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "FtrHuladoll_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrHuladoll_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "humidifier",
-      jp: ""
+      "en": "humidifier",
+      "jp": "かしつき"
     },
     "id": 1836,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrHumidifier_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHumidifier_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrHumidifier_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHumidifier_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrHumidifier_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHumidifier_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrHumidifier_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHumidifier_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrHumidifier_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrHumidifier_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrHumidifier_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrHumidifier_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrHumidifier_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrHumidifier_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrHumidifier_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrHumidifier_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "hyacinth lamp",
-      jp: ""
+      "en": "hyacinth lamp",
+      "jp": "ヒヤシンスのランプ"
     },
     "id": 7234,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrFlowerLamp_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerLamp_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrFlowerLamp_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerLamp_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrFlowerLamp_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerLamp_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "incense burner",
-      jp: ""
+      "en": "incense burner",
+      "jp": "おこう"
     },
     "id": 997,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Beauty",
     "price": {
       "buy": 880,
       "sell": 220
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Rose",
-          jp: ""
+          "en": "Rose",
+          "jp": "ローズ"
         },
-        "fileName": "FtrIncense_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrIncense_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Sandalwood",
-          jp: ""
+          "en": "Sandalwood",
+          "jp": "白檀"
         },
-        "fileName": "FtrIncense_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrIncense_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Deep sea",
-          jp: ""
+          "en": "Deep sea",
+          "jp": "深海"
         },
-        "fileName": "FtrIncense_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrIncense_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Forest",
-          jp: ""
+          "en": "Forest",
+          "jp": "森林"
         },
-        "fileName": "FtrIncense_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrIncense_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Cherry blossoms",
-          jp: ""
+          "en": "Cherry blossoms",
+          "jp": "桜"
         },
-        "fileName": "FtrIncense_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrIncense_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Tea",
-          jp: ""
+          "en": "Tea",
+          "jp": "茶"
         },
-        "fileName": "FtrIncense_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrIncense_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "infused-water dispenser",
-      jp: ""
+      "en": "infused-water dispenser",
+      "jp": "フルーツウォーターサーバー"
     },
     "id": 4107,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Kitchen Things",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFruitswater"
+        "isPattern": false,
+        "imageName": "FtrFruitswater"
       }
     ]
   },
   {
     "name": {
-      en: "ironing set",
-      jp: ""
+      "en": "ironing set",
+      "jp": "アイロン"
     },
     "id": 1838,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Blue",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 820,
       "sell": 205
     },
-    "count": 4,
+    "count": {
+      "variants": 1,
+      "patterns": 3
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrIron_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrIron_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrIron_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrIron_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrIron_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrIron_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrIron_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrIron_Remake_0_3"
       }
     ]
   },
   {
     "name": {
-      en: "jewel beetle model",
-      jp: ""
+      "en": "jewel beetle model",
+      "jp": "タマムシのもけい"
     },
     "id": 7099,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectTamamushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectTamamushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "judge's bell",
-      jp: ""
+      "en": "judge's bell",
+      "jp": "ゴング"
     },
     "id": 1456,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Sports",
     "price": {
       "buy": 920,
       "sell": 230
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrGong"
+        "isPattern": false,
+        "imageName": "FtrGong"
       }
     ]
   },
   {
     "name": {
-      en: "kagamimochi",
-      jp: ""
+      "en": "kagamimochi",
+      "jp": "かがみもち"
     },
     "id": 1005,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Shōgatsu (2)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Japanese Style",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrKagamimochi"
+        "isPattern": false,
+        "imageName": "FtrKagamimochi"
       }
     ]
   },
   {
     "name": {
-      en: "katana",
-      jp: ""
+      "en": "katana",
+      "jp": "にほんとう"
     },
     "id": 3407,
-    "source": {
-      en: "Gulliver",
-      jp: "Gulliver"
-    },
+    "source": "Gulliver",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Japanese Style",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2500
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "黒"
         },
-        "fileName": "FtrJapanSword_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrJapanSword_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dark blue",
-          jp: ""
+          "en": "Dark blue",
+          "jp": "紺"
         },
-        "fileName": "FtrJapanSword_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrJapanSword_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "白"
         },
-        "fileName": "FtrJapanSword_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrJapanSword_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "赤"
         },
-        "fileName": "FtrJapanSword_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrJapanSword_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "金"
         },
-        "fileName": "FtrJapanSword_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrJapanSword_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Kerokerokeroppi doll",
-      jp: ""
+      "en": "Kerokerokeroppi doll",
+      "jp": "てるてるなにんぎょう"
     },
     "id": 12274,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kerokerokeroppi",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioKkkDoll"
+        "isPattern": false,
+        "imageName": "FtrSanrioKkkDoll"
       }
     ]
   },
   {
     "name": {
-      en: "Kerokerokeroppi snack",
-      jp: ""
+      "en": "Kerokerokeroppi snack",
+      "jp": "けろけろけろっぴなおかし"
     },
     "id": 12253,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kerokerokeroppi",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioKkkSweets"
+        "isPattern": false,
+        "imageName": "FtrSanrioKkkSweets"
       }
     ]
   },
   {
     "name": {
-      en: "kettle",
-      jp: ""
+      "en": "kettle",
+      "jp": "やかん"
     },
     "id": 724,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 710,
       "sell": 177
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrKettleJapan"
+        "isPattern": false,
+        "imageName": "FtrKettleJapan"
       }
     ]
   },
   {
     "name": {
-      en: "kettlebell",
-      jp: ""
+      "en": "kettlebell",
+      "jp": "ケトルベル"
     },
     "id": 7535,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Sports",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3750
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrKettlebell_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrKettlebell_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrKettlebell_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrKettlebell_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrKettlebell_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrKettlebell_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrKettlebell_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrKettlebell_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrKettlebell_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrKettlebell_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrKettlebell_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrKettlebell_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "killifish model",
-      jp: ""
+      "en": "killifish model",
+      "jp": "メダカのもけい"
     },
     "id": 6985,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishMedakaToy"
+        "isPattern": false,
+        "imageName": "FtrFishMedakaToy"
       }
     ]
   },
   {
     "name": {
-      en: "king salmon model",
-      jp: ""
+      "en": "king salmon model",
+      "jp": "キングサーモンのもけい"
     },
     "id": 6978,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 5400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKingsalmonToy"
+        "isPattern": false,
+        "imageName": "FtrFishKingsalmonToy"
       }
     ]
   },
   {
     "name": {
-      en: "knife block",
-      jp: ""
+      "en": "knife block",
+      "jp": "ほうちょうスタンド"
     },
     "id": 7804,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrKniferack_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrKniferack_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrKniferack_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrKniferack_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrKniferack_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrKniferack_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "koi model",
-      jp: ""
+      "en": "koi model",
+      "jp": "ニシキゴイのもけい"
     },
     "id": 6991,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 12000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishNishikigoiToy"
+        "isPattern": false,
+        "imageName": "FtrFishNishikigoiToy"
       }
     ]
   },
   {
     "name": {
-      en: "lab-experiments set",
-      jp: ""
+      "en": "lab-experiments set",
+      "jp": "じっけんセット"
     },
     "id": 4016,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "School",
     "price": {
       "buy": 6000,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrExperimentset"
+        "isPattern": false,
+        "imageName": "FtrExperimentset"
       }
     ]
   },
   {
     "name": {
-      en: "ladybug model",
-      jp: ""
+      "en": "ladybug model",
+      "jp": "テントウムシのもけい"
     },
     "id": 7102,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectTentoumushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectTentoumushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "lantern",
-      jp: ""
+      "en": "lantern",
+      "jp": "ランタン"
     },
     "id": 1432,
-    "source": {
-      en: "Starting items",
-      jp: "Starting items"
-    },
+    "source": "Starting items",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 1900,
       "sell": 475
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLantern_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrLantern_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLantern_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrLantern_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrLantern_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrLantern_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrLantern_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrLantern_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrLantern_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrLantern_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrLantern_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrLantern_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrLantern_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrLantern_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrLantern_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrLantern_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "laptop",
-      jp: ""
+      "en": "laptop",
+      "jp": "ノートパソコン"
     },
     "id": 1850,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Chat tool",
+    "diy": false,
     "tag": "Office",
     "price": {
       "buy": 70000,
       "sell": 17500
     },
-    "count": 42,
+    "count": {
+      "variants": 7,
+      "patterns": 35
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrLaptop_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrLaptop_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrLaptop_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrLaptop_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrLaptop_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrLaptop_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_0_4"
       },
       {
         "id": "0_5",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrLaptop_Remake_0_5"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_0_5"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrLaptop_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrLaptop_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrLaptop_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrLaptop_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrLaptop_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_1_3"
       },
       {
         "id": "1_4",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrLaptop_Remake_1_4"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_1_4"
       },
       {
         "id": "1_5",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrLaptop_Remake_1_5"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_1_5"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrLaptop_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrLaptop_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrLaptop_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrLaptop_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrLaptop_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_2_3"
       },
       {
         "id": "2_4",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrLaptop_Remake_2_4"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_2_4"
       },
       {
         "id": "2_5",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrLaptop_Remake_2_5"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_2_5"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLaptop_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrLaptop_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLaptop_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLaptop_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLaptop_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_3_3"
       },
       {
         "id": "3_4",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLaptop_Remake_3_4"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_3_4"
       },
       {
         "id": "3_5",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLaptop_Remake_3_5"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_3_5"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrLaptop_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrLaptop_Remake_4_0"
       },
       {
         "id": "4_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrLaptop_Remake_4_1"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_4_1"
       },
       {
         "id": "4_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrLaptop_Remake_4_2"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_4_2"
       },
       {
         "id": "4_3",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrLaptop_Remake_4_3"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_4_3"
       },
       {
         "id": "4_4",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrLaptop_Remake_4_4"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_4_4"
       },
       {
         "id": "4_5",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrLaptop_Remake_4_5"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_4_5"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLaptop_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrLaptop_Remake_5_0"
       },
       {
         "id": "5_1",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLaptop_Remake_5_1"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_5_1"
       },
       {
         "id": "5_2",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLaptop_Remake_5_2"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_5_2"
       },
       {
         "id": "5_3",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLaptop_Remake_5_3"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_5_3"
       },
       {
         "id": "5_4",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLaptop_Remake_5_4"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_5_4"
       },
       {
         "id": "5_5",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLaptop_Remake_5_5"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_5_5"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrLaptop_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrLaptop_Remake_6_0"
       },
       {
         "id": "6_1",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrLaptop_Remake_6_1"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_6_1"
       },
       {
         "id": "6_2",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrLaptop_Remake_6_2"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_6_2"
       },
       {
         "id": "6_3",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrLaptop_Remake_6_3"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_6_3"
       },
       {
         "id": "6_4",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrLaptop_Remake_6_4"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_6_4"
       },
       {
         "id": "6_5",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrLaptop_Remake_6_5"
+        "isPattern": true,
+        "imageName": "FtrLaptop_Remake_6_5"
       }
     ]
   },
   {
     "name": {
-      en: "LCD TV (20 in.)",
-      jp: ""
+      "en": "LCD TV (20 in.)",
+      "jp": "えきしょうテレビ 20インチ"
     },
     "id": 3333,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "TV",
     "price": {
       "buy": 60000,
       "sell": 15000
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTV20inch_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inch_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTV20inch_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inch_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrTV20inch_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inch_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTV20inch_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inch_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrTV20inch_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inch_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTV20inch_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inch_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrTV20inch_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inch_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrTV20inch_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrTV20inch_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "LCD TV (50 in.)",
-      jp: ""
+      "en": "LCD TV (50 in.)",
+      "jp": "えきしょうテレビ 50インチ"
     },
     "id": 3252,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "TV",
     "price": {
       "buy": 99000,
       "sell": 24750
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTV50inch_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inch_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTV50inch_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inch_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrTV50inch_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inch_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTV50inch_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inch_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTV50inch_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTV50inch_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Libra scale",
-      jp: ""
+      "en": "Libra scale",
+      "jp": "リブラのてんびん"
     },
     "id": 3774,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Libra",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Facility Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 21750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrZodiacLibra"
+        "isPattern": false,
+        "imageName": "FtrZodiacLibra"
       }
     ]
   },
   {
     "name": {
-      en: "life ring",
-      jp: ""
+      "en": "life ring",
+      "jp": "うきわ"
     },
     "id": 7148,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Chair",
     "price": {
       "buy": 360,
       "sell": 90
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrLifebelt_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrLifebelt_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrLifebelt_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrLifebelt_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrLifebelt_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrLifebelt_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrLifebelt_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrLifebelt_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "loach model",
-      jp: ""
+      "en": "loach model",
+      "jp": "ドジョウのもけい"
     },
     "id": 6944,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishDojouToy"
+        "isPattern": false,
+        "imageName": "FtrFishDojouToy"
       }
     ]
   },
   {
     "name": {
-      en: "long locust model",
-      jp: ""
+      "en": "long locust model",
+      "jp": "ショウリョウバッタのもけい"
     },
     "id": 7097,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectShoryobattaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectShoryobattaToy"
       }
     ]
   },
   {
     "name": {
-      en: "lucky cat",
-      jp: ""
+      "en": "lucky cat",
+      "jp": "まねきねこ"
     },
     "id": 131,
-    "source": {
-      en: "Gulliver",
-      jp: "Gulliver"
-    },
+    "source": "Gulliver",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Shop",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1675
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "白"
         },
-        "fileName": "FtrManekineko_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrManekineko_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "黒"
         },
-        "fileName": "FtrManekineko_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrManekineko_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "lucky gold cat",
-      jp: ""
+      "en": "lucky gold cat",
+      "jp": "きんのまねきねこ"
     },
     "id": 9814,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Shop",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 21675
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrManekinekoGold"
+        "isPattern": false,
+        "imageName": "FtrManekinekoGold"
       }
     ]
   },
   {
     "name": {
-      en: "M. sunset moth model",
-      jp: ""
+      "en": "M. sunset moth model",
+      "jp": "ニシキオオツバメガのもけい"
     },
     "id": 7117,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectNishikiohtsubamegaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectNishikiohtsubamegaToy"
       }
     ]
   },
   {
     "name": {
-      en: "magazine",
-      jp: ""
+      "en": "magazine",
+      "jp": "ざっし"
     },
     "id": 3586,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Pop stars",
+    "diy": false,
     "tag": "Study",
     "price": {
       "buy": 210,
       "sell": 52
     },
-    "count": 7,
+    "count": {
+      "variants": 1,
+      "patterns": 6
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagineOpened_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMagagineOpened_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagineOpened_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrMagagineOpened_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagineOpened_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrMagagineOpened_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagineOpened_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrMagagineOpened_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagineOpened_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrMagagineOpened_Remake_0_4"
       },
       {
         "id": "0_5",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagineOpened_Remake_0_5"
+        "isPattern": true,
+        "imageName": "FtrMagagineOpened_Remake_0_5"
       },
       {
         "id": "0_6",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagineOpened_Remake_0_6"
+        "isPattern": true,
+        "imageName": "FtrMagagineOpened_Remake_0_6"
       }
     ]
   },
   {
     "name": {
-      en: "magazine rack",
-      jp: ""
+      "en": "magazine rack",
+      "jp": "マガジンラック"
     },
     "id": 1032,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "Weekly news",
+    "diy": true,
     "tag": "Study",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 690
     },
-    "count": 56,
+    "count": {
+      "variants": 8,
+      "patterns": 48
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrMagazinerack_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMagazinerack_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrMagazinerack_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrMagazinerack_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrMagazinerack_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrMagazinerack_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_0_4"
       },
       {
         "id": "0_5",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrMagazinerack_Remake_0_5"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_0_5"
       },
       {
         "id": "0_6",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrMagazinerack_Remake_0_6"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_0_6"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrMagazinerack_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMagazinerack_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrMagazinerack_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrMagazinerack_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrMagazinerack_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_1_3"
       },
       {
         "id": "1_4",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrMagazinerack_Remake_1_4"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_1_4"
       },
       {
         "id": "1_5",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrMagazinerack_Remake_1_5"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_1_5"
       },
       {
         "id": "1_6",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrMagazinerack_Remake_1_6"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_1_6"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMagazinerack_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMagazinerack_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMagazinerack_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMagazinerack_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMagazinerack_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_2_3"
       },
       {
         "id": "2_4",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMagazinerack_Remake_2_4"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_2_4"
       },
       {
         "id": "2_5",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMagazinerack_Remake_2_5"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_2_5"
       },
       {
         "id": "2_6",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMagazinerack_Remake_2_6"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_2_6"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMagazinerack_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMagazinerack_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMagazinerack_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMagazinerack_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMagazinerack_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_3_3"
       },
       {
         "id": "3_4",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMagazinerack_Remake_3_4"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_3_4"
       },
       {
         "id": "3_5",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMagazinerack_Remake_3_5"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_3_5"
       },
       {
         "id": "3_6",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMagazinerack_Remake_3_6"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_3_6"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMagazinerack_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMagazinerack_Remake_4_0"
       },
       {
         "id": "4_1",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMagazinerack_Remake_4_1"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_4_1"
       },
       {
         "id": "4_2",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMagazinerack_Remake_4_2"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_4_2"
       },
       {
         "id": "4_3",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMagazinerack_Remake_4_3"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_4_3"
       },
       {
         "id": "4_4",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMagazinerack_Remake_4_4"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_4_4"
       },
       {
         "id": "4_5",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMagazinerack_Remake_4_5"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_4_5"
       },
       {
         "id": "4_6",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMagazinerack_Remake_4_6"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_4_6"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMagazinerack_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMagazinerack_Remake_5_0"
       },
       {
         "id": "5_1",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMagazinerack_Remake_5_1"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_5_1"
       },
       {
         "id": "5_2",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMagazinerack_Remake_5_2"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_5_2"
       },
       {
         "id": "5_3",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMagazinerack_Remake_5_3"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_5_3"
       },
       {
         "id": "5_4",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMagazinerack_Remake_5_4"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_5_4"
       },
       {
         "id": "5_5",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMagazinerack_Remake_5_5"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_5_5"
       },
       {
         "id": "5_6",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMagazinerack_Remake_5_6"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_5_6"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMagazinerack_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrMagazinerack_Remake_6_0"
       },
       {
         "id": "6_1",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMagazinerack_Remake_6_1"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_6_1"
       },
       {
         "id": "6_2",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMagazinerack_Remake_6_2"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_6_2"
       },
       {
         "id": "6_3",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMagazinerack_Remake_6_3"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_6_3"
       },
       {
         "id": "6_4",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMagazinerack_Remake_6_4"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_6_4"
       },
       {
         "id": "6_5",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMagazinerack_Remake_6_5"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_6_5"
       },
       {
         "id": "6_6",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMagazinerack_Remake_6_6"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_6_6"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMagazinerack_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrMagazinerack_Remake_7_0"
       },
       {
         "id": "7_1",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMagazinerack_Remake_7_1"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_7_1"
       },
       {
         "id": "7_2",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMagazinerack_Remake_7_2"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_7_2"
       },
       {
         "id": "7_3",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMagazinerack_Remake_7_3"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_7_3"
       },
       {
         "id": "7_4",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMagazinerack_Remake_7_4"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_7_4"
       },
       {
         "id": "7_5",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMagazinerack_Remake_7_5"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_7_5"
       },
       {
         "id": "7_6",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMagazinerack_Remake_7_6"
+        "isPattern": true,
+        "imageName": "FtrMagazinerack_Remake_7_6"
       }
     ]
   },
   {
     "name": {
-      en: "magic kit",
-      jp: ""
+      "en": "magic kit",
+      "jp": "てじなセット"
     },
     "id": 4392,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 980,
       "sell": 245
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMagicset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMagicset_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMagicset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMagicset_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "mahi-mahi model",
-      jp: ""
+      "en": "mahi-mahi model",
+      "jp": "シイラのもけい"
     },
     "id": 7014,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 18000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishShiiraToy"
+        "isPattern": false,
+        "imageName": "FtrFishShiiraToy"
       }
     ]
   },
   {
     "name": {
-      en: "man-faced stink bug model",
-      jp: ""
+      "en": "man-faced stink bug model",
+      "jp": "ジンメンカメムシのもけい"
     },
     "id": 7116,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectJinmenkamemushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectJinmenkamemushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "mantis model",
-      jp: ""
+      "en": "mantis model",
+      "jp": "カマキリのもけい"
     },
     "id": 7068,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1290
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKamakiriToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKamakiriToy"
       }
     ]
   },
   {
     "name": {
-      en: "matryoshka",
-      jp: ""
+      "en": "matryoshka",
+      "jp": "マトリョーシカ"
     },
     "id": 1652,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Folk Craft Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMatryoshka_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMatryoshka_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMatryoshka_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMatryoshka_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMatryoshka_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMatryoshka_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMatryoshka_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMatryoshka_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMatryoshka_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMatryoshka_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "metal can",
-      jp: ""
+      "en": "metal can",
+      "jp": "いっとかん"
     },
     "id": 7262,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Vehicle",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrIttocan"
+        "isPattern": false,
+        "imageName": "FtrIttocan"
       }
     ]
   },
   {
     "name": {
-      en: "metronome",
-      jp: ""
+      "en": "metronome",
+      "jp": "メトロノーム"
     },
     "id": 1042,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Musical Instrument",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMetronome_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMetronome_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Cream",
-          jp: ""
+          "en": "Cream",
+          "jp": "クリーム"
         },
-        "fileName": "FtrMetronome_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMetronome_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMetronome_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMetronome_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMetronome_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMetronome_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrMetronome_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMetronome_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "microscope",
-      jp: ""
+      "en": "microscope",
+      "jp": "けんびきょう"
     },
     "id": 1319,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Hospital",
     "price": {
       "buy": 3100,
       "sell": 775
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMicroscope_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMicroscope_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrMicroscope_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMicroscope_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMicroscope_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMicroscope_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "microwave",
-      jp: ""
+      "en": "microwave",
+      "jp": "でんしレンジ"
     },
     "id": 1043,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 3000,
       "sell": 750
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMicrowave_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMicrowave_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMicrowave_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMicrowave_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMicrowave_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMicrowave_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMicrowave_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMicrowave_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "migratory locust model",
-      jp: ""
+      "en": "migratory locust model",
+      "jp": "トノサマバッタのもけい"
     },
     "id": 7103,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectTonosamabattaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectTonosamabattaToy"
       }
     ]
   },
   {
     "name": {
-      en: "mini circuit",
-      jp: ""
+      "en": "mini circuit",
+      "jp": "ミニサーキット"
     },
     "id": 13250,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Toy Day (ready days phase 1); Toy Day (ready days phase 2); Toy Day; Toy Day (day after)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 3800,
       "sell": 950
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red & white",
-          jp: ""
+          "en": "Red & white",
+          "jp": "レッド＆ホワイト"
         },
-        "fileName": "FtrCrsCircuit_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCrsCircuit_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue & yellow",
-          jp: ""
+          "en": "Blue & yellow",
+          "jp": "ブルー＆イエロー"
         },
-        "fileName": "FtrCrsCircuit_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCrsCircuit_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black & silver",
-          jp: ""
+          "en": "Black & silver",
+          "jp": "ブラック＆シルバー"
         },
-        "fileName": "FtrCrsCircuit_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCrsCircuit_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink & purple",
-          jp: ""
+          "en": "Pink & purple",
+          "jp": "ピンク＆パープル"
         },
-        "fileName": "FtrCrsCircuit_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCrsCircuit_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "mini-cactus set",
-      jp: ""
+      "en": "mini-cactus set",
+      "jp": "ミニサボテンセット"
     },
     "id": 4123,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Plants",
     "price": {
       "buy": 400,
       "sell": 100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCactusesMini"
+        "isPattern": false,
+        "imageName": "FtrCactusesMini"
       }
     ]
   },
   {
     "name": {
-      en: "mitten crab model",
-      jp: ""
+      "en": "mitten crab model",
+      "jp": "シャンハイガニのもけい"
     },
     "id": 7019,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishSyanhaiganiToy"
+        "isPattern": false,
+        "imageName": "FtrFishSyanhaiganiToy"
       }
     ]
   },
   {
     "name": {
-      en: "mixer",
-      jp: ""
+      "en": "mixer",
+      "jp": "ミキサー"
     },
     "id": 1050,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Tomatoes",
-          jp: ""
+          "en": "Tomatoes",
+          "jp": "トマト"
         },
-        "fileName": "FtrMixer_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMixer_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green smoothie",
-          jp: ""
+          "en": "Green smoothie",
+          "jp": "青汁"
         },
-        "fileName": "FtrMixer_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMixer_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Carrots",
-          jp: ""
+          "en": "Carrots",
+          "jp": "キャロット"
         },
-        "fileName": "FtrMixer_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMixer_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Oranges",
-          jp: ""
+          "en": "Oranges",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrMixer_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMixer_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blueberries",
-          jp: ""
+          "en": "Blueberries",
+          "jp": "ブルーベリー"
         },
-        "fileName": "FtrMixer_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMixer_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Bananas",
-          jp: ""
+          "en": "Bananas",
+          "jp": "バナナ"
         },
-        "fileName": "FtrMixer_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMixer_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Strawberries",
-          jp: ""
+          "en": "Strawberries",
+          "jp": "ストロベリー"
         },
-        "fileName": "FtrMixer_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrMixer_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Kiwifruit",
-          jp: ""
+          "en": "Kiwifruit",
+          "jp": "キウイ"
         },
-        "fileName": "FtrMixer_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrMixer_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "miyama stag model",
-      jp: ""
+      "en": "miyama stag model",
+      "jp": "ミヤマクワガタのもけい"
     },
     "id": 7083,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMiyamakuwagataToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMiyamakuwagataToy"
       }
     ]
   },
   {
     "name": {
-      en: "modeling clay",
-      jp: ""
+      "en": "modeling clay",
+      "jp": "ねんどのおもちゃ"
     },
     "id": 7258,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 400
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Beginning stages",
-          jp: ""
+          "en": "Beginning stages",
+          "jp": "作り始め"
         },
-        "fileName": "FtrClaytoy_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrClaytoy_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dinosaur",
-          jp: ""
+          "en": "Dinosaur",
+          "jp": "恐竜"
         },
-        "fileName": "FtrClaytoy_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrClaytoy_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Cake",
-          jp: ""
+          "en": "Cake",
+          "jp": "ケーキ"
         },
-        "fileName": "FtrClaytoy_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrClaytoy_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Colorful dinosaur",
-          jp: ""
+          "en": "Colorful dinosaur",
+          "jp": "カラフル恐竜"
         },
-        "fileName": "FtrClaytoy_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrClaytoy_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Colorful cake",
-          jp: ""
+          "en": "Colorful cake",
+          "jp": "カラフルケーキ"
         },
-        "fileName": "FtrClaytoy_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrClaytoy_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Clay dinosaur",
-          jp: ""
+          "en": "Clay dinosaur",
+          "jp": "陶土の恐竜"
         },
-        "fileName": "FtrClaytoy_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrClaytoy_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Clay cake",
-          jp: ""
+          "en": "Clay cake",
+          "jp": "陶土のケーキ"
         },
-        "fileName": "FtrClaytoy_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrClaytoy_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "mole cricket model",
-      jp: ""
+      "en": "mole cricket model",
+      "jp": "オケラのもけい"
     },
     "id": 7089,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectOkeraToy"
+        "isPattern": false,
+        "imageName": "FtrInsectOkeraToy"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's candle set",
-      jp: ""
+      "en": "Mom's candle set",
+      "jp": "ははのキャンドル"
     },
     "id": 7143,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Cubes",
-          jp: ""
+          "en": "Cubes",
+          "jp": "キューブ"
         },
-        "fileName": "FtrMomCandle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomCandle_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Elegant flowers",
-          jp: ""
+          "en": "Elegant flowers",
+          "jp": "エレガントフラワー"
         },
-        "fileName": "FtrMomCandle_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomCandle_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Chic flowers",
-          jp: ""
+          "en": "Chic flowers",
+          "jp": "シックフラワー"
         },
-        "fileName": "FtrMomCandle_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomCandle_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pastel",
-          jp: ""
+          "en": "Pastel",
+          "jp": "ポップ"
         },
-        "fileName": "FtrMomCandle_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomCandle_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Fairy tale",
-          jp: ""
+          "en": "Fairy tale",
+          "jp": "メルヘン"
         },
-        "fileName": "FtrMomCandle_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomCandle_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Marine",
-          jp: ""
+          "en": "Marine",
+          "jp": "マリン"
         },
-        "fileName": "FtrMomCandle_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomCandle_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's cushion",
-      jp: ""
+      "en": "Mom's cushion",
+      "jp": "ははのクッション"
     },
     "id": 7144,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Chair",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red with hearts",
-          jp: ""
+          "en": "Red with hearts",
+          "jp": "レッドキルト"
         },
-        "fileName": "FtrMomCushion_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomCushion_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue with flowers",
-          jp: ""
+          "en": "Blue with flowers",
+          "jp": "ブルーフラワー"
         },
-        "fileName": "FtrMomCushion_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomCushion_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Colorful quilt",
-          jp: ""
+          "en": "Colorful quilt",
+          "jp": "カラフルキルト"
         },
-        "fileName": "FtrMomCushion_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomCushion_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pop flowers",
-          jp: ""
+          "en": "Pop flowers",
+          "jp": "ポップフラワー"
         },
-        "fileName": "FtrMomCushion_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomCushion_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Animal",
-          jp: ""
+          "en": "Animal",
+          "jp": "ファンシーアニマル"
         },
-        "fileName": "FtrMomCushion_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomCushion_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Denim",
-          jp: ""
+          "en": "Denim",
+          "jp": "デニム"
         },
-        "fileName": "FtrMomCushion_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomCushion_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's homemade cake",
-      jp: ""
+      "en": "Mom's homemade cake",
+      "jp": "ははのてづくりケーキ"
     },
     "id": 7146,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": "Birthday",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Cat",
-          jp: ""
+          "en": "Cat",
+          "jp": "キャット"
         },
-        "fileName": "FtrMomCake_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomCake_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Strawberry & flowers",
-          jp: ""
+          "en": "Strawberry & flowers",
+          "jp": "ストロベリー＆フラワー"
         },
-        "fileName": "FtrMomCake_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomCake_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Carrot",
-          jp: ""
+          "en": "Carrot",
+          "jp": "キャロット"
         },
-        "fileName": "FtrMomCake_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomCake_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Dog",
-          jp: ""
+          "en": "Dog",
+          "jp": "ローズ"
         },
-        "fileName": "FtrMomCake_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomCake_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Bird",
-          jp: ""
+          "en": "Bird",
+          "jp": "バード"
         },
-        "fileName": "FtrMomCake_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomCake_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Chocolate",
-          jp: ""
+          "en": "Chocolate",
+          "jp": "チョコ"
         },
-        "fileName": "FtrMomCake_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomCake_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's pen stand",
-      jp: ""
+      "en": "Mom's pen stand",
+      "jp": "ははのペンたて"
     },
     "id": 7141,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Study",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Striped house",
-          jp: ""
+          "en": "Striped house",
+          "jp": "ストライプハウス"
         },
-        "fileName": "FtrMomPenstand_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomPenstand_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Stone house",
-          jp: ""
+          "en": "Stone house",
+          "jp": "ストーンハウス"
         },
-        "fileName": "FtrMomPenstand_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomPenstand_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brick house",
-          jp: ""
+          "en": "Brick house",
+          "jp": "ブリックハウス"
         },
-        "fileName": "FtrMomPenstand_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomPenstand_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Fairy-tale house",
-          jp: ""
+          "en": "Fairy-tale house",
+          "jp": "メルヘンハウス"
         },
-        "fileName": "FtrMomPenstand_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomPenstand_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Simple house",
-          jp: ""
+          "en": "Simple house",
+          "jp": "シンプルハウス"
         },
-        "fileName": "FtrMomPenstand_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomPenstand_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Wood house",
-          jp: ""
+          "en": "Wood house",
+          "jp": "ウッドハウス"
         },
-        "fileName": "FtrMomPenstand_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomPenstand_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's plushie",
-      jp: ""
+      "en": "Mom's plushie",
+      "jp": "ははのぬいぐるみ"
     },
     "id": 7147,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Bedford",
-          jp: ""
+          "en": "Bedford",
+          "jp": "マイケル"
         },
-        "fileName": "FtrMomDoll_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomDoll_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dot",
-          jp: ""
+          "en": "Dot",
+          "jp": "ブチ"
         },
-        "fileName": "FtrMomDoll_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomDoll_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Puppers",
-          jp: ""
+          "en": "Puppers",
+          "jp": "ワンコ"
         },
-        "fileName": "FtrMomDoll_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomDoll_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pippa",
-          jp: ""
+          "en": "Pippa",
+          "jp": "メーガン"
         },
-        "fileName": "FtrMomDoll_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomDoll_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gertie",
-          jp: ""
+          "en": "Gertie",
+          "jp": "もぬっち"
         },
-        "fileName": "FtrMomDoll_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomDoll_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Roary",
-          jp: ""
+          "en": "Roary",
+          "jp": "まんじろ"
         },
-        "fileName": "FtrMomDoll_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomDoll_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's tea cozy",
-      jp: ""
+      "en": "Mom's tea cozy",
+      "jp": "ははのポットカバー"
     },
     "id": 7138,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Patterned",
-          jp: ""
+          "en": "Patterned",
+          "jp": "パターン"
         },
-        "fileName": "FtrMomPot_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomPot_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green & white",
-          jp: ""
+          "en": "Green & white",
+          "jp": "アニマル"
         },
-        "fileName": "FtrMomPot_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomPot_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "フラワー"
         },
-        "fileName": "FtrMomPot_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomPot_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ケーキ&ベア"
         },
-        "fileName": "FtrMomPot_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomPot_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue cat",
-          jp: ""
+          "en": "Blue cat",
+          "jp": "キャラ"
         },
-        "fileName": "FtrMomPot_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomPot_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Blue & gray",
-          jp: ""
+          "en": "Blue & gray",
+          "jp": "ワッペン&ボタン"
         },
-        "fileName": "FtrMomPot_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomPot_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Mom's tissue box",
-      jp: ""
+      "en": "Mom's tissue box",
+      "jp": "ははのティッシュケース"
     },
     "id": 7140,
-    "source": {
-      en: "Mom",
-      jp: "Mom"
-    },
+    "source": "Mom",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 88
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Quilted pattern",
-          jp: ""
+          "en": "Quilted pattern",
+          "jp": "キルトパターン"
         },
-        "fileName": "FtrMomTissue_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMomTissue_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Flowers",
-          jp: ""
+          "en": "Flowers",
+          "jp": "フラワー"
         },
-        "fileName": "FtrMomTissue_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMomTissue_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Quilted animals",
-          jp: ""
+          "en": "Quilted animals",
+          "jp": "アニマルキルト"
         },
-        "fileName": "FtrMomTissue_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMomTissue_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Fanciful quilted pattern",
-          jp: ""
+          "en": "Fanciful quilted pattern",
+          "jp": "ファンシーキルト"
         },
-        "fileName": "FtrMomTissue_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMomTissue_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Fruits",
-          jp: ""
+          "en": "Fruits",
+          "jp": "フルーツ"
         },
-        "fileName": "FtrMomTissue_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMomTissue_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Denim with stripes",
-          jp: ""
+          "en": "Denim with stripes",
+          "jp": "デニムストライプ"
         },
-        "fileName": "FtrMomTissue_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMomTissue_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "monarch butterfly model",
-      jp: ""
+      "en": "monarch butterfly model",
+      "jp": "オオカバマダラのもけい"
     },
     "id": 7091,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 420
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectOhkabamadaraToy"
+        "isPattern": false,
+        "imageName": "FtrInsectOhkabamadaraToy"
       }
     ]
   },
   {
     "name": {
-      en: "moray eel model",
-      jp: ""
+      "en": "moray eel model",
+      "jp": "ウツボのもけい"
     },
     "id": 7025,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishUtsuboToy"
+        "isPattern": false,
+        "imageName": "FtrFishUtsuboToy"
       }
     ]
   },
   {
     "name": {
-      en: "mosquito model",
-      jp: ""
+      "en": "mosquito model",
+      "jp": "カのもけい"
     },
     "id": 5936,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 390
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKaToy"
       }
     ]
   },
   {
     "name": {
-      en: "moss ball",
-      jp: ""
+      "en": "moss ball",
+      "jp": "こけだま"
     },
     "id": 109,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Plants",
     "price": {
       "buy": 720,
       "sell": 180
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBonsaiKokedama"
+        "isPattern": false,
+        "imageName": "FtrBonsaiKokedama"
       }
     ]
   },
   {
     "name": {
-      en: "moth model",
-      jp: ""
+      "en": "moth model",
+      "jp": "ガのもけい"
     },
     "id": 7056,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 390
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectGaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectGaToy"
       }
     ]
   },
   {
     "name": {
-      en: "mug",
-      jp: ""
+      "en": "mug",
+      "jp": "マグカップ"
     },
     "id": 1870,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Cheese",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 460,
       "sell": 115
     },
-    "count": 48,
+    "count": {
+      "variants": 8,
+      "patterns": 40
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMug_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMug_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMug_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMug_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMug_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMug_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_0_4"
       },
       {
         "id": "0_5",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrMug_Remake_0_5"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_0_5"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMug_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMug_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMug_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMug_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMug_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_1_3"
       },
       {
         "id": "1_4",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMug_Remake_1_4"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_1_4"
       },
       {
         "id": "1_5",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrMug_Remake_1_5"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_1_5"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMug_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMug_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMug_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMug_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMug_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_2_3"
       },
       {
         "id": "2_4",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMug_Remake_2_4"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_2_4"
       },
       {
         "id": "2_5",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrMug_Remake_2_5"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_2_5"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMug_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrMug_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMug_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMug_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMug_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_3_3"
       },
       {
         "id": "3_4",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMug_Remake_3_4"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_3_4"
       },
       {
         "id": "3_5",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrMug_Remake_3_5"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_3_5"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMug_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrMug_Remake_4_0"
       },
       {
         "id": "4_1",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMug_Remake_4_1"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_4_1"
       },
       {
         "id": "4_2",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMug_Remake_4_2"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_4_2"
       },
       {
         "id": "4_3",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMug_Remake_4_3"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_4_3"
       },
       {
         "id": "4_4",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMug_Remake_4_4"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_4_4"
       },
       {
         "id": "4_5",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrMug_Remake_4_5"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_4_5"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrMug_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrMug_Remake_5_0"
       },
       {
         "id": "5_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrMug_Remake_5_1"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_5_1"
       },
       {
         "id": "5_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrMug_Remake_5_2"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_5_2"
       },
       {
         "id": "5_3",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrMug_Remake_5_3"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_5_3"
       },
       {
         "id": "5_4",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrMug_Remake_5_4"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_5_4"
       },
       {
         "id": "5_5",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrMug_Remake_5_5"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_5_5"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrMug_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrMug_Remake_6_0"
       },
       {
         "id": "6_1",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrMug_Remake_6_1"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_6_1"
       },
       {
         "id": "6_2",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrMug_Remake_6_2"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_6_2"
       },
       {
         "id": "6_3",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrMug_Remake_6_3"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_6_3"
       },
       {
         "id": "6_4",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrMug_Remake_6_4"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_6_4"
       },
       {
         "id": "6_5",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrMug_Remake_6_5"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_6_5"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMug_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrMug_Remake_7_0"
       },
       {
         "id": "7_1",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMug_Remake_7_1"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_7_1"
       },
       {
         "id": "7_2",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMug_Remake_7_2"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_7_2"
       },
       {
         "id": "7_3",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMug_Remake_7_3"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_7_3"
       },
       {
         "id": "7_4",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMug_Remake_7_4"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_7_4"
       },
       {
         "id": "7_5",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrMug_Remake_7_5"
+        "isPattern": true,
+        "imageName": "FtrMug_Remake_7_5"
       }
     ]
   },
   {
     "name": {
-      en: "nail-art set",
-      jp: ""
+      "en": "nail-art set",
+      "jp": "ネイルアートセット"
     },
     "id": 4076,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Beauty",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrNailartset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrNailartset_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrNailartset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrNailartset_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "Napoleonfish model",
-      jp: ""
+      "en": "Napoleonfish model",
+      "jp": "ナポレオンフィッシュのもけい"
     },
     "id": 6989,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishNaporeonfishToy"
+        "isPattern": false,
+        "imageName": "FtrFishNaporeonfishToy"
       }
     ]
   },
   {
     "name": {
-      en: "neon tetra model",
-      jp: ""
+      "en": "neon tetra model",
+      "jp": "ネオンテトラのもけい"
     },
     "id": 6990,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishNeontetoraToy"
+        "isPattern": false,
+        "imageName": "FtrFishNeontetoraToy"
       }
     ]
   },
   {
     "name": {
-      en: "New Year's noodles",
-      jp: ""
+      "en": "New Year's noodles",
+      "jp": "としこしそば"
     },
     "id": 13797,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Ōmisoka",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSobaNewyears"
+        "isPattern": false,
+        "imageName": "FtrSobaNewyears"
       }
     ]
   },
   {
     "name": {
-      en: "Newton's cradle",
-      jp: ""
+      "en": "Newton's cradle",
+      "jp": "ニュートンのゆりかご"
     },
     "id": 8464,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Facility Decor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCradleNewton"
+        "isPattern": false,
+        "imageName": "FtrCradleNewton"
       }
     ]
   },
   {
     "name": {
-      en: "nibble fish model",
-      jp: ""
+      "en": "nibble fish model",
+      "jp": "ドクターフィッシュのもけい"
     },
     "id": 6945,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishDokutaafishToy"
+        "isPattern": false,
+        "imageName": "FtrFishDokutaafishToy"
       }
     ]
   },
   {
     "name": {
-      en: "Nintendo Switch",
-      jp: ""
+      "en": "Nintendo Switch",
+      "jp": "Nintendo Switch"
     },
     "id": 12543,
-    "source": {
-      en: "Nintendo; Nook Shopping Daily Selection",
-      jp: "Nintendo; Nook Shopping Daily Selection"
-    },
+    "source": "Nintendo; Nook Shopping Daily Selection",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.1.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Game Console",
     "price": {
       "buy": 29980,
       "sell": 7495
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Neon blue & neon red",
-          jp: ""
+          "en": "Neon blue & neon red",
+          "jp": "ネオンブルー・ネオンレッド"
         },
-        "fileName": "FtrSwitch_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSwitch_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrSwitch_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSwitch_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "Nintendo Switch Lite",
-      jp: ""
+      "en": "Nintendo Switch Lite",
+      "jp": "Nintendo Switch Lite"
     },
     "id": 13927,
-    "source": {
-      en: "Nook Shopping Daily Selection",
-      jp: "Nook Shopping Daily Selection"
-    },
+    "source": "Nook Shopping Daily Selection",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Game Console",
     "price": {
       "buy": 19980,
       "sell": 4995
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "ターコイズ"
         },
-        "fileName": "FtrSwitchLite_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSwitchLite_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrSwitchLite_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSwitchLite_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Coral",
-          jp: ""
+          "en": "Coral",
+          "jp": "コーラル"
         },
-        "fileName": "FtrSwitchLite_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSwitchLite_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrSwitchLite_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSwitchLite_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "nova light",
-      jp: ""
+      "en": "nova light",
+      "jp": "スターライト"
     },
     "id": 6826,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2500
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrStarLamp_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrStarLamp_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrStarLamp_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrStarLamp_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrStarLamp_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrStarLamp_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrStarLamp_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrStarLamp_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrStarLamp_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrStarLamp_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrStarLamp_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrStarLamp_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrStarLamp_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrStarLamp_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "nuptial ring pillow",
-      jp: ""
+      "en": "nuptial ring pillow",
+      "jp": "リングピロー"
     },
     "id": 14477,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Wedding Season (Nook Shopping 2)",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Beauty",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrWeddingRingpillow_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingRingpillow_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrWeddingRingpillow_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingRingpillow_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red & white",
-          jp: ""
+          "en": "Red & white",
+          "jp": "レッド×ホワイト"
         },
-        "fileName": "FtrWeddingRingpillow_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingRingpillow_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "nutcracker",
-      jp: ""
+      "en": "nutcracker",
+      "jp": "くるみわりにんぎょう"
     },
     "id": 7284,
-    "source": {
-      en: "Gulliver",
-      jp: "Gulliver"
-    },
+    "source": "Gulliver",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Folk Craft Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrNutcracker_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrNutcracker_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrNutcracker_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrNutcracker_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "oarfish model",
-      jp: ""
+      "en": "oarfish model",
+      "jp": "リュウグウノツカイのもけい"
     },
     "id": 7011,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 27000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishRyuuguunotukaiToy"
+        "isPattern": false,
+        "imageName": "FtrFishRyuuguunotukaiToy"
       }
     ]
   },
   {
     "name": {
-      en: "oil lamp",
-      jp: ""
+      "en": "oil lamp",
+      "jp": "アルコールランプ"
     },
     "id": 3654,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 400,
       "sell": 100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSpiritlamp"
+        "isPattern": false,
+        "imageName": "FtrSpiritlamp"
       }
     ]
   },
   {
     "name": {
-      en: "old-fashioned alarm clock",
-      jp: ""
+      "en": "old-fashioned alarm clock",
+      "jp": "ベルつきアラームクロック"
     },
     "id": 4111,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Clock",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrClockBell_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrClockBell_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrClockBell_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrClockBell_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrClockBell_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrClockBell_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrClockBell_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrClockBell_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrClockBell_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrClockBell_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Copper",
-          jp: ""
+          "en": "Copper",
+          "jp": "ブロンズ"
         },
-        "fileName": "FtrClockBell_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrClockBell_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrClockBell_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrClockBell_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrClockBell_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrClockBell_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "old-fashioned washtub",
-      jp: ""
+      "en": "old-fashioned washtub",
+      "jp": "せんたくおけ"
     },
     "id": 4393,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Bathroom Things",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 360
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrWashtub"
+        "isPattern": false,
+        "imageName": "FtrWashtub"
       }
     ]
   },
   {
     "name": {
-      en: "olive flounder model",
-      jp: ""
+      "en": "olive flounder model",
+      "jp": "ヒラメのもけい"
     },
     "id": 6957,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishHirameToy"
+        "isPattern": false,
+        "imageName": "FtrFishHirameToy"
       }
     ]
   },
   {
     "name": {
-      en: "Olivier salad",
-      jp: ""
+      "en": "Olivier salad",
+      "jp": "オリビエサラダ"
     },
     "id": 13799,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "New Year's Day (Russia)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrOliviersalad"
+        "isPattern": false,
+        "imageName": "FtrOliviersalad"
       }
     ]
   },
   {
     "name": {
-      en: "orchid mantis model",
-      jp: ""
+      "en": "orchid mantis model",
+      "jp": "ハナカマキリのもけい"
     },
     "id": 7061,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHanakamakiriToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHanakamakiriToy"
       }
     ]
   },
   {
     "name": {
-      en: "painting set",
-      jp: ""
+      "en": "painting set",
+      "jp": "おえかきセット"
     },
     "id": 3965,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Still life",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 510,
       "sell": 127
     },
-    "count": 16,
+    "count": {
+      "variants": 4,
+      "patterns": 12
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPaintset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPaintset_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPaintset_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPaintset_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPaintset_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_0_3"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPaintset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPaintset_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPaintset_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPaintset_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPaintset_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_1_3"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrPaintset_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPaintset_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrPaintset_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrPaintset_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrPaintset_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_2_3"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPaintset_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPaintset_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPaintset_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPaintset_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPaintset_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrPaintset_Remake_3_3"
       }
     ]
   },
   {
     "name": {
-      en: "pale chub model",
-      jp: ""
+      "en": "pale chub model",
+      "jp": "オイカワのもけい"
     },
     "id": 7000,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishOikawaToy"
+        "isPattern": false,
+        "imageName": "FtrFishOikawaToy"
       }
     ]
   },
   {
     "name": {
-      en: "paper kite butterfly model",
-      jp: ""
+      "en": "paper kite butterfly model",
+      "jp": "オオゴマダラのもけい"
     },
     "id": 7112,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectOhgomamadaraToy"
+        "isPattern": false,
+        "imageName": "FtrInsectOhgomamadaraToy"
       }
     ]
   },
   {
     "name": {
-      en: "paper tiger",
-      jp: ""
+      "en": "paper tiger",
+      "jp": "はりこのとら"
     },
     "id": 689,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Japanese Style",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrHarikoTiger"
+        "isPattern": false,
+        "imageName": "FtrHarikoTiger"
       }
     ]
   },
   {
     "name": {
-      en: "peach surprise box",
-      jp: ""
+      "en": "peach surprise box",
+      "jp": "モモのビックリばこ"
     },
     "id": 4128,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2480
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White peach",
-          jp: ""
+          "en": "White peach",
+          "jp": "白桃"
         },
-        "fileName": "FtrFruitsBox_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFruitsBox_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow peach",
-          jp: ""
+          "en": "Yellow peach",
+          "jp": "黄桃"
         },
-        "fileName": "FtrFruitsBox_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFruitsBox_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "peacock butterfly model",
-      jp: ""
+      "en": "peacock butterfly model",
+      "jp": "カラスアゲハのもけい"
     },
     "id": 7071,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKarasuagehaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKarasuagehaToy"
       }
     ]
   },
   {
     "name": {
-      en: "pedal board",
-      jp: ""
+      "en": "pedal board",
+      "jp": "エフェクターセット"
     },
     "id": 7257,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Musical Instrument",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrEffectorset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrEffectorset_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrEffectorset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrEffectorset_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrEffectorset_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrEffectorset_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "pet food bowl",
-      jp: ""
+      "en": "pet food bowl",
+      "jp": "ペットのごはん"
     },
     "id": 7801,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 830,
       "sell": 207
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrPetFood_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPetFood_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrPetFood_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPetFood_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrPetFood_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPetFood_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrPetFood_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPetFood_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPetFood_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPetFood_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "phonograph",
-      jp: ""
+      "en": "phonograph",
+      "jp": "ちくおんき"
     },
     "id": 794,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Audio",
     "price": {
       "buy": 53000,
       "sell": 13250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrPhonograph"
+        "isPattern": false,
+        "imageName": "FtrPhonograph"
       }
     ]
   },
   {
     "name": {
-      en: "picnic basket",
-      jp: ""
+      "en": "picnic basket",
+      "jp": "ピクニックバスケット"
     },
     "id": 1082,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Outdoors Decor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrPicnicbasket_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPicnicbasket_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrPicnicbasket_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPicnicbasket_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPicnicbasket_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPicnicbasket_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrPicnicbasket_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPicnicbasket_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPicnicbasket_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPicnicbasket_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrPicnicbasket_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPicnicbasket_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "pike model",
-      jp: ""
+      "en": "pike model",
+      "jp": "パイクのもけい"
     },
     "id": 7004,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 5400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishPaikuToy"
+        "isPattern": false,
+        "imageName": "FtrFishPaikuToy"
       }
     ]
   },
   {
     "name": {
-      en: "pill bug model",
-      jp: ""
+      "en": "pill bug model",
+      "jp": "ダンゴムシのもけい"
     },
     "id": 7054,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectDangomushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectDangomushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "pine bonsai tree",
-      jp: ""
+      "en": "pine bonsai tree",
+      "jp": "マツのぼんさい"
     },
     "id": 3802,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "acorns and pine cones",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBonsaiPine"
+        "isPattern": false,
+        "imageName": "FtrBonsaiPine"
       }
     ]
   },
   {
     "name": {
-      en: "piranha model",
-      jp: ""
+      "en": "piranha model",
+      "jp": "ピラニアのもけい"
     },
     "id": 7005,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishPiraniaToy"
+        "isPattern": false,
+        "imageName": "FtrFishPiraniaToy"
       }
     ]
   },
   {
     "name": {
-      en: "plasma ball",
-      jp: ""
+      "en": "plasma ball",
+      "jp": "プラズマボール"
     },
     "id": 4105,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrPlasmaball"
+        "isPattern": false,
+        "imageName": "FtrPlasmaball"
       }
     ]
   },
   {
     "name": {
-      en: "plastic canister",
-      jp: ""
+      "en": "plastic canister",
+      "jp": "ポリタンク"
     },
     "id": 1881,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Outdoors Decor",
     "price": {
       "buy": 680,
       "sell": 170
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrPolytank_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPolytank_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrPolytank_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPolytank_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrPolytank_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPolytank_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPolytank_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPolytank_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrPolytank_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPolytank_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Pocket modern camper",
-      jp: ""
+      "en": "Pocket modern camper",
+      "jp": "キャンピングカーのもけいB"
     },
     "id": 12372,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.1.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Compass",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Ketchup and mustard",
-          jp: ""
+          "en": "Ketchup and mustard",
+          "jp": "フードショップ"
         },
-        "fileName": "FtrCompassCarB_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarB_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Lumberjack",
-          jp: ""
+          "en": "Lumberjack",
+          "jp": "レッドギンガム"
         },
-        "fileName": "FtrCompassCarB_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarB_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Classic camo",
-          jp: ""
+          "en": "Classic camo",
+          "jp": "カモフラージュ"
         },
-        "fileName": "FtrCompassCarB_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarB_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Playtime",
-          jp: ""
+          "en": "Playtime",
+          "jp": "カラフル・トイ"
         },
-        "fileName": "FtrCompassCarB_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarB_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Splatter up",
-          jp: ""
+          "en": "Splatter up",
+          "jp": "バックストリート"
         },
-        "fileName": "FtrCompassCarB_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarB_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Hot dog",
-          jp: ""
+          "en": "Hot dog",
+          "jp": "ホットドッグ"
         },
-        "fileName": "FtrCompassCarB_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarB_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Pocket vintage camper",
-      jp: ""
+      "en": "Pocket vintage camper",
+      "jp": "キャンピングカーのもけいA"
     },
     "id": 12373,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.1.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Compass",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Polka-dot party",
-          jp: ""
+          "en": "Polka-dot party",
+          "jp": "ピンクドット"
         },
-        "fileName": "FtrCompassCarA_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarA_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Royal coach",
-          jp: ""
+          "en": "Royal coach",
+          "jp": "ロイヤル"
         },
-        "fileName": "FtrCompassCarA_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarA_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Patched together",
-          jp: ""
+          "en": "Patched together",
+          "jp": "ツギハギ"
         },
-        "fileName": "FtrCompassCarA_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarA_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Painter's palette",
-          jp: ""
+          "en": "Painter's palette",
+          "jp": "パステル"
         },
-        "fileName": "FtrCompassCarA_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarA_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Retro ride",
-          jp: ""
+          "en": "Retro ride",
+          "jp": "レトロパターン"
         },
-        "fileName": "FtrCompassCarA_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarA_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Southwestern flair",
-          jp: ""
+          "en": "Southwestern flair",
+          "jp": "キリム"
         },
-        "fileName": "FtrCompassCarA_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCompassCarA_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "Pompompurin pudding",
-      jp: ""
+      "en": "Pompompurin pudding",
+      "jp": "ポムポムプリンなプリン"
     },
     "id": 12258,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Pompompurin",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSanrioPppPudding"
+        "isPattern": false,
+        "imageName": "FtrSanrioPppPudding"
       }
     ]
   },
   {
     "name": {
-      en: "pond smelt model",
-      jp: ""
+      "en": "pond smelt model",
+      "jp": "ワカサギのもけい"
     },
     "id": 7026,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishWakasagiToy"
+        "isPattern": false,
+        "imageName": "FtrFishWakasagiToy"
       }
     ]
   },
   {
     "name": {
-      en: "pondskater model",
-      jp: ""
+      "en": "pondskater model",
+      "jp": "アメンボのもけい"
     },
     "id": 7052,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 390
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectAmenboToy"
+        "isPattern": false,
+        "imageName": "FtrInsectAmenboToy"
       }
     ]
   },
   {
     "name": {
-      en: "pop-eyed goldfish model",
-      jp: ""
+      "en": "pop-eyed goldfish model",
+      "jp": "デメキンのもけい"
     },
     "id": 6942,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishDemekinToy"
+        "isPattern": false,
+        "imageName": "FtrFishDemekinToy"
       }
     ]
   },
   {
     "name": {
-      en: "pop-up book",
-      jp: ""
+      "en": "pop-up book",
+      "jp": "しかけえほん"
     },
     "id": 13246,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Toy Day (ready days phase 1); Toy Day (ready days phase 2); Toy Day; Toy Day (day after)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "The ocean blue",
-          jp: ""
+          "en": "The ocean blue",
+          "jp": "大海原"
         },
-        "fileName": "FtrCrsPopupbook_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCrsPopupbook_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "The Mesozoic world",
-          jp: ""
+          "en": "The Mesozoic world",
+          "jp": "太古の世界"
         },
-        "fileName": "FtrCrsPopupbook_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCrsPopupbook_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Savannah",
-          jp: ""
+          "en": "Savannah",
+          "jp": "サバンナ"
         },
-        "fileName": "FtrCrsPopupbook_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCrsPopupbook_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Flowers",
-          jp: ""
+          "en": "Flowers",
+          "jp": "お花畑"
         },
-        "fileName": "FtrCrsPopupbook_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCrsPopupbook_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "pop-up toaster",
-      jp: ""
+      "en": "pop-up toaster",
+      "jp": "ポップアップトースター"
     },
     "id": 3282,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 2300,
       "sell": 575
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrToaster_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrToaster_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrToaster_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrToaster_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrToaster_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrToaster_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrToaster_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrToaster_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrToaster_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrToaster_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrToaster_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrToaster_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "portable radio",
-      jp: ""
+      "en": "portable radio",
+      "jp": "けいたいラジオ"
     },
     "id": 3697,
-    "source": {
-      en: "Starting items",
-      jp: "Starting items"
-    },
+    "source": "Starting items",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Audio",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPortableradio_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPortableradio_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPortableradio_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPortableradio_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrPortableradio_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPortableradio_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPortableradio_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPortableradio_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrPortableradio_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPortableradio_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrPortableradio_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPortableradio_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrPortableradio_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrPortableradio_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrPortableradio_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrPortableradio_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "portable record player",
-      jp: ""
+      "en": "portable record player",
+      "jp": "ポータブルレコードプレーヤー"
     },
     "id": 4338,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Audio",
     "price": {
       "buy": 4000,
       "sell": 1000
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrPortablerecordplayer_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPortablerecordplayer_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPortablerecordplayer_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPortablerecordplayer_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrPortablerecordplayer_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPortablerecordplayer_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrPortablerecordplayer_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPortablerecordplayer_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrPortablerecordplayer_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPortablerecordplayer_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrPortablerecordplayer_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPortablerecordplayer_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrPortablerecordplayer_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrPortablerecordplayer_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "pot",
-      jp: ""
+      "en": "pot",
+      "jp": "かめ"
     },
     "id": 2559,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Japanese Style",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1000
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrKame_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrKame_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrKame_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrKame_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrKame_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrKame_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Beige",
-          jp: ""
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "FtrKame_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrKame_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrKame_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrKame_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "pro tape recorder",
-      jp: ""
+      "en": "pro tape recorder",
+      "jp": "オープンリールデッキ"
     },
     "id": 3822,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Audio",
     "price": {
       "buy": 5400,
       "sell": 1350
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrReelrecorder_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrReelrecorder_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrReelrecorder_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrReelrecorder_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrReelrecorder_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrReelrecorder_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "protein shaker bottle",
-      jp: ""
+      "en": "protein shaker bottle",
+      "jp": "プロテインシェイカー"
     },
     "id": 7800,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Sports",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Plain",
-          jp: ""
+          "en": "Plain",
+          "jp": "プレーン"
         },
-        "fileName": "FtrProtein_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrProtein_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Vanilla flavored",
-          jp: ""
+          "en": "Vanilla flavored",
+          "jp": "バニラ風味"
         },
-        "fileName": "FtrProtein_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrProtein_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Cocoa flavored",
-          jp: ""
+          "en": "Cocoa flavored",
+          "jp": "ココア風味"
         },
-        "fileName": "FtrProtein_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrProtein_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Strawberry flavored",
-          jp: ""
+          "en": "Strawberry flavored",
+          "jp": "ストロベリー風味"
         },
-        "fileName": "FtrProtein_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrProtein_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "puffer fish model",
-      jp: ""
+      "en": "puffer fish model",
+      "jp": "ハリセンボンのもけい"
     },
     "id": 6956,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishHarisenbonToy"
+        "isPattern": false,
+        "imageName": "FtrFishHarisenbonToy"
       }
     ]
   },
   {
     "name": {
-      en: "puppy plushie",
-      jp: ""
+      "en": "puppy plushie",
+      "jp": "いぬのぬいぐるみ"
     },
     "id": 13243,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Toy Day (ready days phase 1); Toy Day (ready days phase 2); Toy Day; Toy Day (day after)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 2400,
       "sell": 600
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Beige",
-          jp: ""
+          "en": "Beige",
+          "jp": "ベージュ"
         },
-        "fileName": "FtrCrsDogtoy_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDogtoy_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCrsDogtoy_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDogtoy_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Lemon & white",
-          jp: ""
+          "en": "Lemon & white",
+          "jp": "レモン＆ホワイト"
         },
-        "fileName": "FtrCrsDogtoy_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDogtoy_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Spotted",
-          jp: ""
+          "en": "Spotted",
+          "jp": "スポット"
         },
-        "fileName": "FtrCrsDogtoy_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDogtoy_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCrsDogtoy_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDogtoy_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Tricolored",
-          jp: ""
+          "en": "Tricolored",
+          "jp": "トライカラー"
         },
-        "fileName": "FtrCrsDogtoy_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDogtoy_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Gray & white",
-          jp: ""
+          "en": "Gray & white",
+          "jp": "グレー＆ホワイト"
         },
-        "fileName": "FtrCrsDogtoy_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDogtoy_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrCrsDogtoy_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrCrsDogtoy_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "R. Brooke's birdwing model",
-      jp: ""
+      "en": "R. Brooke's birdwing model",
+      "jp": "アカエリトリバネアゲハのもけい"
     },
     "id": 7049,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectAkaeritoribaneagehaToy"
+        "isPattern": false,
+        "imageName": "FtrInsectAkaeritoribaneagehaToy"
       }
     ]
   },
   {
     "name": {
-      en: "rainbow stag model",
-      jp: ""
+      "en": "rainbow stag model",
+      "jp": "ニジイロクワガタのもけい"
     },
     "id": 7088,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 18000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectNijiirokuwagataToy"
+        "isPattern": false,
+        "imageName": "FtrInsectNijiirokuwagataToy"
       }
     ]
   },
   {
     "name": {
-      en: "rainbowfish model",
-      jp: ""
+      "en": "rainbowfish model",
+      "jp": "レインボーフィッシュのもけい"
     },
     "id": 7008,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishRainbowfishToy"
+        "isPattern": false,
+        "imageName": "FtrFishRainbowfishToy"
       }
     ]
   },
   {
     "name": {
-      en: "ranchu goldfish model",
-      jp: ""
+      "en": "ranchu goldfish model",
+      "jp": "ランチュウのもけい"
     },
     "id": 7009,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 13500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishRanchuToy"
+        "isPattern": false,
+        "imageName": "FtrFishRanchuToy"
       }
     ]
   },
   {
     "name": {
-      en: "rattan table lamp",
-      jp: ""
+      "en": "rattan table lamp",
+      "jp": "ラタンのテーブルランプ"
     },
     "id": 4050,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrRattanLamp_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrRattanLamp_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Reddish brown",
-          jp: ""
+          "en": "Reddish brown",
+          "jp": "レッドブラウン"
         },
-        "fileName": "FtrRattanLamp_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrRattanLamp_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light brown",
-          jp: ""
+          "en": "Light brown",
+          "jp": "ライトブラウン"
         },
-        "fileName": "FtrRattanLamp_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrRattanLamp_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRattanLamp_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrRattanLamp_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrRattanLamp_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrRattanLamp_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRattanLamp_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrRattanLamp_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "rattan towel basket",
-      jp: ""
+      "en": "rattan towel basket",
+      "jp": "ラタンのタオルバスケット"
     },
     "id": 4048,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Bathroom Things",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrRattanBasket_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrRattanBasket_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Reddish brown",
-          jp: ""
+          "en": "Reddish brown",
+          "jp": "レッドブラウン"
         },
-        "fileName": "FtrRattanBasket_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrRattanBasket_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light brown",
-          jp: ""
+          "en": "Light brown",
+          "jp": "ライトブラウン"
         },
-        "fileName": "FtrRattanBasket_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrRattanBasket_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRattanBasket_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrRattanBasket_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrRattanBasket_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrRattanBasket_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRattanBasket_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrRattanBasket_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "ray model",
-      jp: ""
+      "en": "ray model",
+      "jp": "エイのもけい"
     },
     "id": 6949,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 9000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishEiToy"
+        "isPattern": false,
+        "imageName": "FtrFishEiToy"
       }
     ]
   },
   {
     "name": {
-      en: "record box",
-      jp: ""
+      "en": "record box",
+      "jp": "レコードボックス"
     },
     "id": 8096,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Various",
+    "diy": false,
     "tag": "Musical Instrument",
     "price": {
       "buy": 2600,
       "sell": 650
     },
-    "count": 32,
+    "count": {
+      "variants": 8,
+      "patterns": 24
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRecordbox_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrRecordbox_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRecordbox_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRecordbox_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRecordbox_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_0_3"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRecordbox_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrRecordbox_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRecordbox_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRecordbox_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRecordbox_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_1_3"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrRecordbox_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrRecordbox_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrRecordbox_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrRecordbox_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrRecordbox_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_2_3"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrRecordbox_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrRecordbox_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrRecordbox_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrRecordbox_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrRecordbox_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_3_3"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrRecordbox_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrRecordbox_Remake_4_0"
       },
       {
         "id": "4_1",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrRecordbox_Remake_4_1"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_4_1"
       },
       {
         "id": "4_2",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrRecordbox_Remake_4_2"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_4_2"
       },
       {
         "id": "4_3",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrRecordbox_Remake_4_3"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_4_3"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrRecordbox_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrRecordbox_Remake_5_0"
       },
       {
         "id": "5_1",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrRecordbox_Remake_5_1"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_5_1"
       },
       {
         "id": "5_2",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrRecordbox_Remake_5_2"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_5_2"
       },
       {
         "id": "5_3",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrRecordbox_Remake_5_3"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_5_3"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrRecordbox_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrRecordbox_Remake_6_0"
       },
       {
         "id": "6_1",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrRecordbox_Remake_6_1"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_6_1"
       },
       {
         "id": "6_2",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrRecordbox_Remake_6_2"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_6_2"
       },
       {
         "id": "6_3",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrRecordbox_Remake_6_3"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_6_3"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrRecordbox_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrRecordbox_Remake_7_0"
       },
       {
         "id": "7_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrRecordbox_Remake_7_1"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_7_1"
       },
       {
         "id": "7_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrRecordbox_Remake_7_2"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_7_2"
       },
       {
         "id": "7_3",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrRecordbox_Remake_7_3"
+        "isPattern": true,
+        "imageName": "FtrRecordbox_Remake_7_3"
       }
     ]
   },
   {
     "name": {
-      en: "recycled-can thumb piano",
-      jp: ""
+      "en": "recycled-can thumb piano",
+      "jp": "あきかんカリンバ"
     },
     "id": 7045,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Musical Instrument",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 890
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Unlabeled can",
-          jp: ""
+          "en": "Unlabeled can",
+          "jp": "無地の缶"
         },
-        "fileName": "FtrKalimbaCan_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrKalimbaCan_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Canned olives",
-          jp: ""
+          "en": "Canned olives",
+          "jp": "オリーブの缶"
         },
-        "fileName": "FtrKalimbaCan_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrKalimbaCan_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Canned fruit",
-          jp: ""
+          "en": "Canned fruit",
+          "jp": "フルーツの缶"
         },
-        "fileName": "FtrKalimbaCan_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrKalimbaCan_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Canned fish",
-          jp: ""
+          "en": "Canned fish",
+          "jp": "サカナの缶"
         },
-        "fileName": "FtrKalimbaCan_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrKalimbaCan_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Canned pasta sauce",
-          jp: ""
+          "en": "Canned pasta sauce",
+          "jp": "パスタソースの缶"
         },
-        "fileName": "FtrKalimbaCan_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrKalimbaCan_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Canned pet food",
-          jp: ""
+          "en": "Canned pet food",
+          "jp": "ペットフードの缶"
         },
-        "fileName": "FtrKalimbaCan_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrKalimbaCan_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "red dragonfly model",
-      jp: ""
+      "en": "red dragonfly model",
+      "jp": "アキアカネのもけい"
     },
     "id": 7050,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 540
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectAkiakaneToy"
+        "isPattern": false,
+        "imageName": "FtrInsectAkiakaneToy"
       }
     ]
   },
   {
     "name": {
-      en: "red snapper model",
-      jp: ""
+      "en": "red snapper model",
+      "jp": "タイのもけい"
     },
     "id": 7020,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 9000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishTaiToy"
+        "isPattern": false,
+        "imageName": "FtrFishTaiToy"
       }
     ]
   },
   {
     "name": {
-      en: "Reese & Cyrus photo plate",
-      jp: ""
+      "en": "Reese & Cyrus photo plate",
+      "jp": "リサとカイゾーのえざら"
     },
     "id": 12565,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrWeddingDish"
+        "isPattern": false,
+        "imageName": "FtrWeddingDish"
       }
     ]
   },
   {
     "name": {
-      en: "Resetti model",
-      jp: ""
+      "en": "Resetti model",
+      "jp": "グラウンドホッグのもけい"
     },
     "id": 13867,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Groundhog Day",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 2200,
       "sell": 550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrConstructFigure"
+        "isPattern": false,
+        "imageName": "FtrConstructFigure"
       }
     ]
   },
   {
     "name": {
-      en: "revolving spice rack",
-      jp: ""
+      "en": "revolving spice rack",
+      "jp": "ちょうみりょういれ"
     },
     "id": 1125,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrSeasoning_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSeasoning_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrSeasoning_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSeasoning_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrSeasoning_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSeasoning_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "ribbon eel model",
-      jp: ""
+      "en": "ribbon eel model",
+      "jp": "ハナヒゲウツボのもけい"
     },
     "id": 6955,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishHanahigeutuboToy"
+        "isPattern": false,
+        "imageName": "FtrFishHanahigeutuboToy"
       }
     ]
   },
   {
     "name": {
-      en: "rice cooker",
-      jp: ""
+      "en": "rice cooker",
+      "jp": "すいはんき"
     },
     "id": 1888,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRiceCooker_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrRiceCooker_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrRiceCooker_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrRiceCooker_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrRiceCooker_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrRiceCooker_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Berry red",
-          jp: ""
+          "en": "Berry red",
+          "jp": "ワインレッド"
         },
-        "fileName": "FtrRiceCooker_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrRiceCooker_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRiceCooker_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrRiceCooker_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "rice grasshopper model",
-      jp: ""
+      "en": "rice grasshopper model",
+      "jp": "イナゴのもけい"
     },
     "id": 7067,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectInagoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectInagoToy"
       }
     ]
   },
   {
     "name": {
-      en: "ring",
-      jp: ""
+      "en": "ring",
+      "jp": "ゆびわ"
     },
     "id": 1889,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Beauty",
     "price": {
       "buy": 69000,
       "sell": 17250
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrRing_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrRing_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrRing_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrRing_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrRing_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrRing_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRing_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrRing_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "エメラルド"
         },
-        "fileName": "FtrRing_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrRing_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrRing_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrRing_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRing_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrRing_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrRing_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrRing_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "Ring-Con",
-      jp: ""
+      "en": "Ring-Con",
+      "jp": "リングコン"
     },
     "id": 13293,
-    "source": {
-      en: "Nintendo; Nook Shopping Daily Selection",
-      jp: "Nintendo; Nook Shopping Daily Selection"
-    },
+    "source": "Nintendo; Nook Shopping Daily Selection",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.5.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Game Console",
     "price": {
       "buy": 4950,
       "sell": 1237
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrRingcon"
+        "isPattern": false,
+        "imageName": "FtrRingcon"
       }
     ]
   },
   {
     "name": {
-      en: "ringtoss",
-      jp: ""
+      "en": "ringtoss",
+      "jp": "わなげ"
     },
     "id": 88,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 480
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrQuoits_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrQuoits_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrQuoits_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrQuoits_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pastel",
-          jp: ""
+          "en": "Pastel",
+          "jp": "パステル"
         },
-        "fileName": "FtrQuoits_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrQuoits_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Cool",
-          jp: ""
+          "en": "Cool",
+          "jp": "クール"
         },
-        "fileName": "FtrQuoits_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrQuoits_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "robust cicada model",
-      jp: ""
+      "en": "robust cicada model",
+      "jp": "ミンミンゼミのもけい"
     },
     "id": 7081,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMinminzemiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMinminzemiToy"
       }
     ]
   },
   {
     "name": {
-      en: "rosalia batesi beetle model",
-      jp: ""
+      "en": "rosalia batesi beetle model",
+      "jp": "ルリボシカミキリのもけい"
     },
     "id": 7119,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 9000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectRuriboshikamikiriToy"
+        "isPattern": false,
+        "imageName": "FtrInsectRuriboshikamikiriToy"
       }
     ]
   },
   {
     "name": {
-      en: "rotary phone",
-      jp: ""
+      "en": "rotary phone",
+      "jp": "ダイヤルしきでんわ"
     },
     "id": 4029,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Home Appliances",
     "price": {
       "buy": 640,
       "sell": 160
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrPhoneDial_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneDial_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrPhoneDial_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneDial_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrPhoneDial_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneDial_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrPhoneDial_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneDial_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrPhoneDial_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneDial_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrPhoneDial_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneDial_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrPhoneDial_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneDial_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrPhoneDial_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrPhoneDial_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "Rover's briefcase",
-      jp: ""
+      "en": "Rover's briefcase",
+      "jp": "みしらぬネコのかばん"
     },
     "id": 12472,
-    "source": {
-      en: "Rover",
-      jp: "Rover"
-    },
+    "source": "Rover",
     "map": 0,
+    "event": "May Day",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Space",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrunkXct"
+        "isPattern": false,
+        "imageName": "FtrTrunkXct"
       }
     ]
   },
   {
     "name": {
-      en: "saddled bichir model",
-      jp: ""
+      "en": "saddled bichir model",
+      "jp": "エンドリケリーのもけい"
     },
     "id": 6950,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 12000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishEndorikeriiToy"
+        "isPattern": false,
+        "imageName": "FtrFishEndorikeriiToy"
       }
     ]
   },
   {
     "name": {
-      en: "salmon model",
-      jp: ""
+      "en": "salmon model",
+      "jp": "サケのもけい"
     },
     "id": 7012,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishSakeToy"
+        "isPattern": false,
+        "imageName": "FtrFishSakeToy"
       }
     ]
   },
   {
     "name": {
-      en: "saw shark model",
-      jp: ""
+      "en": "saw shark model",
+      "jp": "ノコギリザメのもけい"
     },
     "id": 7002,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 36000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishNokogirizameToy"
+        "isPattern": false,
+        "imageName": "FtrFishNokogirizameToy"
       }
     ]
   },
   {
     "name": {
-      en: "saw stag model",
-      jp: ""
+      "en": "saw stag model",
+      "jp": "ノコギリクワガタのもけい"
     },
     "id": 5922,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectNokogirikuwagataToy"
+        "isPattern": false,
+        "imageName": "FtrInsectNokogirikuwagataToy"
       }
     ]
   },
   {
     "name": {
-      en: "scarab beetle model",
-      jp: ""
+      "en": "scarab beetle model",
+      "jp": "プラチナコガネのもけい"
     },
     "id": 5929,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectPurachinakoganeToy"
+        "isPattern": false,
+        "imageName": "FtrInsectPurachinakoganeToy"
       }
     ]
   },
   {
     "name": {
-      en: "Scorpio lamp",
-      jp: ""
+      "en": "Scorpio lamp",
+      "jp": "スコーピオのランプ"
     },
     "id": 5962,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Scorpio",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 22125
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrZodiacScorpio"
+        "isPattern": false,
+        "imageName": "FtrZodiacScorpio"
       }
     ]
   },
   {
     "name": {
-      en: "scorpion model",
-      jp: ""
+      "en": "scorpion model",
+      "jp": "サソリのもけい"
     },
     "id": 7094,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 24000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectSasoriToy"
+        "isPattern": false,
+        "imageName": "FtrInsectSasoriToy"
       }
     ]
   },
   {
     "name": {
-      en: "sea bass model",
-      jp: ""
+      "en": "sea bass model",
+      "jp": "スズキのもけい"
     },
     "id": 7018,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishSuzukiToy"
+        "isPattern": false,
+        "imageName": "FtrFishSuzukiToy"
       }
     ]
   },
   {
     "name": {
-      en: "sea butterfly model",
-      jp: ""
+      "en": "sea butterfly model",
+      "jp": "クリオネのもけい"
     },
     "id": 6982,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKurioneToy"
+        "isPattern": false,
+        "imageName": "FtrFishKurioneToy"
       }
     ]
   },
   {
     "name": {
-      en: "sea globe",
-      jp: ""
+      "en": "sea globe",
+      "jp": "シーグローブ"
     },
     "id": 1124,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSeaglobe"
+        "isPattern": false,
+        "imageName": "FtrSeaglobe"
       }
     ]
   },
   {
     "name": {
-      en: "sea horse model",
-      jp: ""
+      "en": "sea horse model",
+      "jp": "タツノオトシゴのもけい"
     },
     "id": 7021,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishTatsunootoshigoToy"
+        "isPattern": false,
+        "imageName": "FtrFishTatsunootoshigoToy"
       }
     ]
   },
   {
     "name": {
-      en: "sewing machine",
-      jp: ""
+      "en": "sewing machine",
+      "jp": "ミシン"
     },
     "id": 1128,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Sewing Table",
     "price": {
       "buy": 2100,
       "sell": 525
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrSewingmachine_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSewingmachine_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrSewingmachine_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSewingmachine_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrSewingmachine_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSewingmachine_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrSewingmachine_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSewingmachine_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrSewingmachine_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrSewingmachine_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrSewingmachine_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrSewingmachine_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrSewingmachine_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrSewingmachine_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "sewing project",
-      jp: ""
+      "en": "sewing project",
+      "jp": "ソーイングセット"
     },
     "id": 3443,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Sewing Table",
     "price": {
       "buy": 430,
       "sell": 107
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrSewingset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSewingset_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrSewingset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSewingset_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrSewingset_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSewingset_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Ivory",
-          jp: ""
+          "en": "Ivory",
+          "jp": "アイボリー"
         },
-        "fileName": "FtrSewingset_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSewingset_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrSewingset_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrSewingset_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrSewingset_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrSewingset_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "shaved-ice maker",
-      jp: ""
+      "en": "shaved-ice maker",
+      "jp": "かきごおりき"
     },
     "id": 667,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Summer shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrIcemachine_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrIcemachine_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrIcemachine_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrIcemachine_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "Shell",
-      jp: ""
+      "en": "Shell",
+      "jp": "こうら"
     },
     "id": 13829,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Mario",
     "price": {
       "buy": 700,
       "sell": 175
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "みどり"
         },
-        "fileName": "FtrMarioShield_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMarioShield_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "あか"
         },
-        "fileName": "FtrMarioShield_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMarioShield_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "shell lamp",
-      jp: ""
+      "en": "shell lamp",
+      "jp": "かいがらのランプ"
     },
     "id": 3984,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4200
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrShellLamp_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrShellLamp_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrShellLamp_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrShellLamp_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrShellLamp_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrShellLamp_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrShellLamp_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrShellLamp_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrShellLamp_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrShellLamp_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pearl",
-          jp: ""
+          "en": "Pearl",
+          "jp": "パール"
         },
-        "fileName": "FtrShellLamp_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrShellLamp_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "shell speaker",
-      jp: ""
+      "en": "shell speaker",
+      "jp": "かいがらのスピーカー"
     },
     "id": 5150,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Audio",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 5700
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrShellMusic_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrShellMusic_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrShellMusic_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrShellMusic_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrShellMusic_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrShellMusic_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrShellMusic_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrShellMusic_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrShellMusic_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrShellMusic_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pearl",
-          jp: ""
+          "en": "Pearl",
+          "jp": "パール"
         },
-        "fileName": "FtrShellMusic_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrShellMusic_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "silver bug trophy",
-      jp: ""
+      "en": "silver bug trophy",
+      "jp": "ぎんのムシトロフィー"
     },
     "id": 1204,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 425
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyInsectSilver"
+        "isPattern": false,
+        "imageName": "FtrTrophyInsectSilver"
       }
     ]
   },
   {
     "name": {
-      en: "silver fish trophy",
-      jp: ""
+      "en": "silver fish trophy",
+      "jp": "ぎんのサカナトロフィー"
     },
     "id": 1201,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": "Fishing Tourney",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 425
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyFishSilver"
+        "isPattern": false,
+        "imageName": "FtrTrophyFishSilver"
       }
     ]
   },
   {
     "name": {
-      en: "silver HHA trophy",
-      jp: ""
+      "en": "silver HHA trophy",
+      "jp": "ぎんのおうちトロフィー"
     },
     "id": 7100,
-    "source": {
-      en: "HHA",
-      jp: "HHA"
-    },
+    "source": "HHA",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Museum",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 425
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTrophyHhaSilver"
+        "isPattern": false,
+        "imageName": "FtrTrophyHhaSilver"
       }
     ]
   },
   {
     "name": {
-      en: "simple kettle",
-      jp: ""
+      "en": "simple kettle",
+      "jp": "ケトル"
     },
     "id": 1845,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrKettle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrKettle_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrKettle_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrKettle_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrKettle_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrKettle_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrKettle_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrKettle_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrKettle_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrKettle_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Navy blue",
-          jp: ""
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "FtrKettle_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrKettle_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrKettle_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrKettle_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "snail model",
-      jp: ""
+      "en": "snail model",
+      "jp": "カタツムリのもけい"
     },
     "id": 7072,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKatatsumuriToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKatatsumuriToy"
       }
     ]
   },
   {
     "name": {
-      en: "snapping turtle model",
-      jp: ""
+      "en": "snapping turtle model",
+      "jp": "カミツキガメのもけい"
     },
     "id": 6964,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 15000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKamitsukigameToy"
+        "isPattern": false,
+        "imageName": "FtrFishKamitsukigameToy"
       }
     ]
   },
   {
     "name": {
-      en: "snow globe",
-      jp: ""
+      "en": "snow globe",
+      "jp": "スノーグローブ"
     },
     "id": 1145,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Winter shopping",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrSnowglobe"
+        "isPattern": false,
+        "imageName": "FtrSnowglobe"
       }
     ]
   },
   {
     "name": {
-      en: "soft-shelled turtle model",
-      jp: ""
+      "en": "soft-shelled turtle model",
+      "jp": "スッポンのもけい"
     },
     "id": 7017,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 11250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishSupponToy"
+        "isPattern": false,
+        "imageName": "FtrFishSupponToy"
       }
     ]
   },
   {
     "name": {
-      en: "soup kettle",
-      jp: ""
+      "en": "soup kettle",
+      "jp": "スープジャー"
     },
     "id": 3619,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 3300,
       "sell": 825
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Corn soup",
-          jp: ""
+          "en": "Corn soup",
+          "jp": "コーンポタージュ"
         },
-        "fileName": "FtrSoupjar_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSoupjar_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Cream stew",
-          jp: ""
+          "en": "Cream stew",
+          "jp": "クリームシチュー"
         },
-        "fileName": "FtrSoupjar_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSoupjar_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Curry",
-          jp: ""
+          "en": "Curry",
+          "jp": "カレー"
         },
-        "fileName": "FtrSoupjar_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSoupjar_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Minestrone",
-          jp: ""
+          "en": "Minestrone",
+          "jp": "ミネストローネ"
         },
-        "fileName": "FtrSoupjar_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSoupjar_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Borscht",
-          jp: ""
+          "en": "Borscht",
+          "jp": "ボルシチ"
         },
-        "fileName": "FtrSoupjar_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrSoupjar_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Green curry",
-          jp: ""
+          "en": "Green curry",
+          "jp": "グリーンカレー"
         },
-        "fileName": "FtrSoupjar_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrSoupjar_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Hot-and-sour soup",
-          jp: ""
+          "en": "Hot-and-sour soup",
+          "jp": "中華スープ"
         },
-        "fileName": "FtrSoupjar_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrSoupjar_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Congee",
-          jp: ""
+          "en": "Congee",
+          "jp": "お粥"
         },
-        "fileName": "FtrSoupjar_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrSoupjar_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "spider model",
-      jp: ""
+      "en": "spider model",
+      "jp": "クモのもけい"
     },
     "id": 7079,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKumoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKumoToy"
       }
     ]
   },
   {
     "name": {
-      en: "spooky candy set",
-      jp: ""
+      "en": "spooky candy set",
+      "jp": "ハロウィンなおかしプレート"
     },
     "id": 12951,
-    "source": {
-      en: "Crafting; Nook's Cranny",
-      jp: "Crafting; Nook's Cranny"
-    },
+    "source": "Crafting; Nook's Cranny",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": "Yes",
+    "version": "1.5.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 3500,
       "sell": 875
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrHwnSweets_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHwnSweets_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrHwnSweets_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHwnSweets_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrHwnSweets_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHwnSweets_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Monochrome",
-          jp: ""
+          "en": "Monochrome",
+          "jp": "モノクロ"
         },
-        "fileName": "FtrHwnSweets_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHwnSweets_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "spooky lantern",
-      jp: ""
+      "en": "spooky lantern",
+      "jp": "ハロウィンなランタン"
     },
     "id": 4088,
-    "source": {
-      en: "Crafting; Nook's Cranny",
-      jp: "Crafting; Nook's Cranny"
-    },
+    "source": "Crafting; Nook's Cranny",
     "map": 0,
+    "event": "Halloween (ready days); Halloween",
+    "eventExclusive": "Yes",
+    "version": "1.5.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 5600,
       "sell": 1400
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrHwnLantern_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHwnLantern_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrHwnLantern_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHwnLantern_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrHwnLantern_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHwnLantern_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Monochrome",
-          jp: ""
+          "en": "Monochrome",
+          "jp": "モノクロ"
         },
-        "fileName": "FtrHwnLantern_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHwnLantern_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "spooky table setting",
-      jp: ""
+      "en": "spooky table setting",
+      "jp": "ハロウィンテーブルセッティング"
     },
     "id": 13223,
-    "source": {
-      en: "Crafting; All villagers",
-      jp: "Crafting; All villagers"
-    },
+    "source": "Crafting; All villagers",
     "map": 0,
+    "event": "Halloween",
+    "eventExclusive": "Yes",
+    "version": "1.5.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1650
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrHwnTablesetting_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHwnTablesetting_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrHwnTablesetting_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHwnTablesetting_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrHwnTablesetting_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrHwnTablesetting_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Monochrome",
-          jp: ""
+          "en": "Monochrome",
+          "jp": "モノクロ"
         },
-        "fileName": "FtrHwnTablesetting_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrHwnTablesetting_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "squid model",
-      jp: ""
+      "en": "squid model",
+      "jp": "イカのもけい"
     },
     "id": 6958,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishIkaToy"
+        "isPattern": false,
+        "imageName": "FtrFishIkaToy"
       }
     ]
   },
   {
     "name": {
-      en: "stack of books",
-      jp: ""
+      "en": "stack of books",
+      "jp": "つまれたほん"
     },
     "id": 1759,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Study",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 725
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Literature",
-          jp: ""
+          "en": "Literature",
+          "jp": "文学"
         },
-        "fileName": "FtrBooks_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBooks_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Comics",
-          jp: ""
+          "en": "Comics",
+          "jp": "コミック"
         },
-        "fileName": "FtrBooks_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBooks_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Reference",
-          jp: ""
+          "en": "Reference",
+          "jp": "参考書"
         },
-        "fileName": "FtrBooks_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBooks_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Old",
-          jp: ""
+          "en": "Old",
+          "jp": "古書"
         },
-        "fileName": "FtrBooks_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBooks_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "stacked magazines",
-      jp: ""
+      "en": "stacked magazines",
+      "jp": "ざっしのたば"
     },
     "id": 1861,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "Weekly news",
+    "diy": true,
     "tag": "Study",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 630
     },
-    "count": 7,
+    "count": {
+      "variants": 1,
+      "patterns": 6
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagine_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMagagine_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagine_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrMagagine_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagine_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrMagagine_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagine_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrMagagine_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagine_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrMagagine_Remake_0_4"
       },
       {
         "id": "0_5",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagine_Remake_0_5"
+        "isPattern": true,
+        "imageName": "FtrMagagine_Remake_0_5"
       },
       {
         "id": "0_6",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrMagagine_Remake_0_6"
+        "isPattern": true,
+        "imageName": "FtrMagagine_Remake_0_6"
       }
     ]
   },
   {
     "name": {
-      en: "stand mixer",
-      jp: ""
+      "en": "stand mixer",
+      "jp": "スタンドミキサー"
     },
     "id": 4019,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrStandmixer_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrStandmixer_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrStandmixer_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrStandmixer_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrStandmixer_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrStandmixer_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrStandmixer_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrStandmixer_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrStandmixer_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrStandmixer_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrStandmixer_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrStandmixer_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "star clock",
-      jp: ""
+      "en": "star clock",
+      "jp": "スタークロック"
     },
     "id": 7253,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Clock",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2250
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrStarClock_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrStarClock_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrStarClock_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrStarClock_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrStarClock_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrStarClock_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrStarClock_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrStarClock_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrStarClock_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrStarClock_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrStarClock_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrStarClock_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrStarClock_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrStarClock_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "steamer-basket set",
-      jp: ""
+      "en": "steamer-basket set",
+      "jp": "せいろ"
     },
     "id": 3344,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "young spring bamboo",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Kitchen Things",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBasketsteamer"
+        "isPattern": false,
+        "imageName": "FtrBasketsteamer"
       }
     ]
   },
   {
     "name": {
-      en: "stinkbug model",
-      jp: ""
+      "en": "stinkbug model",
+      "jp": "カメムシのもけい"
     },
     "id": 7069,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 360
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKamemushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKamemushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "stovetop espresso maker",
-      jp: ""
+      "en": "stovetop espresso maker",
+      "jp": "エスプレッソメーカー"
     },
     "id": 8297,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Kitchen Things",
     "price": {
       "buy": 1700,
       "sell": 425
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrEspressomaker_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrEspressomaker_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrEspressomaker_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrEspressomaker_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrEspressomaker_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrEspressomaker_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "stringfish model",
-      jp: ""
+      "en": "stringfish model",
+      "jp": "イトウのもけい"
     },
     "id": 6960,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 45000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishItouToy"
+        "isPattern": false,
+        "imageName": "FtrFishItouToy"
       }
     ]
   },
   {
     "name": {
-      en: "sturdy sewing box",
-      jp: ""
+      "en": "sturdy sewing box",
+      "jp": "さいほうばこ"
     },
     "id": 3442,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Sewing Table",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrSewingbox_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrSewingbox_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrSewingbox_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrSewingbox_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Dark brown",
-          jp: ""
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "FtrSewingbox_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrSewingbox_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrSewingbox_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrSewingbox_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Navy blue",
-          jp: ""
+          "en": "Navy blue",
+          "jp": "ネイビー"
         },
-        "fileName": "FtrSewingbox_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrSewingbox_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrSewingbox_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrSewingbox_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "sturgeon model",
-      jp: ""
+      "en": "sturgeon model",
+      "jp": "チョウザメのもけい"
     },
     "id": 7023,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 30000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishTyouzameToy"
+        "isPattern": false,
+        "imageName": "FtrFishTyouzameToy"
       }
     ]
   },
   {
     "name": {
-      en: "succulent plant",
-      jp: ""
+      "en": "succulent plant",
+      "jp": "たにくしょくぶつ"
     },
     "id": 132,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 220
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrPlantSucculents"
+        "isPattern": false,
+        "imageName": "FtrPlantSucculents"
       }
     ]
   },
   {
     "name": {
-      en: "suckerfish model",
-      jp: ""
+      "en": "suckerfish model",
+      "jp": "コバンザメのもけい"
     },
     "id": 6979,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishKobanzameToy"
+        "isPattern": false,
+        "imageName": "FtrFishKobanzameToy"
       }
     ]
   },
   {
     "name": {
-      en: "Super Mushroom",
-      jp: ""
+      "en": "Super Mushroom",
+      "jp": "スーパーキノコ"
     },
     "id": 13827,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Mario",
     "price": {
       "buy": 1350,
       "sell": 337
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMarioRoundA"
+        "isPattern": false,
+        "imageName": "FtrMarioRoundA"
       }
     ]
   },
   {
     "name": {
-      en: "Super Star",
-      jp: ""
+      "en": "Super Star",
+      "jp": "スーパースター"
     },
     "id": 13825,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": "Super Mario Bros.",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Mario",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrMarioPentagon"
+        "isPattern": false,
+        "imageName": "FtrMarioPentagon"
       }
     ]
   },
   {
     "name": {
-      en: "surgeonfish model",
-      jp: ""
+      "en": "surgeonfish model",
+      "jp": "ナンヨウハギのもけい"
     },
     "id": 6988,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishNanyouhagiToy"
+        "isPattern": false,
+        "imageName": "FtrFishNanyouhagiToy"
       }
     ]
   },
   {
     "name": {
-      en: "surichwi tteok",
-      jp: ""
+      "en": "surichwi tteok",
+      "jp": "スリチトック"
     },
     "id": 14356,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Dano Festival",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrTangomochi"
+        "isPattern": false,
+        "imageName": "FtrTangomochi"
       }
     ]
   },
   {
     "name": {
-      en: "sweetfish model",
-      jp: ""
+      "en": "sweetfish model",
+      "jp": "アユのもけい"
     },
     "id": 6936,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2700
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishAyuToy"
+        "isPattern": false,
+        "imageName": "FtrFishAyuToy"
       }
     ]
   },
   {
     "name": {
-      en: "table lamp",
-      jp: ""
+      "en": "table lamp",
+      "jp": "テーブルランプ"
     },
     "id": 4069,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Pink flowers",
+    "diy": false,
     "tag": "Lamp",
     "price": {
       "buy": 1100,
       "sell": 275
     },
-    "count": 7,
+    "count": {
+      "variants": 1,
+      "patterns": 6
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrLampDesk_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrLampDesk_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrLampDesk_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrLampDesk_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrLampDesk_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrLampDesk_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrLampDesk_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrLampDesk_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrLampDesk_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrLampDesk_Remake_0_4"
       },
       {
         "id": "0_5",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrLampDesk_Remake_0_5"
+        "isPattern": true,
+        "imageName": "FtrLampDesk_Remake_0_5"
       },
       {
         "id": "0_6",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrLampDesk_Remake_0_6"
+        "isPattern": true,
+        "imageName": "FtrLampDesk_Remake_0_6"
       }
     ]
   },
   {
     "name": {
-      en: "table setting",
-      jp: ""
+      "en": "table setting",
+      "jp": "テーブルセッティング"
     },
     "id": 4068,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Green",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 720,
       "sell": 180
     },
-    "count": 25,
+    "count": {
+      "variants": 5,
+      "patterns": 20
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTablesetting_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTablesetting_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTablesetting_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTablesetting_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTablesetting_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTablesetting_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_0_4"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrTablesetting_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTablesetting_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrTablesetting_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrTablesetting_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrTablesetting_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_1_3"
       },
       {
         "id": "1_4",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrTablesetting_Remake_1_4"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_1_4"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrTablesetting_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTablesetting_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrTablesetting_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrTablesetting_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrTablesetting_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_2_3"
       },
       {
         "id": "2_4",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrTablesetting_Remake_2_4"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_2_4"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrTablesetting_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTablesetting_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrTablesetting_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrTablesetting_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrTablesetting_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_3_3"
       },
       {
         "id": "3_4",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrTablesetting_Remake_3_4"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_3_4"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTablesetting_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTablesetting_Remake_4_0"
       },
       {
         "id": "4_1",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTablesetting_Remake_4_1"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_4_1"
       },
       {
         "id": "4_2",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTablesetting_Remake_4_2"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_4_2"
       },
       {
         "id": "4_3",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTablesetting_Remake_4_3"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_4_3"
       },
       {
         "id": "4_4",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTablesetting_Remake_4_4"
+        "isPattern": true,
+        "imageName": "FtrTablesetting_Remake_4_4"
       }
     ]
   },
   {
     "name": {
-      en: "tabletop festive tree",
-      jp: ""
+      "en": "tabletop festive tree",
+      "jp": "テーブルクリスマスツリー"
     },
     "id": 4067,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "ornaments",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 930
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrTreeXmasMini_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTreeXmasMini_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTreeXmasMini_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTreeXmasMini_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTreeXmasMini_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTreeXmasMini_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrTreeXmasMini_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTreeXmasMini_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrTreeXmasMini_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTreeXmasMini_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTreeXmasMini_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrTreeXmasMini_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "tadpole model",
-      jp: ""
+      "en": "tadpole model",
+      "jp": "オタマジャクシのもけい"
     },
     "id": 7001,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishOtamajakusiToy"
+        "isPattern": false,
+        "imageName": "FtrFishOtamajakusiToy"
       }
     ]
   },
   {
     "name": {
-      en: "tape deck",
-      jp: ""
+      "en": "tape deck",
+      "jp": "ラジカセ"
     },
     "id": 787,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Audio",
     "price": {
       "buy": 2900,
       "sell": 725
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrRadicase_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrRadicase_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrRadicase_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrRadicase_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrRadicase_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrRadicase_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrRadicase_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrRadicase_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "tarantula model",
-      jp: ""
+      "en": "tarantula model",
+      "jp": "タランチュラのもけい"
     },
     "id": 7101,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 24000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectTaranchuraToy"
+        "isPattern": false,
+        "imageName": "FtrInsectTaranchuraToy"
       }
     ]
   },
   {
     "name": {
-      en: "tea set",
-      jp: ""
+      "en": "tea set",
+      "jp": "ティーセット"
     },
     "id": 3467,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Gray",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 16,
+    "count": {
+      "variants": 4,
+      "patterns": 12
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrTeaset_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTeaset_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrTeaset_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrTeaset_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrTeaset_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_0_3"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTeaset_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTeaset_Remake_1_0"
       },
       {
         "id": "1_1",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTeaset_Remake_1_1"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_1_1"
       },
       {
         "id": "1_2",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTeaset_Remake_1_2"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_1_2"
       },
       {
         "id": "1_3",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTeaset_Remake_1_3"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_1_3"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTeaset_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTeaset_Remake_2_0"
       },
       {
         "id": "2_1",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTeaset_Remake_2_1"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_2_1"
       },
       {
         "id": "2_2",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTeaset_Remake_2_2"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_2_2"
       },
       {
         "id": "2_3",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTeaset_Remake_2_3"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_2_3"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTeaset_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTeaset_Remake_3_0"
       },
       {
         "id": "3_1",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTeaset_Remake_3_1"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_3_1"
       },
       {
         "id": "3_2",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTeaset_Remake_3_2"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_3_2"
       },
       {
         "id": "3_3",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTeaset_Remake_3_3"
+        "isPattern": true,
+        "imageName": "FtrTeaset_Remake_3_3"
       }
     ]
   },
   {
     "name": {
-      en: "terrarium",
-      jp: ""
+      "en": "terrarium",
+      "jp": "テラリウム"
     },
     "id": 3773,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Plants",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1740
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTerrarium_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTerrarium_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrTerrarium_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTerrarium_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrTerrarium_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTerrarium_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "thank-you Dad mug",
-      jp: ""
+      "en": "thank-you Dad mug",
+      "jp": "ちちのひサンキューマグカップ"
     },
     "id": 12471,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Father's Day",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrThankyouMugF"
+        "isPattern": false,
+        "imageName": "FtrThankyouMugF"
       }
     ]
   },
   {
     "name": {
-      en: "thank-you Mom mug",
-      jp: ""
+      "en": "thank-you Mom mug",
+      "jp": "ははのひサンキューマグカップ"
     },
     "id": 12470,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Mother's Day",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrThankyouMugM"
+        "isPattern": false,
+        "imageName": "FtrThankyouMugM"
       }
     ]
   },
   {
     "name": {
-      en: "throwback container",
-      jp: ""
+      "en": "throwback container",
+      "jp": "TOYなコンテナ"
     },
     "id": 4762,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 7,
+    "count": {
+      "variants": 7,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrBoyBox_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBoyBox_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrBoyBox_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBoyBox_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrBoyBox_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBoyBox_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrBoyBox_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBoyBox_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": "ライトブルー"
         },
-        "fileName": "FtrBoyBox_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBoyBox_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrBoyBox_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrBoyBox_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrBoyBox_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrBoyBox_Remake_6_0"
       }
     ]
   },
   {
     "name": {
-      en: "throwback gothic mirror",
-      jp: ""
+      "en": "throwback gothic mirror",
+      "jp": "TOYなミラー"
     },
     "id": 4754,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dresser",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrBoyMirror_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBoyMirror_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrBoyMirror_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBoyMirror_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrBoyMirror_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBoyMirror_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "throwback skull radio",
-      jp: ""
+      "en": "throwback skull radio",
+      "jp": "TOYなオーディオ"
     },
     "id": 4757,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Audio",
     "price": {
       "buy": 3200,
       "sell": 800
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrBoyAudio_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBoyAudio_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrBoyAudio_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBoyAudio_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrBoyAudio_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBoyAudio_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Ash",
-          jp: ""
+          "en": "Ash",
+          "jp": "アッシュ"
         },
-        "fileName": "FtrBoyAudio_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBoyAudio_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrBoyAudio_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBoyAudio_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrBoyAudio_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrBoyAudio_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "throwback wrestling figure",
-      jp: ""
+      "en": "throwback wrestling figure",
+      "jp": "TOYなフィギュア"
     },
     "id": 4753,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 1400,
       "sell": 350
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrBoyFigure_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBoyFigure_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrBoyFigure_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBoyFigure_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrBoyFigure_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBoyFigure_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrBoyFigure_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBoyFigure_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrBoyFigure_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBoyFigure_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrBoyFigure_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrBoyFigure_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "tiger beetle model",
-      jp: ""
+      "en": "tiger beetle model",
+      "jp": "ハンミョウのもけい"
     },
     "id": 7062,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHanmyouToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHanmyouToy"
       }
     ]
   },
   {
     "name": {
-      en: "tiger butterfly model",
-      jp: ""
+      "en": "tiger butterfly model",
+      "jp": "アゲハチョウのもけい"
     },
     "id": 5944,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 720
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectAgehachoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectAgehachoToy"
       }
     ]
   },
   {
     "name": {
-      en: "tilapia model",
-      jp: ""
+      "en": "tilapia model",
+      "jp": "ティラピアのもけい"
     },
     "id": 7022,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishThirapiaToy"
+        "isPattern": false,
+        "imageName": "FtrFishThirapiaToy"
       }
     ]
   },
   {
     "name": {
-      en: "tin bucket",
-      jp: ""
+      "en": "tin bucket",
+      "jp": "ブリキのバケツ"
     },
     "id": 2592,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Garden",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBucket"
+        "isPattern": false,
+        "imageName": "FtrBucket"
       }
     ]
   },
   {
     "name": {
-      en: "tin robot",
-      jp: ""
+      "en": "tin robot",
+      "jp": "ブリキのロボット"
     },
     "id": 13247,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": "Toy Day (ready days phase 1); Toy Day (ready days phase 2); Toy Day; Toy Day (day after)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 3500,
       "sell": 875
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrCrsRobot_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCrsRobot_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrCrsRobot_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCrsRobot_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCrsRobot_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCrsRobot_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrCrsRobot_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCrsRobot_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrCrsRobot_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCrsRobot_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCrsRobot_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrCrsRobot_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrCrsRobot_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrCrsRobot_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrCrsRobot_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrCrsRobot_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "tissue box",
-      jp: ""
+      "en": "tissue box",
+      "jp": "ボックスティッシュ"
     },
     "id": 4114,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
       "buy": 180,
       "sell": 45
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrTissuebox_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTissuebox_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrTissuebox_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTissuebox_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTissuebox_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTissuebox_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrTissuebox_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTissuebox_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Natural wood",
-          jp: ""
+          "en": "Natural wood",
+          "jp": "ナチュラルウッド"
         },
-        "fileName": "FtrTissuebox_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTissuebox_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Rattan",
-          jp: ""
+          "en": "Rattan",
+          "jp": "ラタン"
         },
-        "fileName": "FtrTissuebox_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrTissuebox_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "toolbox",
-      jp: ""
+      "en": "toolbox",
+      "jp": "こうぐばこ"
     },
     "id": 4687,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Supplies",
     "price": {
       "buy": 1800,
       "sell": 450
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrToolbox_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrToolbox_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrToolbox_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrToolbox_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrToolbox_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrToolbox_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": "オレンジ"
         },
-        "fileName": "FtrToolbox_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrToolbox_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Turquoise",
-          jp: ""
+          "en": "Turquoise",
+          "jp": "ターコイズ"
         },
-        "fileName": "FtrToolbox_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrToolbox_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrToolbox_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrToolbox_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "toy box",
-      jp: ""
+      "en": "toy box",
+      "jp": "おもちゃばこ"
     },
     "id": 3623,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrToybox_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrToybox_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrToybox_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrToybox_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrToybox_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrToybox_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": "グレー"
         },
-        "fileName": "FtrToybox_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrToybox_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "toy centipede",
-      jp: ""
+      "en": "toy centipede",
+      "jp": "おもちゃのムカデ"
     },
     "id": 3969,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 50
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCentipedefake"
+        "isPattern": false,
+        "imageName": "FtrCentipedefake"
       }
     ]
   },
   {
     "name": {
-      en: "toy cockroach",
-      jp: ""
+      "en": "toy cockroach",
+      "jp": "おもちゃのゴキブリ"
     },
     "id": 3620,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 70
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrCockroachfake"
+        "isPattern": false,
+        "imageName": "FtrCockroachfake"
       }
     ]
   },
   {
     "name": {
-      en: "traditional balancing toy",
-      jp: ""
+      "en": "traditional balancing toy",
+      "jp": "やじろべえ"
     },
     "id": 5975,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "acorns and pine cones",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1840
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrBalancingtoy"
+        "isPattern": false,
+        "imageName": "FtrBalancingtoy"
       }
     ]
   },
   {
     "name": {
-      en: "traditional tea set",
-      jp: ""
+      "en": "traditional tea set",
+      "jp": "チャイニーズティーセット"
     },
     "id": 4033,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Plain",
-          jp: ""
+          "en": "Plain",
+          "jp": "無地"
         },
-        "fileName": "FtrTeasetChina_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTeasetChina_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Goldfish",
-          jp: ""
+          "en": "Goldfish",
+          "jp": "金魚"
         },
-        "fileName": "FtrTeasetChina_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTeasetChina_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Floral",
-          jp: ""
+          "en": "Floral",
+          "jp": "花"
         },
-        "fileName": "FtrTeasetChina_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTeasetChina_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "trash bags",
-      jp: ""
+      "en": "trash bags",
+      "jp": "ゴミぶくろ"
     },
     "id": 1823,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Supplies",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 60
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrGarbagebag_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrGarbagebag_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrGarbagebag_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrGarbagebag_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrGarbagebag_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrGarbagebag_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrGarbagebag_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrGarbagebag_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "tree's bounty lamp",
-      jp: ""
+      "en": "tree's bounty lamp",
+      "jp": "きのみのランプ"
     },
     "id": 6078,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "acorns and pine cones",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3200
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッドナッツ"
         },
-        "fileName": "FtrNutLamp_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrNutLamp_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイトナッツ"
         },
-        "fileName": "FtrNutLamp_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrNutLamp_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "tree's bounty little tree",
-      jp: ""
+      "en": "tree's bounty little tree",
+      "jp": "ちいさなきのみのツリー"
     },
     "id": 6079,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "acorns and pine cones",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Seasonal Decor",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4120
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウンナッツ"
         },
-        "fileName": "FtrNutTreeS_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrNutTreeS_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイトナッツ"
         },
-        "fileName": "FtrNutTreeS_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrNutTreeS_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "tuna model",
-      jp: ""
+      "en": "tuna model",
+      "jp": "マグロのもけい"
     },
     "id": 6983,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 21000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishMaguroToy"
+        "isPattern": false,
+        "imageName": "FtrFishMaguroToy"
       }
     ]
   },
   {
     "name": {
-      en: "Turkey Day casserole",
-      jp: ""
+      "en": "Turkey Day casserole",
+      "jp": "サンクスギビングなキャセロール"
     },
     "id": 13818,
-    "source": {
-      en: "Crafting; Nook's Cranny; Franklin",
-      jp: "Crafting; Nook's Cranny; Franklin"
-    },
+    "source": "Crafting; Nook's Cranny; Franklin",
     "map": 0,
+    "event": "Turkey Day; Turkey Day (shopping days)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Kitchen Things",
     "price": {
       "buy": 7000,
       "sell": 1750
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Fall harvest",
-          jp: ""
+          "en": "Fall harvest",
+          "jp": "実りの秋"
         },
-        "fileName": "FtrHarvestEnamelpod_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHarvestEnamelpod_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Spring blooming",
-          jp: ""
+          "en": "Spring blooming",
+          "jp": "春の恵み"
         },
-        "fileName": "FtrHarvestEnamelpod_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHarvestEnamelpod_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "Turkey Day decorations",
-      jp: ""
+      "en": "Turkey Day decorations",
+      "jp": "サンクスギビングデコレーション"
     },
     "id": 13449,
-    "source": {
-      en: "Crafting; Nook's Cranny; Franklin",
-      jp: "Crafting; Nook's Cranny; Franklin"
-    },
+    "source": "Crafting; Nook's Cranny; Franklin",
     "map": 0,
+    "event": "Turkey Day; Turkey Day (shopping days)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Folk Craft Decor",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Fall harvest",
-          jp: ""
+          "en": "Fall harvest",
+          "jp": "実りの秋"
         },
-        "fileName": "FtrHarvestDecoration_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHarvestDecoration_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Spring blooming",
-          jp: ""
+          "en": "Spring blooming",
+          "jp": "春の恵み"
         },
-        "fileName": "FtrHarvestDecoration_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHarvestDecoration_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "Turkey Day table setting",
-      jp: ""
+      "en": "Turkey Day table setting",
+      "jp": "サンクスギビングテーブルウェア"
     },
     "id": 13820,
-    "source": {
-      en: "Crafting; Nook's Cranny; Franklin",
-      jp: "Crafting; Nook's Cranny; Franklin"
-    },
+    "source": "Crafting; Nook's Cranny; Franklin",
     "map": 0,
+    "event": "Turkey Day; Turkey Day (shopping days)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dining",
     "price": {
       "buy": 4000,
       "sell": 1000
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Fall harvest",
-          jp: ""
+          "en": "Fall harvest",
+          "jp": "実りの秋"
         },
-        "fileName": "FtrHarvestTablesetting_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHarvestTablesetting_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Spring blooming",
-          jp: ""
+          "en": "Spring blooming",
+          "jp": "春の恵み"
         },
-        "fileName": "FtrHarvestTablesetting_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHarvestTablesetting_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "Turkey Day wheat decor",
-      jp: ""
+      "en": "Turkey Day wheat decor",
+      "jp": "サンクスギビングなむぎかざり"
     },
     "id": 13819,
-    "source": {
-      en: "Crafting; Nook's Cranny; Franklin",
-      jp: "Crafting; Nook's Cranny; Franklin"
-    },
+    "source": "Crafting; Nook's Cranny; Franklin",
     "map": 0,
+    "event": "Turkey Day; Turkey Day (shopping days)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 2,
+    "count": {
+      "variants": 2,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Fall harvest",
-          jp: ""
+          "en": "Fall harvest",
+          "jp": "実りの秋"
         },
-        "fileName": "FtrHarvestWheat_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrHarvestWheat_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Spring blooming",
-          jp: ""
+          "en": "Spring blooming",
+          "jp": "春の恵み"
         },
-        "fileName": "FtrHarvestWheat_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrHarvestWheat_Remake_1_0"
       }
     ]
   },
   {
     "name": {
-      en: "twelve-grape dish",
-      jp: ""
+      "en": "twelve-grape dish",
+      "jp": "12つぶのぶどう"
     },
     "id": 13462,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Nochevieja",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "Ftr12Grapes"
+        "isPattern": false,
+        "imageName": "Ftr12Grapes"
       }
     ]
   },
   {
     "name": {
-      en: "typewriter",
-      jp: ""
+      "en": "typewriter",
+      "jp": "タイプライター"
     },
     "id": 1211,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Office",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrTypewriter_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrTypewriter_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrTypewriter_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrTypewriter_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrTypewriter_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrTypewriter_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrTypewriter_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrTypewriter_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Gold",
-          jp: ""
+          "en": "Gold",
+          "jp": "ゴールド"
         },
-        "fileName": "FtrTypewriter_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrTypewriter_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Silver",
-          jp: ""
+          "en": "Silver",
+          "jp": "シルバー"
         },
-        "fileName": "FtrTypewriter_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrTypewriter_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "ukulele",
-      jp: ""
+      "en": "ukulele",
+      "jp": "ウクレレ"
     },
     "id": 669,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Musical Instrument",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrUkulele_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrUkulele_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Brown",
-          jp: ""
+          "en": "Brown",
+          "jp": "ブラウン"
         },
-        "fileName": "FtrUkulele_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrUkulele_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": "ホワイト"
         },
-        "fileName": "FtrUkulele_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrUkulele_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Ocean blue",
-          jp: ""
+          "en": "Ocean blue",
+          "jp": "オーシャンブルー"
         },
-        "fileName": "FtrUkulele_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrUkulele_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "unfinished puzzle",
-      jp: ""
+      "en": "unfinished puzzle",
+      "jp": "つくりかけのパズル"
     },
     "id": 4308,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "Castle",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 290,
       "sell": 72
     },
-    "count": 5,
+    "count": {
+      "variants": 1,
+      "patterns": 4
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrPuzzle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrPuzzle_Remake_0_0"
       },
       {
         "id": "0_1",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrPuzzle_Remake_0_1"
+        "isPattern": true,
+        "imageName": "FtrPuzzle_Remake_0_1"
       },
       {
         "id": "0_2",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrPuzzle_Remake_0_2"
+        "isPattern": true,
+        "imageName": "FtrPuzzle_Remake_0_2"
       },
       {
         "id": "0_3",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrPuzzle_Remake_0_3"
+        "isPattern": true,
+        "imageName": "FtrPuzzle_Remake_0_3"
       },
       {
         "id": "0_4",
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": ""
         },
-        "fileName": "FtrPuzzle_Remake_0_4"
+        "isPattern": true,
+        "imageName": "FtrPuzzle_Remake_0_4"
       }
     ]
   },
   {
     "name": {
-      en: "unglazed dish set",
-      jp: ""
+      "en": "unglazed dish set",
+      "jp": "すやきのしょっき"
     },
     "id": 4025,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 6,
+    "count": {
+      "variants": 6,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Unglazed",
-          jp: ""
+          "en": "Unglazed",
+          "jp": "素焼き"
         },
-        "fileName": "FtrDishesUnglazed_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrDishesUnglazed_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Powder white",
-          jp: ""
+          "en": "Powder white",
+          "jp": "粉引"
         },
-        "fileName": "FtrDishesUnglazed_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrDishesUnglazed_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Deep blue",
-          jp: ""
+          "en": "Deep blue",
+          "jp": "紺"
         },
-        "fileName": "FtrDishesUnglazed_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrDishesUnglazed_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Oribe-style",
-          jp: ""
+          "en": "Oribe-style",
+          "jp": "おりべ"
         },
-        "fileName": "FtrDishesUnglazed_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrDishesUnglazed_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Modern",
-          jp: ""
+          "en": "Modern",
+          "jp": "モダン"
         },
-        "fileName": "FtrDishesUnglazed_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrDishesUnglazed_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Patterned",
-          jp: ""
+          "en": "Patterned",
+          "jp": "絵付け"
         },
-        "fileName": "FtrDishesUnglazed_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrDishesUnglazed_Remake_5_0"
       }
     ]
   },
   {
     "name": {
-      en: "violin beetle model",
-      jp: ""
+      "en": "violin beetle model",
+      "jp": "バイオリンムシのもけい"
     },
     "id": 7105,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1350
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectBaiorinmushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectBaiorinmushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "walker cicada model",
-      jp: ""
+      "en": "walker cicada model",
+      "jp": "ツクツクホウシのもけい"
     },
     "id": 7104,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectTsukutsukuhousiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectTsukutsukuhousiToy"
       }
     ]
   },
   {
     "name": {
-      en: "walking leaf model",
-      jp: ""
+      "en": "walking leaf model",
+      "jp": "コノハムシのもけい"
     },
     "id": 7076,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectKonohamushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectKonohamushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "walking stick model",
-      jp: ""
+      "en": "walking stick model",
+      "jp": "ナナフシのもけい"
     },
     "id": 7087,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectNanafushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectNanafushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "wasp model",
-      jp: ""
+      "en": "wasp model",
+      "jp": "ハチのもけい"
     },
     "id": 5927,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 7500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectHachiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectHachiToy"
       }
     ]
   },
   {
     "name": {
-      en: "wedding cake",
-      jp: ""
+      "en": "wedding cake",
+      "jp": "ウェディングケーキ"
     },
     "id": 12403,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1000
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Cute",
-          jp: ""
+          "en": "Cute",
+          "jp": "キュート"
         },
-        "fileName": "FtrWeddingCake_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingCake_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Chic",
-          jp: ""
+          "en": "Chic",
+          "jp": "シック"
         },
-        "fileName": "FtrWeddingCake_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingCake_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Garden",
-          jp: ""
+          "en": "Garden",
+          "jp": "ガーデン"
         },
-        "fileName": "FtrWeddingCake_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingCake_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "wedding candle set",
-      jp: ""
+      "en": "wedding candle set",
+      "jp": "ウェディングなキャンドル"
     },
     "id": 12408,
-    "source": {
-      en: "Cyrus",
-      jp: "Cyrus"
-    },
+    "source": "Cyrus",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Lamp",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 300
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Cute",
-          jp: ""
+          "en": "Cute",
+          "jp": "キュート"
         },
-        "fileName": "FtrWeddingCandle_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingCandle_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Chic",
-          jp: ""
+          "en": "Chic",
+          "jp": "シック"
         },
-        "fileName": "FtrWeddingCandle_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingCandle_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Garden",
-          jp: ""
+          "en": "Garden",
+          "jp": "ガーデン"
         },
-        "fileName": "FtrWeddingCandle_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrWeddingCandle_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "whale shark model",
-      jp: ""
+      "en": "whale shark model",
+      "jp": "ジンベエザメのもけい"
     },
     "id": 6961,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 39000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishJinbeezameToy"
+        "isPattern": false,
+        "imageName": "FtrFishJinbeezameToy"
       }
     ]
   },
   {
     "name": {
-      en: "wharf roach model",
-      jp: ""
+      "en": "wharf roach model",
+      "jp": "フナムシのもけい"
     },
     "id": 7055,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectFunamushiToy"
+        "isPattern": false,
+        "imageName": "FtrInsectFunamushiToy"
       }
     ]
   },
   {
     "name": {
-      en: "whoopee cushion",
-      jp: ""
+      "en": "whoopee cushion",
+      "jp": "ブーブークッション"
     },
     "id": 14340,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "April Fools' Day",
+    "eventExclusive": "Yes",
+    "version": "1.9.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Chair",
     "price": {
       "buy": 400,
       "sell": 100
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrCushionWhoopee_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCushionWhoopee_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrCushionWhoopee_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCushionWhoopee_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": "イエロー"
         },
-        "fileName": "FtrCushionWhoopee_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCushionWhoopee_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "windflower fan",
-      jp: ""
+      "en": "windflower fan",
+      "jp": "アネモネのせんぷうき"
     },
     "id": 7233,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Fan",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1740
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": "レッド"
         },
-        "fileName": "FtrFlowerFan_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerFan_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": "ピンク"
         },
-        "fileName": "FtrFlowerFan_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerFan_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": "パープル"
         },
-        "fileName": "FtrFlowerFan_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrFlowerFan_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "wobbling Zipper toy",
-      jp: ""
+      "en": "wobbling Zipper toy",
+      "jp": "ぴょんたろうのおきあがりこぼし"
     },
     "id": 12412,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Easter",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 9600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrDollPyn"
+        "isPattern": false,
+        "imageName": "FtrDollPyn"
       }
     ]
   },
   {
     "name": {
-      en: "wooden fish",
-      jp: ""
+      "en": "wooden fish",
+      "jp": "もくぎょ"
     },
     "id": 4124,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Musical Instrument",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 360
     },
-    "count": 3,
+    "count": {
+      "variants": 3,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Camphor-tree wood",
-          jp: ""
+          "en": "Camphor-tree wood",
+          "jp": "楠"
         },
-        "fileName": "FtrMokugyo_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrMokugyo_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Unfinished wood",
-          jp: ""
+          "en": "Unfinished wood",
+          "jp": "白木"
         },
-        "fileName": "FtrMokugyo_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrMokugyo_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Zelkova wood",
-          jp: ""
+          "en": "Zelkova wood",
+          "jp": "欅"
         },
-        "fileName": "FtrMokugyo_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrMokugyo_Remake_2_0"
       }
     ]
   },
   {
     "name": {
-      en: "wooden table mirror",
-      jp: ""
+      "en": "wooden table mirror",
+      "jp": "もくせいテーブルミラー"
     },
     "id": 8826,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Dresser",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1110
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Light wood",
-          jp: ""
+          "en": "Light wood",
+          "jp": "ライトウッド"
         },
-        "fileName": "FtrWoodenMirrorS_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrWoodenMirrorS_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White wood",
-          jp: ""
+          "en": "White wood",
+          "jp": "ホワイトウッド"
         },
-        "fileName": "FtrWoodenMirrorS_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrWoodenMirrorS_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Cherry wood",
-          jp: ""
+          "en": "Cherry wood",
+          "jp": "チェリーウッド"
         },
-        "fileName": "FtrWoodenMirrorS_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrWoodenMirrorS_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Dark wood",
-          jp: ""
+          "en": "Dark wood",
+          "jp": "ダークウッド"
         },
-        "fileName": "FtrWoodenMirrorS_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrWoodenMirrorS_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": "ブラック"
         },
-        "fileName": "FtrWoodenMirrorS_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrWoodenMirrorS_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": "グリーン"
         },
-        "fileName": "FtrWoodenMirrorS_Remake_5_0"
+        "isPattern": false,
+        "imageName": "FtrWoodenMirrorS_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": "ブルー"
         },
-        "fileName": "FtrWoodenMirrorS_Remake_6_0"
+        "isPattern": false,
+        "imageName": "FtrWoodenMirrorS_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Pink wood",
-          jp: ""
+          "en": "Pink wood",
+          "jp": "ピンクウッド"
         },
-        "fileName": "FtrWoodenMirrorS_Remake_7_0"
+        "isPattern": false,
+        "imageName": "FtrWoodenMirrorS_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "wooden toolbox",
-      jp: ""
+      "en": "wooden toolbox",
+      "jp": "もくせいのこうぐばこ"
     },
     "id": 7454,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Supplies",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1980
     },
-    "count": 4,
+    "count": {
+      "variants": 4,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrToolboxWood_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrToolboxWood_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Dark brown",
-          jp: ""
+          "en": "Dark brown",
+          "jp": "ダークブラウン"
         },
-        "fileName": "FtrToolboxWood_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrToolboxWood_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Pastel",
-          jp: ""
+          "en": "Pastel",
+          "jp": "パステル"
         },
-        "fileName": "FtrToolboxWood_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrToolboxWood_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Avocado",
-          jp: ""
+          "en": "Avocado",
+          "jp": "カーキ"
         },
-        "fileName": "FtrToolboxWood_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrToolboxWood_Remake_3_0"
       }
     ]
   },
   {
     "name": {
-      en: "wooden-block toy",
-      jp: ""
+      "en": "wooden-block toy",
+      "jp": "つみきのおもちゃ"
     },
     "id": 3206,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "Yes",
-    "pattern": "NA",
+    "diy": true,
     "tag": "Toy",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 360
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Natural",
-          jp: ""
+          "en": "Natural",
+          "jp": "ナチュラル"
         },
-        "fileName": "FtrBlockBrick_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrBlockBrick_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Mixed wood",
-          jp: ""
+          "en": "Mixed wood",
+          "jp": "ミックスウッド"
         },
-        "fileName": "FtrBlockBrick_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrBlockBrick_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Colorful",
-          jp: ""
+          "en": "Colorful",
+          "jp": "カラフル"
         },
-        "fileName": "FtrBlockBrick_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrBlockBrick_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pastel",
-          jp: ""
+          "en": "Pastel",
+          "jp": "パステル"
         },
-        "fileName": "FtrBlockBrick_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrBlockBrick_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Vivid",
-          jp: ""
+          "en": "Vivid",
+          "jp": "ビビッド"
         },
-        "fileName": "FtrBlockBrick_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrBlockBrick_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "yellow butterfly model",
-      jp: ""
+      "en": "yellow butterfly model",
+      "jp": "モンキチョウのもけい"
     },
     "id": 7084,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Insect",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 480
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrInsectMonkichoToy"
+        "isPattern": false,
+        "imageName": "FtrInsectMonkichoToy"
       }
     ]
   },
   {
     "name": {
-      en: "yellow perch model",
-      jp: ""
+      "en": "yellow perch model",
+      "jp": "イエローパーチのもけい"
     },
     "id": 7028,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishYellowparchToy"
+        "isPattern": false,
+        "imageName": "FtrFishYellowparchToy"
       }
     ]
   },
   {
     "name": {
-      en: "Yule log",
-      jp: ""
+      "en": "Yule log",
+      "jp": "ブッシュ・ド・ノエル"
     },
     "id": 13245,
-    "source": {
-      en: "Nintendo; Nook Shopping Daily Selection",
-      jp: "Nintendo; Nook Shopping Daily Selection"
-    },
+    "source": "Nintendo; Nook Shopping Daily Selection",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.6.0",
     "catalog": "For sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Chocolate",
-          jp: ""
+          "en": "Chocolate",
+          "jp": "チョコレート"
         },
-        "fileName": "FtrCrsBushdonoel_Remake_0_0"
+        "isPattern": false,
+        "imageName": "FtrCrsBushdonoel_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Chestnut",
-          jp: ""
+          "en": "Chestnut",
+          "jp": "マロン"
         },
-        "fileName": "FtrCrsBushdonoel_Remake_1_0"
+        "isPattern": false,
+        "imageName": "FtrCrsBushdonoel_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Whipped-cream topping",
-          jp: ""
+          "en": "Whipped-cream topping",
+          "jp": "生クリーム"
         },
-        "fileName": "FtrCrsBushdonoel_Remake_2_0"
+        "isPattern": false,
+        "imageName": "FtrCrsBushdonoel_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Strawberry",
-          jp: ""
+          "en": "Strawberry",
+          "jp": "ストロベリー"
         },
-        "fileName": "FtrCrsBushdonoel_Remake_3_0"
+        "isPattern": false,
+        "imageName": "FtrCrsBushdonoel_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green tea",
-          jp: ""
+          "en": "Green tea",
+          "jp": "抹茶"
         },
-        "fileName": "FtrCrsBushdonoel_Remake_4_0"
+        "isPattern": false,
+        "imageName": "FtrCrsBushdonoel_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "Yut Nori",
-      jp: ""
+      "en": "Yut Nori",
+      "jp": "ユンノリ"
     },
     "id": 13459,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "New Year's Day (Korea)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Toy",
     "price": {
       "buy": 1300,
       "sell": 325
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrYunnori"
+        "isPattern": false,
+        "imageName": "FtrYunnori"
       }
     ]
   },
   {
     "name": {
-      en: "zebra turkeyfish model",
-      jp: ""
+      "en": "zebra turkeyfish model",
+      "jp": "ミノカサゴのもけい"
     },
     "id": 7836,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "catalog": "Not for sale",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Fish",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrFishMinokasagoToy"
+        "isPattern": false,
+        "imageName": "FtrFishMinokasagoToy"
       }
     ]
   },
   {
     "name": {
-      en: "zodiac ox figurine",
-      jp: ""
+      "en": "zodiac ox figurine",
+      "jp": "うしのおきもの"
     },
     "id": 13490,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "New Year's Day (Asia)",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Seasonal Decor",
     "price": {
       "buy": 1600,
       "sell": 400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrEtoOx"
+        "isPattern": false,
+        "imageName": "FtrEtoOx"
       }
     ]
   },
   {
     "name": {
-      en: "π pie",
-      jp: ""
+      "en": "π pie",
+      "jp": "πパイ"
     },
     "id": 14020,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "π Day",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "catalog": "Not in catalog",
     "category": "misc",
-    "diy": "No",
-    "pattern": "NA",
+    "diy": false,
     "tag": "Dining",
     "price": {
       "buy": 314,
       "sell": 78
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "FtrPiePi"
+        "isPattern": false,
+        "imageName": "FtrPiePi"
       }
     ]
   }
-];
+]
