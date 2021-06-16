@@ -33,6 +33,7 @@ creatures = {
 },
 others = {
   music: [],
+  events: [],
   fossils: [],
   art: []
 },
@@ -40,8 +41,10 @@ diy = {
   tools: [],
   fencing: [],
   materials: [],
+  etc: [],
   recipes: []
 };
+
 let translationNames = {
   tops: [],
   bottoms: [],
@@ -59,6 +62,7 @@ let translationNames = {
   housewares: [],
   misc: [],
   wallMounted: [],
+  events: [],
   wallpaper: [],
   floors: [],
   rugs: [],
@@ -216,3 +220,4 @@ let dataSource = [
   "Rover",
   "Crafting; All villagers"
 ]
+

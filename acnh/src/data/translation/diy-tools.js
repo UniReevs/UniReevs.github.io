@@ -318,11 +318,7 @@ translationNames.tools = [
     label: "4703",
     en: "vaulting pole",
     jp: "たかとびぼう"
-  }
-];
-
-
-translationNames.etc = [
+  },
   {
     label: "7869",
     en: "blue balloon",

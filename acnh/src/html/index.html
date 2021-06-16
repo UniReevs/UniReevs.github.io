@@ -13,11 +13,11 @@
     <div class="sticky">
       <!-- @@include('./includes/top-bar.html') -->
       @@include('./includes/main-nav.html')
-      <!-- @@include('./includes/npc-nav.html') -->
+      @@include('./includes/npc-nav.html')
     </div>
     <main class="app-content">
       <div class="main-content"
-        data-everything="false"
+        data-everything="true"
         data-bags="false"
         data-swimwear="false"
         data-miscellaneous="false"
@@ -46,10 +46,15 @@
         data-wallpaper="false"
         data-special="false"
         data-fencing="false"
+
+
         id="js-category-filter">
-       <!--  <ul class="item-list" id="xjs-item-list" data-view="group" data-category="everything"></ul> -->
-        @@include('./pages/lists.html')
+
+        <ul class="item-list" id="js-item-list" data-view="group" data-category="everything">
+          @@include('./pages/lists.html')
+        </ul>
       </div>
+      <!-- @@include('./includes/event-nav.html') -->
     </main>
 
     <!-- @@include('./includes/island-map.html') -->
@@ -57,15 +62,10 @@
     <script src="src/js/jquery.js"></script>
 
 
-    <script src="src/data/init.js"></script>
+<!--     <script src="src/data/init.js"></script>
 
     <script src="src/data/sheet-csv/csv.js"></script>
-    <script src="src/data/sheet-csv/csv-fashion.js"></script>
-    <script src="src/data/sheet-csv/csv-items.js"></script>
-    <script src="src/data/sheet-csv/csv-items2.js"></script>
-    <script src="src/data/sheet-csv/csv-npcs.js"></script>
-    <script src="src/data/sheet-csv/csv-others.js"></script>
-    <script src="src/data/sheet-csv/csv-photos.js"></script>
+    <script src="src/data/sheet-csv/csv-recipes.js"></script>
 
     <script src="src/data/translation/fashion-bags.js"></script>
     <script src="src/data/translation/fashion-swimwear.js"></script>
@@ -76,7 +76,7 @@
     <script src="src/data/translation/fashion-bottoms.js"></script>
     <script src="src/data/translation/fashion-tops.js"></script>
     <script src="src/data/translation/others-art.js"></script>
-    <script src="src/data/translation/diy-recipes.js"></script>
+    <script src="src/data/translation/diy-etc.js"></script>
     <script src="src/data/translation/fashion-dresses.js"></script>
     <script src="src/data/translation/fashion-umbrellas.js"></script>
     <script src="src/data/translation/items-wallMounted.js"></script>
@@ -128,9 +128,9 @@
 
     <script src="src/data/translation.js"></script>
 
-    <script src="src/js/functions.js"></script>
+    <script src="src/js/functions.js"></script> -->
     <script src="src/js/events.js"></script>
-    <script src="src/js/main.js"></script>
+    <!-- <script src="src/js/main.js"></script> -->
   </div>
 </body>
 </html>

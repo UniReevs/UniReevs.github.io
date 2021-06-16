@@ -29,7 +29,7 @@
   flex-wrap: wrap;
 
   .item {
-    border: 1px solid $color-gray;
+    border: 3px solid $color-gray;
   }
   .info {
     display: flex;
@@ -84,7 +84,6 @@
 .variants {
   display: flex;
   justify-content: center;
-  background: #ccc;
   border-radius: 3px;
 }
 .item-variant {
@@ -145,6 +144,11 @@
   // right: 0;
 }
 
+// .item[data-source="C.J."] {
+//   display: block;
+
+// }
+
 [data-everything='true'] .item,
 [data-bags='true'] .item[data-category='bags'],
 [data-swimwear='true'] .item[data-category='swimwear'],
@@ -183,4 +187,22 @@
 .count,
 .variant .name {
   display: none;
+}
+
+.price {
+  display: none;
+}
+
+.item[data-buy='-1'] {
+  background: #ded6bc;
+}
+
+.item[data-source='Crafting'] {
+  border-color: #b95b2b;
+  background: transparent;
+}
+
+.item[data-source='Nook Miles'] {
+  border-color: #0086ad;
+  background: transparent;
 }

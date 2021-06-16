@@ -4,35 +4,34 @@ let csv = {
   dresses: [],
   headwear: [],
   swimwear: [],
+  caps: [],
+  helmets: [],
+  headwear: [],
   accessories: [],
   socks: [],
   shoes: [],
   bags: [],
   umbrellas: [],
-
-  art: [],
-  fencing: [],
-  fossils: [],
-
   housewares: [],
   misc: [],
   wallMounted: [],
-
   wallpaper: [],
   floors: [],
   rugs: [],
-
-  recipes: [],
-
-  music: [],
-  other: [],
-
-  tools: [],
-  events: [],
-
   photos: [],
   posters: [],
-  npcs: [],
-
-  villagers: []
+  special: [],
+  villagers: [],
+  insects: [],
+  fish: [],
+  seaCreatures: [],
+  music: [],
+  fossils: [],
+  art: [],
+  tools: [],
+  fencing: [],
+  materials: [],
+  recipes: [],
+  race: [],
+  etc: []
 };

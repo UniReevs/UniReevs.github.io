@@ -1,3679 +1,4036 @@
 diy.tools = [
   {
     "name": {
-      en: "axe",
-      jp: ""
+      "en": "axe",
+      "jp": "オノ"
     },
     "id": 2100,
-    "source": {
-      en: "Crafting; Nook's Cranny",
-      jp: "Crafting; Nook's Cranny"
-    },
+    "source": "Crafting; Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolAxe"
+        "imageName": "ToolAxe"
       }
     ]
   },
   {
     "name": {
-      en: "bamboo wand",
-      jp: ""
+      "en": "bamboo wand",
+      "jp": "たけのステッキ"
     },
     "id": 7590,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "young spring bamboo",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3900
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickBamboo"
+        "imageName": "ToolStickBamboo"
       }
     ]
   },
   {
     "name": {
-      en: "bean-tossing kit",
-      jp: ""
+      "en": "bean-tossing kit",
+      "jp": "まめまきセット"
     },
     "id": 13914,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Setsubun",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolSoy0"
+        "imageName": "ToolSoy0"
       }
     ]
   },
   {
     "name": {
-      en: "blue balloon",
-      jp: ""
+      "en": "blue balloon",
+      "jp": "あおいふうせん"
     },
     "id": 7869,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolBalloonNormal"
+        "imageName": "ToolBalloonNormal"
       }
     ]
   },
   {
     "name": {
-      en: "blue sparkler",
-      jp: ""
+      "en": "blue sparkler",
+      "jp": "あおいてもちはなび"
     },
     "id": 12974,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolFireworks1"
+        "imageName": "ToolFireworks1"
       }
     ]
   },
   {
     "name": {
-      en: "bubble blower",
-      jp: ""
+      "en": "bubble blower",
+      "jp": "シャボンだま"
     },
     "id": 4386,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 150,
       "sell": 37
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolBubblesNormal"
+        "imageName": "ToolBubblesNormal"
       }
     ]
   },
   {
     "name": {
-      en: "bug wand",
-      jp: ""
+      "en": "bug wand",
+      "jp": "ムシのステッキ"
     },
     "id": 8769,
-    "source": {
-      en: "Flick",
-      jp: "Flick"
-    },
+    "source": "Flick",
     "map": 0,
+    "event": "Bug-Off",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStcikInsect"
+        "imageName": "ToolStcikInsect"
       }
     ]
   },
   {
     "name": {
-      en: "Bunny Day wand",
-      jp: ""
+      "en": "Bunny Day wand",
+      "jp": "イースターなステッキ"
     },
     "id": 12578,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Bunny Day",
+    "eventExclusive": "Yes",
+    "version": "1.1.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 11100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickEgg"
+        "imageName": "ToolStickEgg"
       }
     ]
   },
   {
     "name": {
-      en: "cherry-blossom wand",
-      jp: ""
+      "en": "cherry-blossom wand",
+      "jp": "さくらのステッキ"
     },
     "id": 7589,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "cherry-blossom petals",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2700
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickCherryblossom"
+        "imageName": "ToolStickCherryblossom"
       }
     ]
   },
   {
     "name": {
-      en: "colorful fishing rod",
-      jp: ""
+      "en": "colorful fishing rod",
+      "jp": "カラフルなつりざお"
     },
     "id": 8472,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodDuck_Remake_0_0"
+        "imageName": "ToolFishingrodDuck_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodDuck_Remake_1_0"
+        "imageName": "ToolFishingrodDuck_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodDuck_Remake_2_0"
+        "imageName": "ToolFishingrodDuck_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodDuck_Remake_3_0"
+        "imageName": "ToolFishingrodDuck_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodDuck_Remake_4_0"
+        "imageName": "ToolFishingrodDuck_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodDuck_Remake_5_0"
+        "imageName": "ToolFishingrodDuck_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodDuck_Remake_6_0"
+        "imageName": "ToolFishingrodDuck_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodDuck_Remake_7_0"
+        "imageName": "ToolFishingrodDuck_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "colorful net",
-      jp: ""
+      "en": "colorful net",
+      "jp": "カラフルなあみ"
     },
     "id": 8177,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow & orange",
-          jp: ""
+          "en": "Yellow & orange",
+          "jp": ""
         },
-        "fileName": "ToolNetPattern_Remake_0_0"
+        "imageName": "ToolNetPattern_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red & yellow",
-          jp: ""
+          "en": "Red & yellow",
+          "jp": ""
         },
-        "fileName": "ToolNetPattern_Remake_1_0"
+        "imageName": "ToolNetPattern_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Orange & blue",
-          jp: ""
+          "en": "Orange & blue",
+          "jp": ""
         },
-        "fileName": "ToolNetPattern_Remake_2_0"
+        "imageName": "ToolNetPattern_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink & yellow",
-          jp: ""
+          "en": "Pink & yellow",
+          "jp": ""
         },
-        "fileName": "ToolNetPattern_Remake_3_0"
+        "imageName": "ToolNetPattern_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green & blue",
-          jp: ""
+          "en": "Green & blue",
+          "jp": ""
         },
-        "fileName": "ToolNetPattern_Remake_4_0"
+        "imageName": "ToolNetPattern_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple & pink",
-          jp: ""
+          "en": "Purple & pink",
+          "jp": ""
         },
-        "fileName": "ToolNetPattern_Remake_5_0"
+        "imageName": "ToolNetPattern_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White & blue",
-          jp: ""
+          "en": "White & blue",
+          "jp": ""
         },
-        "fileName": "ToolNetPattern_Remake_6_0"
+        "imageName": "ToolNetPattern_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Gray & green",
-          jp: ""
+          "en": "Gray & green",
+          "jp": ""
         },
-        "fileName": "ToolNetPattern_Remake_7_0"
+        "imageName": "ToolNetPattern_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "colorful shovel",
-      jp: ""
+      "en": "colorful shovel",
+      "jp": "カラフルなスコップ"
     },
     "id": 8577,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolScoopColorful_Remake_0_0"
+        "imageName": "ToolScoopColorful_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolScoopColorful_Remake_1_0"
+        "imageName": "ToolScoopColorful_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolScoopColorful_Remake_2_0"
+        "imageName": "ToolScoopColorful_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolScoopColorful_Remake_3_0"
+        "imageName": "ToolScoopColorful_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolScoopColorful_Remake_4_0"
+        "imageName": "ToolScoopColorful_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolScoopColorful_Remake_5_0"
+        "imageName": "ToolScoopColorful_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolScoopColorful_Remake_6_0"
+        "imageName": "ToolScoopColorful_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolScoopColorful_Remake_7_0"
+        "imageName": "ToolScoopColorful_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "colorful slingshot",
-      jp: ""
+      "en": "colorful slingshot",
+      "jp": "カラフルなパチンコ"
     },
     "id": 8580,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotColorful_Remake_0_0"
+        "imageName": "ToolSlingshotColorful_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotColorful_Remake_1_0"
+        "imageName": "ToolSlingshotColorful_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotColorful_Remake_2_0"
+        "imageName": "ToolSlingshotColorful_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotColorful_Remake_3_0"
+        "imageName": "ToolSlingshotColorful_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotColorful_Remake_4_0"
+        "imageName": "ToolSlingshotColorful_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotColorful_Remake_5_0"
+        "imageName": "ToolSlingshotColorful_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotColorful_Remake_6_0"
+        "imageName": "ToolSlingshotColorful_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotColorful_Remake_7_0"
+        "imageName": "ToolSlingshotColorful_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "colorful watering can",
-      jp: ""
+      "en": "colorful watering can",
+      "jp": "カラフルなジョウロ"
     },
     "id": 8534,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolWateringColorful_Remake_0_0"
+        "imageName": "ToolWateringColorful_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolWateringColorful_Remake_1_0"
+        "imageName": "ToolWateringColorful_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolWateringColorful_Remake_2_0"
+        "imageName": "ToolWateringColorful_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolWateringColorful_Remake_3_0"
+        "imageName": "ToolWateringColorful_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolWateringColorful_Remake_4_0"
+        "imageName": "ToolWateringColorful_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolWateringColorful_Remake_5_0"
+        "imageName": "ToolWateringColorful_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolWateringColorful_Remake_6_0"
+        "imageName": "ToolWateringColorful_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolWateringColorful_Remake_7_0"
+        "imageName": "ToolWateringColorful_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "cosmos wand",
-      jp: ""
+      "en": "cosmos wand",
+      "jp": "コスモスのステッキ"
     },
     "id": 5092,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1580
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickCosmos"
+        "imageName": "ToolStickCosmos"
       }
     ]
   },
   {
     "name": {
-      en: "elephant watering can",
-      jp: ""
+      "en": "elephant watering can",
+      "jp": "ゾウさんジョウロ"
     },
     "id": 8535,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": ""
         },
-        "fileName": "ToolWateringElephant_Remake_0_0"
+        "imageName": "ToolWateringElephant_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolWateringElephant_Remake_1_0"
+        "imageName": "ToolWateringElephant_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolWateringElephant_Remake_2_0"
+        "imageName": "ToolWateringElephant_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolWateringElephant_Remake_3_0"
+        "imageName": "ToolWateringElephant_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolWateringElephant_Remake_4_0"
+        "imageName": "ToolWateringElephant_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolWateringElephant_Remake_5_0"
+        "imageName": "ToolWateringElephant_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolWateringElephant_Remake_6_0"
+        "imageName": "ToolWateringElephant_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolWateringElephant_Remake_7_0"
+        "imageName": "ToolWateringElephant_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "fiery cheer megaphone",
-      jp: ""
+      "en": "fiery cheer megaphone",
+      "jp": "おうえんメガホン・ファイアー"
     },
     "id": 14013,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Big Game Celebration (1)",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolMegaphone1"
+        "imageName": "ToolMegaphone1"
       }
     ]
   },
   {
     "name": {
-      en: "fish fishing rod",
-      jp: ""
+      "en": "fish fishing rod",
+      "jp": "おサカナつりざお"
     },
     "id": 8471,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodColorful_Remake_0_0"
+        "imageName": "ToolFishingrodColorful_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodColorful_Remake_1_0"
+        "imageName": "ToolFishingrodColorful_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodColorful_Remake_2_0"
+        "imageName": "ToolFishingrodColorful_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodColorful_Remake_3_0"
+        "imageName": "ToolFishingrodColorful_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodColorful_Remake_4_0"
+        "imageName": "ToolFishingrodColorful_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodColorful_Remake_5_0"
+        "imageName": "ToolFishingrodColorful_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodColorful_Remake_6_0"
+        "imageName": "ToolFishingrodColorful_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodColorful_Remake_7_0"
+        "imageName": "ToolFishingrodColorful_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "fish wand",
-      jp: ""
+      "en": "fish wand",
+      "jp": "おサカナのステッキ"
     },
     "id": 8770,
-    "source": {
-      en: "C.J.",
-      jp: "C.J."
-    },
+    "source": "C.J.",
     "map": 0,
+    "event": "Fishing Tourney",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickFish"
+        "imageName": "ToolStickFish"
       }
     ]
   },
   {
     "name": {
-      en: "fishing rod",
-      jp: ""
+      "en": "fishing rod",
+      "jp": "つりざお"
     },
     "id": 2377,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "Yes",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolAngling_Remake_0_0"
+        "imageName": "ToolAngling_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolAngling_Remake_1_0"
+        "imageName": "ToolAngling_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolAngling_Remake_2_0"
+        "imageName": "ToolAngling_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolAngling_Remake_3_0"
+        "imageName": "ToolAngling_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolAngling_Remake_4_0"
+        "imageName": "ToolAngling_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolAngling_Remake_5_0"
+        "imageName": "ToolAngling_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolAngling_Remake_6_0"
+        "imageName": "ToolAngling_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolAngling_Remake_7_0"
+        "imageName": "ToolAngling_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "flimsy axe",
-      jp: ""
+      "en": "flimsy axe",
+      "jp": "ショボいオノ"
     },
     "id": 3068,
-    "source": {
-      en: "Crafting; Nook's Cranny; Wilbur",
-      jp: "Crafting; Nook's Cranny; Wilbur"
-    },
+    "source": "Crafting; Nook's Cranny; Wilbur",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolAxeStone"
+        "imageName": "ToolAxeStone"
       }
     ]
   },
   {
     "name": {
-      en: "flimsy fishing rod",
-      jp: ""
+      "en": "flimsy fishing rod",
+      "jp": "ショボいつりざお"
     },
     "id": 3084,
-    "source": {
-      en: "Crafting; Nook's Cranny; Wilbur",
-      jp: "Crafting; Nook's Cranny; Wilbur"
-    },
+    "source": "Crafting; Nook's Cranny; Wilbur",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
       "buy": 400,
       "sell": 100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolFishingrodWood"
+        "imageName": "ToolFishingrodWood"
       }
     ]
   },
   {
     "name": {
-      en: "flimsy net",
-      jp: ""
+      "en": "flimsy net",
+      "jp": "ショボいあみ"
     },
     "id": 2376,
-    "source": {
-      en: "Crafting; Nook's Cranny; Wilbur",
-      jp: "Crafting; Nook's Cranny; Wilbur"
-    },
+    "source": "Crafting; Nook's Cranny; Wilbur",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
       "buy": 400,
       "sell": 100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolNet"
+        "imageName": "ToolNet"
       }
     ]
   },
   {
     "name": {
-      en: "flimsy shovel",
-      jp: ""
+      "en": "flimsy shovel",
+      "jp": "ショボいスコップ"
     },
     "id": 3082,
-    "source": {
-      en: "Crafting; Nook's Cranny; Wilbur",
-      jp: "Crafting; Nook's Cranny; Wilbur"
-    },
+    "source": "Crafting; Nook's Cranny; Wilbur",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolShovelWood"
+        "imageName": "ToolShovelWood"
       }
     ]
   },
   {
     "name": {
-      en: "flimsy watering can",
-      jp: ""
+      "en": "flimsy watering can",
+      "jp": "ショボいジョウロ"
     },
     "id": 3083,
-    "source": {
-      en: "Crafting; Nook's Cranny",
-      jp: "Crafting; Nook's Cranny"
-    },
+    "source": "Crafting; Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolWateringWood"
+        "imageName": "ToolWateringWood"
       }
     ]
   },
   {
     "name": {
-      en: "flower-petal basket",
-      jp: ""
+      "en": "flower-petal basket",
+      "jp": "フラワーシャワー"
     },
     "id": 14284,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Wedding Season (Nook Shopping 1)",
+    "eventExclusive": "Yes",
+    "version": "1.10.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 1200,
       "sell": 300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolFlowershower"
+        "imageName": "ToolFlowershower"
       }
     ]
   },
   {
     "name": {
-      en: "football cheer megaphone",
-      jp: ""
+      "en": "football cheer megaphone",
+      "jp": "おうえんメガホン・アメフト"
     },
     "id": 13913,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Big Game Celebration (1)",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolMegaphone0"
+        "imageName": "ToolMegaphone0"
       }
     ]
   },
   {
     "name": {
-      en: "glittery cheer megaphone",
-      jp: ""
+      "en": "glittery cheer megaphone",
+      "jp": "おうえんメガホン・グリッター"
     },
     "id": 14015,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Big Game Celebration (1)",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolMegaphone3"
+        "imageName": "ToolMegaphone3"
       }
     ]
   },
   {
     "name": {
-      en: "golden axe",
-      jp: ""
+      "en": "golden axe",
+      "jp": "きんのオノ"
     },
     "id": 9617,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10655
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolAxeGold"
+        "imageName": "ToolAxeGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden net",
-      jp: ""
+      "en": "golden net",
+      "jp": "きんのあみ"
     },
     "id": 8179,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolNetGold"
+        "imageName": "ToolNetGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden rod",
-      jp: ""
+      "en": "golden rod",
+      "jp": "きんのつりざお"
     },
     "id": 8660,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10400
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolFishingrodGold"
+        "imageName": "ToolFishingrodGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden shovel",
-      jp: ""
+      "en": "golden shovel",
+      "jp": "きんのスコップ"
     },
     "id": 8574,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10675
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolScoopGold"
+        "imageName": "ToolScoopGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden slingshot",
-      jp: ""
+      "en": "golden slingshot",
+      "jp": "きんのパチンコ"
     },
     "id": 8578,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolSlingshotGold"
+        "imageName": "ToolSlingshotGold"
       }
     ]
   },
   {
     "name": {
-      en: "golden wand",
-      jp: ""
+      "en": "golden wand",
+      "jp": "おうごんのステッキ"
     },
     "id": 7591,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 20750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickGolden"
+        "imageName": "ToolStickGolden"
       }
     ]
   },
   {
     "name": {
-      en: "golden watering can",
-      jp: ""
+      "en": "golden watering can",
+      "jp": "きんのジョウロ"
     },
     "id": 8533,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10675
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolWateringGold"
+        "imageName": "ToolWateringGold"
       }
     ]
   },
   {
     "name": {
-      en: "green balloon",
-      jp: ""
+      "en": "green balloon",
+      "jp": "みどりのふうせん"
     },
     "id": 13125,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolBalloonNormal3"
+        "imageName": "ToolBalloonNormal3"
       }
     ]
   },
   {
     "name": {
-      en: "hyacinth wand",
-      jp: ""
+      "en": "hyacinth wand",
+      "jp": "ヒヤシンスのステッキ"
     },
     "id": 5083,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1660
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickHyacinth"
+        "imageName": "ToolStickHyacinth"
       }
     ]
   },
   {
     "name": {
-      en: "ice wand",
-      jp: ""
+      "en": "ice wand",
+      "jp": "こおりのステッキ"
     },
     "id": 7585,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "snowflakes",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickSnow"
+        "imageName": "ToolStickSnow"
       }
     ]
   },
   {
     "name": {
-      en: "iron wand",
-      jp: ""
+      "en": "iron wand",
+      "jp": "てつのステッキ"
     },
     "id": 7592,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3750
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickIron"
+        "imageName": "ToolStickIron"
       }
     ]
   },
   {
     "name": {
-      en: "Kiki & Lala wand",
-      jp: ""
+      "en": "Kiki & Lala wand",
+      "jp": "キキ&ララなステッキ"
     },
     "id": 13173,
-    "source": {
-      en: "Nook Shopping Promotion",
-      jp: "Nook Shopping Promotion"
-    },
+    "source": "Nook Shopping Promotion",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.9.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 12240,
       "sell": 3060
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickKikilala0"
+        "imageName": "ToolStickKikilala0"
       }
     ]
   },
   {
     "name": {
-      en: "ladder",
-      jp: ""
+      "en": "ladder",
+      "jp": "はしご"
     },
     "id": 2615,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1440
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolLadder"
+        "imageName": "ToolLadder"
       }
     ]
   },
   {
     "name": {
-      en: "light stick",
-      jp: ""
+      "en": "light stick",
+      "jp": "スティックライト"
     },
     "id": 5741,
-    "source": {
-      en: "Isabelle",
-      jp: "Isabelle"
-    },
+    "source": "Isabelle",
     "map": 0,
+    "event": "Countdown",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolSticklight"
+        "imageName": "ToolSticklight"
       }
     ]
   },
   {
     "name": {
-      en: "lily wand",
-      jp: ""
+      "en": "lily wand",
+      "jp": "ユリのステッキ"
     },
     "id": 5094,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1580
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickYuri"
+        "imageName": "ToolStickYuri"
       }
     ]
   },
   {
     "name": {
-      en: "magic bag",
-      jp: ""
+      "en": "magic bag",
+      "jp": "プレゼントぶくろ"
     },
     "id": 13836,
-    "source": {
-      en: "Jingle",
-      jp: "Jingle"
-    },
+    "source": "Jingle",
     "map": 0,
+    "event": "Toy Day",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "category": "tools",
-    "diy": "No",
+    "folder": "MenuIcon",
+    "diy": false,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
-      "sell": "NA"
+      "buy": -1,
+      "sell": -1
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "SantaSack"
+        "imageName": "SantaSack"
       }
     ]
   },
   {
     "name": {
-      en: "maracas",
-      jp: ""
+      "en": "maracas",
+      "jp": "マラカス"
     },
     "id": 13958,
-    "source": {
-      en: "Nintendo; Nook Shopping Daily Selection",
-      jp: "Nintendo; Nook Shopping Daily Selection"
-    },
+    "source": "Nintendo; Nook Shopping Daily Selection",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.7.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 2000,
       "sell": 500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolMaracasCarnival"
+        "imageName": "ToolMaracasCarnival"
       }
     ]
   },
   {
     "name": {
-      en: "mums wand",
-      jp: ""
+      "en": "mums wand",
+      "jp": "キクのステッキ"
     },
     "id": 5095,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1580
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickChrysanthemum"
+        "imageName": "ToolStickChrysanthemum"
       }
     ]
   },
   {
     "name": {
-      en: "mushroom wand",
-      jp: ""
+      "en": "mushroom wand",
+      "jp": "キノコのステッキ"
     },
     "id": 7588,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "mushrooms",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "Yes",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3300
     },
-    "count": 5,
+    "count": {
+      "variants": 5,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Ordinary mushroom",
-          jp: ""
+          "en": "Ordinary mushroom",
+          "jp": ""
         },
-        "fileName": "ToolStickMushroom_Remake_0_0"
+        "imageName": "ToolStickMushroom_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White mushroom",
-          jp: ""
+          "en": "White mushroom",
+          "jp": ""
         },
-        "fileName": "ToolStickMushroom_Remake_1_0"
+        "imageName": "ToolStickMushroom_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Strange mushroom",
-          jp: ""
+          "en": "Strange mushroom",
+          "jp": ""
         },
-        "fileName": "ToolStickMushroom_Remake_2_0"
+        "imageName": "ToolStickMushroom_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red mushroom",
-          jp: ""
+          "en": "Red mushroom",
+          "jp": ""
         },
-        "fileName": "ToolStickMushroom_Remake_3_0"
+        "imageName": "ToolStickMushroom_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Yellow mushroom",
-          jp: ""
+          "en": "Yellow mushroom",
+          "jp": ""
         },
-        "fileName": "ToolStickMushroom_Remake_4_0"
+        "imageName": "ToolStickMushroom_Remake_4_0"
       }
     ]
   },
   {
     "name": {
-      en: "net",
-      jp: ""
+      "en": "net",
+      "jp": "あみ"
     },
     "id": 5784,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "Yes",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolNetNormal_Remake_0_0"
+        "imageName": "ToolNetNormal_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolNetNormal_Remake_1_0"
+        "imageName": "ToolNetNormal_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolNetNormal_Remake_2_0"
+        "imageName": "ToolNetNormal_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolNetNormal_Remake_3_0"
+        "imageName": "ToolNetNormal_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolNetNormal_Remake_4_0"
+        "imageName": "ToolNetNormal_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolNetNormal_Remake_5_0"
+        "imageName": "ToolNetNormal_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolNetNormal_Remake_6_0"
+        "imageName": "ToolNetNormal_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolNetNormal_Remake_7_0"
+        "imageName": "ToolNetNormal_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "Nook Inc. handheld pennant",
-      jp: ""
+      "en": "Nook Inc. handheld pennant",
+      "jp": "たぬきかいはつのてもちペナント"
     },
     "id": 13128,
-    "source": {
-      en: "Nook Miles Redemption",
-      jp: "Nook Miles Redemption"
-    },
+    "source": "Nook Miles Redemption",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolPennantRcm"
+        "imageName": "ToolPennantRcm"
       }
     ]
   },
   {
     "name": {
-      en: "Nook Inc. uchiwa fan",
-      jp: ""
+      "en": "Nook Inc. uchiwa fan",
+      "jp": "たぬきかいはつうちわ"
     },
     "id": 9762,
-    "source": {
-      en: "Nook Miles Redemption",
-      jp: "Nook Miles Redemption"
-    },
+    "source": "Nook Miles Redemption",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolFanNook0"
+        "imageName": "ToolFanNook0"
       }
     ]
   },
   {
     "name": {
-      en: "ocarina",
-      jp: ""
+      "en": "ocarina",
+      "jp": "オカリナ"
     },
     "id": 5320,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolOcarina"
+        "imageName": "ToolOcarina"
       }
     ]
   },
   {
     "name": {
-      en: "outdoorsy fishing rod",
-      jp: ""
+      "en": "outdoorsy fishing rod",
+      "jp": "アウトドアなつりざお"
     },
     "id": 8473,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Avocado",
-          jp: ""
+          "en": "Avocado",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodOutdoor_Remake_0_0"
+        "imageName": "ToolFishingrodOutdoor_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodOutdoor_Remake_1_0"
+        "imageName": "ToolFishingrodOutdoor_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodOutdoor_Remake_2_0"
+        "imageName": "ToolFishingrodOutdoor_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodOutdoor_Remake_3_0"
+        "imageName": "ToolFishingrodOutdoor_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Beige",
-          jp: ""
+          "en": "Beige",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodOutdoor_Remake_4_0"
+        "imageName": "ToolFishingrodOutdoor_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodOutdoor_Remake_5_0"
+        "imageName": "ToolFishingrodOutdoor_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodOutdoor_Remake_6_0"
+        "imageName": "ToolFishingrodOutdoor_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolFishingrodOutdoor_Remake_7_0"
+        "imageName": "ToolFishingrodOutdoor_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "outdoorsy net",
-      jp: ""
+      "en": "outdoorsy net",
+      "jp": "アウトドアなあみ"
     },
     "id": 8178,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Avocado",
-          jp: ""
+          "en": "Avocado",
+          "jp": ""
         },
-        "fileName": "ToolNetOutdoor_Remake_0_0"
+        "imageName": "ToolNetOutdoor_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "ToolNetOutdoor_Remake_1_0"
+        "imageName": "ToolNetOutdoor_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolNetOutdoor_Remake_2_0"
+        "imageName": "ToolNetOutdoor_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolNetOutdoor_Remake_3_0"
+        "imageName": "ToolNetOutdoor_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Beige",
-          jp: ""
+          "en": "Beige",
+          "jp": ""
         },
-        "fileName": "ToolNetOutdoor_Remake_4_0"
+        "imageName": "ToolNetOutdoor_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolNetOutdoor_Remake_5_0"
+        "imageName": "ToolNetOutdoor_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolNetOutdoor_Remake_6_0"
+        "imageName": "ToolNetOutdoor_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolNetOutdoor_Remake_7_0"
+        "imageName": "ToolNetOutdoor_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "outdoorsy shovel",
-      jp: ""
+      "en": "outdoorsy shovel",
+      "jp": "アウトドアなスコップ"
     },
     "id": 8575,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Avocado",
-          jp: ""
+          "en": "Avocado",
+          "jp": ""
         },
-        "fileName": "ToolScoopOutdoor_Remake_0_0"
+        "imageName": "ToolScoopOutdoor_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "ToolScoopOutdoor_Remake_1_0"
+        "imageName": "ToolScoopOutdoor_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolScoopOutdoor_Remake_2_0"
+        "imageName": "ToolScoopOutdoor_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolScoopOutdoor_Remake_3_0"
+        "imageName": "ToolScoopOutdoor_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Beige",
-          jp: ""
+          "en": "Beige",
+          "jp": ""
         },
-        "fileName": "ToolScoopOutdoor_Remake_4_0"
+        "imageName": "ToolScoopOutdoor_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolScoopOutdoor_Remake_5_0"
+        "imageName": "ToolScoopOutdoor_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolScoopOutdoor_Remake_6_0"
+        "imageName": "ToolScoopOutdoor_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolScoopOutdoor_Remake_7_0"
+        "imageName": "ToolScoopOutdoor_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "outdoorsy slingshot",
-      jp: ""
+      "en": "outdoorsy slingshot",
+      "jp": "アウトドアなパチンコ"
     },
     "id": 8579,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Avocado",
-          jp: ""
+          "en": "Avocado",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotOutdoor_Remake_0_0"
+        "imageName": "ToolSlingshotOutdoor_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotOutdoor_Remake_1_0"
+        "imageName": "ToolSlingshotOutdoor_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotOutdoor_Remake_2_0"
+        "imageName": "ToolSlingshotOutdoor_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotOutdoor_Remake_3_0"
+        "imageName": "ToolSlingshotOutdoor_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Beige",
-          jp: ""
+          "en": "Beige",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotOutdoor_Remake_4_0"
+        "imageName": "ToolSlingshotOutdoor_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotOutdoor_Remake_5_0"
+        "imageName": "ToolSlingshotOutdoor_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotOutdoor_Remake_6_0"
+        "imageName": "ToolSlingshotOutdoor_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolSlingshotOutdoor_Remake_7_0"
+        "imageName": "ToolSlingshotOutdoor_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "outdoorsy watering can",
-      jp: ""
+      "en": "outdoorsy watering can",
+      "jp": "アウトドアなジョウロ"
     },
     "id": 8536,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Avocado",
-          jp: ""
+          "en": "Avocado",
+          "jp": ""
         },
-        "fileName": "ToolWateringOutdoor_Remake_0_0"
+        "imageName": "ToolWateringOutdoor_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "ToolWateringOutdoor_Remake_1_0"
+        "imageName": "ToolWateringOutdoor_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolWateringOutdoor_Remake_2_0"
+        "imageName": "ToolWateringOutdoor_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolWateringOutdoor_Remake_3_0"
+        "imageName": "ToolWateringOutdoor_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Beige",
-          jp: ""
+          "en": "Beige",
+          "jp": ""
         },
-        "fileName": "ToolWateringOutdoor_Remake_4_0"
+        "imageName": "ToolWateringOutdoor_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolWateringOutdoor_Remake_5_0"
+        "imageName": "ToolWateringOutdoor_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolWateringOutdoor_Remake_6_0"
+        "imageName": "ToolWateringOutdoor_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolWateringOutdoor_Remake_7_0"
+        "imageName": "ToolWateringOutdoor_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "pan flute",
-      jp: ""
+      "en": "pan flute",
+      "jp": "パンフルート"
     },
     "id": 5517,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "young spring bamboo",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 2800
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolPanpipe"
+        "imageName": "ToolPanpipe"
       }
     ]
   },
   {
     "name": {
-      en: "pansy wand",
-      jp: ""
+      "en": "pansy wand",
+      "jp": "パンジーのステッキ"
     },
     "id": 5091,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1580
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickPansy"
+        "imageName": "ToolStickPansy"
       }
     ]
   },
   {
     "name": {
-      en: "party popper",
-      jp: ""
+      "en": "party popper",
+      "jp": "クラッカー"
     },
     "id": 2753,
-    "source": {
-      en: "Nook's Cranny; Tom Nook",
-      jp: "Nook's Cranny; Tom Nook"
-    },
+    "source": "Nook's Cranny; Tom Nook",
     "map": 0,
+    "event": "Countdown",
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 100,
       "sell": 25
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolCracker"
+        "imageName": "ToolCracker"
       }
     ]
   },
   {
     "name": {
-      en: "pink balloon",
-      jp: ""
+      "en": "pink balloon",
+      "jp": "ピンクのふうせん"
     },
     "id": 13126,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolBalloonNormal4"
+        "imageName": "ToolBalloonNormal4"
       }
     ]
   },
   {
     "name": {
-      en: "pinwheel",
-      jp: ""
+      "en": "pinwheel",
+      "jp": "かざぐるま"
     },
     "id": 5744,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolWindmill"
+        "imageName": "ToolWindmill"
       }
     ]
   },
   {
     "name": {
-      en: "printed-design shovel",
-      jp: ""
+      "en": "printed-design shovel",
+      "jp": "がらものスコップ"
     },
     "id": 8576,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolScoopPattern_Remake_0_0"
+        "imageName": "ToolScoopPattern_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolScoopPattern_Remake_1_0"
+        "imageName": "ToolScoopPattern_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolScoopPattern_Remake_2_0"
+        "imageName": "ToolScoopPattern_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolScoopPattern_Remake_3_0"
+        "imageName": "ToolScoopPattern_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolScoopPattern_Remake_4_0"
+        "imageName": "ToolScoopPattern_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolScoopPattern_Remake_5_0"
+        "imageName": "ToolScoopPattern_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolScoopPattern_Remake_6_0"
+        "imageName": "ToolScoopPattern_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolScoopPattern_Remake_7_0"
+        "imageName": "ToolScoopPattern_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "red balloon",
-      jp: ""
+      "en": "red balloon",
+      "jp": "あかいふうせん"
     },
     "id": 13123,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolBalloonNormal1"
+        "imageName": "ToolBalloonNormal1"
       }
     ]
   },
   {
     "name": {
-      en: "red sparkler",
-      jp: ""
+      "en": "red sparkler",
+      "jp": "あかいてもちはなび"
     },
     "id": 5743,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolFireworks"
+        "imageName": "ToolFireworks"
       }
     ]
   },
   {
     "name": {
-      en: "rose wand",
-      jp: ""
+      "en": "rose wand",
+      "jp": "バラのステッキ"
     },
     "id": 5093,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1580
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickRose"
+        "imageName": "ToolStickRose"
       }
     ]
   },
   {
     "name": {
-      en: "shamrock soda",
-      jp: ""
+      "en": "shamrock soda",
+      "jp": "シャムロックソーダ"
     },
     "id": 14028,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Shamrock Day",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolJuiceShamrock"
+        "imageName": "ToolJuiceShamrock"
       }
     ]
   },
   {
     "name": {
-      en: "shamrock wand",
-      jp: ""
+      "en": "shamrock wand",
+      "jp": "シャムロックステッキ"
     },
     "id": 14239,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Shamrock Day",
+    "eventExclusive": "Yes",
+    "version": "1.8.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1560
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickShamrock"
+        "imageName": "ToolStickShamrock"
       }
     ]
   },
   {
     "name": {
-      en: "shell wand",
-      jp: ""
+      "en": "shell wand",
+      "jp": "かいがらのステッキ"
     },
     "id": 7586,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "summer shells",
+    "eventExclusive": "Yes",
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 5100
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickShell"
+        "imageName": "ToolStickShell"
       }
     ]
   },
   {
     "name": {
-      en: "shovel",
-      jp: ""
+      "en": "shovel",
+      "jp": "スコップ"
     },
     "id": 2099,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "Yes",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolScoop_Remake_0_0"
+        "imageName": "ToolScoop_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolScoop_Remake_1_0"
+        "imageName": "ToolScoop_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolScoop_Remake_2_0"
+        "imageName": "ToolScoop_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolScoop_Remake_3_0"
+        "imageName": "ToolScoop_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolScoop_Remake_4_0"
+        "imageName": "ToolScoop_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolScoop_Remake_5_0"
+        "imageName": "ToolScoop_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolScoop_Remake_6_0"
+        "imageName": "ToolScoop_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolScoop_Remake_7_0"
+        "imageName": "ToolScoop_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "slingshot",
-      jp: ""
+      "en": "slingshot",
+      "jp": "パチンコ"
     },
     "id": 2822,
-    "source": {
-      en: "Crafting; Nook's Cranny",
-      jp: "Crafting; Nook's Cranny"
-    },
+    "source": "Crafting; Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "Yes",
     "price": {
       "buy": 900,
       "sell": 225
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolSlingshot_Remake_0_0"
+        "imageName": "ToolSlingshot_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolSlingshot_Remake_1_0"
+        "imageName": "ToolSlingshot_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolSlingshot_Remake_2_0"
+        "imageName": "ToolSlingshot_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolSlingshot_Remake_3_0"
+        "imageName": "ToolSlingshot_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolSlingshot_Remake_4_0"
+        "imageName": "ToolSlingshot_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolSlingshot_Remake_5_0"
+        "imageName": "ToolSlingshot_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolSlingshot_Remake_6_0"
+        "imageName": "ToolSlingshot_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Gray",
-          jp: ""
+          "en": "Gray",
+          "jp": ""
         },
-        "fileName": "ToolSlingshot_Remake_7_0"
+        "imageName": "ToolSlingshot_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "sparkling cider",
-      jp: ""
+      "en": "sparkling cider",
+      "jp": "スパークリングサイダー"
     },
     "id": 13835,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "New Year's Eve",
+    "eventExclusive": "Yes",
+    "version": "1.6.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 1000,
       "sell": 250
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolJuiceFuzzyapple"
+        "imageName": "ToolJuiceFuzzyapple"
       }
     ]
   },
   {
     "name": {
-      en: "spooky wand",
-      jp: ""
+      "en": "spooky wand",
+      "jp": "ハロウィンなステッキ"
     },
     "id": 13237,
-    "source": {
-      en: "Crafting; Jack",
-      jp: "Crafting; Jack"
-    },
+    "source": "Crafting; Jack",
     "map": 0,
+    "event": "Halloween",
+    "eventExclusive": "Yes",
+    "version": "1.5.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 4300
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickHalloween"
+        "imageName": "ToolStickHalloween"
       }
     ]
   },
   {
     "name": {
-      en: "star net",
-      jp: ""
+      "en": "star net",
+      "jp": "スターなあみ"
     },
     "id": 8176,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "Yes",
     "price": {
       "buy": 2500,
       "sell": 625
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Yellow",
-          jp: ""
+          "en": "Yellow",
+          "jp": ""
         },
-        "fileName": "ToolNetStar_Remake_0_0"
+        "imageName": "ToolNetStar_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolNetStar_Remake_1_0"
+        "imageName": "ToolNetStar_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolNetStar_Remake_2_0"
+        "imageName": "ToolNetStar_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Light green",
-          jp: ""
+          "en": "Light green",
+          "jp": ""
         },
-        "fileName": "ToolNetStar_Remake_3_0"
+        "imageName": "ToolNetStar_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolNetStar_Remake_4_0"
+        "imageName": "ToolNetStar_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolNetStar_Remake_5_0"
+        "imageName": "ToolNetStar_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "Light blue",
-          jp: ""
+          "en": "Light blue",
+          "jp": ""
         },
-        "fileName": "ToolNetStar_Remake_6_0"
+        "imageName": "ToolNetStar_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolNetStar_Remake_7_0"
+        "imageName": "ToolNetStar_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "star wand",
-      jp: ""
+      "en": "star wand",
+      "jp": "スターなステッキ"
     },
     "id": 2544,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 6500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolChangeStick"
+        "imageName": "ToolChangeStick"
       }
     ]
   },
   {
     "name": {
-      en: "starry cheer megaphone",
-      jp: ""
+      "en": "starry cheer megaphone",
+      "jp": "おうえんメガホン・スター"
     },
     "id": 14014,
-    "source": {
-      en: "Nook Shopping Seasonal",
-      jp: "Nook Shopping Seasonal"
-    },
+    "source": "Nook Shopping Seasonal",
     "map": 0,
+    "event": "Big Game Celebration (1)",
+    "eventExclusive": "Yes",
+    "version": "1.7.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolMegaphone2"
+        "imageName": "ToolMegaphone2"
       }
     ]
   },
   {
     "name": {
-      en: "stone axe",
-      jp: ""
+      "en": "stone axe",
+      "jp": "いしのオノ"
     },
     "id": 5856,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 560
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolAxeStoneNormal"
+        "imageName": "ToolAxeStoneNormal"
       }
     ]
   },
   {
     "name": {
-      en: "tambourine",
-      jp: ""
+      "en": "tambourine",
+      "jp": "タンバリン"
     },
     "id": 5430,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 1500,
       "sell": 375
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolTambourine"
+        "imageName": "ToolTambourine"
       }
     ]
   },
   {
     "name": {
-      en: "timer",
-      jp: ""
+      "en": "timer",
+      "jp": "タイマー"
     },
     "id": 3331,
-    "source": {
-      en: "Nook's Cranny",
-      jp: "Nook's Cranny"
-    },
+    "source": "Nook's Cranny",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 840,
       "sell": 210
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolTimer"
+        "imageName": "ToolTimer"
       }
     ]
   },
   {
     "name": {
-      en: "tree-branch wand",
-      jp: ""
+      "en": "tree-branch wand",
+      "jp": "きのえだのステッキ"
     },
     "id": 7587,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1550
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickTree"
+        "imageName": "ToolStickTree"
       }
     ]
   },
   {
     "name": {
-      en: "tulip wand",
-      jp: ""
+      "en": "tulip wand",
+      "jp": "チューリップのステッキ"
     },
     "id": 5085,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1580
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickTulip"
+        "imageName": "ToolStickTulip"
       }
     ]
   },
   {
     "name": {
-      en: "tweeter",
-      jp: ""
+      "en": "tweeter",
+      "jp": "ふきもどし"
     },
     "id": 5742,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolBlowouts"
+        "imageName": "ToolBlowouts"
       }
     ]
   },
   {
     "name": {
-      en: "uchiwa fan",
-      jp: ""
+      "en": "uchiwa fan",
+      "jp": "うちわ"
     },
     "id": 5319,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 800,
       "sell": 200
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolPaperFan"
+        "imageName": "ToolPaperFan"
       }
     ]
   },
   {
     "name": {
-      en: "vaulting pole",
-      jp: ""
+      "en": "vaulting pole",
+      "jp": "たかとびぼう"
     },
     "id": 4703,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "LongWoodenStick"
+        "imageName": "LongWoodenStick"
       }
     ]
   },
   {
     "name": {
-      en: "wand",
-      jp: ""
+      "en": "wand",
+      "jp": "ステッキ"
     },
     "id": 7584,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1000
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickWood"
+        "imageName": "ToolStickWood"
       }
     ]
   },
   {
     "name": {
-      en: "watering can",
-      jp: ""
+      "en": "watering can",
+      "jp": "ジョウロ"
     },
     "id": 2379,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "Yes",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 600
     },
-    "count": 8,
+    "count": {
+      "variants": 8,
+      "patterns": 0
+    },
     "variants": [
       {
         "id": "0_0",
         "name": {
-          en: "Blue",
-          jp: ""
+          "en": "Blue",
+          "jp": ""
         },
-        "fileName": "ToolWatering_Remake_0_0"
+        "imageName": "ToolWatering_Remake_0_0"
       },
       {
         "id": "1_0",
         "name": {
-          en: "Orange",
-          jp: ""
+          "en": "Orange",
+          "jp": ""
         },
-        "fileName": "ToolWatering_Remake_1_0"
+        "imageName": "ToolWatering_Remake_1_0"
       },
       {
         "id": "2_0",
         "name": {
-          en: "Green",
-          jp: ""
+          "en": "Green",
+          "jp": ""
         },
-        "fileName": "ToolWatering_Remake_2_0"
+        "imageName": "ToolWatering_Remake_2_0"
       },
       {
         "id": "3_0",
         "name": {
-          en: "Red",
-          jp: ""
+          "en": "Red",
+          "jp": ""
         },
-        "fileName": "ToolWatering_Remake_3_0"
+        "imageName": "ToolWatering_Remake_3_0"
       },
       {
         "id": "4_0",
         "name": {
-          en: "Purple",
-          jp: ""
+          "en": "Purple",
+          "jp": ""
         },
-        "fileName": "ToolWatering_Remake_4_0"
+        "imageName": "ToolWatering_Remake_4_0"
       },
       {
         "id": "5_0",
         "name": {
-          en: "Pink",
-          jp: ""
+          "en": "Pink",
+          "jp": ""
         },
-        "fileName": "ToolWatering_Remake_5_0"
+        "imageName": "ToolWatering_Remake_5_0"
       },
       {
         "id": "6_0",
         "name": {
-          en: "White",
-          jp: ""
+          "en": "White",
+          "jp": ""
         },
-        "fileName": "ToolWatering_Remake_6_0"
+        "imageName": "ToolWatering_Remake_6_0"
       },
       {
         "id": "7_0",
         "name": {
-          en: "Black",
-          jp: ""
+          "en": "Black",
+          "jp": ""
         },
-        "fileName": "ToolWatering_Remake_7_0"
+        "imageName": "ToolWatering_Remake_7_0"
       }
     ]
   },
   {
     "name": {
-      en: "wedding wand",
-      jp: ""
+      "en": "wedding wand",
+      "jp": "ウェディングなステッキ"
     },
     "id": 12695,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": "Wedding Season",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 3500
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickJune"
+        "imageName": "ToolStickJune"
       }
     ]
   },
   {
     "name": {
-      en: "windflower wand",
-      jp: ""
+      "en": "windflower wand",
+      "jp": "アネモネのステッキ"
     },
     "id": 5084,
-    "source": {
-      en: "Crafting",
-      jp: "Crafting"
-    },
+    "source": "Crafting",
     "map": 0,
+    "event": false,
+    "eventExclusive": false,
+    "version": "1.0.0",
     "category": "tools",
-    "diy": "Yes",
+    "diy": true,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 1580
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolStickAnemones"
+        "imageName": "ToolStickAnemones"
       }
     ]
   },
   {
     "name": {
-      en: "worn axe",
-      jp: ""
+      "en": "worn axe",
+      "jp": "こわれかけのオノ"
     },
     "id": 12615,
-    "source": {
-      en: "May Day Tour",
-      jp: "May Day Tour"
-    },
+    "source": "May Day Tour",
     "map": 0,
+    "event": "May Day",
+    "eventExclusive": "Yes",
+    "version": "1.2.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
-      "buy": "NFS",
+      "buy": -1,
       "sell": 10
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolAxeFragile"
+        "imageName": "ToolAxeFragile"
       }
     ]
   },
   {
     "name": {
-      en: "yellow balloon",
-      jp: ""
+      "en": "yellow balloon",
+      "jp": "きいろのふうせん"
     },
     "id": 13124,
-    "source": {
-      en: "Redd's Raffle; Nook's Cranny",
-      jp: "Redd's Raffle; Nook's Cranny"
-    },
+    "source": "Redd's Raffle; Nook's Cranny",
     "map": 0,
+    "event": "Fireworks Show",
+    "eventExclusive": false,
+    "version": "1.4.0",
     "category": "tools",
-    "diy": "No",
+    "diy": false,
+    "customize": "No",
     "price": {
       "buy": 600,
       "sell": 150
     },
-    "count": 1,
+    "count": {
+      "variants": 1,
+      "patterns": 0
+    },
     "variants": [
       {
-        "id": "NA",
+        "id": null,
         "name": {
-          en: "NA",
-          jp: ""
+          "en": false,
+          "jp": null
         },
-        "fileName": "ToolBalloonNormal2"
+        "imageName": "ToolBalloonNormal2"
       }
     ]
   }
-];
+]

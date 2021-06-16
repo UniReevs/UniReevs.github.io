@@ -1,10 +1,12 @@
-let itemID = 'InternalID',
-    category = 'music',
-    searchText = '_Umbrellas_',
+let itemIdName = 'ClothGroupID';
+itemIdName = 'InternalID';
+let itemID = itemIdName,
+    category = 'recipes',
+    // searchText = '_'+capitalizeFirstLetter(category)+'_',
+    searchText = '',
     variantID = 'VariantID',
     nameTranslations = translationNames[category],
     variantTranslations = translationVariants[category];
-
 function createNewDataFromSheet(data, nameTranslations, variantTranslations, hasVariants = true) {
   let newData = [];
       data.push({lastFakeItem: true}),
@@ -96,13 +98,66 @@ function findSource(data) {
   }
   return newData;
 }
+// let test = csvTranlation(ttttt);
 
 // let sourceData = findSource(items.misc);
 // let  a = sourceData.unique();
 
+
+
 // let newData = createNewDataFromSheet(csv[category], nameTranslations, variantTranslations);
 // console.log(newData);
+// console.log(test);
+
+let html = createList(diy[category]);
+$('#js-item-list').html(html);
 
 // let html = createList(fashion[category].sort(compareValues('count')));
-// let html = createList(others[category]);
-// $('#js-item-list').html(html);
+
+
+let sourceNames = [
+  // "Crafting",
+  // "Flick",
+  // "Kicks",
+  // "DAL",
+  // "CJ",
+  "Shopping Seasonal",
+  // "Mom",
+  // "Nook Miles",
+  // "Cranny",
+  "Daily Selection",
+  "Shopping Promotion",
+  "NookLink",
+  // "Birthday",
+  "HHA",
+  // "Zipper",
+  // "Franklin",
+  // "Gulliver",
+  // "Pave",
+  "Nintendo",
+  "Starting items",
+  // "Cyrus",
+  // "Rover",
+  // "Luna",
+  // "Gullivarrr",
+  // "Jack",
+  // "Jingle",
+  // "Able Sisters",
+  // "Label",
+  "Recycle",
+  // "Treasure Trawler",
+  // "Pascal",
+  // "Blathers",
+  "All villagers",
+  "fossils",
+  "Redd-Cranny",
+  // "Isabelle",
+  "Cranny-TomNook",
+  "May Day Tour",
+  // "Tom Nook",
+  // "Saharah",
+  "High Friendship",
+  "Check Toy Day stockings the day after Toy Day",
+  // "KK",
+  // "Posters"
+];

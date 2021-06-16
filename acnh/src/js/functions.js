@@ -71,7 +71,7 @@ function csvTranlation(data) {
   let  newData = [];
   for (var i = 0; i < data.length; i++) {
     let item = data[i];
-    ttt.push({
+    newData.push({
       label: item.label,
       en: item.English,
       jp: item.Japanese
@@ -83,19 +83,18 @@ function csvTranlation(data) {
 
 function createNpcMenu() {
   let html = '';
-  for (var i = 0; i < npcNames.length; i++) {
-    let npc = npcNames[i];
+  let data = others.events.unique()
+  for (var i = 0; i < data.length; i++) {
+    let npc = data[i];
     html += `
     <div class="menu">
-      <a href="#" class="js-menu" data-category="${npc.en}">
-        <span class="menu-text">${npc.jp}</span>
-        <img src="assets/img/1.10.0/NpcIcon/${npc.label}.png" alt="">
-      </a>
+      <a href="#" class="js-menu" data-category="${npc.en}">${npc.jp}</a>
     </div>
     `;
   }
-  $('#js-npc-nav').html(html);
+  $('#js-event-nav').html(html);
 }
+// createNpcMenu();
 function islandMap() {
   let html = '';
   for (var i = 0; i < 154; i++) {
@@ -110,29 +109,47 @@ function createList(data) {
     let item = data[i],
         cropped = '', // Cropped
         isTrue = item.price.buy < 0 && !item.diy;
-        // isTrue = true;
+        isTrue =
+        item.source !== 'Able Sisters'
+        && item.source !== 'Nook Shopping Daily Selection'
+        && item.source !== 'Crafting'
+        && item.source !== 'Dodo Airlines'
+        && item.source !== 'Flick'
+        && item.source !== 'C.J.'
+        && item.catalog !== 'Not in catalog'
+        && item.source !== 'Nook Shopping Seasonal'
+        && item.source !== 'Mom'
+        && item.source !== 'Gullivarrr'
+        && item.source !== 'Label'
+        && item.source !==  'Recycle box';
+        isTrue = item.source === 'Able Sisters';
+        isTrue = true;
 
     if (isTrue) {
         html += `
-        <li class="item" data-category="${item.category}" data-source="${item.source}">
+        <li class="item" data-sell="${item.price.sell}" data-buy="${item.price.buy}" data-id="${item.id}" data-category="${item.category}" data-source="${item.source}" data-event="${item.event}">
           <div class="item-header">
             <div class="name">${item.name.jp}</div>
             <div class="name en">${item.name.en}</div>
             <div class="info">
-              <div class="count">${item.count.variants}</div>
+              <div class="scount">${item.count.variants}</div>
               <i class="category"></i>
               <i class="icon"></i>
+              <div class="price">
+                <span class="buy">${item.price.buy}</span>
+                <span class="sell">${item.price.sell}</span>
+              </div>
             </div>
             <ul class="variants">
         `;
 
       for (let j = 0; j < item.variants.length; j++) {
         let variant = item.variants[j];
-
+        let folder = item.folder ? item.folder : 'FtrIcon';
         if (!variant.isPattern) {
           html += `
           <li class="variant">
-            <img src="assets/img/1.10.0/FtrIcon/${variant.imageName}.png">
+            <img src="assets/img/1.10.0/${folder}/${variant.imageName}.png">
             <div class="name">${variant.name.jp}</div>
             <div class="name en">${variant.name.en}</div>
           </li>

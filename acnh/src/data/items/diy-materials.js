@@ -2,7 +2,7 @@ diy.materials = [
   {
     "name": {
       "en": "acorn",
-      "jp": ""
+      "jp": "どんぐり"
     },
     "id": 5727,
     "source": "Hardwood Tree",
@@ -10,7 +10,7 @@ diy.materials = [
     "event": "acorns and pine cones",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -25,14 +25,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYAcorn"
       }
     ]
   },
   {
     "name": {
       "en": "apple",
-      "jp": ""
+      "jp": "リンゴ"
     },
     "id": 2213,
     "source": "Nook's Cranny; Apple Tree",
@@ -40,7 +41,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -55,44 +56,46 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Apple"
       }
     ]
   },
-  {
-    "name": {
-      "en": "apple tree",
-      "jp": ""
-    },
-    "id": 3360,
-    "source": "Planting an apple",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Plants",
-    "price": {
-      "buy": -1,
-      "sell": 300
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "apple tree",
+  //     "jp": "リンゴのき"
+  //   },
+  //   "id": 3360,
+  //   "source": "Planting an apple",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "MenuIcon",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": 300
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "PltApple"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "Aquarius fragment",
-      "jp": ""
+      "jp": "みずがめざのかけら"
     },
     "id": 5986,
     "source": "Wishing on shooting stars",
@@ -100,7 +103,7 @@ diy.materials = [
     "event": "Aquarius",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -115,44 +118,46 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceAquarius"
       }
     ]
   },
-  {
-    "name": {
-      "en": "arched tile path permit",
-      "jp": ""
-    },
-    "id": 8776,
-    "source": "Nook Miles Redemption",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Unnecessary",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "arched tile path permit",
+  //     "jp": ""
+  //   },
+  //   "id": 8776,
+  //   "source": "Nook Miles Redemption",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Unnecessary",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "FtrGroundMakerStonePattern"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "Aries fragment",
-      "jp": ""
+      "jp": "おひつじざのかけら"
     },
     "id": 5988,
     "source": "Wishing on shooting stars",
@@ -160,7 +165,7 @@ diy.materials = [
     "event": "Aries",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -175,14 +180,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceAries"
       }
     ]
   },
   {
     "name": {
       "en": "bamboo piece",
-      "jp": ""
+      "jp": "バンブー"
     },
     "id": 2501,
     "source": "Chopping a bamboo tree",
@@ -190,7 +196,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -205,14 +211,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYBamboo"
       }
     ]
   },
   {
     "name": {
       "en": "bamboo shoot",
-      "jp": ""
+      "jp": "たけのこ"
     },
     "id": 2295,
     "source": "Dig Spot; Daisy Mae",
@@ -220,7 +227,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -235,134 +242,139 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "BambooShoot"
       }
     ]
   },
-  {
-    "name": {
-      "en": "bamboo tree",
-      "jp": ""
-    },
-    "id": 2815,
-    "source": "Planting a bamboo shoot",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Plants",
-    "price": {
-      "buy": -1,
-      "sell": 1500
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
-  {
-    "name": {
-      "en": "Bell bag",
-      "jp": ""
-    },
-    "id": 7731,
-    "source": "Glowing dig spot",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Etc",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
-  {
-    "name": {
-      "en": "Bell coin",
-      "jp": ""
-    },
-    "id": 7730,
-    "source": "Shaking a hardwood or cedar tree",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Etc",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
-  {
-    "name": {
-      "en": "Bell voucher",
-      "jp": ""
-    },
-    "id": 9964,
-    "source": "Nook Miles Redemption; May Day Tour",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Etc",
-    "price": {
-      "buy": -1,
-      "sell": 3000
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "bamboo tree",
+  //     "jp": "たけ"
+  //   },
+  //   "id": 2815,
+  //   "source": "Planting a bamboo shoot",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "MenuIcon",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": 1500
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "PltBamboo"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {
+  //     "en": "Bell bag",
+  //     "jp": ""
+  //   },
+  //   "id": 7731,
+  //   "source": "Glowing dig spot",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Etc",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "PhotoStudioBellBag"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {
+  //     "en": "Bell coin",
+  //     "jp": ""
+  //   },
+  //   "id": 7730,
+  //   "source": "Shaking a hardwood or cedar tree",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Etc",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "PhotoStudioBell"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {
+  //     "en": "Bell voucher",
+  //     "jp": ""
+  //   },
+  //   "id": 9964,
+  //   "source": "Nook Miles Redemption; May Day Tour",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Etc",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": 3000
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "BellExchangeTicket"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "birthday cupcake",
-      "jp": ""
+      "jp": "バースデーカップケーキ"
     },
     "id": 2779,
     "source": "Birthday",
@@ -370,7 +382,7 @@ diy.materials = [
     "event": "Birthday",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Seasonal Decor",
     "price": {
@@ -385,14 +397,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "BirthdayCupcake"
       }
     ]
   },
   {
     "name": {
       "en": "black cosmos",
-      "jp": ""
+      "jp": "くろいコスモス"
     },
     "id": 2875,
     "source": "Picking flowers",
@@ -400,7 +413,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -415,14 +428,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwCosmosBlack"
       }
     ]
   },
   {
     "name": {
       "en": "black lilies",
-      "jp": ""
+      "jp": "くろいユリ"
     },
     "id": 2999,
     "source": "Picking flowers",
@@ -430,7 +444,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -445,14 +459,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwYuriBlack"
       }
     ]
   },
   {
     "name": {
       "en": "black roses",
-      "jp": ""
+      "jp": "くろいバラ"
     },
     "id": 2955,
     "source": "Picking flowers",
@@ -460,7 +475,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -475,14 +490,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRoseBlack"
       }
     ]
   },
   {
     "name": {
       "en": "black tulips",
-      "jp": ""
+      "jp": "くろいチューリップ"
     },
     "id": 2903,
     "source": "Picking flowers",
@@ -490,7 +506,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -505,44 +521,46 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwTulipBlack"
       }
     ]
   },
-  {
-    "name": {
-      "en": "black wrapping paper",
-      "jp": ""
-    },
-    "id": 7698,
-    "source": "Nook's Cranny",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Etc",
-    "price": {
-      "buy": 160,
-      "sell": 40
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "black wrapping paper",
+  //     "jp": "くろいラッピングペーパー"
+  //   },
+  //   "id": 7698,
+  //   "source": "Nook's Cranny",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Etc",
+  //   "price": {
+  //     "buy": 160,
+  //     "sell": 40
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "WPaperBlack"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "black-cosmos plant",
-      "jp": ""
+      "jp": "くろいコスモスのかぶ"
     },
     "id": 3834,
     "source": "Breeding",
@@ -550,9 +568,9 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
-    "tag": "Plants",
+    "tag": "MenuIcon",
     "price": {
       "buy": -1,
       "sell": 240
@@ -565,14 +583,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltCosmos5"
       }
     ]
   },
   {
     "name": {
       "en": "black-lily plant",
-      "jp": ""
+      "jp": "くろいユリのかぶ"
     },
     "id": 3896,
     "source": "Breeding",
@@ -580,9 +599,9 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
-    "tag": "Plants",
+    "tag": "MenuIcon",
     "price": {
       "buy": -1,
       "sell": 80
@@ -595,14 +614,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltYuri5"
       }
     ]
   },
   {
     "name": {
       "en": "black-rose plant",
-      "jp": ""
+      "jp": "くろいバラのかぶ"
     },
     "id": 3874,
     "source": "Breeding",
@@ -610,9 +630,9 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
-    "tag": "Plants",
+    "tag": "MenuIcon",
     "price": {
       "buy": -1,
       "sell": 240
@@ -625,14 +645,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRose6"
       }
     ]
   },
   {
     "name": {
       "en": "black-tulip plant",
-      "jp": ""
+      "jp": "くろいチューリップのかぶ"
     },
     "id": 3848,
     "source": "Breeding",
@@ -640,9 +661,9 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
-    "tag": "Plants",
+    "tag": "MenuIcon",
     "price": {
       "buy": -1,
       "sell": 80
@@ -655,44 +676,46 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltTurip5"
       }
     ]
   },
-  {
-    "name": {
-      "en": "Blathers's tent marker",
-      "jp": ""
-    },
-    "id": 2755,
-    "source": "Tom Nook",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Unnecessary",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "Blathers's tent marker",
+  //     "jp": ""
+  //   },
+  //   "id": 2755,
+  //   "source": "Tom Nook",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Unnecessary",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "MuseumTent"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "blue feather",
-      "jp": ""
+      "jp": "あおいはね"
     },
     "id": 3542,
     "source": "Catching with a net",
@@ -700,7 +723,7 @@ diy.materials = [
     "event": "Festivale",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -715,14 +738,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FeatherBlue"
       }
     ]
   },
   {
     "name": {
       "en": "blue hyacinths",
-      "jp": ""
+      "jp": "あおいヒヤシンス"
     },
     "id": 3748,
     "source": "Picking flowers",
@@ -730,7 +754,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -745,14 +769,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwHyacinthBlue"
       }
     ]
   },
   {
     "name": {
       "en": "blue ornament",
-      "jp": ""
+      "jp": "あおいオーナメント"
     },
     "id": 5731,
     "source": "Cedar Tree",
@@ -760,7 +785,7 @@ diy.materials = [
     "event": "ornaments",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -775,14 +800,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYOrnamentBlue"
       }
     ]
   },
   {
     "name": {
       "en": "blue pansies",
-      "jp": ""
+      "jp": "あおいパンジー"
     },
     "id": 2927,
     "source": "Picking flowers",
@@ -790,7 +816,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -805,14 +831,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwPansyBlue"
       }
     ]
   },
   {
     "name": {
       "en": "blue roses",
-      "jp": ""
+      "jp": "あおいバラ"
     },
     "id": 2959,
     "source": "Picking flowers",
@@ -820,7 +847,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -835,14 +862,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRoseBlue"
       }
     ]
   },
   {
     "name": {
       "en": "blue windflowers",
-      "jp": ""
+      "jp": "あおいアネモネ"
     },
     "id": 3717,
     "source": "Picking flowers",
@@ -850,7 +878,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -865,44 +893,46 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwAnemonesBlue"
       }
     ]
   },
-  {
-    "name": {
-      "en": "blue wrapping paper",
-      "jp": ""
-    },
-    "id": 7692,
-    "source": "Nook's Cranny",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Etc",
-    "price": {
-      "buy": 160,
-      "sell": 40
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "blue wrapping paper",
+  //     "jp": "あおいラッピングペーパー"
+  //   },
+  //   "id": 7692,
+  //   "source": "Nook's Cranny",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Etc",
+  //   "price": {
+  //     "buy": 160,
+  //     "sell": 40
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "WPaperBlue"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "blue-hyacinth plant",
-      "jp": ""
+      "jp": "あおいヒヤシンスのかぶ"
     },
     "id": 3920,
     "source": "Breeding",
@@ -910,9 +940,9 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
-    "tag": "Plants",
+    "tag": "MenuIcon",
     "price": {
       "buy": -1,
       "sell": 80
@@ -925,44 +955,46 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHyacinth6"
       }
     ]
   },
-  {
-    "name": {
-      "en": "blue-hydrangea bush",
-      "jp": ""
-    },
-    "id": 3800,
-    "source": "Digging up a fully grown bush",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.2.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Plants",
-    "price": {
-      "buy": -1,
-      "sell": 140
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "blue-hydrangea bush",
+  //     "jp": "あおいアジサイのき"
+  //   },
+  //   "id": 3800,
+  //   "source": "Digging up a fully grown bush",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.2.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "ShopPlant",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": 140
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "PltHydrangeaBlue2"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "blue-hydrangea start",
-      "jp": ""
+      "jp": "あおいアジサイのなえ"
     },
     "id": 3798,
     "source": "Leif",
@@ -970,7 +1002,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -985,14 +1017,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedHydrangeaBlue"
       }
     ]
   },
   {
     "name": {
       "en": "blue-pansy plant",
-      "jp": ""
+      "jp": "あおいパンジーのかぶ"
     },
     "id": 3860,
     "source": "Breeding",
@@ -1000,9 +1033,9 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
-    "tag": "Plants",
+    "tag": "MenuIcon",
     "price": {
       "buy": -1,
       "sell": 80
@@ -1015,14 +1048,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPansi5"
       }
     ]
   },
   {
     "name": {
       "en": "blue-rose plant",
-      "jp": ""
+      "jp": "あおいバラのかぶ"
     },
     "id": 3876,
     "source": "Breeding",
@@ -1030,9 +1064,9 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
-    "tag": "Plants",
+    "tag": "MenuIcon",
     "price": {
       "buy": -1,
       "sell": 1000
@@ -1045,14 +1079,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRose7"
       }
     ]
   },
   {
     "name": {
       "en": "blue-windflower plant",
-      "jp": ""
+      "jp": "あおいアネモネのかぶ"
     },
     "id": 3902,
     "source": "Breeding",
@@ -1060,9 +1095,9 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
-    "tag": "Plants",
+    "tag": "MenuIcon",
     "price": {
       "buy": -1,
       "sell": 80
@@ -1075,44 +1110,46 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltAnemone5"
       }
     ]
   },
-  {
-    "name": {
-      "en": "Body-Paint Costume Tips",
-      "jp": ""
-    },
-    "id": 13256,
-    "source": "Nook Miles Redemption",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.5.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Unnecessary",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "Body-Paint Costume Tips",
+  //     "jp": ""
+  //   },
+  //   "id": 13256,
+  //   "source": "Nook Miles Redemption",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.5.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Unnecessary",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "HowtoBookBodyColor"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "bokjumeoni lucky pouch",
-      "jp": ""
+      "jp": "ソルラルのおとしだま"
     },
     "id": 13955,
     "source": "Nook Shopping Seasonal",
@@ -1120,7 +1157,7 @@ diy.materials = [
     "event": "Seollal",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1135,14 +1172,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "OtoshidamaKr"
       }
     ]
   },
   {
     "name": {
       "en": "boot",
-      "jp": ""
+      "jp": "ながぐつ"
     },
     "id": 3469,
     "source": "Fishing",
@@ -1150,7 +1188,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1165,194 +1203,201 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "TrashBoot"
       }
     ]
   },
-  {
-    "name": {
-      "en": "brick path permit",
-      "jp": ""
-    },
-    "id": 8774,
-    "source": "Nook Miles Redemption",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Unnecessary",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
-  {
-    "name": {
-      "en": "bridge construction kit",
-      "jp": ""
-    },
-    "id": 7211,
-    "source": "Tom Nook",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": true,
-    "tag": "Unnecessary",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
-  {
-    "name": {
-      "en": "bridge marker kit",
-      "jp": ""
-    },
-    "id": 4310,
-    "source": "Tom Nook",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Unnecessary",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
-  {
-    "name": {
-      "en": "brown wrapping paper",
-      "jp": ""
-    },
-    "id": 7696,
-    "source": "Nook's Cranny",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Etc",
-    "price": {
-      "buy": 160,
-      "sell": 40
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
-  {
-    "name": {
-      "en": "campsite construction kit",
-      "jp": ""
-    },
-    "id": 5166,
-    "source": "Tom Nook",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": true,
-    "tag": "Unnecessary",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
-  {
-    "name": {
-      "en": "campsite moving kit",
-      "jp": ""
-    },
-    "id": 6841,
-    "source": "Tom Nook",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "other",
-    "diy": false,
-    "tag": "Unnecessary",
-    "price": {
-      "buy": -1,
-      "sell": -1
-    },
-    "count": {
-      "variants": 1,
-      "patterns": 0
-    },
-    "variants": [
-      {
-        "name": {
-          "jp": ""
-        }
-      }
-    ]
-  },
+  // {
+  //   "name": {
+  //     "en": "brick path permit",
+  //     "jp": ""
+  //   },
+  //   "id": 8774,
+  //   "source": "Nook Miles Redemption",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Unnecessary",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "FtrGroundMakerBrick"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {
+  //     "en": "bridge construction kit",
+  //     "jp": ""
+  //   },
+  //   "id": 7211,
+  //   "source": "Tom Nook",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": true,
+  //   "tag": "Unnecessary",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "BridgeLogReserveKit"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {
+  //     "en": "bridge marker kit",
+  //     "jp": ""
+  //   },
+  //   "id": 4310,
+  //   "source": "Tom Nook",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Unnecessary",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "BridgeReserveKit"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {
+  //     "en": "brown wrapping paper",
+  //     "jp": ""
+  //   },
+  //   "id": 7696,
+  //   "source": "Nook's Cranny",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Etc",
+  //   "price": {
+  //     "buy": 160,
+  //     "sell": 40
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "WPaperBrown"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {
+  //     "en": "campsite construction kit",
+  //     "jp": ""
+  //   },
+  //   "id": 5166,
+  //   "source": "Tom Nook",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": true,
+  //   "tag": "Unnecessary",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "CampsiteReserveKit"
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": {
+  //     "en": "campsite moving kit",
+  //     "jp": ""
+  //   },
+  //   "id": 6841,
+  //   "source": "Tom Nook",
+  //   "map": 0,
+  //   "event": false,
+  //   "eventExclusive": false,
+  //   "version": "1.0.0",
+  //   "category": "materials",
+  //   "diy": false,
+  //   "tag": "Unnecessary",
+  //   "price": {
+  //     "buy": -1,
+  //     "sell": -1
+  //   },
+  //   "count": {
+  //     "variants": 1,
+  //     "patterns": 0
+  //   },
+  //   "variants": [
+  //     {
+  //       "name": {
+  //         "jp": ""
+  //       },
+  //       "imageName": "MovingKitCampsite"
+  //     }
+  //   ]
+  // },
   {
     "name": {
       "en": "Cancer fragment",
-      "jp": ""
+      "jp": "かにざのかけら"
     },
     "id": 5991,
     "source": "Wishing on shooting stars",
@@ -1360,7 +1405,7 @@ diy.materials = [
     "event": "Cancer",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1375,7 +1420,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceCancer"
       }
     ]
   },
@@ -1390,7 +1436,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": "Yes",
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1405,14 +1451,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Candy"
       }
     ]
   },
   {
     "name": {
       "en": "Capricorn fragment",
-      "jp": ""
+      "jp": "やぎざのかけら"
     },
     "id": 5985,
     "source": "Wishing on shooting stars",
@@ -1420,7 +1467,7 @@ diy.materials = [
     "event": "Capricorn",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1435,14 +1482,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceCapricornus"
       }
     ]
   },
   {
     "name": {
       "en": "cedar sapling",
-      "jp": ""
+      "jp": "しんようじゅのなえ"
     },
     "id": 2800,
     "source": "Nook's Cranny",
@@ -1450,7 +1498,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -1465,14 +1513,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedCedar"
       }
     ]
   },
   {
     "name": {
       "en": "cedar tree",
-      "jp": ""
+      "jp": "しんようじゅ"
     },
     "id": 2805,
     "source": "Planting a cedar sapling",
@@ -1480,7 +1529,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -1495,7 +1544,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltCedar4"
       }
     ]
   },
@@ -1510,7 +1560,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1525,14 +1575,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperLightGreen"
       }
     ]
   },
   {
     "name": {
       "en": "cherry",
-      "jp": ""
+      "jp": "さくらんぼ"
     },
     "id": 2287,
     "source": "Nook's Cranny; Cherry Tree",
@@ -1540,7 +1591,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -1555,14 +1606,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Cherry"
       }
     ]
   },
   {
     "name": {
       "en": "cherry tree",
-      "jp": ""
+      "jp": "さくらんぼのき"
     },
     "id": 3381,
     "source": "Planting a cherry",
@@ -1570,7 +1622,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -1585,14 +1637,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltCherry4"
       }
     ]
   },
   {
     "name": {
       "en": "cherry-blossom petal",
-      "jp": ""
+      "jp": "さくらのはなびら"
     },
     "id": 5859,
     "source": "Catching with a net",
@@ -1600,7 +1653,7 @@ diy.materials = [
     "event": "cherry-blossom petals",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1615,14 +1668,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Sakurapetal"
       }
     ]
   },
   {
     "name": {
       "en": "clay",
-      "jp": ""
+      "jp": "ねんど"
     },
     "id": 3090,
     "source": "Hitting a rock",
@@ -1630,7 +1684,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1645,7 +1699,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYClay"
       }
     ]
   },
@@ -1660,7 +1715,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -1675,14 +1730,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrCliffMaker"
       }
     ]
   },
   {
     "name": {
       "en": "clump of weeds",
-      "jp": ""
+      "jp": "ざっそう"
     },
     "id": 2624,
     "source": "On ground",
@@ -1690,7 +1746,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -1705,14 +1761,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltWeed"
       }
     ]
   },
   {
     "name": {
       "en": "coconut",
-      "jp": ""
+      "jp": "ヤシのみ"
     },
     "id": 2288,
     "source": "Coconut Tree",
@@ -1720,7 +1777,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -1735,14 +1792,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Coconut"
       }
     ]
   },
   {
     "name": {
       "en": "coconut tree",
-      "jp": ""
+      "jp": "ヤシのき"
     },
     "id": 2810,
     "source": "Planting a coconut",
@@ -1750,7 +1808,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -1765,7 +1823,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPalm4"
       }
     ]
   },
@@ -1780,7 +1839,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.3.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -1795,7 +1854,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PirateQuest"
       }
     ]
   },
@@ -1810,7 +1870,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -1825,7 +1885,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "JohnnyQuest1"
       }
     ]
   },
@@ -1840,7 +1901,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1855,7 +1916,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShellDriftHora"
       }
     ]
   },
@@ -1870,7 +1932,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1885,7 +1947,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShellDriftSango"
       }
     ]
   },
@@ -1900,7 +1963,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -1915,7 +1978,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShellDriftTakara"
       }
     ]
   },
@@ -1930,7 +1994,7 @@ diy.materials = [
     "event": "Turkey Day; Turkey Day (shopping days)",
     "eventExclusive": "Yes",
     "version": "1.6.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -1945,7 +2009,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYbookHarvest"
       }
     ]
   },
@@ -1960,7 +2025,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -1975,7 +2040,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrGroundMakerMydesign"
       }
     ]
   },
@@ -1990,7 +2056,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2005,7 +2071,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookMydesingPro"
       }
     ]
   },
@@ -2020,7 +2087,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.9.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2035,7 +2102,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookMydesingPro2"
       }
     ]
   },
@@ -2050,7 +2118,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.9.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2065,14 +2133,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookMydesignShowcase"
       }
     ]
   },
   {
     "name": {
       "en": "customizable phone case kit",
-      "jp": ""
+      "jp": "スマホケースリメイクキット"
     },
     "id": 8760,
     "source": "Nook Miles Redemption",
@@ -2080,7 +2149,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2095,14 +2164,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SmartphoneCase_Remake_0_0"
       }
     ]
   },
   {
     "name": {
       "en": "customization kit",
-      "jp": ""
+      "jp": "リメイクキット"
     },
     "id": 2513,
     "source": "Nook's Cranny",
@@ -2110,7 +2180,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2125,7 +2195,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "RemakeKit"
       }
     ]
   },
@@ -2140,7 +2211,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2155,7 +2226,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrGroundMakerDarkSoil"
       }
     ]
   },
@@ -2170,7 +2242,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2185,7 +2257,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyCardboard"
       }
     ]
   },
@@ -2200,7 +2273,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2215,7 +2288,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "QuestWrappingBox"
       }
     ]
   },
@@ -2230,7 +2304,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2245,7 +2319,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYbook1"
       }
     ]
   },
@@ -2260,7 +2335,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.4.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2275,7 +2350,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DreamBellExchangeTicket"
       }
     ]
   },
@@ -2290,7 +2366,7 @@ diy.materials = [
     "event": "Bunny Day (ready days); Bunny Day",
     "eventExclusive": "Yes",
     "version": "1.1.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2305,7 +2381,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "EggGround"
       }
     ]
   },
@@ -2320,7 +2397,7 @@ diy.materials = [
     "event": "Bunny Day (ready days); Bunny Day",
     "eventExclusive": "Yes",
     "version": "1.1.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2335,14 +2412,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MessageBottleEgg"
       }
     ]
   },
   {
     "name": {
       "en": "elegant mushroom",
-      "jp": ""
+      "jp": "りっぱなキノコ"
     },
     "id": 3276,
     "source": "On ground",
@@ -2350,7 +2428,7 @@ diy.materials = [
     "event": "mushrooms",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -2365,7 +2443,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MushSplendid"
       }
     ]
   },
@@ -2380,7 +2459,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2395,7 +2474,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "TrashCan"
       }
     ]
   },
@@ -2410,7 +2490,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2425,7 +2505,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookEyeColor"
       }
     ]
   },
@@ -2440,7 +2521,7 @@ diy.materials = [
     "event": "Toy Day",
     "eventExclusive": "Yes",
     "version": "1.6.0",
-    "category": "other",
+    "category": "materials",
     "diy": true,
     "tag": "Etc",
     "price": {
@@ -2455,7 +2536,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperOrnament"
       }
     ]
   },
@@ -2470,7 +2552,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": true,
     "tag": "Etc",
     "price": {
@@ -2485,14 +2567,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FishBait"
       }
     ]
   },
   {
     "name": {
       "en": "flat mushroom",
-      "jp": ""
+      "jp": "ひらたいキノコ"
     },
     "id": 3279,
     "source": "On ground",
@@ -2500,7 +2583,7 @@ diy.materials = [
     "event": "mushrooms",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -2515,7 +2598,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MushFlat"
       }
     ]
   },
@@ -2530,7 +2614,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "FossilUnknown",
     "price": {
@@ -2545,7 +2629,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Fossil"
       }
     ]
   },
@@ -2560,7 +2645,7 @@ diy.materials = [
     "event": "Fireworks Show",
     "eventExclusive": false,
     "version": "1.4.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2575,14 +2660,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Fireworks"
       }
     ]
   },
   {
     "name": {
       "en": "Gemini fragment",
-      "jp": ""
+      "jp": "ふたござのかけら"
     },
     "id": 5990,
     "source": "Wishing on shooting stars",
@@ -2590,7 +2676,7 @@ diy.materials = [
     "event": "Gemini",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2605,7 +2691,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceGemini"
       }
     ]
   },
@@ -2620,7 +2707,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2635,7 +2722,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShellDriftSyako"
       }
     ]
   },
@@ -2650,7 +2738,7 @@ diy.materials = [
     "event": "Toy Day",
     "eventExclusive": "Yes",
     "version": "1.6.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -2665,14 +2753,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingOrnament"
       }
     ]
   },
   {
     "name": {
       "en": "gold nugget",
-      "jp": ""
+      "jp": "きんこうせき"
     },
     "id": 2505,
     "source": "Hitting a rock",
@@ -2680,7 +2769,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2695,14 +2784,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYGold"
       }
     ]
   },
   {
     "name": {
       "en": "gold ornament",
-      "jp": ""
+      "jp": "きんのオーナメント"
     },
     "id": 5732,
     "source": "Cedar Tree",
@@ -2710,7 +2800,7 @@ diy.materials = [
     "event": "ornaments",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2725,14 +2815,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYOrnamentGold"
       }
     ]
   },
   {
     "name": {
       "en": "gold roses",
-      "jp": ""
+      "jp": "きんのバラ"
     },
     "id": 2963,
     "source": "Picking flowers",
@@ -2740,7 +2831,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -2755,7 +2846,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRoseGold"
       }
     ]
   },
@@ -2770,7 +2862,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2785,14 +2877,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperGold"
       }
     ]
   },
   {
     "name": {
       "en": "gold-rose plant",
-      "jp": ""
+      "jp": "きんのバラのかぶ"
     },
     "id": 3878,
     "source": "Breeding",
@@ -2800,7 +2893,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -2815,7 +2908,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRoseGold3"
       }
     ]
   },
@@ -2830,7 +2924,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2845,7 +2939,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperGray"
       }
     ]
   },
@@ -2860,7 +2955,7 @@ diy.materials = [
     "event": "Festivale",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2875,14 +2970,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FeatherGreen"
       }
     ]
   },
   {
     "name": {
       "en": "green mums",
-      "jp": ""
+      "jp": "みどりのキク"
     },
     "id": 5175,
     "source": "Picking flowers",
@@ -2890,7 +2986,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -2905,14 +3001,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwMumGreen"
       }
     ]
   },
   {
     "name": {
       "en": "green pumpkin",
-      "jp": ""
+      "jp": "みどりのかぼちゃ"
     },
     "id": 4527,
     "source": "Picking pumpkins",
@@ -2920,7 +3017,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -2935,7 +3032,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SquashGreen"
       }
     ]
   },
@@ -2950,7 +3048,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -2965,14 +3063,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperGreen"
       }
     ]
   },
   {
     "name": {
       "en": "green-mum plant",
-      "jp": ""
+      "jp": "みどりのキクのかぶ"
     },
     "id": 3934,
     "source": "Breeding",
@@ -2980,7 +3079,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -2995,14 +3094,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltMumGreen3"
       }
     ]
   },
   {
     "name": {
       "en": "hardwood",
-      "jp": ""
+      "jp": "かたいもくざい"
     },
     "id": 2769,
     "source": "Chopping a tree",
@@ -3010,7 +3110,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3025,14 +3125,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYWoodHard"
       }
     ]
   },
   {
     "name": {
       "en": "hardwood tree",
-      "jp": ""
+      "jp": "こうようじゅ"
     },
     "id": 2799,
     "source": "Planting a sapling",
@@ -3040,7 +3141,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -3055,7 +3156,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltOak4"
       }
     ]
   },
@@ -3070,7 +3172,7 @@ diy.materials = [
     "event": "Wedding Season",
     "eventExclusive": "Yes",
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3085,7 +3187,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Love"
       }
     ]
   },
@@ -3100,7 +3203,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.6.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3115,14 +3218,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookReaction"
       }
     ]
   },
   {
     "name": {
       "en": "holly bush",
-      "jp": ""
+      "jp": "ヒイラギのき"
     },
     "id": 3027,
     "source": "Digging up a fully grown bush",
@@ -3130,7 +3234,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -3145,7 +3249,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHolly2"
       }
     ]
   },
@@ -3160,7 +3265,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -3175,7 +3280,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedHolly"
       }
     ]
   },
@@ -3190,7 +3296,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3205,7 +3311,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "NnpcNewHousingkit"
       }
     ]
   },
@@ -3220,7 +3327,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3235,14 +3342,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SlopeReserveKit"
       }
     ]
   },
   {
     "name": {
       "en": "iron nugget",
-      "jp": ""
+      "jp": "てっこうせき"
     },
     "id": 2511,
     "source": "Hitting a rock",
@@ -3250,7 +3358,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3265,14 +3373,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYIron"
       }
     ]
   },
   {
     "name": {
       "en": "large snowflake",
-      "jp": ""
+      "jp": "ゆきのだいけっしょう"
     },
     "id": 3540,
     "source": "Snowboy",
@@ -3280,7 +3389,7 @@ diy.materials = [
     "event": "snowflakes",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3295,14 +3404,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SnowCrystalLarge"
       }
     ]
   },
   {
     "name": {
       "en": "large star fragment",
-      "jp": ""
+      "jp": "おおきなほしのかけら"
     },
     "id": 5984,
     "source": "Wishing on shooting stars",
@@ -3310,7 +3420,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3325,7 +3435,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceRare"
       }
     ]
   },
@@ -3340,7 +3451,7 @@ diy.materials = [
     "event": "Bunny Day (ready days); Bunny Day",
     "eventExclusive": "Yes",
     "version": "1.1.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3355,14 +3466,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "EggLeaf"
       }
     ]
   },
   {
     "name": {
       "en": "Leo fragment",
-      "jp": ""
+      "jp": "ししざのかけら"
     },
     "id": 5992,
     "source": "Wishing on shooting stars",
@@ -3370,7 +3482,7 @@ diy.materials = [
     "event": "Leo",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3385,14 +3497,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceLeo"
       }
     ]
   },
   {
     "name": {
       "en": "Libra fragment",
-      "jp": ""
+      "jp": "てんびんざのかけら"
     },
     "id": 5994,
     "source": "Wishing on shooting stars",
@@ -3400,7 +3513,7 @@ diy.materials = [
     "event": "Libra",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3415,7 +3528,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceLibra"
       }
     ]
   },
@@ -3430,7 +3544,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3445,14 +3559,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperLightBlue"
       }
     ]
   },
   {
     "name": {
       "en": "lily-of-the-valley plant",
-      "jp": ""
+      "jp": "スズランのかぶ"
     },
     "id": 7651,
     "source": "5-star town status",
@@ -3460,7 +3575,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -3475,7 +3590,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltSuzuran2"
       }
     ]
   },
@@ -3490,7 +3606,7 @@ diy.materials = [
     "event": "Halloween",
     "eventExclusive": "Yes",
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3505,7 +3621,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Lollipop"
       }
     ]
   },
@@ -3520,7 +3637,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3535,7 +3652,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "LostQuestBag"
       }
     ]
   },
@@ -3550,7 +3668,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3565,7 +3683,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "LostQuestBook"
       }
     ]
   },
@@ -3580,7 +3699,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3595,7 +3714,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "LostQuestNote"
       }
     ]
   },
@@ -3610,7 +3730,7 @@ diy.materials = [
     "event": "Lunar New Year",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3625,7 +3745,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyOtoshidamaCh"
       }
     ]
   },
@@ -3640,7 +3761,7 @@ diy.materials = [
     "event": "Lunar New Year",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3655,7 +3776,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "OtoshidamaCh"
       }
     ]
   },
@@ -3670,7 +3792,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3685,14 +3807,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrShellFishAsari"
       }
     ]
   },
   {
     "name": {
       "en": "maple leaf",
-      "jp": ""
+      "jp": "もみじのはっぱ"
     },
     "id": 7374,
     "source": "Catching with a net",
@@ -3700,7 +3823,7 @@ diy.materials = [
     "event": "maple leaves",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3715,7 +3838,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "AutumnLeaf"
       }
     ]
   },
@@ -3730,7 +3854,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": true,
     "tag": "Etc",
     "price": {
@@ -3745,7 +3869,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ItemMedicine"
       }
     ]
   },
@@ -3760,7 +3885,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3775,7 +3900,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MessageBottle"
       }
     ]
   },
@@ -3790,7 +3916,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3805,14 +3931,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperMint"
       }
     ]
   },
   {
     "name": {
       "en": "money tree",
-      "jp": ""
+      "jp": "カネのなるき"
     },
     "id": 4426,
     "source": "Burying bells in a glowing spot",
@@ -3820,7 +3947,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -3835,7 +3962,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltMoney4"
       }
     ]
   },
@@ -3850,7 +3978,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3865,7 +3993,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MovingKitPlayer"
       }
     ]
   },
@@ -3880,7 +4009,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -3895,7 +4024,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MovingKitMuseum"
       }
     ]
   },
@@ -3910,7 +4040,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3925,7 +4055,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperNavy"
       }
     ]
   },
@@ -3940,7 +4071,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3955,7 +4086,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MilePlaneTicket"
       }
     ]
   },
@@ -3970,7 +4102,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -3985,14 +4117,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "TrashTire"
       }
     ]
   },
   {
     "name": {
       "en": "orange",
-      "jp": ""
+      "jp": "オレンジ"
     },
     "id": 2214,
     "source": "Nook's Cranny; Orange Tree",
@@ -4000,7 +4133,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4015,14 +4148,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Orange"
       }
     ]
   },
   {
     "name": {
       "en": "orange cosmos",
-      "jp": ""
+      "jp": "オレンジのコスモス"
     },
     "id": 2871,
     "source": "Picking flowers",
@@ -4030,7 +4164,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4045,14 +4179,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwCosmosOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange hyacinths",
-      "jp": ""
+      "jp": "オレンジのヒヤシンス"
     },
     "id": 3741,
     "source": "Picking flowers",
@@ -4060,7 +4195,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4075,14 +4210,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwHyacinthOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange lilies",
-      "jp": ""
+      "jp": "オレンジのユリ"
     },
     "id": 2995,
     "source": "Picking flowers",
@@ -4090,7 +4226,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4105,14 +4241,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwYuriOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange pansies",
-      "jp": ""
+      "jp": "あかきいろパンジー"
     },
     "id": 2919,
     "source": "Picking flowers",
@@ -4120,7 +4257,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4135,14 +4272,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwPansyRedYellow"
       }
     ]
   },
   {
     "name": {
       "en": "orange pumpkin",
-      "jp": ""
+      "jp": "オレンジのかぼちゃ"
     },
     "id": 4525,
     "source": "Picking pumpkins; All villagers",
@@ -4150,7 +4288,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4165,14 +4303,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SquashOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange roses",
-      "jp": ""
+      "jp": "オレンジのバラ"
     },
     "id": 2947,
     "source": "Picking flowers",
@@ -4180,7 +4319,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4195,14 +4334,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRoseOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange tree",
-      "jp": ""
+      "jp": "オレンジのき"
     },
     "id": 3365,
     "source": "Planting an orange",
@@ -4210,7 +4350,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4225,14 +4365,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltOrange4"
       }
     ]
   },
   {
     "name": {
       "en": "orange tulips",
-      "jp": ""
+      "jp": "オレンジのチューリップ"
     },
     "id": 2895,
     "source": "Picking flowers",
@@ -4240,7 +4381,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4255,14 +4396,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwTulipOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange windflowers",
-      "jp": ""
+      "jp": "オレンジのアネモネ"
     },
     "id": 3713,
     "source": "Picking flowers",
@@ -4270,7 +4412,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4285,7 +4427,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwAnemonesOrange"
       }
     ]
   },
@@ -4300,7 +4443,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -4315,14 +4458,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange-cosmos plant",
-      "jp": ""
+      "jp": "オレンジのコスモスのかぶ"
     },
     "id": 3832,
     "source": "Breeding",
@@ -4330,7 +4474,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4345,14 +4489,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltCosmosOrange3"
       }
     ]
   },
   {
     "name": {
       "en": "orange-hyacinth plant",
-      "jp": ""
+      "jp": "オレンジのヒヤシンスのかぶ"
     },
     "id": 3916,
     "source": "Breeding",
@@ -4360,7 +4505,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4375,14 +4520,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHyacinthOrange3"
       }
     ]
   },
   {
     "name": {
       "en": "orange-lily plant",
-      "jp": ""
+      "jp": "オレンジのユリのかぶ"
     },
     "id": 3894,
     "source": "Breeding",
@@ -4390,7 +4536,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4405,14 +4551,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltYuriOrange3"
       }
     ]
   },
   {
     "name": {
       "en": "orange-pansy plant",
-      "jp": ""
+      "jp": "あかきいろパンジーのかぶ"
     },
     "id": 3856,
     "source": "Breeding",
@@ -4420,7 +4567,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4435,14 +4582,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPansyRedYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "orange-rose plant",
-      "jp": ""
+      "jp": "オレンジのバラのかぶ"
     },
     "id": 3870,
     "source": "Breeding",
@@ -4450,7 +4598,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4465,14 +4613,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRoseOrange3"
       }
     ]
   },
   {
     "name": {
       "en": "orange-tea-olive bush",
-      "jp": ""
+      "jp": "オレンジキンモクセイのき"
     },
     "id": 12482,
     "source": "Digging up a fully grown bush",
@@ -4480,7 +4629,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4495,7 +4644,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltBushOsmathusOrange2"
       }
     ]
   },
@@ -4510,7 +4660,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4525,14 +4675,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedBushOsmathusOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange-tulip plant",
-      "jp": ""
+      "jp": "オレンジのチューリップのかぶ"
     },
     "id": 3844,
     "source": "Breeding",
@@ -4540,7 +4691,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4555,14 +4706,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltTulipOrange3"
       }
     ]
   },
   {
     "name": {
       "en": "orange-windflower bag",
-      "jp": ""
+      "jp": "オレンジのアネモネのきゅうこん"
     },
     "id": 3714,
     "source": "Nook's Cranny; Leif",
@@ -4570,7 +4722,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4585,14 +4737,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedAnemonesOrange"
       }
     ]
   },
   {
     "name": {
       "en": "orange-windflower plant",
-      "jp": ""
+      "jp": "オレンジのアネモネのかぶ"
     },
     "id": 3900,
     "source": "Seed bag",
@@ -4600,7 +4753,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4615,14 +4768,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltAnemonesOrange3"
       }
     ]
   },
   {
     "name": {
       "en": "peach",
-      "jp": ""
+      "jp": "モモ"
     },
     "id": 2286,
     "source": "Nook's Cranny; Peach Tree",
@@ -4630,7 +4784,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4645,14 +4799,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Peach"
       }
     ]
   },
   {
     "name": {
       "en": "peach tree",
-      "jp": ""
+      "jp": "モモのき"
     },
     "id": 3375,
     "source": "Planting a peach",
@@ -4660,7 +4815,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4675,14 +4830,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPeach4"
       }
     ]
   },
   {
     "name": {
       "en": "pear",
-      "jp": ""
+      "jp": "ナシ"
     },
     "id": 2285,
     "source": "Nook's Cranny; Pear Tree",
@@ -4690,7 +4846,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4705,14 +4861,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Pear"
       }
     ]
   },
   {
     "name": {
       "en": "pear tree",
-      "jp": ""
+      "jp": "ナシのき"
     },
     "id": 3370,
     "source": "Planting a pear",
@@ -4720,7 +4877,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4735,14 +4892,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPear4"
       }
     ]
   },
   {
     "name": {
       "en": "pearl",
-      "jp": ""
+      "jp": "しんじゅ"
     },
     "id": 12968,
     "source": "Dive spot; Pascal",
@@ -4750,7 +4908,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.3.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -4765,14 +4923,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Pearl"
       }
     ]
   },
   {
     "name": {
       "en": "pine cone",
-      "jp": ""
+      "jp": "まつぼっくり"
     },
     "id": 5728,
     "source": "Cedar Tree",
@@ -4780,7 +4939,7 @@ diy.materials = [
     "event": "acorns and pine cones",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -4795,14 +4954,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYPinecone"
       }
     ]
   },
   {
     "name": {
       "en": "pink cosmos",
-      "jp": ""
+      "jp": "ピンクのコスモス"
     },
     "id": 2867,
     "source": "Picking flowers",
@@ -4810,7 +4970,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4825,14 +4985,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwCosmosPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink hyacinths",
-      "jp": ""
+      "jp": "ピンクのヒヤシンス"
     },
     "id": 3738,
     "source": "Picking flowers",
@@ -4840,7 +5001,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4855,14 +5016,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwHyacinthPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink lilies",
-      "jp": ""
+      "jp": "ピンクのユリ"
     },
     "id": 2991,
     "source": "Picking flowers",
@@ -4870,7 +5032,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4885,14 +5047,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwYuriPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink mums",
-      "jp": ""
+      "jp": "ピンクのキク"
     },
     "id": 3765,
     "source": "Picking flowers",
@@ -4900,7 +5063,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4915,14 +5078,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwMumPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink roses",
-      "jp": ""
+      "jp": "ピンクのバラ"
     },
     "id": 2943,
     "source": "Picking flowers",
@@ -4930,7 +5094,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4945,14 +5109,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRosePink"
       }
     ]
   },
   {
     "name": {
       "en": "pink tulips",
-      "jp": ""
+      "jp": "ピンクのチューリップ"
     },
     "id": 2891,
     "source": "Picking flowers",
@@ -4960,7 +5125,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -4975,14 +5140,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwTulipPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink windflowers",
-      "jp": ""
+      "jp": "ピンクのアネモネ"
     },
     "id": 3720,
     "source": "Picking flowers",
@@ -4990,7 +5156,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5005,7 +5171,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwAnemonesPink"
       }
     ]
   },
@@ -5020,7 +5187,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -5035,14 +5202,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink-azalea bush",
-      "jp": ""
+      "jp": "ピンクのツツジのき"
     },
     "id": 3788,
     "source": "Digging up a fully grown bush",
@@ -5050,7 +5218,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5065,7 +5233,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltAzaleaPink2"
       }
     ]
   },
@@ -5080,7 +5249,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5095,14 +5264,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedAzaleaPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink-camellia bush",
-      "jp": ""
+      "jp": "ピンクのツバキのき"
     },
     "id": 12492,
     "source": "Digging up a fully grown bush",
@@ -5110,7 +5280,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5125,7 +5295,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltBushCamelliaPink2"
       }
     ]
   },
@@ -5140,7 +5311,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5155,14 +5326,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedBushCamelliaPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink-cosmos plant",
-      "jp": ""
+      "jp": "ピンクのコスモスのかぶ"
     },
     "id": 3830,
     "source": "Breeding",
@@ -5170,7 +5342,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5185,14 +5357,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltCosmosPink3"
       }
     ]
   },
   {
     "name": {
       "en": "pink-hyacinth plant",
-      "jp": ""
+      "jp": "ピンクのヒヤシンスのかぶ"
     },
     "id": 3914,
     "source": "Breeding",
@@ -5200,7 +5373,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5215,14 +5388,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHyacinthPink3"
       }
     ]
   },
   {
     "name": {
       "en": "pink-hydrangea bush",
-      "jp": ""
+      "jp": "ピンクのアジサイのき"
     },
     "id": 3796,
     "source": "Digging up a fully grown bush",
@@ -5230,7 +5404,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5245,7 +5419,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHydrangeaPink2"
       }
     ]
   },
@@ -5260,7 +5435,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5275,14 +5450,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedHydrangeaPink"
       }
     ]
   },
   {
     "name": {
       "en": "pink-lily plant",
-      "jp": ""
+      "jp": "ピンクのユリのかぶ"
     },
     "id": 3892,
     "source": "Breeding",
@@ -5290,7 +5466,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5305,14 +5481,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltYuriPink3"
       }
     ]
   },
   {
     "name": {
       "en": "pink-mum plant",
-      "jp": ""
+      "jp": "ピンクのキクのかぶ"
     },
     "id": 3930,
     "source": "Breeding",
@@ -5320,7 +5497,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5335,14 +5512,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltMumPink3"
       }
     ]
   },
   {
     "name": {
       "en": "pink-rose plant",
-      "jp": ""
+      "jp": "ピンクのバラのかぶ"
     },
     "id": 3868,
     "source": "Breeding",
@@ -5350,7 +5528,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5365,14 +5543,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRosePink3"
       }
     ]
   },
   {
     "name": {
       "en": "pink-tulip plant",
-      "jp": ""
+      "jp": "ピンクのチューリップのかぶ"
     },
     "id": 3842,
     "source": "Breeding",
@@ -5380,7 +5559,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5395,14 +5574,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltTulipPink3"
       }
     ]
   },
   {
     "name": {
       "en": "pink-windflower plant",
-      "jp": ""
+      "jp": "ピンクのアネモネのかぶ"
     },
     "id": 3904,
     "source": "Breeding",
@@ -5410,7 +5590,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -5425,14 +5605,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltAnemonesPink3"
       }
     ]
   },
   {
     "name": {
       "en": "Pisces fragment",
-      "jp": ""
+      "jp": "うおざのかけら"
     },
     "id": 5987,
     "source": "Wishing on shooting stars",
@@ -5440,7 +5621,7 @@ diy.materials = [
     "event": "Pisces",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -5455,7 +5636,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpiecePisces"
       }
     ]
   },
@@ -5470,7 +5652,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": true,
     "tag": "Etc",
     "price": {
@@ -5485,7 +5667,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PitfallSeed"
       }
     ]
   },
@@ -5500,7 +5683,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5515,7 +5698,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HousingKitRcoQuestA"
       }
     ]
   },
@@ -5530,7 +5714,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5545,7 +5729,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HousingKitRcoQuestB"
       }
     ]
   },
@@ -5560,7 +5745,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5575,14 +5760,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HousingKitRcoQuestC"
       }
     ]
   },
   {
     "name": {
       "en": "Pocket Camp phone case",
-      "jp": ""
+      "jp": "ポケットキャンプのスマホケース"
     },
     "id": 13439,
     "source": "Nook Shopping Promotion",
@@ -5590,7 +5776,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.6.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -5605,7 +5791,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SmartphoneCaseComp"
       }
     ]
   },
@@ -5620,7 +5807,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5635,7 +5822,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookPocketExpansion"
       }
     ]
   },
@@ -5650,7 +5838,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5665,7 +5853,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyPresentbox"
       }
     ]
   },
@@ -5680,7 +5869,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5695,7 +5884,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingBlack"
       }
     ]
   },
@@ -5710,7 +5900,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5725,7 +5915,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingBlue"
       }
     ]
   },
@@ -5740,7 +5931,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5755,7 +5946,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingBrown"
       }
     ]
   },
@@ -5770,7 +5962,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5785,7 +5977,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingLightGreen"
       }
     ]
   },
@@ -5800,7 +5993,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5815,7 +6008,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingGold"
       }
     ]
   },
@@ -5830,7 +6024,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5845,7 +6039,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingGary"
       }
     ]
   },
@@ -5860,7 +6055,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5875,7 +6070,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingGreen"
       }
     ]
   },
@@ -5890,7 +6086,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5905,7 +6101,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingLightBlue"
       }
     ]
   },
@@ -5920,7 +6117,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5935,7 +6132,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingMint"
       }
     ]
   },
@@ -5950,7 +6148,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5965,7 +6163,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingNavy"
       }
     ]
   },
@@ -5980,7 +6179,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -5995,7 +6194,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingOrange"
       }
     ]
   },
@@ -6010,7 +6210,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -6025,7 +6225,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingPink"
       }
     ]
   },
@@ -6040,7 +6241,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -6055,7 +6256,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingPurple"
       }
     ]
   },
@@ -6070,7 +6272,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -6085,7 +6287,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingRed"
       }
     ]
   },
@@ -6100,7 +6303,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -6115,7 +6318,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingWhite"
       }
     ]
   },
@@ -6130,7 +6334,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -6145,7 +6349,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyWrappingYellow"
       }
     ]
   },
@@ -6160,7 +6365,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -6175,14 +6380,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYbookNormalTools"
       }
     ]
   },
   {
     "name": {
       "en": "pumpkin start",
-      "jp": ""
+      "jp": "かぼちゃのなえ"
     },
     "id": 13227,
     "source": "Nook's Cranny; Leif",
@@ -6190,7 +6396,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6205,7 +6411,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedSquash"
       }
     ]
   },
@@ -6220,7 +6427,7 @@ diy.materials = [
     "event": "Festivale",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -6235,14 +6442,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FeatherPurple"
       }
     ]
   },
   {
     "name": {
       "en": "purple hyacinths",
-      "jp": ""
+      "jp": "むらさきのヒヤシンス"
     },
     "id": 3751,
     "source": "Picking flowers",
@@ -6250,7 +6458,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6265,14 +6473,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwHyacinthPurple"
       }
     ]
   },
   {
     "name": {
       "en": "purple mums",
-      "jp": ""
+      "jp": "むらさきのキク"
     },
     "id": 3762,
     "source": "Picking flowers",
@@ -6280,7 +6489,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6295,14 +6504,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwMumPurple"
       }
     ]
   },
   {
     "name": {
       "en": "purple pansies",
-      "jp": ""
+      "jp": "むらさきのパンジー"
     },
     "id": 2923,
     "source": "Picking flowers",
@@ -6310,7 +6520,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6325,14 +6535,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwPansyPurple"
       }
     ]
   },
   {
     "name": {
       "en": "purple roses",
-      "jp": ""
+      "jp": "むらさきのバラ"
     },
     "id": 2951,
     "source": "Picking flowers",
@@ -6340,7 +6551,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6355,14 +6566,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRosePurple"
       }
     ]
   },
   {
     "name": {
       "en": "purple tulips",
-      "jp": ""
+      "jp": "むらさきチューリップ"
     },
     "id": 2899,
     "source": "Picking flowers",
@@ -6370,7 +6582,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6385,14 +6597,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwTulipPurple"
       }
     ]
   },
   {
     "name": {
       "en": "purple windflowers",
-      "jp": ""
+      "jp": "むらさきのアネモネ"
     },
     "id": 3727,
     "source": "Picking flowers",
@@ -6400,7 +6613,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6415,7 +6628,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwAnemonesPurple"
       }
     ]
   },
@@ -6430,7 +6644,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -6445,14 +6659,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperPurple"
       }
     ]
   },
   {
     "name": {
       "en": "purple-hyacinth plant",
-      "jp": ""
+      "jp": "むらさきのヒヤシンスのかぶ"
     },
     "id": 3922,
     "source": "Breeding",
@@ -6460,7 +6675,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6475,14 +6690,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHyacinthPurple3"
       }
     ]
   },
   {
     "name": {
       "en": "purple-mum plant",
-      "jp": ""
+      "jp": "むらさきのキクのかぶ"
     },
     "id": 3928,
     "source": "Breeding",
@@ -6490,7 +6706,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6505,14 +6721,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltMumPurple3"
       }
     ]
   },
   {
     "name": {
       "en": "purple-pansy plant",
-      "jp": ""
+      "jp": "むらさきのパンジーのかぶ"
     },
     "id": 3858,
     "source": "Breeding",
@@ -6520,7 +6737,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6535,14 +6752,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPansyPurple3"
       }
     ]
   },
   {
     "name": {
       "en": "purple-rose plant",
-      "jp": ""
+      "jp": "むらさきのバラのかぶ"
     },
     "id": 3872,
     "source": "Breeding",
@@ -6550,7 +6768,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6565,14 +6783,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRosePurple3"
       }
     ]
   },
   {
     "name": {
       "en": "purple-tulip plant",
-      "jp": ""
+      "jp": "むらさきのチューリップのかぶ"
     },
     "id": 3846,
     "source": "Breeding",
@@ -6580,7 +6799,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6595,14 +6814,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltTulipPurple3"
       }
     ]
   },
   {
     "name": {
       "en": "purple-windflower plant",
-      "jp": ""
+      "jp": "むらさきのアネモネのかぶ"
     },
     "id": 3908,
     "source": "Breeding",
@@ -6610,7 +6830,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6625,7 +6845,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltAnemonesPurple3"
       }
     ]
   },
@@ -6640,7 +6861,7 @@ diy.materials = [
     "event": "Festivale",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": true,
     "tag": "Etc",
     "price": {
@@ -6655,14 +6876,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FeatherRainbow"
       }
     ]
   },
   {
     "name": {
       "en": "rare mushroom",
-      "jp": ""
+      "jp": "めずらしいキノコ"
     },
     "id": 3280,
     "source": "Dig Spot",
@@ -6670,7 +6892,7 @@ diy.materials = [
     "event": "mushrooms",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6685,14 +6907,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MushRare"
       }
     ]
   },
   {
     "name": {
       "en": "red cosmos",
-      "jp": ""
+      "jp": "あかいコスモス"
     },
     "id": 2304,
     "source": "Picking flowers",
@@ -6700,7 +6923,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6715,7 +6938,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwCosmosRed"
       }
     ]
   },
@@ -6730,7 +6954,7 @@ diy.materials = [
     "event": "Festivale",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -6745,14 +6969,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FeatherRed"
       }
     ]
   },
   {
     "name": {
       "en": "red hyacinths",
-      "jp": ""
+      "jp": "あかいヒヤシンス"
     },
     "id": 3744,
     "source": "Picking flowers",
@@ -6760,7 +6985,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6775,14 +7000,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwHyacinthRed"
       }
     ]
   },
   {
     "name": {
       "en": "red lilies",
-      "jp": ""
+      "jp": "あかいユリ"
     },
     "id": 2983,
     "source": "Picking flowers",
@@ -6790,7 +7016,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6805,14 +7031,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwYuriRed"
       }
     ]
   },
   {
     "name": {
       "en": "red mums",
-      "jp": ""
+      "jp": "あかいキク"
     },
     "id": 3768,
     "source": "Picking flowers",
@@ -6820,7 +7047,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6835,14 +7062,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwMumRed"
       }
     ]
   },
   {
     "name": {
       "en": "red ornament",
-      "jp": ""
+      "jp": "あかいオーナメント"
     },
     "id": 5730,
     "source": "Cedar Tree",
@@ -6850,7 +7078,7 @@ diy.materials = [
     "event": "ornaments",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -6865,14 +7093,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYOrnamentRed"
       }
     ]
   },
   {
     "name": {
       "en": "red pansies",
-      "jp": ""
+      "jp": "あかいパンジー"
     },
     "id": 2911,
     "source": "Picking flowers",
@@ -6880,7 +7109,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6895,14 +7124,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwPansyRed"
       }
     ]
   },
   {
     "name": {
       "en": "red roses",
-      "jp": ""
+      "jp": "あかいバラ"
     },
     "id": 2935,
     "source": "Picking flowers",
@@ -6910,7 +7140,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6925,14 +7155,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRoseRed"
       }
     ]
   },
   {
     "name": {
       "en": "red tulips",
-      "jp": ""
+      "jp": "あかいチューリップ"
     },
     "id": 2883,
     "source": "Picking flowers",
@@ -6940,7 +7171,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6955,14 +7186,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwTulipRed"
       }
     ]
   },
   {
     "name": {
       "en": "red windflowers",
-      "jp": ""
+      "jp": "あかいアネモネ"
     },
     "id": 3723,
     "source": "Picking flowers",
@@ -6970,7 +7202,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -6985,7 +7217,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwAnemonesRed"
       }
     ]
   },
@@ -7000,7 +7233,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -7015,14 +7248,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-camellia bush",
-      "jp": ""
+      "jp": "あかいツバキのき"
     },
     "id": 12489,
     "source": "Digging up a fully grown bush",
@@ -7030,7 +7264,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7045,7 +7279,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltBushCamelliaRed2"
       }
     ]
   },
@@ -7060,7 +7295,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7075,14 +7310,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedBushCamelliaRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-cosmos bag",
-      "jp": ""
+      "jp": "あかいコスモスのたね"
     },
     "id": 2626,
     "source": "Nook's Cranny; Leif",
@@ -7090,7 +7326,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7105,14 +7341,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedCosmosRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-cosmos plant",
-      "jp": ""
+      "jp": "あかいコスモスのかぶ"
     },
     "id": 3824,
     "source": "Seed bag",
@@ -7120,7 +7357,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7135,14 +7372,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltCosmosRed3"
       }
     ]
   },
   {
     "name": {
       "en": "red-hibiscus bush",
-      "jp": ""
+      "jp": "あかいハイビスカスのき"
     },
     "id": 3022,
     "source": "Digging up a fully grown bush",
@@ -7150,7 +7388,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7165,7 +7403,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHibiscusRed2"
       }
     ]
   },
@@ -7180,7 +7419,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7195,14 +7434,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedHibiscusRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-hyacinth bag",
-      "jp": ""
+      "jp": "あかいヒヤシンスのきゅうこん"
     },
     "id": 3745,
     "source": "Nook's Cranny; Leif",
@@ -7210,7 +7450,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7225,14 +7465,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedHyacinthRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-hyacinth plant",
-      "jp": ""
+      "jp": "あかいヒヤシンスのかぶ"
     },
     "id": 3918,
     "source": "Seed bag",
@@ -7240,7 +7481,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7255,14 +7496,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHyacinthRed3"
       }
     ]
   },
   {
     "name": {
       "en": "red-lily bag",
-      "jp": ""
+      "jp": "あかいユリのきゅうこん"
     },
     "id": 2984,
     "source": "Nook's Cranny; Leif",
@@ -7270,7 +7512,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7285,14 +7527,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedYuriRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-lily plant",
-      "jp": ""
+      "jp": "あかいユリのかぶ"
     },
     "id": 3888,
     "source": "Seed bag",
@@ -7300,7 +7543,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7315,14 +7558,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltYuriRed3"
       }
     ]
   },
   {
     "name": {
       "en": "red-mum bag",
-      "jp": ""
+      "jp": "あかいキクのたね"
     },
     "id": 3769,
     "source": "Nook's Cranny; Leif",
@@ -7330,7 +7574,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7345,14 +7589,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedMumRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-mum plant",
-      "jp": ""
+      "jp": "あかいキクのかぶ"
     },
     "id": 3932,
     "source": "Seed bag",
@@ -7360,7 +7605,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7375,14 +7620,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltMumRed3"
       }
     ]
   },
   {
     "name": {
       "en": "red-pansy bag",
-      "jp": ""
+      "jp": "あかいパンジーのたね"
     },
     "id": 2912,
     "source": "Nook's Cranny; Leif",
@@ -7390,7 +7636,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7405,14 +7651,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedPansyRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-pansy plant",
-      "jp": ""
+      "jp": "あかいパンジーのかぶ"
     },
     "id": 3852,
     "source": "Seed bag",
@@ -7420,7 +7667,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7435,14 +7682,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPansyRed3"
       }
     ]
   },
   {
     "name": {
       "en": "red-rose bag",
-      "jp": ""
+      "jp": "あかいバラのたね"
     },
     "id": 2936,
     "source": "Nook's Cranny; Leif",
@@ -7450,7 +7698,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7465,14 +7713,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedRoseRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-rose plant",
-      "jp": ""
+      "jp": "あかいバラのかぶ"
     },
     "id": 3864,
     "source": "Seed bag",
@@ -7480,7 +7729,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7495,14 +7744,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRoseRed3"
       }
     ]
   },
   {
     "name": {
       "en": "red-tulip bag",
-      "jp": ""
+      "jp": "あかいチューリップのきゅうこん"
     },
     "id": 2884,
     "source": "Nook's Cranny; Leif",
@@ -7510,7 +7760,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7525,14 +7775,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedTulipRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-tulip plant",
-      "jp": ""
+      "jp": "あかいチューリップのかぶ"
     },
     "id": 3838,
     "source": "Seed bag",
@@ -7540,7 +7791,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7555,14 +7806,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltTulipRed3"
       }
     ]
   },
   {
     "name": {
       "en": "red-windflower bag",
-      "jp": ""
+      "jp": "あかいアネモネのきゅうこん"
     },
     "id": 3724,
     "source": "Nook's Cranny; Leif",
@@ -7570,7 +7822,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7585,14 +7837,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedAnemonesRed"
       }
     ]
   },
   {
     "name": {
       "en": "red-windflower plant",
-      "jp": ""
+      "jp": "あかいアネモネのかぶ"
     },
     "id": 3906,
     "source": "Seed bag",
@@ -7600,7 +7853,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7615,14 +7868,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltAnemonesRed3"
       }
     ]
   },
   {
     "name": {
       "en": "ripe green-pumpkin plant",
-      "jp": ""
+      "jp": "そだったみどりのかぼちゃ"
     },
     "id": 4540,
     "source": "Digging up a pumpkin plant",
@@ -7630,7 +7884,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7645,14 +7899,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltSquashGreen3"
       }
     ]
   },
   {
     "name": {
       "en": "ripe orange-pumpkin plant",
-      "jp": ""
+      "jp": "そだったオレンジのかぼちゃ"
     },
     "id": 4532,
     "source": "Digging up a pumpkin plant",
@@ -7660,7 +7915,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7675,14 +7930,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltSquashOrange3"
       }
     ]
   },
   {
     "name": {
       "en": "ripe white-pumpkin plant",
-      "jp": ""
+      "jp": "そだったしろいかぼちゃ"
     },
     "id": 4544,
     "source": "Digging up a pumpkin plant",
@@ -7690,7 +7946,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7705,14 +7961,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltSquashWhite3"
       }
     ]
   },
   {
     "name": {
       "en": "ripe yellow-pumpkin plant",
-      "jp": ""
+      "jp": "そだったきいろいかぼちゃ"
     },
     "id": 4536,
     "source": "Digging up a pumpkin plant",
@@ -7720,7 +7977,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7735,14 +7992,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltSquashYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "round mushroom",
-      "jp": ""
+      "jp": "まるいキノコ"
     },
     "id": 3277,
     "source": "On ground",
@@ -7750,7 +8008,7 @@ diy.materials = [
     "event": "mushrooms",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7765,7 +8023,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MushRound"
       }
     ]
   },
@@ -7780,7 +8039,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -7795,14 +8054,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "JohnnyQuestDust1"
       }
     ]
   },
   {
     "name": {
       "en": "Sagittarius fragment",
-      "jp": ""
+      "jp": "いてざのかけら"
     },
     "id": 5996,
     "source": "Wishing on shooting stars",
@@ -7810,7 +8070,7 @@ diy.materials = [
     "event": "Sagittarius",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -7825,7 +8085,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceSagittarius"
       }
     ]
   },
@@ -7840,7 +8101,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -7855,7 +8116,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "RollanTicket"
       }
     ]
   },
@@ -7870,7 +8132,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -7885,7 +8147,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShellDriftSanddollar"
       }
     ]
   },
@@ -7900,7 +8163,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -7915,14 +8178,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrGroundMakerSand"
       }
     ]
   },
   {
     "name": {
       "en": "sapling",
-      "jp": ""
+      "jp": "きのなえ"
     },
     "id": 2794,
     "source": "Nook's Cranny",
@@ -7930,7 +8194,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -7945,14 +8209,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedOak"
       }
     ]
   },
   {
     "name": {
       "en": "Scorpius fragment",
-      "jp": ""
+      "jp": "さそりざのかけら"
     },
     "id": 5995,
     "source": "Wishing on shooting stars",
@@ -7960,7 +8225,7 @@ diy.materials = [
     "event": "Scorpio",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -7975,7 +8240,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceScorpio"
       }
     ]
   },
@@ -7990,7 +8256,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8005,7 +8271,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShellDriftEbisu"
       }
     ]
   },
@@ -8020,7 +8287,7 @@ diy.materials = [
     "event": "Seollal",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8035,7 +8302,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DummyOtoshidamaKr"
       }
     ]
   },
@@ -8050,7 +8318,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8065,7 +8333,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShopTent"
       }
     ]
   },
@@ -8080,7 +8349,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8095,14 +8364,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MovingKitShop"
       }
     ]
   },
   {
     "name": {
       "en": "skinny mushroom",
-      "jp": ""
+      "jp": "ほそいキノコ"
     },
     "id": 3278,
     "source": "On ground",
@@ -8110,7 +8380,7 @@ diy.materials = [
     "event": "mushrooms",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -8125,7 +8395,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MushSlender"
       }
     ]
   },
@@ -8140,7 +8411,7 @@ diy.materials = [
     "event": "Bunny Day (ready days); Bunny Day",
     "eventExclusive": "Yes",
     "version": "1.1.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8155,14 +8426,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "EggSky"
       }
     ]
   },
   {
     "name": {
       "en": "snowflake",
-      "jp": ""
+      "jp": "ゆきのけっしょう"
     },
     "id": 3539,
     "source": "Catching with a net",
@@ -8170,7 +8442,7 @@ diy.materials = [
     "event": "snowflakes",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8185,14 +8457,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SnowCrystal"
       }
     ]
   },
   {
     "name": {
       "en": "softwood",
-      "jp": ""
+      "jp": "やわらかいもくざい"
     },
     "id": 2767,
     "source": "Chopping a tree",
@@ -8200,7 +8473,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8215,7 +8488,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYWoodSoft"
       }
     ]
   },
@@ -8230,7 +8504,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8245,14 +8519,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Kabu_Spoil"
       }
     ]
   },
   {
     "name": {
       "en": "star fragment",
-      "jp": ""
+      "jp": "ほしのかけら"
     },
     "id": 5983,
     "source": "Wishing on shooting stars",
@@ -8260,7 +8535,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8275,14 +8550,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Starpiece"
       }
     ]
   },
   {
     "name": {
       "en": "stone",
-      "jp": ""
+      "jp": "いし"
     },
     "id": 2502,
     "source": "Hitting a rock; Fishing",
@@ -8290,7 +8566,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8305,7 +8581,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYStone"
       }
     ]
   },
@@ -8320,7 +8597,7 @@ diy.materials = [
     "event": "Bunny Day (ready days); Bunny Day",
     "eventExclusive": "Yes",
     "version": "1.1.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8335,7 +8612,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "EggRock"
       }
     ]
   },
@@ -8350,7 +8628,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8365,7 +8643,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrGroundMakerStone"
       }
     ]
   },
@@ -8380,7 +8659,7 @@ diy.materials = [
     "event": "summer shells",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8395,7 +8674,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShellDriftSummer"
       }
     ]
   },
@@ -8410,7 +8690,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8425,7 +8705,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HousingKitTailor"
       }
     ]
   },
@@ -8440,7 +8721,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8455,7 +8736,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "MovingKitTailor"
       }
     ]
   },
@@ -8470,7 +8752,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8485,14 +8767,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "TailorTicket"
       }
     ]
   },
   {
     "name": {
       "en": "Taurus fragment",
-      "jp": ""
+      "jp": "おうしざのかけら"
     },
     "id": 5989,
     "source": "Wishing on shooting stars",
@@ -8500,7 +8783,7 @@ diy.materials = [
     "event": "Taurus",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8515,7 +8798,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceTaurus"
       }
     ]
   },
@@ -8530,7 +8814,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8545,7 +8829,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "TutorialTent"
       }
     ]
   },
@@ -8560,7 +8845,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8575,7 +8860,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrGroundMakerTile"
       }
     ]
   },
@@ -8590,7 +8876,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8605,7 +8891,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYbook2"
       }
     ]
   },
@@ -8620,7 +8907,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8635,7 +8922,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookRingMenuUI"
       }
     ]
   },
@@ -8650,7 +8938,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.6.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8665,7 +8953,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookHairRock"
       }
     ]
   },
@@ -8680,7 +8969,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8695,7 +8984,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookHairCool"
       }
     ]
   },
@@ -8710,7 +9000,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8725,7 +9015,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookHairPop"
       }
     ]
   },
@@ -8740,7 +9031,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8755,7 +9046,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookHairColor"
       }
     ]
   },
@@ -8770,7 +9062,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.6.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8785,7 +9077,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PlayerMovingHousingKit"
       }
     ]
   },
@@ -8800,7 +9093,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8815,14 +9108,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "TreasureCapsule"
       }
     ]
   },
   {
     "name": {
       "en": "tree branch",
-      "jp": ""
+      "jp": "きのえだ"
     },
     "id": 2500,
     "source": "Shaking a hardwood or cedar tree",
@@ -8830,7 +9124,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8845,7 +9139,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYBranch"
       }
     ]
   },
@@ -8860,7 +9155,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8875,7 +9170,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PhotoStudioKabu"
       }
     ]
   },
@@ -8890,7 +9186,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -8905,7 +9201,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookPocketExpansion2"
       }
     ]
   },
@@ -8920,7 +9217,7 @@ diy.materials = [
     "event": "Fireworks Show",
     "eventExclusive": false,
     "version": "1.4.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8935,7 +9232,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Cinder"
       }
     ]
   },
@@ -8950,7 +9248,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8965,14 +9263,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "ShellDriftHone"
       }
     ]
   },
   {
     "name": {
       "en": "Virgo fragment",
-      "jp": ""
+      "jp": "おとめざのかけら"
     },
     "id": 5993,
     "source": "Wishing on shooting stars",
@@ -8980,7 +9279,7 @@ diy.materials = [
     "event": "Virgo",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -8995,7 +9294,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "StarpieceVirgo"
       }
     ]
   },
@@ -9010,7 +9310,7 @@ diy.materials = [
     "event": "Festivale (ready days); Festivale",
     "eventExclusive": "Yes",
     "version": "1.7.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -9025,7 +9325,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "HowtoBookReactionCarnival"
       }
     ]
   },
@@ -9040,7 +9341,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -9055,7 +9356,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "Honeycomb"
       }
     ]
   },
@@ -9070,7 +9372,7 @@ diy.materials = [
     "event": "Bunny Day (ready days); Bunny Day",
     "eventExclusive": "Yes",
     "version": "1.1.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -9085,7 +9387,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "EggFish"
       }
     ]
   },
@@ -9100,7 +9403,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -9115,7 +9418,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrRiverMaker"
       }
     ]
   },
@@ -9130,7 +9434,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -9145,7 +9449,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "LostQuestBagDust"
       }
     ]
   },
@@ -9160,7 +9465,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -9175,7 +9480,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "LostQuestBookDust"
       }
     ]
   },
@@ -9190,7 +9496,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -9205,7 +9511,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "LostQuestNoteDust"
       }
     ]
   },
@@ -9220,7 +9527,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -9235,14 +9542,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "TreasureCapsuleDust"
       }
     ]
   },
   {
     "name": {
       "en": "white cosmos",
-      "jp": ""
+      "jp": "しろいコスモス"
     },
     "id": 2305,
     "source": "Picking flowers",
@@ -9250,7 +9558,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9265,14 +9573,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwCosmosWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white hyacinths",
-      "jp": ""
+      "jp": "しろいヒヤシンス"
     },
     "id": 3730,
     "source": "Picking flowers",
@@ -9280,7 +9589,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9295,14 +9604,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwHyacinthWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white lilies",
-      "jp": ""
+      "jp": "しろいユリ"
     },
     "id": 2979,
     "source": "Picking flowers",
@@ -9310,7 +9620,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9325,14 +9635,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwYuriWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white mums",
-      "jp": ""
+      "jp": "しろいキク"
     },
     "id": 3754,
     "source": "Picking flowers",
@@ -9340,7 +9651,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9355,14 +9666,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwMumWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white pansies",
-      "jp": ""
+      "jp": "しろいパンジー"
     },
     "id": 2907,
     "source": "Picking flowers",
@@ -9370,7 +9682,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9385,14 +9697,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwPansyWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white pumpkin",
-      "jp": ""
+      "jp": "しろいかぼちゃ"
     },
     "id": 4528,
     "source": "Picking pumpkins",
@@ -9400,7 +9713,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9415,14 +9728,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SquashWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white roses",
-      "jp": ""
+      "jp": "しろいバラ"
     },
     "id": 2931,
     "source": "Picking flowers",
@@ -9430,7 +9744,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9445,14 +9759,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRoseWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white tulips",
-      "jp": ""
+      "jp": "しろいチューリップ"
     },
     "id": 2879,
     "source": "Picking flowers",
@@ -9460,7 +9775,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9475,14 +9790,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwTulipWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white windflowers",
-      "jp": ""
+      "jp": "しろいアネモネ"
     },
     "id": 3709,
     "source": "Picking flowers",
@@ -9490,7 +9806,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9505,7 +9821,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwAnemonesWhite"
       }
     ]
   },
@@ -9520,7 +9837,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -9535,14 +9852,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-azalea bush",
-      "jp": ""
+      "jp": "しろいツツジのき"
     },
     "id": 2861,
     "source": "Digging up a fully grown bush",
@@ -9550,7 +9868,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9565,7 +9883,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltAzaleaWhite2"
       }
     ]
   },
@@ -9580,7 +9899,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9595,14 +9914,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedAzaleaWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-cosmos bag",
-      "jp": ""
+      "jp": "しろいコスモスのたね"
     },
     "id": 2629,
     "source": "Nook's Cranny; Leif",
@@ -9610,7 +9930,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9625,14 +9945,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedCosmosWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-cosmos plant",
-      "jp": ""
+      "jp": "しろいコスモスのかぶ"
     },
     "id": 3826,
     "source": "Seed bag",
@@ -9640,7 +9961,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9655,14 +9976,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltCosmosWhite3"
       }
     ]
   },
   {
     "name": {
       "en": "white-hyacinth bag",
-      "jp": ""
+      "jp": "しろいヒヤシンスのきゅうこん"
     },
     "id": 3731,
     "source": "Nook's Cranny; Leif",
@@ -9670,7 +9992,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9685,14 +10007,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedHyacinthWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-hyacinth plant",
-      "jp": ""
+      "jp": "しろいヒヤシンスのかぶ"
     },
     "id": 3910,
     "source": "Seed bag",
@@ -9700,7 +10023,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9715,14 +10038,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHyacinthWhite3"
       }
     ]
   },
   {
     "name": {
       "en": "white-lily bag",
-      "jp": ""
+      "jp": "しろいユリのきゅうこん"
     },
     "id": 2980,
     "source": "Nook's Cranny; Leif",
@@ -9730,7 +10054,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9745,14 +10069,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedYuriWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-lily plant",
-      "jp": ""
+      "jp": "しろいユリのかぶ"
     },
     "id": 3886,
     "source": "Seed bag",
@@ -9760,7 +10085,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9775,14 +10100,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltYuriWhite3"
       }
     ]
   },
   {
     "name": {
       "en": "white-mum bag",
-      "jp": ""
+      "jp": "しろいキクのたね"
     },
     "id": 3755,
     "source": "Nook's Cranny; Leif",
@@ -9790,7 +10116,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9805,14 +10131,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedMumWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-mum plant",
-      "jp": ""
+      "jp": "しろいキクのかぶ"
     },
     "id": 3924,
     "source": "Seed bag",
@@ -9820,7 +10147,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9835,14 +10162,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltMumWhite3"
       }
     ]
   },
   {
     "name": {
       "en": "white-pansy bag",
-      "jp": ""
+      "jp": "しろいパンジーのたね"
     },
     "id": 2908,
     "source": "Nook's Cranny; Leif",
@@ -9850,7 +10178,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9865,14 +10193,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedPansyWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-pansy plant",
-      "jp": ""
+      "jp": "しろいパンジーのかぶ"
     },
     "id": 3850,
     "source": "Seed bag",
@@ -9880,7 +10209,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9895,14 +10224,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPansyWhite3"
       }
     ]
   },
   {
     "name": {
       "en": "white-rose bag",
-      "jp": ""
+      "jp": "しろいバラのたね"
     },
     "id": 2932,
     "source": "Nook's Cranny; Leif",
@@ -9910,7 +10240,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9925,14 +10255,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedRoseWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-rose plant",
-      "jp": ""
+      "jp": "しろいバラのかぶ"
     },
     "id": 3862,
     "source": "Seed bag",
@@ -9940,7 +10271,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9955,14 +10286,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRoseWhite3"
       }
     ]
   },
   {
     "name": {
       "en": "white-tulip bag",
-      "jp": ""
+      "jp": "しろいチューリップのきゅうこん"
     },
     "id": 2880,
     "source": "Nook's Cranny; Leif",
@@ -9970,7 +10302,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -9985,14 +10317,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedTulipWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-tulip plant",
-      "jp": ""
+      "jp": "しろいチューリップのかぶ"
     },
     "id": 3836,
     "source": "Seed bag",
@@ -10000,7 +10333,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10015,14 +10348,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltTulipWhite3"
       }
     ]
   },
   {
     "name": {
       "en": "white-windflower bag",
-      "jp": ""
+      "jp": "しろいアネモネのきゅうこん"
     },
     "id": 3710,
     "source": "Nook's Cranny; Leif",
@@ -10030,7 +10364,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10045,14 +10379,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedAnemonesWhite"
       }
     ]
   },
   {
     "name": {
       "en": "white-windflower plant",
-      "jp": ""
+      "jp": "しろいアネモネのかぶ"
     },
     "id": 3898,
     "source": "Seed bag",
@@ -10060,7 +10395,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10075,7 +10410,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltAnemonesWhite3"
       }
     ]
   },
@@ -10090,7 +10426,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -10105,7 +10441,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYbook3"
       }
     ]
   },
@@ -10120,7 +10457,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -10135,14 +10472,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "YutaroWisp"
       }
     ]
   },
   {
     "name": {
       "en": "wood",
-      "jp": ""
+      "jp": "もくざい"
     },
     "id": 2768,
     "source": "Chopping a tree",
@@ -10150,7 +10488,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -10165,7 +10503,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYWoodNormal"
       }
     ]
   },
@@ -10180,7 +10519,7 @@ diy.materials = [
     "event": "Bunny Day (ready days); Bunny Day",
     "eventExclusive": "Yes",
     "version": "1.1.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -10195,7 +10534,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "EggForest"
       }
     ]
   },
@@ -10210,7 +10550,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Unnecessary",
     "price": {
@@ -10225,14 +10565,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FtrGroundMakerWood"
       }
     ]
   },
   {
     "name": {
       "en": "yellow cosmos",
-      "jp": ""
+      "jp": "きいろいコスモス"
     },
     "id": 2863,
     "source": "Picking flowers",
@@ -10240,7 +10581,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10255,14 +10596,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwCosmosYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow hyacinths",
-      "jp": ""
+      "jp": "きいろいヒヤシンス"
     },
     "id": 3734,
     "source": "Picking flowers",
@@ -10270,7 +10612,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10285,14 +10627,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwHyacinthYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow lilies",
-      "jp": ""
+      "jp": "きいろいユリ"
     },
     "id": 2987,
     "source": "Picking flowers",
@@ -10300,7 +10643,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10315,14 +10658,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwYuriYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow mums",
-      "jp": ""
+      "jp": "きいろいキク"
     },
     "id": 3758,
     "source": "Picking flowers",
@@ -10330,7 +10674,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10345,14 +10689,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwMumYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow pansies",
-      "jp": ""
+      "jp": "きいろいパンジー"
     },
     "id": 2915,
     "source": "Picking flowers",
@@ -10360,7 +10705,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10375,14 +10720,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwPansyYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow pumpkin",
-      "jp": ""
+      "jp": "きいろいかぼちゃ"
     },
     "id": 4526,
     "source": "Picking pumpkins",
@@ -10390,7 +10736,7 @@ diy.materials = [
     "event": "Halloween (ready days); Halloween",
     "eventExclusive": false,
     "version": "1.5.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10405,14 +10751,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SquashYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow roses",
-      "jp": ""
+      "jp": "きいろいバラ"
     },
     "id": 2939,
     "source": "Picking flowers",
@@ -10420,7 +10767,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10435,14 +10782,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwRoseYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow tulips",
-      "jp": ""
+      "jp": "きいろいチューリップ"
     },
     "id": 2887,
     "source": "Picking flowers",
@@ -10450,7 +10798,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10465,7 +10813,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "FlwTulipYellow"
       }
     ]
   },
@@ -10480,7 +10829,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -10495,14 +10844,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "WPaperYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-cosmos bag",
-      "jp": ""
+      "jp": "きいろいコスモスのたね"
     },
     "id": 2864,
     "source": "Nook's Cranny; Leif",
@@ -10510,7 +10860,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10525,14 +10875,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedCosmosYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-cosmos plant",
-      "jp": ""
+      "jp": "きいろいコスモスのかぶ"
     },
     "id": 3828,
     "source": "Seed bag",
@@ -10540,7 +10891,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10555,14 +10906,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltCosmosYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-hibiscus bush",
-      "jp": ""
+      "jp": "きいろいハイビスカスのき"
     },
     "id": 3792,
     "source": "Digging up a fully grown bush",
@@ -10570,7 +10922,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10585,7 +10937,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHibiscusYellow2"
       }
     ]
   },
@@ -10600,7 +10953,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10615,14 +10968,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedHibiscusYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-hyacinth bag",
-      "jp": ""
+      "jp": "きいろいヒヤシンスのきゅうこん"
     },
     "id": 3735,
     "source": "Nook's Cranny; Leif",
@@ -10630,7 +10984,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10645,14 +10999,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedHyacinthYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-hyacinth plant",
-      "jp": ""
+      "jp": "きいろいヒヤシンスのかぶ"
     },
     "id": 3912,
     "source": "Seed bag",
@@ -10660,7 +11015,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10675,14 +11030,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltHyacinthYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-lily bag",
-      "jp": ""
+      "jp": "きいろいユリのきゅうこん"
     },
     "id": 2988,
     "source": "Nook's Cranny; Leif",
@@ -10690,7 +11046,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10705,14 +11061,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedYuriYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-lily plant",
-      "jp": ""
+      "jp": "きいろいユリのかぶ"
     },
     "id": 3890,
     "source": "Seed bag",
@@ -10720,7 +11077,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10735,14 +11092,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltYuriYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-mum bag",
-      "jp": ""
+      "jp": "きいろいキクのたね"
     },
     "id": 3759,
     "source": "Nook's Cranny; Leif",
@@ -10750,7 +11108,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10765,14 +11123,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedMumYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-mum plant",
-      "jp": ""
+      "jp": "きいろいキクのかぶ"
     },
     "id": 3926,
     "source": "Seed bag",
@@ -10780,7 +11139,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10795,14 +11154,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltMumYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-pansy bag",
-      "jp": ""
+      "jp": "きいろいパンジーのたね"
     },
     "id": 2916,
     "source": "Nook's Cranny; Leif",
@@ -10810,7 +11170,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10825,14 +11185,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedPansyYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-pansy plant",
-      "jp": ""
+      "jp": "きいろいパンジーのかぶ"
     },
     "id": 3854,
     "source": "Seed bag",
@@ -10840,7 +11201,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10855,14 +11216,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltPansyYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-rose bag",
-      "jp": ""
+      "jp": "きいろいバラのたね"
     },
     "id": 2940,
     "source": "Nook's Cranny; Leif",
@@ -10870,7 +11232,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10885,14 +11247,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedRoseYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-rose plant",
-      "jp": ""
+      "jp": "きいろいバラのかぶ"
     },
     "id": 3866,
     "source": "Seed bag",
@@ -10900,7 +11263,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10915,14 +11278,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltRoseYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-tea-olive bush",
-      "jp": ""
+      "jp": "きいろいキンモクセイのき"
     },
     "id": 12478,
     "source": "Digging up a fully grown bush",
@@ -10930,7 +11294,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10945,7 +11309,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltBushOsmathusYellow2"
       }
     ]
   },
@@ -10960,7 +11325,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.2.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -10975,14 +11340,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedBushOsmathusYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-tulip bag",
-      "jp": ""
+      "jp": "きいろチューリップのきゅうこん"
     },
     "id": 2888,
     "source": "Nook's Cranny; Leif",
@@ -10990,7 +11356,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -11005,14 +11371,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "SeedTulipYellow"
       }
     ]
   },
   {
     "name": {
       "en": "yellow-tulip plant",
-      "jp": ""
+      "jp": "きいろいチューリップのかぶ"
     },
     "id": 3840,
     "source": "Seed bag",
@@ -11020,7 +11387,7 @@ diy.materials = [
     "event": false,
     "eventExclusive": false,
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Plants",
     "price": {
@@ -11035,14 +11402,15 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "PltTulipYellow3"
       }
     ]
   },
   {
     "name": {
       "en": "young spring bamboo",
-      "jp": ""
+      "jp": "はるのわかたけ"
     },
     "id": 5729,
     "source": "Chopping a bamboo tree",
@@ -11050,7 +11418,7 @@ diy.materials = [
     "event": "young spring bamboo",
     "eventExclusive": "Yes",
     "version": "1.0.0",
-    "category": "other",
+    "category": "materials",
     "diy": false,
     "tag": "Etc",
     "price": {
@@ -11065,7 +11433,8 @@ diy.materials = [
       {
         "name": {
           "jp": ""
-        }
+        },
+        "imageName": "DIYBambooSpring"
       }
     ]
   }

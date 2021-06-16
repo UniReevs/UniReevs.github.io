@@ -23,12 +23,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8532,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAce0"
       }
     ]
@@ -57,21 +55,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9538,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLChemical1"
       },
       {
-        "id": 5289,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLChemical0"
       }
     ]
@@ -100,66 +94,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4366,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuranopen0"
       },
       {
-        "id": 7556,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuranopen3"
       },
       {
-        "id": 7558,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuranopen5"
       },
       {
-        "id": 7554,
         "name": {
           "en": "Berry red",
-          "jp": "ワインレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuranopen1"
       },
       {
-        "id": 7555,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuranopen2"
       },
       {
-        "id": 7559,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuranopen6"
       },
       {
-        "id": 7557,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuranopen4"
       }
     ]
@@ -188,39 +168,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8451,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAnimal3"
       },
       {
-        "id": 8449,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAnimal1"
       },
       {
-        "id": 4465,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAnimal0"
       },
       {
-        "id": 8450,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAnimal2"
       }
     ]
@@ -249,21 +221,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12066,
         "name": {
           "en": "Zebra",
-          "jp": "ゼブラ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHStripe1"
       },
       {
-        "id": 8198,
         "name": {
           "en": "Tiger",
-          "jp": "タイガー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHStripe0"
       }
     ]
@@ -292,12 +260,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12117,
         "name": {
           "en": false,
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHellokr0"
       }
     ]
@@ -326,30 +292,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9308,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAnorak1"
       },
       {
-        "id": 9309,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAnorak2"
       },
       {
-        "id": 4793,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAnorak0"
       }
     ]
@@ -378,75 +338,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9600,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHApron6"
       },
       {
-        "id": 9597,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHApron3"
       },
       {
-        "id": 3228,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHApron0"
       },
       {
-        "id": 9595,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHApron1"
       },
       {
-        "id": 9598,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHApron4"
       },
       {
-        "id": 9596,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHApron2"
       },
       {
-        "id": 9599,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHApron5"
       },
       {
-        "id": 9601,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHApron7"
       }
     ]
@@ -475,39 +419,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7679,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArancardigan2"
       },
       {
-        "id": 7680,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArancardigan3"
       },
       {
-        "id": 7678,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArancardigan1"
       },
       {
-        "id": 3643,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArancardigan0"
       }
     ]
@@ -536,66 +472,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7672,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLAran1"
       },
       {
-        "id": 7673,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLAran2"
       },
       {
-        "id": 7675,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLAran4"
       },
       {
-        "id": 3633,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLAran0"
       },
       {
-        "id": 7676,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLAran5"
       },
       {
-        "id": 7674,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLAran3"
       },
       {
-        "id": 7677,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLAran6"
       }
     ]
@@ -624,75 +546,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7748,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArgyle7"
       },
       {
-        "id": 7742,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArgyle1"
       },
       {
-        "id": 7744,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArgyle3"
       },
       {
-        "id": 7745,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArgyle4"
       },
       {
-        "id": 7747,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArgyle6"
       },
       {
-        "id": 7743,
         "name": {
           "en": "Mustard",
-          "jp": "マスタード"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArgyle2"
       },
       {
-        "id": 3579,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArgyle0"
       },
       {
-        "id": 7746,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLArgyle5"
       }
     ]
@@ -721,57 +627,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8483,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLArgyle4"
       },
       {
-        "id": 8482,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLArgyle3"
       },
       {
-        "id": 8480,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLArgyle1"
       },
       {
-        "id": 8484,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLArgyle5"
       },
       {
-        "id": 3262,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLArgyle0"
       },
       {
-        "id": 8481,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLArgyle2"
       }
     ]
@@ -800,57 +694,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7199,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLJersey2"
       },
       {
-        "id": 7201,
         "name": {
           "en": "Berry red",
-          "jp": "ワインレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLJersey4"
       },
       {
-        "id": 3244,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLJersey0"
       },
       {
-        "id": 7198,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLJersey1"
       },
       {
-        "id": 7200,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLJersey3"
       },
       {
-        "id": 7202,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLJersey5"
       }
     ]
@@ -879,30 +761,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4710,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLoose0"
       },
       {
-        "id": 8554,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLoose1"
       },
       {
-        "id": 8555,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLoose2"
       }
     ]
@@ -931,57 +807,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9396,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBaseball4"
       },
       {
-        "id": 9394,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBaseball2"
       },
       {
-        "id": 9395,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBaseball3"
       },
       {
-        "id": 9393,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBaseball1"
       },
       {
-        "id": 9397,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBaseball5"
       },
       {
-        "id": 4419,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBaseball0"
       }
     ]
@@ -1010,75 +874,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8044,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBasketballshirts7"
       },
       {
-        "id": 8038,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBasketballshirts1"
       },
       {
-        "id": 8040,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBasketballshirts3"
       },
       {
-        "id": 8042,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBasketballshirts5"
       },
       {
-        "id": 8039,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBasketballshirts2"
       },
       {
-        "id": 8043,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBasketballshirts6"
       },
       {
-        "id": 8041,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBasketballshirts4"
       },
       {
-        "id": 2727,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBasketballshirts0"
       }
     ]
@@ -1107,12 +955,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8196,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBear0"
       }
     ]
@@ -1141,12 +987,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 6822,
         "name": {
           "en": false,
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHStar0"
       }
     ]
@@ -1175,57 +1019,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3198,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRiders0"
       },
       {
-        "id": 8561,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRiders3"
       },
       {
-        "id": 8563,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRiders5"
       },
       {
-        "id": 8562,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRiders4"
       },
       {
-        "id": 8559,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRiders1"
       },
       {
-        "id": 8560,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRiders2"
       }
     ]
@@ -1254,48 +1086,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8205,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFlower0"
       },
       {
-        "id": 12100,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFlower2"
       },
       {
-        "id": 12101,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFlower3"
       },
       {
-        "id": 12099,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFlower1"
       },
       {
-        "id": 12102,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFlower4"
       }
     ]
@@ -1324,39 +1146,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8007,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBlouson3"
       },
       {
-        "id": 8006,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBlouson2"
       },
       {
-        "id": 4598,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBlouson0"
       },
       {
-        "id": 8005,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBlouson1"
       }
     ]
@@ -1385,75 +1199,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3705,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFleece0"
       },
       {
-        "id": 8319,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFleece5"
       },
       {
-        "id": 8320,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFleece6"
       },
       {
-        "id": 8321,
         "name": {
           "en": "Lime",
-          "jp": "ライム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFleece7"
       },
       {
-        "id": 8315,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFleece1"
       },
       {
-        "id": 8318,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFleece4"
       },
       {
-        "id": 8316,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFleece2"
       },
       {
-        "id": 8317,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFleece3"
       }
     ]
@@ -1482,21 +1280,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12098,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolynesia1"
       },
       {
-        "id": 8206,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolynesia0"
       }
     ]
@@ -1525,39 +1319,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8566,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMaone1"
       },
       {
-        "id": 4401,
         "name": {
           "en": "Avocado",
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMaone0"
       },
       {
-        "id": 8567,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMaone2"
       },
       {
-        "id": 8568,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMaone3"
       }
     ]
@@ -1586,12 +1372,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8200,
         "name": {
           "en": false,
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHMeat0"
       }
     ]
@@ -1620,12 +1404,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12115,
         "name": {
           "en": false,
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHellofr0"
       }
     ]
@@ -1654,21 +1436,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11956,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBotanical1"
       },
       {
-        "id": 9831,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBotanical0"
       }
     ]
@@ -1697,75 +1475,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3698,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBowling0"
       },
       {
-        "id": 9439,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBowling3"
       },
       {
-        "id": 9438,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBowling2"
       },
       {
-        "id": 9441,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBowling5"
       },
       {
-        "id": 9442,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBowling6"
       },
       {
-        "id": 9437,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBowling1"
       },
       {
-        "id": 9443,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBowling7"
       },
       {
-        "id": 9440,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBowling4"
       }
     ]
@@ -1794,12 +1556,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8764,
         "name": {
           "en": false,
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHInsect0"
       }
     ]
@@ -1828,30 +1588,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7998,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBulldog1"
       },
       {
-        "id": 5980,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBulldog0"
       },
       {
-        "id": 7999,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBulldog2"
       }
     ]
@@ -1880,48 +1634,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8279,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSuits1"
       },
       {
-        "id": 4363,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSuits0"
       },
       {
-        "id": 8281,
         "name": {
           "en": "Berry red",
-          "jp": "ワインレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSuits3"
       },
       {
-        "id": 8280,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSuits2"
       },
       {
-        "id": 8282,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSuits4"
       }
     ]
@@ -1950,39 +1694,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3178,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCafe0"
       },
       {
-        "id": 8264,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCafe2"
       },
       {
-        "id": 8263,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCafe1"
       },
       {
-        "id": 8265,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCafe3"
       }
     ]
@@ -2011,30 +1747,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4402,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLCamo0"
       },
       {
-        "id": 8569,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLCamo1"
       },
       {
-        "id": 8570,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLCamo2"
       }
     ]
@@ -2063,66 +1793,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3257,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCamouflage0"
       },
       {
-        "id": 8422,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCamouflage3"
       },
       {
-        "id": 12353,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCamouflage6"
       },
       {
-        "id": 8421,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCamouflage2"
       },
       {
-        "id": 8420,
         "name": {
           "en": "Avocado",
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCamouflage1"
       },
       {
-        "id": 8423,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCamouflage4"
       },
       {
-        "id": 12352,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCamouflage5"
       }
     ]
@@ -2151,12 +1867,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12426,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHOkmotors0"
       }
     ]
@@ -2185,57 +1899,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8018,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCardiganyshirt4"
       },
       {
-        "id": 8019,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCardiganyshirt5"
       },
       {
-        "id": 8016,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCardiganyshirt2"
       },
       {
-        "id": 3578,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCardiganyshirt0"
       },
       {
-        "id": 8015,
         "name": {
           "en": "Mint",
-          "jp": "ミント"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCardiganyshirt1"
       },
       {
-        "id": 8017,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCardiganyshirt3"
       }
     ]
@@ -2264,75 +1966,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4503,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCareer0"
       },
       {
-        "id": 7389,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCareer7"
       },
       {
-        "id": 7384,
         "name": {
           "en": "Peach",
-          "jp": "ピーチ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCareer2"
       },
       {
-        "id": 7386,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCareer4"
       },
       {
-        "id": 7387,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCareer5"
       },
       {
-        "id": 7385,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCareer3"
       },
       {
-        "id": 7388,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCareer6"
       },
       {
-        "id": 7383,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCareer1"
       }
     ]
@@ -2361,30 +2047,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8229,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLGunknight1"
       },
       {
-        "id": 8230,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLGunknight2"
       },
       {
-        "id": 3233,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLGunknight0"
       }
     ]
@@ -2413,39 +2093,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8440,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLChestercheck3"
       },
       {
-        "id": 8438,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLChestercheck1"
       },
       {
-        "id": 8439,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLChestercheck2"
       },
       {
-        "id": 3941,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLChestercheck0"
       }
     ]
@@ -2474,39 +2146,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4553,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMuffler0"
       },
       {
-        "id": 8002,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMuffler1"
       },
       {
-        "id": 8003,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMuffler2"
       },
       {
-        "id": 8004,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMuffler3"
       }
     ]
@@ -2535,66 +2199,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9593,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHCook6"
       },
       {
-        "id": 3177,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHCook0"
       },
       {
-        "id": 9591,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHCook4"
       },
       {
-        "id": 9590,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHCook3"
       },
       {
-        "id": 9589,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHCook2"
       },
       {
-        "id": 9588,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHCook1"
       },
       {
-        "id": 9592,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHCook5"
       }
     ]
@@ -2623,39 +2273,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8437,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLChester3"
       },
       {
-        "id": 8436,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLChester2"
       },
       {
-        "id": 8435,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLChester1"
       },
       {
-        "id": 3939,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLChester0"
       }
     ]
@@ -2684,12 +2326,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3259,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHChickBlue"
       }
     ]
@@ -2718,39 +2358,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9449,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChimayo2"
       },
       {
-        "id": 9448,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChimayo1"
       },
       {
-        "id": 9450,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChimayo3"
       },
       {
-        "id": 4507,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChimayo0"
       }
     ]
@@ -2779,12 +2411,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12120,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHelloit0"
       }
     ]
@@ -2813,12 +2443,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 13178,
         "name": {
           "en": false,
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCinnamoroll0"
       }
     ]
@@ -2847,12 +2475,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 13298,
         "name": {
           "en": false,
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHCinnamoroll0"
       }
     ]
@@ -2881,48 +2507,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8460,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoadigan3"
       },
       {
-        "id": 8458,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoadigan1"
       },
       {
-        "id": 8461,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoadigan4"
       },
       {
-        "id": 8459,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoadigan2"
       },
       {
-        "id": 4601,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoadigan0"
       }
     ]
@@ -2951,30 +2567,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3663,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNocollar0"
       },
       {
-        "id": 8434,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNocollar2"
       },
       {
-        "id": 8433,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNocollar1"
       }
     ]
@@ -3003,21 +2613,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8510,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLNocollar1"
       },
       {
-        "id": 3690,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLNocollar0"
       }
     ]
@@ -3046,48 +2652,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7755,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLCollegecardigan4"
       },
       {
-        "id": 7753,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLCollegecardigan2"
       },
       {
-        "id": 7752,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLCollegecardigan1"
       },
       {
-        "id": 7754,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLCollegecardigan3"
       },
       {
-        "id": 4306,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLCollegecardigan0"
       }
     ]
@@ -3116,57 +2712,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8493,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTwotone5"
       },
       {
-        "id": 8489,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTwotone1"
       },
       {
-        "id": 8491,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTwotone3"
       },
       {
-        "id": 8492,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTwotone4"
       },
       {
-        "id": 8490,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTwotone2"
       },
       {
-        "id": 3316,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTwotone0"
       }
     ]
@@ -3195,57 +2779,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7640,
         "name": {
           "en": "White, yellow & red",
-          "jp": "ホワイト×イエロー×レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLMulti2"
       },
       {
-        "id": 7639,
         "name": {
           "en": "White, blue & green",
-          "jp": "ホワイト×ブルー×グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLMulti1"
       },
       {
-        "id": 7643,
         "name": {
           "en": "Gray, white & light blue",
-          "jp": "グレー×ホワイト×ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLMulti5"
       },
       {
-        "id": 7641,
         "name": {
           "en": "Black, coral & pink",
-          "jp": "ブラック×コーラル×ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLMulti3"
       },
       {
-        "id": 4613,
         "name": {
           "en": "Navy, light blue & pink",
-          "jp": "ネイビー×ライトブルー×ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLMulti0"
       },
       {
-        "id": 7642,
         "name": {
           "en": "Orange, yellow & black",
-          "jp": "オレンジ×イエロー×ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLMulti4"
       }
     ]
@@ -3274,75 +2846,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8103,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLComedian7"
       },
       {
-        "id": 8098,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLComedian2"
       },
       {
-        "id": 3197,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLComedian0"
       },
       {
-        "id": 8099,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLComedian3"
       },
       {
-        "id": 8100,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLComedian4"
       },
       {
-        "id": 8102,
         "name": {
           "en": "Aquamarine",
-          "jp": "エメラルド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLComedian6"
       },
       {
-        "id": 8097,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLComedian1"
       },
       {
-        "id": 8101,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLComedian5"
       }
     ]
@@ -3371,12 +2927,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12982,
         "name": {
           "en": false,
-          "jp": "コーラル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHNookpink0"
       }
     ]
@@ -3405,39 +2959,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9290,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoverall3"
       },
       {
-        "id": 3680,
         "name": {
           "en": "Avocado",
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoverall0"
       },
       {
-        "id": 9288,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoverall1"
       },
       {
-        "id": 9289,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLCoverall2"
       }
     ]
@@ -3466,48 +3012,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9451,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCowboy1"
       },
       {
-        "id": 9454,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCowboy4"
       },
       {
-        "id": 9453,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCowboy3"
       },
       {
-        "id": 9452,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCowboy2"
       },
       {
-        "id": 4576,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCowboy0"
       }
     ]
@@ -3536,75 +3072,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3258,
         "name": {
           "en": "Blue & white",
-          "jp": "ブルー×ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCycle0"
       },
       {
-        "id": 9388,
         "name": {
           "en": "Yellow & black",
-          "jp": "イエロー×ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCycle3"
       },
       {
-        "id": 9387,
         "name": {
           "en": "Black & red",
-          "jp": "ブラック×レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCycle2"
       },
       {
-        "id": 9392,
         "name": {
           "en": "Purple & pink",
-          "jp": "パープル×ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCycle7"
       },
       {
-        "id": 9390,
         "name": {
           "en": "Red & orange",
-          "jp": "レッド×オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCycle5"
       },
       {
-        "id": 9389,
         "name": {
           "en": "Red & green",
-          "jp": "レッド×グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCycle4"
       },
       {
-        "id": 9391,
         "name": {
           "en": "Lime & light blue",
-          "jp": "ライム×ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCycle6"
       },
       {
-        "id": 9386,
         "name": {
           "en": "Black & blue",
-          "jp": "ブラック×ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHCycle1"
       }
     ]
@@ -3633,12 +3153,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12126,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHDal0"
       }
     ]
@@ -3667,12 +3185,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12127,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDal0"
       }
     ]
@@ -3701,12 +3217,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12125,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHDal0"
       }
     ]
@@ -3735,39 +3249,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7617,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCool1"
       },
       {
-        "id": 5317,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCool0"
       },
       {
-        "id": 7619,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCool3"
       },
       {
-        "id": 7618,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCool2"
       }
     ]
@@ -3796,12 +3302,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8192,
         "name": {
           "en": false,
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNDanger0"
       }
     ]
@@ -3830,48 +3334,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3209,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDenim0"
       },
       {
-        "id": 11422,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDenim4"
       },
       {
-        "id": 11421,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDenim3"
       },
       {
-        "id": 11419,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDenim1"
       },
       {
-        "id": 11420,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDenim2"
       }
     ]
@@ -3900,48 +3394,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11424,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNDenim2"
       },
       {
-        "id": 11426,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNDenim4"
       },
       {
-        "id": 11425,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNDenim3"
       },
       {
-        "id": 3227,
         "name": {
           "en": "Washed out",
-          "jp": "ウォッシュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNDenim0"
       },
       {
-        "id": 11423,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNDenim1"
       }
     ]
@@ -3970,30 +3454,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9231,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDetective1"
       },
       {
-        "id": 4681,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDetective0"
       },
       {
-        "id": 9232,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDetective2"
       }
     ]
@@ -4022,66 +3500,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12091,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDiner6"
       },
       {
-        "id": 12086,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDiner1"
       },
       {
-        "id": 9815,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDiner0"
       },
       {
-        "id": 12088,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDiner3"
       },
       {
-        "id": 12089,
         "name": {
           "en": "Aquamarine",
-          "jp": "エメラルド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDiner4"
       },
       {
-        "id": 12087,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDiner2"
       },
       {
-        "id": 12090,
         "name": {
           "en": "Cream",
-          "jp": "クリーム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDiner5"
       }
     ]
@@ -4110,21 +3574,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7794,
         "name": {
           "en": "Black necktie",
-          "jp": "くろネクタイ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLWhitecoat1"
       },
       {
-        "id": 3174,
         "name": {
           "en": "Red necktie",
-          "jp": "あかネクタイ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLWhitecoat0"
       }
     ]
@@ -4153,39 +3613,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9828,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHDolly0"
       },
       {
-        "id": 11953,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHDolly2"
       },
       {
-        "id": 11952,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHDolly1"
       },
       {
-        "id": 11954,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHDolly3"
       }
     ]
@@ -4214,57 +3666,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11926,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRaindot5"
       },
       {
-        "id": 11922,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRaindot1"
       },
       {
-        "id": 11923,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRaindot2"
       },
       {
-        "id": 9775,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRaindot0"
       },
       {
-        "id": 11925,
         "name": {
           "en": "Turquoise",
-          "jp": "ターコイズ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRaindot4"
       },
       {
-        "id": 11924,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRaindot3"
       }
     ]
@@ -4293,39 +3733,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 6029,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDoublet0"
       },
       {
-        "id": 8287,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDoublet3"
       },
       {
-        "id": 8286,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDoublet2"
       },
       {
-        "id": 8285,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLDoublet1"
       }
     ]
@@ -4354,75 +3786,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8310,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownjacket3"
       },
       {
-        "id": 8308,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownjacket1"
       },
       {
-        "id": 8309,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownjacket2"
       },
       {
-        "id": 8313,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownjacket6"
       },
       {
-        "id": 8312,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownjacket5"
       },
       {
-        "id": 8314,
         "name": {
           "en": "Lime",
-          "jp": "ライム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownjacket7"
       },
       {
-        "id": 8311,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownjacket4"
       },
       {
-        "id": 2778,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownjacket0"
       }
     ]
@@ -4451,39 +3867,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4735,
         "name": {
           "en": "Red & yellow",
-          "jp": "レッド×イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSkidown0"
       },
       {
-        "id": 8336,
         "name": {
           "en": "Navy & red",
-          "jp": "ネイビー×レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSkidown3"
       },
       {
-        "id": 8334,
         "name": {
           "en": "Blue & green",
-          "jp": "ブルー×グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSkidown1"
       },
       {
-        "id": 8335,
         "name": {
           "en": "Navy & blue",
-          "jp": "ネイビー×ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSkidown2"
       }
     ]
@@ -4512,12 +3920,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3256,
         "name": {
           "en": false,
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSukajandragonBlack"
       }
     ]
@@ -4546,21 +3952,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3635,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLYumekawa0"
       },
       {
-        "id": 8001,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLYumekawa1"
       }
     ]
@@ -4589,48 +3991,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 2823,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLStandard0"
       },
       {
-        "id": 8337,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLStandard1"
       },
       {
-        "id": 8339,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLStandard3"
       },
       {
-        "id": 8338,
         "name": {
           "en": "Mint",
-          "jp": "ミント"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLStandard2"
       },
       {
-        "id": 8340,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLStandard4"
       }
     ]
@@ -4659,39 +4051,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8409,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLEarphone3"
       },
       {
-        "id": 8407,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLEarphone1"
       },
       {
-        "id": 8408,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLEarphone2"
       },
       {
-        "id": 4610,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLEarphone0"
       }
     ]
@@ -4720,12 +4104,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3325,
         "name": {
           "en": false,
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball8"
       }
     ]
@@ -4754,39 +4136,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8111,
         "name": {
           "en": "Berry red",
-          "jp": "ワインレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBlazer3"
       },
       {
-        "id": 3269,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBlazer0"
       },
       {
-        "id": 8109,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBlazer1"
       },
       {
-        "id": 8110,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBlazer2"
       }
     ]
@@ -4815,66 +4189,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5441,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEmbroidery0"
       },
       {
-        "id": 8092,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEmbroidery3"
       },
       {
-        "id": 8094,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEmbroidery5"
       },
       {
-        "id": 8093,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEmbroidery4"
       },
       {
-        "id": 8091,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEmbroidery2"
       },
       {
-        "id": 8095,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEmbroidery6"
       },
       {
-        "id": 8090,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEmbroidery1"
       }
     ]
@@ -4903,39 +4263,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7638,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLKids3"
       },
       {
-        "id": 5262,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLKids0"
       },
       {
-        "id": 7636,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLKids1"
       },
       {
-        "id": 7637,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLKids2"
       }
     ]
@@ -4964,39 +4316,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9432,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHExplorer2"
       },
       {
-        "id": 9431,
         "name": {
           "en": "Avocado",
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHExplorer1"
       },
       {
-        "id": 9433,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHExplorer3"
       },
       {
-        "id": 3264,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHExplorer0"
       }
     ]
@@ -5025,21 +4369,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7648,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMohair1"
       },
       {
-        "id": 4417,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMohair0"
       }
     ]
@@ -5068,48 +4408,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9225,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMouton4"
       },
       {
-        "id": 9224,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMouton3"
       },
       {
-        "id": 9222,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMouton1"
       },
       {
-        "id": 9223,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMouton2"
       },
       {
-        "id": 3222,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMouton0"
       }
     ]
@@ -5138,12 +4468,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5658,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFischerhemdBlue"
       }
     ]
@@ -5172,12 +4500,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8765,
         "name": {
           "en": false,
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFish0"
       }
     ]
@@ -5206,75 +4532,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8620,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFishing4"
       },
       {
-        "id": 3219,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFishing0"
       },
       {
-        "id": 8621,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFishing5"
       },
       {
-        "id": 8618,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFishing2"
       },
       {
-        "id": 8623,
         "name": {
           "en": "Avocado",
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFishing7"
       },
       {
-        "id": 8622,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFishing6"
       },
       {
-        "id": 8617,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFishing1"
       },
       {
-        "id": 8619,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFishing3"
       }
     ]
@@ -5303,75 +4613,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8048,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNFitness4"
       },
       {
-        "id": 8050,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNFitness6"
       },
       {
-        "id": 8045,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNFitness1"
       },
       {
-        "id": 8047,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNFitness3"
       },
       {
-        "id": 8049,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNFitness5"
       },
       {
-        "id": 4205,
         "name": {
           "en": "Mint",
-          "jp": "ミント"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNFitness0"
       },
       {
-        "id": 8046,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNFitness2"
       },
       {
-        "id": 8051,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNFitness7"
       }
     ]
@@ -5400,12 +4694,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3322,
         "name": {
           "en": false,
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball5"
       }
     ]
@@ -5434,12 +4726,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9536,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFire0"
       }
     ]
@@ -5468,48 +4758,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3225,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFlannel0"
       },
       {
-        "id": 8945,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFlannel1"
       },
       {
-        "id": 8946,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFlannel2"
       },
       {
-        "id": 8948,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFlannel4"
       },
       {
-        "id": 8947,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFlannel3"
       }
     ]
@@ -5538,21 +4818,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5685,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLPsychedelic0"
       },
       {
-        "id": 7857,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLPsychedelic1"
       }
     ]
@@ -5581,57 +4857,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3265,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLJacketgaudy0"
       },
       {
-        "id": 8104,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLJacketgaudy1"
       },
       {
-        "id": 8106,
         "name": {
           "en": "Berry red",
-          "jp": "ワインレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLJacketgaudy3"
       },
       {
-        "id": 8108,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLJacketgaudy5"
       },
       {
-        "id": 8107,
         "name": {
           "en": "Aquamarine",
-          "jp": "エメラルド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLJacketgaudy4"
       },
       {
-        "id": 8105,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLJacketgaudy2"
       }
     ]
@@ -5660,30 +4924,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8564,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFlight1"
       },
       {
-        "id": 8565,
         "name": {
           "en": "Avocado",
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFlight2"
       },
       {
-        "id": 4207,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFlight0"
       }
     ]
@@ -5712,39 +4970,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7843,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFlowerknit2"
       },
       {
-        "id": 3597,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFlowerknit0"
       },
       {
-        "id": 7844,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFlowerknit3"
       },
       {
-        "id": 7842,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFlowerknit1"
       }
     ]
@@ -5773,30 +5023,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4446,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNative0"
       },
       {
-        "id": 7849,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNative2"
       },
       {
-        "id": 7848,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNative1"
       }
     ]
@@ -5825,75 +5069,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9398,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAmericanfootball1"
       },
       {
-        "id": 9404,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAmericanfootball7"
       },
       {
-        "id": 9400,
         "name": {
           "en": "Berry red",
-          "jp": "ワインレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAmericanfootball3"
       },
       {
-        "id": 9403,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAmericanfootball6"
       },
       {
-        "id": 9399,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAmericanfootball2"
       },
       {
-        "id": 4447,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAmericanfootball0"
       },
       {
-        "id": 9402,
         "name": {
           "en": "Turquoise",
-          "jp": "ターコイズ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAmericanfootball5"
       },
       {
-        "id": 9401,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHAmericanfootball4"
       }
     ]
@@ -5922,12 +5150,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3321,
         "name": {
           "en": false,
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball4"
       }
     ]
@@ -5956,12 +5182,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8195,
         "name": {
           "en": false,
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFrog0"
       }
     ]
@@ -5990,39 +5214,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8508,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHKnot3"
       },
       {
-        "id": 8506,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHKnot1"
       },
       {
-        "id": 8507,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHKnot2"
       },
       {
-        "id": 4567,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHKnot0"
       }
     ]
@@ -6051,39 +5267,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8356,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKnot1"
       },
       {
-        "id": 4320,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKnot0"
       },
       {
-        "id": 8357,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKnot2"
       },
       {
-        "id": 8358,
         "name": {
           "en": "Lime",
-          "jp": "ライム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKnot3"
       }
     ]
@@ -6112,48 +5320,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8517,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBoavest4"
       },
       {
-        "id": 8516,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBoavest3"
       },
       {
-        "id": 4212,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBoavest0"
       },
       {
-        "id": 8515,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBoavest2"
       },
       {
-        "id": 8514,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBoavest1"
       }
     ]
@@ -6182,39 +5380,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3203,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisoleprint0"
       },
       {
-        "id": 8076,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisoleprint2"
       },
       {
-        "id": 8077,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisoleprint3"
       },
       {
-        "id": 8075,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisoleprint1"
       }
     ]
@@ -6243,39 +5433,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8402,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGillet3"
       },
       {
-        "id": 3676,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGillet0"
       },
       {
-        "id": 8401,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGillet2"
       },
       {
-        "id": 8400,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGillet1"
       }
     ]
@@ -6304,75 +5486,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8973,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGingham3"
       },
       {
-        "id": 6811,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGingham0"
       },
       {
-        "id": 8975,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGingham5"
       },
       {
-        "id": 8974,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGingham4"
       },
       {
-        "id": 8971,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGingham1"
       },
       {
-        "id": 8977,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGingham7"
       },
       {
-        "id": 8972,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGingham2"
       },
       {
-        "id": 8976,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGingham6"
       }
     ]
@@ -6401,21 +5567,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8429,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGoldprint1"
       },
       {
-        "id": 4327,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGoldprint0"
       }
     ]
@@ -6444,39 +5606,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9226,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLGowncoat1"
       },
       {
-        "id": 9228,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLGowncoat3"
       },
       {
-        "id": 9227,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLGowncoat2"
       },
       {
-        "id": 4286,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLGowncoat0"
       }
     ]
@@ -6505,39 +5659,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3140,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAcademicdress0"
       },
       {
-        "id": 8683,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAcademicdress3"
       },
       {
-        "id": 8681,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAcademicdress1"
       },
       {
-        "id": 8682,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLAcademicdress2"
       }
     ]
@@ -6566,12 +5712,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12983,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHNookgreen0"
       }
     ]
@@ -6600,30 +5744,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11958,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLPsychedelic2"
       },
       {
-        "id": 9832,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLPsychedelic0"
       },
       {
-        "id": 11957,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLPsychedelic1"
       }
     ]
@@ -6652,30 +5790,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4488,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHippie0"
       },
       {
-        "id": 9229,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHippie1"
       },
       {
-        "id": 9230,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHippie2"
       }
     ]
@@ -6704,39 +5836,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9434,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHCuba1"
       },
       {
-        "id": 3687,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHCuba0"
       },
       {
-        "id": 9436,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHCuba3"
       },
       {
-        "id": 9435,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHCuba2"
       }
     ]
@@ -6765,30 +5889,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8530,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGuide1"
       },
       {
-        "id": 8531,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGuide2"
       },
       {
-        "id": 5926,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGuide0"
       }
     ]
@@ -6817,39 +5935,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 10917,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGym3"
       },
       {
-        "id": 3179,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGym0"
       },
       {
-        "id": 10916,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGym2"
       },
       {
-        "id": 10915,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHGym1"
       }
     ]
@@ -6878,12 +5988,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12119,
         "name": {
           "en": false,
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHelloge0"
       }
     ]
@@ -6912,57 +6020,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11789,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNKnit1"
       },
       {
-        "id": 11790,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNKnit2"
       },
       {
-        "id": 11793,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNKnit5"
       },
       {
-        "id": 2746,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNKnit0"
       },
       {
-        "id": 11792,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNKnit4"
       },
       {
-        "id": 11791,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNKnit3"
       }
     ]
@@ -6991,12 +6087,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12575,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHChildren0"
       }
     ]
@@ -7025,39 +6119,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9197,
         "name": {
           "en": "Green",
-          "jp": "みどり"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHanten1"
       },
       {
-        "id": 3164,
         "name": {
           "en": "Dark blue",
-          "jp": "こん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHanten0"
       },
       {
-        "id": 9199,
         "name": {
           "en": "Purple",
-          "jp": "むらさき"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHanten3"
       },
       {
-        "id": 9198,
         "name": {
           "en": "Brown",
-          "jp": "ちゃいろ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHanten2"
       }
     ]
@@ -7086,48 +6172,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9201,
         "name": {
           "en": "Black",
-          "jp": "くろ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHHappi2"
       },
       {
-        "id": 9200,
         "name": {
           "en": "Red",
-          "jp": "あか"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHHappi1"
       },
       {
-        "id": 9202,
         "name": {
           "en": "Green",
-          "jp": "みどり"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHHappi3"
       },
       {
-        "id": 3254,
         "name": {
           "en": "Blue",
-          "jp": "あお"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHHappi0"
       },
       {
-        "id": 9203,
         "name": {
           "en": "Purple",
-          "jp": "むらさき"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHHappi4"
       }
     ]
@@ -7156,12 +6232,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4343,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSukajanhawkRed"
       }
     ]
@@ -7190,48 +6264,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9603,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHeartapron2"
       },
       {
-        "id": 4429,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHeartapron0"
       },
       {
-        "id": 9605,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHeartapron4"
       },
       {
-        "id": 9602,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHeartapron1"
       },
       {
-        "id": 9604,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHeartapron3"
       }
     ]
@@ -7260,21 +6324,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8299,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLHeart1"
       },
       {
-        "id": 8193,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLHeart0"
       }
     ]
@@ -7303,39 +6363,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8513,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLWork3"
       },
       {
-        "id": 3694,
         "name": {
           "en": "Ochre",
-          "jp": "オーカー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLWork0"
       },
       {
-        "id": 8511,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLWork1"
       },
       {
-        "id": 8512,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLWork2"
       }
     ]
@@ -7364,12 +6416,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 13166,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKitty0"
       }
     ]
@@ -7398,12 +6448,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12116,
         "name": {
           "en": false,
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHelloen0"
       }
     ]
@@ -7432,39 +6480,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8544,
         "name": {
           "en": "Mustard",
-          "jp": "マスタード"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLHenley1"
       },
       {
-        "id": 3674,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLHenley0"
       },
       {
-        "id": 8545,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLHenley2"
       },
       {
-        "id": 8546,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLHenley3"
       }
     ]
@@ -7493,12 +6533,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12123,
         "name": {
           "en": false,
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHellotw0"
       }
     ]
@@ -7527,30 +6565,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4558,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHWaistshirt0"
       },
       {
-        "id": 8405,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHWaistshirt1"
       },
       {
-        "id": 8406,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHWaistshirt2"
       }
     ]
@@ -7579,12 +6611,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12124,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHelloNr0"
       }
     ]
@@ -7613,12 +6643,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12121,
         "name": {
           "en": false,
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHellosp0"
       }
     ]
@@ -7647,30 +6675,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7846,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLChristmas1"
       },
       {
-        "id": 5382,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLChristmas0"
       },
       {
-        "id": 7847,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLChristmas2"
       }
     ]
@@ -7699,48 +6721,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4486,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNHula0"
       },
       {
-        "id": 9444,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNHula1"
       },
       {
-        "id": 9447,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNHula4"
       },
       {
-        "id": 9446,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNHula3"
       },
       {
-        "id": 9445,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNHula2"
       }
     ]
@@ -7769,39 +6781,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9037,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLQuiet2"
       },
       {
-        "id": 9038,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLQuiet3"
       },
       {
-        "id": 4792,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLQuiet0"
       },
       {
-        "id": 9036,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLQuiet1"
       }
     ]
@@ -7830,39 +6834,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3575,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKanji0"
       },
       {
-        "id": 8426,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKanji3"
       },
       {
-        "id": 8424,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKanji1"
       },
       {
-        "id": 8425,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKanji2"
       }
     ]
@@ -7891,12 +6887,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 13181,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNKeroppi0"
       }
     ]
@@ -7925,39 +6919,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3057,
         "name": {
           "en": "Tulip",
-          "jp": "チューリップ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLSmock0"
       },
       {
-        "id": 10898,
         "name": {
           "en": "Cherry blossom",
-          "jp": "サクラ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLSmock2"
       },
       {
-        "id": 10897,
         "name": {
           "en": "Chick",
-          "jp": "ヒヨコ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLSmock1"
       },
       {
-        "id": 10899,
         "name": {
           "en": "Frog",
-          "jp": "カエル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLSmock3"
       }
     ]
@@ -7986,12 +6972,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 13171,
         "name": {
           "en": false,
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKikilala0"
       }
     ]
@@ -8020,12 +7004,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12114,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHellojp0"
       }
     ]
@@ -8054,48 +7036,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9131,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKungfu1"
       },
       {
-        "id": 9133,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKungfu3"
       },
       {
-        "id": 9134,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKungfu4"
       },
       {
-        "id": 9132,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKungfu2"
       },
       {
-        "id": 2781,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKungfu0"
       }
     ]
@@ -8124,39 +7096,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7581,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKuruta1"
       },
       {
-        "id": 4519,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKuruta0"
       },
       {
-        "id": 7582,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKuruta2"
       },
       {
-        "id": 7583,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKuruta3"
       }
     ]
@@ -8185,57 +7149,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11721,
         "name": {
           "en": "Midnight",
-          "jp": "ミッドナイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKate1"
       },
       {
-        "id": 11722,
         "name": {
           "en": "Passion",
-          "jp": "パッション"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKate2"
       },
       {
-        "id": 11725,
         "name": {
           "en": "Love",
-          "jp": "ラブ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKate5"
       },
       {
-        "id": 11724,
         "name": {
           "en": "Sunset",
-          "jp": "サンセット"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKate4"
       },
       {
-        "id": 11723,
         "name": {
           "en": "Ocean",
-          "jp": "オーシャン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKate3"
       },
       {
-        "id": 9876,
         "name": {
           "en": "Twilight",
-          "jp": "トワイライト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKate0"
       }
     ]
@@ -8264,57 +7216,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11716,
         "name": {
           "en": "Midnight",
-          "jp": "ミッドナイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKate1"
       },
       {
-        "id": 11717,
         "name": {
           "en": "Passion",
-          "jp": "パッション"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKate2"
       },
       {
-        "id": 11720,
         "name": {
           "en": "Love",
-          "jp": "ラブ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKate5"
       },
       {
-        "id": 11719,
         "name": {
           "en": "Sunset",
-          "jp": "サンセット"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKate4"
       },
       {
-        "id": 11718,
         "name": {
           "en": "Ocean",
-          "jp": "オーシャン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKate3"
       },
       {
-        "id": 9875,
         "name": {
           "en": "Twilight",
-          "jp": "トワイライト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHKate0"
       }
     ]
@@ -8343,21 +7283,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3811,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHLace0"
       },
       {
-        "id": 8581,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHLace1"
       }
     ]
@@ -8386,48 +7322,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3239,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisolelace0"
       },
       {
-        "id": 8078,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisolelace1"
       },
       {
-        "id": 8079,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisolelace2"
       },
       {
-        "id": 8080,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisolelace3"
       },
       {
-        "id": 8081,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisolelace4"
       }
     ]
@@ -8456,39 +7382,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8549,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLayeredtshirts1"
       },
       {
-        "id": 8551,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLayeredtshirts3"
       },
       {
-        "id": 8550,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLayeredtshirts2"
       },
       {
-        "id": 3804,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLayeredtshirts0"
       }
     ]
@@ -8517,75 +7435,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8073,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisole6"
       },
       {
-        "id": 8068,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisole1"
       },
       {
-        "id": 8069,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisole2"
       },
       {
-        "id": 2670,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisole0"
       },
       {
-        "id": 8071,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisole4"
       },
       {
-        "id": 8072,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisole5"
       },
       {
-        "id": 8070,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisole3"
       },
       {
-        "id": 8074,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNCamisole7"
       }
     ]
@@ -8614,39 +7516,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8304,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHLeopard3"
       },
       {
-        "id": 8302,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHLeopard1"
       },
       {
-        "id": 8199,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHLeopard0"
       },
       {
-        "id": 8303,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHLeopard2"
       }
     ]
@@ -8675,39 +7569,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8305,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLStajan1"
       },
       {
-        "id": 8306,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLStajan2"
       },
       {
-        "id": 2401,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLStajan0"
       },
       {
-        "id": 8307,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLStajan3"
       }
     ]
@@ -8736,57 +7622,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8967,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHMadras5"
       },
       {
-        "id": 8964,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHMadras2"
       },
       {
-        "id": 8966,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHMadras4"
       },
       {
-        "id": 4615,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHMadras0"
       },
       {
-        "id": 8963,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHMadras1"
       },
       {
-        "id": 8965,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHMadras3"
       }
     ]
@@ -8815,21 +7689,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8296,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHMarbledot1"
       },
       {
-        "id": 8202,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHMarbledot0"
       }
     ]
@@ -8858,39 +7728,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8432,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHMeme3"
       },
       {
-        "id": 8431,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHMeme2"
       },
       {
-        "id": 8430,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHMeme1"
       },
       {
-        "id": 4717,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHMeme0"
       }
     ]
@@ -8919,12 +7781,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12959,
         "name": {
           "en": false,
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLWintersolstice0"
       }
     ]
@@ -8953,39 +7813,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7451,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInfantry3"
       },
       {
-        "id": 3231,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInfantry0"
       },
       {
-        "id": 7450,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInfantry2"
       },
       {
-        "id": 7449,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInfantry1"
       }
     ]
@@ -9014,12 +7866,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8201,
         "name": {
           "en": false,
-          "jp": "みどり"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHaze0"
       }
     ]
@@ -9048,21 +7898,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4422,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMod0"
       },
       {
-        "id": 9303,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMod1"
       }
     ]
@@ -9091,75 +7937,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12145,
         "name": {
           "en": "Quilted pattern",
-          "jp": "キルトパターン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMother6"
       },
       {
-        "id": 12146,
         "name": {
           "en": "Chicks",
-          "jp": "ヒヨコ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMother7"
       },
       {
-        "id": 8762,
         "name": {
           "en": "M",
-          "jp": "M"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMother0"
       },
       {
-        "id": 12142,
         "name": {
           "en": "Animal",
-          "jp": "アニマル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMother3"
       },
       {
-        "id": 12141,
         "name": {
           "en": "Star",
-          "jp": "スター"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMother2"
       },
       {
-        "id": 12143,
         "name": {
           "en": "Teddy bear",
-          "jp": "テディベア"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMother4"
       },
       {
-        "id": 12144,
         "name": {
           "en": "Accent patch",
-          "jp": "ワンポイント"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMother5"
       },
       {
-        "id": 9614,
         "name": {
           "en": "Flowers",
-          "jp": "フラワー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLMother1"
       }
     ]
@@ -9188,75 +8018,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9615,
         "name": {
           "en": "Flowers",
-          "jp": "フラワー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMother1"
       },
       {
-        "id": 12157,
         "name": {
           "en": "Fruits",
-          "jp": "フルーツ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMother4"
       },
       {
-        "id": 8763,
         "name": {
           "en": "M",
-          "jp": "M"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMother0"
       },
       {
-        "id": 12147,
         "name": {
           "en": "Animals",
-          "jp": "アニマル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMother2"
       },
       {
-        "id": 12159,
         "name": {
           "en": "Forest print",
-          "jp": "フォレスト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMother6"
       },
       {
-        "id": 12160,
         "name": {
           "en": "Family",
-          "jp": "ファミリー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMother7"
       },
       {
-        "id": 12158,
         "name": {
           "en": "Denim",
-          "jp": "デニム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMother5"
       },
       {
-        "id": 12156,
         "name": {
           "en": "Quilted pattern",
-          "jp": "キルトパターン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMother3"
       }
     ]
@@ -9285,12 +8099,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3401,
         "name": {
           "en": false,
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLMorningcoatBlack"
       }
     ]
@@ -9319,39 +8131,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4157,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLMountain3"
       },
       {
-        "id": 3255,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLMountain0"
       },
       {
-        "id": 4156,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLMountain2"
       },
       {
-        "id": 4155,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLMountain1"
       }
     ]
@@ -9380,30 +8184,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8633,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLMultivest1"
       },
       {
-        "id": 8634,
         "name": {
           "en": "Avocado",
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLMultivest2"
       },
       {
-        "id": 4798,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLMultivest0"
       }
     ]
@@ -9432,75 +8230,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4267,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNMuscle0"
       },
       {
-        "id": 8055,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNMuscle4"
       },
       {
-        "id": 8056,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNMuscle5"
       },
       {
-        "id": 8054,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNMuscle3"
       },
       {
-        "id": 8052,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNMuscle1"
       },
       {
-        "id": 8057,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNMuscle6"
       },
       {
-        "id": 8058,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNMuscle7"
       },
       {
-        "id": 8053,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNMuscle2"
       }
     ]
@@ -9529,39 +8311,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5290,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLive0"
       },
       {
-        "id": 8410,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLive1"
       },
       {
-        "id": 8412,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLive3"
       },
       {
-        "id": 8411,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLive2"
       }
     ]
@@ -9590,12 +8364,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 6835,
         "name": {
           "en": false,
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHMvp0"
       }
     ]
@@ -9624,12 +8396,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 13759,
         "name": {
           "en": false,
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHMymelody0"
       }
     ]
@@ -9658,12 +8428,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12118,
         "name": {
           "en": false,
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHelloch0"
       }
     ]
@@ -9692,12 +8460,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3326,
         "name": {
           "en": false,
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball9"
       }
     ]
@@ -9726,12 +8492,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 6888,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHOne0"
       }
     ]
@@ -9760,12 +8524,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12036,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHTwo0"
       }
     ]
@@ -9794,12 +8556,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12037,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHThree0"
       }
     ]
@@ -9828,12 +8588,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12038,
         "name": {
           "en": false,
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHFour0"
       }
     ]
@@ -9862,75 +8620,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7420,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNoble2"
       },
       {
-        "id": 7422,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNoble4"
       },
       {
-        "id": 7425,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNoble7"
       },
       {
-        "id": 7419,
         "name": {
           "en": "Ruby red",
-          "jp": "ルージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNoble1"
       },
       {
-        "id": 7424,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNoble6"
       },
       {
-        "id": 3171,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNoble0"
       },
       {
-        "id": 7421,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNoble3"
       },
       {
-        "id": 7423,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLNoble5"
       }
     ]
@@ -9959,12 +8701,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5626,
         "name": {
           "en": false,
-          "jp": "アイボリー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHRco"
       }
     ]
@@ -9993,12 +8733,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5625,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRco"
       }
     ]
@@ -10027,12 +8765,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9760,
         "name": {
           "en": false,
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNook0"
       }
     ]
@@ -10061,30 +8797,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7790,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHNurse1"
       },
       {
-        "id": 7791,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHNurse2"
       },
       {
-        "id": 3350,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHNurse0"
       }
     ]
@@ -10113,39 +8843,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4285,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCoach0"
       },
       {
-        "id": 8520,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCoach3"
       },
       {
-        "id": 8518,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCoach1"
       },
       {
-        "id": 8519,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCoach2"
       }
     ]
@@ -10174,30 +8896,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9234,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLOilskin2"
       },
       {
-        "id": 9233,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLOilskin1"
       },
       {
-        "id": 5855,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLOilskin0"
       }
     ]
@@ -10226,12 +8942,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12425,
         "name": {
           "en": false,
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHOkmotors0"
       }
     ]
@@ -10260,30 +8974,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5292,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRepresent0"
       },
       {
-        "id": 7620,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRepresent1"
       },
       {
-        "id": 7621,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRepresent2"
       }
     ]
@@ -10312,12 +9020,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3320,
         "name": {
           "en": false,
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball1"
       }
     ]
@@ -10346,39 +9052,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4715,
         "name": {
           "en": "Coral",
-          "jp": "コーラル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLOpencollar0"
       },
       {
-        "id": 8522,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLOpencollar2"
       },
       {
-        "id": 8521,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLOpencollar1"
       },
       {
-        "id": 8523,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLOpencollar3"
       }
     ]
@@ -10407,30 +9105,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8428,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBigstole2"
       },
       {
-        "id": 8427,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBigstole1"
       },
       {
-        "id": 4154,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHBigstole0"
       }
     ]
@@ -10459,57 +9151,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8447,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInparker4"
       },
       {
-        "id": 8445,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInparker2"
       },
       {
-        "id": 8448,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInparker5"
       },
       {
-        "id": 8446,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInparker3"
       },
       {
-        "id": 8444,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInparker1"
       },
       {
-        "id": 4420,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLInparker0"
       }
     ]
@@ -10538,30 +9218,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8463,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPatchwork2"
       },
       {
-        "id": 8462,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPatchwork1"
       },
       {
-        "id": 4605,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPatchwork0"
       }
     ]
@@ -10590,39 +9264,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4174,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDuffleGray"
       },
       {
-        "id": 4172,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDuffleRed"
       },
       {
-        "id": 2782,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDuffleNavy"
       },
       {
-        "id": 4173,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDuffleBeige"
       }
     ]
@@ -10651,48 +9317,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4247,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLPeasant0"
       },
       {
-        "id": 8582,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLPeasant1"
       },
       {
-        "id": 8584,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLPeasant3"
       },
       {
-        "id": 8585,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLPeasant4"
       },
       {
-        "id": 8583,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLPeasant2"
       }
     ]
@@ -10721,66 +9377,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 6819,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHAloha1"
       },
       {
-        "id": 9773,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHAloha5"
       },
       {
-        "id": 9774,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHAloha6"
       },
       {
-        "id": 6820,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHAloha2"
       },
       {
-        "id": 6821,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHAloha3"
       },
       {
-        "id": 3237,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHAloha0"
       },
       {
-        "id": 9772,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHAloha4"
       }
     ]
@@ -10809,39 +9451,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12083,
         "name": {
           "en": "Energetic plaid",
-          "jp": "ビタミンチェック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHPlaid1"
       },
       {
-        "id": 12085,
         "name": {
           "en": "Sweet plaid",
-          "jp": "スイートチェック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHPlaid3"
       },
       {
-        "id": 9827,
         "name": {
           "en": "Fancy plaid",
-          "jp": "ファンシーチェック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHPlaid0"
       },
       {
-        "id": 12084,
         "name": {
           "en": "Dreamy plaid",
-          "jp": "ドリームチェック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHPlaid2"
       }
     ]
@@ -10870,30 +9504,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4565,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLLeathertrench0"
       },
       {
-        "id": 9304,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLLeathertrench1"
       },
       {
-        "id": 9305,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLLeathertrench2"
       }
     ]
@@ -10922,30 +9550,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8020,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLChidori1"
       },
       {
-        "id": 4289,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLChidori0"
       },
       {
-        "id": 8021,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLChidori2"
       }
     ]
@@ -10974,30 +9596,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12020,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDoll1"
       },
       {
-        "id": 10909,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDoll0"
       },
       {
-        "id": 12035,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLDoll2"
       }
     ]
@@ -11026,75 +9642,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4291,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPocketshirts0"
       },
       {
-        "id": 8349,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPocketshirts1"
       },
       {
-        "id": 8354,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPocketshirts6"
       },
       {
-        "id": 8353,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPocketshirts5"
       },
       {
-        "id": 8355,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPocketshirts7"
       },
       {
-        "id": 8351,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPocketshirts3"
       },
       {
-        "id": 8350,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPocketshirts2"
       },
       {
-        "id": 8352,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPocketshirts4"
       }
     ]
@@ -11123,75 +9723,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8542,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolo6"
       },
       {
-        "id": 8543,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolo7"
       },
       {
-        "id": 8538,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolo2"
       },
       {
-        "id": 8537,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolo1"
       },
       {
-        "id": 8539,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolo3"
       },
       {
-        "id": 8541,
         "name": {
           "en": "Ivory",
-          "jp": "アイボリー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolo5"
       },
       {
-        "id": 8540,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolo4"
       },
       {
-        "id": 3172,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHPolo0"
       }
     ]
@@ -11220,30 +9804,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8008,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBobble1"
       },
       {
-        "id": 4766,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBobble0"
       },
       {
-        "id": 8009,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLBobble2"
       }
     ]
@@ -11272,12 +9850,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 13176,
         "name": {
           "en": false,
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHPurin0"
       }
     ]
@@ -11306,39 +9882,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4368,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPompom0"
       },
       {
-        "id": 8475,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPompom2"
       },
       {
-        "id": 8474,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPompom1"
       },
       {
-        "id": 8476,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPompom3"
       }
     ]
@@ -11367,48 +9935,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7861,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPoncho4"
       },
       {
-        "id": 7859,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPoncho2"
       },
       {
-        "id": 7860,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPoncho3"
       },
       {
-        "id": 7858,
         "name": {
           "en": "Peacock blue",
-          "jp": "ピーコックブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPoncho1"
       },
       {
-        "id": 4661,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPoncho0"
       }
     ]
@@ -11437,48 +9995,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8244,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPrince3"
       },
       {
-        "id": 8243,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPrince2"
       },
       {
-        "id": 4433,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPrince0"
       },
       {
-        "id": 8245,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPrince4"
       },
       {
-        "id": 8242,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPrince1"
       }
     ]
@@ -11507,48 +10055,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7853,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFleece4"
       },
       {
-        "id": 4680,
         "name": {
           "en": "Moss green",
-          "jp": "モスグリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFleece0"
       },
       {
-        "id": 7850,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFleece1"
       },
       {
-        "id": 7852,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFleece3"
       },
       {
-        "id": 7851,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLFleece2"
       }
     ]
@@ -11577,30 +10115,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12162,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLayeredlogoa2"
       },
       {
-        "id": 9821,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLayeredlogoa0"
       },
       {
-        "id": 12161,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLayeredlogoa1"
       }
     ]
@@ -11629,30 +10161,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12163,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLogoa1"
       },
       {
-        "id": 12164,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLogoa2"
       },
       {
-        "id": 9823,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLLogoa0"
       }
     ]
@@ -11681,12 +10207,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 12122,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHHellors0"
       }
     ]
@@ -11715,48 +10239,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8325,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownvest4"
       },
       {
-        "id": 8324,
         "name": {
           "en": "Olive",
-          "jp": "オリーブ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownvest3"
       },
       {
-        "id": 4277,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownvest0"
       },
       {
-        "id": 8323,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownvest2"
       },
       {
-        "id": 8322,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLDownvest1"
       }
     ]
@@ -11785,39 +10299,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8527,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHFrill2"
       },
       {
-        "id": 8526,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHFrill1"
       },
       {
-        "id": 8528,
         "name": {
           "en": "Lime",
-          "jp": "ライム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHFrill3"
       },
       {
-        "id": 5349,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopPuffHFrill0"
       }
     ]
@@ -11846,48 +10352,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7610,
         "name": {
           "en": "Coral",
-          "jp": "コーラル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLPullover4"
       },
       {
-        "id": 4521,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLPullover0"
       },
       {
-        "id": 7607,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLPullover1"
       },
       {
-        "id": 7608,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLPullover2"
       },
       {
-        "id": 7609,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLPullover3"
       }
     ]
@@ -11916,48 +10412,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9297,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLQuilting1"
       },
       {
-        "id": 9300,
         "name": {
           "en": "Olive",
-          "jp": "オリーブ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLQuilting4"
       },
       {
-        "id": 9298,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLQuilting2"
       },
       {
-        "id": 4220,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLQuilting0"
       },
       {
-        "id": 9299,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLQuilting3"
       }
     ]
@@ -11986,48 +10472,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4728,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLQuilting0"
       },
       {
-        "id": 8331,
         "name": {
           "en": "Lime",
-          "jp": "ライム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLQuilting2"
       },
       {
-        "id": 8333,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLQuilting4"
       },
       {
-        "id": 8332,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLQuilting3"
       },
       {
-        "id": 8330,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLQuilting1"
       }
     ]
@@ -12056,12 +10532,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8197,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHRabbit0"
       }
     ]
@@ -12090,48 +10564,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8399,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLRaglan4"
       },
       {
-        "id": 8398,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLRaglan3"
       },
       {
-        "id": 2674,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLRaglan0"
       },
       {
-        "id": 8396,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLRaglan1"
       },
       {
-        "id": 8397,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLRaglan2"
       }
     ]
@@ -12160,48 +10624,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7644,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRainbow1"
       },
       {
-        "id": 4595,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRainbow0"
       },
       {
-        "id": 7645,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRainbow2"
       },
       {
-        "id": 7646,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRainbow3"
       },
       {
-        "id": 7647,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLRainbow4"
       }
     ]
@@ -12230,75 +10684,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8294,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRain7"
       },
       {
-        "id": 8292,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRain5"
       },
       {
-        "id": 8291,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRain4"
       },
       {
-        "id": 3170,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRain0"
       },
       {
-        "id": 8288,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRain1"
       },
       {
-        "id": 8289,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRain2"
       },
       {
-        "id": 8290,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRain3"
       },
       {
-        "id": 8293,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRain6"
       }
     ]
@@ -12327,30 +10765,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7741,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLReindeer2"
       },
       {
-        "id": 4566,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLReindeer0"
       },
       {
-        "id": 7740,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLReindeer1"
       }
     ]
@@ -12379,75 +10811,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9378,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEkiden7"
       },
       {
-        "id": 9374,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEkiden3"
       },
       {
-        "id": 9377,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEkiden6"
       },
       {
-        "id": 9375,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEkiden4"
       },
       {
-        "id": 9376,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEkiden5"
       },
       {
-        "id": 9372,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEkiden1"
       },
       {
-        "id": 3246,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEkiden0"
       },
       {
-        "id": 9373,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNEkiden2"
       }
     ]
@@ -12476,39 +10892,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8453,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRetro2"
       },
       {
-        "id": 4469,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRetro0"
       },
       {
-        "id": 8454,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRetro3"
       },
       {
-        "id": 8452,
         "name": {
           "en": "Mustard",
-          "jp": "マスタード"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLRetro1"
       }
     ]
@@ -12537,39 +10945,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7855,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLHighsence2"
       },
       {
-        "id": 7854,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLHighsence1"
       },
       {
-        "id": 7856,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLHighsence3"
       },
       {
-        "id": 4575,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLHighsence0"
       }
     ]
@@ -12598,30 +10998,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4675,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNRibnoncami0"
       },
       {
-        "id": 8088,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNRibnoncami1"
       },
       {
-        "id": 8089,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNRibnoncami2"
       }
     ]
@@ -12650,12 +11044,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3283,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLKingRed"
       }
     ]
@@ -12684,21 +11076,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9594,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHRubberapron1"
       },
       {
-        "id": 3212,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHRubberapron0"
       }
     ]
@@ -12727,21 +11115,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4435,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHTraffic0"
       },
       {
-        "id": 9476,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHTraffic1"
       }
     ]
@@ -12770,30 +11154,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7568,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLSailor2"
       },
       {
-        "id": 7567,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLSailor1"
       },
       {
-        "id": 5621,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLSailor0"
       }
     ]
@@ -12822,75 +11200,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3055,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSailor0"
       },
       {
-        "id": 7565,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSailor6"
       },
       {
-        "id": 7566,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSailor7"
       },
       {
-        "id": 7560,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSailor1"
       },
       {
-        "id": 7562,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSailor3"
       },
       {
-        "id": 7561,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSailor2"
       },
       {
-        "id": 7564,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSailor5"
       },
       {
-        "id": 7563,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSailor4"
       }
     ]
@@ -12919,48 +11281,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8148,
         "name": {
           "en": "White",
-          "jp": "しろ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSamurai3"
       },
       {
-        "id": 8146,
         "name": {
           "en": "Black",
-          "jp": "くろ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSamurai1"
       },
       {
-        "id": 5130,
         "name": {
           "en": "Red",
-          "jp": "あか"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSamurai0"
       },
       {
-        "id": 8149,
         "name": {
           "en": "Golden yellow",
-          "jp": "やまぶきいろ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSamurai4"
       },
       {
-        "id": 8147,
         "name": {
           "en": "Blue",
-          "jp": "あお"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSamurai2"
       }
     ]
@@ -12989,12 +11341,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3390,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSantaRed"
       }
     ]
@@ -13023,66 +11373,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4365,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuran0"
       },
       {
-        "id": 7550,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuran3"
       },
       {
-        "id": 7552,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuran5"
       },
       {
-        "id": 7548,
         "name": {
           "en": "Berry red",
-          "jp": "ワインレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuran1"
       },
       {
-        "id": 7549,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuran2"
       },
       {
-        "id": 7553,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuran6"
       },
       {
-        "id": 7551,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGakuran4"
       }
     ]
@@ -13111,30 +11447,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7434,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPirate2"
       },
       {
-        "id": 3147,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPirate0"
       },
       {
-        "id": 7433,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPirate1"
       }
     ]
@@ -13163,21 +11493,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9218,
         "name": {
           "en": "Blue",
-          "jp": "あお"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLHanten1"
       },
       {
-        "id": 4407,
         "name": {
           "en": "Dark blue",
-          "jp": "こん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLHanten0"
       }
     ]
@@ -13206,12 +11532,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3324,
         "name": {
           "en": false,
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball7"
       }
     ]
@@ -13240,21 +11564,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8529,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCamera1"
       },
       {
-        "id": 5440,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLCamera0"
       }
     ]
@@ -13283,66 +11603,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9295,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPcoat5"
       },
       {
-        "id": 3688,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPcoat0"
       },
       {
-        "id": 9296,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPcoat6"
       },
       {
-        "id": 9293,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPcoat3"
       },
       {
-        "id": 9294,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPcoat4"
       },
       {
-        "id": 9291,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPcoat1"
       },
       {
-        "id": 9292,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPcoat2"
       }
     ]
@@ -13371,48 +11677,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3144,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHStandard0"
       },
       {
-        "id": 8341,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHStandard1"
       },
       {
-        "id": 8343,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHStandard3"
       },
       {
-        "id": 8342,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHStandard2"
       },
       {
-        "id": 8344,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHStandard4"
       }
     ]
@@ -13441,66 +11737,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9137,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHChina3"
       },
       {
-        "id": 3248,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHChina0"
       },
       {
-        "id": 9140,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHChina6"
       },
       {
-        "id": 9136,
         "name": {
           "en": "Mustard",
-          "jp": "マスタード"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHChina2"
       },
       {
-        "id": 9139,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHChina5"
       },
       {
-        "id": 9135,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHChina1"
       },
       {
-        "id": 9138,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsHChina4"
       }
     ]
@@ -13529,48 +11811,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9130,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChina4"
       },
       {
-        "id": 9127,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChina1"
       },
       {
-        "id": 9129,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChina3"
       },
       {
-        "id": 2672,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChina0"
       },
       {
-        "id": 9128,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLChina2"
       }
     ]
@@ -13599,30 +11871,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 2725,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLKnit0"
       },
       {
-        "id": 2730,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLKnit1"
       },
       {
-        "id": 4151,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLKnit2"
       }
     ]
@@ -13651,75 +11917,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3056,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParka0"
       },
       {
-        "id": 7975,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParka7"
       },
       {
-        "id": 7969,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParka1"
       },
       {
-        "id": 7973,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParka5"
       },
       {
-        "id": 7972,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParka4"
       },
       {
-        "id": 7970,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParka2"
       },
       {
-        "id": 7974,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParka6"
       },
       {
-        "id": 7971,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParka3"
       }
     ]
@@ -13748,48 +11998,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9501,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSimpledot4"
       },
       {
-        "id": 9499,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSimpledot2"
       },
       {
-        "id": 8203,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSimpledot0"
       },
       {
-        "id": 9500,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSimpledot3"
       },
       {
-        "id": 9498,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSimpledot1"
       }
     ]
@@ -13818,12 +12058,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3323,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball6"
       }
     ]
@@ -13852,57 +12090,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7603,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSki4"
       },
       {
-        "id": 7604,
         "name": {
           "en": "Ruby red",
-          "jp": "ルージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSki5"
       },
       {
-        "id": 7602,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSki3"
       },
       {
-        "id": 7600,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSki1"
       },
       {
-        "id": 4448,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSki0"
       },
       {
-        "id": 7601,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSki2"
       }
     ]
@@ -13931,30 +12157,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8208,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSkull0"
       },
       {
-        "id": 12200,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSkull2"
       },
       {
-        "id": 12199,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSkull1"
       }
     ]
@@ -13983,48 +12203,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5132,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHandcover0"
       },
       {
-        "id": 9607,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHandcover2"
       },
       {
-        "id": 9608,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHandcover3"
       },
       {
-        "id": 9606,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHandcover1"
       },
       {
-        "id": 9609,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLHandcover4"
       }
     ]
@@ -14053,48 +12263,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3145,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNStandard0"
       },
       {
-        "id": 8345,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNStandard1"
       },
       {
-        "id": 8347,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNStandard3"
       },
       {
-        "id": 8346,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNStandard2"
       },
       {
-        "id": 8348,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsNStandard4"
       }
     ]
@@ -14123,48 +12323,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7994,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNNosleeve1"
       },
       {
-        "id": 7995,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNNosleeve2"
       },
       {
-        "id": 7997,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNNosleeve4"
       },
       {
-        "id": 5774,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNNosleeve0"
       },
       {
-        "id": 7996,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterNNosleeve3"
       }
     ]
@@ -14193,57 +12383,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8362,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNShirt4"
       },
       {
-        "id": 8363,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNShirt5"
       },
       {
-        "id": 8360,
         "name": {
           "en": "Mint",
-          "jp": "ミント"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNShirt2"
       },
       {
-        "id": 8359,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNShirt1"
       },
       {
-        "id": 4599,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNShirt0"
       },
       {
-        "id": 8361,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNShirt3"
       }
     ]
@@ -14272,21 +12450,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7841,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSnowcrystal1"
       },
       {
-        "id": 5122,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSnowcrystal0"
       }
     ]
@@ -14315,30 +12489,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3631,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSnow0"
       },
       {
-        "id": 7739,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSnow2"
       },
       {
-        "id": 7738,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSnow1"
       }
     ]
@@ -14367,75 +12535,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9385,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSoccer7"
       },
       {
-        "id": 9379,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSoccer1"
       },
       {
-        "id": 9380,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSoccer2"
       },
       {
-        "id": 9384,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSoccer6"
       },
       {
-        "id": 3249,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSoccer0"
       },
       {
-        "id": 9383,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSoccer5"
       },
       {
-        "id": 9382,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSoccer4"
       },
       {
-        "id": 9381,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSoccer3"
       }
     ]
@@ -14464,21 +12616,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4418,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSpaceparker0"
       },
       {
-        "id": 7605,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSpaceparker1"
       }
     ]
@@ -14507,30 +12655,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4560,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNSequins0"
       },
       {
-        "id": 8388,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNSequins1"
       },
       {
-        "id": 8389,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNSequins2"
       }
     ]
@@ -14559,12 +12701,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8207,
         "name": {
           "en": false,
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHSpider0"
       }
     ]
@@ -14593,75 +12733,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4673,
         "name": {
           "en": 1,
-          "jp": "1ばん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBibs0"
       },
       {
-        "id": 8061,
         "name": {
           "en": 2,
-          "jp": "2ばん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBibs1"
       },
       {
-        "id": 8062,
         "name": {
           "en": 3,
-          "jp": "3ばん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBibs2"
       },
       {
-        "id": 8063,
         "name": {
           "en": 4,
-          "jp": "4ばん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBibs3"
       },
       {
-        "id": 8064,
         "name": {
           "en": 5,
-          "jp": "5ばん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBibs4"
       },
       {
-        "id": 8065,
         "name": {
           "en": 6,
-          "jp": "6ばん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBibs5"
       },
       {
-        "id": 8066,
         "name": {
           "en": 7,
-          "jp": "7ばん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBibs6"
       },
       {
-        "id": 8067,
         "name": {
           "en": 8,
-          "jp": "8ばん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBibs7"
       }
     ]
@@ -14690,30 +12814,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8414,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHStaff2"
       },
       {
-        "id": 8413,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHStaff1"
       },
       {
-        "id": 5841,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHStaff0"
       }
     ]
@@ -14742,12 +12860,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9535,
         "name": {
           "en": false,
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNStar0"
       }
     ]
@@ -14776,57 +12892,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4145,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLBorder1"
       },
       {
-        "id": 4147,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLBorder3"
       },
       {
-        "id": 4146,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLBorder2"
       },
       {
-        "id": 2655,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLBorder0"
       },
       {
-        "id": 4149,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLBorder5"
       },
       {
-        "id": 4148,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLBorder4"
       }
     ]
@@ -14855,75 +12959,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7766,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBorder5"
       },
       {
-        "id": 7767,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBorder6"
       },
       {
-        "id": 7765,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBorder4"
       },
       {
-        "id": 7768,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBorder7"
       },
       {
-        "id": 7762,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBorder1"
       },
       {
-        "id": 7764,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBorder3"
       },
       {
-        "id": 3383,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBorder0"
       },
       {
-        "id": 7763,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNBorder2"
       }
     ]
@@ -14952,57 +13040,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7761,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBorder5"
       },
       {
-        "id": 7757,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBorder1"
       },
       {
-        "id": 7759,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBorder3"
       },
       {
-        "id": 4275,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBorder0"
       },
       {
-        "id": 7760,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBorder4"
       },
       {
-        "id": 7758,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHBorder2"
       }
     ]
@@ -15031,21 +13107,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3268,
         "name": {
           "en": "White",
-          "jp": "しろ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHItamae0"
       },
       {
-        "id": 9204,
         "name": {
           "en": "Dark blue",
-          "jp": "こん"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHItamae1"
       }
     ]
@@ -15074,48 +13146,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8497,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTiedsweater4"
       },
       {
-        "id": 3328,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTiedsweater0"
       },
       {
-        "id": 8495,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTiedsweater2"
       },
       {
-        "id": 8496,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTiedsweater3"
       },
       {
-        "id": 8494,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTiedsweater1"
       }
     ]
@@ -15144,39 +13206,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8118,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLVest3"
       },
       {
-        "id": 8117,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLVest2"
       },
       {
-        "id": 8116,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLVest1"
       },
       {
-        "id": 3489,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLVest0"
       }
     ]
@@ -15205,57 +13259,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3671,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSweat0"
       },
       {
-        "id": 7979,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSweat4"
       },
       {
-        "id": 7977,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSweat2"
       },
       {
-        "id": 7976,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSweat1"
       },
       {
-        "id": 7980,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSweat5"
       },
       {
-        "id": 7978,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSweat3"
       }
     ]
@@ -15284,48 +13326,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4578,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBustier0"
       },
       {
-        "id": 9034,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBustier3"
       },
       {
-        "id": 9032,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBustier1"
       },
       {
-        "id": 9033,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBustier2"
       },
       {
-        "id": 9035,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLBustier4"
       }
     ]
@@ -15354,21 +13386,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8284,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLTailcoat1"
       },
       {
-        "id": 4440,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLTailcoat0"
       }
     ]
@@ -15397,48 +13425,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3474,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTailored0"
       },
       {
-        "id": 8272,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTailored1"
       },
       {
-        "id": 8275,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTailored4"
       },
       {
-        "id": 8273,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTailored2"
       },
       {
-        "id": 8274,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTailored3"
       }
     ]
@@ -15467,48 +13485,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8373,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTanktop1"
       },
       {
-        "id": 3192,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTanktop0"
       },
       {
-        "id": 8375,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTanktop3"
       },
       {
-        "id": 8376,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTanktop4"
       },
       {
-        "id": 8374,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTanktop2"
       }
     ]
@@ -15537,48 +13545,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7986,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParkertshirt3"
       },
       {
-        "id": 7985,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParkertshirt2"
       },
       {
-        "id": 4423,
         "name": {
           "en": "Lime",
-          "jp": "ライム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParkertshirt0"
       },
       {
-        "id": 7987,
         "name": {
           "en": "Mint",
-          "jp": "ミント"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParkertshirt4"
       },
       {
-        "id": 7984,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLParkertshirt1"
       }
     ]
@@ -15607,39 +13605,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3599,
         "name": {
           "en": "Ivory",
-          "jp": "アイボリー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLTennis0"
       },
       {
-        "id": 7751,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLTennis3"
       },
       {
-        "id": 7749,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLTennis1"
       },
       {
-        "id": 7750,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLTennis2"
       }
     ]
@@ -15668,75 +13658,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11930,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPajamas4"
       },
       {
-        "id": 11929,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPajamas3"
       },
       {
-        "id": 12189,
         "name": {
           "en": "Cream",
-          "jp": "クリーム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPajamas5"
       },
       {
-        "id": 12191,
         "name": {
           "en": "Lime",
-          "jp": "ライム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPajamas7"
       },
       {
-        "id": 11928,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPajamas2"
       },
       {
-        "id": 11095,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPajamas0"
       },
       {
-        "id": 11927,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPajamas1"
       },
       {
-        "id": 12190,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLPajamas6"
       }
     ]
@@ -15765,30 +13739,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8403,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLAlphabet1"
       },
       {
-        "id": 4340,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLAlphabet0"
       },
       {
-        "id": 8404,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLAlphabet2"
       }
     ]
@@ -15817,48 +13785,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 14649,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLFather4"
       },
       {
-        "id": 14646,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLFather1"
       },
       {
-        "id": 14647,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLFather2"
       },
       {
-        "id": 14283,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLFather0"
       },
       {
-        "id": 14648,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLFather3"
       }
     ]
@@ -15887,75 +13845,59 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7627,
         "name": {
           "en": "Navy & gray",
-          "jp": "ネイビー×グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRugby6"
       },
       {
-        "id": 7626,
         "name": {
           "en": "Yellow & red",
-          "jp": "イエロー×レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRugby5"
       },
       {
-        "id": 7623,
         "name": {
           "en": "Rose red & navy",
-          "jp": "ワインレッド×ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRugby2"
       },
       {
-        "id": 3666,
         "name": {
           "en": "Yellow & navy",
-          "jp": "イエロー×ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRugby0"
       },
       {
-        "id": 7622,
         "name": {
           "en": "Green & navy",
-          "jp": "グリーン×ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRugby1"
       },
       {
-        "id": 7628,
         "name": {
           "en": "Light blue & black",
-          "jp": "ライトブルー×ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRugby7"
       },
       {
-        "id": 7625,
         "name": {
           "en": "Green & purple",
-          "jp": "グリーン×パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRugby4"
       },
       {
-        "id": 7624,
         "name": {
           "en": "Beige & navy",
-          "jp": "ベージュ×ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLRugby3"
       }
     ]
@@ -15984,12 +13926,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5134,
         "name": {
           "en": false,
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLThiefBlack"
       }
     ]
@@ -16018,39 +13958,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8556,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLDamage1"
       },
       {
-        "id": 8558,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLDamage3"
       },
       {
-        "id": 5126,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLDamage0"
       },
       {
-        "id": 8557,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLDamage2"
       }
     ]
@@ -16079,12 +14011,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 2498,
         "name": {
           "en": false,
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball3"
       }
     ]
@@ -16113,12 +14043,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4211,
         "name": {
           "en": false,
-          "jp": "レインボー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHTiedyeRainbow"
       }
     ]
@@ -16147,12 +14075,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 3253,
         "name": {
           "en": false,
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLSukajantigerGreen"
       }
     ]
@@ -16181,30 +14107,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8553,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSlimknit2"
       },
       {
-        "id": 4302,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSlimknit0"
       },
       {
-        "id": 8552,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSlimknit1"
       }
     ]
@@ -16233,39 +14153,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8457,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSoutiencollar3"
       },
       {
-        "id": 4574,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSoutiencollar0"
       },
       {
-        "id": 8456,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSoutiencollar2"
       },
       {
-        "id": 8455,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLSoutiencollar1"
       }
     ]
@@ -16294,66 +14206,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7612,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSportsjersey2"
       },
       {
-        "id": 7611,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSportsjersey1"
       },
       {
-        "id": 7613,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSportsjersey3"
       },
       {
-        "id": 7615,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSportsjersey5"
       },
       {
-        "id": 7614,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSportsjersey4"
       },
       {
-        "id": 7616,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSportsjersey6"
       },
       {
-        "id": 3334,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLSportsjersey0"
       }
     ]
@@ -16382,12 +14280,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5291,
         "name": {
           "en": false,
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLStrawBeige"
       }
     ]
@@ -16416,12 +14312,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8194,
         "name": {
           "en": false,
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLTree0"
       }
     ]
@@ -16450,48 +14344,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 9285,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLTrench2"
       },
       {
-        "id": 9286,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLTrench3"
       },
       {
-        "id": 9284,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLTrench1"
       },
       {
-        "id": 9287,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLTrench4"
       },
       {
-        "id": 2402,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLTrench0"
       }
     ]
@@ -16520,66 +14404,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8084,
         "name": {
           "en": "Dark gray",
-          "jp": "ダークグレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTubetop3"
       },
       {
-        "id": 8082,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTubetop1"
       },
       {
-        "id": 8083,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTubetop2"
       },
       {
-        "id": 4253,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTubetop0"
       },
       {
-        "id": 8086,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTubetop5"
       },
       {
-        "id": 8085,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTubetop4"
       },
       {
-        "id": 8087,
         "name": {
           "en": "Dark red",
-          "jp": "ダークレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTubetop6"
       }
     ]
@@ -16608,39 +14478,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4668,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNTanktunic0"
       },
       {
-        "id": 8391,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNTanktunic2"
       },
       {
-        "id": 8390,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNTanktunic1"
       },
       {
-        "id": 8392,
         "name": {
           "en": "Mint",
-          "jp": "ミント"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatNTanktunic3"
       }
     ]
@@ -16669,30 +14531,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8271,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTuxedo2"
       },
       {
-        "id": 8270,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTuxedo1"
       },
       {
-        "id": 3388,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTuxedo0"
       }
     ]
@@ -16721,57 +14577,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8123,
         "name": {
           "en": "Berry red",
-          "jp": "ワインレッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweed3"
       },
       {
-        "id": 8125,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweed5"
       },
       {
-        "id": 8124,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweed4"
       },
       {
-        "id": 8121,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweed1"
       },
       {
-        "id": 3706,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweed0"
       },
       {
-        "id": 8122,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweed2"
       }
     ]
@@ -16800,30 +14644,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8502,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweedvest1"
       },
       {
-        "id": 4524,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweedvest0"
       },
       {
-        "id": 8503,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLTweedvest2"
       }
     ]
@@ -16852,12 +14690,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 2541,
         "name": {
           "en": false,
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsHNumberball2"
       }
     ]
@@ -16886,30 +14722,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8548,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLVnecksweater2"
       },
       {
-        "id": 8547,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLVnecksweater1"
       },
       {
-        "id": 3700,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLVnecksweater0"
       }
     ]
@@ -16938,21 +14768,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4395,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLVampire0"
       },
       {
-        "id": 8283,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLVampire1"
       }
     ]
@@ -16981,66 +14807,52 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7779,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHStripeshirts4"
       },
       {
-        "id": 7777,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHStripeshirts2"
       },
       {
-        "id": 8834,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHStripeshirts6"
       },
       {
-        "id": 7778,
         "name": {
           "en": "Green",
-          "jp": "グリーン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHStripeshirts3"
       },
       {
-        "id": 3677,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHStripeshirts0"
       },
       {
-        "id": 7776,
         "name": {
           "en": "Purple",
-          "jp": "パープル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHStripeshirts1"
       },
       {
-        "id": 7780,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatHStripeshirts5"
       }
     ]
@@ -17069,12 +14881,10 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 5433,
         "name": {
           "en": false,
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGlassBeige"
       }
     ]
@@ -17103,30 +14913,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11950,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLViking1"
       },
       {
-        "id": 11951,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLViking2"
       },
       {
-        "id": 9768,
         "name": {
           "en": "Brown",
-          "jp": "ブラウン"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLViking0"
       }
     ]
@@ -17155,48 +14959,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8268,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGilet3"
       },
       {
-        "id": 3339,
         "name": {
           "en": "Gray",
-          "jp": "グレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGilet0"
       },
       {
-        "id": 8266,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGilet1"
       },
       {
-        "id": 8269,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGilet4"
       },
       {
-        "id": 8267,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLGilet2"
       }
     ]
@@ -17225,39 +15019,31 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8479,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLWestern3"
       },
       {
-        "id": 8477,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLWestern1"
       },
       {
-        "id": 8478,
         "name": {
           "en": "Yellow",
-          "jp": "イエロー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLWestern2"
       },
       {
-        "id": 3245,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLWestern0"
       }
     ]
@@ -17286,21 +15072,17 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 11955,
         "name": {
           "en": "Avocado",
-          "jp": "カーキ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLWorkapron1"
       },
       {
-        "id": 9830,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopCoatLWorkapron0"
       }
     ]
@@ -17329,48 +15111,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8488,
         "name": {
           "en": "White-striped necktie",
-          "jp": "モノクロストライプタイ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLNecktie4"
       },
       {
-        "id": 3266,
         "name": {
           "en": "Red-striped necktie",
-          "jp": "レッドストライプタイ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLNecktie0"
       },
       {
-        "id": 8487,
         "name": {
           "en": "Green-striped necktie",
-          "jp": "グリーンストライプタイ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLNecktie3"
       },
       {
-        "id": 8485,
         "name": {
           "en": "Blue-striped necktie",
-          "jp": "ブルーストライプタイ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLNecktie1"
       },
       {
-        "id": 8486,
         "name": {
           "en": "Purple-striped necktie",
-          "jp": "パープルストライプタイ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLNecktie2"
       }
     ]
@@ -17399,30 +15171,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4765,
         "name": {
           "en": "Light blue",
-          "jp": "ライトブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFactory0"
       },
       {
-        "id": 8525,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFactory2"
       },
       {
-        "id": 8524,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLFactory1"
       }
     ]
@@ -17451,30 +15217,24 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8059,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTraining1"
       },
       {
-        "id": 8060,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTraining2"
       },
       {
-        "id": 4421,
         "name": {
           "en": "Lime",
-          "jp": "ライム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsNTraining0"
       }
     ]
@@ -17503,57 +15263,45 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7718,
         "name": {
           "en": "Red",
-          "jp": "レッド"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordiccardigan4"
       },
       {
-        "id": 7716,
         "name": {
           "en": "Mustard",
-          "jp": "マスタード"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordiccardigan2"
       },
       {
-        "id": 3632,
         "name": {
           "en": "Ice blue",
-          "jp": "アイスブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordiccardigan0"
       },
       {
-        "id": 7717,
         "name": {
           "en": "Mint",
-          "jp": "ミント"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordiccardigan3"
       },
       {
-        "id": 7719,
         "name": {
           "en": "Navy blue",
-          "jp": "ネイビー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordiccardigan5"
       },
       {
-        "id": 7715,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordiccardigan1"
       }
     ]
@@ -17582,48 +15330,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 7723,
         "name": {
           "en": "Off-white",
-          "jp": "オフホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordic4"
       },
       {
-        "id": 3630,
         "name": {
           "en": "Camel",
-          "jp": "キャメル"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordic0"
       },
       {
-        "id": 7720,
         "name": {
           "en": "Beige",
-          "jp": "ベージュ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordic1"
       },
       {
-        "id": 7721,
         "name": {
           "en": "Light gray",
-          "jp": "ライトグレー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordic2"
       },
       {
-        "id": 7722,
         "name": {
           "en": "Orange",
-          "jp": "オレンジ"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopOuterLNordic3"
       }
     ]
@@ -17652,48 +15390,38 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 4198,
         "name": {
           "en": "White",
-          "jp": "ホワイト"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLPrince0"
       },
       {
-        "id": 8498,
         "name": {
           "en": "Black",
-          "jp": "ブラック"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLPrince1"
       },
       {
-        "id": 8499,
         "name": {
           "en": "Pink",
-          "jp": "ピンク"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLPrince2"
       },
       {
-        "id": 8501,
         "name": {
           "en": "Cream",
-          "jp": "クリーム"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLPrince4"
       },
       {
-        "id": 8500,
         "name": {
           "en": "Blue",
-          "jp": "ブルー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopYshirtsLPrince3"
       }
     ]
@@ -17722,15 +15450,12 @@ fashion.tops = [
     },
     "variants": [
       {
-        "id": 8204,
         "name": {
           "en": false,
-          "jp": "ラスタカラー"
+          "jp": ""
         },
-        "isPattern": false,
         "imageName": "TopsTexTopTshirtsLJagged0"
       }
     ]
   }
 ]
-//
