@@ -85,6 +85,7 @@
   display: flex;
   justify-content: center;
   border-radius: 3px;
+  flex-wrap: wrap;
 }
 .item-variant {
   $size: 70px;
@@ -110,8 +111,7 @@
   position: relative;
   min-width: 200px;
   display: none;
-
-  /*background: #fffeda;*/
+  background: #e0e0e0;
   &-image {
     $size: 40px;
     max-width: $size;
@@ -124,7 +124,6 @@
   // top: 5px;
 
   img {
-    max-width: 60px;
   }
 }
 
@@ -198,11 +197,9 @@
 }
 
 .item[data-source='Crafting'] {
-  border-color: #b95b2b;
-  background: transparent;
+  background: #c8e6b7;
 }
 
 .item[data-source='Nook Miles'] {
-  border-color: #0086ad;
-  background: transparent;
+  background: #caebf5;
 }

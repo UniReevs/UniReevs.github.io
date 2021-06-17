@@ -1,9 +1,8 @@
 let itemIdName = 'ClothGroupID';
 itemIdName = 'InternalID';
 let itemID = itemIdName,
-    category = 'recipes',
-    // searchText = '_'+capitalizeFirstLetter(category)+'_',
-    searchText = '',
+    category = 'wallMounted',
+    searchText = '_'+capitalizeFirstLetter(category)+'_',
     variantID = 'VariantID',
     nameTranslations = translationNames[category],
     variantTranslations = translationVariants[category];
@@ -64,11 +63,11 @@ function createNewDataFromSheet(data, nameTranslations, variantTranslations, has
     if (item.VariantID !== null) {
       for (let k = 0; k < fileNamePatterns.length; k++) {
         let patternText = fileNamePatterns[k];
-        if (item[variantID] === fileNamePatterns[k]) {
-          isPattern = true;
-          count++;
-          break;
-        }
+        // if (item[variantID] === fileNamePatterns[k]) {
+        //   isPattern = true;
+        //   count++;
+        //   break;
+        // }
       }
     }
 
@@ -105,11 +104,11 @@ function findSource(data) {
 
 
 
-// let newData = createNewDataFromSheet(csv[category], nameTranslations, variantTranslations);
-// console.log(newData);
+let newData = createNewDataFromSheet(csv[category], nameTranslations, variantTranslations);
+console.log(newData);
 // console.log(test);
 
-let html = createList(diy[category]);
+let html = createList(items[category]);
 $('#js-item-list').html(html);
 
 // let html = createList(fashion[category].sort(compareValues('count')));
