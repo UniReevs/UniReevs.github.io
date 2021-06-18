@@ -1,27 +1,63 @@
-
 .name {
-  font-size: 80%;
   text-transform: capitalize;
 }
-
+.en,
+.count,
 .price {
-  font-size: 60%;
-  img {
-    width: 12px;
-    display: inline-block;
-    margin-right: 3px;
-    margin-top: -2px;
-    vertical-align: middle;
+  font-size: smaller;
+}
+
+.variations {
+  // &::before {
+  //   $size: 8px;
+
+  //   content: '';
+  //   display: inline-block;
+  //   width: $size;
+  //   height: $size;
+  //   border-radius: 50%;
+  //   background: #cc5649;
+  //   margin-right: 3px;
+  // }
+}
+
+.count {
+  position: absolute;
+  left: 5px;
+  top: 3px;
+}
+
+.patterns {
+  &::before {
+    content: 'x ';
   }
+}
+
+
+
+.buy,
+.sell {
+  background-repeat: no-repeat;
+  background-size: 13px;
+  padding-left: 15px;
+}
+.buy {
+  background-image: url(../img/1.10.0/MenuIcon/MoneyBag039Cropped.png);
+}
+
+.sell {
+  background-image: url(../img/1.10.0/MenuIcon/CoinCropped.png);
+  background-position-y: 3px;
 }
 
 [data-price='-1'] {
   color: transparent;
+
+  img {
+    display: none;
+  }
 }
 
-[data-price='-1'] img {
-  display: none;
-}
 
 [data-view='grid'],
 [data-view='group'] {
@@ -38,48 +74,48 @@
   }
 }
 
-[data-view='list'] {
-  .item {
-    display: flex;
-    border-bottom: 1px solid $color-gray;
-  }
-  .name {
-    display: inline-block;
-    min-width: 15em;
-    text-align: left;
-  }
-  .info {
-    text-align: left;
-  }
-}
+// [data-view='list'] {
+//   .item {
+//     display: flex;
+//     border-bottom: 1px solid $color-gray;
+//   }
+//   .name {
+//     display: inline-block;
+//     min-width: 15em;
+//     text-align: left;
+//   }
+//   .info {
+//     text-align: left;
+//   }
+// }
 
-[data-view='grid'] {
-  .item {
-    border: 0;
-    padding: 0;
-    margin: 0;
-  }
-  .item-header {
-    display: none;
-  }
-  .item-variant {
-    align-items: flex-end;
-  }
-  .variant {
-    top: 0;
-    &::before {
-      content: attr(data-name);
-    }
-  }
-  .brackets {
-    &::before {
-      content: '(';
-    }
-    &::after {
-      content: ')';
-    }
-  }
-}
+// [data-view='grid'] {
+//   .item {
+//     border: 0;
+//     padding: 0;
+//     margin: 0;
+//   }
+//   .item-header {
+//     display: none;
+//   }
+//   .item-variant {
+//     align-items: flex-end;
+//   }
+//   .variant {
+//     top: 0;
+//     &::before {
+//       content: attr(data-name);
+//     }
+//   }
+//   .brackets {
+//     &::before {
+//       content: '(';
+//     }
+//     &::after {
+//       content: ')';
+//     }
+//   }
+// }
 
 .variants {
   display: flex;
@@ -87,6 +123,7 @@
   border-radius: 3px;
   flex-wrap: wrap;
 }
+
 .item-variant {
   $size: 70px;
   $h: $size + 10;
@@ -112,20 +149,34 @@
   min-width: 200px;
   display: none;
   background: #e0e0e0;
-  &-image {
-    $size: 40px;
-    max-width: $size;
-    max-height: $size;
-    margin-top: 20px;
+
+  &.is-selected {
+    border-color: #000;
   }
+}
+
+.item-image {
+  $size: 40px;
+  max-width: $size;
+  max-height: $size;
+  margin-top: 20px;
 }
 .variant {
-  // position: absolute;
-  // top: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+
+  &.is-selected {
+    border-color: #000;
+    background: #fff;
+  }
 
   img {
+    max-width: 100%;
   }
 }
+
 
 .group {
   margin: 5px 2px;
@@ -147,6 +198,7 @@
 //   display: block;
 
 // }
+
 
 [data-everything='true'] .item,
 [data-bags='true'] .item[data-category='bags'],
@@ -180,18 +232,6 @@
   display: block;
 }
 
-// [data-category='everything'] .item-list .item {
-//   display: block !important;
-// }
-.count,
-.variant .name {
-  display: none;
-}
-
-.price {
-  display: none;
-}
-
 .item[data-buy='-1'] {
   background: #ded6bc;
 }
@@ -202,4 +242,14 @@
 
 .item[data-source='Nook Miles'] {
   background: #caebf5;
+}
+
+// [data-id='4041'] {
+//   .variant {
+
+//   }
+// }
+
+[data-count='1'] .variants .name {
+  display: none;
 }

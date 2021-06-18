@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons&family=Material+Icons&+oulined&family=Open+Sans">
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <title>ACNH</title>
+  <title>あつ森 カタログ</title>
 </head>
 <body>
   <div class="app">
-    <div class="sticky">
+    <div class="sticky horizontal-scroll">
       <!-- @@include('./includes/top-bar.html') -->
+      @@include('./includes/options.html')
       @@include('./includes/main-nav.html')
       @@include('./includes/npc-nav.html')
     </div>
@@ -47,7 +47,6 @@
         data-special="false"
         data-fencing="false"
 
-
         id="js-category-filter">
 
         <ul class="item-list" id="js-item-list" data-view="group" data-category="housewares">
@@ -58,79 +57,9 @@
     </main>
 
     <!-- @@include('./includes/island-map.html') -->
+    @@include('./includes/scripts.html')
 
-    <script src="src/js/jquery.js"></script>
-
-
-<!--     <script src="src/data/init.js"></script>
-
-    <script src="src/data/sheet-csv/csv.js"></script>
-    <script src="src/data/sheet-csv/csv-wallMounted.js"></script>
-
-    <script src="src/data/translation/fashion-bags.js"></script>
-    <script src="src/data/translation/fashion-swimwear.js"></script>
-    <script src="src/data/translation/items-miscellaneous.js"></script>
-    <script src="src/data/translation/items-housewares.js"></script>
-    <script src="src/data/translation/npc-villagers.js"></script>
-    <script src="src/data/translation/diy-materials.js"></script>
-    <script src="src/data/translation/fashion-bottoms.js"></script>
-    <script src="src/data/translation/fashion-tops.js"></script>
-    <script src="src/data/translation/others-art.js"></script>
-    <script src="src/data/translation/diy-etc.js"></script>
-    <script src="src/data/translation/fashion-dresses.js"></script>
-    <script src="src/data/translation/fashion-umbrellas.js"></script>
-    <script src="src/data/translation/items-wallMounted.js"></script>
-    <script src="src/data/translation/others-fossils.js"></script>
-    <script src="src/data/translation/diy-tools.js"></script>
-    <script src="src/data/translation/fashion-headwear.js"></script>
-    <script src="src/data/translation/house-floors.js"></script>
-    <script src="src/data/translation/npc-photos.js"></script>
-    <script src="src/data/translation/others-music.js"></script>
-    <script src="src/data/translation/etc-events.js"></script>
-    <script src="src/data/translation/fashion-shoes.js"></script>
-    <script src="src/data/translation/house-rugs.js"></script>
-    <script src="src/data/translation/npc-posters.js"></script>
-    <script src="src/data/translation/fashion-accessories.js"></script>
-    <script src="src/data/translation/fashion-socks.js"></script>
-    <script src="src/data/translation/house-wallpaper.js"></script>
-    <script src="src/data/translation/npc-special.js"></script>
-    <script src="src/data/translation/diy-fencing.js"></script>
-
-    <script src="src/data/items/fashion-bags.js"></script>
-    <script src="src/data/items/fashion-swimwear.js"></script>
-    <script src="src/data/items/items-housewares.js"></script>
-    <script src="src/data/items/npc-villagers.js"></script>
-    <script src="src/data/items/diy-materials.js"></script>
-    <script src="src/data/items/fashion-bottoms.js"></script>
-    <script src="src/data/items/fashion-tops.js"></script>
-    <script src="src/data/items/items-miscellaneous.js"></script>
-    <script src="src/data/items/others-art.js"></script>
-    <script src="src/data/items/diy-recipes.js"></script>
-    <script src="src/data/items/fashion-dresses.js"></script>
-    <script src="src/data/items/fashion-umbrellas.js"></script>
-    <script src="src/data/items/items-wallMounted.js"></script>
-    <script src="src/data/items/others-fossils.js"></script>
-    <script src="src/data/items/diy-tools.js"></script>
-    <script src="src/data/items/fashion-headwear.js"></script>
-    <script src="src/data/items/house-floors.js"></script>
-    <script src="src/data/items/npc-photos.js"></script>
-    <script src="src/data/items/others-music.js"></script>
-    <script src="src/data/items/etc-events.js"></script>
-    <script src="src/data/items/fashion-shoes.js"></script>
-    <script src="src/data/items/house-rugs.js"></script>
-    <script src="src/data/items/npc-posters.js"></script>
-    <script src="src/data/items/fashion-accessories.js"></script>
-    <script src="src/data/items/fashion-socks.js"></script>
-    <script src="src/data/items/house-wallpaper.js"></script>
-    <script src="src/data/items/npc-special.js"></script>
-    <script src="src/data/items/diy-fencing.js"></script>
-
-
-    <script src="src/data/translation.js"></script> -->
-
-    <!-- <script src="src/js/functions.js"></script> -->
-    <script src="src/js/events.js"></script>
-    <!-- <script src="src/js/main.js"></script> -->
   </div>
+  <a href="#page-top" class="page-top"></a>
 </body>
 </html>

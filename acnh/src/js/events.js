@@ -19,7 +19,8 @@
 // });
 
 const className = {
-  active: 'is-active'
+  active: 'is-active',
+  selected: 'is-selected'
 },
 element = {
   nav: {
@@ -89,7 +90,29 @@ $(element.nav.main)
   $(element.view).removeClass(className.active);
   $this.addClass(className.active);
   $(element.itemList).attr('data-view', value);
-})
+});
+
+$('#js-item-list').on('click', '.variant', function() {
+  let $this = $(this),
+      $parent = $this.parents('.item');
+  $this.toggleClass(className.selected);
+  let selectedVariants = $parent.find('.'+className.selected);
+  if (selectedVariants.length) {
+    $parent.addClass(className.selected);
+  } else {
+    $parent.removeClass(className.selected);
+  }
+});
+
+$('#js-npc-nav').on('click', '.js-not', function() {
+  $(this).parents('.js-menu').attr('data-filter', 'not');
+}).on('click', '.js-and', function() {
+  $(this).parents('.js-menu').attr('data-filter', 'and');
+
+}).on('click', '.js-only', function() {
+  $(this).parents('.js-menu').attr('data-filter', 'only');
+});
+
 
 document.addEventListener('DOMContentLoaded', function() {
   var lazyloadImages = document.querySelectorAll('.js-load-image');

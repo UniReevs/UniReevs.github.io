@@ -1,14 +1,10 @@
 'use strict';
 
 const gulp = require('gulp'),
-      sass = require('gulp-sass'),
       concat = require('gulp-concat'),
       uglify = require('gulp-uglify'),
-      pipeline = require('readable-stream').pipeline,
       clean = require('gulp-clean'),
       fileInclude = require('gulp-file-include');
-
-sass.compiler = require('node-sass');
 
 const basePaths = {
         src: 'acnh/src/',
@@ -68,28 +64,22 @@ gulp.task('html', () => {
 
 
 
-gulp.task('css', () => {
-  return gulp.src(files.scss)
-    .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
-    // .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest(paths.css.dest));
-});
-gulp.task('compress', function () {
-  return pipeline(
-        gulp.src(files.data, {allowEmpty: true}),
-        uglify(),
-        gulp.dest(paths.js.dest)
-  );
-});
-gulp.task('js', () => {
-  return gulp.src(files.data, {allowEmpty: true})
-    .pipe(concat('data.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest(paths.js.dest));
-});
+// gulp.task('css', () => {
+//   return gulp.src(files.scss)
+//     .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
+//     // .pipe(sass().on('error', sass.logError))
+//     .pipe(gulp.dest(paths.css.dest));
+// });
+
+// gulp.task('js', () => {
+//   return gulp.src(files.data, {allowEmpty: true})
+//     .pipe(concat('data.js'))
+//     .pipe(uglify())
+//     .pipe(gulp.dest(paths.js.dest));
+// });
 
 gulp.task('watch', () => {
-  gulp.watch(files.scss, gulp.task('css'));
+  // gulp.watch(files.scss, gulp.task('css'));
   // gulp.watch(files.js, gulp.task('js'));
   gulp.watch(files.html, gulp.task('html'));
 });
@@ -97,7 +87,7 @@ gulp.task('watch', () => {
 gulp.task('default', gulp.series(
     // 'clean',
     // gulp.parallel('css', 'js', 'html'),
-    gulp.parallel('css', 'html'),
+    gulp.parallel('html'),
     'watch'
   )
 );
