@@ -1,8 +1,8 @@
 let itemID = 'InternalID',
-    category = 'wallMounted',
+    category = 'housewares',
     searchText = '_'+capitalizeFirstLetter(category)+'_',
-    variantID = 'VariantID',
     nameTranslations = translationNames[category],
+    patternTranslations = translationPatterns[category],
     variantTranslations = translationVariants[category];
 function createNewDataFromSheet(data, nameTranslations, variantTranslations, hasVariants = true) {
   let newData = [];
@@ -30,17 +30,47 @@ function createNewDataFromSheet(data, nameTranslations, variantTranslations, has
           jp: getTranslation(nameTranslations, parseInt(prevItem[itemID]))
         },
         id: prevItem[itemID],
+        title: {
+          body: prevItem.BodyTitle,
+          pattern: prevItem.patternTitle
+        },
+        diy: prevItem.DIY,
+        customize: {
+          body: prevItem.BodyCustomize,
+          pattern: prevItem.PatternCustomize
+        },
+        kit: {
+          cost: prevItem.kitCost,
+          type: prevItem.KitType
+        },
+        colors: [prevItem.Color1, prevItem.Color2],
+        size: prevItem.Size,
+        surface: prevItem.Surface,
+        exchange: {
+          price: prevItem.ExchangePrice,
+          currency: prevItem.ExchangeCurrency
+        },
         source: prevItem.Source,
         map: 0,
         event: prevItem.Event,
-        eventExclusive: prevItem.Exclusive,
-        version: prevItem.Version,
-        catalog: prevItem.Catalog,
-        category: category,
-        diy: prevItem.DIY,
-        customize: prevItem.Customize,
-        pattern: prevItem.PatternCustomize,
+        exclusive: prevItem.EventExclusive,
+        hha: {
+          points: prevItem.HhaPoints,
+          concepts: [prevItem.HhaConcept1, prevItem.HhaConcept2],
+          series: prevItem.HhaSeries,
+          set: prevItem.HhaSet,
+          category: prevItem.Category
+        },
+        interact: prevItem.Interact,
         tag: prevItem.Tag,
+        outdoor: prevItem.Outdoor,
+        type: {
+          speaker: prevItem.SpeakerType,
+          lighting: prevItem.LightingType
+        },
+        catalog: prevItem.Catalog,
+        version: prevItem.Version,
+        category: category,
         price: {
           buy: prevItem.Buy,
           sell: prevItem.Sell,
@@ -61,26 +91,44 @@ function createNewDataFromSheet(data, nameTranslations, variantTranslations, has
     if (item.VariantID !== null) {
       for (let k = 0; k < fileNamePatterns.length; k++) {
         let patternText = fileNamePatterns[k];
-        // if (item[variantID] === fileNamePatterns[k]) {
-        //   isPattern = true;
-        //   count++;
-        //   break;
-        // }
+        if (item.variantID === fileNamePatterns[k]) {
+          isPattern = true;
+          count++;
+          break;
+        }
       }
     }
 
-    let string = item.VariantID;
-    let newVariantID = item.VariantID ? string.charAt(0) : item[variantID];
-    let searchID = item[itemID]+searchText+newVariantID,
-        translation = (item.VariantID !== null) ? getTranslation(variantTranslations, searchID, true) : null;
+    let hasVariantID = item.VariantID != null,
+        splits = hasVariantID ? item.VariantID.split('_') : false,
+        variantNumber = hasVariantID ? splits[0] : '',
+        patternNumber = hasVariantID ? splits[1] : '';
+
+    let searchID = {
+      variatnt: item[itemID] + '_' + variantNumber,
+      pattern: item[itemID] + '_' + patternNumber
+    };
+
+    let translation = {
+      variant: hasVariantID ? getTranslation(variantTranslations, searchID.variatnt, true) : null,
+      pattern: hasVariantID ? getTranslation(patternTranslations, searchID.pattern, true) : null
+    };
 
     variants.push({
-      id: item[variantID],
-      name: {
-        en: item.Variation,
-        jp: translation
+      id: item.variantID,
+      pattern: {
+        name: {
+          en: item.Pattern,
+          jp: translation.pattern
+        }
       },
-      // isPattern: isPattern,
+      variant: {
+        name: {
+          en: item.Variation,
+          jp: translation.variant
+        },
+      },
+      isPattern: isPattern,
       imageName: item.Filename
     });
   }
@@ -104,7 +152,8 @@ function findSource(data) {
 
 let newData = createNewDataFromSheet(csv[category], nameTranslations, variantTranslations);
 console.log(newData);
-// console.log(test);
+// let translationTest = csvTranlation(test)
+// console.log(translationTest);
 
 let html = createList(items[category]);
 $('#js-item-list').html(html);

@@ -4948,6 +4948,7 @@ translationNames.housewares = [
 
 translationNames.misc = [...translationNames.housewares, ...translationNames.fishModels, ...translationNames.insectModels];
 translationNames.wallMounted = translationNames.housewares;
+
 translationVariants.housewares = [
   {
     label: "6426_0",
@@ -22152,3 +22153,2301 @@ translationVariants.housewares = [
 ];
 translationVariants.misc = translationVariants.housewares;
 translationVariants.wallMounted = translationVariants.housewares;
+
+translationPatterns.housewares = [
+  {
+    "label": "8760_0",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "8760_1",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "8760_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "8760_3",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "8760_4",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "8760_5",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "8760_6",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "8760_7",
+    "en": "Beige",
+    "jp": "ベージュ"
+  },
+  {
+    "label": "14475_0",
+    "en": "Gold",
+    "jp": "ゴールド"
+  },
+  {
+    "label": "14475_1",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "14475_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "725_0",
+    "en": "Plain",
+    "jp": "無地"
+  },
+  {
+    "label": "725_1",
+    "en": "Spring",
+    "jp": "春"
+  },
+  {
+    "label": "725_2",
+    "en": "Summer",
+    "jp": "夏"
+  },
+  {
+    "label": "725_3",
+    "en": "Fall",
+    "jp": "秋"
+  },
+  {
+    "label": "725_4",
+    "en": "Winter",
+    "jp": "冬"
+  },
+  {
+    "label": "833_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "833_1",
+    "en": "Cool",
+    "jp": "クール"
+  },
+  {
+    "label": "833_2",
+    "en": "Cute",
+    "jp": "キュート"
+  },
+  {
+    "label": "833_3",
+    "en": "Pop",
+    "jp": "ポップ"
+  },
+  {
+    "label": "833_4",
+    "en": "Notes",
+    "jp": "メッセージ"
+  },
+  {
+    "label": "941_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "941_1",
+    "en": "Familiar logo",
+    "jp": "おなじみのロゴ"
+  },
+  {
+    "label": "941_2",
+    "en": "Chic logo",
+    "jp": "シックなロゴ"
+  },
+  {
+    "label": "941_3",
+    "en": "Rock logo",
+    "jp": "ハードなロゴ"
+  },
+  {
+    "label": "941_4",
+    "en": "Emblem logo",
+    "jp": "エンブレムなロゴ"
+  },
+  {
+    "label": "941_5",
+    "en": "Handwritten logo",
+    "jp": "スクリプトなロゴ"
+  },
+  {
+    "label": "941_6",
+    "en": "Pop logo",
+    "jp": "ポップなロゴ"
+  },
+  {
+    "label": "941_7",
+    "en": "Cute logo",
+    "jp": "キュートなロゴ"
+  },
+  {
+    "label": "950_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "950_1",
+    "en": "Familiar logo",
+    "jp": "おなじみのロゴ"
+  },
+  {
+    "label": "950_2",
+    "en": "Chic logo",
+    "jp": "シックなロゴ"
+  },
+  {
+    "label": "950_3",
+    "en": "Rock logo",
+    "jp": "ハードなロゴ"
+  },
+  {
+    "label": "950_4",
+    "en": "Emblem logo",
+    "jp": "エンブレムなロゴ"
+  },
+  {
+    "label": "950_5",
+    "en": "Handwritten logo",
+    "jp": "スクリプトなロゴ"
+  },
+  {
+    "label": "950_6",
+    "en": "Pop logo",
+    "jp": "ポップなロゴ"
+  },
+  {
+    "label": "950_7",
+    "en": "Cute logo",
+    "jp": "キュートなロゴ"
+  },
+  {
+    "label": "1029_0",
+    "en": "Plain",
+    "jp": "無地"
+  },
+  {
+    "label": "1029_1",
+    "en": "Spring",
+    "jp": "春"
+  },
+  {
+    "label": "1029_2",
+    "en": "Summer",
+    "jp": "夏"
+  },
+  {
+    "label": "1029_3",
+    "en": "Fall",
+    "jp": "秋"
+  },
+  {
+    "label": "1029_4",
+    "en": "Winter",
+    "jp": "冬"
+  },
+  {
+    "label": "1032_0",
+    "en": "Café",
+    "jp": "カフェ"
+  },
+  {
+    "label": "1032_1",
+    "en": "Travel",
+    "jp": "トラベル"
+  },
+  {
+    "label": "1032_2",
+    "en": "Fashion",
+    "jp": "ファッション"
+  },
+  {
+    "label": "1032_3",
+    "en": "Sports",
+    "jp": "スポーツ"
+  },
+  {
+    "label": "1032_4",
+    "en": "Comics",
+    "jp": "マガジン"
+  },
+  {
+    "label": "1032_5",
+    "en": "Kids",
+    "jp": "キッズ"
+  },
+  {
+    "label": "1032_6",
+    "en": "Weekly news",
+    "jp": "週刊誌"
+  },
+  {
+    "label": "1499_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "1499_1",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "1499_2",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "1499_3",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "1500_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "1500_1",
+    "en": "Red stripes",
+    "jp": "レッドボーダー"
+  },
+  {
+    "label": "1500_2",
+    "en": "Blue stripes",
+    "jp": "ブルーボーダー"
+  },
+  {
+    "label": "1500_3",
+    "en": "Yellow stripes",
+    "jp": "イエローボーダー"
+  },
+  {
+    "label": "1501_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "1501_1",
+    "en": "Heart",
+    "jp": "ハート"
+  },
+  {
+    "label": "1501_2",
+    "en": "Fish",
+    "jp": "サカナ"
+  },
+  {
+    "label": "1501_3",
+    "en": "Star",
+    "jp": "スター"
+  },
+  {
+    "label": "1504_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "1504_1",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "1504_2",
+    "en": "Giant dots",
+    "jp": "トクダイドット"
+  },
+  {
+    "label": "1504_3",
+    "en": "Giant stripes",
+    "jp": "トクダイボーダー"
+  },
+  {
+    "label": "1620_0",
+    "en": "Colorful",
+    "jp": "カラフル"
+  },
+  {
+    "label": "1620_1",
+    "en": "Camouflage",
+    "jp": "カモフラージュ"
+  },
+  {
+    "label": "1620_2",
+    "en": "Hibiscus flowers",
+    "jp": "ハイビスカス"
+  },
+  {
+    "label": "1620_3",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "1644_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "1644_1",
+    "en": "Familiar logo",
+    "jp": "おなじみのロゴ"
+  },
+  {
+    "label": "1644_2",
+    "en": "Chic logo",
+    "jp": "シックなロゴ"
+  },
+  {
+    "label": "1644_3",
+    "en": "Rock logo",
+    "jp": "ハードなロゴ"
+  },
+  {
+    "label": "1644_4",
+    "en": "Emblem logo",
+    "jp": "エンブレムなロゴ"
+  },
+  {
+    "label": "1644_5",
+    "en": "Handwritten logo",
+    "jp": "スクリプトなロゴ"
+  },
+  {
+    "label": "1644_6",
+    "en": "Pop logo",
+    "jp": "ポップなロゴ"
+  },
+  {
+    "label": "1644_7",
+    "en": "Cute logo",
+    "jp": "キュートなロゴ"
+  },
+  {
+    "label": "1645_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "1645_1",
+    "en": "Familiar logo",
+    "jp": "おなじみのロゴ"
+  },
+  {
+    "label": "1645_2",
+    "en": "Chic logo",
+    "jp": "シックなロゴ"
+  },
+  {
+    "label": "1645_3",
+    "en": "Rock logo",
+    "jp": "ハードなロゴ"
+  },
+  {
+    "label": "1645_4",
+    "en": "Emblem logo",
+    "jp": "エンブレムなロゴ"
+  },
+  {
+    "label": "1645_5",
+    "en": "Handwritten logo",
+    "jp": "スクリプトなロゴ"
+  },
+  {
+    "label": "1645_6",
+    "en": "Pop logo",
+    "jp": "ポップなロゴ"
+  },
+  {
+    "label": "1645_7",
+    "en": "Cute logo",
+    "jp": "キュートなロゴ"
+  },
+  {
+    "label": "1750_0",
+    "en": "Resource documents",
+    "jp": "資料"
+  },
+  {
+    "label": "1750_1",
+    "en": "Text documents",
+    "jp": "テキスト資料"
+  },
+  {
+    "label": "1750_2",
+    "en": "Exam papers",
+    "jp": "解答用紙"
+  },
+  {
+    "label": "1750_3",
+    "en": "Storyboards",
+    "jp": "絵コンテ"
+  },
+  {
+    "label": "1778_0",
+    "en": "Plain",
+    "jp": "無地"
+  },
+  {
+    "label": "1778_1",
+    "en": "PE shirt",
+    "jp": "体操着"
+  },
+  {
+    "label": "1778_2",
+    "en": "Fish",
+    "jp": "サカナ"
+  },
+  {
+    "label": "1778_3",
+    "en": "Carrot",
+    "jp": "ニンジン"
+  },
+  {
+    "label": "1779_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "1779_1",
+    "en": "Brown",
+    "jp": "ブラウン"
+  },
+  {
+    "label": "1779_2",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "1779_3",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "1779_4",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "1779_5",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "1779_6",
+    "en": "Light green",
+    "jp": "ライトグリーン"
+  },
+  {
+    "label": "1779_7",
+    "en": "Light blue",
+    "jp": "ライトブルー"
+  },
+  {
+    "label": "1783_0",
+    "en": "Apple",
+    "jp": "アップル"
+  },
+  {
+    "label": "1783_1",
+    "en": "Fish",
+    "jp": "フィッシュ"
+  },
+  {
+    "label": "1783_2",
+    "en": "Flower",
+    "jp": "フラワー"
+  },
+  {
+    "label": "1792_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "1792_1",
+    "en": "Floral",
+    "jp": "フラワー"
+  },
+  {
+    "label": "1792_2",
+    "en": "Alphabet",
+    "jp": "アルファベット"
+  },
+  {
+    "label": "1792_3",
+    "en": "Paisley",
+    "jp": "ペイズリー"
+  },
+  {
+    "label": "1792_4",
+    "en": "Rainbow colors",
+    "jp": "レインボー"
+  },
+  {
+    "label": "1792_5",
+    "en": "Pop",
+    "jp": "ポップ"
+  },
+  {
+    "label": "1802_0",
+    "en": "Orange juice",
+    "jp": "オレンジジュース"
+  },
+  {
+    "label": "1802_1",
+    "en": "Sports drink",
+    "jp": "スポーツドリンク"
+  },
+  {
+    "label": "1802_2",
+    "en": "Sale",
+    "jp": "セール"
+  },
+  {
+    "label": "1802_3",
+    "en": "Cute",
+    "jp": "キュート"
+  },
+  {
+    "label": "1803_0",
+    "en": "Smooth white",
+    "jp": "スムースホワイト"
+  },
+  {
+    "label": "1803_1",
+    "en": "Glossy black",
+    "jp": "グロスブラック"
+  },
+  {
+    "label": "1803_2",
+    "en": "Black with logo",
+    "jp": "ブラックロゴ"
+  },
+  {
+    "label": "1803_3",
+    "en": "White with logo",
+    "jp": "ホワイトロゴ"
+  },
+  {
+    "label": "1803_4",
+    "en": "Rock logo",
+    "jp": "ハードロゴ"
+  },
+  {
+    "label": "1803_5",
+    "en": "Vintage logo",
+    "jp": "ヴィンテージロゴ"
+  },
+  {
+    "label": "1816_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "1816_1",
+    "en": "Purple",
+    "jp": "パープル"
+  },
+  {
+    "label": "1816_2",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "1816_3",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "1816_4",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "1816_5",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "1816_6",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "1816_7",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "1838_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "1838_1",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "1838_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "1838_3",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "1849_0",
+    "en": "Tic-tac-toe pattern",
+    "jp": "井桁"
+  },
+  {
+    "label": "1849_1",
+    "en": "Flowers",
+    "jp": "花"
+  },
+  {
+    "label": "1849_2",
+    "en": "Checkered",
+    "jp": "格子"
+  },
+  {
+    "label": "1849_3",
+    "en": "Stripes",
+    "jp": "縞"
+  },
+  {
+    "label": "1850_0",
+    "en": "Desktop",
+    "jp": "デスクトップ"
+  },
+  {
+    "label": "1850_1",
+    "en": "Search engine",
+    "jp": "サーチエンジン"
+  },
+  {
+    "label": "1850_2",
+    "en": "Calculations",
+    "jp": "表計算"
+  },
+  {
+    "label": "1850_3",
+    "en": "Web browsing",
+    "jp": "インターネット"
+  },
+  {
+    "label": "1850_4",
+    "en": "Online shopping",
+    "jp": "ネット通販"
+  },
+  {
+    "label": "1850_5",
+    "en": "Chat tool",
+    "jp": "チャットツール"
+  },
+  {
+    "label": "1861_0",
+    "en": "Gardening",
+    "jp": "園芸"
+  },
+  {
+    "label": "1861_1",
+    "en": "Travel",
+    "jp": "トラベル"
+  },
+  {
+    "label": "1861_2",
+    "en": "Fashion",
+    "jp": "ファッション"
+  },
+  {
+    "label": "1861_3",
+    "en": "Sports",
+    "jp": "スポーツ"
+  },
+  {
+    "label": "1861_4",
+    "en": "Comics",
+    "jp": "マガジン"
+  },
+  {
+    "label": "1861_5",
+    "en": "Kids",
+    "jp": "キッズ"
+  },
+  {
+    "label": "1861_6",
+    "en": "Weekly news",
+    "jp": "週刊誌"
+  },
+  {
+    "label": "1870_0",
+    "en": "Plain",
+    "jp": "なし"
+  },
+  {
+    "label": "1870_1",
+    "en": "Square logo",
+    "jp": "しかくいロゴ"
+  },
+  {
+    "label": "1870_2",
+    "en": "Round logo",
+    "jp": "まるいロゴ"
+  },
+  {
+    "label": "1870_3",
+    "en": "Fish",
+    "jp": "サカナ"
+  },
+  {
+    "label": "1870_4",
+    "en": "Carrot",
+    "jp": "ニンジン"
+  },
+  {
+    "label": "1870_5",
+    "en": "Cheese",
+    "jp": "チーズ"
+  },
+  {
+    "label": "1899_0",
+    "en": "Musician's signature",
+    "jp": "ミュージシャンのサイン"
+  },
+  {
+    "label": "1899_1",
+    "en": "Comedian's signature",
+    "jp": "コメディアンのサイン"
+  },
+  {
+    "label": "2020_0",
+    "en": "Natural white",
+    "jp": "ナチュラルホワイト"
+  },
+  {
+    "label": "2020_1",
+    "en": "Director black",
+    "jp": "ディレクターブラック"
+  },
+  {
+    "label": "2020_2",
+    "en": "Chic pleather",
+    "jp": "シックレザー"
+  },
+  {
+    "label": "2561_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "2561_1",
+    "en": "Gray",
+    "jp": "グレー"
+  },
+  {
+    "label": "2561_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "2561_3",
+    "en": "Light blue",
+    "jp": "ライトブルー"
+  },
+  {
+    "label": "2561_4",
+    "en": "Yellow design",
+    "jp": "イエローパターン"
+  },
+  {
+    "label": "2561_5",
+    "en": "Green design",
+    "jp": "グリーンパターン"
+  },
+  {
+    "label": "2561_6",
+    "en": "Orange design",
+    "jp": "オレンジパターン"
+  },
+  {
+    "label": "2561_7",
+    "en": "Navy design",
+    "jp": "ネイビーパターン"
+  },
+  {
+    "label": "2605_0",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "2605_1",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "2605_2",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "2605_3",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "2713_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "2713_1",
+    "en": "Cute",
+    "jp": "キュート"
+  },
+  {
+    "label": "2713_2",
+    "en": "Rock",
+    "jp": "ロック"
+  },
+  {
+    "label": "2713_3",
+    "en": "Fruits",
+    "jp": "フルーツ"
+  },
+  {
+    "label": "2713_4",
+    "en": "Notices",
+    "jp": "掲示物"
+  },
+  {
+    "label": "3200_0",
+    "en": "Navy",
+    "jp": "ネイビー"
+  },
+  {
+    "label": "3200_1",
+    "en": "Blue-gray",
+    "jp": "ブルーグレー"
+  },
+  {
+    "label": "3200_2",
+    "en": "Brown",
+    "jp": "ブラウン"
+  },
+  {
+    "label": "3229_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "3229_1",
+    "en": "Well-used",
+    "jp": "オンボロ"
+  },
+  {
+    "label": "3229_2",
+    "en": "Blue stripes",
+    "jp": "ブルーストライプ"
+  },
+  {
+    "label": "3229_3",
+    "en": "Red plaid",
+    "jp": "レッドチェック"
+  },
+  {
+    "label": "3229_4",
+    "en": "Green plaid",
+    "jp": "グリーンチェック"
+  },
+  {
+    "label": "3230_0",
+    "en": "Red",
+    "jp": "赤"
+  },
+  {
+    "label": "3230_1",
+    "en": "Blue",
+    "jp": "青"
+  },
+  {
+    "label": "3230_2",
+    "en": "Orange",
+    "jp": "橙"
+  },
+  {
+    "label": "3230_3",
+    "en": "Green",
+    "jp": "緑"
+  },
+  {
+    "label": "3305_0",
+    "en": "Bear",
+    "jp": "クマ"
+  },
+  {
+    "label": "3305_1",
+    "en": "Strawberry",
+    "jp": "イチゴ"
+  },
+  {
+    "label": "3305_2",
+    "en": "Butterfly",
+    "jp": "チョウ"
+  },
+  {
+    "label": "3305_3",
+    "en": "Train",
+    "jp": "汽車"
+  },
+  {
+    "label": "3305_4",
+    "en": "Paw print",
+    "jp": "あしあと"
+  },
+  {
+    "label": "3307_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "3307_1",
+    "en": "Floral",
+    "jp": "フラワー"
+  },
+  {
+    "label": "3307_2",
+    "en": "Polka dots",
+    "jp": "ポルカドット"
+  },
+  {
+    "label": "3307_3",
+    "en": "Black stripes",
+    "jp": "ブラックストライプ"
+  },
+  {
+    "label": "3307_4",
+    "en": "Wood",
+    "jp": "イエローストライプ"
+  },
+  {
+    "label": "3439_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "3439_1",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "3439_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "3439_3",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3439_4",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "3444_0",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3444_1",
+    "en": "Red plaid",
+    "jp": "レッドチェック"
+  },
+  {
+    "label": "3444_2",
+    "en": "Green plaid",
+    "jp": "グリーンチェック"
+  },
+  {
+    "label": "3444_3",
+    "en": "Beige",
+    "jp": "ベージュ"
+  },
+  {
+    "label": "3444_4",
+    "en": "Colorful",
+    "jp": "カラフル"
+  },
+  {
+    "label": "3445_0",
+    "en": "Stripes",
+    "jp": "ボーダー"
+  },
+  {
+    "label": "3445_1",
+    "en": "Dots",
+    "jp": "ドット"
+  },
+  {
+    "label": "3445_2",
+    "en": "Navy",
+    "jp": "ネイビー"
+  },
+  {
+    "label": "3445_3",
+    "en": "Red, white, and blue",
+    "jp": "トリコロール"
+  },
+  {
+    "label": "3449_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "3449_1",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "3449_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "3449_3",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3449_4",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "3467_0",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "3467_1",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3467_2",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "3467_3",
+    "en": "Gray",
+    "jp": "グレー"
+  },
+  {
+    "label": "3468_0",
+    "en": "Cyan zigzags",
+    "jp": "マリンボーダー"
+  },
+  {
+    "label": "3468_1",
+    "en": "Red stripes",
+    "jp": "レッドストライプ"
+  },
+  {
+    "label": "3468_2",
+    "en": "Colorful",
+    "jp": "カラフル"
+  },
+  {
+    "label": "3468_3",
+    "en": "Shells",
+    "jp": "シェル"
+  },
+  {
+    "label": "3468_4",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3468_5",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "3468_6",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "3502_0",
+    "en": "Brown",
+    "jp": "ブラウン"
+  },
+  {
+    "label": "3502_1",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "3502_2",
+    "en": "Gray",
+    "jp": "グレー"
+  },
+  {
+    "label": "3502_3",
+    "en": "Dark brown",
+    "jp": "ダークブラウン"
+  },
+  {
+    "label": "3561_0",
+    "en": "Navy",
+    "jp": "ネイビー"
+  },
+  {
+    "label": "3561_1",
+    "en": "Shell pink",
+    "jp": "シェルピンク"
+  },
+  {
+    "label": "3586_0",
+    "en": "Food",
+    "jp": "グルメ"
+  },
+  {
+    "label": "3586_1",
+    "en": "Cars",
+    "jp": "クルマ"
+  },
+  {
+    "label": "3586_2",
+    "en": "Fashion",
+    "jp": "ファッション"
+  },
+  {
+    "label": "3586_3",
+    "en": "Outdoors",
+    "jp": "アウトドア"
+  },
+  {
+    "label": "3586_4",
+    "en": "Resorts",
+    "jp": "リゾート"
+  },
+  {
+    "label": "3586_5",
+    "en": "Music",
+    "jp": "ミュージック"
+  },
+  {
+    "label": "3586_6",
+    "en": "Pop stars",
+    "jp": "アイドル"
+  },
+  {
+    "label": "3590_0",
+    "en": "Desktop",
+    "jp": "デスクトップ"
+  },
+  {
+    "label": "3590_1",
+    "en": "Search engine",
+    "jp": "サーチエンジン"
+  },
+  {
+    "label": "3590_2",
+    "en": "Calculations",
+    "jp": "表計算"
+  },
+  {
+    "label": "3590_3",
+    "en": "Web browsing",
+    "jp": "インターネット"
+  },
+  {
+    "label": "3590_4",
+    "en": "Programming",
+    "jp": "プログラム"
+  },
+  {
+    "label": "3590_5",
+    "en": "Art program",
+    "jp": "ペイント"
+  },
+  {
+    "label": "3590_6",
+    "en": "Digital audio workstation",
+    "jp": "DAWソフト"
+  },
+  {
+    "label": "3617_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "3617_1",
+    "en": "Green stripes",
+    "jp": "グリーンストライプ"
+  },
+  {
+    "label": "3617_2",
+    "en": "Red stripes",
+    "jp": "レッドストライプ"
+  },
+  {
+    "label": "3617_3",
+    "en": "Colorful",
+    "jp": "カラフル"
+  },
+  {
+    "label": "3617_4",
+    "en": "Waves",
+    "jp": "ウェーブ"
+  },
+  {
+    "label": "3618_0",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "3618_1",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3618_2",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "3621_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "3621_1",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "3621_2",
+    "en": "Light blue",
+    "jp": "ライトブルー"
+  },
+  {
+    "label": "3621_3",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "3621_4",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "3621_5",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "3621_6",
+    "en": "Green stripes",
+    "jp": "グリーンボーダー"
+  },
+  {
+    "label": "3621_7",
+    "en": "Red stripes",
+    "jp": "レッドボーダー"
+  },
+  {
+    "label": "3622_0",
+    "en": "Pale grass green",
+    "jp": "草色"
+  },
+  {
+    "label": "3622_1",
+    "en": "Mustard yellow",
+    "jp": "からし色"
+  },
+  {
+    "label": "3622_2",
+    "en": "Peach",
+    "jp": "桃色"
+  },
+  {
+    "label": "3622_3",
+    "en": "Deep blue",
+    "jp": "紺色"
+  },
+  {
+    "label": "3692_0",
+    "en": "Pet",
+    "jp": "ペット"
+  },
+  {
+    "label": "3692_1",
+    "en": "Wanted",
+    "jp": "おたずねもの"
+  },
+  {
+    "label": "3692_2",
+    "en": "Ad",
+    "jp": "広告"
+  },
+  {
+    "label": "3692_3",
+    "en": "Warning",
+    "jp": "警告"
+  },
+  {
+    "label": "3702_0",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "3702_1",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3702_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "3946_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "3946_1",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "3946_2",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "3946_3",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3946_4",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "3946_5",
+    "en": "Light wood",
+    "jp": "ライトウッド"
+  },
+  {
+    "label": "3946_6",
+    "en": "Dark wood",
+    "jp": "ダークウッド"
+  },
+  {
+    "label": "3947_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "3947_1",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "3947_2",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "3947_3",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "3947_4",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "3947_5",
+    "en": "Light wood",
+    "jp": "ライトウッド"
+  },
+  {
+    "label": "3947_6",
+    "en": "Dark wood",
+    "jp": "ダークウッド"
+  },
+  {
+    "label": "3965_0",
+    "en": "Blank",
+    "jp": "白紙"
+  },
+  {
+    "label": "3965_1",
+    "en": "Smile",
+    "jp": "笑顔"
+  },
+  {
+    "label": "3965_2",
+    "en": "Bug",
+    "jp": "ムシ"
+  },
+  {
+    "label": "3965_3",
+    "en": "Still life",
+    "jp": "静物画"
+  },
+  {
+    "label": "4034_0",
+    "en": "Essays",
+    "jp": "文書"
+  },
+  {
+    "label": "4034_1",
+    "en": "Manuscript paper",
+    "jp": "原稿用紙"
+  },
+  {
+    "label": "4034_2",
+    "en": "Illustrations",
+    "jp": "イラスト"
+  },
+  {
+    "label": "4034_3",
+    "en": "Plans",
+    "jp": "設計図"
+  },
+  {
+    "label": "4035_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "4035_1",
+    "en": "Southwestern flair",
+    "jp": "キリム"
+  },
+  {
+    "label": "4035_2",
+    "en": "Geometric print",
+    "jp": "チマヨ"
+  },
+  {
+    "label": "4035_3",
+    "en": "Bears",
+    "jp": "クマ"
+  },
+  {
+    "label": "4035_4",
+    "en": "Quilted",
+    "jp": "キルト"
+  },
+  {
+    "label": "4036_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "4036_1",
+    "en": "Southwestern flair",
+    "jp": "キリム"
+  },
+  {
+    "label": "4036_2",
+    "en": "Geometric print",
+    "jp": "チマヨ"
+  },
+  {
+    "label": "4036_3",
+    "en": "Bears",
+    "jp": "クマ"
+  },
+  {
+    "label": "4036_4",
+    "en": "Quilted",
+    "jp": "キルト"
+  },
+  {
+    "label": "4039_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "4039_1",
+    "en": "Southwestern flair",
+    "jp": "キリム"
+  },
+  {
+    "label": "4039_2",
+    "en": "Geometric print",
+    "jp": "チマヨ"
+  },
+  {
+    "label": "4039_3",
+    "en": "Bears",
+    "jp": "クマ"
+  },
+  {
+    "label": "4039_4",
+    "en": "Quilted",
+    "jp": "キルト"
+  },
+  {
+    "label": "4040_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "4040_1",
+    "en": "Southwestern flair",
+    "jp": "キリム"
+  },
+  {
+    "label": "4040_2",
+    "en": "Geometric print",
+    "jp": "チマヨ"
+  },
+  {
+    "label": "4040_3",
+    "en": "Bears",
+    "jp": "クマ"
+  },
+  {
+    "label": "4040_4",
+    "en": "Quilted",
+    "jp": "キルト"
+  },
+  {
+    "label": "4041_0",
+    "en": "Southwestern flair",
+    "jp": "キリム"
+  },
+  {
+    "label": "4041_1",
+    "en": "Geometric print",
+    "jp": "チマヨ"
+  },
+  {
+    "label": "4041_2",
+    "en": "Bears",
+    "jp": "クマ"
+  },
+  {
+    "label": "4041_3",
+    "en": "Quilted",
+    "jp": "キルト"
+  },
+  {
+    "label": "4043_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "4043_1",
+    "en": "Southwestern flair",
+    "jp": "キリム"
+  },
+  {
+    "label": "4043_2",
+    "en": "Geometric print",
+    "jp": "チマヨ"
+  },
+  {
+    "label": "4043_3",
+    "en": "Bears",
+    "jp": "クマ"
+  },
+  {
+    "label": "4043_4",
+    "en": "Quilted",
+    "jp": "キルト"
+  },
+  {
+    "label": "4044_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "4044_1",
+    "en": "Southwestern flair",
+    "jp": "キリム"
+  },
+  {
+    "label": "4044_2",
+    "en": "Geometric print",
+    "jp": "チマヨ"
+  },
+  {
+    "label": "4044_3",
+    "en": "Bears",
+    "jp": "クマ"
+  },
+  {
+    "label": "4044_4",
+    "en": "Quilted",
+    "jp": "キルト"
+  },
+  {
+    "label": "4068_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "4068_1",
+    "en": "Navy blue",
+    "jp": "ネイビー"
+  },
+  {
+    "label": "4068_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "4068_3",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "4068_4",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "4069_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "4069_1",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "4069_2",
+    "en": "Red flowers",
+    "jp": "レッドフラワー"
+  },
+  {
+    "label": "4069_3",
+    "en": "Blue flowers",
+    "jp": "ブルーフラワー"
+  },
+  {
+    "label": "4069_4",
+    "en": "Green flowers",
+    "jp": "グリーンフラワー"
+  },
+  {
+    "label": "4069_5",
+    "en": "Yellow flowers",
+    "jp": "イエローフラワー"
+  },
+  {
+    "label": "4069_6",
+    "en": "Pink flowers",
+    "jp": "ピンクフラワー"
+  },
+  {
+    "label": "4101_0",
+    "en": "Document",
+    "jp": "文書"
+  },
+  {
+    "label": "4101_1",
+    "en": "Graph",
+    "jp": "グラフ"
+  },
+  {
+    "label": "4101_2",
+    "en": "Illustration",
+    "jp": "イラスト"
+  },
+  {
+    "label": "4101_3",
+    "en": "Written note",
+    "jp": "メッセージ"
+  },
+  {
+    "label": "4102_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "4102_1",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "4102_2",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "4102_3",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "4102_4",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "4122_0",
+    "en": "Blank",
+    "jp": "白紙"
+  },
+  {
+    "label": "4122_1",
+    "en": "Comic storyboard",
+    "jp": "ストーリーまんが"
+  },
+  {
+    "label": "4122_2",
+    "en": "Gag comic",
+    "jp": "4コマまんが"
+  },
+  {
+    "label": "4140_0",
+    "en": "Yellow oil",
+    "jp": "イエローオイル"
+  },
+  {
+    "label": "4140_1",
+    "en": "Green with animal",
+    "jp": "グリーンアニマル"
+  },
+  {
+    "label": "4140_2",
+    "en": "Black retro",
+    "jp": "ブラックレトロ"
+  },
+  {
+    "label": "4144_0",
+    "en": "Red lines",
+    "jp": "ラインレッド"
+  },
+  {
+    "label": "4144_1",
+    "en": "Blue bee",
+    "jp": "ブルービー"
+  },
+  {
+    "label": "4144_2",
+    "en": "B & W numeral",
+    "jp": "ブラックナンバー"
+  },
+  {
+    "label": "4308_0",
+    "en": "Sunset",
+    "jp": "サンセット"
+  },
+  {
+    "label": "4308_1",
+    "en": "Light Through the Trees",
+    "jp": "こもれび"
+  },
+  {
+    "label": "4308_2",
+    "en": "Snow",
+    "jp": "スノー"
+  },
+  {
+    "label": "4308_3",
+    "en": "Sepia art",
+    "jp": "セピア"
+  },
+  {
+    "label": "4308_4",
+    "en": "Castle",
+    "jp": "キャッスル"
+  },
+  {
+    "label": "4445_0",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "4445_1",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "4445_2",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "4445_3",
+    "en": "Natural wood",
+    "jp": "ナチュラルウッド"
+  },
+  {
+    "label": "5338_0",
+    "en": "Plain panel",
+    "jp": "無地パネル"
+  },
+  {
+    "label": "5338_1",
+    "en": "Lined panel",
+    "jp": "ラインパネル"
+  },
+  {
+    "label": "5338_2",
+    "en": "Pegboard",
+    "jp": "パンチングボード"
+  },
+  {
+    "label": "5338_3",
+    "en": "Horizontal planks",
+    "jp": "横板張り"
+  },
+  {
+    "label": "5338_4",
+    "en": "Lattice",
+    "jp": "格子"
+  },
+  {
+    "label": "5338_5",
+    "en": "Mud wall",
+    "jp": "土壁"
+  },
+  {
+    "label": "5338_6",
+    "en": "Concrete",
+    "jp": "コンクリート"
+  },
+  {
+    "label": "5338_7",
+    "en": "Gold",
+    "jp": "ゴールド"
+  },
+  {
+    "label": "7047_0",
+    "en": "Deep blue",
+    "jp": "紺"
+  },
+  {
+    "label": "7047_1",
+    "en": "Indigo",
+    "jp": "藍"
+  },
+  {
+    "label": "7047_2",
+    "en": "Azuki red",
+    "jp": "小豆"
+  },
+  {
+    "label": "7047_3",
+    "en": "Deep green",
+    "jp": "深緑"
+  },
+  {
+    "label": "7047_4",
+    "en": "Goldfish",
+    "jp": "金魚"
+  },
+  {
+    "label": "7047_5",
+    "en": "Crane",
+    "jp": "鶴"
+  },
+  {
+    "label": "7047_6",
+    "en": "Gold",
+    "jp": "金"
+  },
+  {
+    "label": "7048_0",
+    "en": "Deep blue",
+    "jp": "紺"
+  },
+  {
+    "label": "7048_1",
+    "en": "Indigo",
+    "jp": "藍"
+  },
+  {
+    "label": "7048_2",
+    "en": "Azuki red",
+    "jp": "小豆"
+  },
+  {
+    "label": "7048_3",
+    "en": "Deep green",
+    "jp": "深緑"
+  },
+  {
+    "label": "7048_4",
+    "en": "Goldfish",
+    "jp": "金魚"
+  },
+  {
+    "label": "7048_5",
+    "en": "Crane",
+    "jp": "鶴"
+  },
+  {
+    "label": "7048_6",
+    "en": "Gold",
+    "jp": "金"
+  },
+  {
+    "label": "7132_0",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "7132_1",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "7132_2",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "7132_3",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "7133_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "7133_1",
+    "en": "Orange",
+    "jp": "オレンジ"
+  },
+  {
+    "label": "7133_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "7133_3",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "7133_4",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "7150_0",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "7150_1",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "7150_2",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "7150_3",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "7150_4",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "7151_0",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "7151_1",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "7151_2",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "7151_3",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "7151_4",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "7152_0",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "7152_1",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "7152_2",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "7152_3",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "7152_4",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "7282_0",
+    "en": "Calligraphy",
+    "jp": "書"
+  },
+  {
+    "label": "7282_1",
+    "en": "Mountains",
+    "jp": "山"
+  },
+  {
+    "label": "7282_2",
+    "en": "Fish",
+    "jp": "魚"
+  },
+  {
+    "label": "7282_3",
+    "en": "Bird",
+    "jp": "鶏"
+  },
+  {
+    "label": "7282_4",
+    "en": "Flower",
+    "jp": "花"
+  },
+  {
+    "label": "7531_0",
+    "en": "Stripes",
+    "jp": "ボーダー"
+  },
+  {
+    "label": "7531_1",
+    "en": "Checkered",
+    "jp": "チェック"
+  },
+  {
+    "label": "7531_2",
+    "en": "Dots",
+    "jp": "ドット"
+  },
+  {
+    "label": "7531_3",
+    "en": "Leaves",
+    "jp": "リーフ"
+  },
+  {
+    "label": "7531_4",
+    "en": "Triangles",
+    "jp": "トライアングル"
+  },
+  {
+    "label": "7681_0",
+    "en": "Checkered",
+    "jp": "格子"
+  },
+  {
+    "label": "7681_1",
+    "en": "Goldfish",
+    "jp": "金魚"
+  },
+  {
+    "label": "7681_2",
+    "en": "Camellia",
+    "jp": "椿"
+  },
+  {
+    "label": "7681_3",
+    "en": "Chain print",
+    "jp": "鎖"
+  },
+  {
+    "label": "7682_0",
+    "en": "Checkered",
+    "jp": "格子"
+  },
+  {
+    "label": "7682_1",
+    "en": "Goldfish",
+    "jp": "金魚"
+  },
+  {
+    "label": "7682_2",
+    "en": "Camellia",
+    "jp": "椿"
+  },
+  {
+    "label": "7682_3",
+    "en": "Chain print",
+    "jp": "鎖"
+  },
+  {
+    "label": "7802_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "7802_1",
+    "en": "Moss green",
+    "jp": "モスグリーン"
+  },
+  {
+    "label": "7802_2",
+    "en": "Polka dots",
+    "jp": "水玉柄"
+  },
+  {
+    "label": "7802_3",
+    "en": "Checkered",
+    "jp": "チェック柄"
+  },
+  {
+    "label": "7802_4",
+    "en": "Floral",
+    "jp": "子花柄"
+  },
+  {
+    "label": "8096_0",
+    "en": "None",
+    "jp": "なし"
+  },
+  {
+    "label": "8096_1",
+    "en": "Logo",
+    "jp": "ロゴ"
+  },
+  {
+    "label": "8096_2",
+    "en": "Sunset",
+    "jp": "サンセット"
+  },
+  {
+    "label": "8096_3",
+    "en": "Various",
+    "jp": "ランダム"
+  },
+  {
+    "label": "8298_0",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "8298_1",
+    "en": "Striped",
+    "jp": "ストライプ"
+  },
+  {
+    "label": "8298_2",
+    "en": "Checkered",
+    "jp": "チェック"
+  },
+  {
+    "label": "8298_3",
+    "en": "Space",
+    "jp": "コスモ"
+  },
+  {
+    "label": "8298_4",
+    "en": "Colorful lines",
+    "jp": "カラフルライン"
+  },
+  {
+    "label": "12410_0",
+    "en": "Message",
+    "jp": "メッセージ"
+  },
+  {
+    "label": "12410_1",
+    "en": "Reese & Cyrus",
+    "jp": "リサ＆カイゾー"
+  },
+  {
+    "label": "5397_0",
+    "en": "Green",
+    "jp": "グリーン"
+  },
+  {
+    "label": "5397_1",
+    "en": "Red",
+    "jp": "レッド"
+  },
+  {
+    "label": "5397_2",
+    "en": "Pink",
+    "jp": "ピンク"
+  },
+  {
+    "label": "5397_3",
+    "en": "Black",
+    "jp": "ブラック"
+  },
+  {
+    "label": "5397_4",
+    "en": "White",
+    "jp": "ホワイト"
+  },
+  {
+    "label": "5397_5",
+    "en": "Blue",
+    "jp": "ブルー"
+  },
+  {
+    "label": "5397_6",
+    "en": "Yellow",
+    "jp": "イエロー"
+  },
+  {
+    "label": "5397_7",
+    "en": "Beige",
+    "jp": "ベージュ"
+  }
+];

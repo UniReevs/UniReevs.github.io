@@ -15,7 +15,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+[data-test='false'] ~ .item-test .name {
+  display: none;
 
+}
 .count {
   position: absolute;
   left: 5px;
