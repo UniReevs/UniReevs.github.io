@@ -92,7 +92,11 @@ $(element.nav.main)
   $(element.itemList).attr('data-view', value);
 });
 
-$('#js-item-list').on('click', '.variant', function() {
+$('#js-item-list').on('click', '.js-user-input', function(event) {
+  event.stopPropagation();
+});
+
+$('#js-item-list').on('click', '.item-pattern, .item-variant', function() {
   let $this = $(this),
       $parent = $this.parents('.item');
   $this.toggleClass(className.selected);

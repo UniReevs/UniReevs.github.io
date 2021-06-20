@@ -1,6 +1,4 @@
-let itemIdName = 'ClothGroupID';
-itemIdName = 'InternalID';
-let itemID = itemIdName,
+let itemID = 'InternalID',
     category = 'wallMounted',
     searchText = '_'+capitalizeFirstLetter(category)+'_',
     variantID = 'VariantID',

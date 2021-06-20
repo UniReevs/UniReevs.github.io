@@ -1,78 +1,145 @@
 .name {
   text-transform: capitalize;
 }
+
 .en,
 .count,
-.price {
+.price,
+.diy-info,
+.item-pattern,
+.item-variant {
   font-size: smaller;
 }
 
-.variations {
-  // &::before {
-  //   $size: 8px;
-
-  //   content: '';
-  //   display: inline-block;
-  //   width: $size;
-  //   height: $size;
-  //   border-radius: 50%;
-  //   background: #cc5649;
-  //   margin-right: 3px;
-  // }
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .count {
   position: absolute;
   left: 5px;
   top: 3px;
-}
 
-.patterns {
-  &::before {
-    content: 'x ';
+  .variants {
+    // &::before {
+    //   $size: 8px;
+
+    //   content: '';
+    //   display: inline-block;
+    //   width: $size;
+    //   height: $size;
+    //   border-radius: 50%;
+    //   background: #cc5649;
+    //   margin-right: 3px;
+    // }
+  }
+
+  .patterns {
+    &::before {
+      content: 'x ';
+    }
   }
 }
 
+.price {
+  .kit-cost,
+  .buy,
+  .sell {
+    background-repeat: no-repeat;
+    background-size: 13px;
+    padding-left: 15px;
+    margin-left: 5px;
+  }
+  .buy {
+    background-image: url(../img/1.10.0/MenuIcon/MoneyBag039Cropped.png);
+  }
+  .kit-cost {
+    background-image: url(../img/1.10.0/MenuIcon/RemakeKitCropped.png);
+  }
 
-
-.buy,
-.sell {
-  background-repeat: no-repeat;
-  background-size: 13px;
-  padding-left: 15px;
+  .sell {
+    background-image: url(../img/1.10.0/MenuIcon/CoinCropped.png);
+    background-position-y: 3px;
+  }
 }
-.buy {
-  background-image: url(../img/1.10.0/MenuIcon/MoneyBag039Cropped.png);
+
+.item-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
 }
 
-.sell {
-  background-image: url(../img/1.10.0/MenuIcon/CoinCropped.png);
-  background-position-y: 3px;
-}
-
-[data-price='-1'] {
-  color: transparent;
+.diy-info {
+  background: #fff;
+  padding: 3px;
+  border: 1px solid #000;
+  margin: 5px;
+  border-radius: 3px;
 
   img {
-    display: none;
+    max-height: 18px;
+    vertical-align: top;
   }
 }
 
-
-[data-view='grid'],
-[data-view='group'] {
+.materials-required {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 
-  .item {
-    border: 3px solid $color-gray;
-  }
-  .info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 7px;
+    margin-right: 10px;
   }
 }
+
+.required-amount {
+  margin-left: -8px;
+
+  &::after {
+    content: ' x';
+  }
+}
+
+.user-input {
+  display: block;
+  text-align: center;
+  visibility: hidden;
+  margin-bottom: 2px;
+}
+
+.is-selected {
+  .user-input {
+    visibility: visible;
+  }
+}
+
+// [data-price='-1'] {
+//   color: transparent;
+
+//   img {
+//     display: none;
+//   }
+// }
+
+
+// [data-view='grid'],
+// [data-view='group'] {
+//   display: flex;
+//   flex-wrap: wrap;
+
+//   .item {
+//     border: 3px solid $color-gray;
+//   }
+//   .info {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//   }
+// }
 
 // [data-view='list'] {
 //   .item {
@@ -117,29 +184,6 @@
 //   }
 // }
 
-.variants {
-  display: flex;
-  justify-content: center;
-  border-radius: 3px;
-  flex-wrap: wrap;
-}
-
-.item-variant {
-  $size: 70px;
-  $h: $size + 10;
-  min-width: $size;
-  min-height: $h;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // flex-direction: column;
-  position: relative;
-  border: 1px solid $color-gray;
-  padding: 2px;
-  margin: 1px;
-  background: #fff;
-  cursor: pointer;
-}
 .item {
   border-radius: 5px;
   margin: 2px;
@@ -147,21 +191,41 @@
   text-align: center;
   position: relative;
   min-width: 200px;
-  display: none;
+  // display: none;
   background: #e0e0e0;
+  border: 3px solid $color-gray;
 
   &.is-selected {
     border-color: #000;
   }
 }
 
-.item-image {
-  $size: 40px;
-  max-width: $size;
-  max-height: $size;
-  margin-top: 20px;
+.variants-patterns {
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  flex-wrap: wrap;
 }
-.variant {
+
+// .test {
+//   $size: 70px;
+//   $h: $size + 10;
+//   min-width: $size;
+//   min-height: $h;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   // flex-direction: column;
+//   position: relative;
+//   border: 1px solid $color-gray;
+//   padding: 2px;
+//   margin: 1px;
+//   background: #fff;
+//   cursor: pointer;
+// }
+
+.item-variant,
+.item-pattern {
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -178,21 +242,21 @@
 }
 
 
-.group {
-  margin: 5px 2px;
-  a {
-    color: #000;
-    display: inline-block;
-    padding: 5px 5px 4px;
-    // background: #ffffdd;
-  }
-}
+// .group {
+//   margin: 5px 2px;
+//   a {
+//     color: #000;
+//     display: inline-block;
+//     padding: 5px 5px 4px;
+//     // background: #ffffdd;
+//   }
+// }
 
-.map {
-  // position: absolute;
-  // top: 0;
-  // right: 0;
-}
+// .map {
+//   // position: absolute;
+//   // top: 0;
+//   // right: 0;
+// }
 
 // .item[data-source="C.J."] {
 //   display: block;
@@ -200,56 +264,66 @@
 // }
 
 
-[data-everything='true'] .item,
-[data-bags='true'] .item[data-category='bags'],
-[data-swimwear='true'] .item[data-category='swimwear'],
-[data-miscellaneous='true'] .item[data-category='misc'],
-[data-housewares='true'] .item[data-category='housewares'],
-[data-villagers='true'] .item[data-category='villagers'],
-[data-materials='true'] .item[data-category='materials'],
-[data-bottoms='true'] .item[data-category='bottoms'],
-[data-tops='true'] .item[data-category='tops'],
-[data-art='true'] .item[data-category='art'],
-[data-recipes='true'] .item[data-category='recipes'],
-[data-dresses='true'] .item[data-category='dresses'],
-[data-umbrellas='true'] .item[data-category='umbrellas'],
-[data-wall-mounted='true'] .item[data-category='wall-mounted'],
-[data-fossils='true'] .item[data-category='fossils'],
-[data-tools='true'] .item[data-category='tools'],
-[data-headwear='true'] .item[data-category='headwear'],
-[data-floors='true'] .item[data-category='floors'],
-[data-photos='true'] .item[data-category='photos'],
-[data-music='true'] .item[data-category='music'],
-[data-events='true'] .item[data-category='events'],
-[data-shoes='true'] .item[data-category='shoes'],
-[data-rugs='true'] .item[data-category='rugs'],
-[data-posters='true'] .item[data-category='posters'],
-[data-accessories='true'] .item[data-category='accessories'],
-[data-socks='true'] .item[data-category='socks'],
-[data-wallpaper='true'] .item[data-category='wallpaper'],
-[data-special='true'] .item[data-category='special'],
-[data-fencing='true'] .item[data-category='fencing'] {
-  display: block;
-}
+// [data-everything='true'] .item,
+// [data-bags='true'] .item[data-category='bags'],
+// [data-swimwear='true'] .item[data-category='swimwear'],
+// [data-miscellaneous='true'] .item[data-category='misc'],
+// [data-housewares='true'] .item[data-category='housewares'],
+// [data-villagers='true'] .item[data-category='villagers'],
+// [data-materials='true'] .item[data-category='materials'],
+// [data-bottoms='true'] .item[data-category='bottoms'],
+// [data-tops='true'] .item[data-category='tops'],
+// [data-art='true'] .item[data-category='art'],
+// [data-recipes='true'] .item[data-category='recipes'],
+// [data-dresses='true'] .item[data-category='dresses'],
+// [data-umbrellas='true'] .item[data-category='umbrellas'],
+// [data-wall-mounted='true'] .item[data-category='wall-mounted'],
+// [data-fossils='true'] .item[data-category='fossils'],
+// [data-tools='true'] .item[data-category='tools'],
+// [data-headwear='true'] .item[data-category='headwear'],
+// [data-floors='true'] .item[data-category='floors'],
+// [data-photos='true'] .item[data-category='photos'],
+// [data-music='true'] .item[data-category='music'],
+// [data-events='true'] .item[data-category='events'],
+// [data-shoes='true'] .item[data-category='shoes'],
+// [data-rugs='true'] .item[data-category='rugs'],
+// [data-posters='true'] .item[data-category='posters'],
+// [data-accessories='true'] .item[data-category='accessories'],
+// [data-socks='true'] .item[data-category='socks'],
+// [data-wallpaper='true'] .item[data-category='wallpaper'],
+// [data-special='true'] .item[data-category='special'],
+// [data-fencing='true'] .item[data-category='fencing'] {
+//   display: block;
+// }
 
-.item[data-buy='-1'] {
-  background: #ded6bc;
-}
+// .item[data-buy='-1'] {
+//   background: #ded6bc;
+// }
 
 .item[data-source='Crafting'] {
   background: #c8e6b7;
 }
 
-.item[data-source='Nook Miles'] {
+.item[data-source='Nook-Miles'] {
   background: #caebf5;
 }
 
-// [data-id='4041'] {
-//   .variant {
-
-//   }
+// [data-count='1'] .variants .name {
+//   display: none;
 // }
 
-[data-count='1'] .variants .name {
-  display: none;
-}
+
+
+// [data-option-english='true'] .en,
+// [data-option-japanese='true'] .jp,
+// [data-option-patterns='true'],
+// [data-option-buy='true'],
+// [data-option-sell='true'],
+// [data-option-category='true'],
+// [data-option-source='true'],
+// [data-option-count-patterns='true'],
+// [data-option-count-variants='true'],
+// [data-option-kit='false'],
+// [data-option-required-materials='false'],
+// [data-option-image='L'] {}
+

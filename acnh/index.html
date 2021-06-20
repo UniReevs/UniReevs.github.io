@@ -14,22 +14,28 @@
           <div class="options">
       <a href="#" id="js-options"><span class="material-icons">settings</span></a>
       <div class="options-box">
-        <label><input type="checkbox" checked>英語</label>
-        <label><input type="checkbox" checked>日本語</label>
-        <label><input type="checkbox" checked>パターン</label>
-        <label><input type="checkbox" checked>売値</label>
-        <label><input type="checkbox" checked>買値</label>
-        <label><input type="checkbox" checked>カテゴリーアイコン</label>
-        <label><input type="checkbox" checked>入手先アイコン</label>
-        <label><input type="checkbox" checked>バリエーション数</label>
-        <label><input type="checkbox" checked>パターン数</label>
-        <label><input type="radio" name="image-size">画像なし</label>
-        <label><input type="radio" name="image-size">画像S</label>
-        <label><input type="radio" name="image-size">画像M</label>
-        <label><input type="radio" name="image-size" checked>画像L</label>
+        <label class="button-switch"><input type="checkbox">英語</label>
+        <label class="button-switch"><input type="checkbox" checked>日本語</label>
+        <label class="button-switch"><input type="checkbox">パターン</label>
+        <label class="button-switch"><input type="checkbox" checked><img src="assets/img/1.10.0/MenuIcon/MoneyBag039Cropped.png" alt="">売値</label>
+        <label class="button-switch"><input type="checkbox" checked><img src="assets/img/1.10.0/MenuIcon/CoinCropped.png" alt="">買取</label>
+        <label class="button-switch"><input type="checkbox" checked><img src="assets/img/categories/housewares.png" alt="">カテゴリ</label>
+        <label class="button-switch"><input type="checkbox" checked><img src="assets/img/1.10.0/MenuIcon/DIYRecipeFtrCropped.png" alt="">入手先</label>
+        <label class="button-switch"><input type="checkbox" checked>バリエーション数</label>
+        <label class="button-switch"><input type="checkbox">パターン数</label>
+        <label class="button-switch"><input type="checkbox"><img src="assets/img/1.10.0/MenuIcon/RemakeKitCropped.png" alt="">リメイクコスト</label>
+        <label class="button-switch"><input type="checkbox">必要な素材</label>
+
+        <div class="button-switch">
+          画像
+          <label><input type="radio" name="image-size">なし</label>
+          <label><input type="radio" name="image-size">S</label>
+          <label><input type="radio" name="image-size">M</label>
+          <label><input type="radio" name="image-size" checked>L</label>
+        </div>
 
       </div>
-     <!--  <div class="view-options">
+      <!-- <div class="view-options">
         <a href="xxx.html" class="js-switch-view view is-active" data-view="group"><img src="assets/img/svg/group.svg" alt=""></a>
         <a href="xxx.html" class="js-switch-view view" data-view="grid"><img src="assets/img/svg/grid.svg" alt=""></a>
         <a href="xxx.html" class="js-switch-view view" data-view="list"><img src="assets/img/svg/list.svg" alt=""></a>
@@ -253,23 +259,23 @@
       <span class="menu-text">たぬき商店</span>
       <img src="assets/img/1.10.0/NpcIcon/rcm.png" alt="">
     </a>
-    <a href="#" class="not js-filter js-not">
+  <!--   <a href="#" class="not js-filter js-not">
       <span class="menu-text">以外</span>
       <span class="material-icons">block</span>
     </a>
     <a href="#" class="and js-filter js-and">
       <span class="menu-text">と</span>
       <span class="material-icons">add_circle_outline</span>
-    </a>
+    </a> -->
   </div>
   <div class="menu tom-nook">
-    <a href="#" class="js-menu" data-source="Tom Nook">
+    <a href="#" class="js-menu" data-source="TomNook">
       <span class="menu-text">たぬきち</span>
       <img src="assets/img/1.10.0/NpcIcon/rco.png" alt="">
     </a>
   </div>
   <div class="menu mabel">
-    <a href="#" class="js-menu" data-source="Able Sisters">
+    <a href="#" class="js-menu" data-source="AbleSisters">
       <span class="menu-text">エーブル</span>
       <img src="assets/img/1.10.0/NpcIcon/hgh.png" alt="">
     </a>
@@ -428,7 +434,7 @@
     </a>
   </div>
   <div class="menu nmt">
-    <a href="#" class="js-menu" data-source="Nook Miles">
+    <a href="#" class="js-menu" data-source="NookMiles">
       <span class="menu-text">マイル</span>
       <img src="assets/img/icons/nook-miles.png" alt="">
     </a>
@@ -436,13 +442,13 @@
   <div class="menu mother">
     <a href="#" class="js-menu" data-source="Mom">
       <span class="menu-text">かあさん</span>
-      <img src="assets/img/1.10.0/ClosetIcon/BagBackpackQuilt1Cropped.png" alt="">
+      <img src="assets/img/1.10.0/ClosetIcon/TopsTexTopCoatLMother0Cropped.png" alt="">
     </a>
   </div>
   <div class="menu mother">
     <a href="#" class="js-menu" data-source="Birthday">
       <span class="menu-text">誕生日</span>
-      <img src="assets/img/1.10.0/ClosetIcon/AccessoryGlassBirthday0Cropped.png" alt="">
+      <img src="assets/img/1.10.0/FtrIcon/FtrBirthdayCake_Remake_0_0Cropped.png" alt="">
     </a>
   </div>
   <div class="menu not-for-sale">
@@ -451,11 +457,22 @@
       <img src="assets/img/icons/nfs.png" alt="">
     </a>
   </div>
+  <div class="menu not-in-catalog">
+    <a href="#" class="js-menu" data-source="NotInCatalog">
+      <span class="menu-text">カタログ掲載なし</span>
+      <!-- <span class="material-icons">menu_book</span> -->
+      <span class="material-icons">block</span>
+    </a>
+  </div>
+  <div>
+    <label><input type="checkbox">&amp;</label>
+  </div>
 </div>
 
     </div>
     <main class="app-content">
       <div class="main-content"
+
         data-everything="false"
         data-bags="false"
         data-swimwear="false"
@@ -486,135 +503,412 @@
         data-special="false"
         data-fencing="false"
 
+        data-option-english="true"
+        data-option-japanese="true"
+        data-option-patterns="true"
+        data-option-buy="true"
+        data-option-sell="true"
+        data-option-category="true"
+        data-option-source="true"
+        data-option-count-patterns="true"
+        data-option-count-variants="true"
+        data-option-kit="false"
+        data-option-required-materials="false"
+        data-option-image="L"
+
+
         id="js-category-filter">
 
-        <ul class="item-list" id="js-item-list" data-view="group" data-category="housewares">
+        <ul class="item-list" id="xjs-item-list" data-view="group" data-category="housewares">
           
 
-<li class="item" data-sell="337" data-buy="1350" data-id="13821" data-category="housewares" data-source="Nook Shopping Promotion" data-event="Super Mario Bros." data-count='1'>
-  <div class="item-header">
-    <div class="name">ハテナブロック</div>
-    <div class="name en">? Block</div>
-    <div class="info">
-      <div class="count">1</div>
-      <i class="category"></i>
-      <i class="icon"></i>
-      <div class="price">
-        <span class="buy">1350</span>
-        <span class="sell">337</span>
-      </div>
-    </div>
-    <ul class="variants">
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrMarioSquareACropped.png">
-        <div class="name">null</div>
-        <div class="name en">false</div>
-      </li>
-    </ul>
-  </div>
-</li>
 
-<li class="item" data-sell="3600" data-buy="-1" data-id="4041" data-category="housewares" data-source="Crafting" data-event="false">
+
+<li class="item" data-sell="3600" data-buy="-1" data-id="4041" data-category="housewares" data-source="Nook-Miles" data-event="false">
+
   <div class="item-header">
-    <div class="name">まるたのベッド</div>
-    <div class="name en">log bed</div>
-    <div class="info">
+    <div class="name jp">asdasdasdad</div>
+    <div class="name en">a bed</div>
+    <div class="diy-info">
+      <ul class="materials-required">
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+      </ul>
+    </div>
+    <div class="item-info">
       <div class="icons">
         <i class="category"></i>
         <i class="icon"></i>
       </div>
       <div class="count">
-        <span class="variations">4</span>
+        <span class="variants">4</span>
         <span class="patterns">4</span>
       </div>
       <div class="price">
+        <span class="kit-cost">6</span>
         <span class="buy">500</span>
         <span class="sell">3600</span>
       </div>
     </div>
-    <ul class="variants">
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
-        <div class="name">ダークウッド</div>
-        <div class="name en">Dark wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_1Cropped.png">
-        <div class="name">ダークウッド</div>
-        <div class="name en">Dark wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_2Cropped.png">
-        <div class="name">ダークウッド</div>
-        <div class="name en">Dark wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_3Cropped.png">
-        <div class="name">ダークウッド</div>
-        <div class="name en">Dark wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_1_0Cropped.png">
-        <div class="name">オレンジウッド</div>
-        <div class="name en">Orange wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_1_1Cropped.png">
-        <div class="name">オレンジウッド</div>
-        <div class="name en">Orange wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_1_2Cropped.png">
-        <div class="name">オレンジウッド</div>
-        <div class="name en">Orange wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_1_3Cropped.png">
-        <div class="name">オレンジウッド</div>
-        <div class="name en">Orange wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_2_0Cropped.png">
-        <div class="name">ホワイトウッド</div>
-        <div class="name en">White wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_2_1Cropped.png">
-        <div class="name">ホワイトウッド</div>
-        <div class="name en">White wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_2_2Cropped.png">
-        <div class="name">ホワイトウッド</div>
-        <div class="name en">White wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_2_3Cropped.png">
-        <div class="name">ホワイトウッド</div>
-        <div class="name en">White wood</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_3_0Cropped.png">
-        <div class="name">白樺</div>
-        <div class="name en">White birch</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_3_1Cropped.png">
-        <div class="name">白樺</div>
-        <div class="name en">White birch</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_3_2Cropped.png">
-        <div class="name">白樺</div>
-        <div class="name en">White birch</div>
-      </li>
-      <li class="variant">
-        <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_3_3Cropped.png">
-        <div class="name">白樺</div>
-        <div class="name en">White birch</div>
-      </li>
-    </ul>
   </div>
+  <ul class="variants-patterns">
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<li class="item" data-sell="3600" data-buy="-1" data-id="4041" data-category="housewares" data-source="Nook-Miles" data-event="false">
+
+  <div class="item-header">
+    <div class="name jp">asdasdasdad</div>
+    <div class="name en">a bed</div>
+    <div class="diy-info">
+      <ul class="materials-required">
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+      </ul>
+    </div>
+    <div class="item-info">
+      <div class="icons">
+        <i class="category"></i>
+        <i class="icon"></i>
+      </div>
+      <div class="count">
+        <span class="variants">4</span>
+        <span class="patterns">4</span>
+      </div>
+      <div class="price">
+        <span class="kit-cost">6</span>
+        <span class="buy">500</span>
+        <span class="sell">3600</span>
+      </div>
+    </div>
+  </div>
+  <ul class="variants-patterns">
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li class="item" data-sell="3600" data-buy="-1" data-id="4041" data-category="housewares" data-source="Nook-Miles" data-event="false">
+
+  <div class="item-header">
+    <div class="name jp">asdasdasdad</div>
+    <div class="name en">a bed</div>
+    <div class="diy-info">
+      <ul class="materials-required">
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+      </ul>
+    </div>
+    <div class="item-info">
+      <div class="icons">
+        <i class="category"></i>
+        <i class="icon"></i>
+      </div>
+      <div class="count">
+        <span class="variants">4</span>
+        <span class="patterns">4</span>
+      </div>
+      <div class="price">
+        <span class="kit-cost">6</span>
+        <span class="buy">500</span>
+        <span class="sell">3600</span>
+      </div>
+    </div>
+  </div>
+  <ul class="variants-patterns">
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li class="item" data-sell="3600" data-buy="-1" data-id="4041" data-category="housewares" data-source="Nook-Miles" data-event="false">
+
+  <div class="item-header">
+    <div class="name jp">asdasdasdad</div>
+    <div class="name en">a bed</div>
+    <div class="diy-info">
+      <ul class="materials-required">
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+      </ul>
+    </div>
+    <div class="item-info">
+      <div class="icons">
+        <i class="category"></i>
+        <i class="icon"></i>
+      </div>
+      <div class="count">
+        <span class="variants">4</span>
+        <span class="patterns">4</span>
+      </div>
+      <div class="price">
+        <span class="kit-cost">6</span>
+        <span class="buy">500</span>
+        <span class="sell">3600</span>
+      </div>
+    </div>
+  </div>
+  <ul class="variants-patterns">
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li class="item" data-sell="3600" data-buy="-1" data-id="4041" data-category="housewares" data-source="Nook-Miles" data-event="false">
+
+  <div class="item-header">
+    <div class="name jp">asdasdasdad</div>
+    <div class="name en">a bed</div>
+    <div class="diy-info">
+      <ul class="materials-required">
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+      </ul>
+    </div>
+    <div class="item-info">
+      <div class="icons">
+        <i class="category"></i>
+        <i class="icon"></i>
+      </div>
+      <div class="count">
+        <span class="variants">4</span>
+        <span class="patterns">4</span>
+      </div>
+      <div class="price">
+        <span class="kit-cost">6</span>
+        <span class="buy">500</span>
+        <span class="sell">3600</span>
+      </div>
+    </div>
+  </div>
+  <ul class="variants-patterns">
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li class="item" data-sell="3600" data-buy="-1" data-id="4041" data-category="housewares" data-source="Nook-Miles" data-event="false">
+
+  <div class="item-header">
+    <div class="name jp">asdasdasdad</div>
+    <div class="name en">a bed</div>
+    <div class="diy-info">
+      <ul class="materials-required">
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+      </ul>
+    </div>
+    <div class="item-info">
+      <div class="icons">
+        <i class="category"></i>
+        <i class="icon"></i>
+      </div>
+      <div class="count">
+        <span class="variants">4</span>
+        <span class="patterns">4</span>
+      </div>
+      <div class="price">
+        <span class="kit-cost">6</span>
+        <span class="buy">500</span>
+        <span class="sell">3600</span>
+      </div>
+    </div>
+  </div>
+  <ul class="variants-patterns">
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<li class="item" data-sell="3600" data-buy="-1" data-id="4041" data-category="housewares" data-source="Crafting" data-event="false">
+
+  <div class="item-header">
+    <div class="name jp">まるたのベッド</div>
+    <div class="name en">log bed</div>
+    <div class="diy-info">
+      <ul class="materials-required">
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+        <li>
+          <span class="required-amount">30</span>
+          <img src="assets/img/1.10.0/FtrIcon/DIYWoodHardCropped.png">
+          <span class="required-material-name">Hardwood</span>
+        </li>
+      </ul>
+    </div>
+    <div class="item-info">
+      <div class="icons">
+        <i class="category"></i>
+        <i class="icon"></i>
+      </div>
+      <div class="count">
+        <span class="variants">4</span>
+        <span class="patterns">4</span>
+      </div>
+      <div class="price">
+        <span class="kit-cost">6</span>
+        <span class="buy">500</span>
+        <span class="sell">3600</span>
+      </div>
+    </div>
+  </div>
+  <ul class="variants-patterns">
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_1Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_2Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_3Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+      </ul>
+    </li>
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+          <div class="pattern-name">
+            <div class="name">ダード</div>
+          <div class="name en">Gomes</div>
+          </div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_1Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_2Cropped.png">
+          <div class="name jp">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_3Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+      </ul>
+    </li>
+    <li class="variant-group">
+      <ul class="patterns">
+        <li class="item-variant">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_0Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_1Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_2Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+        <li class="item-pattern">
+          <img src="assets/img/1.10.0/FtrIcon/FtrLogBedW_Remake_0_3Cropped.png">
+          <div class="name">ダークウッド</div>
+          <div class="name en">Dark wood</div>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </li>
 
         </ul>
@@ -626,10 +920,12 @@
        <script src="src/js/jquery.js"></script>
 
 
-<!--     <script src="src/data/init.js"></script>
+    <script src="src/data/init.js"></script>
 
     <script src="src/data/sheet-csv/csv.js"></script>
+    <script src="src/data/sheet-csv/csv-housewares.js"></script>
     <script src="src/data/sheet-csv/csv-wallMounted.js"></script>
+    <script src="src/data/sheet-csv/csv-miscellaneous.js"></script>
 
     <script src="src/data/translation/fashion-bags.js"></script>
     <script src="src/data/translation/fashion-swimwear.js"></script>
@@ -690,11 +986,11 @@
     <script src="src/data/items/diy-fencing.js"></script>
 
 
-    <script src="src/data/translation.js"></script> -->
+    <script src="src/data/translation.js"></script>
 
-    <!-- <script src="src/js/functions.js"></script> -->
+    <script src="src/js/functions.js"></script>
     <script src="src/js/events.js"></script>
-    <!-- <script src="src/js/main.js"></script> -->
+    <script src="src/js/main.js"></script>
 
 
   </div>

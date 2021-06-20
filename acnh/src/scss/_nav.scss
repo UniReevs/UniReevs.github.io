@@ -69,27 +69,27 @@ a:hover {
 }
 
 
-// .view {
-//   position: relative;
+.view {
+  position: relative;
 
-//   &::after {
-//     position: absolute;
-//     content: '';
-//     display: block;
-//     height: 5px;
-//     bottom: 0;
-//     margin: auto;
-//     left: 3px;
-//     right: 3px;
-//     border-radius: 10px;
-//   }
-//   &.is-active,
-//   &:hover {
-//     &::after {
-//       background: $color-orange;
-//     }
-//   }
-// }
+  &::after {
+    // position: absolute;
+    content: '';
+    display: block;
+    height: 5px;
+    bottom: 0;
+    margin: auto;
+    left: 3px;
+    right: 3px;
+    border-radius: 10px;
+  }
+  &.is-active,
+  &:hover {
+    &::after {
+      background: $color-orange;
+    }
+  }
+}
 
 .npc-nav {
   background: #9a8d7d;
@@ -139,12 +139,28 @@ a:hover {
     border-radius: 5px;
     background: rgba(225, 225, 225, .5);
     position: relative;
-    min-width: 50px;
+    min-width: 40px;
     text-align: center;
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
 
     &:hover .only .menu-text {
       display: block;
     }
   }
+}
+.options {
+  font-size: smaller;
+
+  img {
+    height: 20px;
+    vertical-align: middle;
+  }
+}
+
+.button-switch {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 20px;
+  background: #ccc;
+  padding: 3px;
 }
