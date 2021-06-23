@@ -213,6 +213,9 @@
 //   display: none;
 // }
 
+[data-crafting='true'] [data-source='Crafting'] + .item ,
+[data-nfs='true'] [data-buy='-1']:not([data-source='Crafting']):not([data-source='Nook Miles Redemption']) + .item ,
+[data-nic='true'] [data-catalog='Not in catalog'] + .item ,
 [data-redd='true'] [data-source='Redd'] + .item ,
 [data-trawler='true'] [data-source='Trawler'] + .item ,
 [data-kk='true'] [data-source='K.K. concert'] + .item ,
@@ -254,7 +257,6 @@
 [data-pave='true'] [data-source='Pave'] + .item ,
 [data-promotion='true'] [data-source='ShoppingPromotion'] + .item ,
 [data-seasonal='true'] [data-source='ShoppingSeasonal'] + .item ,
-[data-crafting='true'] [data-source='Crafting'] + .item ,
 [data-cranny='true'] [data-source='Cranny'] + .item {
   display: block;
 }
