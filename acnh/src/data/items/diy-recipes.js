@@ -1,4 +1,4 @@
-diy.recipes = [
+itemData.recipes = [
   {
     "name": {
       "en": "acorn pochette",

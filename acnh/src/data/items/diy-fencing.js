@@ -1,653 +1,1073 @@
-diy.fencing = [
+itemData.fencing = [
   {
-    "name": {
-      "en": "bamboo lattice fence",
-      "jp": "たけがき"
+    name: {
+      en: "bamboo lattice fence",
+      jp: "たけがき"
     },
-    "id": 3403,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 96
+    id: 3403,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 96
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceBamboo"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceBamboo"
       }
     ]
   },
   {
-    "name": {
-      "en": "barbed-wire fence",
-      "jp": "ゆうしてっせん"
+    name: {
+      en: "barbed-wire fence",
+      jp: "ゆうしてっせん"
     },
-    "id": 5213,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 198
+    id: 5213,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 198
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceBarbedWire"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceBarbedWire"
       }
     ]
   },
   {
-    "name": {
-      "en": "brick fence",
-      "jp": "レンガのカベ"
+    name: {
+      en: "brick fence",
+      jp: "レンガのカベ"
     },
-    "id": 3080,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 120
+    id: 3080,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 120
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceWallRenga"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceWallRenga"
       }
     ]
   },
   {
-    "name": {
-      "en": "Bunny Day fence",
-      "jp": "イースターなさく"
+    name: {
+      en: "Bunny Day fence",
+      jp: "イースターなさく"
     },
-    "id": 12630,
-    "source": "Crafting",
-    "map": 0,
-    "event": "Bunny Day (ready days); Bunny Day",
-    "eventExclusive": "Yes",
-    "version": "1.1.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 240
+    id: 12630,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: "Bunny Day (ready days); Bunny Day",
+    exclusive: "TRUE",
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.1.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 240
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceEgg"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceEgg"
       }
     ]
   },
   {
-    "name": {
-      "en": "corral fence",
-      "jp": "よこいたのさく"
+    name: {
+      en: "corral fence",
+      jp: "よこいたのさく"
     },
-    "id": 4349,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 72
+    id: 4349,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 72
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceHorizontalWood"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceHorizontalWood"
       }
     ]
   },
   {
-    "name": {
-      "en": "country fence",
-      "jp": "まるたのさく"
+    name: {
+      en: "country fence",
+      jp: "まるたのさく"
     },
-    "id": 4350,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 72
+    id: 4350,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 72
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceLog"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceLog"
       }
     ]
   },
   {
-    "name": {
-      "en": "hedge",
-      "jp": "いけがき"
+    name: {
+      en: "hedge",
+      jp: "いけがき"
     },
-    "id": 12758,
-    "source": "Crafting",
-    "map": 0,
-    "event": "Nature Day",
-    "eventExclusive": false,
-    "version": "1.2.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 55
+    id: 12758,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: "Nature Day",
+    exclusive: "FALSE",
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.2.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 55
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceIkegaki"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceIkegaki"
       }
     ]
   },
   {
-    "name": {
-      "en": "imperial fence",
-      "jp": "オリエンタルなさく"
+    name: {
+      en: "imperial fence",
+      jp: "オリエンタルなさく"
     },
-    "id": 4354,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 120
+    id: 4354,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 120
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceChinese"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceChinese"
       }
     ]
   },
   {
-    "name": {
-      "en": "iron fence",
-      "jp": "てつのさく"
+    name: {
+      en: "iron fence",
+      jp: "てつのさく"
     },
-    "id": 4357,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 450
+    id: 4357,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 450
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceSteel"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceSteel"
       }
     ]
   },
   {
-    "name": {
-      "en": "iron-and-stone fence",
-      "jp": "ようふうのさく"
+    name: {
+      en: "iron-and-stone fence",
+      jp: "ようふうのさく"
     },
-    "id": 5206,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 315
+    id: 5206,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 315
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceIronAndStone"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceIronAndStone"
       }
     ]
   },
   {
-    "name": {
-      "en": "lattice fence",
-      "jp": "ラティス"
+    name: {
+      en: "lattice fence",
+      jp: "ラティス"
     },
-    "id": 11712,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 96
+    id: 11712,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 96
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceLatiiceNatural"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceLatiiceNatural"
       }
     ]
   },
   {
-    "name": {
-      "en": "mermaid fence",
-      "jp": "マーメイドなさく"
+    name: {
+      en: "mermaid fence",
+      jp: "マーメイドなさく"
     },
-    "id": 14278,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.7.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 1310
+    id: 14278,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.7.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 1310
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceMermaid"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceMermaid"
       }
     ]
   },
   {
-    "name": {
-      "en": "rope fence",
-      "jp": "ペグとロープ"
+    name: {
+      en: "rope fence",
+      jp: "ペグとロープ"
     },
-    "id": 4352,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 300
+    id: 4352,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 300
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFencePegRope"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFencePegRope"
       }
     ]
   },
   {
-    "name": {
-      "en": "simple wooden fence",
-      "jp": "そぼくなもくせいのさく"
+    name: {
+      en: "simple wooden fence",
+      jp: "そぼくなもくせいのさく"
     },
-    "id": 11711,
-    "source": "Crafting; Tom Nook",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 72
+    id: 11711,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 72
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceNatural"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceNatural"
       }
     ]
   },
   {
-    "name": {
-      "en": "spiky fence",
-      "jp": "トゲトゲのさく"
+    name: {
+      en: "spiky fence",
+      jp: "トゲトゲのさく"
     },
-    "id": 4358,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 96
+    id: 4358,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 96
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceSharply"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceSharply"
       }
     ]
   },
   {
-    "name": {
-      "en": "spooky fence",
-      "jp": "ハロウィンなさく"
+    name: {
+      en: "spooky fence",
+      jp: "ハロウィンなさく"
     },
-    "id": 13275,
-    "source": "Crafting",
-    "map": 0,
-    "event": "Halloween (ready days); Halloween",
-    "eventExclusive": "Yes",
-    "version": "1.5.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 585
+    id: 13275,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: "Halloween (ready days); Halloween",
+    exclusive: "TRUE",
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.5.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 585
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceHalloween"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceHalloween"
       }
     ]
   },
   {
-    "name": {
-      "en": "stone fence",
-      "jp": "いしかべ"
+    name: {
+      en: "stone fence",
+      jp: "いしかべ"
     },
-    "id": 5212,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 60
+    id: 5212,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 60
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceStone"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceStone"
       }
     ]
   },
   {
-    "name": {
-      "en": "straw fence",
-      "jp": "わらぼしのさく"
+    name: {
+      en: "straw fence",
+      jp: "わらぼしのさく"
     },
-    "id": 4356,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 56
+    id: 4356,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 56
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceDriedStraw"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceDriedStraw"
       }
     ]
   },
   {
-    "name": {
-      "en": "vertical-board fence",
-      "jp": "たていたのさく"
+    name: {
+      en: "vertical-board fence",
+      jp: "たていたのさく"
     },
-    "id": 3402,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 96
+    id: 3402,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 96
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceVerticalWood"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceVerticalWood"
       }
     ]
   },
   {
-    "name": {
-      "en": "wedding fence",
-      "jp": "ウェディングなさく"
+    name: {
+      en: "wedding fence",
+      jp: "ウェディングなさく"
     },
-    "id": 12894,
-    "source": "Crafting",
-    "map": 0,
-    "event": "Wedding Season",
-    "eventExclusive": "Yes",
-    "version": "1.2.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 411
+    id: 12894,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: "Wedding Season",
+    exclusive: "TRUE",
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.2.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 411
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceJuneBride"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceJuneBride"
       }
     ]
   },
   {
-    "name": {
-      "en": "zen fence",
-      "jp": "わふうのさく"
+    name: {
+      en: "zen fence",
+      jp: "わふうのさく"
     },
-    "id": 5207,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "category": "fencing",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 330
+    id: 5207,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    event: null,
+    exclusive: null,
+    hha: {
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    stackSize: 50,
+    type: {},
+    version: "1.0.0",
+    category: "fencing",
+    price: {
+      buy: -1,
+      sell: 330
     },
-    "variants": [
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "name": {
-          "jp": ""
+        colors: [
+          null,
+          null
+        ],
+        pattern: {
+          name: {
+            jp: null
+          }
         },
-        "isPattern": false,
-        "imageName": "ItemFenceJapanese"
+        variant: {
+          name: {
+            jp: null
+          }
+        },
+        imageName: "ItemFenceJapanese"
       }
     ]
   }
-];
+]

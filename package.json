@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/UniReevs/unireevs.github.io/issues"
   },
-  "homepage": "https://github.com/UniReevs/unireevs.github.io#readme"
+  "homepage": "https://github.com/UniReevs/unireevs.github.io#readme",
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
+  }
 }

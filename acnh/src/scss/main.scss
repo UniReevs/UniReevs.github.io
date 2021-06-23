@@ -15,11 +15,6 @@ html {
 *:after {
   box-sizing: inherit;
 }
-/*
-DF2935
-FDCA40
-E6E8E6
-*/
 select {
   padding: 5px;
 }
@@ -36,14 +31,7 @@ label {
 button {
   cursor: pointer;
 }
-.sticky {
-  // position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 1;
-  background: #fff;
-}
+
 .app-header {
   display: flex;
   justify-content: space-between;
@@ -52,76 +40,9 @@ button {
   background: #fff;
 }
 .app-content {
-  // padding-top: 142px;
   display: flex;
 }
 .main-content {
-  padding: 10px;
-  // margin-right: 11em;
+  padding: 5px;
   width: 100%;
 }
-
-// .list {
-//   margin-left: 5em;
-//   li {
-//     list-style: decimal;
-//   }
-// }
-
-.search {
-  position: relative;
-  .user-input {
-    border-radius: 30px;
-    display: inline-block;
-    width: 340px;
-    padding: 10px 10px 10px 35px;
-  }
-  .material-icons {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-  }
-}
-
-.filter-bar {
-  li {
-    display: inline-block;
-  }
-  label {
-    padding: 5px;
-  }
-}
-.filter {
-  width: 120px;
-}
-
-
-[data-category='Miscellaneous'],
-[data-category='Wall-mounted'],
-[data-category='Wallpaper'],
-[data-category='Floors'],
-[data-category='Rugs'],
-[data-category='Fencing'],
-[data-category='Photos'],
-[data-category='Posters'],
-[data-category='Tools'],
-[data-category='Tops'],
-[data-category='Bottoms'],
-[data-category='Dress-Up'],
-[data-category='Headwear'],
-[data-category='Accessories'],
-[data-category='Socks'],
-[data-category='Shoes'],
-[data-category='Bags'],
-[data-category='Umbrellas'],
-[data-category='Clothing-Other'],
-[data-category='Music'],
-[data-category='Fossils'],
-[data-category='Other'],
-[data-category='Art'],
-[data-category='Housewares']
-{
-  /*display: none;*/
-}
-
-

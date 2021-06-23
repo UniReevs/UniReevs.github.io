@@ -1,347 +1,243 @@
-.icon,
-.category {
+.icons .source,
+.icons .category {
   display: inline-block;
   background-repeat: no-repeat;
-  width: 20px;
-  height: 30px;
+  width: 15px;
+  height: 20px;
+  background-size: 20px;
+  background-position: -3px 0;
+}
+.icons .source {
+  width: 30px;
+  background-position: 0 0;
+}
+
+[data-source='ShoppingPromotion'] + .item .source {
+  background-image: url(../img/icons/nook-promotion.png);
+}
+[data-source='ShoppingSeasonal'] + .item .source {
+  background-image: url(../img/icons/nook-seasonal.png);
+  background-size: 19px;
+}
+[data-source='Crafting'] + .item .source {
+  background-image: url(../img/1.10.0/MenuIcon/DIYRecipeFtrCropped.png);
+  background-size: 18px;
+  background-position: 0 1px;
+}
+[data-source='Starting items'] + .item .source,
+[data-source='Cranny'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/rctCropped.png);
+  background-size: 18px;
+  background-position: 0 1px;
+}
+[data-source='CJ'] + .item .source {
+  background-image: url(../img/icons/cj.png);
+  background-position: -1px 0;
+}
+[data-source='Flick'] + .item .source {
+  background-image: url(../img/icons/flick.png);
+  background-position: -1px -1px;
+}
+[data-source='Birthday'] + .item .source {
+  background-image: url(../img/1.10.0/FtrIcon/FtrBirthdayCake_Remake_0_0Cropped.png);
+}
+
+[data-source='Nook Miles Redemption'] + .item .source {
+  background-image: url(../img/icons/nook-miles.png);
+  background-size: 30px;
+  background-position: -4px -5px;
+}
+[data-source='Pave'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/pckCropped.png);
+  background-size: 16px;
+}
+[data-source='Luna'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/tapCropped.png);
+}
+[data-source='Gulliver'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/gulCropped.png);
+  background-size: 25px;
+}
+[data-source='Gullivarrr'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/gulBCropped.png);
+  background-size: 30px;
+}
+[data-source='Jingle'] + .item .source,
+[data-source='Check Toy Day stockings the day after Toy Day'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/reiCropped.png);
+  background-size: 25px;
+  height: 21px;
+}
+[data-source='Cyrus'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/alwCropped.png);
+  background-size: 17px;
+}
+[data-source='Nintendo'] + .item .source {
+  background-image: url(../img/icons/nintendo.png);
+}
+[data-source='NookLink'] + .item .source {
+  background-image: url(../img/icons/nooklink.png);
+}
+[data-source='HHA'] + .item .source {
+  background-image: url(../img/1.10.0/FtrIcon/FtrTrophyHhaBronzeCropped.png);
+  background-size: 16px;
+}
+[data-source='Zipper'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/pynCropped.png);
+  background-size: 14px;
+}
+[data-source='Franklin'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/tukCropped.png);
+  background-size: 13px;
+}
+[data-source='DAL'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/docCropped.png);
+}
+[data-source='Mom'] + .item .source {
+  background-image: url(../img/1.10.0/ClosetIcon/TopsTexTopCoatLMother0Cropped.png);
+}
+[data-source='Photopia'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/spnCropped.png);
+}
+[data-source='Amiibo'] + .item .source {
+  background-image: url(../img/icons/amiibo.png);
+  background-position: 0 4px;
+}
+[data-source='Daily Selection'] + .item .source {
+  background-image: url(../img/icons/daily-selection.png);
+  background-size: 22px;
+  background-position: -4px -1px;
+}
+[data-source='Rover'] + .item .source,
+[data-source='May Day Tour'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/xctCropped.png);
+  background-size: 16px;
+}
+[data-source='Blathers'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/owlCropped.png);
   background-size: 20px;
 }
-
-[data-source='Nook-Shopping-Promotion'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/nook-promotion.png);
+[data-source='High Friendship'] + .item .source,
+[data-source='All villagers'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/bea13Cropped.png);
+  background-position: 0 2px;
 }
-[data-source='Nook-Shopping-Seasonal'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/nook-seasonal.png);
+[data-source='Jack'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/pknCropped.png);
+  background-position: 0 3px;
 }
-[data-source='Crafting'] .icon {
-  background-image: url(../img/1.10.0/MenuIcon/DIYRecipeFtrCropped.png);
-}
-[data-source='Nooks-Cranny'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/rct.png);
-}
-[data-source='C.J.'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/cj.png);
-}
-[data-source='Flick'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/flick.png);
-}
-[data-source='Birthday'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/birthday.png);
-}
-[data-source='Starting-items'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/starting-item.png);
-}
-[data-source='Nook-Miles-Redemption'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/nook-miles.png);
-}
-[data-source='Pavé'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/pck.png);
-}
-[data-source='Luna'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/luna.png);
-}
-[data-source='Gulliver'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/gulliver.png);
-}
-[data-source='Gullivarrr'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/gullivarrr.png);
-}
-[data-source='Jingle'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/jingle.png);
-}
-[data-source='Cyrus'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/alwCropped.png);
-}
-[data-source='Nintendo'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/nintendo.png);
-}
-[data-source='NookLink'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/nooklink.png);
-}
-[data-source='HHA'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/hha.png);
-}
-[data-source='Zipper'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/zipper.png);
-}
-[data-source='Franklin'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/franklin.png);
-}
-[data-source='Dodo-Airlines'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/dal.png);
-}
-[data-source='Mom'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/mother.png);
-}
-[data-source='Nook-Shopping-Daily-Selection'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/daily-selection.png);
-}
-[data-source='Rover'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/rover.png);
-}
-[data-source='Blathers'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/blathers.png);
-}
-[data-source='All-villagers'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/villager.png);
-}
-[data-source='Jack'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/jack.png);
-}
-[data-source='Saharah'] .icon {
+[data-source='Saharah'] + .item .source {
   background-image: url(../img/1.10.0/NpcIcon/cmlCropped.png);
+  background-position: 0 2px;
 }
-[data-source='High-Friendship'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/high-friendship.png);
+[data-source='Trawler'] + .item .source,
+[data-source='Redd'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/foxCropped.png);
+  background-size: 14px;
 }
-[data-source='Check-Toy-Day-stockings-the-day-after-Toy-Day'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
+[data-source='Isabelle'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/szaCropped.png);
 }
-[data-source='Nook-Shopping-Posters'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/poster.png);
+[data-source='Able Sisters'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/hghCropped.png);
 }
-[data-source='Redds-Raffle'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
+[data-source='Recycle box'] + .item .source {
+  background-image: url(../img/icons/bin.png);
+  background-size: 16px;
+  background-position: 0 3px;
 }
-[data-source='Isabelle'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/isabelle.png);
+[data-source='Label'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/hgcCropped.png);
 }
-[data-source='May-Day-Tour'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
+[data-source='Pascal'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/seoCropped.png);
 }
-[data-source='Able-Sisters'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/mable.png);
+[data-source='Tom Nook'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/rcoCropped.png);
 }
-[data-source='Recycle-box'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
+[data-source='Kicks'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/skkCropped.png);
+  background-size: 23px;
+  background-position: 0 3px;
 }
-[data-source='Label'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/label.png);
-}
-[data-source='Pascal'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Tom-Nook'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Kicks'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/kicks.png);
-}
-[data-source='K.K.-concert'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/kk.png);
-}
-[data-source='Assessing-fossils'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/fossil.png);
-}
-[data-source='Hardwood-Tree'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/tree.png);
-}
-[data-source='Planting-an-apple'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/apple.png);
-}
-[data-source='Wishing-on-shooting-stars'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/star.png);
-}
-[data-source='Chopping-a-bamboo-tree'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Dig-Spot'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Planting-a-bamboo-shoot'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Glowing-dig-spot'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Shaking-a-hardwood-or-cedar-tree'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/cedar-tree.png);
-}
-[data-source='Picking-flowers'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/flower.png);
-}
-[data-source='Breeding'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/breeding.png);
-}
-[data-source='Catching-with-a-net'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Cedar-Tree'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/cedar-tree.png);
-}
-[data-source='Digging-up-a-fully-grown-bush'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Leif'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Fishing'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Planting-a-cedar-sapling'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Planting-a-cherry'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Hitting-a-rock'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='On-ground'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Coconut-Tree'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Planting-a-coconut'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Dive-spot'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Clam-dig-spot'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Beach'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Nook-Shopping'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Delivering-item-for-a-villager'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Wrapping-a-present'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Picking-pumpkins'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Chopping-a-tree'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Planting-a-sapling'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Reese'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Snowboy'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='5-star-town-status'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Burying-bells-in-a-glowing-spot'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Planting-an-orange'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Seed-bag'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Planting-a-peach'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Planting-a-pear'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Mail'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Digging-up-a-pumpkin-plant'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Egg-balloon'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Expired-turnips'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Daisy-Mae'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/daisymae.png);
-}
-[data-source='Use-a-fountain-firework'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Dont-return-lost-item'] .icon {
-  // background-image: url(../img/1.10.0/NpcIcon/xxxxxx.png);
-}
-[data-source='Jolly-Redds-Treasure-Trawler'] .icon {
-  background-image: url(../img/1.10.0/NpcIcon/redd.png);
+[data-source='K.K. concert'] + .item .source {
+  background-image: url(../img/1.10.0/NpcIcon/tkkACropped.png);
 }
 
-
-[data-category='housewares'] .category {
+[data-category='housewares'] + .item .category {
   background-image: url(../img/categories/housewares.png);
 }
-[data-category='miscellaneous'] .category {
+[data-category='misc'] + .item .category {
   background-image: url(../img/categories/miscellaneous.png);
+  background-size: 25px;
+  background-position: -6px -3px;
 }
-[data-category='Wall-mounted'] .category {
+[data-category='wallMounted'] + .item .category {
   background-image: url(../img/categories/wall-mounted.png);
+  background-size: 22px;
 }
-[data-category='Wallpaper'] .category {
+[data-category='wallpaper'] + .item .category {
   background-image: url(../img/categories/wallpaper.png);
 }
-[data-category='Floors'] .category {
+[data-category='floors'] + .item .category {
   background-image: url(../img/categories/floors.png);
+  background-position: -2px -1px;
+  background-size: 24px;
+  width: 20px;
 }
-[data-category='Rugs'] .category {
+[data-category='rugs'] + .item .category {
   background-image: url(../img/categories/rugs.png);
 }
-[data-category='Fencing'] .category {
+[data-category='fencing'] + .item .category {
   background-image: url(../img/categories/fencing.png);
 }
-[data-category='Photos'] .category {
+[data-category='photos'] + .item .category {
   background-image: url(../img/categories/photos.png);
 }
-[data-category='Posters'] .category {
+[data-category='posters'] + .item .category {
   background-image: url(../img/categories/posters.png);
 }
-[data-category='Tools'] .category {
+[data-category='tools'] + .item .category {
   background-image: url(../img/categories/tools.png);
+  background-size: 25px;
+  background-position: -5px -1px;
 }
-[data-category='Tops'] .category {
+[data-category='tops'] + .item .category {
   background-image: url(../img/categories/tops.png);
 }
-[data-category='Bottoms'] .category {
+[data-category='bottoms'] + .item .category {
   background-image: url(../img/categories/bottoms.png);
 }
-[data-category='Dress-Up'] .category {
+[data-category='dresses'] + .item .category {
   background-image: url(../img/categories/dresses.png);
 }
-[data-category='Headwear'] .category {
+[data-category='headwear'] + .item .category {
   background-image: url(../img/categories/headwear.png);
 }
-[data-category='Accessories'] .category {
+[data-category='accessories'] + .item .category {
   background-image: url(../img/categories/accessories.png);
 }
-[data-category='Socks'] .category {
+[data-category='socks'] + .item .category {
   background-image: url(../img/categories/socks.png);
 }
-[data-category='Shoes'] .category {
+[data-category='shoes'] + .item .category {
   background-image: url(../img/categories/shoes.png);
 }
-[data-category='Bags'] .category {
+[data-category='bags'] + .item .category {
   background-image: url(../img/categories/bags.png);
 }
-[data-category='Umbrellas'] .category {
+[data-category='umbrellas'] + .item .category {
   background-image: url(../img/categories/umbrellas.png);
 }
-[data-category='Clothing-Other'] .category {
+[data-category='swimwear'] + .item .category {
   background-image: url(../img/categories/clothing-other.png);
 }
-[data-category='Music'] .category {
+[data-category='music'] + .item .category {
   background-image: url(../img/categories/music.png);
 }
-[data-category='Fossils'] .category {
+[data-category='fossils'] + .item .category {
   background-image: url(../img/categories/fossils.png);
 }
-[data-category='Other'] .category {
-  background-image: url(../img/categories/others.png);
-}
-[data-category='Art'] .category {
+[data-category='art'] + .item .category {
   background-image: url(../img/categories/art.png);
 }

@@ -1,2191 +1,4181 @@
-fashion.bags = [
+itemData.bags = [
   {
-    "name": {
-      "en": "acorn pochette",
-      "jp": "どんぐりポシェット"
+    name: {
+      en: "acorn pochette",
+      jp: "どんぐりポシェット"
     },
-    "id": 980,
-    "source": "Crafting",
-    "map": 0,
-    "event": "acorns and pine cones",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 2400
+    id: 980,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "acorns and pine cones",
+    exclusive: "TRUE",
+    hha: {
+      points: 201,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Cute"
+      ],
+      labelThemes: "fairy tale",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 2400,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7492,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7492,
+        colors: [
+          "Brown",
+          "Green"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブラウン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderAcorn0"
+        imageName: "BagShoulderAcorn0"
       }
     ]
   },
   {
-    "name": {
-      "en": "basket pack",
-      "jp": "しょいこ"
+    name: {
+      en: "basket pack",
+      jp: "しょいこ"
     },
-    "id": 995,
-    "source": "Crafting",
-    "map": 0,
-    "event": "young spring bamboo",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 2400
+    id: 995,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "young spring bamboo",
+    exclusive: "TRUE",
+    hha: {
+      points: 103,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Simple"
+      ],
+      labelThemes: "outdoorsy; work",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 2400,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7506,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7506,
+        colors: [
+          "Green",
+          "Green"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "みどり"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackBasket0"
+        imageName: "BagBackpackBasket0"
       }
     ]
   },
   {
-    "name": {
-      "en": "bug cage",
-      "jp": "ムシかご"
+    name: {
+      en: "bug cage",
+      jp: "ムシかご"
     },
-    "id": 967,
-    "source": "Flick",
-    "map": 0,
-    "event": "Bug-Off",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": -1,
-      "sell": 122
+    id: 967,
+    source: "Flick",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "Bug-Off",
+    exclusive: "TRUE",
+    hha: {
+      points: 501,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 122,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7479,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7479,
+        colors: [
+          "Green",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderCage0"
+        imageName: "BagShoulderCage0"
       }
     ]
   },
   {
-    "name": {
-      "en": "Bunny Day bag",
-      "jp": "イースターなバッグ"
+    name: {
+      en: "Bunny Day bag",
+      jp: "イースターなバッグ"
     },
-    "id": 1203,
-    "source": "Crafting",
-    "map": 0,
-    "event": "Bunny Day (ready days); Bunny Day",
-    "eventExclusive": "Yes",
-    "version": "1.1.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 2400
+    id: 1203,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "Bunny Day (ready days); Bunny Day",
+    exclusive: "TRUE",
+    hha: {
+      points: 351,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Cute"
+      ],
+      labelThemes: "fairy tale; party; theatrical",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.1.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 2400,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12447,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 12447,
+        colors: [
+          "Colorful",
+          "Colorful"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "カラフル"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackEgg0"
+        imageName: "BagBackpackEgg0"
       }
     ]
   },
   {
-    "name": {
-      "en": "butterfly backpack",
-      "jp": "ちょうちょのバッグ"
+    name: {
+      en: "butterfly backpack",
+      jp: "ちょうちょのバッグ"
     },
-    "id": 991,
-    "source": "Flick",
-    "map": 0,
-    "event": "Bug-Off",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": -1,
-      "sell": 210
+    id: 991,
+    source: "Flick",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "Bug-Off",
+    exclusive: "TRUE",
+    hha: {
+      points: 501,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Cute"
+      ],
+      labelThemes: "everyday; fairy tale; theatrical",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 210,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7502,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7502,
+        colors: [
+          "Pink",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ピンク"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackButterfly0"
+        imageName: "BagBackpackButterfly0"
       }
     ]
   },
   {
-    "name": {
-      "en": "canvas backpack",
-      "jp": "はんぷリュック"
+    name: {
+      en: "canvas backpack",
+      jp: "はんぷリュック"
     },
-    "id": 998,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1300,
-      "sell": 325
+    id: 998,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Simple"
+      ],
+      labelThemes: "everyday",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1300,
+      sell: 325,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7509,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7509,
+        colors: [
+          "White",
+          "Orange"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackTote0"
+        imageName: "BagBackpackTote0"
       }
     ]
   },
   {
-    "name": {
-      "en": "cherry-blossom pochette",
-      "jp": "さくらのポシェット"
+    name: {
+      en: "cherry-blossom pochette",
+      jp: "さくらのポシェット"
     },
-    "id": 978,
-    "source": "Crafting",
-    "map": 0,
-    "event": "cherry-blossom petals",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 2400
+    id: 978,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "cherry-blossom petals",
+    exclusive: "TRUE",
+    hha: {
+      points: 201,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Cute"
+      ],
+      labelThemes: "fairy tale; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 2400,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7490,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7490,
+        colors: [
+          "Pink",
+          "Pink"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ピンク"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderCherryblossoms0"
+        imageName: "BagShoulderCherryblossoms0"
       }
     ]
   },
   {
-    "name": {
-      "en": "cloth shoulder bag",
-      "jp": "はんぷショルダー"
+    name: {
+      en: "cloth shoulder bag",
+      jp: "はんぷショルダー"
     },
-    "id": 975,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1400,
-      "sell": 350
+    id: 975,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Simple"
+      ],
+      labelThemes: "everyday",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1400,
+      sell: 350,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12014,
-        "name": {
-          "en": "Ivory",
-          "jp": ""
+        id: 12014,
+        colors: [
+          "White",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: "Ivory",
+            jp: "アイボリー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderCanvas2"
+        imageName: "BagShoulderCanvas2"
       },
       {
-        "id": 12013,
-        "name": {
-          "en": "Orange",
-          "jp": ""
+        id: 12013,
+        colors: [
+          "Orange",
+          "Orange"
+        ],
+        variant: {
+          name: {
+            en: "Orange",
+            jp: "オレンジ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderCanvas1"
+        imageName: "BagShoulderCanvas1"
       },
       {
-        "id": 7487,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 7487,
+        colors: [
+          "Aqua",
+          "Aqua"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderCanvas0"
+        imageName: "BagShoulderCanvas0"
       }
     ]
   },
   {
-    "name": {
-      "en": "crossbody bag",
-      "jp": "ボディバッグ"
+    name: {
+      en: "crossbody bag",
+      jp: "ボディバッグ"
     },
-    "id": 971,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 700,
-      "sell": 175
+    id: 971,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 4,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Simple"
+      ],
+      labelThemes: "everyday; outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 700,
+      sell: 175,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 4,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11982,
-        "name": {
-          "en": "White",
-          "jp": ""
+        id: 11982,
+        colors: [
+          "White",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "White",
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackBody3"
+        imageName: "BagBackpackBody3"
       },
       {
-        "id": 7483,
-        "name": {
-          "en": "Pink",
-          "jp": ""
+        id: 7483,
+        colors: [
+          "Pink",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Pink",
+            jp: "ピンク"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackBody0"
+        imageName: "BagBackpackBody0"
       },
       {
-        "id": 11981,
-        "name": {
-          "en": "Yellow",
-          "jp": ""
+        id: 11981,
+        colors: [
+          "Yellow",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Yellow",
+            jp: "イエロー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackBody2"
+        imageName: "BagBackpackBody2"
       },
       {
-        "id": 11980,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 11980,
+        colors: [
+          "Green",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackBody1"
+        imageName: "BagBackpackBody1"
       }
     ]
   },
   {
-    "name": {
-      "en": "crossbody boston bag",
-      "jp": "ななめかけボストン"
+    name: {
+      en: "crossbody boston bag",
+      jp: "ななめかけボストン"
     },
-    "id": 973,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1680,
-      "sell": 420
+    id: 973,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Active"
+      ],
+      labelThemes: "everyday; outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1680,
+      sell: 420,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7485,
-        "name": {
-          "en": "Red",
-          "jp": ""
+        id: 7485,
+        colors: [
+          "Red",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Red",
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderDrum0"
+        imageName: "BagShoulderDrum0"
       },
       {
-        "id": 12011,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 12011,
+        colors: [
+          "Blue",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderDrum1"
+        imageName: "BagShoulderDrum1"
       }
     ]
   },
   {
-    "name": {
-      "en": "DAL backpack",
-      "jp": "ＤＡＬのバッグ"
+    name: {
+      en: "DAL backpack",
+      jp: "ＤＡＬのバッグ"
     },
-    "id": 1185,
-    "source": "Dodo Airlines",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": -1,
-      "sell": 1010
+    id: 1185,
+    source: "DAL",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 251,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cool",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 1010,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12131,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 12131,
+        colors: [
+          "Blue",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackDal0"
+        imageName: "BagBackpackDal0"
       }
     ]
   },
   {
-    "name": {
-      "en": "dry bag",
-      "jp": "ドライサック"
+    name: {
+      en: "dry bag",
+      jp: "ドライサック"
     },
-    "id": 963,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1040,
-      "sell": 260
+    id: 963,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1040,
+      sell: 260,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7471,
-        "name": {
-          "en": "Yellow",
-          "jp": ""
+        id: 7471,
+        colors: [
+          "Yellow",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Yellow",
+            jp: "イエロー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackDry0"
+        imageName: "BagBackpackDry0"
       },
       {
-        "id": 11964,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 11964,
+        colors: [
+          "Blue",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackDry1"
+        imageName: "BagBackpackDry1"
       }
     ]
   },
   {
-    "name": {
-      "en": "evening bag",
-      "jp": "パーティーバッグ"
+    name: {
+      en: "evening bag",
+      jp: "パーティーバッグ"
     },
-    "id": 986,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1250,
-      "sell": 312
+    id: 986,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Elegant"
+      ],
+      labelThemes: "formal; party",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1250,
+      sell: 312,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11977,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 11977,
+        colors: [
+          "Black",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderParty2"
+        imageName: "BagShoulderParty2"
       },
       {
-        "id": 7305,
-        "name": {
-          "en": "Pink",
-          "jp": ""
+        id: 7305,
+        colors: [
+          "Pink",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Pink",
+            jp: "ピンク"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderParty0"
+        imageName: "BagShoulderParty0"
       },
       {
-        "id": 11976,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 11976,
+        colors: [
+          "Blue",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderParty1"
+        imageName: "BagShoulderParty1"
       }
     ]
   },
   {
-    "name": {
-      "en": "extra-large backpack",
-      "jp": "おおきめザック"
+    name: {
+      en: "extra-large backpack",
+      jp: "おおきめザック"
     },
-    "id": 994,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 2100,
-      "sell": 525
+    id: 994,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 4,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 2100,
+      sell: 525,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 4,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11972,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 11972,
+        colors: [
+          "Black",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackMountain2"
+        imageName: "BagBackpackMountain2"
       },
       {
-        "id": 7505,
-        "name": {
-          "en": "Red",
-          "jp": ""
+        id: 7505,
+        colors: [
+          "Red",
+          "Red"
+        ],
+        variant: {
+          name: {
+            en: "Red",
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackMountain0"
+        imageName: "BagBackpackMountain0"
       },
       {
-        "id": 11971,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 11971,
+        colors: [
+          "Green",
+          "Green"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackMountain1"
+        imageName: "BagBackpackMountain1"
       },
       {
-        "id": 11973,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 11973,
+        colors: [
+          "Blue",
+          "Blue"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackMountain3"
+        imageName: "BagBackpackMountain3"
       }
     ]
   },
   {
-    "name": {
-      "en": "faux-fur bag",
-      "jp": "フェイクファーバッグ"
+    name: {
+      en: "faux-fur bag",
+      jp: "フェイクファーバッグ"
     },
-    "id": 968,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1400,
-      "sell": 350
+    id: 968,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Gorgeous"
+      ],
+      labelThemes: "formal; party",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1400,
+      sell: 350,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7480,
-        "name": {
-          "en": "Pink",
-          "jp": ""
+        id: 7480,
+        colors: [
+          "Pink",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Pink",
+            jp: "ピンク"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderFakefur0"
+        imageName: "BagShoulderFakefur0"
       },
       {
-        "id": 12003,
-        "name": {
-          "en": "Purple",
-          "jp": ""
+        id: 12003,
+        colors: [
+          "Purple",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Purple",
+            jp: "パープル"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderFakefur1"
+        imageName: "BagShoulderFakefur1"
       }
     ]
   },
   {
-    "name": {
-      "en": "fish pochette",
-      "jp": "おさかなポシェット"
+    name: {
+      en: "fish pochette",
+      jp: "おさかなポシェット"
     },
-    "id": 965,
-    "source": "C.J.",
-    "map": 0,
-    "event": "Fishing Tourney",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": -1,
-      "sell": 210
+    id: 965,
+    source: "CJ",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "Fishing Tourney",
+    exclusive: "TRUE",
+    hha: {
+      points: 501,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Cute"
+      ],
+      labelThemes: "everyday; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 210,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7477,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7477,
+        colors: [
+          "Aqua",
+          "Blue"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderFish0"
+        imageName: "BagShoulderFish0"
       }
     ]
   },
   {
-    "name": {
-      "en": "foldover-top backpack",
-      "jp": "ふたつきリュック"
+    name: {
+      en: "foldover-top backpack",
+      jp: "ふたつきリュック"
     },
-    "id": 996,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1300,
-      "sell": 325
+    id: 996,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 4,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Simple"
+      ],
+      labelThemes: "outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1300,
+      sell: 325,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 4,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12017,
-        "name": {
-          "en": "Gray",
-          "jp": ""
+        id: 12017,
+        colors: [
+          "Gray",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: "Gray",
+            jp: "グレー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackLid2"
+        imageName: "BagBackpackLid2"
       },
       {
-        "id": 12018,
-        "name": {
-          "en": "Pink",
-          "jp": ""
+        id: 12018,
+        colors: [
+          "Pink",
+          "Purple"
+        ],
+        variant: {
+          name: {
+            en: "Pink",
+            jp: "ピンク"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackLid3"
+        imageName: "BagBackpackLid3"
       },
       {
-        "id": 7507,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 7507,
+        colors: [
+          "Green",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackLid0"
+        imageName: "BagBackpackLid0"
       },
       {
-        "id": 12016,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 12016,
+        colors: [
+          "Blue",
+          "Aqua"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackLid1"
+        imageName: "BagBackpackLid1"
       }
     ]
   },
   {
-    "name": {
-      "en": "grape-harvest basket",
-      "jp": "ぶどうのしゅうかくおけ"
+    name: {
+      en: "grape-harvest basket",
+      jp: "ぶどうのしゅうかくおけ"
     },
-    "id": 1233,
-    "source": "Nook Shopping Seasonal",
-    "map": 0,
-    "event": "Grape Harvest Festival",
-    "eventExclusive": "Yes",
-    "version": "1.4.0",
-    "catalog": "Not in catalog",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 800,
-      "sell": 200
+    id: 1233,
+    source: "ShoppingSeasonal",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "Grape Harvest Festival",
+    exclusive: "TRUE",
+    hha: {
+      points: 201,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Active"
+      ],
+      labelThemes: "everyday; fairy tale; outdoorsy; party",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not in catalog",
+    version: "1.4.0",
+    category: "bags",
+    price: {
+      buy: 800,
+      sell: 200,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12797,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 12797,
+        colors: [
+          "Brown",
+          "Purple"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブラウン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHarvest0"
+        imageName: "BagBackpackHarvest0"
       }
     ]
   },
   {
-    "name": {
-      "en": "gumdrop shoulder bag",
-      "jp": "はるのみずたまショルダー"
+    name: {
+      en: "gumdrop shoulder bag",
+      jp: "はるのみずたまショルダー"
     },
-    "id": 974,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 2000,
-      "sell": 500
+    id: 974,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Cute"
+      ],
+      labelThemes: "everyday; comfy",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 2000,
+      sell: 500,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7486,
-        "name": {
-          "en": "Pop",
-          "jp": ""
+        id: 7486,
+        colors: [
+          "Pink",
+          "Green"
+        ],
+        variant: {
+          name: {
+            en: "Pop",
+            jp: "ポップ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderPattern0"
+        imageName: "BagShoulderPattern0"
       },
       {
-        "id": 12012,
-        "name": {
-          "en": "Cool",
-          "jp": ""
+        id: 12012,
+        colors: [
+          "Purple",
+          "Aqua"
+        ],
+        variant: {
+          name: {
+            en: "Cool",
+            jp: "クール"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderPattern1"
+        imageName: "BagShoulderPattern1"
       }
     ]
   },
   {
-    "name": {
-      "en": "hand-knit pouch",
-      "jp": "てあみポーチ"
+    name: {
+      en: "hand-knit pouch",
+      jp: "てあみポーチ"
     },
-    "id": 970,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1250,
-      "sell": 312
+    id: 970,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Elegant",
+        "Simple"
+      ],
+      labelThemes: "vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1250,
+      sell: 312,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7482,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 7482,
+        colors: [
+          "Green",
+          "Green"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderRace0"
+        imageName: "BagShoulderRace0"
       },
       {
-        "id": 12004,
-        "name": {
-          "en": "Purple",
-          "jp": ""
+        id: 12004,
+        colors: [
+          "Purple",
+          "Purple"
+        ],
+        variant: {
+          name: {
+            en: "Purple",
+            jp: "パープル"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderRace1"
+        imageName: "BagShoulderRace1"
       }
     ]
   },
   {
-    "name": {
-      "en": "hard-shell backpack",
-      "jp": "ハードシェルリュック"
+    name: {
+      en: "hard-shell backpack",
+      jp: "ハードシェルリュック"
     },
-    "id": 1001,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1680,
-      "sell": 420
+    id: 1001,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cool",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; work",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1680,
+      sell: 420,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11946,
-        "name": {
-          "en": "Silver",
-          "jp": ""
+        id: 11946,
+        colors: [
+          "Gray",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Silver",
+            jp: "シルバー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHardshell2"
+        imageName: "BagBackpackHardshell2"
       },
       {
-        "id": 10184,
-        "name": {
-          "en": "Red",
-          "jp": ""
+        id: 10184,
+        colors: [
+          "Red",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Red",
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHardshell1"
+        imageName: "BagBackpackHardshell1"
       },
       {
-        "id": 7512,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 7512,
+        colors: [
+          "Blue",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHardshell0"
+        imageName: "BagBackpackHardshell0"
       }
     ]
   },
   {
-    "name": {
-      "en": "impish wings",
-      "jp": "こあくまなつばさバッグ"
+    name: {
+      en: "impish wings",
+      jp: "こあくまなつばさバッグ"
     },
-    "id": 1268,
-    "source": "Kicks",
-    "map": 0,
-    "event": "Halloween (ready days); Halloween",
-    "eventExclusive": false,
-    "version": "1.5.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1000,
-      "sell": 250
+    id: 1268,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "Halloween (ready days); Halloween",
+    exclusive: "FALSE",
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 6,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cool",
+        "Cool"
+      ],
+      labelThemes: "fairy tale; goth; party",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.5.0",
+    category: "bags",
+    price: {
+      buy: 1000,
+      sell: 250,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 6,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 13409,
-        "name": {
-          "en": "White",
-          "jp": ""
+        id: 13409,
+        colors: [
+          "White",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: "White",
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHalloween2"
+        imageName: "BagBackpackHalloween2"
       },
       {
-        "id": 13412,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 13412,
+        colors: [
+          "Black",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHalloween5"
+        imageName: "BagBackpackHalloween5"
       },
       {
-        "id": 13411,
-        "name": {
-          "en": "Red",
-          "jp": ""
+        id: 13411,
+        colors: [
+          "Red",
+          "Red"
+        ],
+        variant: {
+          name: {
+            en: "Red",
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHalloween4"
+        imageName: "BagBackpackHalloween4"
       },
       {
-        "id": 13015,
-        "name": {
-          "en": "Orange",
-          "jp": ""
+        id: 13015,
+        colors: [
+          "Orange",
+          "Orange"
+        ],
+        variant: {
+          name: {
+            en: "Orange",
+            jp: "オレンジ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHalloween0"
+        imageName: "BagBackpackHalloween0"
       },
       {
-        "id": 13410,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 13410,
+        colors: [
+          "Green",
+          "Green"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHalloween3"
+        imageName: "BagBackpackHalloween3"
       },
       {
-        "id": 13408,
-        "name": {
-          "en": "Purple",
-          "jp": ""
+        id: 13408,
+        colors: [
+          "Purple",
+          "Purple"
+        ],
+        variant: {
+          name: {
+            en: "Purple",
+            jp: "パープル"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackHalloween1"
+        imageName: "BagBackpackHalloween1"
       }
     ]
   },
   {
-    "name": {
-      "en": "knapsack",
-      "jp": "ナップサック"
+    name: {
+      en: "knapsack",
+      jp: "ナップサック"
     },
-    "id": 997,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 630,
-      "sell": 157
+    id: 997,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Simple"
+      ],
+      labelThemes: "everyday; outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 630,
+      sell: 157,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12019,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 12019,
+        colors: [
+          "Black",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackKnapsack1"
+        imageName: "BagBackpackKnapsack1"
       },
       {
-        "id": 7508,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 7508,
+        colors: [
+          "Blue",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackKnapsack0"
+        imageName: "BagBackpackKnapsack0"
       }
     ]
   },
   {
-    "name": {
-      "en": "knitted-grass backpack",
-      "jp": "くさあみリュック"
+    name: {
+      en: "knitted-grass backpack",
+      jp: "くさあみリュック"
     },
-    "id": 1000,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 400
+    id: 1000,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 103,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Elegant",
+        "Simple"
+      ],
+      labelThemes: "outdoorsy; comfy; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 400,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7511,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7511,
+        colors: [
+          "Green",
+          "Brown"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackGrass0"
+        imageName: "BagBackpackGrass0"
       }
     ]
   },
   {
-    "name": {
-      "en": "log pack",
-      "jp": "せおいばしご"
+    name: {
+      en: "log pack",
+      jp: "せおいばしご"
     },
-    "id": 987,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 960
+    id: 987,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 103,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Simple"
+      ],
+      labelThemes: "fairy tale; outdoorsy; work",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 960,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7498,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7498,
+        colors: [
+          "Brown",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブラウン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackWood0"
+        imageName: "BagBackpackWood0"
       }
     ]
   },
   {
-    "name": {
-      "en": "maple-leaf pochette",
-      "jp": "もみじのポシェット"
+    name: {
+      en: "maple-leaf pochette",
+      jp: "もみじのポシェット"
     },
-    "id": 979,
-    "source": "Crafting",
-    "map": 0,
-    "event": "maple leaves",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 2400
+    id: 979,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "maple leaves",
+    exclusive: "TRUE",
+    hha: {
+      points: 201,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Cute"
+      ],
+      labelThemes: "fairy tale",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 2400,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7491,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7491,
+        colors: [
+          "Orange",
+          "Orange"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderMaple0"
+        imageName: "BagShoulderMaple0"
       }
     ]
   },
   {
-    "name": {
-      "en": "messenger bag",
-      "jp": "メッセンジャーバッグ"
+    name: {
+      en: "messenger bag",
+      jp: "メッセンジャーバッグ"
     },
-    "id": 962,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 840,
-      "sell": 210
+    id: 962,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Active"
+      ],
+      labelThemes: "everyday; outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 840,
+      sell: 210,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11979,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 11979,
+        colors: [
+          "Black",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderMessenger2"
+        imageName: "BagShoulderMessenger2"
       },
       {
-        "id": 11978,
-        "name": {
-          "en": "Orange",
-          "jp": ""
+        id: 11978,
+        colors: [
+          "Orange",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Orange",
+            jp: "オレンジ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderMessenger1"
+        imageName: "BagShoulderMessenger1"
       },
       {
-        "id": 7470,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 7470,
+        colors: [
+          "Green",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderMessenger0"
+        imageName: "BagShoulderMessenger0"
       }
     ]
   },
   {
-    "name": {
-      "en": "mini pleather bag",
-      "jp": "ミニレザーバッグ"
+    name: {
+      en: "mini pleather bag",
+      jp: "ミニレザーバッグ"
     },
-    "id": 993,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1600,
-      "sell": 400
+    id: 993,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Elegant",
+        "Elegant"
+      ],
+      labelThemes: "everyday; formal; party",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1600,
+      sell: 400,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7504,
-        "name": {
-          "en": "White",
-          "jp": ""
+        id: 7504,
+        colors: [
+          "White",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: "White",
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackSmall0"
+        imageName: "BagBackpackSmall0"
       },
       {
-        "id": 12015,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 12015,
+        colors: [
+          "Black",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackSmall1"
+        imageName: "BagBackpackSmall1"
       }
     ]
   },
   {
-    "name": {
-      "en": "Mom's knapsack",
-      "jp": "ははのナップサック"
+    name: {
+      en: "Mom's knapsack",
+      jp: "ははのナップサック"
     },
-    "id": 999,
-    "source": "Mom",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": -1,
-      "sell": 175
+    id: 999,
+    source: "Mom",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 365,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 8,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Active"
+      ],
+      labelThemes: "comfy",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 175,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 8,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12153,
-        "name": {
-          "en": "Forest print",
-          "jp": ""
+        id: 12153,
+        colors: [
+          "White",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Forest print",
+            jp: "フォレスト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackQuilt6"
+        imageName: "BagBackpackQuilt6"
       },
       {
-        "id": 12148,
-        "name": {
-          "en": "Flowers",
-          "jp": ""
+        id: 12148,
+        colors: [
+          "Gray",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Flowers",
+            jp: "フラワー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackQuilt1"
+        imageName: "BagBackpackQuilt1"
       },
       {
-        "id": 12149,
-        "name": {
-          "en": "Polka dots",
-          "jp": ""
+        id: 12149,
+        colors: [
+          "Pink",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Polka dots",
+            jp: "ドット"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackQuilt2"
+        imageName: "BagBackpackQuilt2"
       },
       {
-        "id": 12154,
-        "name": {
-          "en": "Chick",
-          "jp": ""
+        id: 12154,
+        colors: [
+          "Orange",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Chick",
+            jp: "ヒヨコ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackQuilt7"
+        imageName: "BagBackpackQuilt7"
       },
       {
-        "id": 7510,
-        "name": {
-          "en": "M",
-          "jp": ""
+        id: 7510,
+        colors: [
+          "Yellow",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "M",
+            jp: "M"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackQuilt0"
+        imageName: "BagBackpackQuilt0"
       },
       {
-        "id": 12151,
-        "name": {
-          "en": "Cherries",
-          "jp": ""
+        id: 12151,
+        colors: [
+          "Aqua",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Cherries",
+            jp: "チェリー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackQuilt4"
+        imageName: "BagBackpackQuilt4"
       },
       {
-        "id": 12152,
-        "name": {
-          "en": "Denim with stripes",
-          "jp": ""
+        id: 12152,
+        colors: [
+          "Blue",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Denim with stripes",
+            jp: "デニムストライプ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackQuilt5"
+        imageName: "BagBackpackQuilt5"
       },
       {
-        "id": 12150,
-        "name": {
-          "en": "Colorful quilt design",
-          "jp": ""
+        id: 12150,
+        colors: [
+          "Colorful",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Colorful quilt design",
+            jp: "カラフルキルト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackQuilt3"
+        imageName: "BagBackpackQuilt3"
       }
     ]
   },
   {
-    "name": {
-      "en": "Nook Inc. knapsack",
-      "jp": "たぬきかいはつナップサック"
+    name: {
+      en: "Nook Inc. knapsack",
+      jp: "たぬきかいはつナップサック"
     },
-    "id": 1150,
-    "source": "Nook Miles Redemption",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": -1,
-      "sell": 4000
+    id: 1150,
+    source: "Nook Miles Redemption",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 151,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Gorgeous",
+        "Active"
+      ],
+      labelThemes: "everyday",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 4000,
+      currency: "Nook Miles",
+      exchange: 800
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 9761,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 9761,
+        colors: [
+          "Brown",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブラウン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackNook0"
+        imageName: "BagBackpackNook0"
       }
     ]
   },
   {
-    "name": {
-      "en": "outdoor backpack",
-      "jp": "アウトドアリュック"
+    name: {
+      en: "outdoor backpack",
+      jp: "アウトドアリュック"
     },
-    "id": 990,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1560,
-      "sell": 390
+    id: 990,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Simple"
+      ],
+      labelThemes: "outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1560,
+      sell: 390,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11969,
-        "name": {
-          "en": "Orange",
-          "jp": ""
+        id: 11969,
+        colors: [
+          "Orange",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Orange",
+            jp: "オレンジ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackOutdoor1"
+        imageName: "BagBackpackOutdoor1"
       },
       {
-        "id": 7501,
-        "name": {
-          "en": "Avocado",
-          "jp": ""
+        id: 7501,
+        colors: [
+          "Green",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Avocado",
+            jp: "カーキ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackOutdoor0"
+        imageName: "BagBackpackOutdoor0"
       },
       {
-        "id": 11970,
-        "name": {
-          "en": "Navy blue",
-          "jp": ""
+        id: 11970,
+        colors: [
+          "Blue",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Navy blue",
+            jp: "ネイビー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackOutdoor2"
+        imageName: "BagBackpackOutdoor2"
       }
     ]
   },
   {
-    "name": {
-      "en": "pleather crossbody bag",
-      "jp": "レザーボディバッグ"
+    name: {
+      en: "pleather crossbody bag",
+      jp: "レザーボディバッグ"
     },
-    "id": 972,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1120,
-      "sell": 280
+    id: 972,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cool",
+        "Simple"
+      ],
+      labelThemes: "everyday; work",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1120,
+      sell: 280,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12005,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 12005,
+        colors: [
+          "Black",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackBodybag1"
+        imageName: "BagBackpackBodybag1"
       },
       {
-        "id": 7484,
-        "name": {
-          "en": "Navy blue",
-          "jp": ""
+        id: 7484,
+        colors: [
+          "Blue",
+          "Brown"
+        ],
+        variant: {
+          name: {
+            en: "Navy blue",
+            jp: "ネイビー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackBodybag0"
+        imageName: "BagBackpackBodybag0"
       }
     ]
   },
   {
-    "name": {
-      "en": "pleather fringe bag",
-      "jp": "フリンジレザーバッグ"
+    name: {
+      en: "pleather fringe bag",
+      jp: "フリンジレザーバッグ"
     },
-    "id": 969,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 2400,
-      "sell": 600
+    id: 969,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Elegant",
+        "Elegant"
+      ],
+      labelThemes: "everyday; formal; party",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 2400,
+      sell: 600,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12010,
-        "name": {
-          "en": "White",
-          "jp": ""
+        id: 12010,
+        colors: [
+          "White",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: "White",
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderFringe1"
+        imageName: "BagShoulderFringe1"
       },
       {
-        "id": 7481,
-        "name": {
-          "en": "Camel",
-          "jp": ""
+        id: 7481,
+        colors: [
+          "Brown",
+          "Brown"
+        ],
+        variant: {
+          name: {
+            en: "Camel",
+            jp: "キャメル"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderFringe0"
+        imageName: "BagShoulderFringe0"
       }
     ]
   },
   {
-    "name": {
-      "en": "pleather shoulder bag",
-      "jp": "レザーショルダー"
+    name: {
+      en: "pleather shoulder bag",
+      jp: "レザーショルダー"
     },
-    "id": 964,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 2400,
-      "sell": 600
+    id: 964,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Elegant",
+        "Simple"
+      ],
+      labelThemes: "everyday; formal",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 2400,
+      sell: 600,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12009,
-        "name": {
-          "en": "Navy blue",
-          "jp": ""
+        id: 12009,
+        colors: [
+          "Blue",
+          "Blue"
+        ],
+        variant: {
+          name: {
+            en: "Navy blue",
+            jp: "ネイビー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderLeather1"
+        imageName: "BagShoulderLeather1"
       },
       {
-        "id": 7476,
-        "name": {
-          "en": "Brown",
-          "jp": ""
+        id: 7476,
+        colors: [
+          "Brown",
+          "Brown"
+        ],
+        variant: {
+          name: {
+            en: "Brown",
+            jp: "ブラウン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderLeather0"
+        imageName: "BagShoulderLeather0"
       }
     ]
   },
   {
-    "name": {
-      "en": "prom sash",
-      "jp": "プロムなたすき"
+    name: {
+      en: "prom sash",
+      jp: "プロムなたすき"
     },
-    "id": 1362,
-    "source": "Nook Shopping Seasonal",
-    "map": 0,
-    "event": "Prom (2)",
-    "eventExclusive": "Yes",
-    "version": "1.9.0",
-    "catalog": "Not in catalog",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 3500,
-      "sell": 875
+    id: 1362,
+    source: "ShoppingSeasonal",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "Prom (2)",
+    exclusive: "TRUE",
+    hha: {
+      points: 201,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 7,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Gorgeous",
+        "Elegant"
+      ],
+      labelThemes: "party; theatrical",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not in catalog",
+    version: "1.9.0",
+    category: "bags",
+    price: {
+      buy: 3500,
+      sell: 875,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 7,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 14398,
-        "name": {
-          "en": "White",
-          "jp": ""
+        id: 14398,
+        colors: [
+          "White",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "White",
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTasukiprom4"
+        imageName: "BagShoulderTasukiprom4"
       },
       {
-        "id": 14399,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 14399,
+        colors: [
+          "Black",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTasukiprom5"
+        imageName: "BagShoulderTasukiprom5"
       },
       {
-        "id": 14262,
-        "name": {
-          "en": "Red",
-          "jp": ""
+        id: 14262,
+        colors: [
+          "Red",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Red",
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTasukiprom0"
+        imageName: "BagShoulderTasukiprom0"
       },
       {
-        "id": 14400,
-        "name": {
-          "en": "Gold",
-          "jp": ""
+        id: 14400,
+        colors: [
+          "Yellow",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Gold",
+            jp: "ゴールド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTasukiprom6"
+        imageName: "BagShoulderTasukiprom6"
       },
       {
-        "id": 14396,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 14396,
+        colors: [
+          "Green",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTasukiprom2"
+        imageName: "BagShoulderTasukiprom2"
       },
       {
-        "id": 14395,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 14395,
+        colors: [
+          "Blue",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTasukiprom1"
+        imageName: "BagShoulderTasukiprom1"
       },
       {
-        "id": 14397,
-        "name": {
-          "en": "Purple",
-          "jp": ""
+        id: 14397,
+        colors: [
+          "Purple",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Purple",
+            jp: "パープル"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTasukiprom3"
+        imageName: "BagShoulderTasukiprom3"
       }
     ]
   },
   {
-    "name": {
-      "en": "retro sports bag",
-      "jp": "スポーツバッグ"
+    name: {
+      en: "retro sports bag",
+      jp: "スポーツバッグ"
     },
-    "id": 984,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1400,
-      "sell": 350
+    id: 984,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1400,
+      sell: 350,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12007,
-        "name": {
-          "en": "Red",
-          "jp": ""
+        id: 12007,
+        colors: [
+          "White",
+          "Red"
+        ],
+        variant: {
+          name: {
+            en: "Red",
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderSports1"
+        imageName: "BagShoulderSports1"
       },
       {
-        "id": 7302,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 7302,
+        colors: [
+          "White",
+          "Blue"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderSports0"
+        imageName: "BagShoulderSports0"
       },
       {
-        "id": 12008,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 12008,
+        colors: [
+          "Black",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderSports2"
+        imageName: "BagShoulderSports2"
       }
     ]
   },
   {
-    "name": {
-      "en": "sacoche bag",
-      "jp": "サコッシュ"
+    name: {
+      en: "sacoche bag",
+      jp: "サコッシュ"
     },
-    "id": 985,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 980,
-      "sell": 245
+    id: 985,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 980,
+      sell: 245,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11975,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 11975,
+        colors: [
+          "Black",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderSacosh2"
+        imageName: "BagShoulderSacosh2"
       },
       {
-        "id": 11974,
-        "name": {
-          "en": "Red",
-          "jp": ""
+        id: 11974,
+        colors: [
+          "Red",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Red",
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderSacosh1"
+        imageName: "BagShoulderSacosh1"
       },
       {
-        "id": 7304,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 7304,
+        colors: [
+          "Blue",
+          "Green"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderSacosh0"
+        imageName: "BagShoulderSacosh0"
       }
     ]
   },
   {
-    "name": {
-      "en": "shellfish pochette",
-      "jp": "かいがらポシェット"
+    name: {
+      en: "shellfish pochette",
+      jp: "かいがらポシェット"
     },
-    "id": 982,
-    "source": "Crafting",
-    "map": 0,
-    "event": "summer shells",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 10800
+    id: 982,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "summer shells",
+    exclusive: "TRUE",
+    hha: {
+      points: 201,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Elegant"
+      ],
+      labelThemes: "fairy tale; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 10800,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7494,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7494,
+        colors: [
+          "White",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderShell0"
+        imageName: "BagShoulderShell0"
       }
     ]
   },
   {
-    "name": {
-      "en": "snowflake pochette",
-      "jp": "スノーフレークポシェット"
+    name: {
+      en: "snowflake pochette",
+      jp: "スノーフレークポシェット"
     },
-    "id": 981,
-    "source": "Crafting",
-    "map": 0,
-    "event": "snowflakes",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 2400
+    id: 981,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "snowflakes",
+    exclusive: "TRUE",
+    hha: {
+      points: 201,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Elegant",
+        "Cool"
+      ],
+      labelThemes: "fairy tale; party; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 2400,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7493,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7493,
+        colors: [
+          "Aqua",
+          "White"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderSnow0"
+        imageName: "BagShoulderSnow0"
       }
     ]
   },
   {
-    "name": {
-      "en": "square backpack",
-      "jp": "しかくいリュック"
+    name: {
+      en: "square backpack",
+      jp: "しかくいリュック"
     },
-    "id": 989,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1300,
-      "sell": 325
+    id: 989,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Active"
+      ],
+      labelThemes: "everyday; outdoorsy; sporty",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1300,
+      sell: 325,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11967,
-        "name": {
-          "en": "Pink",
-          "jp": ""
+        id: 11967,
+        colors: [
+          "Pink",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Pink",
+            jp: "ピンク"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackSquare1"
+        imageName: "BagBackpackSquare1"
       },
       {
-        "id": 7500,
-        "name": {
-          "en": "Yellow",
-          "jp": ""
+        id: 7500,
+        colors: [
+          "Yellow",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Yellow",
+            jp: "イエロー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackSquare0"
+        imageName: "BagBackpackSquare0"
       },
       {
-        "id": 11968,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 11968,
+        colors: [
+          "Green",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackSquare2"
+        imageName: "BagBackpackSquare2"
       }
     ]
   },
   {
-    "name": {
-      "en": "star pochette",
-      "jp": "スターなポシェット"
+    name: {
+      en: "star pochette",
+      jp: "スターなポシェット"
     },
-    "id": 977,
-    "source": "Crafting",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": true,
-    "price": {
-      "buy": -1,
-      "sell": 3000
+    id: 977,
+    source: "Crafting",
+    title: {},
+    diy: "TRUE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 103,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cute",
+        "Gorgeous"
+      ],
+      labelThemes: "fairy tale; party; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 3000,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7489,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7489,
+        colors: [
+          "Yellow",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "イエロー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderStar0"
+        imageName: "BagShoulderStar0"
       }
     ]
   },
   {
-    "name": {
-      "en": "straw pochette",
-      "jp": "ラタンポシェット"
+    name: {
+      en: "straw pochette",
+      jp: "ラタンポシェット"
     },
-    "id": 976,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 980,
-      "sell": 245
+    id: 976,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Elegant"
+      ],
+      labelThemes: "comfy; vacation",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 980,
+      sell: 245,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7488,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7488,
+        colors: [
+          "Brown",
+          "Brown"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブラウン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderRattan0"
+        imageName: "BagShoulderRattan0"
       }
     ]
   },
   {
-    "name": {
-      "en": "studded backpack",
-      "jp": "スタッズリュック"
+    name: {
+      en: "studded backpack",
+      jp: "スタッズリュック"
     },
-    "id": 992,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1560,
-      "sell": 390
+    id: 992,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 2,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Cool",
+        "Cute"
+      ],
+      labelThemes: "everyday; goth",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1560,
+      sell: 390,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 2,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 12006,
-        "name": {
-          "en": "White",
-          "jp": ""
+        id: 12006,
+        colors: [
+          "White",
+          "Gray"
+        ],
+        variant: {
+          name: {
+            en: "White",
+            jp: "ホワイト"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackStuds1"
+        imageName: "BagBackpackStuds1"
       },
       {
-        "id": 7503,
-        "name": {
-          "en": "Black",
-          "jp": ""
+        id: 7503,
+        colors: [
+          "Black",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: "Black",
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackStuds0"
+        imageName: "BagBackpackStuds0"
       }
     ]
   },
   {
-    "name": {
-      "en": "tackle bag",
-      "jp": "フィッシングバッグ"
+    name: {
+      en: "tackle bag",
+      jp: "フィッシングバッグ"
     },
-    "id": 966,
-    "source": "C.J.",
-    "map": 0,
-    "event": "Fishing Tourney",
-    "eventExclusive": "Yes",
-    "version": "1.0.0",
-    "catalog": "Not for sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": -1,
-      "sell": 175
+    id: 966,
+    source: "CJ",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: "Fishing Tourney",
+    exclusive: "TRUE",
+    hha: {
+      points: 501,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; sporty; work",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "Not for sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: -1,
+      sell: 175,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7478,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7478,
+        colors: [
+          "Blue",
+          "Orange"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderFishing0"
+        imageName: "BagShoulderFishing0"
       }
     ]
   },
   {
-    "name": {
-      "en": "tool bag",
-      "jp": "ツールバッグ"
+    name: {
+      en: "tool bag",
+      jp: "ツールバッグ"
     },
-    "id": 983,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 910,
-      "sell": 227
+    id: 983,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 1,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Active"
+      ],
+      labelThemes: "outdoorsy; work",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 910,
+      sell: 227,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 1,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7497,
-        "name": {
-          "en": false,
-          "jp": ""
+        id: 7497,
+        colors: [
+          "Black",
+          "Yellow"
+        ],
+        variant: {
+          name: {
+            en: null,
+            jp: "ブラック"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTool0"
+        imageName: "BagShoulderTool0"
       }
     ]
   },
   {
-    "name": {
-      "en": "town backpack",
-      "jp": "タウンリュック"
+    name: {
+      en: "town backpack",
+      jp: "タウンリュック"
     },
-    "id": 957,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 1040,
-      "sell": 260
+    id: 957,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 4,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Simple"
+      ],
+      labelThemes: "everyday; outdoorsy",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 1040,
+      sell: 260,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 4,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 11945,
-        "name": {
-          "en": "Red",
-          "jp": ""
+        id: 11945,
+        colors: [
+          "Red",
+          "Red"
+        ],
+        variant: {
+          name: {
+            en: "Red",
+            jp: "レッド"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackTown3"
+        imageName: "BagBackpackTown3"
       },
       {
-        "id": 6839,
-        "name": {
-          "en": "Orange",
-          "jp": ""
+        id: 6839,
+        colors: [
+          "Orange",
+          "Orange"
+        ],
+        variant: {
+          name: {
+            en: "Orange",
+            jp: "オレンジ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackTown1"
+        imageName: "BagBackpackTown1"
       },
       {
-        "id": 6838,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 6838,
+        colors: [
+          "Green",
+          "Green"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackTown0"
+        imageName: "BagBackpackTown0"
       },
       {
-        "id": 11944,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 11944,
+        colors: [
+          "Blue",
+          "Blue"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackTown2"
+        imageName: "BagBackpackTown2"
       }
     ]
   },
   {
-    "name": {
-      "en": "travel pouch",
-      "jp": "トラベルポーチ"
+    name: {
+      en: "travel pouch",
+      jp: "トラベルポーチ"
     },
-    "id": 958,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 840,
-      "sell": 210
+    id: 958,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 4,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Active",
+        "Simple"
+      ],
+      labelThemes: "everyday; outdoorsy",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 840,
+      sell: 210,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 4,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 2550,
-        "name": {
-          "en": "Pink",
-          "jp": ""
+        id: 2550,
+        colors: [
+          "Pink",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Pink",
+            jp: "ピンク"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTravel0"
+        imageName: "BagShoulderTravel0"
       },
       {
-        "id": 12000,
-        "name": {
-          "en": "Green",
-          "jp": ""
+        id: 12000,
+        colors: [
+          "Green",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Green",
+            jp: "グリーン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTravel1"
+        imageName: "BagShoulderTravel1"
       },
       {
-        "id": 12001,
-        "name": {
-          "en": "Light blue",
-          "jp": ""
+        id: 12001,
+        colors: [
+          "Aqua",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Light blue",
+            jp: "ライトブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTravel2"
+        imageName: "BagShoulderTravel2"
       },
       {
-        "id": 12002,
-        "name": {
-          "en": "Purple",
-          "jp": ""
+        id: 12002,
+        colors: [
+          "Purple",
+          "Black"
+        ],
+        variant: {
+          name: {
+            en: "Purple",
+            jp: "パープル"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagShoulderTravel3"
+        imageName: "BagShoulderTravel3"
       }
     ]
   },
   {
-    "name": {
-      "en": "traveler's backpack",
-      "jp": "たびびとのリュック"
+    name: {
+      en: "traveler's backpack",
+      jp: "たびびとのリュック"
     },
-    "id": 988,
-    "source": "Kicks",
-    "map": 0,
-    "event": false,
-    "eventExclusive": false,
-    "version": "1.0.0",
-    "catalog": "For sale",
-    "category": "bags",
-    "diy": false,
-    "price": {
-      "buy": 2940,
-      "sell": 735
+    id: 988,
+    source: "Kicks",
+    title: {},
+    diy: "FALSE",
+    customize: {},
+    kit: {},
+    size: "1x1",
+    event: null,
+    exclusive: null,
+    hha: {
+      points: 23,
+      concepts: [
+        null,
+        null
+      ]
     },
-    "count": {
-      "variants": 3,
-      "patterns": 0
+    fashion: {
+      availability: "All Year",
+      seasonality: "All Year",
+      gender: "Free",
+      villager: {
+        equippable: "FALSE"
+      },
+      styles: [
+        "Simple",
+        "Active"
+      ],
+      labelThemes: "fairy tale; outdoorsy; work",
+      shapes: [
+        null,
+        null
+      ]
     },
-    "variants": [
+    type: {},
+    catalog: "For sale",
+    version: "1.0.0",
+    category: "bags",
+    price: {
+      buy: 2940,
+      sell: 735,
+      currency: null,
+      exchange: null
+    },
+    count: {
+      variants: 3,
+      patterns: 0
+    },
+    variants: [
       {
-        "id": 7499,
-        "name": {
-          "en": "Orange",
-          "jp": ""
+        id: 7499,
+        colors: [
+          "Orange",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Orange",
+            jp: "オレンジ"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackJourney0"
+        imageName: "BagBackpackJourney0"
       },
       {
-        "id": 11965,
-        "name": {
-          "en": "Blue",
-          "jp": ""
+        id: 11965,
+        colors: [
+          "Blue",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Blue",
+            jp: "ブルー"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackJourney1"
+        imageName: "BagBackpackJourney1"
       },
       {
-        "id": 11966,
-        "name": {
-          "en": "Brown",
-          "jp": ""
+        id: 11966,
+        colors: [
+          "Brown",
+          "Beige"
+        ],
+        variant: {
+          name: {
+            en: "Brown",
+            jp: "ブラウン"
+          }
         },
-        "isPattern": false,
-        "imageName": "BagBackpackJourney2"
+        imageName: "BagBackpackJourney2"
       }
     ]
   }

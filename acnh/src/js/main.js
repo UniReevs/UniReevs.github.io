@@ -1,209 +1,685 @@
-let itemID = 'InternalID',
-    category = 'housewares',
-    searchText = '_'+capitalizeFirstLetter(category)+'_',
-    nameTranslations = translationNames[category],
-    patternTranslations = translationPatterns[category],
-    variantTranslations = translationVariants[category];
-function createNewDataFromSheet(data, nameTranslations, variantTranslations, hasVariants = true) {
-  let newData = [];
-      data.push({lastFakeItem: true}),
-      variants = [],
-      count = 0;
-
-  for (let i = 0; i < data.length; i++) {
-    let item = data[i],
-        prevItem,
-        isLastItem = i === data.length - 1;
-
-    if (i === 0) {
-      prevItem = item[i];
-      prevID = item[itemID];
-    } else {
-      prevItem = data[i-1];
-    }
-
-    if ((prevID !== item[itemID]) || isLastItem) {
-
-      newData.push({
-        name: {
-          en: prevItem.Name,
-          jp: getTranslation(nameTranslations, parseInt(prevItem[itemID]))
-        },
-        id: prevItem[itemID],
-        title: {
-          body: prevItem.BodyTitle,
-          pattern: prevItem.patternTitle
-        },
-        diy: prevItem.DIY,
-        customize: {
-          body: prevItem.BodyCustomize,
-          pattern: prevItem.PatternCustomize
-        },
-        kit: {
-          cost: prevItem.kitCost,
-          type: prevItem.KitType
-        },
-        colors: [prevItem.Color1, prevItem.Color2],
-        size: prevItem.Size,
-        surface: prevItem.Surface,
-        exchange: {
-          price: prevItem.ExchangePrice,
-          currency: prevItem.ExchangeCurrency
-        },
-        source: prevItem.Source,
-        map: 0,
-        event: prevItem.Event,
-        exclusive: prevItem.EventExclusive,
-        hha: {
-          points: prevItem.HhaPoints,
-          concepts: [prevItem.HhaConcept1, prevItem.HhaConcept2],
-          series: prevItem.HhaSeries,
-          set: prevItem.HhaSet,
-          category: prevItem.Category
-        },
-        interact: prevItem.Interact,
-        tag: prevItem.Tag,
-        outdoor: prevItem.Outdoor,
-        type: {
-          speaker: prevItem.SpeakerType,
-          lighting: prevItem.LightingType
-        },
-        catalog: prevItem.Catalog,
-        version: prevItem.Version,
-        category: category,
-        price: {
-          buy: prevItem.Buy,
-          sell: prevItem.Sell,
-        },
-        count: {
-          variants: variants.length - count,
-          patterns: count
-        },
-        variants: variants
-      });
-
-      prevID = item[itemID]
-      count = 0;
-      variants = [];
-    }
-
-    let isPattern = false;
-    if (item.VariantID !== null) {
-      for (let k = 0; k < fileNamePatterns.length; k++) {
-        let patternText = fileNamePatterns[k];
-        if (item.variantID === fileNamePatterns[k]) {
-          isPattern = true;
-          count++;
-          break;
-        }
-      }
-    }
-
-    let hasVariantID = item.VariantID != null,
-        splits = hasVariantID ? item.VariantID.split('_') : false,
-        variantNumber = hasVariantID ? splits[0] : '',
-        patternNumber = hasVariantID ? splits[1] : '';
-
-    let searchID = {
-      variatnt: item[itemID] + '_' + variantNumber,
-      pattern: item[itemID] + '_' + patternNumber
-    };
-
-    let translation = {
-      variant: hasVariantID ? getTranslation(variantTranslations, searchID.variatnt, true) : null,
-      pattern: hasVariantID ? getTranslation(patternTranslations, searchID.pattern, true) : null
-    };
-
-    variants.push({
-      id: item.variantID,
-      pattern: {
-        name: {
-          en: item.Pattern,
-          jp: translation.pattern
-        }
-      },
-      variant: {
-        name: {
-          en: item.Variation,
-          jp: translation.variant
-        },
-      },
-      isPattern: isPattern,
-      imageName: item.Filename
-    });
+let test = [
+  {
+    "label": "DiveFish_02620",
+    "English": "seaweed",
+    "English (Europe)": "seaweed",
+    "German": "Wakame-Alge",
+    "Spanish": "alga wakame",
+    "Spanish (US)": "alga wakame",
+    "French": "wakame",
+    "French (US)": "wakamé",
+    "Italian": "alga wakame",
+    "Dutch": "zeewier",
+    "Chinese": "裙带菜",
+    "Chinese (Traditional)": "裙帶菜",
+    "Japanese": "ワカメ",
+    "Korean": "미역",
+    "Russian": "морские водоросли"
+  },
+  {
+    "label": "DiveFish_02830",
+    "English": "sea grapes",
+    "English (Europe)": "sea grapes",
+    "German": "Kriechsprossalge",
+    "Spanish": "uva de mar",
+    "Spanish (US)": "uva de mar",
+    "French": "algue raisin de mer",
+    "French (US)": "algue raisin de mer",
+    "Italian": "vite di mare",
+    "Dutch": "zeedruiven",
+    "Chinese": "海葡萄",
+    "Chinese (Traditional)": "海葡萄",
+    "Japanese": "ウミブドウ",
+    "Korean": "바다포도",
+    "Russian": "морской виноград"
+  },
+  {
+    "label": "DiveFish_02831",
+    "English": "sea urchin",
+    "English (Europe)": "sea urchin",
+    "German": "Seeigel",
+    "Spanish": "erizo de mar",
+    "Spanish (US)": "erizo de mar",
+    "French": "oursin",
+    "French (US)": "oursin",
+    "Italian": "riccio di mare",
+    "Dutch": "zee-egel",
+    "Chinese": "海胆",
+    "Chinese (Traditional)": "海膽",
+    "Japanese": "ウニ",
+    "Korean": "성게",
+    "Russian": "морской еж"
+  },
+  {
+    "label": "DiveFish_02832",
+    "English": "acorn barnacle",
+    "English (Europe)": "acorn barnacle",
+    "German": "Seepocke",
+    "Spanish": "bellota de mar",
+    "Spanish (US)": "bellota de mar",
+    "French": "balane",
+    "French (US)": "balane",
+    "Italian": "dente di cane",
+    "Dutch": "zeepok",
+    "Chinese": "藤壶",
+    "Chinese (Traditional)": "藤壺",
+    "Japanese": "フジツボ",
+    "Korean": "따개비",
+    "Russian": "морской желудь"
+  },
+  {
+    "label": "DiveFish_02833",
+    "English": "oyster",
+    "English (Europe)": "oyster",
+    "German": "Auster",
+    "Spanish": "ostra",
+    "Spanish (US)": "ostra",
+    "French": "huître",
+    "French (US)": "huître",
+    "Italian": "ostrica",
+    "Dutch": "oester",
+    "Chinese": "牡蛎",
+    "Chinese (Traditional)": "牡蠣",
+    "Japanese": "オイスター",
+    "Korean": "굴",
+    "Russian": "устрица"
+  },
+  {
+    "label": "DiveFish_02834",
+    "English": "turban shell",
+    "English (Europe)": "turban shell",
+    "German": "Turbanschnecke",
+    "Spanish": "caracola espinosa",
+    "Spanish (US)": "caracola espinosa",
+    "French": "turbo",
+    "French (US)": "turbo",
+    "Italian": "lumaca turbante",
+    "Dutch": "tulbandschelp",
+    "Chinese": "角蝾螺",
+    "Chinese (Traditional)": "角蠑螺",
+    "Japanese": "サザエ",
+    "Korean": "소라",
+    "Russian": "рогатый тюрбан"
+  },
+  {
+    "label": "DiveFish_02835",
+    "English": "abalone",
+    "English (Europe)": "abalone",
+    "German": "Seeohr",
+    "Spanish": "abulón",
+    "Spanish (US)": "abulón",
+    "French": "ormeau",
+    "French (US)": "ormeau",
+    "Italian": "abalone",
+    "Dutch": "abalone",
+    "Chinese": "鲍鱼",
+    "Chinese (Traditional)": "鮑魚",
+    "Japanese": "アワビ",
+    "Korean": "전복",
+    "Russian": "абалон"
+  },
+  {
+    "label": "DiveFish_02838",
+    "English": "pearl oyster",
+    "English (Europe)": "pearl oyster",
+    "German": "Perlmuschel",
+    "Spanish": "ostra perlera",
+    "Spanish (US)": "ostra perlera",
+    "French": "huître perlière",
+    "French (US)": "huître perlière",
+    "Italian": "ostrica pinctada",
+    "Dutch": "pareloester",
+    "Chinese": "马氏珠母贝",
+    "Chinese (Traditional)": "珠母蛤",
+    "Japanese": "アコヤガイ",
+    "Korean": "진주조개",
+    "Russian": "жемчужница"
+  },
+  {
+    "label": "DiveFish_02839",
+    "English": "scallop",
+    "English (Europe)": "scallop",
+    "German": "Kammmuschel",
+    "Spanish": "vieira",
+    "Spanish (US)": "vieira",
+    "French": "pétoncle",
+    "French (US)": "pétoncle",
+    "Italian": "capasanta",
+    "Dutch": "mantelschelp",
+    "Chinese": "虾夷扇贝",
+    "Chinese (Traditional)": "帆立貝",
+    "Japanese": "ホタテ",
+    "Korean": "가리비",
+    "Russian": "гребешок"
+  },
+  {
+    "label": "DiveFish_02840",
+    "English": "sea anemone",
+    "English (Europe)": "sea anemone",
+    "German": "Seeanemone",
+    "Spanish": "anémona",
+    "Spanish (US)": "anémona",
+    "French": "anémone de mer",
+    "French (US)": "anémone de mer",
+    "Italian": "anemone di mare",
+    "Dutch": "zeeanemoon",
+    "Chinese": "海葵",
+    "Chinese (Traditional)": "海葵",
+    "Japanese": "イソギンチャク",
+    "Korean": "말미잘",
+    "Russian": "актиния"
+  },
+  {
+    "label": "DiveFish_02841",
+    "English": "sea star",
+    "English (Europe)": "sea star",
+    "German": "Seestern",
+    "Spanish": "estrella de mar",
+    "Spanish (US)": "estrella de mar",
+    "French": "étoile de mer",
+    "French (US)": "étoile de mer",
+    "Italian": "stella marina",
+    "Dutch": "zeester",
+    "Chinese": "海星",
+    "Chinese (Traditional)": "海星",
+    "Japanese": "ヒトデ",
+    "Korean": "불가사리",
+    "Russian": "морская звезда"
+  },
+  {
+    "label": "DiveFish_02842",
+    "English": "sea cucumber",
+    "English (Europe)": "sea cucumber",
+    "German": "Seegurke",
+    "Spanish": "pepino de mar",
+    "Spanish (US)": "pepino de mar",
+    "French": "concombre de mer",
+    "French (US)": "concombre de mer",
+    "Italian": "cetriolo di mare",
+    "Dutch": "zeekomkommer",
+    "Chinese": "海参",
+    "Chinese (Traditional)": "海參",
+    "Japanese": "ナマコ",
+    "Korean": "해삼",
+    "Russian": "морской огурец"
+  },
+  {
+    "label": "DiveFish_02843",
+    "English": "sea slug",
+    "English (Europe)": "sea slug",
+    "German": "Nacktkiemer",
+    "Spanish": "babosa de mar",
+    "Spanish (US)": "babosa de mar",
+    "French": "limace de mer",
+    "French (US)": "limace de mer",
+    "Italian": "nudibranchi",
+    "Dutch": "zeeslak",
+    "Chinese": "海蛞蝓",
+    "Chinese (Traditional)": "海蛞蝓",
+    "Japanese": "ウミウシ",
+    "Korean": "갯민숭달팽이",
+    "Russian": "голожаберник"
+  },
+  {
+    "label": "DiveFish_02844",
+    "English": "flatworm",
+    "English (Europe)": "flatworm",
+    "German": "Meerstrudelwurm",
+    "Spanish": "gusano políclado",
+    "Spanish (US)": "gusano políclado",
+    "French": "ver plat",
+    "French (US)": "ver plat",
+    "Italian": "verme piatto",
+    "Dutch": "platworm",
+    "Chinese": "海扁虫",
+    "Chinese (Traditional)": "海扁蟲",
+    "Japanese": "ヒラムシ",
+    "Korean": "납작벌레",
+    "Russian": "плоский червь"
+  },
+  {
+    "label": "DiveFish_02845",
+    "English": "mantis shrimp",
+    "English (Europe)": "mantis shrimp",
+    "German": "Fangschreckenkrebs",
+    "Spanish": "langosta mantis",
+    "Spanish (US)": "langosta mantis",
+    "French": "crevette-mante",
+    "French (US)": "crevette-mante",
+    "Italian": "gambero mantide",
+    "Dutch": "mantisgarnaal",
+    "Chinese": "虾蛄",
+    "Chinese (Traditional)": "蝦蛄",
+    "Japanese": "シャコ",
+    "Korean": "갯가재",
+    "Russian": "рак-богомол"
+  },
+  {
+    "label": "DiveFish_02846",
+    "English": "sweet shrimp",
+    "English (Europe)": "sweet shrimp",
+    "German": "Botan-Garnele",
+    "Spanish": "camarón boreal",
+    "Spanish (US)": "camarón boreal",
+    "French": "crevette nordique",
+    "French (US)": "crevette nordique",
+    "Italian": "gamberetto boreale",
+    "Dutch": "Noorse garnaal",
+    "Chinese": "甜虾",
+    "Chinese (Traditional)": "甜蝦",
+    "Japanese": "アマエビ",
+    "Korean": "북쪽분홍새우",
+    "Russian": "северная креветка"
+  },
+  {
+    "label": "DiveFish_02847",
+    "English": "tiger prawn",
+    "English (Europe)": "tiger prawn",
+    "German": "Kuruma-Garnele",
+    "Spanish": "langostino tigre",
+    "Spanish (US)": "langostino tigre",
+    "French": "crevette tigrée",
+    "French (US)": "crevette tigrée",
+    "Italian": "gambero black tiger",
+    "Dutch": "tijgergarnaal",
+    "Chinese": "日本对虾",
+    "Chinese (Traditional)": "日本囊對蝦",
+    "Japanese": "クルマエビ",
+    "Korean": "보리새우",
+    "Russian": "тигровая креветка"
+  },
+  {
+    "label": "DiveFish_02848",
+    "English": "spiny lobster",
+    "English (Europe)": "spiny lobster",
+    "German": "Languste",
+    "Spanish": "langosta espinosa",
+    "Spanish (US)": "langosta espinosa",
+    "French": "langouste",
+    "French (US)": "langouste",
+    "Italian": "aragosta mediterranea",
+    "Dutch": "langoest",
+    "Chinese": "伊势龙虾",
+    "Chinese (Traditional)": "伊勢龍蝦",
+    "Japanese": "イセエビ",
+    "Korean": "닭새우",
+    "Russian": "колючий лангуст"
+  },
+  {
+    "label": "DiveFish_02849",
+    "English": "lobster",
+    "English (Europe)": "lobster",
+    "German": "Hummer",
+    "Spanish": "bogavante",
+    "Spanish (US)": "bogavante",
+    "French": "homard",
+    "French (US)": "homard",
+    "Italian": "astice",
+    "Dutch": "kreeft",
+    "Chinese": "龙虾",
+    "Chinese (Traditional)": "螯龍蝦",
+    "Japanese": "ロブスター",
+    "Korean": "바닷가재",
+    "Russian": "омар"
+  },
+  {
+    "label": "DiveFish_02850",
+    "English": "snow crab",
+    "English (Europe)": "snow crab",
+    "German": "Schneekrabbe",
+    "Spanish": "cangrejo de nieve",
+    "Spanish (US)": "cangrejo de nieve",
+    "French": "crabe des neiges",
+    "French (US)": "crabe des neiges",
+    "Italian": "granchio della neve",
+    "Dutch": "sneeuwkrab",
+    "Chinese": "松叶蟹",
+    "Chinese (Traditional)": "松葉蟹",
+    "Japanese": "ズワイガニ",
+    "Korean": "대게",
+    "Russian": "краб-стригун"
+  },
+  {
+    "label": "DiveFish_02852",
+    "English": "red king crab",
+    "English (Europe)": "red king crab",
+    "German": "Königskrabbe",
+    "Spanish": "cangrejo boreal",
+    "Spanish (US)": "cangrejo boreal",
+    "French": "crabe royal",
+    "French (US)": "crabe royal",
+    "Italian": "granchio gigante",
+    "Dutch": "rode koningskrab",
+    "Chinese": "帝王蟹",
+    "Chinese (Traditional)": "鱈場蟹",
+    "Japanese": "タラバガニ",
+    "Korean": "왕게",
+    "Russian": "камчатский краб"
+  },
+  {
+    "label": "DiveFish_02853",
+    "English": "spider crab",
+    "English (Europe)": "spider crab",
+    "German": "Riesenkrabbe",
+    "Spanish": "cangrejo gigante japonés",
+    "Spanish (US)": "cangrejo gigante japonés",
+    "French": "crabe-araignée géant",
+    "French (US)": "crabe-araignée géant",
+    "Italian": "granchio gig. del Giappone",
+    "Dutch": "reuzenkrab",
+    "Chinese": "高脚蟹",
+    "Chinese (Traditional)": "高腳蟹",
+    "Japanese": "タカアシガニ",
+    "Korean": "키다리게",
+    "Russian": "краб-паук"
+  },
+  {
+    "label": "DiveFish_02854",
+    "English": "octopus",
+    "English (Europe)": "octopus",
+    "German": "Oktopus",
+    "Spanish": "pulpo",
+    "Spanish (US)": "pulpo",
+    "French": "poulpe",
+    "French (US)": "pieuvre",
+    "Italian": "polpo",
+    "Dutch": "octopus",
+    "Chinese": "章鱼",
+    "Chinese (Traditional)": "章魚",
+    "Japanese": "タコ",
+    "Korean": "문어",
+    "Russian": "осьминог"
+  },
+  {
+    "label": "DiveFish_02855",
+    "English": "spotted garden eel",
+    "English (Europe)": "spotted garden eel",
+    "German": "Röhrenaal",
+    "Spanish": "anguila jardinera",
+    "Spanish (US)": "anguila jardinera",
+    "French": "anguille de jardin",
+    "French (US)": "anguille de jardin",
+    "Italian": "anguilla di giardino",
+    "Dutch": "gevlekte buisaal",
+    "Chinese": "花园鳗",
+    "Chinese (Traditional)": "花園鰻",
+    "Japanese": "チンアナゴ",
+    "Korean": "가든일",
+    "Russian": "леопардовый угорь"
+  },
+  {
+    "label": "DiveFish_02856",
+    "English": "chambered nautilus",
+    "English (Europe)": "chambered nautilus",
+    "German": "Perlboot",
+    "Spanish": "nautilo",
+    "Spanish (US)": "nautilo",
+    "French": "nautile",
+    "French (US)": "nautile",
+    "Italian": "nautilus",
+    "Dutch": "nautilus",
+    "Chinese": "鹦鹉螺",
+    "Chinese (Traditional)": "鸚鵡螺",
+    "Japanese": "オウムガイ",
+    "Korean": "앵무조개",
+    "Russian": "наутилус"
+  },
+  {
+    "label": "DiveFish_02857",
+    "English": "horseshoe crab",
+    "English (Europe)": "horseshoe crab",
+    "German": "Pfeilschwanzkrebs",
+    "Spanish": "cangrejo herradura",
+    "Spanish (US)": "cangrejo herradura",
+    "French": "limule",
+    "French (US)": "limule",
+    "Italian": "granchio ferro di cavallo",
+    "Dutch": "degenkrab",
+    "Chinese": "鲎",
+    "Chinese (Traditional)": "鱟",
+    "Japanese": "カブトガニ",
+    "Korean": "투구게",
+    "Russian": "мечехвост"
+  },
+  {
+    "label": "DiveFish_02858",
+    "English": "giant isopod",
+    "English (Europe)": "giant isopod",
+    "German": "Riesenassel",
+    "Spanish": "isópodo gigante",
+    "Spanish (US)": "isópodo gigante",
+    "French": "bathynome géant",
+    "French (US)": "isopode géant",
+    "Italian": "isopode gigante",
+    "Dutch": "reuzenpissebed",
+    "Chinese": "大王具足虫",
+    "Chinese (Traditional)": "大王具足蟲",
+    "Japanese": "ダイオウグソクムシ",
+    "Korean": "자이언트 이소포드",
+    "Russian": "гигантская изопода"
+  },
+  {
+    "label": "DiveFish_06920",
+    "English": "firefly squid",
+    "English (Europe)": "firefly squid",
+    "German": "Leuchtkalmar",
+    "Spanish": "calamar luciérnaga",
+    "Spanish (US)": "calamar luciérnaga",
+    "French": "calmar luciole",
+    "French (US)": "calmar luciole",
+    "Italian": "calamaro lucciola",
+    "Dutch": "vuurvliegpijlinktvis",
+    "Chinese": "萤火鱿",
+    "Chinese (Traditional)": "螢火魷",
+    "Japanese": "ホタルイカ",
+    "Korean": "반딧불오징어",
+    "Russian": "сверкающий кальмар"
+  },
+  {
+    "label": "DiveFish_07191",
+    "English": "gazami crab",
+    "English (Europe)": "gazami crab",
+    "German": "Gazami-Krabbe",
+    "Spanish": "cangrejo gazami",
+    "Spanish (US)": "cangrejo gazami",
+    "French": "crabe gazami",
+    "French (US)": "crabe gazami",
+    "Italian": "granchio gazami",
+    "Dutch": "Japanse blauwe krab",
+    "Chinese": "梭子蟹",
+    "Chinese (Traditional)": "三疣梭子蟹",
+    "Japanese": "ガザミ",
+    "Korean": "꽃게",
+    "Russian": "газами-краб"
+  },
+  {
+    "label": "DiveFish_07203",
+    "English": "vampire squid",
+    "English (Europe)": "vampire squid",
+    "German": "Vampirtintenfisch",
+    "Spanish": "calamar vampiro",
+    "Spanish (US)": "calamar vampiro",
+    "French": "vampire des abysses",
+    "French (US)": "vampire des abysses",
+    "Italian": "calamaro vampiro",
+    "Dutch": "vampierinktvis",
+    "Chinese": "吸血鬼乌贼",
+    "Chinese (Traditional)": "吸血烏賊",
+    "Japanese": "コウモリダコ",
+    "Korean": "흡혈오징어",
+    "Russian": "адский кальмар-вампир"
+  },
+  {
+    "label": "DiveFish_07214",
+    "English": "gigas giant clam",
+    "English (Europe)": "gigas giant clam",
+    "German": "Gigas-Riesenmuschel",
+    "Spanish": "taclobo gigante",
+    "Spanish (US)": "taclobo gigante",
+    "French": "bénitier colossal",
+    "French (US)": "bénitier colossal",
+    "Italian": "tridacna gigante",
+    "Dutch": "reuzendoopvontschelp",
+    "Chinese": "大砗磲",
+    "Chinese (Traditional)": "大硨磲",
+    "Japanese": "オオシャコガイ",
+    "Korean": "대왕거거",
+    "Russian": "гигантская тридакна"
+  },
+  {
+    "label": "DiveFish_07228",
+    "English": "sea pineapple",
+    "English (Europe)": "sea pineapple",
+    "German": "Seeananas",
+    "Spanish": "piña de mar",
+    "Spanish (US)": "piña de mar",
+    "French": "halocynthia roretzi",
+    "French (US)": "halocynthia roretzi",
+    "Italian": "ananas di mare",
+    "Dutch": "zeeananas",
+    "Chinese": "海鞘",
+    "Chinese (Traditional)": "海鞘",
+    "Japanese": "ホヤ",
+    "Korean": "멍게",
+    "Russian": "морской ананас"
+  },
+  {
+    "label": "DiveFish_07245",
+    "English": "moon jellyfish",
+    "English (Europe)": "moon jellyfish",
+    "German": "Ohrenqualle",
+    "Spanish": "medusa luna",
+    "Spanish (US)": "medusa luna",
+    "French": "méduse lune",
+    "French (US)": "méduse lune",
+    "Italian": "medusa aurelia",
+    "Dutch": "oorkwal",
+    "Chinese": "海月水母",
+    "Chinese (Traditional)": "海月水母",
+    "Japanese": "ミズクラゲ",
+    "Korean": "보름달물해파리",
+    "Russian": "ушастая аурелия"
+  },
+  {
+    "label": "DiveFish_07252",
+    "English": "umbrella octopus",
+    "English (Europe)": "umbrella octopus",
+    "German": "Regenschirm-Oktopus",
+    "Spanish": "pulpo paraguas",
+    "Spanish (US)": "pulpo paraguas",
+    "French": "pieuvre parapluie",
+    "French (US)": "pieuvre parapluie",
+    "Italian": "polpo ombrello",
+    "Dutch": "depressa-inktvis",
+    "Chinese": "扁面蛸",
+    "Chinese (Traditional)": "扁面蛸",
+    "Japanese": "メンダコ",
+    "Korean": "우무문어",
+    "Russian": "опистотейтис"
+  },
+  {
+    "label": "DiveFish_07267",
+    "English": "slate pencil urchin",
+    "English (Europe)": "slate pencil urchin",
+    "German": "Griffelseeigel",
+    "Spanish": "erizo lápiz de pizarra",
+    "Spanish (US)": "erizo lápiz de pizarra",
+    "French": "oursin crayon",
+    "French (US)": "oursin crayon",
+    "Italian": "riccio matita",
+    "Dutch": "griffelzee-egel",
+    "Chinese": "石笔海胆",
+    "Chinese (Traditional)": "石筆海膽",
+    "Japanese": "パイプウニ",
+    "Korean": "연필성게",
+    "Russian": "грифельный морск. еж"
+  },
+  {
+    "label": "DiveFish_07278",
+    "English": "whelk",
+    "English (Europe)": "whelk",
+    "German": "Babylon-Seeschnecke",
+    "Spanish": "buccino",
+    "Spanish (US)": "buccino",
+    "French": "bulot",
+    "French (US)": "bulot",
+    "Italian": "buccino",
+    "Dutch": "wulk",
+    "Chinese": "花螺",
+    "Chinese (Traditional)": "峨螺",
+    "Japanese": "バイガイ",
+    "Korean": "수랑",
+    "Russian": "моллюск-трубач"
+  },
+  {
+    "label": "DiveFish_07303",
+    "English": "sea pig",
+    "English (Europe)": "sea pig",
+    "German": "Scotoplanes",
+    "Spanish": "cerdo de mar",
+    "Spanish (US)": "cerdo de mar",
+    "French": "cochon de mer",
+    "French (US)": "cochon de mer",
+    "Italian": "porcellino di mare",
+    "Dutch": "zeevarken",
+    "Chinese": "海猪",
+    "Chinese (Traditional)": "海豬",
+    "Japanese": "センジュナマコ",
+    "Korean": "바다돼지",
+    "Russian": "скотопланес"
+  },
+  {
+    "label": "DiveFish_07308",
+    "English": "Dungeness crab",
+    "English (Europe)": "Dungeness crab",
+    "German": "Pazifik-Taschenkrebs",
+    "Spanish": "buey del Pacífico",
+    "Spanish (US)": "buey del Pacífico",
+    "French": "crabe de Dungeness",
+    "French (US)": "crabe de Dungeness",
+    "Italian": "granciporro",
+    "Dutch": "Dungeness-krab",
+    "Chinese": "珍宝蟹",
+    "Chinese (Traditional)": "首長黃道蟹",
+    "Japanese": "ダンジネスクラブ",
+    "Korean": "던지니스크랩",
+    "Russian": "данженесский краб"
+  },
+  {
+    "label": "DiveFish_07318",
+    "English": "Venus' flower basket",
+    "English (Europe)": "Venus' flower basket",
+    "German": "Gießkannenschwamm",
+    "Spanish": "canasta de flores de Venus",
+    "Spanish (US)": "canasta de flores de Venus",
+    "French": "corbeille de Vénus",
+    "French (US)": "corbeille de Vénus",
+    "Italian": "cestello di Venere",
+    "Dutch": "venusmandje",
+    "Chinese": "偕老同穴",
+    "Chinese (Traditional)": "偕老同穴",
+    "Japanese": "カイロウドウケツ",
+    "Korean": "해로동혈",
+    "Russian": "корзинка Венеры"
+  },
+  {
+    "label": "DiveFish_07411",
+    "English": "mussel",
+    "English (Europe)": "mussel",
+    "German": "Miesmuschel",
+    "Spanish": "mejillón",
+    "Spanish (US)": "mejillón",
+    "French": "moule",
+    "French (US)": "moule",
+    "Italian": "cozza",
+    "Dutch": "mossel",
+    "Chinese": "贻贝",
+    "Chinese (Traditional)": "貽貝",
+    "Japanese": "ムールガイ",
+    "Korean": "지중해담치",
+    "Russian": "мидия"
   }
+]
 
-  return newData;
-}
-
-function findSource(data) {
-  let newData = [];
-  for (var i = 0; i < data.length; i++) {
-    newData.push(data[i].source);
-  }
-  return newData;
-}
-// let test = csvTranlation(ttttt);
-
-// let sourceData = findSource(items.misc);
-// let  a = sourceData.unique();
-
-
-
-let newData = createNewDataFromSheet(csv[category], nameTranslations, variantTranslations);
-console.log(newData);
-// let translationTest = csvTranlation(test)
-// console.log(translationTest);
-
-let html = createList(items[category]);
-$('#js-item-list').html(html);
-
-// let html = createList(fashion[category].sort(compareValues('count')));
-
-
-let sourceNames = [
-  // "Crafting",
-  // "Flick",
-  // "Kicks",
-  // "DAL",
-  // "CJ",
-  "Shopping Seasonal",
-  // "Mom",
-  // "Nook Miles",
-  // "Cranny",
-  "Daily Selection",
-  "Shopping Promotion",
-  "NookLink",
-  // "Birthday",
-  "HHA",
-  // "Zipper",
-  // "Franklin",
-  // "Gulliver",
-  // "Pave",
-  "Nintendo",
-  "Starting items",
-  // "Cyrus",
-  // "Rover",
-  // "Luna",
-  // "Gullivarrr",
-  // "Jack",
-  // "Jingle",
-  // "Able Sisters",
-  // "Label",
-  "Recycle",
-  // "Treasure Trawler",
-  // "Pascal",
-  // "Blathers",
-  "All villagers",
-  "fossils",
-  "Redd-Cranny",
-  // "Isabelle",
-  "Cranny-TomNook",
-  "May Day Tour",
-  // "Tom Nook",
-  // "Saharah",
-  "High Friendship",
-  "Check Toy Day stockings the day after Toy Day",
-  // "KK",
-  // "Posters"
-];
+// let tete = csvTranlation(test);
+// console.log(tete)

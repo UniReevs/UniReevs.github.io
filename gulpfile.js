@@ -5,7 +5,7 @@ const gulp = require('gulp'),
       uglify = require('gulp-uglify'),
       clean = require('gulp-clean'),
       fileInclude = require('gulp-file-include');
-
+const htmlmin = require('gulp-htmlmin');
 const basePaths = {
         src: 'acnh/src/',
         dest: 'acnh/assets/'
@@ -62,6 +62,11 @@ gulp.task('html', () => {
     .pipe(gulp.dest('acnh/'));
 });
 
+gulp.task('minify', () => {
+  return gulp.src('acnh/index.html')
+    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(gulp.dest('./'));
+});
 
 
 // gulp.task('css', () => {

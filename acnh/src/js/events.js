@@ -1,102 +1,52 @@
-// let observer = new intersectionObserver(function(entries, self) {
-//   // iterate over each entry
-//   entries.forEach(entry => {
-//     // process just the images that are intersecting.
-//     // isIntersecting is a property exposed by the interface
-//     if(entry.isIntersecting) {
-//       // custom function that copies the path to the img
-//       // from data-src to src
-//       preloadImage(entry.target);
-//       // the image is now in place, stop watching
-//       self.unobserve(entry.target);
-//     }
-//   });
-// });
-
-// const imgs = document.querySelectorAll('[data-src]');
-// imgs.forEach(img => {
-//   observer.observe(img);
-// });
-
 const className = {
   active: 'is-active',
   selected: 'is-selected'
 },
 element = {
   nav: {
-    main: '#js-main-nav'
+    main: '#js-main-nav',
+    source: '#js-source-nav',
+    filter: {
+      or: '.nav[data-search-type="or"]',
+      and: '.nav[data-search-type="and"]',
+      not: '.nav[data-search-type="not"]'
+    }
   },
+  mainContent: '#js-main',
   itemList: '#js-item-list',
   menu: '.js-menu',
   view: '.js-switch-view'
 };
 
+let currentSelected = {
+  category: 'data-housewares',
+  source: 'data-all'
+};
 
-// function changeActiveMenu(className, targetElement) {
-//   $(targetElement).removeClass(className);
-//   $(this).addClass(className);
-// }
-let filterList = [
-  'everything',
-  'bags',
-  'swimwear',
-  'miscellaneous',
-  'housewares',
-  'villagers',
-  'materials',
-  'bottoms',
-  'tops',
-  'art',
-  'recipes',
-  'dresses',
-  'umbrellas',
-  'wall-mounted',
-  'fossils',
-  'tools',
-  'headwear',
-  'floors',
-  'photos',
-  'music',
-  'events',
-  'shoes',
-  'rugs',
-  'posters',
-  'accessories',
-  'socks',
-  'wallpaper',
-  'special',
-  'fencing'
-];
-$(element.nav.main)
-.on('click', element.menu, function(event) {
-  event.preventDefault();
-  let $this = $(this),
-      attribute = 'data-'+$this.data('category'),
-      $parent = $this.parent();
-  $('.menu').removeClass(className.active);
-  $parent.addClass(className.active);
-
-  for (var i = 0; i < filterList.length; i++) {
-    $('#js-category-filter').attr('data-'+filterList[i], false);
+function updateCurrentSelectedMenu(attribute, isMainNav) {
+    $(element.mainContent).attr(currentSelected.category, 'false');
+    $(element.mainContent).attr(currentSelected.source, 'false');
+  if (isMainNav) {
+    currentSelected.category = attribute;
+  } else {
+    currentSelected.source = attribute;
   }
+  $(element.mainContent).attr(attribute, 'true');
+}
 
-  $('#js-category-filter').attr(attribute, true);
-})
-
-.on('click', element.view, function(event) {;
+$(element.nav.filter.or).on('click', element.menu, function(event) {
   event.preventDefault();
   let $this = $(this),
-      value = $this.data('view');
-  $(element.view).removeClass(className.active);
-  $this.addClass(className.active);
-  $(element.itemList).attr('data-view', value);
+      attribute = $this.data('filter'),
+      $menu = $this.parent('.menu'),
+      $nav = $this.closest('.nav'),
+      isMainNav = $nav.attr('id') === 'js-main-nav';
+  $nav.find('.menu').removeClass(className.selected);
+  $menu.addClass(className.selected);
+  updateCurrentSelectedMenu(attribute, isMainNav);
 });
 
-$('#js-item-list').on('click', '.js-user-input', function(event) {
-  event.stopPropagation();
-});
-
-$('#js-item-list').on('click', '.item-pattern, .item-variant', function() {
+$(element.itemList).on('click', '.item-pattern, .item-variant', function() {
   let $this = $(this),
       $parent = $this.parents('.item');
   $this.toggleClass(className.selected);
@@ -107,16 +57,6 @@ $('#js-item-list').on('click', '.item-pattern, .item-variant', function() {
     $parent.removeClass(className.selected);
   }
 });
-
-$('#js-npc-nav').on('click', '.js-not', function() {
-  $(this).parents('.js-menu').attr('data-filter', 'not');
-}).on('click', '.js-and', function() {
-  $(this).parents('.js-menu').attr('data-filter', 'and');
-
-}).on('click', '.js-only', function() {
-  $(this).parents('.js-menu').attr('data-filter', 'only');
-});
-
 
 document.addEventListener('DOMContentLoaded', function() {
   var lazyloadImages = document.querySelectorAll('.js-load-image');
@@ -147,4 +87,3 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', lazyload);
   window.addEventListener('orientationChange', lazyload);
 });
-

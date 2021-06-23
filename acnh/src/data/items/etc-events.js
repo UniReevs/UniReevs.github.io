@@ -1,1 +1,1 @@
-diy.fencing = [];
+itemData.events = [];

@@ -1,5 +1,26 @@
+.page-top {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background: #eeca2e;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px;
+
+  .material-icons {
+    font-size: 30px;
+  }
+}
+
 .name {
   text-transform: capitalize;
+}
+
+.item-list {
+  padding-top: 91px;
 }
 
 .en,
@@ -11,32 +32,20 @@
   font-size: smaller;
 }
 
-.item-list {
+.variants-patterns,
+.item-info,
+.variant-group ul,
+.materials-required,
+.item-list,
+.item-list > li {
   display: flex;
   flex-wrap: wrap;
 }
-[data-test='false'] ~ .item-test .name {
-  display: none;
 
-}
 .count {
   position: absolute;
   left: 5px;
   top: 3px;
-
-  .variants {
-    // &::before {
-    //   $size: 8px;
-
-    //   content: '';
-    //   display: inline-block;
-    //   width: $size;
-    //   height: $size;
-    //   border-radius: 50%;
-    //   background: #cc5649;
-    //   margin-right: 3px;
-    // }
-  }
 
   .patterns {
     &::before {
@@ -68,9 +77,9 @@
 }
 
 .item-info {
-  display: flex;
   justify-content: space-between;
-  margin: 0 5px;
+  background: #fff;
+  padding: 5px;
 }
 
 .diy-info {
@@ -87,9 +96,7 @@
 }
 
 .materials-required {
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 
   li {
     list-style-type: disc;
@@ -107,86 +114,6 @@
   }
 }
 
-.user-input {
-  display: block;
-  text-align: center;
-  visibility: hidden;
-  margin-bottom: 2px;
-}
-
-.is-selected {
-  .user-input {
-    visibility: visible;
-  }
-}
-
-// [data-price='-1'] {
-//   color: transparent;
-
-//   img {
-//     display: none;
-//   }
-// }
-
-
-// [data-view='grid'],
-// [data-view='group'] {
-//   display: flex;
-//   flex-wrap: wrap;
-
-//   .item {
-//     border: 3px solid $color-gray;
-//   }
-//   .info {
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//   }
-// }
-
-// [data-view='list'] {
-//   .item {
-//     display: flex;
-//     border-bottom: 1px solid $color-gray;
-//   }
-//   .name {
-//     display: inline-block;
-//     min-width: 15em;
-//     text-align: left;
-//   }
-//   .info {
-//     text-align: left;
-//   }
-// }
-
-// [data-view='grid'] {
-//   .item {
-//     border: 0;
-//     padding: 0;
-//     margin: 0;
-//   }
-//   .item-header {
-//     display: none;
-//   }
-//   .item-variant {
-//     align-items: flex-end;
-//   }
-//   .variant {
-//     top: 0;
-//     &::before {
-//       content: attr(data-name);
-//     }
-//   }
-//   .brackets {
-//     &::before {
-//       content: '(';
-//     }
-//     &::after {
-//       content: ')';
-//     }
-//   }
-// }
-
 .item {
   border-radius: 5px;
   margin: 2px;
@@ -194,9 +121,9 @@
   text-align: center;
   position: relative;
   min-width: 200px;
-  // display: none;
   background: #e0e0e0;
   border: 3px solid $color-gray;
+  display: none;
 
   &.is-selected {
     border-color: #000;
@@ -204,28 +131,9 @@
 }
 
 .variants-patterns {
-  display: flex;
   justify-content: center;
   border-radius: 3px;
-  flex-wrap: wrap;
 }
-
-// .test {
-//   $size: 70px;
-//   $h: $size + 10;
-//   min-width: $size;
-//   min-height: $h;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   // flex-direction: column;
-//   position: relative;
-//   border: 1px solid $color-gray;
-//   padding: 2px;
-//   margin: 1px;
-//   background: #fff;
-//   cursor: pointer;
-// }
 
 .item-variant,
 .item-pattern {
@@ -244,89 +152,111 @@
   }
 }
 
-
-// .group {
-//   margin: 5px 2px;
-//   a {
-//     color: #000;
-//     display: inline-block;
-//     padding: 5px 5px 4px;
-//     // background: #ffffdd;
-//   }
-// }
-
-// .map {
-//   // position: absolute;
-//   // top: 0;
-//   // right: 0;
-// }
-
-// .item[data-source="C.J."] {
-//   display: block;
-
-// }
-
-
-// [data-everything='true'] .item,
-// [data-bags='true'] .item[data-category='bags'],
-// [data-swimwear='true'] .item[data-category='swimwear'],
-// [data-miscellaneous='true'] .item[data-category='misc'],
-// [data-housewares='true'] .item[data-category='housewares'],
-// [data-villagers='true'] .item[data-category='villagers'],
-// [data-materials='true'] .item[data-category='materials'],
-// [data-bottoms='true'] .item[data-category='bottoms'],
-// [data-tops='true'] .item[data-category='tops'],
-// [data-art='true'] .item[data-category='art'],
-// [data-recipes='true'] .item[data-category='recipes'],
-// [data-dresses='true'] .item[data-category='dresses'],
-// [data-umbrellas='true'] .item[data-category='umbrellas'],
-// [data-wall-mounted='true'] .item[data-category='wall-mounted'],
-// [data-fossils='true'] .item[data-category='fossils'],
-// [data-tools='true'] .item[data-category='tools'],
-// [data-headwear='true'] .item[data-category='headwear'],
-// [data-floors='true'] .item[data-category='floors'],
-// [data-photos='true'] .item[data-category='photos'],
-// [data-music='true'] .item[data-category='music'],
-// [data-events='true'] .item[data-category='events'],
-// [data-shoes='true'] .item[data-category='shoes'],
-// [data-rugs='true'] .item[data-category='rugs'],
-// [data-posters='true'] .item[data-category='posters'],
-// [data-accessories='true'] .item[data-category='accessories'],
-// [data-socks='true'] .item[data-category='socks'],
-// [data-wallpaper='true'] .item[data-category='wallpaper'],
-// [data-special='true'] .item[data-category='special'],
-// [data-fencing='true'] .item[data-category='fencing'] {
-//   display: block;
-// }
-
-// .item[data-buy='-1'] {
-//   background: #ded6bc;
-// }
-
-.item[data-source='Crafting'] {
-  background: #c8e6b7;
+.pattern-name {
+  &::before {
+    content: '(';
+  }
+  &::after {
+    content: ')';
+  }
 }
 
-.item[data-source='Nook-Miles'] {
-  background: #caebf5;
+.item-data {
+
+  &[data-catalog='Not for sale'] + .item {
+    background: #ded6bc;
+  }
+
+  &[data-source='Crafting'] + .item {
+    background: #c8e6b7;
+  }
+
+  &[data-source='Nook Miles Redemption'] + .item {
+    background: #caebf5;
+  }
 }
 
-// [data-count='1'] .variants .name {
+
+
+[data-everything='true'] .item-data + .item,
+[data-all='true'] .item-data + .item,
+[data-housewares='true'] [data-category='housewares'] + .item,
+[data-miscellaneous='true'] [data-category='misc'] + .item,
+[data-wall-mounted='true'] [data-category='wallMounted'] + .item,
+[data-wallpaper='true'] [data-category='wallpaper'] + .item,
+[data-floors='true'] [data-category='floors'] + .item,
+[data-rugs='true'] [data-category='rugs'] + .item,
+[data-fencing='true'] [data-category='fencing'] + .item,
+[data-photos='true'] [data-category='photos'] + .item,
+[data-posters='true'] [data-category='posters'] + .item,
+[data-tools='true'] [data-category='tools'] + .item,
+[data-tops='true'] [data-category='tops'] + .item,
+[data-bottoms='true'] [data-category='bottoms'] + .item,
+[data-dresses='true'] [data-category='dresses'] + .item,
+[data-headwear='true'] [data-category='headwear'] + .item,
+[data-accessories='true'] [data-category='accessories'] + .item,
+[data-socks='true'] [data-category='socks'] + .item,
+[data-shoes='true'] [data-category='shoes'] + .item,
+[data-bags='true'] [data-category='bags'] + .item,
+[data-umbrellas='true'] [data-category='umbrellas'] + .item,
+[data-swimwear='true'] [data-category='swimwear'] + .item,
+[data-music='true'] [data-category='music'] + .item,
+[data-fossils='true'] [data-category='fossils'] + .item,
+[data-insects='true'] [data-category='insects'] + .item,
+[data-fish='true'] [data-category='fish'] + .item,
+[data-dive='true'] [data-category='seaCreatures'] + .item,
+[data-art='true'] [data-category='art'] + .item {
+  display: block;
+}
+
+// [data-all='false'] .item-data + .item {
 //   display: none;
 // }
 
+[data-redd='true'] [data-source='Redd'] + .item ,
+[data-trawler='true'] [data-source='Trawler'] + .item ,
+[data-kk='true'] [data-source='K.K. concert'] + .item ,
+[data-nook='true'] [data-source='Tom Nook'] + .item ,
+[data-kicks='true'] [data-source='Kicks'] + .item ,
+[data-pascal='true'] [data-source='Pascal'] + .item ,
+[data-recycle='true'] [data-source='Recycle box'] + .item ,
+[data-label='true'] [data-source='Label'] + .item ,
+[data-able='true'] [data-source='Able Sisters'] + .item ,
+[data-may-day='true'] [data-source='May Day Tour'] + .item ,
+[data-redd='true'] [data-source='Redd'] + .item ,
+[data-isabelle='true'] [data-source='Isabelle'] + .item ,
+[data-amiibo='true'] [data-source='Amiibo'] + .item ,
+[data-photopia='true'] [data-source='Photopia'] + .item ,
+[data-friendship='true'] [data-source='High Friendship'] + .item ,
+[data-gullivarrr='true'] [data-source='Gullivarrr'] + .item ,
+[data-saharah='true'] [data-source='Saharah'] + .item ,
+[data-jingle='true'] [data-source='Jingle'] + .item ,
+[data-jingle='true'] [data-source='Check Toy Day stockings the day after Toy Day'] + .item ,
+[data-villagers='true'] [data-source='All villagers'] + .item ,
+[data-jack='true'] [data-source='Jack'] + .item ,
+[data-blathers='true'] [data-source='Blathers'] + .item ,
+[data-rover='true'] [data-source='Rover'] + .item ,
+[data-nintendo='true'] [data-source='Nintendo'] + .item ,
+[data-franklin='true'] [data-source='Franklin'] + .item ,
+[data-mom='true'] [data-source='Mom'] + .item ,
+[data-dal='true'] [data-source='DAL'] + .item ,
+[data-zipper='true'] [data-source='Zipper'] + .item ,
+[data-hha='true'] [data-source='HHA'] + .item ,
+[data-gulliver='true'] [data-source='Gulliver'] + .item ,
+[data-selection='true'] [data-source='Daily Selection'] + .item ,
+[data-nook-link='true'] [data-source='NookLink'] + .item ,
+[data-luna='true'] [data-source='Luna'] + .item ,
+[data-miles='true'] [data-source='Nook Miles Redemption'] + .item ,
+[data-cj='true'] [data-source='CJ'] + .item ,
+[data-flick='true'] [data-source='Flick'] + .item ,
+[data-cyrus='true'] [data-source='Cyrus'] + .item ,
+[data-birthday='true'] [data-source='Birthday'] + .item ,
+[data-pave='true'] [data-source='Pave'] + .item ,
+[data-promotion='true'] [data-source='ShoppingPromotion'] + .item ,
+[data-seasonal='true'] [data-source='ShoppingSeasonal'] + .item ,
+[data-crafting='true'] [data-source='Crafting'] + .item ,
+[data-cranny='true'] [data-source='Cranny'] + .item {
+  display: block;
+}
 
-
-// [data-option-english='true'] .en,
-// [data-option-japanese='true'] .jp,
-// [data-option-patterns='true'],
-// [data-option-buy='true'],
-// [data-option-sell='true'],
-// [data-option-category='true'],
-// [data-option-source='true'],
-// [data-option-count-patterns='true'],
-// [data-option-count-variants='true'],
-// [data-option-kit='false'],
-// [data-option-required-materials='false'],
-// [data-option-image='L'] {}
 

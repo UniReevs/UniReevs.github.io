@@ -8,73 +8,105 @@
   <title>あつ森 カタログ</title>
 </head>
 <body>
-  <div class="app">
+  <div class="app" id="page-top">
     <div class="sticky horizontal-scroll">
-      <!-- @@include('./includes/top-bar.html') -->
-      @@include('./includes/options.html')
       @@include('./includes/main-nav.html')
-      @@include('./includes/npc-nav.html')
+      @@include('./includes/source-nav.html')
     </div>
     <main class="app-content">
       <div class="main-content"
-
         data-everything="false"
-        data-bags="false"
-        data-swimwear="false"
-        data-miscellaneous="false"
+
         data-housewares="true"
-        data-villagers="false"
-        data-materials="false"
-        data-bottoms="false"
-        data-tops="false"
-        data-art="false"
-        data-recipes="false"
-        data-dresses="false"
-        data-umbrellas="false"
+        data-miscellaneous="false"
         data-wall-mounted="false"
-        data-fossils="false"
-        data-tools="false"
-        data-headwear="false"
+
+        data-wallpaper="false"
         data-floors="false"
-        data-photos="false"
-        data-music="false"
-        data-events="false"
-        data-shoes="false"
         data-rugs="false"
-        data-posters="false"
+
+        data-tops="false"
+        data-bottoms="false"
+        data-dresses="false"
+        data-swimwear="false"
+        data-headwear="false"
         data-accessories="false"
         data-socks="false"
-        data-wallpaper="false"
-        data-special="false"
+        data-shoes="false"
+        data-bags="false"
+        data-umbrellas="false"
+
+        data-posters="false"
+        data-photos="false"
+
+        data-art="false"
+        data-fossils="false"
+        data-music="false"
+
         data-fencing="false"
+        data-tools="false"
 
-        data-option-english="true"
-        data-option-japanese="true"
-        data-option-patterns="true"
-        data-option-buy="true"
-        data-option-sell="true"
-        data-option-category="true"
-        data-option-source="true"
-        data-option-count-patterns="true"
-        data-option-count-variants="true"
-        data-option-kit="false"
-        data-option-required-materials="false"
-        data-option-image="L"
+        data-insects="false"
+        data-fish="false"
+        data-dive="false"
 
+        data-all="true"
+        data-kk="false"
+        data-nook="false"
+        data-kicks="false"
+        data-pascal="false"
+        data-pascal="false"
+        data-label="false"
+        data-able="false"
+        data-may-day="false"
+        data-redd="false"
+        data-isabelle="false"
+        data-amiibo="false"
+        data-photopia="false"
+        data-friendship="false"
+        data-gullivarrr="false"
+        data-saharah="false"
+        data-jingle="false"
+        data-villagers="false"
+        data-jack="false"
+        data-blathers="false"
+        data-rover="false"
+        data-nintendo="false"
+        data-franklin="false"
+        data-mom="false"
+        data-dal="false"
+        data-zipper="false"
+        data-hha="false"
+        data-gulliver="false"
+        data-selection="false"
+        data-nook-link="false"
+        data-luna="false"
+        data-miles="false"
+        data-cj="false"
+        data-flick="false"
+        data-cyrus="false"
+        data-birthday="false"
+        data-trawler="false"
+        data-redd="false"
+        data-pave="false"
+        data-promotion="false"
+        data-seasonal="false"
+        data-crafting="false"
+        data-cranny="false"
+        data-recycle="false"
 
-        id="js-category-filter">
+        id="js-main">
 
-        <ul class="item-list" id="xjs-item-list" data-view="group" data-category="housewares">
+        <ul class="item-list" id="js-item-list" data-view="group">
           @@include('./pages/lists.html')
         </ul>
       </div>
-      <!-- @@include('./includes/event-nav.html') -->
     </main>
-
-    <!-- @@include('./includes/island-map.html') -->
-    @@include('./includes/scripts.html')
+    <!-- @@include('./includes/scripts.html') -->
+    <script src="src/js/jquery.js"></script>
+<script src="src/js/events.js"></script>
 
   </div>
-  <a href="#page-top" class="page-top"></a>
+  <a href="#page-top" class="page-top"><span class="material-icons">expand_less</span></a>
 </body>
 </html>

@@ -1,4 +1,4 @@
-diy.materials = [
+itemData.materials = [
   {
     "name": {
       "en": "acorn",

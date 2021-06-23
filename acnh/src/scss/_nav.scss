@@ -1,47 +1,44 @@
-.horizontal-scroll {
-  overflow-x: auto;
+.sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background: #fff;
 }
 
 .nav {
+  display: flex;
+  font-size: smaller;
+
   a {
     text-decoration: none;
     display: inline-block;
   }
 }
-.nav,
-.menu-group {
-  display: flex;
-}
 
 .main-nav {
-  font-size: smaller;
   background: #eeca2e;
-  padding: 5px 10px;
+  padding: 10px 5px 5px;
   display: flex;
-  justify-content: space-between;
 
   img {
     width: 30px;
   }
 
-  .menu {
-    $size: 60px;
+  a {
+    $size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: $color-cream;
     min-width: $size;
     min-height: $size;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 -5px;
-
-    a {
-      padding: 3px;
-    }
   }
-
 }
-.is-active,
+
+.is-selected,
 a:hover {
   .active-state,
   .menu-text {
@@ -60,107 +57,77 @@ a:hover {
   display: none;
   background: $color-orange;
   color: #fff;
-  padding: 2px 4px 0;
+  padding: 0 4px;
   border-radius: 10px;
   position: absolute;
   z-index: 10;
-  margin-top: -20px;
+  margin-top: -42px;
   pointer-events: none;
 }
 
-
-.view {
-  position: relative;
-
-  &::after {
-    // position: absolute;
-    content: '';
-    display: block;
-    height: 5px;
-    bottom: 0;
-    margin: auto;
-    left: 3px;
-    right: 3px;
-    border-radius: 10px;
-  }
-  &.is-active,
-  &:hover {
-    &::after {
-      background: $color-orange;
-    }
-  }
-}
-
-.npc-nav {
+.source-nav {
   background: #9a8d7d;
-  padding: 5px;
-  font-size: smaller;
-
-  a {
-  }
+  padding: 5px 5px 2px;
 
   img {
-    height: 40px;
+    max-height: 28px;
+    vertical-align: top;
   }
-
 
   .menu-text {
     background: #71604b;
-    margin-right: -100px;
     margin-left: -5px;
     margin-top: -18px;
+    margin-right: -100px;
     top: 0;
   }
 
-  .not,
-  .and {
-    position: absolute;
-    bottom: 0;
-
-    .menu-text {
-      margin-top: 0;
-      margin-left: 0;
-    }
-  }
-
-  .not {
-    left: 0;
-  }
-  .and {
-    right: 0;
-
-    .material-icons {
-      font-size: 25px;
-    }
-  }
-
-  .menu {
-    margin: 0 2px;
+  a {
+    $size: 30px;
+    min-width: $size;
+    min-height: $size;
+    margin: 0 1px;
     border-radius: 5px;
     background: rgba(225, 225, 225, .5);
     position: relative;
-    min-width: 40px;
     text-align: center;
-    // padding-bottom: 20px;
-
-    &:hover .only .menu-text {
-      display: block;
-    }
-  }
-}
-.options {
-  font-size: smaller;
-
-  img {
-    height: 20px;
-    vertical-align: middle;
   }
 }
 
-.button-switch {
-  display: inline-block;
-  margin-right: 10px;
-  border-radius: 20px;
-  background: #ccc;
-  padding: 3px;
-}
+// .options {
+//   font-size: smaller;
+
+//   img {
+//     height: 20px;
+//     vertical-align: middle;
+//   }
+// }
+
+// .button-switch {
+//   display: inline-block;
+//   margin-right: 10px;
+//   border-radius: 20px;
+//   background: #ccc;
+//   padding: 3px;
+// }
+// .view {
+//   position: relative;
+
+//   &::after {
+//     // position: absolute;
+//     content: '';
+//     display: block;
+//     height: 5px;
+//     bottom: 0;
+//     margin: auto;
+//     left: 3px;
+//     right: 3px;
+//     border-radius: 10px;
+//   }
+//   &.is-active,
+//   &:hover {
+//     &::after {
+//       background: $color-orange;
+//     }
+//   }
+// }
