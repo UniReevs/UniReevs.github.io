@@ -163,7 +163,7 @@
 
 .item-data {
 
-  &[data-catalog='Not for sale'] + .item {
+  &[data-buy='-1'] + .item {
     background: #ded6bc;
   }
 
